@@ -1,0 +1,3 @@
+# Wstęp
+
+Większość treści dostępnych na tej stronie skierowanych jest do szerokiego grona odbiorców - zarówno do uczniów, studentów, jak i każdej osoby pragnącej poszerzyć swoją wiedzę w określonym obszarze. Ponadto, materiały te stanowią znakomite źródło informacji dla nauczycieli poszukujących inspiracji do lekcji. Niektóre zagadnienia i treści są jednak dedykowane specjalnie dla nauczycieli i wszystkich osób zainteresowanych dydaktyką informatyki oraz nowoczesnymi metodami nauczania tego przedmiotu. Właśnie takie tematy i materiały zgromadziliśmy w tym dziale, aby sprostać oczekiwaniom profesjonalistów z dziedziny edukacji, dając im dostęp do narzędzi i informacji niezbędnych do efektywnego kształcenia przyszłych informatyków.

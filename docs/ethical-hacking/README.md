@@ -1,0 +1,3 @@
+# Etyczne hakowanie
+
+Współcześnie wiele naszych danych znajduje się na komputerach: zdjęcia, teksty, gry, programy, itp. Nasze informacje udostępniamy w sieci internetowej, chociaż nie zawsze robimy to świadomie. Tym ważniejsze jest by każdy wiedział, jakie zagrożenia czekają na nas w cyfrowym świecie i jak się przed nimi chronić. Etyczne hakowanie to legalna praktyka testowania systemów informatycznych, która ma na celu wykrycie luk bezpieczeństwa. Informacje zawarte w tej sekcji dotyczą szeroko pojętego hakowania: łamania haseł, włamywania się na konta, wykradania danych i innych działań. Przedstawione są nie po to, by nauczyć stosowania takich praktyk, ale by wiedzieć, do czego zdolni są uzdolnieni hakerzy i jak się przed takimi atakami bronić. 

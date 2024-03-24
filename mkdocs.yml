@@ -1,0 +1,61 @@
+site_name: CS-HTIEW
+theme:
+  name: material
+  language: pl
+  features:
+    - navigation.sections
+    - navigation.tracking
+    - navigation.top
+extra:
+  alternate:
+    - name: Polski
+      link: /
+      lang: pl
+    - name: English
+      link: /en/
+      lang: en
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - assets/js/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+nav:
+  - 'Informatyka: Trudne Tematy w Najprostszy Sposób': 'index.md'
+  - 'Kontakt': 'contact.md'
+  - 'Tematy':
+    - 'Wstęp': 'topics/README.md'
+    - 'Wprowadzenie do algorytmów': 
+      - 'Wstęp': 'topics/algorithms-introduction/README.md'
+      - 'Lekcja 1': 'topics/algorithms-introduction/lesson-1.md'
+      - 'Lekcja 2': 'topics/algorithms-introduction/lesson-2.md'
+      - 'Lekcja 3': 'topics/algorithms-introduction/lesson-3.md'
+      - 'Lekcja 4': 'topics/algorithms-introduction/lesson-4.md'
+    - 'Wprowadzenie do zmiennych': 
+      - 'Wstęp': 'topics/variables-introduction/README.md'
+      - 'Lekcja 1': 'topics/variables-introduction/lesson-1.md'
+      - 'Lekcja 2': 'topics/variables-introduction/lesson-2.md'
+      - 'Lekcja 3': 'topics/variables-introduction/lesson-3.md'
+      - 'Lekcja 4': 'topics/variables-introduction/lesson-4.md'
+    - 'Wprowadzenie do funkcji': 
+      - 'Wstęp': 'topics/functions-introduction/README.md'
+      - 'Lekcja 1': 'topics/functions-introduction/lesson-1.md'
+      - 'Lekcja 2': 'topics/functions-introduction/lesson-2.md'
+      - 'Lekcja 3': 'topics/functions-introduction/lesson-3.md'
+      - 'Lekcja 4': 'topics/functions-introduction/lesson-4.md'
+      - 'Lekcja 5': 'topics/functions-introduction/lesson-5.md'
+    - 'Wprowadzenie do rekurencji': 
+      - 'Wstęp': 'topics/recursion-introduction/README.md'
+      - 'Lekcja 1': 'topics/recursion-introduction/lesson-1.md'
+      - 'Lekcja 2': 'topics/recursion-introduction/lesson-2.md'
+      - 'Lekcja 3': 'topics/recursion-introduction/lesson-3.md'
+      - 'Lekcja 4': 'topics/recursion-introduction/lesson-4.md'
+    - 'Tematy programistyczne': 
+      - 'Wstęp': 'topics/programming/README.md'
+      - 'Wprowadzenie do języka Python 3': 'topics/programming/python-introduction.md'
+      - 'Wprowadzenie do języka Ruby': 'topics/programming/ruby-introduction.md'
+      - 'Wprowadzenie do Ruby on Rails': 'topics/programming/ruby-on-rails-introduction.md'
