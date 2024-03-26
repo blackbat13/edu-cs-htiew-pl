@@ -4,10 +4,6 @@
 
 Ciekawe gry do ćwiczenia zagadnień związanych z grafiką:
 
-{% embed url="http://www.hexinvaders.com/" %}
-Hex Invaders
-{% endembed %}
+[Hex Invaders](http://www.hexinvaders.com/)
 
-{% embed url="https://pixact.ly/" %}
-Pixact.ly
-{% endembed %}
+[Pixact.ly](https://pixact.ly/)

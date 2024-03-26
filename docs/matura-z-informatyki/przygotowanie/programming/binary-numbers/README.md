@@ -1,10 +1,8 @@
 # Liczby binarne
 
-W pliku *liczby.txt* znajduje się $$1000$$ liczb binarnych zapisanych w osobnych wierszach. Wszystkie liczby mają od $$2$$ do $$16$$ znaków.
+W pliku *liczby.txt* znajduje się $1000$ liczb binarnych zapisanych w osobnych wierszach. Wszystkie liczby mają od $2$ do $16$ znaków.
 
-{% file src="../../../../.gitbook/assets/liczby.txt" %}
-liczby.txt
-{% endfile %}
+[:material-note-text: liczby.txt](../../../../assets/liczby.txt)
 
 Napisz program/programy rozwiązujące poniższe zadania.
 
@@ -14,11 +12,11 @@ Podaj, ile jest w pliku liczb **parzystych**.
 
 ## Zadanie 2
 
-Podaj, ile jest w pliku liczb **podzielnych** przez $$4$$.
+Podaj, ile jest w pliku liczb **podzielnych** przez $4$.
 
 ## Zadanie 3
 
-Podaj, ile jest w pliku liczb **podzielnych** przez $$10$$.
+Podaj, ile jest w pliku liczb **podzielnych** przez $10$.
 
 ## Zadanie 4
 
@@ -46,11 +44,11 @@ Policz i podaj, ile jest **różnych** liczb w pliku.
 
 ## Zadanie 10
 
-Policz i podaj, ile liczb z pliku ma resztę z dzielenia przez $$4$$ równą $$0$$, ile równą $$1$$, ile równą $$2$$, a ile równą $$3$$.
+Policz i podaj, ile liczb z pliku ma resztę z dzielenia przez $4$ równą $0$, ile równą $1$, ile równą $2$, a ile równą $3$.
 
 ## Zadanie 11
 
-Policz i podaj, ile jest liczb w pliku, które mają jedynki tylko na **nieparzystych** miejscach (licząc od lewej, czyli od cyfry najbardziej znaczącej). Np. liczby $$101$$, $$100$$, $$10001$$ mają jedynki tylko na nieparzystych miejscach. Podaj pierwszą i ostatnią taką liczbę.
+Policz i podaj, ile jest liczb w pliku, które mają jedynki tylko na **nieparzystych** miejscach (licząc od lewej, czyli od cyfry najbardziej znaczącej). Np. liczby $101$, $100$, $10001$ mają jedynki tylko na nieparzystych miejscach. Podaj pierwszą i ostatnią taką liczbę.
 
 ## Zadanie 12
 

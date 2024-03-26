@@ -1,15 +1,11 @@
 # Sortowanie przez scalanie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/merge-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/merge-sort.md" %}
-[merge-sort.md](../../../../algorithms/sorting/merge-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def merge(array: list, left: int, right: int, division: int):
     merged_length = right - left
     merged = []
@@ -46,4 +42,4 @@ merge_sort(array, 0, len(array))
 
 print(array)
 ```
-{% endcode %}
+

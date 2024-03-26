@@ -4,16 +4,12 @@ description: Największy Wspólny Dzielnik
 
 # NWD
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/gcd.md)
 
-{% content-ref url="../../../../algorithms/integers/gcd.md" %}
-[gcd.md](../../../../algorithms/integers/gcd.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```haskell
+```haskell linenums="1"
 gcdModulo a b
   | b == 0 = a
   | otherwise = gcdModulo b (a `mod` b)
@@ -21,7 +17,7 @@ gcdModulo a b
 main = do
     print $ gcdModulo 32 12
 ```
-{% endcode %}
+
 
 ## Opis
 

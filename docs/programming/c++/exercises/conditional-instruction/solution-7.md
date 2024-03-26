@@ -8,7 +8,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$rok$$ - liczba naturalna
+* $rok$ - liczba naturalna
 
 #### Wynik
 

@@ -1,15 +1,11 @@
 # Kolejka
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/structures/queue.md)
 
-{% content-ref url="../../../../algorithms/structures/queue.md" %}
-[queue.md](../../../../algorithms/structures/queue.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 class Queue:
   class Element:
     def __init__(self, value):
@@ -68,4 +64,4 @@ if __name__ == "__main__":
     print(queue.front())
     queue.pop()
 ```
-{% endcode %}
+

@@ -4,4 +4,4 @@ Programowanie funkcyjne to jeden z paradygmatów programowania. Poniższa prezen
 
 ## Prezentacja
 
-{% file src="../.gitbook/assets/Programowanie Funkcyjne - Wprowadzenie.pdf" %}
+[:fontawesome-solid-file-pdf: Programowanie Funkcyjne - Wprowadzenie](../assets/Programowanie Funkcyjne - Wprowadzenie.pdf)

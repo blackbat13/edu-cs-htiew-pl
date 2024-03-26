@@ -33,12 +33,8 @@ TODO
 
 ### Zadanie 5
 
-{% file src="../../../.gitbook/assets/zad5_2021.xlsx" %}
-Rozwiązanie - Excel
-{% endfile %}
+[:material-microsoft-excel: Rozwiązanie - Excel](../../../assets/zad5_2021.xlsx)
 
 ### Zadanie 6
 
-{% file src="../../../.gitbook/assets/zad6_2021 (1).accdb" %}
-Rozwiązanie - Access
-{% endfile %}
+[:material-microsoft-access: Rozwiązanie - Access](../../../assets/zad6_2021 (1).accdb)

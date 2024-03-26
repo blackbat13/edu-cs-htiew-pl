@@ -1,40 +1,33 @@
 # Wyszukiwanie binarne
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/binary-search.md)
 
-{% content-ref url="../../../../algorithms/searching/binary-search.md" %}
-[binary-search.md](../../../../algorithms/searching/binary-search.md)
-{% endcontent-ref %}
 
 ## Wersja iteracyjna
 
 ### Wyszukiwanie
 
-![Wyszukiwanie binarne - wersja iteracyjna](../../../../.gitbook/assets/binary_search_iterative.png)
+![Wyszukiwanie binarne - wersja iteracyjna](../../../../assets/binary_search_iterative.png)
 
 ### Kod główny
 
-![](../../../../.gitbook/assets/binary_search_iterative_main.png)
+![](../../../../assets/binary_search_iterative_main.png)
 
 ### Link do kodu
 
-{% embed url="https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pl#judq96" %}
-Wyszukiwanie binarne - wersja iteracyjna
-{% endembed %}
+[Wyszukiwanie binarne - wersja iteracyjna](https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pl#judq96)
 
 ## Wersja rekurencyjna
 
 ### Wyszukiwanie
 
-![Wyszukiwanie binarne - wersja rekurencyjna](../../../../.gitbook/assets/binary_search_recursive.png)
+![Wyszukiwanie binarne - wersja rekurencyjna](../../../../assets/binary_search_recursive.png)
 
 ### Kod główny
 
-![](../../../../.gitbook/assets/binary_search_recursive_main.png)
+![](../../../../assets/binary_search_recursive_main.png)
 
 ### Link do implementacji
 
-{% embed url="https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pl#m3xt9c" %}
-Wyszukiwanie binarne - wersja rekurencyjna
-{% endembed %}
+[Wyszukiwanie binarne - wersja rekurencyjna](https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pl#m3xt9c)
 

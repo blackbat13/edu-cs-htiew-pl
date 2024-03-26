@@ -1,7 +1,6 @@
 # Python - rozwiązanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 cases_count = int(input())
 
 for case_id in range(1, cases_count + 1):
@@ -20,4 +19,3 @@ for case_id in range(1, cases_count + 1):
         if dif <= 1:
             print(current_number)
 ```
-{% endcode %}

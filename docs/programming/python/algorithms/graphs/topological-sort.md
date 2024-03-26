@@ -1,15 +1,11 @@
 # Sortowanie topologiczne
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/topological-sort.md)
 
-{% content-ref url="../../../../algorithms/graphs/topological-sort.md" %}
-[topological-sort.md](../../../../algorithms/graphs/topological-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def topological_sort(graph: list) -> list:
   in_ranks = [0] * len(graph)
   removed = [False] * len(graph)
@@ -55,4 +51,4 @@ if len(result) < len(graph):
 else:
   print(" ".join(map(str, result)))
 ```
-{% endcode %}
+

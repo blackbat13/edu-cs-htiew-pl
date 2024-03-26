@@ -8,6 +8,5 @@ Protokół SSH jest szeroko wykorzystywany w administracji systemami, programowa
 
 Oprócz bezpiecznej powłoki zdalnej, SSH oferuje również inne funkcje, takie jak **SFTP** (*SSH File Transfer Protocol*) do bezpiecznego przesyłania plików oraz **tunelowanie SSH**, które pozwala na przekierowywanie ruchu sieciowego.
 
-{% hint style="info" %}
-Podczas korzystania z SSH ważne jest pamiętanie o bezpiecznym zarządzaniu **kluczami SSH**. Klucze te są używane do uwierzytelniania na serwerze SSH i powinny być odpowiednio chronione przed dostępem osób niepowołanych.
-{% endhint %}
+!!! info
+	 Podczas korzystania z SSH ważne jest pamiętanie o bezpiecznym zarządzaniu **kluczami SSH**. Klucze te są używane do uwierzytelniania na serwerze SSH i powinny być odpowiednio chronione przed dostępem osób niepowołanych.

@@ -1,10 +1,7 @@
 # Rozkład na czynniki pierwsze
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/prime-factors.md)
 
-{% content-ref url="../../../../algorithms/integers/prime-factors.md" %}
-[prime-factors.md](../../../../algorithms/integers/prime-factors.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -37,9 +34,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/VAB2Jl" %}
-Rozkład na czynniki pierwsze
-{% endembed %}
+[Rozkład na czynniki pierwsze](https://ideone.com/VAB2Jl)
 
 ### Opis implementacji
 

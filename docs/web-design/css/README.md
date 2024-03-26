@@ -20,9 +20,7 @@ Idealne miejsce do przećwiczenia korzystania z selektorów CSS. Na stronie znaj
 
 - Dostępne jedynie w języku angielskim.
 
-{% embed url="https://flukeout.github.io/" %}
-CSS Diner
-{% endembed %}
+[CSS Diner](https://flukeout.github.io/)
 
 ### Flexbox Froggy
 
@@ -41,9 +39,7 @@ Gdy chcemy uporządkować elementy w kontenerze na stronie za pomocą reguł CSS
 
 - Nie stwierdzono.
 
-{% embed url="https://flexboxfroggy.com/#pl" %}
-Flexbox Froggy
-{% endembed %}
+[Flexbox Froggy](https://flexboxfroggy.com/#pl)
 
 ### Flexbox Defense
 
@@ -62,9 +58,7 @@ Podobnie jak Flexbox Froggy, Flexbox Defense także pozwala poznać i przećwicz
 
 - Dostępne jedynie w języku angielskim.
 
-{% embed url="http://www.flexboxdefense.com/" %}
-Flexbox Defense
-{% endembed %}
+[Flexbox Defense](http://www.flexboxdefense.com/)
 
 ### Flex Box Adventure
 
@@ -82,6 +76,4 @@ Kolejna gra wprowadzająca nas do reguł CSS Flexbox. Tym razem naszym zadaniem 
 - Zadania trzeba odblokowywać w ustalonej kolejności.
 - Może być lekko przytłaczające dla początkowych użytkowników.
 
-{% embed url="https://codingfantasy.com/games/flexboxadventure" %}
-Flex Box Adventure
-{% endembed %}
+[Flex Box Adventure](https://codingfantasy.com/games/flexboxadventure)

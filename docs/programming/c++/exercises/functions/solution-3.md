@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją. Obliczenie i wypisywanie dziel
 
 #### Dane
 
-* $$n$$ - liczba naturalna
+* $n$ - liczba naturalna
 
 #### Wynik
 
-* Wszystkie dzielniki liczby $$n$$ 
+* Wszystkie dzielniki liczby $n$ 
 
 ## Rozwiązanie
 

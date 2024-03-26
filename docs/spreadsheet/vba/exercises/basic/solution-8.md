@@ -8,7 +8,7 @@ Napisz funkcję `ZWielkiej` zgodną z poniższą specyfikacją.
 
 #### Dane
 
-* $$wyraz$$ - ciąg znaków
+* $wyraz$ - ciąg znaków
 
 #### Wynik
 

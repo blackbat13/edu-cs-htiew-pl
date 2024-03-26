@@ -8,7 +8,7 @@ Napisz program zgodny z poniższą specyfikacją. Wypisanie komunikatu powinno z
 
 #### Dane
 
-* $$imie$$ - ciąg znaków, małych i wielkich liter alfabetu angielskiego
+* $imie$ - ciąg znaków, małych i wielkich liter alfabetu angielskiego
 
 #### Wynik
 
@@ -22,11 +22,11 @@ Napisz program zgodny z poniższą specyfikacją. Obliczanie sumy powinno być z
 
 #### Dane
 
-* $$a, b$$ - dwie liczby całkowite
+* $a, b$ - dwie liczby całkowite
 
 #### Wynik
 
-* Suma liczb $$a$$ i $$b$$ 
+* Suma liczb $a$ i $b$ 
 
 ## Zadanie 3
 
@@ -36,11 +36,11 @@ Napisz program zgodny z poniższą specyfikacją. Obliczanie dzielników powinno
 
 #### Dane
 
-* $$n$$ - liczba naturalna
+* $n$ - liczba naturalna
 
 #### Wynik
 
-* Wszystkie dzielniki liczby $$n$$ 
+* Wszystkie dzielniki liczby $n$ 
 
 ### Przykład
 
@@ -50,4 +50,4 @@ Napisz program zgodny z poniższą specyfikacją. Obliczanie dzielników powinno
 n := 10
 ```
 
-**Wynik**: $$1, 2, 5, 10$$ 
+**Wynik**: $1, 2, 5, 10$ 

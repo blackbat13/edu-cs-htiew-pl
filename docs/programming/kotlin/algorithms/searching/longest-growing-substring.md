@@ -1,10 +1,7 @@
 # Najdłuższy spójny podciąg rosnący
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/longest-growing-substring.md)
 
-{% content-ref url="../../../../algorithms/searching/longest-growing-substring.md" %}
-[longest-growing-substring.md](../../../../algorithms/searching/longest-growing-substring.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -38,9 +35,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/iKkowC" %}
-Długość najdłuższego spójnego podciągu rosnącego
-{% endembed %}
+[Długość najdłuższego spójnego podciągu rosnącego](https://ideone.com/iKkowC)
 
 ### Opis implementacji
 

@@ -5,10 +5,10 @@
 Z czasem, gdy zaczynamy tworzyć coraz bardziej zaawansowane projekty programistyczne, zaczyna się okazywać, że podstawowe typy przestają wystarczać.
 Nasz kod staje się coraz mniej czytelny i coraz trudniej się w nim zorientować, ponieważ mamy grupy zmiennych, które dotyczą tak naprawdę jednego "obiektu".
 Dla przykładu wyobraźmy sobie, że piszemy program, który wykonuje obliczenia geometryczne i pracuje na punktach.
-Każdy punkt jest reprezentowany przez dwie współrzędne: $$x$$ i $$y$$.
+Każdy punkt jest reprezentowany przez dwie współrzędne: $x$ i $y$.
 Potrzebujemy więc dwóch zmiennych do reprezentacji każdego punktu.
 To już samo w sobie może okazać się problematyczne, w szczególności, gdy będziemy potrzebowali tablicy takich punktów.
-Co wtedy zrobić? Stworzyć dwie tablice, jedną do współrzędnych $$x$$, drugą do współrzędnych $$y$$ i na nich pracować?
+Co wtedy zrobić? Stworzyć dwie tablice, jedną do współrzędnych $x$, drugą do współrzędnych $y$ i na nich pracować?
 Trzeba wtedy pamiętać o tym, że wartości z dwóch tablic są ze sobą powiązane, więc jak np. chcemy zmienić ich kolejność, to powinniśmy to zrobić w dwóch tablicach.
 
 W takiej sytuacji z pomocą przychodzą **struktury**.

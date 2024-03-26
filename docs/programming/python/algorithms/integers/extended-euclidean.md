@@ -1,15 +1,11 @@
 # Rozszerzony algorytm Euklidesa
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/extended-euclidean.md)
 
-{% content-ref url="../../../../algorithms/integers/extended-euclidean.md" %}
-[extended-euclidean.md](../../../../algorithms/integers/extended-euclidean.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def extended_gcd(a: int, b: int) -> tuple:
   old_x, x = 1, 0
   old_y, y = 0, 1
@@ -32,4 +28,4 @@ gcd, x, y = extended_gcd(a, b)
 
 print(f"{a} * {x} + {b} * {y} = {gcd}")
 ```
-{% endcode %}
+

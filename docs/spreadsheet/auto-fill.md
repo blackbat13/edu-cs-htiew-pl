@@ -8,25 +8,25 @@ Auto-wypełnianie w arkuszu kalkulacyjnym to funkcja, która automatycznie wype�
 
 Jeśli w dwóch pierwszych komórkach wpiszesz kolejno liczby 1 i 2, a następnie użyjesz auto-wypełniania, Excel utworzy serię kolejnych liczb (2, 3, 4, ...).
 
-![](../.gitbook/assets/spreadsheet/numbers.gif)
+![](../assets/spreadsheet/numbers.gif)
 
 ### Daty i dni tygodnia
 
 Możesz szybko utworzyć serię dat lub dni tygodnia. Na przykład, wpisując „Poniedziałek” i używając auto-wypełniania, otrzymasz kolejne dni tygodnia.
 
-![](../.gitbook/assets/spreadsheet/weekdays.gif)
+![](../assets/spreadsheet/weekdays.gif)
 
 ### Miesiące
 
 Podobnie, wpisując "Styczeń" i używając auto-wypełniania, Excel utworzy serię miesięcy.
 
-![](../.gitbook/assets/spreadsheet/months.gif)
+![](../assets/spreadsheet/months.gif)
 
 ### Wzory numeryczne
 
 Jeśli w dwóch pierwszych komórkach wpiszesz liczby tworzące sekwencję (np. 2, 4), auto-wypełnianie może kontynuować tę sekwencję (6, 8, 10, ...).
 
-![](../.gitbook/assets/spreadsheet/sequences.gif)
+![](../assets/spreadsheet/sequences.gif)
 
 ## Proste ćwiczenia
 

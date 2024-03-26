@@ -16,23 +16,19 @@ Stworzymy prostą grę, w której naszym graczem będzie świnia. Świnie, jak w
 
 Umieszczamy w katalogu **images**.
 
-{% file src="../../.gitbook/assets/hungry_pig_images.zip" %}
-Grafiki do gry Głodna Świnia
-{% endfile %}
+[:material-folder-zip: Grafiki do gry Głodna Świnia](../../assets/hungry_pig_images.zip)
 
 #### Dźwięki
 
 Umieszczamy w katalogu **sounds**.
 
-{% file src="../../.gitbook/assets/hungry_pig_sounds.zip" %}
-Dźwięki do gry Głodna Świnia
-{% endfile %}
+[:material-folder-zip: Dźwięki do gry Głodna Świnia](../../assets/hungry_pig_sounds.zip)
 
 <!-- #### Struktura projektu
 
 Po dodaniu potrzebnych materiałów, struktura projektu powinna wyglądać mniej więcej tak jak na grafice poniżej.
 
-![Struktura projektu](../../.gitbook/assets/hungry_pig_structure.png) -->
+![Struktura projektu](../../assets/hungry_pig_structure.png) -->
 
 ### Źródła
 
@@ -42,13 +38,11 @@ Po dodaniu potrzebnych materiałów, struktura projektu powinna wyglądać mniej
 
 ## Nasz cel
 
-{% embed url="https://blackbat13.github.io/HungryPigKaboomJS/" %}
-Głodna świnia
-{% endembed %}
+[Głodna świnia](https://blackbat13.github.io/HungryPigKaboomJS/)
 
 ## Tworzymy okno gry
 
-Zaczynamy od utworzenia okna gry i podstawowej konfiguracji projektu. Wymiary okna ustawimy na $$800\times800$$, ponieważ tak mamy przygotowaną grafikę tła (__bg.png__). Wszystko umieszczamy w pliku __index.html__. 
+Zaczynamy od utworzenia okna gry i podstawowej konfiguracji projektu. Wymiary okna ustawimy na $800\times800$, ponieważ tak mamy przygotowaną grafikę tła (__bg.png__). Wszystko umieszczamy w pliku __index.html__. 
 
 ```javascript
 <script type="module">
@@ -157,7 +151,7 @@ loadSound("pig", "sounds/pig.wav");
 
 ### Dodajemy aktora
 
-Na początku skorzystamy z grafiki __pig_down__. Na górze naszej głównej sceny, zaraz pod poleceniem dodającym tło, tworzymy naszego nowego aktora, którego zapiszemy w zmiennej  **pig**, za pomocą polecenia `add`. Naszą postać umieścimy na początku na środku ekranu, czyli pod współrzędnymi $$(400, 400)$$, które możemy pobrać za pomocą polecenia `center()`. Naszą świnię będziemy ustawiać względem jej środka, dlatego też skorzystamy z polecenia `origin`, jako parametr podając wartość **"center"**. Ponieważ będziemy chcieli wykrywać kolizję świni z innymi elementami gry, dopiszemy do niej także polecenie `area()`. Dobrą praktyką jest dodawanie pomocniczych nazw do naszych aktorów, tzw. tagów, tak więc do naszej świni dodamy tag **"pig"**.
+Na początku skorzystamy z grafiki __pig_down__. Na górze naszej głównej sceny, zaraz pod poleceniem dodającym tło, tworzymy naszego nowego aktora, którego zapiszemy w zmiennej  **pig**, za pomocą polecenia `add`. Naszą postać umieścimy na początku na środku ekranu, czyli pod współrzędnymi $(400, 400)$, które możemy pobrać za pomocą polecenia `center()`. Naszą świnię będziemy ustawiać względem jej środka, dlatego też skorzystamy z polecenia `origin`, jako parametr podając wartość **"center"**. Ponieważ będziemy chcieli wykrywać kolizję świni z innymi elementami gry, dopiszemy do niej także polecenie `area()`. Dobrą praktyką jest dodawanie pomocniczych nazw do naszych aktorów, tzw. tagów, tak więc do naszej świni dodamy tag **"pig"**.
 
 ```javascript
 const pig = add([
@@ -178,7 +172,7 @@ Naszą świnią będziemy sterować za pomocą klawiatury. Strzałkami będziemy
 
 Ogólna prędkość posłuży nam do wyznaczania, jak szybko świnia ma się poruszać w wybranym kierunku. Tę wartość będziemy także zwiększać po każdym zjedzonym warzywie.
 
-Dopisujemy więc nowe parametry do naszej świni. Aby na początku świnia stała w miejscu, prędkość poziomą i pionową ustawimy na $$0$$. Natomiast prędkość ogólną ustawimy na $$3$$, co wydaje się być dobrym poziomem startowym dla naszej gry. Oczywiście zachęcam do eksperymentowania!
+Dopisujemy więc nowe parametry do naszej świni. Aby na początku świnia stała w miejscu, prędkość poziomą i pionową ustawimy na $0$. Natomiast prędkość ogólną ustawimy na $3$, co wydaje się być dobrym poziomem startowym dla naszej gry. Oczywiście zachęcam do eksperymentowania!
 
 Parametry dopiszemy zaraz pod poleceniem tworzącym naszą świnię.
 
@@ -198,7 +192,7 @@ onUpdate("pig", () => {
 });
 ```
 
-Oczywiście w tym momencie świnia nie będzie się jeszcze poruszać, ponieważ ustawiliśmy jej prędkości na $$0$$. Warto dla testów tymczasowo zmienić prędkości **vx** i **vy**, a następnie uruchomić grę by sprawdzić, czy wszystko działa poprawnie.
+Oczywiście w tym momencie świnia nie będzie się jeszcze poruszać, ponieważ ustawiliśmy jej prędkości na $0$. Warto dla testów tymczasowo zmienić prędkości **vx** i **vy**, a następnie uruchomić grę by sprawdzić, czy wszystko działa poprawnie.
 
 Teraz czas wreszcie dodać obsługę sterowania. W tym celu będziemy potrzebowali nowych funkcji, które pozwolą nam reagować na zdarzenia wciśnięcia klawisza na klawiaturze: `onKeyPress`. Dopiszemy je na dole naszej sceny, pod funkcją `onUpdate`. Wewnątrz funkcji będziemy reagować na kliknięcia przycisków na klawiaturze. W zależności od klikniętego przycisku, będziemy wykonywać inne operacje. Jeżeli kliknięta zostanie np. strzałka w lewo, to ustawimy prędkość poziomą **vx** świni na **-v**, wyzerujemy prędkość pionową i zmienimy grafikę na __pig_left__.
 
@@ -327,7 +321,7 @@ loadSprite("beet", "images/beetroot.png");
 
 ### Dodajemy aktora
 
-Naszego aktora zapiszemy w zmiennej `beet`. Utworzymy go w scenie **game** i początkowo umieścimy w dowolnym miejscu na ekranie, np. pod współrzędnymi $$(200, 200)$$. Podobnie jak przy świni, do buraka dopiszemy także polecenia `origin` oraz `area`, a także tag **"beet"**.
+Naszego aktora zapiszemy w zmiennej `beet`. Utworzymy go w scenie **game** i początkowo umieścimy w dowolnym miejscu na ekranie, np. pod współrzędnymi $(200, 200)$. Podobnie jak przy świni, do buraka dopiszemy także polecenia `origin` oraz `area`, a także tag **"beet"**.
 
 ```javascript
 const beet = add([
@@ -352,14 +346,14 @@ pig.onCollide("beet", () => {
 
 Wszystko będziemy zapisywać w naszej głównej scenie **game**, zaraz pod poleceniem dodającym buraka.
 
-Po wykryciu kolizji zacznijmy od przemieszczenia buraka w losowe miejsce. Osobno wylosujemy nowe wartości dla współrzędnych $$x$$ oraz $$y$$. Aby jednak burak nie pojawił się na brzegu ekranu, warto zadbać o odpowiedni margines, np $$50$$ pikseli. W celu wylosowania wartości skorzystamy z funkcji **rand**, do której, jako argumenty, przekazujemy przedział, z jakiego chcemy wylosować wartość.
+Po wykryciu kolizji zacznijmy od przemieszczenia buraka w losowe miejsce. Osobno wylosujemy nowe wartości dla współrzędnych $x$ oraz $y$. Aby jednak burak nie pojawił się na brzegu ekranu, warto zadbać o odpowiedni margines, np $50$ pikseli. W celu wylosowania wartości skorzystamy z funkcji **rand**, do której, jako argumenty, przekazujemy przedział, z jakiego chcemy wylosować wartość.
 
 ```javascript
 beet.pos.x = rand(50, width() - 50);
 beet.pos.y = rand(50, height() - 50);
 ```
 
-Następnie zwiększamy prędkość świni. W tym celu modyfikujemy parametr **v**, dodając do niego jakąś niewielką liczbę, np. $$0.8$$. Warto poeksperymentować z różnymi wartościami by dobrać odpowiedni dla siebie poziom trudności.
+Następnie zwiększamy prędkość świni. W tym celu modyfikujemy parametr **v**, dodając do niego jakąś niewielką liczbę, np. $0.8$. Warto poeksperymentować z różnymi wartościami by dobrać odpowiedni dla siebie poziom trudności.
 
 ```javascript
 pig.v += 0.8;
@@ -545,7 +539,7 @@ go("game");
 
 ## Punkty
 
-Cóż to za gra bez punktów! Dodanie jednak punktów do naszej gry to żaden problem. Punkty będziemy dostawać za każdego zjedzonego buraka. Na początku dopisujemy punkty w postaci nowej zmiennej **points**. Początkowo punkty ustawiamy na $$0$$. Nową zmienną utworzymy w scenie **game**, zaraz nad funkcją wykrywającą kolizję świni i buraka.
+Cóż to za gra bez punktów! Dodanie jednak punktów do naszej gry to żaden problem. Punkty będziemy dostawać za każdego zjedzonego buraka. Na początku dopisujemy punkty w postaci nowej zmiennej **points**. Początkowo punkty ustawiamy na $0$. Nową zmienną utworzymy w scenie **game**, zaraz nad funkcją wykrywającą kolizję świni i buraka.
 
 ```javascript
 let points = 0;
@@ -988,6 +982,4 @@ pgzrun.go()
 
 Pełna implementacja dostępna jest poniżej.
 
-{% embed url="https://github.com/blackbat13/hungrypigkaboomjs" %}
-Głodna świnia
-{% endembed %}
+[Głodna świnia](https://github.com/blackbat13/hungrypigkaboomjs)

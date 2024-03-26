@@ -1,10 +1,7 @@
 # Całkowanie numeryczne
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/numerical-methods/numerical-integration.md)
 
-{% content-ref url="../../../../algorithms/numerical-methods/numerical-integration.md" %}
-[numerical-integration.md](../../../../algorithms/numerical-methods/numerical-integration.md)
-{% endcontent-ref %}
 
 ## Metoda prostokątów
 
@@ -41,9 +38,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/MnVUpY" %}
-Całkowanie numeryczne - metoda prostokątów
-{% endembed %}
+[Całkowanie numeryczne - metoda prostokątów](https://ideone.com/MnVUpY)
 
 ## Metoda trapezów
 
@@ -80,6 +75,4 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/4lw4tL" %}
-Całkowanie numeryczne - metoda trapezów
-{% endembed %}
+[Całkowanie numeryczne - metoda trapezów](https://ideone.com/4lw4tL)

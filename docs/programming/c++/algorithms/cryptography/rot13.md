@@ -1,17 +1,13 @@
 # Szyfr ROT13
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/cryptography/symmetric/rot13.md)
 
-{% content-ref url="../../../../algorithms/cryptography/symmetric/rot13.md" %}
-[rot13.md](../../../../algorithms/cryptography/symmetric/rot13.md)
-{% endcontent-ref %}
 
 ## Szyfrowanie
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -42,14 +38,13 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ## Deszyfrowanie
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -80,4 +75,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

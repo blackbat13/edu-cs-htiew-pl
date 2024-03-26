@@ -20,7 +20,7 @@ Każda z instrukcji sprawia, że robot przemieszcza się o jedno pole we wskazan
 
 ## Ćwiczenie 1
 
-![](../../.gitbook/assets/Mazes_alg1.png)
+![](../../assets/Mazes_alg1.png)
 
 ### Przykładowe rozwiązanie - algorytm liniowy
 
@@ -40,27 +40,27 @@ Każda z instrukcji sprawia, że robot przemieszcza się o jedno pole we wskazan
 
 ## Ćwiczenie 2
 
-![](../../.gitbook/assets/Mazes_alg2.png)
+![](../../assets/Mazes_alg2.png)
 
 ## Ćwiczenie 3
 
 **Nowa zasada**: **szare** bloki oznaczają ściany. Przez ściany nie można przechodzić, ani też stawać na nich, trzeba więc je omijać.
 
-![](../../.gitbook/assets/Mazes_alg3.png)
+![](../../assets/Mazes_alg3.png)
 
 ## Ćwiczenie 4
 
-![](../../.gitbook/assets/Mazes_alg4.png)
+![](../../assets/Mazes_alg4.png)
 
 ## Ćwiczenie 5
 
-![](../../.gitbook/assets/Mazes_alg5.png)
+![](../../assets/Mazes_alg5.png)
 
 ## Ćwiczenie 6
 
 **Nowa zasada**: **żółte** pola oznaczają skarb. Przed dotarciem na metę należy zebrać **wszystkie skarby**, tzn. odwiedzić każde żółte pole.
 
-![](../../.gitbook/assets/Mazes_alg6.png)
+![](../../assets/Mazes_alg6.png)
 
 ## Ćwiczenie 7
 
@@ -76,4 +76,4 @@ Nowy zestaw instrukcji:
 - Obróć się w lewo.
 - Obróć się w prawo.
 
-![](../../.gitbook/assets/Mazes_alg5.png)
+![](../../assets/Mazes_alg5.png)

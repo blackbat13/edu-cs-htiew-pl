@@ -1,15 +1,11 @@
 # Wydawanie reszty
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/atm-problem/README.md)
 
-{% content-ref url="../../../../algorithms/integers/atm-problem/README.md" %}
-[README.md](../../../../algorithms/integers/atm-problem/README.md)
-{% endcontent-ref %}
 
 ## Podejście zachłanne
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def change_greedy(amount: int, coins: list) -> int:
     result = i = 0
     
@@ -29,12 +25,11 @@ result = change_greedy(amount, coins)
 print("Greedy algorithm")
 print(f"Amount {amount} can be given out using {result} coins")
 ```
-{% endcode %}
+
 
 ## Podejście dynamiczne
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 from math import inf
 
 
@@ -69,7 +64,7 @@ amount = 14
 print("Dynamic algorithm")
 change_dynamic(amount, coins)
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 

@@ -15,17 +15,16 @@ Funkcja per(A, pocz, kon):
         7. Zamień(A[pocz], A[i])
 ```
 
-{% hint style="info" %}
-**Zamień** zamienia dwie zmienne wartościami.
-{% endhint %}
+!!! info
+	 **Zamień** zamienia dwie zmienne wartościami.
 
 ## Zadanie 1
 
 Podaj wynik działania algorytmu dla danych:
 
-- $$A[1..3] = [1, 2, 3]$$
-- $$pocz = 1$$
-- $$kon = 3$$
+- $A[1..3] = [1, 2, 3]$
+- $pocz = 1$
+- $kon = 3$
 
 ## Zadanie 2
 

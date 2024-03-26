@@ -1,15 +1,11 @@
 # Krzywa Peano
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/fractals/peano-curve.md)
 
-{% content-ref url="../../../../algorithms/fractals/peano-curve.md" %}
-[peano-curve.md](../../../../algorithms/fractals/peano-curve.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 import turtle
 
 
@@ -36,8 +32,8 @@ peano_curve(4, 90, 20)
 
 turtle.done()
 ```
-{% endcode %}
+
 
 ### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/Peano-Curve#main.py" %}
+[https://replit.com/@damiankurpiewski/Peano-Curve#main.py](https://replit.com/@damiankurpiewski/Peano-Curve#main.py)

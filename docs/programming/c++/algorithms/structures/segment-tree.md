@@ -1,15 +1,11 @@
 # Drzewo przedziałowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/structures/segment-trees.md)
 
-{% content-ref url="../../../../algorithms/structures/segment-trees.md" %}
-[segment-trees.md](../../../../algorithms/structures/segment-trees.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <cstdio>
 #include <iostream>
 using namespace std;
@@ -145,7 +141,7 @@ int main() {
   return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
@@ -161,9 +157,9 @@ Metoda **change** wykonuje operację zmiany wartości na danym przedziale, korzy
 
 W funkcji **main** tworzona jest instancja klasy **SumSegmentTree** na podstawie przykładowej tablicy.
 Następnie wywoływana jest metoda **print** dla wyświetlenia struktury drzewa przed wykonaniem operacji.
-Wywoływana jest operacja **getValue** na przedziale $$[3, 5]$$ i wynik zostaje wyświetlony.
-Następnie wywoływana jest operacja **change** na przedziale $$[3, 5]$$ z wartością $$2$$ po czym wyświetlena jest zaktualizowana struktura drzewa.
-Na końcu obliczana jest aktualna suma na przedziale $$[3, 5]$$.
+Wywoływana jest operacja **getValue** na przedziale $[3, 5]$ i wynik zostaje wyświetlony.
+Następnie wywoływana jest operacja **change** na przedziale $[3, 5]$ z wartością $2$ po czym wyświetlena jest zaktualizowana struktura drzewa.
+Na końcu obliczana jest aktualna suma na przedziale $[3, 5]$.
 
 Wynik działania programu:
 

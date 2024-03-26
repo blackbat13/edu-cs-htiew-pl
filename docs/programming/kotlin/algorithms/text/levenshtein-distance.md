@@ -1,10 +1,7 @@
 # Odległość Levenshteina (edycyjna)
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/levenshtein-distance.md)
 
-{% content-ref url="../../../../algorithms/text/levenshtein-distance.md" %}
-[levenshtein-distance.md](../../../../algorithms/text/levenshtein-distance.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -35,9 +32,7 @@ print(f"Odległość Levenshteina pomiędzy wyrazami {a} i {b} wynosi {distance}
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/6oJ6Ra" %}
-Odległość Levenshteina
-{% endembed %}
+[Odległość Levenshteina](https://ideone.com/6oJ6Ra)
 
 ### Opis implementacji
 

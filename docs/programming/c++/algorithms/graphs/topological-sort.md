@@ -1,15 +1,11 @@
 # Sortowanie topologiczne
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/topological-sort.md)
 
-{% content-ref url="../../../../algorithms/graphs/topological-sort.md" %}
-[topological-sort.md](../../../../algorithms/graphs/topological-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <vector>
 
@@ -75,10 +71,10 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
-![Przykładowy graf wykorzystany w implementacji](../../../../.gitbook/assets/example_graph_topological_sort.png)
+![Przykładowy graf wykorzystany w implementacji](../../../../assets/example_graph_topological_sort.png)
 
-{% embed url="http://graphonline.ru/en/?graph=VzWmgsofErPDNlfp" %}
+[http://graphonline.ru/en/?graph=VzWmgsofErPDNlfp](http://graphonline.ru/en/?graph=VzWmgsofErPDNlfp)

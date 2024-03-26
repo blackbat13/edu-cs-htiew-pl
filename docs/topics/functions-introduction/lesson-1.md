@@ -8,4 +8,4 @@
 
 [Prezentacja - ćwiczenie](../../assets/Ćwiczenie w grupach.pdf)
 
-[Ćwiczenie - opis](../../.gitbook/assets/Ćwiczenie w grupach - opis.pdf)
+[Ćwiczenie - opis](../../assets/Ćwiczenie w grupach - opis.pdf)

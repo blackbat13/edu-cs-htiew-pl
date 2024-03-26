@@ -37,7 +37,7 @@ Może także zdarzyć się tak, że nie wiemy z góry ile razy będziemy musieli
 
 Czasem nie wystarczy nam powtórzyć pewną operację wielokrotnie. Czasem potrzebujemy jednocześnie coś **zliczać** np. powtórzenia pętli właśnie. Wówczas przyda nam się **licznik pętli**.
 
-Używając pętli z licznikiem powinniśmy podać **zakres**, z którego licznik będzie przyjmował kolejne wartości. To trochę tak, jakbyśmy sami coś liczyli, np. od $$1$$ do $$5$$. Punktem startowym, czyli początkową wartością licznika będzie $$1$$, a ostatnią wartością, jaką osiągnie licznik, będzie $$5$$. W kolejnych **przebiegach** (**powtórzeniach**) **pętli** licznik będzie przyjmował kolejne wartości z zadanego zakresu, czyli dla przykładu będą to wartości: $$1,2,3,4,5$$.
+Używając pętli z licznikiem powinniśmy podać **zakres**, z którego licznik będzie przyjmował kolejne wartości. To trochę tak, jakbyśmy sami coś liczyli, np. od $1$ do $5$. Punktem startowym, czyli początkową wartością licznika będzie $1$, a ostatnią wartością, jaką osiągnie licznik, będzie $5$. W kolejnych **przebiegach** (**powtórzeniach**) **pętli** licznik będzie przyjmował kolejne wartości z zadanego zakresu, czyli dla przykładu będą to wartości: $1,2,3,4,5$.
 
 ### Przykład
 
@@ -75,11 +75,11 @@ Zwróć uwagę, że podobnie jak w przypadku pętli warunkowej, dla pętli itera
 
 ## Krok pętli
 
-Krok pętli określa, o ile zmienia się wartość licznika pętli w każdym jej przebiegu. Domyślnym krokiem pętli iteracyjnej jest $$1$$. Jeżeli korzystamy z wartości domyślnej, to zazwyczaj nie piszemy kroku pętli. Możemy go jednak z łatwością zmodyfikować, jak pokazują poniższe przykłady.
+Krok pętli określa, o ile zmienia się wartość licznika pętli w każdym jej przebiegu. Domyślnym krokiem pętli iteracyjnej jest $1$. Jeżeli korzystamy z wartości domyślnej, to zazwyczaj nie piszemy kroku pętli. Możemy go jednak z łatwością zmodyfikować, jak pokazują poniższe przykłady.
 
 ### Przykład - liczby parzyste
 
-Powiedzmy, że naszym zadaniem jest wypisać na tablicy kolejne liczby parzyste od $$2$$ do $$10$$ włącznie. Moglibyśmy przechodzić przez kolejne wartości z tego zakresu i, jeżeli liczba jest parzysta, wypisać ją na tablicy. Możemy też zmodyfikować krok pętli tak, by przechodzić **tylko** przez kolejne liczby parzyste.
+Powiedzmy, że naszym zadaniem jest wypisać na tablicy kolejne liczby parzyste od $2$ do $10$ włącznie. Moglibyśmy przechodzić przez kolejne wartości z tego zakresu i, jeżeli liczba jest parzysta, wypisać ją na tablicy. Możemy też zmodyfikować krok pętli tak, by przechodzić **tylko** przez kolejne liczby parzyste.
 
 ```
 1. Od i := 2 do 10, z krokiem 2, wykonuj:
@@ -98,7 +98,7 @@ Bez pętli:
 
 ### Przykład - odliczanie w dół
 
-Co w przypadku, gdy chcemy policzyć od $$5$$ do $$1$$? Tutaj także możemy skorzystać z pętli iteracyjnej z odpowiednim krokiem.
+Co w przypadku, gdy chcemy policzyć od $5$ do $1$? Tutaj także możemy skorzystać z pętli iteracyjnej z odpowiednim krokiem.
 
 ```
 1. Od i := 5 do 1, z krokiem -1, wykonuj:

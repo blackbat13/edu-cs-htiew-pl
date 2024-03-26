@@ -6,9 +6,9 @@ Reprezentacja liczb rzeczywistych w zapisie zmiennoprzecinkowym w systemie binar
 
 Liczby zmiennoprzecinkowe zazwyczaj są przedstawione zgodnie ze standardem IEEE 754, który określa strukturę jak następuje:
 
-- **Bit Znaku** (ang. *Sign Bit*): określa znak liczby; $$0$$ oznacza dodatni, a $$1$$ oznacza ujemny.
-- **Cecha** (ang. *Exponent*): reprezentuje wykładnik liczby w postaci znormalizowanej; reprezentowana za pomocą $$8$$ bitów w pojedynczej precyzji, $$11$$ bitów w podwójnej precyzji.
-- **Mantysa** (ang. *Fraction*): zawiera cyfry znaczące liczby; reprezentowana za pomocą $$23$$ bitów w pojedynczej precyzji, $$52$$ bitów w podwójnej precyzji.
+- **Bit Znaku** (ang. *Sign Bit*): określa znak liczby; $0$ oznacza dodatni, a $1$ oznacza ujemny.
+- **Cecha** (ang. *Exponent*): reprezentuje wykładnik liczby w postaci znormalizowanej; reprezentowana za pomocą $8$ bitów w pojedynczej precyzji, $11$ bitów w podwójnej precyzji.
+- **Mantysa** (ang. *Fraction*): zawiera cyfry znaczące liczby; reprezentowana za pomocą $23$ bitów w pojedynczej precyzji, $52$ bitów w podwójnej precyzji.
 
 ## Konwersja z systemu dziesiętnego
 
@@ -16,23 +16,23 @@ Jak przedstawić liczbę rzeczywistą w systemie binarnym w zapisie zmiennoprzec
 
 1. **Określenie znaku**: ustalamy znak liczby.
 2. **Znalezienie reprezentacji binarnych**: zamieniamy liczbę na równoważną liczbę binarną (przed i po kropce dziesiętnej).
-3. **Normalizacja**: przesuwamy przecinek binarny tak, aby przed nim była tylko jedna cyfra $$1$$. Zapisujemy wykładnik przedstawiający liczbę miejsc, o które przesunięto przecinek.
+3. **Normalizacja**: przesuwamy przecinek binarny tak, aby przed nim była tylko jedna cyfra $1$. Zapisujemy wykładnik przedstawiający liczbę miejsc, o które przesunięto przecinek.
 4. **Określenie cechy i mantysy**: wyodrębniamy wartość cechy i mantysę ze znormalizowanej formy.
 
 ### Przykład Konwersji
 
-Załóżmy, że chcemy przedstawić liczbę $$-110.75$$ w formie zmiennoprzecinkowej (w standardzie IEEE 754 z pojedynczą precyzją):
+Załóżmy, że chcemy przedstawić liczbę $-110.75$ w formie zmiennoprzecinkowej (w standardzie IEEE 754 z pojedynczą precyzją):
 
-1. **Znak**: liczba jest ujemna, więc bit znaku będzie $$1$$.
-2. **Reprezentacja binarna**: $$110.75$$ w binarnym to $$110.11_2$$.
-3. **Normalizacja**: $$110.11_2$$ może być znormalizowane jako $$1.1011_2 \times 2^2$$.
+1. **Znak**: liczba jest ujemna, więc bit znaku będzie $1$.
+2. **Reprezentacja binarna**: $110.75$ w binarnym to $110.11_2$.
+3. **Normalizacja**: $110.11_2$ może być znormalizowane jako $1.1011_2 \times 2^2$.
 4. **Cecha i mantysa**:
-    - **Cecha**: $$2 + 127$$ (wartość bias) = $$129$$, co daje nam $$10000001_2$$.
-    - **Mantysa**: $$.1011_2$$ (pomijając ukrytą jedynkę).
+    - **Cecha**: $2 + 127$ (wartość bias) = $129$, co daje nam $10000001_2$.
+    - **Mantysa**: $.1011_2$ (pomijając ukrytą jedynkę).
 
-Stąd, $$-110.75$$ przedstawiamy jako:
+Stąd, $-110.75$ przedstawiamy jako:
 
-$$1\ 10000001\ 10110000000000000000000$$
+$1\ 10000001\ 10110000000000000000000$
 
 ## Zastosowania i Ważne Kwestie
 

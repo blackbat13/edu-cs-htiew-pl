@@ -4,6 +4,4 @@ AWK jest interpretowanym językiem programowania, który służy przede wszystki
 
 ## Ściąga
 
-{% embed url="https://quickref.me/awk" %}
-Ściąga
-{% endembed %}
+[Ściąga](https://quickref.me/awk)

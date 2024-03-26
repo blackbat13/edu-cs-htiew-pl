@@ -14,6 +14,4 @@ Zbiór znajduje się w bibliotece `set`.
 
 ### Dokumentacja
 
-{% embed url="https://www.cplusplus.com/reference/set/set/" %}
-Set Reference
-{% endembed %}
+[Set Reference](https://www.cplusplus.com/reference/set/set/)

@@ -2,14 +2,12 @@
 
 ## Opis problemu
 
-{% content-ref url="../../../../algorithms/numeral-systems/README.md" %}
 [Systemy liczbowe](../../../../algorithms/numeral-systems/README.md)
-{% endcontent-ref %}
+
 
 ## Konwersja z dziesiętnego
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def from_dec(number: int, new_base: int) -> str:
     converted = ""
     remainder = 0
@@ -33,12 +31,11 @@ converted = from_dec(number, base)
 
 print(f'{number} (10) = {converted} ({base})')
 ```
-{% endcode %}
+
 
 ## Konwersja na dziesiętny
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def to_dec(number: str, base: int) -> int:
     converted = 0
     power = 1
@@ -64,4 +61,4 @@ converted = to_dec(number, base)
 
 print(f'{number} ({base}) = {converted} (10)')
 ```
-{% endcode %}
+

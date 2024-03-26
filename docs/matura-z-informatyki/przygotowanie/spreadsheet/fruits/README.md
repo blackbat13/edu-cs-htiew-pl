@@ -1,16 +1,12 @@
 # Owoce
 
-W pliku *owoce_sprzedaz.txt* znajduje się $$1000$$ linii zawierających informacje na temat transakcji dokonanych w pewnym sklepie owocowym. Każda linia zawiera jeden wyraz i liczbę naturalną oddzielone spacją. Wyraz jest nazwą owocu, a liczba oznacza, ile sztuk owocu zostało sprzedanych. Pierwszy wiersz zawiera nagłówki kolumn.
+W pliku *owoce_sprzedaz.txt* znajduje się $1000$ linii zawierających informacje na temat transakcji dokonanych w pewnym sklepie owocowym. Każda linia zawiera jeden wyraz i liczbę naturalną oddzielone spacją. Wyraz jest nazwą owocu, a liczba oznacza, ile sztuk owocu zostało sprzedanych. Pierwszy wiersz zawiera nagłówki kolumn.
 
 Plik *owoce_ceny.txt* zawiera informację na temat ceny każdego owocu podanej w polskich złotych. Pierwszy wiersz zawiera nagłówki kolumn.
 
-{% file src="../../../../.gitbook/assets/owoce_sprzedaz.txt" %}
-owoce_sprzedaz.txt
-{% endfile %}
+[:material-note-text: owoce_sprzedaz.txt](../../../../assets/owoce_sprzedaz.txt)
 
-{% file src="../../../../.gitbook/assets/owoce_ceny.txt" %}
-owoce_ceny.txt
-{% endfile %}
+[:material-note-text: owoce_ceny.txt](../../../../assets/owoce_ceny.txt)
 
 ## Zadanie 1
 
@@ -22,4 +18,4 @@ Dla każdego owocu wypisz całkowity zysk z jego sprzedaży, tzn. liczbę sprzed
 
 ## Zadanie 3
 
-Dla każdego owocu policz liczbę sprzedanych sztuk w pierwszych $$100$$, $$500$$ i $$1000$$ transakcji. Wyniki posortuj alfabetycznie po owocach i przedstaw na wykresie kolumnowym. Zadbaj o czytelny opis wykresu.
+Dla każdego owocu policz liczbę sprzedanych sztuk w pierwszych $100$, $500$ i $1000$ transakcji. Wyniki posortuj alfabetycznie po owocach i przedstaw na wykresie kolumnowym. Zadbaj o czytelny opis wykresu.

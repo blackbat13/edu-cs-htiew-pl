@@ -15,33 +15,31 @@ Funkcja sort(A, pocz, kon):
         7. sort(A, pocz, kon - t)
 ```
 
-{% hint style="info" %}
-**Zamień** zamienia dwie zmienne wartościami.
-{% endhint %}
+!!! info
+	 **Zamień** zamienia dwie zmienne wartościami.
 
-{% hint style="info" %}
-**div** oznacza dzielenie całkowite.
-{% endhint %}
+!!! info
+	 **div** oznacza dzielenie całkowite.
 
 ## Zadanie 1
 
-Narysuj drzewo wywołań rekurencyjnych oraz przedstaw postać tablicy $$A$$ po każdym wywołaniu funkcji *Zamień* dla danych:
+Narysuj drzewo wywołań rekurencyjnych oraz przedstaw postać tablicy $A$ po każdym wywołaniu funkcji *Zamień* dla danych:
 
-- $$A[1..3] = [5, 1, 3]$$
-- $$pocz = 1$$
-- $$kon = 3$$
+- $A[1..3] = [5, 1, 3]$
+- $pocz = 1$
+- $kon = 3$
 
 ## Zadanie 2
 
-Narysuj drzewo wywołań rekurencyjnych oraz przedstaw postać tablicy $$A$$ po każdym wywołaniu funkcji *Zamień* dla danych:
+Narysuj drzewo wywołań rekurencyjnych oraz przedstaw postać tablicy $A$ po każdym wywołaniu funkcji *Zamień* dla danych:
 
-- $$A[1..4] = [5, 1, 3, 4]$$
-- $$pocz = 1$$
-- $$kon = 4$$
+- $A[1..4] = [5, 1, 3, 4]$
+- $pocz = 1$
+- $kon = 4$
 
 ## Zadanie 3
 
-Uzupełnij poniższą tabelkę podając liczbę wywołań funkcji *sort* (łącznie z początkowym wywołaniem) dla dowolnej zawartości tablicy $$A$$ oraz podanych wartości $$pocz$$ i $$kon$$.
+Uzupełnij poniższą tabelkę podając liczbę wywołań funkcji *sort* (łącznie z początkowym wywołaniem) dla dowolnej zawartości tablicy $A$ oraz podanych wartości $pocz$ i $kon$.
 
 |  A     | pocz | kon | Liczba wyników |
 | :-:    | :--: | :-: | :----:         |

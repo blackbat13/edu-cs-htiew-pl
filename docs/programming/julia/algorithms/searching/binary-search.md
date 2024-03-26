@@ -1,17 +1,13 @@
 # Wyszukiwanie binarne
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/binary-search.md)
 
-{% content-ref url="../../../../algorithms/searching/binary-search.md" %}
-[binary-search.md](../../../../algorithms/searching/binary-search.md)
-{% endcontent-ref %}
 
 ## Wersja iteracyjna
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```julia
+```julia linenums="1"
 function binarySearch(array, number)
     left = 1
     right = length(array)
@@ -37,4 +33,4 @@ number = 8
 
 println(binarySearch(array, number))
 ```
-{% endcode %}
+

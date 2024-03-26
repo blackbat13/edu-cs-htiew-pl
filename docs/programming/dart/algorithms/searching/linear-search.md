@@ -1,17 +1,13 @@
 # Wyszukiwanie liniowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/linear-search.md)
 
-{% content-ref url="../../../../algorithms/searching/linear-search.md" %}
-[linear-search.md](../../../../algorithms/searching/linear-search.md)
-{% endcontent-ref %}
 
 ## Istnienie elementu
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```dart
+```dart linenums="1"
 bool linearSearch(List<int> array, int number) {
     for(int element in array) {
       if (element == number) {
@@ -35,7 +31,7 @@ void main() {
     }
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
@@ -47,8 +43,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: list
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```dart
+```dart linenums="1"
 int linearSearch(List<int> array, int number) {
     for(int i = 0; i < array.length; i++) {
       if (array[i] == number) {
@@ -72,11 +67,11 @@ void main() {
     }
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
-Funkcja `linearSearch` (**linia 1**) zwraca jako wynik liczbę całkowitą i przyjmuje dwa argumenty: listę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w liście od $$0$$ do rozmiaru listy minus jeden (**linia 2**). Rozmiar listy pobieramy za pomocą własności `length`. Dla każdego indeksu sprawdzamy, czy pod tym indeksem w liście znajduje się poszukiwana wartość (**linia 3**). Jeżeli tak, to zwracamy indeks tej wartości w liście (**linia 4**). Po przejściu przez wszystkie indeksy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość `-1` informującą, że poszukiwany element nie znajduje się w liście (**linia 8**).
+Funkcja `linearSearch` (**linia 1**) zwraca jako wynik liczbę całkowitą i przyjmuje dwa argumenty: listę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w liście od $0$ do rozmiaru listy minus jeden (**linia 2**). Rozmiar listy pobieramy za pomocą własności `length`. Dla każdego indeksu sprawdzamy, czy pod tym indeksem w liście znajduje się poszukiwana wartość (**linia 3**). Jeżeli tak, to zwracamy indeks tej wartości w liście (**linia 4**). Po przejściu przez wszystkie indeksy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość `-1` informującą, że poszukiwany element nie znajduje się w liście (**linia 8**).
 
 W części głównej programu na początku przygotowujemy dane do problemu: listę (**linia 12**) oraz wartość poszukiwanego elementu (**linia 13**). Następnie wywołujemy funkcję `linearSearch` z wcześniej przygotowanymi parametrami i jej wynik zapisujemy w nowej zmiennej `index` (**linia 15**). W zależności od wyniku (**linia 17**) wypisujemy odpowiedni komunikat (**linie 18 i 20**).
 
@@ -84,8 +79,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: list
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```dart
+```dart linenums="1"
 void linearSearch(List<int> array, int number) {
     for(int i = 0; i < array.length; i++) {
       if (array[i] == number) {
@@ -103,10 +97,10 @@ void main() {
     linearSearch(array, number);
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
-Funkcja `linearSearch` (**linia 1**) nie zwraca wyniku i przyjmuje dwa argumenty: listę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w liście od $$0$$ do rozmiaru listy minus jeden (**linia 2**). Rozmiar listy pobieramy za pomocą własności `length`. Dla każdego indeksu sprawdzamy, czy pod tym indeksem w liście znajduje się poszukiwana wartość (**linia 3**). Jeżeli tak, to wypisujemy ten indeks (**linia 4**).
+Funkcja `linearSearch` (**linia 1**) nie zwraca wyniku i przyjmuje dwa argumenty: listę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w liście od $0$ do rozmiaru listy minus jeden (**linia 2**). Rozmiar listy pobieramy za pomocą własności `length`. Dla każdego indeksu sprawdzamy, czy pod tym indeksem w liście znajduje się poszukiwana wartość (**linia 3**). Jeżeli tak, to wypisujemy ten indeks (**linia 4**).
 
 W części głównej programu na początku przygotowujemy dane do problemu: listę (**linia 10**) oraz wartość poszukiwanego elementu (**linia 11**). Następnie wypisujemy stosowny komunikat (**linia 13**) i wywołujemy funkcję `linearSearch` z wcześniej przygotowanymi parametrami (**linia 14**).

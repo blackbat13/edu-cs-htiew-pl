@@ -44,6 +44,4 @@ Adresowanie sieciowe odnosi się do schematu przypisania adresów do urządzeń 
 
 Krótka prezentacja na temat adresowania w sieci.
 
-{% file src="../.gitbook/assets/Adresy sieciowe.pdf" %}
-Adresy sieciowe
-{% endfile %}
+[:fontawesome-solid-file-pdf: Adresy sieciowe](../assets/Adresy sieciowe.pdf)

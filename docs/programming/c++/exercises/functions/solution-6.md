@@ -8,13 +8,13 @@ Napisz program zgodny z poniższą specyfikacją. Wczytywanie tablicy, przemnaż
 
 #### Dane
 
-* $$n$$ - liczba naturalna
-* $$k$$ - liczba całkowita
-* $$tab[n]$$ - tablica liczb całkowitych
+* $n$ - liczba naturalna
+* $k$ - liczba całkowita
+* $tab[n]$ - tablica liczb całkowitych
 
 #### Wynik
 
-* Tablica powstała poprzez przemnożenie każdego elementu tablicy $$tab$$ przez liczbę $$k$$ 
+* Tablica powstała poprzez przemnożenie każdego elementu tablicy $tab$ przez liczbę $k$ 
 
 ## Rozwiązanie
 

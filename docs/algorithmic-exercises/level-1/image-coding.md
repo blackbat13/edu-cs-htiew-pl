@@ -12,8 +12,8 @@ Obszar o **najwyższym** priorytecie to taki, który występuje **najczęściej*
 
 ### Dane
 
-* $$h, w$$ - wymiary tablicy, jej wysokość i szerokość
-* $$pix[h][w]$$ - opis grafiki, tablica dwuwymiarowa o wymiarach $$h\times w$$, której każdym elementem jest wielka litera alfabetu angielskiego
+* $h, w$ - wymiary tablicy, jej wysokość i szerokość
+* $pix[h][w]$ - opis grafiki, tablica dwuwymiarowa o wymiarach $h\times w$, której każdym elementem jest wielka litera alfabetu angielskiego
 
 ### Wynik
 
@@ -39,8 +39,7 @@ AZIP
 26
 ```
 
-{% hint style="info" %}
-#### Wyjaśnienie
-
-Najczęściej występującym regionem jest region **A**. Występuje on dokładnie $$6$$ razy. Oznacza to, że region **A** kodujemy za pomocą $$2$$ bajtów, a wszystkie pozostałe (których jest $$14$$), za pomocą $$1$$ bajta. Stąd otrzymujemy wynik: $$6*2 + 14*1 = 12 + 14 = 26$$
-{% endhint %}
+!!! info
+	#### Wyjaśnienie
+	
+	Najczęściej występującym regionem jest region **A**. Występuje on dokładnie $6$ razy. Oznacza to, że region **A** kodujemy za pomocą $2$ bajtów, a wszystkie pozostałe (których jest $14$), za pomocą $1$ bajta. Stąd otrzymujemy wynik: $6*2 + 14*1 = 12 + 14 = 26$

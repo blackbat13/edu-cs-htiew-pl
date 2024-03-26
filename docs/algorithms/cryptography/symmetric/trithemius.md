@@ -36,7 +36,7 @@ Szyfr Trithemius'a był głównie używany w celach edukacyjnych i literackich, 
 
 ### Funkcje pomocnicze
 
-- **Pozycja(litera)** - zwraca liczbę od $$1$$ do $$26$$ - pozycję przekazanej jako argument litery w alfabecie angielskim
+- **Pozycja(litera)** - zwraca liczbę od $1$ do $26$ - pozycję przekazanej jako argument litery w alfabecie angielskim
 - **Alfabet(pozycja)** - zwraca literę na zadanej pozycji w alfabecie angielskim
 - **Długość(tekst)** - zwraca długość tekstu
 
@@ -61,7 +61,7 @@ funkcja SzyfrujTrithemius(jawny):
 
 ### Funkcje pomocnicze
 
-- **Pozycja(litera)** - zwraca liczbę od $$1$$ do $$26$$ - pozycję przekazanej jako argument litery w alfabecie angielskim
+- **Pozycja(litera)** - zwraca liczbę od $1$ do $26$ - pozycję przekazanej jako argument litery w alfabecie angielskim
 - **Alfabet(pozycja)** - zwraca literę na zadanej pozycji w alfabecie angielskim
 - **Długość(tekst)** - zwraca długość tekstu
 
@@ -86,12 +86,12 @@ funkcja DeszyfrujTrithemius(szyfrogram):
 
 ### C++
 
-{% content-ref url="../../../programming/c++/algorithms/cryptography/trithemius.md" %}
+
 [trithemius.md](../../../programming/c++/algorithms/cryptography/trithemius.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../../programming/python/algorithms/cryptography/trithemius.md" %}
+
 [trithemius.md](../../../programming/python/algorithms/cryptography/trithemius.md)
-{% endcontent-ref %}
+

@@ -8,12 +8,12 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$n, k$$ - liczby naturalne, większe od zera
-* $$n$$ liczb naturalnych
+* $n, k$ - liczby naturalne, większe od zera
+* $n$ liczb naturalnych
 
 #### Wynik
 
-* Ilość liczb podzielnych przez $$k$$ z podanych $$n$$ liczb
+* Ilość liczb podzielnych przez $k$ z podanych $n$ liczb
 
 ## Rozwiązanie
 

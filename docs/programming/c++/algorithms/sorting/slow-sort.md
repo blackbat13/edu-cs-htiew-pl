@@ -1,15 +1,11 @@
 # Sortowanie wolne
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/slow-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/slow-sort.md" %}
-[slow-sort.md](../../../../algorithms/sorting/slow-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -54,4 +50,4 @@ int main()
     return 0;
 }
 ```
-{% endcode %}
+

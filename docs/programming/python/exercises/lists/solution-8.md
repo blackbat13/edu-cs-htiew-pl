@@ -8,12 +8,12 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$n$$ - liczba naturalna
-* $$p, k$$ - dwie liczby naturalna, $$p <= k$$
+* $n$ - liczba naturalna
+* $p, k$ - dwie liczby naturalna, $p <= k$
 
 #### Wynik
 
-* $$n$$-elementowa lista wypełniona losowymi wartościami z przedziału $$[p, k]$$
+* $n$-elementowa lista wypełniona losowymi wartościami z przedziału $[p, k]$
 
 ## Rozwiązanie
 

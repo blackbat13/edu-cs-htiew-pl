@@ -1,15 +1,11 @@
 # Sortowanie odd-even
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/odd-even-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/odd-even-sort.md" %}
-[odd-even-sort.md](../../../../algorithms/sorting/odd-even-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def odd_even_sort(array: list):
     for i in range(len(array)):
         for j in range(i % 2 + 1, len(array), 2):
@@ -23,4 +19,4 @@ odd_even_sort(array)
 
 print(array)
 ```
-{% endcode %}
+

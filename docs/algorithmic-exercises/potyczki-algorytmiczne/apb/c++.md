@@ -2,7 +2,7 @@
 
 ## Implementacja
 
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <cstdio>
 

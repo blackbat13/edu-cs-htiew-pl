@@ -1,15 +1,11 @@
 # Stos
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/structures/stack.md)
 
-{% content-ref url="../../../../algorithms/structures/stack.md" %}
-[stack.md](../../../../algorithms/structures/stack.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```c
+```c linenums="1"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -82,4 +78,4 @@ int main() {
   return 0;
 }
 ```
-{% endcode %}
+

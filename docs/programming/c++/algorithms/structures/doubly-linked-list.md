@@ -1,15 +1,11 @@
 # Lista dwukierunkowa
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/structures/doubly-linked-list.md)
 
-{% content-ref url="../../../../algorithms/structures/doubly-linked-list.md" %}
-[doubly-linked-list.md](../../../../algorithms/structures/doubly-linked-list.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -144,4 +140,4 @@ int main() {
   return 0;
 }
 ```
-{% endcode %}
+

@@ -50,4 +50,4 @@
 
 ## Wynik
 
-Instrukcja **4** zostanie wykonana $$8$$ razy.
+Instrukcja **4** zostanie wykonana $8$ razy.

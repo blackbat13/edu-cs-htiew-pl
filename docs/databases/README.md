@@ -10,6 +10,4 @@ Na rynku dostępne są różne silniki baz danych, a każdy z nich ma swoje unik
 
 Poniżej znajduje się link do rankingu popularności silników bazodanowych.
 
-{% embed url="https://db-engines.com/en/ranking" %}
-Ranking popularności silników bazodanowych
-{% endembed %}
+[Ranking popularności silników bazodanowych](https://db-engines.com/en/ranking)

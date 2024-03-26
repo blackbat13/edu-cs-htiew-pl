@@ -1,15 +1,11 @@
 # Metoda Monte Carlo
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/numerical-methods/monte-carlo.md)
 
-{% content-ref url="../../../../algorithms/numerical-methods/monte-carlo.md" %}
-[monte-carlo.md](../../../../algorithms/numerical-methods/monte-carlo.md)
-{% endcontent-ref %}
 
 ## Obliczanie wartości liczby PI
 
-{% code overflow="wrap" lineNumbers="true" %}
-```julia
+```julia linenums="1"
 function MonteCarloPi(pointsCount)
     pointsInCircleCount = 0
     centerX = 1
@@ -32,4 +28,4 @@ end
 
 println(MonteCarloPi(100000000))
 ```
-{% endcode %}
+

@@ -1,15 +1,11 @@
 # Odległość Hamminga
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/hamming-distance.md)
 
-{% content-ref url="../../../../algorithms/text/hamming-distance.md" %}
-[hamming-distance.md](../../../../algorithms/text/hamming-distance.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def hamming_distance(a: str, b: str) -> int:
     distance = 0
     
@@ -28,4 +24,4 @@ distance = hamming_distance(a, b)
     
 print(f"Odległość Hamminga pomiędzy wyrazami {a} i {b} wynosi {distance}")
 ```
-{% endcode %}
+

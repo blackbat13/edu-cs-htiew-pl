@@ -23,7 +23,7 @@ print(f"Dzisiaj jest {temp} stopni Celsjusza")
 
 ### Formatowanie liczb rzeczywistych
 
-Często wypisując liczbę rzeczywistą potrzebujemy zobaczyć określoną liczbę cyfr po przecinku. W tym celu możemy skorzystać z dodatkowych opcji tekstu formatowanego, podawanych po dwukropku po zmiennej zamkniętej w nawiasach klamrowych. Np. jeżeli chcemy wypisać liczbę rzeczywistą z dokładnością do dwóch miejsc po przecinku, to napiszemy `:.2f`. Kropka określa wartości po przecinku, $$2$$ to liczba cyfr, które chcemy wypisać, a *f* określa format rzeczywisty (*float*).
+Często wypisując liczbę rzeczywistą potrzebujemy zobaczyć określoną liczbę cyfr po przecinku. W tym celu możemy skorzystać z dodatkowych opcji tekstu formatowanego, podawanych po dwukropku po zmiennej zamkniętej w nawiasach klamrowych. Np. jeżeli chcemy wypisać liczbę rzeczywistą z dokładnością do dwóch miejsc po przecinku, to napiszemy `:.2f`. Kropka określa wartości po przecinku, $2$ to liczba cyfr, które chcemy wypisać, a *f* określa format rzeczywisty (*float*).
 
 #### Przykład
 

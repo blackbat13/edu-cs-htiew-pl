@@ -1,15 +1,11 @@
 # Sortowanie przez zliczanie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/counting-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/counting-sort.md" %}
-[counting-sort.md](../../../../algorithms/sorting/counting-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -50,4 +46,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

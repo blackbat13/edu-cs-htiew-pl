@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji **abs*
 
 #### Dane
 
-* $$a$$ - liczba całkowita
+* $a$ - liczba całkowita
 
 #### Wynik
 
-* Wartość bezwzględna z $$a$$
+* Wartość bezwzględna z $a$
 
 ## Rozwiązanie
 

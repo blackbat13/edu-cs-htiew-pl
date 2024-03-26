@@ -4,18 +4,14 @@ description: Największy Wspólny Dzielnik
 
 # NWD
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/gcd.md)
 
-{% content-ref url="../../../../algorithms/integers/gcd.md" %}
-[gcd.md](../../../../algorithms/integers/gcd.md)
-{% endcontent-ref %}
 
 ## Wersja z odejmowaniem
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -43,14 +39,13 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ## Algorytm Euklidesa - wersja iteracyjna
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -76,7 +71,7 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ## Algorytm Euklidesa - wersja rekurencyjna
 
@@ -106,7 +101,7 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ## Operacje binarne - wersja iteracyjna
 
@@ -163,14 +158,13 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ## Operacje binarne - wersja rekurencyjna
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -217,4 +211,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

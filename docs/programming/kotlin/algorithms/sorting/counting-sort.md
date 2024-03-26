@@ -1,10 +1,7 @@
 # Sortowanie przez zliczanie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/counting-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/counting-sort.md" %}
-[counting-sort.md](../../../../algorithms/sorting/counting-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -43,6 +40,4 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/Vcw5BN" %}
-Sortowanie przez zliczanie
-{% endembed %}
+[Sortowanie przez zliczanie](https://ideone.com/Vcw5BN)

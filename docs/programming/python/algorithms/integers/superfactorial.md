@@ -1,15 +1,11 @@
 # Superfactorial
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/superfactorial.md)
 
-{% content-ref url="../../../../algorithms/integers/superfactorial.md" %}
-[superfactorial.md](../../../../algorithms/integers/superfactorial.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def superfactorial(n: int) -> int:
     result = factorial = 1
     
@@ -26,4 +22,4 @@ result = superfactorial(n)
 
 print(f"{n}$ = {result}")
 ```
-{% endcode %}
+

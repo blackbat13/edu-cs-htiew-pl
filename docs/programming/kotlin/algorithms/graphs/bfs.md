@@ -4,11 +4,8 @@ description: Przeszukiwanie grafu wszerz
 
 # BFS
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/bfs.md)
 
-{% content-ref url="../../../../algorithms/graphs/bfs.md" %}
-[bfs.md](../../../../algorithms/graphs/bfs.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -50,9 +47,7 @@ bfs(graph, visited, 0)
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/X87JSj" %}
-BFS
-{% endembed %}
+[BFS](https://ideone.com/X87JSj)
 
 ### Opis implementacji
 

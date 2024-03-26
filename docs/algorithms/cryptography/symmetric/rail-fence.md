@@ -29,7 +29,7 @@ Szyfr płotkowy jest stosunkowo prosty do deszyfrowania, zwłaszcza jeśli przec
 
 Tekst jawny: **ALAMAKOTA**.
 
-Klucz: $$3$$
+Klucz: $3$
 
 ```
   A   O
@@ -43,7 +43,7 @@ Szyfrogram: **AOLMKTAAA**
 
 Tekst jawny: **ALAMAKOTA**.
 
-Klucz: $$4$$
+Klucz: $4$
 
 ```
    M
@@ -108,12 +108,12 @@ funkcja DeszyfrujPłotkowy(szyfrogram, klucz):
 
 ### C++
 
-{% content-ref url="../../../programming/c++/algorithms/cryptography/rail-fence.md" %}
+
 [rail-fence.md](../../../programming/c++/algorithms/cryptography/rail-fence.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../../programming/python/algorithms/cryptography/rail-fence.md" %}
+
 [rail-fence.md](../../../programming/python/algorithms/cryptography/rail-fence.md)
-{% endcontent-ref %}
+

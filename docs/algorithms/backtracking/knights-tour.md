@@ -6,11 +6,11 @@ Skoczek, zwany inaczej koniem, to figura szachowa która wykonuje ruchy w kszta�
 
 ### Dane
 
-- $$n$$ - liczba naturalna, wymiary szachownicy, liczba wierszy i kolumn, $$n>0$$.
+- $n$ - liczba naturalna, wymiary szachownicy, liczba wierszy i kolumn, $n>0$.
 
 ### Wynik
 
-- **PRAWDA** jeżeli skoczek może odwiedzić wszystkie pola szachownicy $$n\times n$$ dokładnie raz,
+- **PRAWDA** jeżeli skoczek może odwiedzić wszystkie pola szachownicy $n\times n$ dokładnie raz,
 - **FAŁSZ** w przeciwnym przypadku.
 
 ## Rozwiązanie
@@ -220,12 +220,11 @@ flowchart TD
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/backtracking/knights-tour.md" %}
+
 [knights-tour.md](../../programming/c++/algorithms/backtracking/knights-tour.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/backtracking/knights-tour.md" %}
+
 [knights-tour.md](../../programming/python/algorithms/backtracking/knights-tour.md)
-{% endcontent-ref %}

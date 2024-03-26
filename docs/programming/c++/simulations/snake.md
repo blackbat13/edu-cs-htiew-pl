@@ -66,12 +66,11 @@ int main()
 
 ### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/Snake#main.cpp" %}
+[https://replit.com/@damiankurpiewski/Snake#main.cpp](https://replit.com/@damiankurpiewski/Snake#main.cpp)
 
 ### Opis implementacji
 
 TODO
 
-{% hint style="warning" %}
-Pod systemem Linux zamiast polecenia **cls** używamy polecenia **clear** do wyczyszczenia ekranu terminala.
-{% endhint %}
+!!! warning
+	 Pod systemem Linux zamiast polecenia **cls** używamy polecenia **clear** do wyczyszczenia ekranu terminala.

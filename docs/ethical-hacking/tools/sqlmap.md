@@ -4,9 +4,7 @@ SQLmap to potężne narzędzie do testów penetracyjnych, które automatyzuje pr
 
 SQLmap automatyzuje proces wykrywania i wykorzystywania luk w zabezpieczeniach SQL Injection. Narzędzie to skanuje cele, identyfikuje potencjalne podatności, a następnie automatycznie wykorzystuje je do uzyskania dostępu do danych. SQLmap jest w stanie automatycznie rozpoznawać i obsługiwać różne bazy danych, takie jak MySQL, Oracle, PostgreSQL i wiele innych.
 
-{% embed url="https://sqlmap.org" %}
-SQLmap
-{% endembed %}
+[SQLmap](https://sqlmap.org)
 
 ## Przykłady użycia
 
@@ -28,6 +26,4 @@ sqlmap -u "http://example.com/index.php?id=1" --dump
 
 ## Ściąga
 
-{% embed url="https://cdn.comparitech.com/wp-content/uploads/2021/07/sqlmap-Cheat-Sheet.pdf" %}
-Ściąga
-{% endembed %}
+[Ściąga](https://cdn.comparitech.com/wp-content/uploads/2021/07/sqlmap-Cheat-Sheet.pdf)

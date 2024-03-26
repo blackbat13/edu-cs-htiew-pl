@@ -1,15 +1,11 @@
 # Problem n królowych
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/backtracking/n-queens.md)
 
-{% content-ref url="../../../../algorithms/backtracking/n-queens.md" %}
-[n-queens.md](../../../../algorithms/backtracking/n-queens.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 from pprint import pprint
 
 
@@ -61,4 +57,4 @@ if result:
 else:
     print("No result exists")
 ```
-{% endcode %}
+

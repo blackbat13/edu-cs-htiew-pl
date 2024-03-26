@@ -1,15 +1,11 @@
 # Test pierwszości
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/prime-test.md)
 
-{% content-ref url="../../../../algorithms/integers/prime-test.md" %}
-[prime-test.md](../../../../algorithms/integers/prime-test.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```haskell
+```haskell linenums="1"
 isPrime n
   | n < 2 = False
   | otherwise = not $ any (`divides` n) [2 .. sqrtN]
@@ -23,7 +19,7 @@ main = do
 
     print $ isPrime n
 ```
-{% endcode %}
+
 
 ### Opis
 

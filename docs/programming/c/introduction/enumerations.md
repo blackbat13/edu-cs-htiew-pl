@@ -47,4 +47,4 @@ Na początku tworzymy enumerację roli: `enum role`.
 Następnie w kodzie głównym przypisujemy wybraną rolę do zmiennej `currentRole`.
 Dzięki wykorzystaniu enumeracji możemy w prosty i czytelny sposób skorzystać z operacji `switch` i uzależnić działanie programu od przypisanej roli.
 Po uruchomieniu programu można zaobserwować, że do każdej zdefiniowanej przez nas roli została przypisana liczba całkowita, ponieważ domyślnie pod enumeracjami kryją się właśnie kolejne liczby całkowite.
-Tak więc nasza rola *user* ma przypisaną wartość $$0$$, *moderator* ma wartość $$1$$, a *admin* ma wartość $$2$$.
+Tak więc nasza rola *user* ma przypisaną wartość $0$, *moderator* ma wartość $1$, a *admin* ma wartość $2$.

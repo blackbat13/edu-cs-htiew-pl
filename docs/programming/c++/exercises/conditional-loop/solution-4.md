@@ -8,12 +8,12 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$n$$ - liczba naturalna
-* $$k$$ - liczba naturalna z zakresu $$[0,9]$$
+* $n$ - liczba naturalna
+* $k$ - liczba naturalna z zakresu $[0,9]$
 
 #### Wynik
 
-* Liczba powstała poprzez zastąpienie każdej cyfry liczby $$n$$ przez wartość bezwzględną różnicy liczby $$k$$ i danej cyfry
+* Liczba powstała poprzez zastąpienie każdej cyfry liczby $n$ przez wartość bezwzględną różnicy liczby $k$ i danej cyfry
 
 ## Rozwiązanie
 

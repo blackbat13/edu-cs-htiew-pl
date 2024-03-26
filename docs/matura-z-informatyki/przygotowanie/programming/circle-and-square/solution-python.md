@@ -2,8 +2,7 @@
 
 ## Zadanie 1
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def zadanie1():
     path = "input/kik.txt"
     with open(path, "r") as file:
@@ -21,12 +20,11 @@ def zadanie1():
 
         print(f"inside: {inside}, outside: {outside}")
 ```
-{% endcode %}
+
 
 ## Zadanie 2
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def zadanie2():
     path = "input/kik.txt"
     with open(path, "r") as file:
@@ -48,12 +46,11 @@ def zadanie2():
         print()
         print(f"{max_length}")
 ```
-{% endcode %}
+
 
 ## Zadanie 3
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def zadanie3():
     path = "input/kik.txt"
     with open(path, "r") as file:
@@ -63,12 +60,11 @@ def zadanie3():
         print()
         print(((xs[len(xs) // 2] - xs[len(xs) // 2 - 1]) / 2) + xs[len(xs) // 2 - 1])
 ```
-{% endcode %}
+
 
 ## Zadanie 4
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def zadanie4():
     path = "input/kik.txt"
     with open(path, "r") as file:
@@ -89,4 +85,4 @@ def zadanie4():
             for punkt in punkty:
                 print(f"{punkt[0]} {punkt[1]}", file=out_file)
 ```
-{% endcode %}
+

@@ -2,8 +2,7 @@
 
 ## Zadanie 1
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 with open("sequences.txt") as file:
     sequences = []
     for line in file:
@@ -12,12 +11,11 @@ with open("sequences.txt") as file:
 for seq in sequences:
     print(sum(seq))
 ```
-{% endcode %}
+
 
 ## Zadanie 2
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 with open("sequences.txt") as file:
     sequences = []
     for line in file:
@@ -26,12 +24,11 @@ with open("sequences.txt") as file:
 for seq in sequences:
     print(f"Minimum: {min(seq)}, Maksimum: {max(seq)}")
 ```
-{% endcode %}
+
 
 ## Zadanie 3
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def is_prime(n):
     if n < 2:
         return False
@@ -60,12 +57,11 @@ for seq in sequences:
     print(f"Ile pierwszych: {len(primes)}, Liczby pierwsze: ", end="")
     print(*primes)
 ```
-{% endcode %}
+
 
 ## Zadanie 4
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 with open("sequences.txt") as file:
     sequences = []
     for line in file:
@@ -87,12 +83,11 @@ for seq in sequences:
     print(f"Dlugosc: {max_length}, Sekwencja: ", end="")
     print(*seq[max_start : max_start + max_length])
 ```
-{% endcode %}
+
 
 ## Zadanie 5
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 from math import gcd
 
 
@@ -110,4 +105,4 @@ for seq in sequences:
 
     print(count)
 ```
-{% endcode %}
+

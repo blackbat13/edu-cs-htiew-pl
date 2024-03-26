@@ -1,5 +1,3 @@
 # Rozwiązanie
 
-{% file src="../../../../.gitbook/assets/vampires/wampiry.accdb" %}
-Rozwiązanie
-{% endfile %}
+[:material-microsoft-access: Rozwiązanie](../../../../assets/vampires/wampiry.accdb)

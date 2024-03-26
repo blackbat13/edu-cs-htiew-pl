@@ -4,7 +4,7 @@
 
 |      **Rodzaj**     | **Napój ciepły** | **Napój zimny** | **Przystawka** | **Danie główne** | **Deser** |
 |:-------------------:|:----------------:|:---------------:|:--------------:|:----------------:|:---------:|
-| **Liczba zamówień** |        $$530$$       |       $$528$$       |       $$516$$      |        $$519$$       |    $$498$$    |
+| **Liczba zamówień** |        $530$       |       $528$       |       $516$      |        $519$       |    $498$    |
 
 ## Zadanie 2
 
@@ -25,7 +25,7 @@
 |      22     |          83         |
 |      23     |          5          |
 
-![](../../../../.gitbook/assets/restaurant/zad2_wykres.png)
+![](../../../../assets/restaurant/zad2_wykres.png)
 
 ## Zadanie 3
 
@@ -51,7 +51,7 @@
 |     lis     |                  15                  |                      10                     |                      23                      |                    20                   |
 |     gru     |                  19                  |                      20                     |                      28                      |                    18                   |
 
-![](../../../../.gitbook/assets/restaurant/zad4_wykres.png)
+![](../../../../assets/restaurant/zad4_wykres.png)
 
 ## Zadanie 5
 
@@ -93,4 +93,4 @@ Napój ciepły + napój zimny + przystawka + danie główne (42 zamówienia).
 |           21-23           |         1226,55         |
 |           22-00           |          658,6          |
 
-![](../../../../.gitbook/assets/restaurant/zad7_wykres.png)
+![](../../../../assets/restaurant/zad7_wykres.png)

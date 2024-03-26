@@ -1,15 +1,11 @@
 # Metoda Monte Carlo
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/numerical-methods/monte-carlo.md)
 
-{% content-ref url="../../../../algorithms/numerical-methods/monte-carlo.md" %}
-[monte-carlo.md](../../../../algorithms/numerical-methods/monte-carlo.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <random>
 #include <ctime>
@@ -48,4 +44,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

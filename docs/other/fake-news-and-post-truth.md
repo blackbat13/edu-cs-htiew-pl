@@ -4,6 +4,4 @@ Czym jest tzw. **Fake News**? Co nazywamy postprawdą i czym się ona charaktery
 
 ## Prezentacja
 
-{% file src="../.gitbook/assets/Fake News.pdf" %}
-Prezentacja
-{% endfile %}
+[:fontawesome-solid-file-pdf: Prezentacja](../assets/Fake News.pdf)

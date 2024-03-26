@@ -12,7 +12,7 @@
 
 ## Opis
 
-Na początku wczytujemy dwie wartości od użytkownika (**krok 1**). 
+Na początku wczytujemy dwie wartości od użytkownika (**krok 1**).
 
 Następnie, korzystając z instrukcji warunkowej, sprawdzamy relację pomiędzy wczytanymi wartościami. Jeżeli wartości zmiennych `a` i `b` są sobie równe (**krok 2**) to wypisujemy znak równości (**krok 3**). W przeciwnym przypadku, jeżeli wartość zmiennej `a` jest mniejsza od wartości zmiennej `b` (**krok 4**), to wypisujemy znak mniejszości (**krok 5**). W przeciwnym przypadku (**krok 6**) wypisujemy znak większości (**krok 7**).
 

@@ -2,6 +2,4 @@
 
 ## Prezentacja
 
-{% file src="../../.gitbook/assets/Strategie rozwiązywania problemów.pdf" %}
-Strategie rozwiązywania problemów
-{% endfile %}
+[:fontawesome-solid-file-pdf: Strategie rozwiązywania problemów](../../assets/Strategie rozwiązywania problemów.pdf)

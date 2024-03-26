@@ -14,6 +14,4 @@ Lista dwukierunkowa znajduje się w bibliotece `list`.
 
 ### Dokumentacja
 
-{% embed url="https://www.cplusplus.com/reference/list/list/" %}
-List Reference
-{% endembed %}
+[List Reference](https://www.cplusplus.com/reference/list/list/)

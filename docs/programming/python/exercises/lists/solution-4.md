@@ -8,12 +8,12 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$n$$ - liczba naturalna
-* $$t1[n],\ t2[n]$$ - dwie listy liczb całkowitych
+* $n$ - liczba naturalna
+* $t1[n],\ t2[n]$ - dwie listy liczb całkowitych
 
 #### Wynik
 
-* Tablica powstała poprzez dodanie do siebie wartości z list $$t1$$ i $$t2$$ 
+* Tablica powstała poprzez dodanie do siebie wartości z list $t1$ i $t2$ 
 
 ## Rozwiązanie
 

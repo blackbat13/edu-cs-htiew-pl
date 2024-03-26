@@ -1,17 +1,13 @@
 # Wyszukiwanie liniowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/linear-search.md)
 
-{% content-ref url="../../../../algorithms/searching/linear-search.md" %}
-[linear-search.md](../../../../algorithms/searching/linear-search.md)
-{% endcontent-ref %}
 
 ## Istnienie elementu
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```elixir
+```elixir linenums="1"
 defmodule Search do
     def linear(array, number) do
         if (length array) == 0 do
@@ -38,7 +34,7 @@ else
     IO.puts "Liczby nie ma w tablicy"
 end
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
@@ -50,8 +46,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: list
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```elixir
+```elixir linenums="1"
 defmodule Search do
     def linear(array, number, index) do
         if (length array) == 0 do
@@ -78,7 +73,7 @@ else
     IO.puts "Liczba jest pod indeksem #{index}"
 end
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 

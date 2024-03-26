@@ -42,9 +42,8 @@ mkdir <nazwa katalogu>
 Skoro tworzymy katalogi, to powinniśmy także wiedzieć, jak je usuwać.
 Użyjemy do tego polecenia **rmdir** (ang. __remove directory__).
 
-{% hint style="warning" %}
-Domyślnie za pomocą polecenia ``rmdir`` możemy usuwać tylko puste katalogi.
-{% endhint %}
+!!! warning
+	 Domyślnie za pomocą polecenia ``rmdir`` możemy usuwać tylko puste katalogi.
 
 ### Składnia
 

@@ -1,10 +1,7 @@
 # Suma dwóch liczb
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/sum-of-two.md)
 
-{% content-ref url="../../../../algorithms/searching/sum-of-two.md" %}
-[sum-of-two.md](../../../../algorithms/searching/sum-of-two.md)
-{% endcontent-ref %}
 
 ## Rozwiązanie naiwne
 
@@ -31,9 +28,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/AJ50ho" %}
-Suma dwóch - rozwiązanie naiwne
-{% endembed %}
+[Suma dwóch - rozwiązanie naiwne](https://ideone.com/AJ50ho)
 
 ### Opis implementacji
 
@@ -73,9 +68,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/MXQjLX" %}
-Suma dwóch - rozwiązanie optymalne
-{% endembed %}
+[Suma dwóch - rozwiązanie optymalne](https://ideone.com/MXQjLX)
 
 ### Opis implementacji
 

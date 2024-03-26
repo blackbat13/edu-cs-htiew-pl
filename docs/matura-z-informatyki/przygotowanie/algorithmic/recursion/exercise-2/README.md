@@ -6,7 +6,7 @@ Zapoznaj się z poniższą specyfikacją oraz pseudokodem, a następnie rozwią�
 
 ### Dane
 
-* $$n$$ - liczba naturalna, $$n>0$$.
+* $n$ - liczba naturalna, $n>0$.
 
 ## Pseudokod
 
@@ -20,9 +20,8 @@ Funkcja sklej(n):
         6. Zwróc n - 1 + sklej((n - 1) / 2) + sklej((n + 1) / 2)
 ```
 
-{% hint style="info" %}
-**mod** oznacza resztę z dzielenia.
-{% endhint %}
+!!! info
+	 **mod** oznacza resztę z dzielenia.
 
 ## Zadanie 1
 
@@ -51,7 +50,7 @@ Uzupełnij poniższą tabelę, podając wyniki działania funkcji `sklej` dla ws
 
 ## Zadanie 5
 
-Chcemy wypełnić tablicę $$s[1..n]$$ w taki sposób, że $$s[i]=sklej(i)$$ dla każdego $$1\leq i\leq n$$. Podaj algorytm wypełniający tablicę $$s$$ odpowiednimi wartościami **bez wywoływania** funkcji *sklej*, tnz. **bez użycia rekurencji**.
+Chcemy wypełnić tablicę $s[1..n]$ w taki sposób, że $s[i]=sklej(i)$ dla każdego $1\leq i\leq n$. Podaj algorytm wypełniający tablicę $s$ odpowiednimi wartościami **bez wywoływania** funkcji *sklej*, tnz. **bez użycia rekurencji**.
 
 Rozwiązanie zapisz w postaci pseudokodu. W swoim zapisie możesz korzystać jedynie z podstawowych operacji arytmetycznych (dodawanie, odejmowanie, mnożenie, dzielenie, reszta z dzielenia, dzielenie całkowite), instrukcji kontroli przepływu (instrukcja warunkowa, pętla warunkowa, pętla licząca), instrukcji dotyczących podstawowych operacji na zmiennych (utworzenie zmiennej, przypisanie wartości, odczytanie wartości), instrukcji dotyczących podstawowych operacji na tablicach (utworzenie tablicy o zadanym rozmiarze wypełnionej jedną wartością, odwołanie do elementu tablicy pod zadanym indeksem) oraz samodzielnie zdefiniowanych funkcji.
 
@@ -59,8 +58,8 @@ Rozwiązanie zapisz w postaci pseudokodu. W swoim zapisie możesz korzystać jed
 
 #### Dane
 
-- $$n$$ - liczba naturalna, $$n>0$$
+- $n$ - liczba naturalna, $n>0$
 
 #### Wynik
 
-- $$s[1..n]$$ - tablica liczb całkowitych, taka, że $$s[i]=sklej(i)$$ dla każdego $$1\leq i\leq n$$
+- $s[1..n]$ - tablica liczb całkowitych, taka, że $s[i]=sklej(i)$ dla każdego $1\leq i\leq n$

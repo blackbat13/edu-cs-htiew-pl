@@ -6,35 +6,33 @@ Kto potrzebuje zaawansowanego środowiska programistycznego, z kolorowaniem skł
 
 Załóżmy, że mamy gotowy program zapisany w pliku main.cpp. Aby go skompilować z linii poleceń wystarczy napisać:
 
-{% tabs %}
-{% tab title="Linux" %}
-```
-g++ main.cpp
-```
-{% endtab %}
+=== "Linux"
 
-{% tab title="Windows" %}
-```
-g++ main.cpp
-```
-{% endtab %}
-{% endtabs %}
+    ```
+    g++ main.cpp
+    ```
+
+=== "Windows"
+
+    ```
+    g++ main.cpp
+    ```
+
+
 
 Proste, prawda? Teraz, aby uruchomić program, należy wykonać polecenie:
 
-{% tabs %}
-{% tab title="Linux" %}
-```
-./a.out
-```
-{% endtab %}
+=== "Linux"
 
-{% tab title="Windows" %}
-```
-.\a.exe
-```
-{% endtab %}
-{% endtabs %}
+    ```
+    ./a.out
+    ```
+
+=== "Windows"
+
+    ```
+    .\a.exe
+    ```
 
 I to by było na tyle. Do zobaczenia w innym temacie!
 
@@ -48,75 +46,55 @@ Tak jak i w przypadku wielu innych poleceń wywoływanych z terminala, opcje pod
 
 Jeżeli chcemy podać nazwę docelowego wyniku kompilacji, możemy to zrobić za pomocą opcji `-o`.
 
-{% tabs %}
-{% tab title="Linux" %}
-```
-g++ -o main.out main.cpp
-./main.out
-```
-{% endtab %}
-
-{% tab title="Windows" %}
-```
-g++ -o main.exe main.cpp
-.\main.exe
-```
-{% endtab %}
-{% endtabs %}
+=== "Linux"
+    ```
+    g++ -o main.out main.cpp
+    ./main.out
+    ```
+=== "Windows"
+    ```
+    g++ -o main.exe main.cpp
+    .\main.exe
+    ```
 
 ### Więcej warningów!
 
 Jeżeli chcemy zobaczyć w konsoli więcej warningów (masochiści), możemy skorzystać z opcji `-Wall.`
 
-{% tabs %}
-{% tab title="Linux" %}
-```
-g++ -Wall main.cpp
-```
-{% endtab %}
-
-{% tab title="Windows" %}
-```
-g++ -Wall main.cpp
-```
-{% endtab %}
-{% endtabs %}
+=== "Linux"
+    ```
+    g++ -Wall main.cpp
+    ```
+=== "Windows"
+    ```
+    g++ -Wall main.cpp
+    ```
 
 ### Optymalizacja
 
 Potężna opcja. W niektórych przypadkach może poprawić osiągi naszego programu.
 
-{% tabs %}
-{% tab title="Linux" %}
-```
-g++ -O2 main.cpp
-```
-{% endtab %}
-
-{% tab title="Windows" %}
-```
-g++ -O2 main.cpp
-```
-{% endtab %}
-{% endtabs %}
+=== "Linux"
+    ```
+    g++ -O2 main.cpp
+    ```
+=== "Windows"
+    ```
+    g++ -O2 main.cpp
+    ```
 
 ### Debugowanie
 
 Aby włączyć debugowanie użyjemy opcji `-g`.
 
-{% tabs %}
-{% tab title="Linux" %}
-```
-g++ -g main.cpp
-```
-{% endtab %}
-
-{% tab title="Windows" %}
-```
-g++ -g main.cpp
-```
-{% endtab %}
-{% endtabs %}
+=== "Linux"
+    ```
+    g++ -g main.cpp
+    ```
+=== "Windows"
+    ```
+    g++ -g main.cpp
+    ```
 
 ## Przekierowanie wejścia/wyjścia
 
@@ -126,68 +104,48 @@ Uruchamianie skompilowanego programu z terminala ma swoje zalety. Jedną z nich 
 
 Aby przekierować wejście z pliku tekstowego należy skorzystać z operatora `<`.
 
-{% tabs %}
-{% tab title="Linux" %}
-```
-./main.out < dane_wej.txt
-```
-{% endtab %}
-
-{% tab title="Windows" %}
-```
-.\main.exe < dane_wyj.txt
-```
-{% endtab %}
-{% endtabs %}
+=== "Linux"
+    ```
+    ./main.out < dane_wej.txt
+    ```
+=== "Windows"
+    ```
+    .\main.exe < dane_wyj.txt
+    ```
 
 ### Wyjście do pliku
 
 W celu utworzenia pliku i przekierowania do niego wyjścia z naszego programu użyjemy operatora `>`.
 
-{% tabs %}
-{% tab title="Linux" %}
-```
-./main.out > dane_wyj.txt
-```
-{% endtab %}
-
-{% tab title="Windows" %}
-```
-.\main.exe > dane_wyj.txt
-```
-{% endtab %}
-{% endtabs %}
+=== "Linux"
+    ```
+    ./main.out > dane_wyj.txt
+    ```
+=== "Windows"
+    ```
+    .\main.exe > dane_wyj.txt
+    ```
 
 Jeżeli nie chcemy nadpisywać pliku, a jedynie dopisać do niego nowe dane, użyjemy operatora `>>`.
 
-{% tabs %}
-{% tab title="Linux" %}
-```
-./main.out >> dane_wyj.txt
-```
-{% endtab %}
-
-{% tab title="Windows" %}
-```
-.\main.exe > dane_wyj.txt
-```
-{% endtab %}
-{% endtabs %}
+=== "Linux"
+    ```
+    ./main.out >> dane_wyj.txt
+    ```
+=== "Windows"
+    ```
+    .\main.exe > dane_wyj.txt
+    ```
 
 ### Jedno i drugie naraz
 
 Powyższe metody możemy ze sobą łączyć, w dowolnej kolejności.
 
-{% tabs %}
-{% tab title="Linux" %}
-```
-./main.out < dane_wej.txt > dane_wyj.txt
-```
-{% endtab %}
-
-{% tab title="Windows" %}
-```
-.\main.exe < dane_wej.txt > dane_wyj.txt
-```
-{% endtab %}
-{% endtabs %}
+=== "Linux"
+    ```
+    ./main.out < dane_wej.txt > dane_wyj.txt
+    ```
+=== "Windows"
+    ```
+    .\main.exe < dane_wej.txt > dane_wyj.txt
+    ```

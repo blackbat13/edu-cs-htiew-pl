@@ -8,7 +8,7 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$imie$$ - ciąg znaków, małych i wielkich liter alfabetu angielskiego
+* $imie$ - ciąg znaków, małych i wielkich liter alfabetu angielskiego
 
 #### Wynik
 

@@ -2,9 +2,7 @@
 
 JavaScript zwany jest także językiem Internetu. Wykorzystywany jest przede wszystkim na stronach internetowych, głównie do obsługi interakcji z użytkownikiem. Między innymi dlatego cieszy się dużą popularnością. Wbrew swojej nazwie, JavaScript ma niewiele wspólnego z językiem Java, a historycznie bliżej mu do języka C.
 
-{% embed url="https://www.javascript.com/" %}
-Strona języka JavaScript
-{% endembed %}
+[Strona języka JavaScript](https://www.javascript.com/)
 
 ## Kluczowe cechy
 
@@ -22,24 +20,16 @@ JavaScript stał się nieodzowną częścią Internetu, a jego rola stale się z
 
 ## Ściąga
 
-{% embed url="https://quickref.me/javascript" %}
-Ściąga
-{% endembed %}
+[Ściąga](https://quickref.me/javascript)
 
 ## Gry
 
 Ciekawe gry do ćwiczenia zagadnień związanych z językiem JavaScript:
 
-{% embed url="https://alexnisnevich.github.io/untrusted/" %}
-Untrusted
-{% endembed %}
+[Untrusted](https://alexnisnevich.github.io/untrusted/)
 
-{% embed url="https://play.elevatorsaga.com/" %}
-Elevator Saga
-{% endembed %}
+[Elevator Saga](https://play.elevatorsaga.com/)
 
 ## Popularność języka
 
-{% embed url="https://www.tiobe.com/tiobe-index/javascript/" %}
-Wykres popularności języka JavaScript
-{% endembed %}
+[Wykres popularności języka JavaScript](https://www.tiobe.com/tiobe-index/javascript/)

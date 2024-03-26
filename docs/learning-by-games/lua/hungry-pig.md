@@ -16,31 +16,25 @@ Stworzymy prostą grę, w której naszym graczem będzie świnia. Świnie, jak w
 
 Umieszczamy w katalogu **images**.
 
-{% file src="../../.gitbook/assets/hungry_pig_images.zip" %}
-Grafiki do gry Głodna Świnia
-{% endfile %}
+[:material-folder-zip: Grafiki do gry Głodna Świnia](../../assets/hungry_pig_images.zip)
 
 #### Dźwięki
 
 Umieszczamy w katalogu **sounds**.
 
-{% file src="../../.gitbook/assets/hungry_pig_sounds.zip" %}
-Dźwięki do gry Głodna Świnia
-{% endfile %}
+[:material-folder-zip: Dźwięki do gry Głodna Świnia](../../assets/hungry_pig_sounds.zip)
 
 #### Czcionki
 
 Umieszczamy w katalogu **fonts**.
 
-{% file src="../../.gitbook/assets/hungry_pig_fonts.zip" %}
-Czcionki do gry Głodna Świnia
-{% endfile %}
+[:material-folder-zip: Czcionki do gry Głodna Świnia](../../assets/hungry_pig_fonts.zip)
 
 #### Struktura projektu
 
 Po dodaniu potrzebnych materiałów, struktura projektu powinna wyglądać mniej więcej tak jak na grafice poniżej.
 
-![Struktura projektu](../../.gitbook/assets/hungry_pig_structure.png)
+![Struktura projektu](../../assets/hungry_pig_structure.png)
 
 ### Źródła
 
@@ -50,11 +44,11 @@ Po dodaniu potrzebnych materiałów, struktura projektu powinna wyglądać mniej
 
 ## Nasz cel
 
-![Głodna świnia - animacja](../../.gitbook/assets/hungry_pig.gif)
+![Głodna świnia - animacja](../../assets/hungry_pig.gif)
 
 ## Tworzymy okno gry
 
-Zaczynamy od utworzenia okna gry i podstawowej konfiguracji projektu. Wymiary okna ustawimy na $$800\times800$$, ponieważ tak mamy przygotowaną grafikę tła (__bg.png__). Grafikę tła najpierw musimy załadować z pliku za pomocą funkcji `love.graphics.newImage`. Tło wyświetlimy na ekranie w części rysującej za pomocą polecenia `love.graphics.draw`. Przed wyświetleniem tła resetujemy ustawienia kolorów wyświetlania za pomocą polecenia `love.graphics.setColor(1,1,1,1)`.
+Zaczynamy od utworzenia okna gry i podstawowej konfiguracji projektu. Wymiary okna ustawimy na $800\times800$, ponieważ tak mamy przygotowaną grafikę tła (__bg.png__). Grafikę tła najpierw musimy załadować z pliku za pomocą funkcji `love.graphics.newImage`. Tło wyświetlimy na ekranie w części rysującej za pomocą polecenia `love.graphics.draw`. Przed wyświetleniem tła resetujemy ustawienia kolorów wyświetlania za pomocą polecenia `love.graphics.setColor(1,1,1,1)`.
 
 ```lua
 function love.load()
@@ -80,7 +74,7 @@ Zacznijmy od naszej głównej postaci: świni.
 
 ### Dodajemy aktora
 
-Jak przyjrzymy się grafikom, to zobaczymy, że mamy kilka grafik reprezentujących świnię w zależności od kierunku, w którym jest obrócona. Wykorzystamy to przy poruszaniu się świni. Na początku jednak skorzystamy z grafiki __pig_down.png__. Na górze naszego programu, w części inicjalizującej (`love.load`), zaraz pod załadowaniem grafiki tła, tworzymy naszego nowego aktora, którego nazwiemy **Pig**. Naszą postać umieścimy na początku na środku ekranu, czyli pod współrzędnymi $$(400, 400)$$.
+Jak przyjrzymy się grafikom, to zobaczymy, że mamy kilka grafik reprezentujących świnię w zależności od kierunku, w którym jest obrócona. Wykorzystamy to przy poruszaniu się świni. Na początku jednak skorzystamy z grafiki __pig_down.png__. Na górze naszego programu, w części inicjalizującej (`love.load`), zaraz pod załadowaniem grafiki tła, tworzymy naszego nowego aktora, którego nazwiemy **Pig**. Naszą postać umieścimy na początku na środku ekranu, czyli pod współrzędnymi $(400, 400)$.
 
 ```lua
 Pig = {
@@ -118,7 +112,7 @@ Naszą świnią będziemy sterować za pomocą klawiatury. Strzałkami będziemy
 
 Ogólna prędkość posłuży nam do wyznaczania, jak szybko świnia ma się poruszać w wybranym kierunku. Tę wartość będziemy także zwiększać po każdym zjedzonym warzywie.
 
-Dopisujemy więc nowe parametry do naszej świni. Aby na początku świnia stała w miejscu, prędkość poziomą i pionową ustawimy na $$0$$. Natomiast prędkość ogólną ustawimy na $$3$$, co wydaje się być dobrym poziomem startowym dla naszej gry. Oczywiście zachęcam do eksperymentowania!
+Dopisujemy więc nowe parametry do naszej świni. Aby na początku świnia stała w miejscu, prędkość poziomą i pionową ustawimy na $0$. Natomiast prędkość ogólną ustawimy na $3$, co wydaje się być dobrym poziomem startowym dla naszej gry. Oczywiście zachęcam do eksperymentowania!
 
 ```lua
 Pig = {
@@ -145,7 +139,7 @@ function love.update(dt)
 end
 ```
 
-Oczywiście w tym momencie świnia nie będzie się jeszcze poruszać, ponieważ ustawiliśmy jej prędkości na $$0$$. Warto dla testów tymczasowo zmienić prędkości **vx** i **vy**, a następnie uruchomić grę by sprawdzić, czy wszystko działa poprawnie.
+Oczywiście w tym momencie świnia nie będzie się jeszcze poruszać, ponieważ ustawiliśmy jej prędkości na $0$. Warto dla testów tymczasowo zmienić prędkości **vx** i **vy**, a następnie uruchomić grę by sprawdzić, czy wszystko działa poprawnie.
 
 Teraz czas wreszcie dodać obsługę sterowania. W tym celu będziemy potrzebowali nowej funkcji, która pozwoli nam reagować na zdarzenia wciśnięcia klawisza na klawiaturze: `love.keypressed(key, scancode, isrepeat)`. Dopiszemy ją na dole naszego programu, pod funkcją `love.update`. Wewnątrz funkcji będziemy reagować na kliknięcia przycisków na klawiaturze. W zależności od klikniętego przycisku, będziemy wykonywać inne operacje. Jeżeli kliknięta zostanie np. strzałka w lewo, to ustawimy prędkość poziomą **vx** świni na **-v**, wyzerujemy prędkość pionową i zmienimy grafikę na `Pig.images.left`.
 
@@ -260,7 +254,7 @@ Nasza świnia będzie żywić się burakami. Na ekranie zawsze będzie dokładni
 
 ### Dodajemy aktora
 
-Naszego aktora zapiszemy w zmiennej `Beet`. Utworzymy go na podstawie grafiki __beetroot.png__ i początkowo umieścimy w dowolnym miejscu na ekranie, np. pod współrzędnymi $$(200, 200)$$. Nowego aktora definiujemy w części inicjalizującej (`love.load`).
+Naszego aktora zapiszemy w zmiennej `Beet`. Utworzymy go na podstawie grafiki __beetroot.png__ i początkowo umieścimy w dowolnym miejscu na ekranie, np. pod współrzędnymi $(200, 200)$. Nowego aktora definiujemy w części inicjalizującej (`love.load`).
 
 ```lua
 Beet = {
@@ -307,14 +301,14 @@ end
 
 Wszystko będziemy teraz zapisywać w części aktualizującej **love.update**, zaraz pod zmianą pozycji świni.
 
-Po wykryciu kolizji zacznijmy od przemieszczenia buraka w losowe miejsce. Osobno wylosujemy nowe wartości dla współrzędnych $$x$$ oraz $$y$$. Aby jednak burak nie pojawił się na brzegu ekranu, warto zadbać o odpowiedni margines, np $$50$$ pikseli. W celu wylosowania wartości skorzystamy z biblioteki **math** oraz funkcji **random**, do której, jako argumenty, przekazujemy przedział, z jakiego chcemy wylosować wartość.
+Po wykryciu kolizji zacznijmy od przemieszczenia buraka w losowe miejsce. Osobno wylosujemy nowe wartości dla współrzędnych $x$ oraz $y$. Aby jednak burak nie pojawił się na brzegu ekranu, warto zadbać o odpowiedni margines, np $50$ pikseli. W celu wylosowania wartości skorzystamy z biblioteki **math** oraz funkcji **random**, do której, jako argumenty, przekazujemy przedział, z jakiego chcemy wylosować wartość.
 
 ```lua
 Beet.x = math.random(Const.margin, Const.width - Const.margin)
 Beet.y = math.random(Const.margin, Const.height - Const.margin)
 ```
 
-Następnie zwiększamy prędkość świni. W tym celu modyfikujemy parametr **v**, dodając do niego jakąś niewielką liczbę, np. $$0.8$$. Warto poeksperymentować z różnymi wartościami by dobrać odpowiedni dla siebie poziom trudności.
+Następnie zwiększamy prędkość świni. W tym celu modyfikujemy parametr **v**, dodając do niego jakąś niewielką liczbę, np. $0.8$. Warto poeksperymentować z różnymi wartościami by dobrać odpowiedni dla siebie poziom trudności.
 
 ```lua
 Pig.v = Pig.v + 0.8
@@ -439,7 +433,7 @@ end
 
 ## Punkty
 
-Cóż to za gra bez punktów! Dodanie jednak punktów do naszej gry to żaden problem. Punkty będziemy dostawać za każdego zjedzonego buraka. Na początku dopisujemy punkty w postaci nowej zmiennej **points** do naszej świni. Początkowo punkty ustawiamy na $$0$$. Nasza zmienna `Pig` powinna teraz wyglądać mniej więcej tak:
+Cóż to za gra bez punktów! Dodanie jednak punktów do naszej gry to żaden problem. Punkty będziemy dostawać za każdego zjedzonego buraka. Na początku dopisujemy punkty w postaci nowej zmiennej **points** do naszej świni. Początkowo punkty ustawiamy na $0$. Nasza zmienna `Pig` powinna teraz wyglądać mniej więcej tak:
 
 ```lua
 Pig = {
@@ -479,13 +473,13 @@ Fonts = {
 }
 ```
 
-Teraz możemy przystąpić do wyświetlania punktów na ekranie. W tym celu, w części rysującej `love.draw`, dopisujemy wywołanie naszej pomocniczej funkcji `DrawCenteredText`. Jako parametry podamy pozycję tekstu na ekranie (połowa szerokości jako $$x$$ i $$50$$ pikseli jako $$y$$), tekst do wyświetlenia (punkty, czyli `Pig.points`), a także czcionkę do wykorzystania (`Fonts.points`).
+Teraz możemy przystąpić do wyświetlania punktów na ekranie. W tym celu, w części rysującej `love.draw`, dopisujemy wywołanie naszej pomocniczej funkcji `DrawCenteredText`. Jako parametry podamy pozycję tekstu na ekranie (połowa szerokości jako $x$ i $50$ pikseli jako $y$), tekst do wyświetlenia (punkty, czyli `Pig.points`), a także czcionkę do wykorzystania (`Fonts.points`).
 
 ```lua
 DrawCenteredText(Const.width / 2, 50, Pig.points, Fonts.points)
 ```
 
-W celu uzyskania ładnego, żółtego koloru, przed wywołaniem funkcji `DrawCenteredText` dopisujemy jeszcze wywołanie polecenia `love.graphics.setColor`. Wybierzemy kolor $$(253, 238, 0)$$.
+W celu uzyskania ładnego, żółtego koloru, przed wywołaniem funkcji `DrawCenteredText` dopisujemy jeszcze wywołanie polecenia `love.graphics.setColor`. Wybierzemy kolor $(253, 238, 0)$.
 
 ```lua
 love.graphics.setColor(love.math.colorFromBytes(253, 238, 0))
@@ -644,7 +638,7 @@ Pig = {
 
 ### Wyświetlamy komunikat
 
-Zacznijmy od wyświetlenia na ekranie komunikatu o zakończeniu gry. W części rysującej, gdy gra jest zakończona, tzn. gdy zmienna `Pig.dead` ma wartość **true**, wyświetlimy na ekranie komunikat **GAME OVER**. Kolor komunikatu ustawimy na czerwony, a dokładniej $$(227, 0, 34)$$.
+Zacznijmy od wyświetlenia na ekranie komunikatu o zakończeniu gry. W części rysującej, gdy gra jest zakończona, tzn. gdy zmienna `Pig.dead` ma wartość **true**, wyświetlimy na ekranie komunikat **GAME OVER**. Kolor komunikatu ustawimy na czerwony, a dokładniej $(227, 0, 34)$.
 
 ```lua
 if Pig.dead then
@@ -890,7 +884,7 @@ function love.keypressed(key, scancode, isrepeat)
     ...
 ```
 
-Teraz możemy już restartować naszą rozgrywkę. Warto jeszcze wyświetlić dodatkowy komunikat po zakończeniu gry. Najpierw dodajmy nową czcionkę o rozmiarze $$30$$ do naszego zbioru `Fonts`. Nazwiemy ją `tryagain`.
+Teraz możemy już restartować naszą rozgrywkę. Warto jeszcze wyświetlić dodatkowy komunikat po zakończeniu gry. Najpierw dodajmy nową czcionkę o rozmiarze $30$ do naszego zbioru `Fonts`. Nazwiemy ją `tryagain`.
 
 ```lua
 tryagain = love.graphics.newFont("fonts/kenney_bold.ttf", 30)
@@ -1056,6 +1050,4 @@ end
 
 Pełna implementacja dostępna jest poniżej.
 
-{% embed url="https://github.com/blackbat13/hungrypiglualove" %}
-Głodna świnia
-{% endembed %}
+[Głodna świnia](https://github.com/blackbat13/hungrypiglualove)

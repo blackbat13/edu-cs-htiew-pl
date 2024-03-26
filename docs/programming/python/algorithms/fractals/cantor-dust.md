@@ -1,15 +1,11 @@
 # Zbiór Cantora
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/fractals/cantor-dust.md)
 
-{% content-ref url="../../../../algorithms/fractals/cantor-dust.md" %}
-[cantor-dust.md](../../../../algorithms/fractals/cantor-dust.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 import turtle
 
 
@@ -45,8 +41,8 @@ cantor(5, 729)
 turtle.hideturtle()
 turtle.done()
 ```
-{% endcode %}
+
 
 ### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/Cantor-Dust#main.py" %}
+[https://replit.com/@damiankurpiewski/Cantor-Dust#main.py](https://replit.com/@damiankurpiewski/Cantor-Dust#main.py)

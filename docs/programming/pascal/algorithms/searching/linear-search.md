@@ -1,17 +1,13 @@
 # Wyszukiwanie liniowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/linear-search.md)
 
-{% content-ref url="../../../../algorithms/searching/linear-search.md" %}
-[linear-search.md](../../../../algorithms/searching/linear-search.md)
-{% endcontent-ref %}
 
 ## Istnienie elementu
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```pascal
+```pascal linenums="1"
 program lsearch;
 var
 	n: integer = 10;
@@ -47,7 +43,7 @@ begin
 	
 end.
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
@@ -59,8 +55,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: rozm
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```pascal
+```pascal linenums="1"
 program lsearch;
 var
 	n: integer = 10;
@@ -97,7 +92,7 @@ begin
 	
 end.
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
@@ -109,8 +104,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: rozm
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```pascal
+```pascal linenums="1"
 program lsearch;
 var
 	n: integer = 10;
@@ -133,7 +127,7 @@ begin
 	linear_search(n, arr, number);
 end.
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 

@@ -10,9 +10,7 @@ W pliku *restaurant.txt* znajdują się dane o zamówieniach pewnej restauracji 
 
 Dane są rodzielone średnikami. Pierwszy wiersz pliku zawiera nazwy kolumn.
 
-{% file src="../../../../.gitbook/assets/restaurant/restaurant.txt" %}
-restaurant.txt
-{% endfile %}
+[:material-note-text: restaurant.txt](../../../../assets/restaurant/restaurant.txt)
 
 Rodzaj zamówienia zakodowany jest za pomocą liczby naturalnej. Zapis binarny tej liczby na 5 bitach zawiera informacje o tym, co zostało zamówione. Jedynka na danym miejscu oznacza, że została zamówiona pozycja z menu odpowiadająca danemu miejscu. Idąc od bitu **najmniej znaczącego**, kolejne pozycje odpowiadają następującym kategoriom:
 
@@ -22,16 +20,15 @@ Rodzaj zamówienia zakodowany jest za pomocą liczby naturalnej. Zapis binarny t
 - danie główne
 - deser
 
-{% hint style="info" %}
-**Przykład**
-
-Liczba $$10$$ zapisana na pięciu bitach to: $$01001$$
-
-Co oznacza to, że zostały zamówione:
-
-- pozycja 1 (napój ciepły)
-- pozycja 4 (danie główne)
-{% endhint %}
+!!! info
+	**Przykład**
+	
+	Liczba $10$ zapisana na pięciu bitach to: $01001$
+	
+	Co oznacza to, że zostały zamówione:
+	
+	- pozycja 1 (napój ciepły)
+	- pozycja 4 (danie główne)
 
 # Zadanie 1
 
@@ -41,7 +38,7 @@ Dla pierwszych 100 wierszy wynik to:
 
 |      **Rodzaj**     | **Napój ciepły** | **Napój zimny** | **Przystawka** | **Danie główne** | **Deser** |
 |:-------------------:|:----------------:|:---------------:|:--------------:|:----------------:|:---------:|
-| **Liczba zamówień** |        $$49$$        |        $$59$$       |       $$48$$       |        $$56$$        |     $$50$$    |
+| **Liczba zamówień** |        $49$        |        $59$       |       $48$       |        $56$        |     $50$    |
 
 ## Zadanie 2
 
@@ -63,7 +60,7 @@ Wynik dla stycznia:
 
 | **Miesiąc** | **Liczba zamówień poniżej 50,00 zł** | **Liczba zamówień od 50,00 do   100,00 zł** | **Liczba zamówień od 100,01 do   150,00 zł** | **Liczba zamówień powyżej 150,00   zł** |
 |:-----------:|:------------------------------------:|:-------------------------------------------:|:--------------------------------------------:|:---------------------------------------:|
-|     styczeń     |                  $$20$$                  |                      $$19$$                     |                      $$16$$                      |                    $$17$$                   |
+|     styczeń     |                  $20$                  |                      $19$                     |                      $16$                      |                    $17$                   |
 
 ## Zadanie 5
 
@@ -84,7 +81,7 @@ Napiwki są zawsze zaokrąglane **w górę** do pełnych groszy.
 
 Oblicz wysokość napiwków dla każdego miesiąca z podziałem na stoliki.
 
-W styczniu wysokość napiwków ze stolika pierwszego wynosiła $$24,14$$ złotych.
+W styczniu wysokość napiwków ze stolika pierwszego wynosiła $24,14$ złotych.
 
 ## Zadanie 7
 
@@ -92,4 +89,4 @@ Właściciel restauracji postanawia wprowadzić następującą promocję: każde
 
 Wyniki przedstaw na wykresie. Zadbaj o czytelność wykresu.
 
-W przedziale godzinowym od 10:00:00 do 11:59:59 sumy przychody restauracji byłyby mniejsze o $$1210,14$$ zł.
+W przedziale godzinowym od 10:00:00 do 11:59:59 sumy przychody restauracji byłyby mniejsze o $1210,14$ zł.

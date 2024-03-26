@@ -8,9 +8,7 @@ Sortowanie wolne (ang. *Slowsort*) to jeden z humorystycznych i niepraktycznych 
 
 ## Animacja
 
-{% embed url="https://www.youtube.com/watch?v=QbRoyhGdjnA" %}
 [Animacja sortowania wolnego](https://www.youtube.com/watch?v=QbRoyhGdjnA)
-{% endembed %}
 
 ## Pseudokod
 
@@ -33,12 +31,12 @@ procedura SortowanieWolne(A, pocz, kon):
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/sorting/slow-sort.md" %}
+
 [slow-sort.md](../../programming/c++/algorithms/sorting/slow-sort.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/sorting/slow-sort.md" %}
+
 [slow-sort.md](../../programming/python/algorithms/sorting/slow-sort.md)
-{% endcontent-ref %}
+

@@ -1,15 +1,11 @@
 # Najdłuższy spójny podciąg rosnący
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/longest-growing-substring.md)
 
-{% content-ref url="../../../../algorithms/searching/longest-growing-substring.md" %}
-[longest-growing-substring.md](../../../../algorithms/searching/longest-growing-substring.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```julia
+```julia linenums="1"
 function longestGrowingSubstring(array)
     maxLength = 1
     currentLength = 1
@@ -31,4 +27,4 @@ array = [4, 9, 7, 2, 4, 7, 9, 3, 8, 6]
 
 println(longestGrowingSubstring(array))
 ```
-{% endcode %}
+

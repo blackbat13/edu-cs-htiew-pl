@@ -1,15 +1,11 @@
 # Problem skoczka
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/backtracking/knights-tour.md)
 
-{% content-ref url="../../../../algorithms/backtracking/knights-tour.md" %}
-[knights-tour.md](../../../../algorithms/backtracking/knights-tour.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 from pprint import pprint
 
 
@@ -45,4 +41,4 @@ if result_value:
 else:
     print("No result")
 ```
-{% endcode %}
+

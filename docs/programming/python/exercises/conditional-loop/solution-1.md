@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$n$$ - liczba naturalna
+* $n$ - liczba naturalna
 
 #### Wynik
 
-* Kolejne cyfry liczby $$n$$, wypisane od końca, tzn. zaczynając od cyfry jedności
+* Kolejne cyfry liczby $n$, wypisane od końca, tzn. zaczynając od cyfry jedności
 
 ## Rozwiązanie
 

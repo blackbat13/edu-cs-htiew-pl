@@ -8,6 +8,5 @@ Poświęć czas na rozwiązanie każdego zadania. Zastanów się nad różnymi s
 
 Zadania podzielone są ze względu na tematy. Tematy ułożone są w sugerowanej kolejności poznawania zagadnień. Każdy temat zawiera od kilku do kilkunastu zadań. Po rozwinięciu tematu pojawią się przykładowe rozwiązania poszczególnych zadań, każde na osobnej stronie. Pamiętaj, że każde zadanie można rozwiązać na kilka sposobów. 
 
-{% hint style="danger" %}
-**Zajrzyj do przykładowego rozwiązania dopiero, jak samodzielnie wykonasz zadanie.**
-{% endhint %}
+!!! danger
+	 **Zajrzyj do przykładowego rozwiązania dopiero, jak samodzielnie wykonasz zadanie.**

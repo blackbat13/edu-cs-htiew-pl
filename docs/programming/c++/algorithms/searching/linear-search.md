@@ -1,17 +1,13 @@
 # Wyszukiwanie liniowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/linear-search.md)
 
-{% content-ref url="../../../../algorithms/searching/linear-search.md" %}
-[linear-search.md](../../../../algorithms/searching/linear-search.md)
-{% endcontent-ref %}
 
 ## Istnienie elementu
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -42,11 +38,11 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
-Funkcja `linearSearch` (**linia 5**) zwraca jako wynik wartość prawda/fałsz i przyjmuje trzy argumenty: tablicę do przeszukania, rozmiar tablicy oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy od $$0$$ do $$n-1$$ włącznie (**linia 6**). Dla każdego indeksu sprawdzamy, czy pod tym indeksem w tablicy znajduje się poszukiwana wartość (**linia 7**). Jeżeli tak, to zwracamy informację o znalezieniu wartości w tablicy (**linia 8**). Po przejściu przez wszystkie indeksy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość `false` informującą, że poszukiwany element nie znajduje się w tablicy (**linia 12**).
+Funkcja `linearSearch` (**linia 5**) zwraca jako wynik wartość prawda/fałsz i przyjmuje trzy argumenty: tablicę do przeszukania, rozmiar tablicy oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy od $0$ do $n-1$ włącznie (**linia 6**). Dla każdego indeksu sprawdzamy, czy pod tym indeksem w tablicy znajduje się poszukiwana wartość (**linia 7**). Jeżeli tak, to zwracamy informację o znalezieniu wartości w tablicy (**linia 8**). Po przejściu przez wszystkie indeksy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość `false` informującą, że poszukiwany element nie znajduje się w tablicy (**linia 12**).
 
 W części głównej programu na początku przygotowujemy dane do problemu: tablicę (**linia 16**), jej rozmiar (**linia 17**), oraz wartość poszukiwanego elementu (**linia 18**). Następnie wywołujemy funkcję `linearSearch` z wcześniej przygotowanymi parametrami i jej wynik zapisujemy w nowej zmiennej `result` (**linia 20**). W zależności od wyniku (**linia 22**) wypisujemy odpowiedni komunikat (**linie 23 i 25**).
 
@@ -54,8 +50,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: tabl
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -86,11 +81,11 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
-Funkcja `linearSearch` (**linia 5**) zwraca jako wynik liczbę całkowitą i przyjmuje trzy argumenty: tablicę do przeszukania, rozmiar tablicy oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy od $$0$$ do $$n-1$$ włącznie (**linia 6**). Dla każdego indeksu sprawdzamy, czy pod tym indeksem w tablicy znajduje się poszukiwana wartość (**linia 7**). Jeżeli tak, to zwracamy indeks tej wartości w tablicy (**linia 8**). Po przejściu przez wszystkie indeksy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość $$-1$$ informującą, że poszukiwany element nie znajduje się w tablicy (**linia 12**).
+Funkcja `linearSearch` (**linia 5**) zwraca jako wynik liczbę całkowitą i przyjmuje trzy argumenty: tablicę do przeszukania, rozmiar tablicy oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy od $0$ do $n-1$ włącznie (**linia 6**). Dla każdego indeksu sprawdzamy, czy pod tym indeksem w tablicy znajduje się poszukiwana wartość (**linia 7**). Jeżeli tak, to zwracamy indeks tej wartości w tablicy (**linia 8**). Po przejściu przez wszystkie indeksy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość $-1$ informującą, że poszukiwany element nie znajduje się w tablicy (**linia 12**).
 
 W części głównej programu na początku przygotowujemy dane do problemu: tablicę (**linia 16**), jej rozmiar (**linia 17**), oraz wartość poszukiwanego elementu (**linia 18**). Następnie wywołujemy funkcję `linearSearch` z wcześniej przygotowanymi parametrami i jej wynik zapisujemy w nowej zmiennej `index` (**linia 20**). W zależności od wyniku (**linia 22**) wypisujemy odpowiedni komunikat (**linie 23 i 25**).
 
@@ -98,8 +93,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: tabl
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -123,10 +117,10 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
-Funkcja `linearSearch` (**linia 5**) nie zwraca wyniku i przyjmuje trzy argumenty: tablicę do przeszukania, rozmiar tablicy oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy od $$0$$ do $$n-1$$ włącznie (**linia 6**). Dla każdego indeksu sprawdzamy, czy pod tym indeksem w tablicy znajduje się poszukiwana wartość (**linia 7**). Jeżeli tak, to wypisujemy ten indeks (**linia 8**). 
+Funkcja `linearSearch` (**linia 5**) nie zwraca wyniku i przyjmuje trzy argumenty: tablicę do przeszukania, rozmiar tablicy oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy od $0$ do $n-1$ włącznie (**linia 6**). Dla każdego indeksu sprawdzamy, czy pod tym indeksem w tablicy znajduje się poszukiwana wartość (**linia 7**). Jeżeli tak, to wypisujemy ten indeks (**linia 8**). 
 
 W części głównej programu na początku przygotowujemy dane do problemu: tablicę (**linia 14**), jej rozmiar (**linia 15**), oraz wartość poszukiwanego elementu (**linia 16**). Następnie wypisujemy stosowny komunikat i wywołujemy funkcję `linearSearch` z wcześniej przygotowanymi parametrami.

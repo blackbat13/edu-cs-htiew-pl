@@ -14,13 +14,13 @@ Początkowo plansza jest zakryta, a celem gry jest odkrycie wszystkich pól poza
 
 #### Dane:
 
-* $$n$$ - liczba naturalna, wysokość planszy
-* $$m$$ - liczba naturalna, szerokość planszy
-* $$plansza[n][m]$$ - plansza wypełniona znakami $$*$$ oraz $$.$$ oznaczającymi odpowiednio bombę i pole puste
+* $n$ - liczba naturalna, wysokość planszy
+* $m$ - liczba naturalna, szerokość planszy
+* $plansza[n][m]$ - plansza wypełniona znakami $*$ oraz $.$ oznaczającymi odpowiednio bombę i pole puste
 
 #### Wynik
 
-* $$plansza[n][m]$$ - plansza wypełniona bombami i liczbami zgodnie z regułami gry saper
+* $plansza[n][m]$ - plansza wypełniona bombami i liczbami zgodnie z regułami gry saper
 
 ## Implementacja
 
@@ -148,4 +148,4 @@ int main() {
 
 ### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/Saper#main.cpp" %}
+[https://replit.com/@damiankurpiewski/Saper#main.cpp](https://replit.com/@damiankurpiewski/Saper#main.cpp)

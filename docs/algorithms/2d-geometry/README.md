@@ -4,7 +4,7 @@ Geometria obliczeniowa (czasem nazywana geometrią algorytmiczną) zajmuje się 
 
 ## Podstawowe pojęcia
 
-- **Punkt**: Najbardziej podstawowy obiekt w geometrii 2D. Charakteryzuje się dwoma współrzędnymi: $$(x, y)$$.
+- **Punkt**: Najbardziej podstawowy obiekt w geometrii 2D. Charakteryzuje się dwoma współrzędnymi: $(x, y)$.
 - **Odcinek**: Połączenie dwóch punktów linią.
 - **Wielokąt**: Zamknięta figura utworzona przez trzy lub więcej odcinków.
 - **Okrąg**: Wszystkie punkty w równym oddaleniu od jednego centralnego punktu.

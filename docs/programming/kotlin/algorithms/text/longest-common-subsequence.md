@@ -1,10 +1,7 @@
 # Najdłuższy wspólny podciąg
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/longest-common-subsequence.md)
 
-{% content-ref url="../../../../algorithms/text/longest-common-subsequence.md" %}
-[longest-common-subsequence.md](../../../../algorithms/text/longest-common-subsequence.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -48,9 +45,7 @@ print(f"Longest common subsequence of words {a} and {b} is {lcs}")
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/gdvNTT" %}
-Najdłuższy wspólny podciąg
-{% endembed %}
+[Najdłuższy wspólny podciąg](https://ideone.com/gdvNTT)
 
 ### Opis implementacji
 

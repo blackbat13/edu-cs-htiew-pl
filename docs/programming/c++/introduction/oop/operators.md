@@ -4,7 +4,7 @@
 
 Na nowo zdefiniowanych własnych typach przeprowadzamy różne operacje.
 Często są to także standardowe operacje arytmetyczne, jak np. dodanie do siebie współrzędnych dwóch punktów.
-W takich sytuacjach wygodniej jest korzystać z predefiniowanych operatorów, takich jak operator dodawania $$+$$ zamiast z metod typu ``add``.
+W takich sytuacjach wygodniej jest korzystać z predefiniowanych operatorów, takich jak operator dodawania $+$ zamiast z metod typu ``add``.
 
 Wyobraźmy sobie, że mamy dwie zmienne (obiekty) reprezentujące punkty: ``p1`` oraz ``p2``. 
 Chcemy dodać współrzędne jednego punktu do drugiego i wynik zapisać w zmiennej ``p1``.
@@ -13,13 +13,11 @@ Używając jednak **przeciążenia operatorów** możemy zapisać ``p1 = p1 + p2
 
 ### Dokumentacja
 
-{% embed url="https://en.cppreference.com/w/cpp/language/operators" %}
-operatory - dokumentacja
-{% endembed %}
+[operatory - dokumentacja](https://en.cppreference.com/w/cpp/language/operators)
 
 ## Przykład: dodawanie punktów
 
-Operator dodawania $$+$$ jest jednym ze standardowych operatorów **dwuargumentowych**.
+Operator dodawania $+$ jest jednym ze standardowych operatorów **dwuargumentowych**.
 Oznacza to, że działa na dwóch argumentach, a jego wynikiem jest nowa wartość.
 **Przeciążając ten operator nie powinniśmy modyfikować obecnego obiektu, ale utworzyć nowy i zwrócić go jako wynik.**
 
@@ -110,4 +108,4 @@ double Point2D::operator[](int index) {
   std::cout << point3[2] << std::endl;
 ```
 
-Próba wypisania wartości pod indeksem $$2$$ zakończy się błędem.
+Próba wypisania wartości pod indeksem $2$ zakończy się błędem.

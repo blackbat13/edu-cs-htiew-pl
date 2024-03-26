@@ -1,10 +1,7 @@
 # Szybkie potęgowanie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/numerical-methods/fast-exp.md)
 
-{% content-ref url="../../../../algorithms/numerical-methods/fast-exp.md" %}
-[fast-exp.md](../../../../algorithms/numerical-methods/fast-exp.md)
-{% endcontent-ref %}
 
 ## Rozwiązanie rekurencyjne
 
@@ -29,9 +26,7 @@ print(f"{a}^{n} = {result}")
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/3i2qdR" %}
-Szybkie potęgowanie - wersja rekurencyjna
-{% endembed %}
+[Szybkie potęgowanie - wersja rekurencyjna](https://ideone.com/3i2qdR)
 
 ### Opis implementacji
 
@@ -63,9 +58,7 @@ print(f"{a}^{n} = {result}")
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/pSGzrA" %}
-Szybkie potęgowanie - wersja iteracyjna
-{% endembed %}
+[Szybkie potęgowanie - wersja iteracyjna](https://ideone.com/pSGzrA)
 
 ### Opis implementacji
 

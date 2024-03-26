@@ -22,9 +22,8 @@ int main() {
 }
 ```
 
-{% hint style="info" %}
-Wynik dzielenia liczb całkowitych będzie także liczbą całkowitą, tzn. wartością zaokrągloną w dół.
-{% endhint %}
+!!! info
+	 Wynik dzielenia liczb całkowitych będzie także liczbą całkowitą, tzn. wartością zaokrągloną w dół.
 
 ### Dzielenie rzeczywiste
 

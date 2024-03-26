@@ -2,14 +2,12 @@
 
 ## Opis problemu
 
-{% content-ref url="../../../../algorithms/numeral-systems/README.md" %}
 [Systemy liczbowe](../../../../algorithms/numeral-systems/README.md)
-{% endcontent-ref %}
+
 
 ## Konwersja z dziesiętnego
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -43,12 +41,11 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ## Konwersja na dziesiętny
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
  
 using namespace std;
@@ -85,4 +82,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

@@ -2,7 +2,7 @@
 
 Wyobraźmy sobie spotkanie w lokalnym klubie miłośników książek, gdzie każdy uczestnik ma przedstawić swoją ulubioną powieść. Po prezentacji każdej książki, uczestnicy wrzucają do urny kartkę z tytułem wybranej przez siebie powieści. Po zakończonym spotkaniu chcemy dowiedzieć się, czy jest taka książka, która zdobyła serca większości uczestników.
 
-Lider zbioru to element (w tym przypadku tytuł książki), który pojawia się w zbiorze więcej niż połowę razy. Innymi słowy, jeśli w klubie było $$100$$ uczestników, lider to taka książka, która została wybrana przez **co najmniej** $$51$$ osób.
+Lider zbioru to element (w tym przypadku tytuł książki), który pojawia się w zbiorze więcej niż połowę razy. Innymi słowy, jeśli w klubie było $100$ uczestników, lider to taka książka, która została wybrana przez **co najmniej** $51$ osób.
 
 Dlaczego jest to ważne? Znalezienie lidera w zbiorze może pomóc nam zrozumieć dominujące tendencje lub preferencje w danym środowisku. W kontekście klubu książki, dowiedzenie się, która książka jest najbardziej popularna, może sugerować, jakie tematy lub style literackie są obecnie na czasie. W innych kontekstach, takich jak analiza danych czy badania rynku, identyfikacja lidera może dostarczyć cennych informacji o zachowaniach konsumentów, trendach czy dominujących opiniach.
 
@@ -10,20 +10,19 @@ Dlaczego jest to ważne? Znalezienie lidera w zbiorze może pomóc nam zrozumie�
 
 ### Dane:
 
-* $$n$$ — liczba naturalna, liczebność zbioru
-* $$A[1..n]$$ — $$n-elementowy$$ zbiór liczb całkowitych, indeksowany od jedynki
+* $n$ — liczba naturalna, liczebność zbioru
+* $A[1..n]$ — $n-elementowy$ zbiór liczb całkowitych, indeksowany od jedynki
 
 ### Wynik:
 
 * Lider podanego zbioru, lub -1, jeżeli lider nie istnieje.
 
-{% hint style="info" %}
-**Lider zbioru**
-
-**Liderem** zbioru $$n-elementowego$$ nazywamy element, którego ilość wystąpień w zbiorze jest większa niż $$\frac{n}{2}$$.
-
-Jeżeli taki element nie istnieje, to zbiór nie ma lidera.
-{% endhint %}
+!!! info
+	**Lider zbioru**
+	
+	**Liderem** zbioru $n-elementowego$ nazywamy element, którego ilość wystąpień w zbiorze jest większa niż $\frac{n}{2}$.
+	
+	Jeżeli taki element nie istnieje, to zbiór nie ma lidera.
 
 ## Przykład 1
 
@@ -36,11 +35,10 @@ A := [4, 1, 4, 4, 2, 3, 4, 3, 4, 4]
 
 **Wynik**: 4
 
-{% hint style="info" %}
-**Wyjaśnienie**
-
-Najczęściej występującym elementem w powyższym zbiorze jest wartość $$4$$, która występuje dokładnie $$6$$ razy, co **jest wartością większą** od $$n/2=10/2=5$$.
-{% endhint %}
+!!! info
+	**Wyjaśnienie**
+	
+	Najczęściej występującym elementem w powyższym zbiorze jest wartość $4$, która występuje dokładnie $6$ razy, co **jest wartością większą** od $n/2=10/2=5$.
 
 ## Przykład 2
 
@@ -51,13 +49,12 @@ n := 10
 A := [4, 1, 4, 4, 2, 3, 4, 3, 4, 1]
 ```
 
-**Wynik**: $$-1$$ (brak lidera)
+**Wynik**: $-1$ (brak lidera)
 
-{% hint style="info" %}
-**Wyjaśnienie**
-
-Najczęściej występującym elementem w powyższym zbiorze jest wartość $$4$$, która występuje dokładnie $$5$$ razy, co **nie jest** **wartością większą** od $$n/2=10/2=5$$.
-{% endhint %}
+!!! info
+	**Wyjaśnienie**
+	
+	Najczęściej występującym elementem w powyższym zbiorze jest wartość $4$, która występuje dokładnie $5$ razy, co **nie jest** **wartością większą** od $n/2=10/2=5$.
 
 ## Rozwiązanie naiwne
 
@@ -81,10 +78,10 @@ funkcja SzukajLidera(n, A):
 - Dla każdego elementu listy (`A`):
   - Zerujemy licznik `ile`.
   - Następnie dla każdego innego elementu w tej samej liście:
-    - Jeśli dany element jest taki sam jak nasz wybrany element, dodajemy $$1$$ do licznika.
+    - Jeśli dany element jest taki sam jak nasz wybrany element, dodajemy $1$ do licznika.
   - Po przejrzeniu wszystkich innych elementów sprawdzamy licznik:
     - Jeśli nasz wybrany element pojawia się więcej niż połowę razy w liście (czyli licznik `ile` jest większy niż `n/2`), to znaczy, że znaleźliśmy lidera i zwracamy go.
-- Jeśli przeszliśmy przez całą listę i nie znaleźliśmy lidera, zwracamy $$-1$$, co oznacza, że nie ma lidera w liście.
+- Jeśli przeszliśmy przez całą listę i nie znaleźliśmy lidera, zwracamy $-1$, co oznacza, że nie ma lidera w liście.
 
 W skrócie, ten pseudokod sprawdza każdy element listy, czy jest liderem, licząc ile razy pojawia się w całej liście. Jeśli którykolwiek element pojawia się więcej niż połowę razy, jest liderem. Jeśli żaden element nie spełnia tego kryterium, nie ma lidera.
 
@@ -113,7 +110,7 @@ flowchart TD
 
 ### Złożoność
 
-$$O(n^2)$$ — kwadratowa
+$O(n^2)$ — kwadratowa
 
 ## Rozwiązanie optymalne
 
@@ -154,21 +151,21 @@ funkcja SzukajLidera(n, A)
 ```
 
 1. **Funkcja Zlicz** - ta funkcja liczy, ile razy dany element (`el`) pojawia się w liście (`A`).
-   * Zaczynamy z licznikiem `ile` na $$0$$.
+   * Zaczynamy z licznikiem `ile` na $0$.
    * Przechodzimy przez każdy element listy (`A`).
-   * Jeśli element listy jest taki sam jak szukany element (`el`), dodajemy $$1$$ do licznika.
+   * Jeśli element listy jest taki sam jak szukany element (`el`), dodajemy $1$ do licznika.
    * Na końcu zwracamy wartość licznika.
 
 2. **Funkcja SzukajLidera** - ta funkcja szuka lidera w liście (`A`).
    * Zakładamy na początek, że pierwszy element listy to lider.
-   * Ustawiamy licznik `ile` na $$1$$.
+   * Ustawiamy licznik `ile` na $1$.
    * Przechodzimy przez resztę listy:
-     * Jeśli licznik `ile` wynosi $$0$$, aktualny element staje się nowym liderem, a licznik jest resetowany do $$1$$.
-     * Jeśli aktualny element jest taki sam jak nasz obecny lider, dodajemy $$1$$ do licznika.
-     * W przeciwnym razie odejmujemy $$1$$ od licznika.
+     * Jeśli licznik `ile` wynosi $0$, aktualny element staje się nowym liderem, a licznik jest resetowany do $1$.
+     * Jeśli aktualny element jest taki sam jak nasz obecny lider, dodajemy $1$ do licznika.
+     * W przeciwnym razie odejmujemy $1$ od licznika.
    * Po przejściu przez całą listę sprawdzamy, czy nasz lider występuje więcej niż połowę razy w liście. Używamy do tego funkcji **Zlicz**.
    * Jeśli tak, zwracamy go jako lidera.
-   * W przeciwnym razie zwracamy $$-1$$, co oznacza, że nie ma lidera.
+   * W przeciwnym razie zwracamy $-1$, co oznacza, że nie ma lidera.
 
 ### Schemat blokowy
 
@@ -210,44 +207,44 @@ flowchart TD
 
 ### Złożoność
 
-$$O(n)$$ — liniowa
+$O(n)$ — liniowa
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/searching/majority.md" %}
+
 [majority.md](../../programming/c++/algorithms/searching/majority.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/searching/majority.md" %}
+
 [majority.md](../../programming/python/algorithms/searching/majority.md)
-{% endcontent-ref %}
+
 
 ### Kotlin
 
-{% content-ref url="../../programming/kotlin/algorithms/searching/majority.md" %}
+
 [majority.md](../../programming/kotlin/algorithms/searching/majority.md)
-{% endcontent-ref %}
+
 
 ## Implementacje — pozostałe
 
 ### C
 
-{% content-ref url="../../programming/c/algorithms/searching/majority.md" %}
+
 [majority.md](../../programming/c/algorithms/searching/majority.md)
-{% endcontent-ref %}
+
 
 ### Julia
 
-{% content-ref url="../../programming/julia/algorithms/searching/majority.md" %}
+
 [majority.md](../../programming/julia/algorithms/searching/majority.md)
-{% endcontent-ref %}
+
 
 ## Powiązane zagadnienia
 
 - Znajdowanie lidera w posortowanej tablicy.
 - Znajdowanie lidera w dwuwymiarowej tablicy, gdzie każdy wiersz jest posortowany.
-- Znajdowanie wszystkich elementów, które występują w tablicy więcej niż $$n/k$$ razy, gdzie $$n$$ to rozmiar tablicy, a $$k$$ to zadana liczba naturalna, $$n\geq k>0$$.
+- Znajdowanie wszystkich elementów, które występują w tablicy więcej niż $n/k$ razy, gdzie $n$ to rozmiar tablicy, a $k$ to zadana liczba naturalna, $n\geq k>0$.

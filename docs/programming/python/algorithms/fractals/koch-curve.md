@@ -1,15 +1,11 @@
 # Krzywa Kocha
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/fractals/koch-curve.md)
 
-{% content-ref url="../../../../algorithms/fractals/koch-curve.md" %}
-[koch-curve.md](../../../../algorithms/fractals/koch-curve.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 import turtle
 
 
@@ -35,8 +31,8 @@ koch_curve(3, 200)
 
 turtle.done()
 ```
-{% endcode %}
+
 
 ### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/Koch-Curve#main.py" %}
+[https://replit.com/@damiankurpiewski/Koch-Curve#main.py](https://replit.com/@damiankurpiewski/Koch-Curve#main.py)

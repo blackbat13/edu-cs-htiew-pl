@@ -1,10 +1,7 @@
 # Szyfr Playfaira
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/cryptography/symmetric/playfair.md)
 
-{% content-ref url="../../../../algorithms/cryptography/symmetric/playfair.md" %}
-[playfair.md](../../../../algorithms/cryptography/symmetric/playfair.md)
-{% endcontent-ref %}
 
 ## Implementacja
 

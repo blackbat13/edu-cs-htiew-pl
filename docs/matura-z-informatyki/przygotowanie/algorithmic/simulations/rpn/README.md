@@ -2,9 +2,9 @@
 
 ## Opis algorytmu
 
-{% content-ref url="../../../../../algorithms/text/rpn.md" %}
+
 [rpn.md](../../../../../algorithms/text/rpn.md)
-{% endcontent-ref %}
+
 
 ## Zadanie 1
 

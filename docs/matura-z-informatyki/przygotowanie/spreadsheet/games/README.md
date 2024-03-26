@@ -1,6 +1,6 @@
 # Gry
 
-W pliku *gry.txt* znajdują się informacje na temat $$100$$ najpopularniejszych gier pod kątem recenzji z platformy Metacritic. Każda linia zawiera następujące informacje:
+W pliku *gry.txt* znajdują się informacje na temat $100$ najpopularniejszych gier pod kątem recenzji z platformy Metacritic. Każda linia zawiera następujące informacje:
 
 - pozycję gry w rankingu,
 - tytuł gry,
@@ -10,9 +10,7 @@ W pliku *gry.txt* znajdują się informacje na temat $$100$$ najpopularniejszych
 
 Dane oddzielone są znakiem tabulacji. Pierwszy wiersz zawiera nagłówki kolumn.
 
-{% file src="../../../../.gitbook/assets/gry.txt" %}
-gry.txt
-{% endfile %}
+[:material-note-text: gry.txt](../../../../assets/gry.txt)
 
 Źródło danych: [https://www.kaggle.com/datasets/faisaljanjua0555/best-video-games-of-all-time](https://www.kaggle.com/datasets/faisaljanjua0555/best-video-games-of-all-time)
 

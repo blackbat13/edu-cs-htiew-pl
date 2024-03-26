@@ -8,5 +8,5 @@ description: Algorytm A*
 
 Kliknięcie dowolnego klawisza powoduje ponowne wygenerowanie planszy i uruchomienie algorytmu.
 
-{% embed url="https://replit.com/@damiankurpiewski/aStarPathfinding#main.py" %}
+[https://replit.com/@damiankurpiewski/aStarPathfinding#main.py](https://replit.com/@damiankurpiewski/aStarPathfinding#main.py)
 

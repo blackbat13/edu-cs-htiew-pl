@@ -1,15 +1,11 @@
 # Problem n królowych
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/backtracking/n-queens.md)
 
-{% content-ref url="../../../../algorithms/backtracking/n-queens.md" %}
-[n-queens.md](../../../../algorithms/backtracking/n-queens.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```julia
+```julia linenums="1"
 function checkNewPosition(x, y, positions)
     for i in 1:x
         if positions[i] == y || y - positions[i] == x - i
@@ -62,4 +58,4 @@ if result
     printCheckboard(n, positions)
 end
 ```
-{% endcode %}
+

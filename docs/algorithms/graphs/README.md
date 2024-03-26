@@ -8,8 +8,8 @@ Grafy są niezwykle użyteczne w wielu dziedzinach, takich jak sieci komputerowe
 
 Istnieje kilka podstawowych typów grafów, a każdy ma swoje zastosowania.
 
-- **Graf nieskierowany**: Graf, w którym krawędzie **nie mają kierunku**. Jeśli istnieje krawędź między wierzchołkami $$A$$ i $$B$$, to można poruszać się z $$A$$ do $$B$$ i z $$B$$ do $$A$$.
-- **Graf skierowany**: Graf, w którym krawędzie **mają kierunek**. Jeśli istnieje krawędź z $$A$$ do $$B$$, to nie można poruszać się z $$B$$ do $$A$$, chyba że istnieje tam osobna krawędź.
+- **Graf nieskierowany**: Graf, w którym krawędzie **nie mają kierunku**. Jeśli istnieje krawędź między wierzchołkami $A$ i $B$, to można poruszać się z $A$ do $B$ i z $B$ do $A$.
+- **Graf skierowany**: Graf, w którym krawędzie **mają kierunek**. Jeśli istnieje krawędź z $A$ do $B$, to nie można poruszać się z $B$ do $A$, chyba że istnieje tam osobna krawędź.
 - **Graf ważony**: Graf, w którym krawędzie mają **wartość (wagę)** przypisaną. Te wagi mogą reprezentować różne rzeczy, takie jak koszt, długość, pojemność itp., w zależności od problemu, który próbujemy rozwiązać.
 - **Graf nieważony**: Graf, w którym krawędzie **nie mają przypisanej wartości**.
 
@@ -17,9 +17,9 @@ Istnieje kilka podstawowych typów grafów, a każdy ma swoje zastosowania.
 
 Aby móc efektywnie pracować z grafami i wykorzystywać je w algorytmice, potrzebne nam są struktury do ich efektywnej reprezentacji i przechowywania w pamięci programu/komputera. Zazwyczaj rozważamy trzy podstawowe sposoby reprezentacji grafu:
 
-- **Macierz sąsiedztwa**: Jest to kwadratowa macierz o wymiarach $$N\times N$$, gdzie $$N$$ to liczba wierzchołków w grafie. Element macierzy $$M[i][j]$$ jest równy $$1$$, jeśli istnieje krawędź między wierzchołkami $$i$$ oraz $$j$$, a w przeciwnym razie jest równy $$0$$. W przypadku grafów ważonych wartości te zastępuje waga krawędzi. Macierz sąsiedztwa jest prosta do zrozumienia i implementacji, ale jest nieefektywna dla grafów rzadkich (tzn. z małą liczbą krawędzi), ponieważ wymaga przechowywania $$N^2$$ wartości.
+- **Macierz sąsiedztwa**: Jest to kwadratowa macierz o wymiarach $N\times N$, gdzie $N$ to liczba wierzchołków w grafie. Element macierzy $M[i][j]$ jest równy $1$, jeśli istnieje krawędź między wierzchołkami $i$ oraz $j$, a w przeciwnym razie jest równy $0$. W przypadku grafów ważonych wartości te zastępuje waga krawędzi. Macierz sąsiedztwa jest prosta do zrozumienia i implementacji, ale jest nieefektywna dla grafów rzadkich (tzn. z małą liczbą krawędzi), ponieważ wymaga przechowywania $N^2$ wartości.
 - **Lista sąsiedztwa**: Jest to alternatywna reprezentacja grafu, która jest bardziej efektywna dla grafów rzadkich. Dla każdego wierzchołka przechowuje listę wierzchołków, do których prowadzi krawędź. W praktyce lista sąsiedztwa może być reprezentowana jako tablica list lub jako słownik, gdzie klucze to wierzchołki, a wartości to listy sąsiednich wierzchołków.
-- **Lista krawędzi**: Lista krawędzi to inna forma reprezentacji grafu, w której graf jest reprezentowany jako jedna lista wszystkich krawędzi. Każda krawędź jest reprezentowana jako para wierzchołków $$(i, j)$$. Lista krawędzi jest szczególnie przydatna, gdy chcemy przejść przez wszystkie krawędzie grafu.
+- **Lista krawędzi**: Lista krawędzi to inna forma reprezentacji grafu, w której graf jest reprezentowany jako jedna lista wszystkich krawędzi. Każda krawędź jest reprezentowana jako para wierzchołków $(i, j)$. Lista krawędzi jest szczególnie przydatna, gdy chcemy przejść przez wszystkie krawędzie grafu.
 
 ## Operacje na grafach
 

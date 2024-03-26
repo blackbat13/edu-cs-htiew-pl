@@ -2,8 +2,7 @@
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <cstdio>
 #include <iostream>
 
@@ -37,4 +36,3 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}

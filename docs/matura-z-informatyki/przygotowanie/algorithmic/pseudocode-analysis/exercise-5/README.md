@@ -6,12 +6,12 @@ Zapoznaj się z poniższą specyfikacją oraz pseudokodem, a następnie rozwią�
 
 ### Dane
 
-* $$a$$ - liczba rzeczywista
-* $$n$$ - liczba naturalna, $$n \neq 0$$ 
+* $a$ - liczba rzeczywista
+* $n$ - liczba naturalna, $n \neq 0$ 
 
 ### Wynik
 
-* Liczba rzeczywista $$p=a^n$$ 
+* Liczba rzeczywista $p=a^n$ 
 
 ## Pseudokod
 
@@ -27,19 +27,19 @@ Zapoznaj się z poniższą specyfikacją oraz pseudokodem, a następnie rozwią�
 
 ## Zadanie 1
 
-Przeanalizuj powyższy algorytm i uzupełnij poniższą tabelę wartościami zmiennych $$p$$, $$b$$ oraz $$n$$ po kolejnych wykonaniach kroku **3** dla dowolnej początkowej wartości $$a$$ oraz początkowej wartości zmiennej $$n$$ równej $$12$$.
+Przeanalizuj powyższy algorytm i uzupełnij poniższą tabelę wartościami zmiennych $p$, $b$ oraz $n$ po kolejnych wykonaniach kroku **3** dla dowolnej początkowej wartości $a$ oraz początkowej wartości zmiennej $n$ równej $12$.
 
 |  p  |     b    |  n  |
 | :-: | :------: | :-: |
 |  1  |     a    |  12 |
-|  1  | $$a^2$$  |     |
+|  1  | $a^2$  |     |
 |     |          |     |
 |     |          |     |
 |     |          |     |
 
 ## Zadanie 2
 
-Uzupełnij poniższą tabelę wpisując liczby **wszystkich mnożeń** wykonywanych przez powyższy algorytm dla podanych wartości $$n$$, tzn. liczby wykonanych instrukcji `p:=p*b` i `b:=b*b`
+Uzupełnij poniższą tabelę wpisując liczby **wszystkich mnożeń** wykonywanych przez powyższy algorytm dla podanych wartości $n$, tzn. liczby wykonanych instrukcji `p:=p*b` i `b:=b*b`
 
 | `n` | liczba mnożeń |
 | :-: | :-----------: |

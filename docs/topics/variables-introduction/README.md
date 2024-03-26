@@ -27,6 +27,4 @@ Bez zmiennych ciężko wyobrazić sobie programowanie. Ich dobre zrozumienie jes
 
 
 
-{% file src="../../.gitbook/assets/Protokół realizacji projektu - zmienne.pdf" %}
-Protokół realizacji projektu
-{% endfile %}
+[:fontawesome-solid-file-pdf: Protokół realizacji projektu](../../assets/Protokół realizacji projektu - zmienne.pdf)

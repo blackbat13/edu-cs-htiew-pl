@@ -1,15 +1,11 @@
 # Zaprzeczenie silni
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/subfactorial.md)
 
-{% content-ref url="../../../../algorithms/integers/subfactorial.md" %}
-[subfactorial.md](../../../../algorithms/integers/subfactorial.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def subfactorial(n: int) -> int:
     if n == 0:
         return 1
@@ -29,4 +25,4 @@ result = subfactorial(n)
 
 print(f"!{n} = {result}")
 ```
-{% endcode %}
+

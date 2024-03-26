@@ -6,12 +6,12 @@ Zdarza się i tak, że potrzebujemy znaleźć wartość minimalną i maksymalną
 
 ### Dane
 
-* $$n$$ — liczba naturalna, liczba elementów w tablicy
-* $$A[1..n]$$ — tablica $$n$$ wartości całkowitych
+* $n$ — liczba naturalna, liczba elementów w tablicy
+* $A[1..n]$ — tablica $n$ wartości całkowitych
 
 ### Wynik
 
-* Największa oraz najmniejsza wartość z tablicy $$A$$
+* Największa oraz najmniejsza wartość z tablicy $A$
 
 ## Przykład
 
@@ -68,19 +68,18 @@ flowchart TD
 
 ### Złożoność
 
-$$O(2n)$$
+$O(2n)$
 
-Mamy jedną pętlę, ale dwa porównania wewnątrz niej. W takim razie dla każdego przebiegu pętli wykonujemy dwa porównania, łącznie wykonujemy ich więc w przybliżeniu $$2n$$, co w praktyce daje nam złożoność liniową.
+Mamy jedną pętlę, ale dwa porównania wewnątrz niej. W takim razie dla każdego przebiegu pętli wykonujemy dwa porównania, łącznie wykonujemy ich więc w przybliżeniu $2n$, co w praktyce daje nam złożoność liniową.
 
 ## Rozwiązanie optymalne
 
 Podejdźmy do problemu od innej strony. Zastanówmy się, jak możemy przygotować sobie dane, aby ułatwić sobie pracę? Mamy pewien zestaw liczb, wśród których chcemy znaleźć zarówno minimum jak i maksimum. W takim razie podzielmy wstępnie nasze liczby na kandydatów minimum oraz kandydatów maksimum. Zrobimy to przechodząc po kolei po parach sąsiednich liczb z tablicy i porównując je ze sobą. Mniejszą z wartości z pary wrzucimy do kandydatów na minimum, a większą umieścimy w kandydatach na maksimum. W ten sposób uzyskamy dwie tablice, z których każda będzie miała długość równą połowie długości pierwotnej tablicy. Teraz możemy przejść do wyszukiwania minimum i maksimum. Minimum będziemy szukać standardowym algorytmem w tablicy kandydatów na minimum. Podobnie zrobimy z maksimum, szukając go w kandydatach na maksimum.
 
-{% hint style="warning" %}
-**Uwaga**
-
-Dla ułatwienia zakładamy, że długość tablicy (wartość $$n$$) jest liczbą **parzystą**. Jeżeli tak nie jest, możemy np. powielić ostatni element tablicy, albo rozważyć ten szczególny przypadek w algorytmie.
-{% endhint %}
+!!! warning
+	**Uwaga**
+	
+	Dla ułatwienia zakładamy, że długość tablicy (wartość $n$) jest liczbą **parzystą**. Jeżeli tak nie jest, możemy np. powielić ostatni element tablicy, albo rozważyć ten szczególny przypadek w algorytmie.
 
 ### Pseudokod
 
@@ -140,40 +139,40 @@ flowchart TD
 
 ### Złożoność
 
-$$O(3\frac{n}{2})$$ 
+$O(3\frac{n}{2})$ 
 
-Najpierw dokonujemy podziału na dwie tablice pomocnicze wykonując $$\frac{n}{2}$$ operacji. Następnie wyszukujemy minimum i maksimum w odpowiednich tablicach. Każda z nich ma długość $$\frac{n}{2}$$, więc łącznie na znalezienie minimum i maksimum potrzebujemy wykonać $$2\frac{n}{2}=n$$ porównań. Wszystko razem daje nam $$3\frac{n}{2}$$ porównań. W praktyce wciąż mamy złożoność liniową, wykonujemy jednak mniej operacji niż przy algorytmie naiwnym.
+Najpierw dokonujemy podziału na dwie tablice pomocnicze wykonując $\frac{n}{2}$ operacji. Następnie wyszukujemy minimum i maksimum w odpowiednich tablicach. Każda z nich ma długość $\frac{n}{2}$, więc łącznie na znalezienie minimum i maksimum potrzebujemy wykonać $2\frac{n}{2}=n$ porównań. Wszystko razem daje nam $3\frac{n}{2}$ porównań. W praktyce wciąż mamy złożoność liniową, wykonujemy jednak mniej operacji niż przy algorytmie naiwnym.
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/searching/min-max-search.md" %}
+
 [min-max-search.md](../../programming/c++/algorithms/searching/min-max-search.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/searching/min-max-search.md" %}
+
 [min-max-search.md](../../programming/python/algorithms/searching/min-max-search.md)
-{% endcontent-ref %}
+
 
 ### Kotlin
 
-{% content-ref url="../../programming/kotlin/algorithms/searching/min-max-search.md" %}
+
 [min-max-search.md](../../programming/kotlin/algorithms/searching/min-max-search.md)
-{% endcontent-ref %}
+
 
 ## Implementacje — pozostałe
 
 ### C
 
-{% content-ref url="../../programming/c/algorithms/searching/min-max-search.md" %}
+
 [min-max-search.md](../../programming/c/algorithms/searching/min-max-search.md)
-{% endcontent-ref %}
+
 
 ### Julia
 
-{% content-ref url="../../programming/julia/algorithms/searching/min-max-search.md" %}
+
 [min-max-search.md](../../programming/julia/algorithms/searching/min-max-search.md)
-{% endcontent-ref %}
+

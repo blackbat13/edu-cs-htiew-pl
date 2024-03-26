@@ -1,10 +1,7 @@
 # Szyfr Trithemius'a
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/cryptography/trithemius.md)
 
-{% content-ref url="../../../../algorithms/cryptography/trithemius.md" %}
-[trithemius.md](../../../../algorithms/cryptography/trithemius.md)
-{% endcontent-ref %}
 
 ## Szyfrowanie
 
@@ -46,9 +43,7 @@ print(f"Encoded: {encoded}")
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/9W6PrX" %}
-Szyfrowanie szyfrem Thithemius'a
-{% endembed %}
+[Szyfrowanie szyfrem Thithemius'a](https://ideone.com/9W6PrX)
 
 ### Opis implementacji
 
@@ -94,9 +89,7 @@ print(f"Decoded: {decoded}")
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/PzZXD9" %}
-Deszyfrowanie szyfrem Trithemius'a
-{% endembed %}
+[Deszyfrowanie szyfrem Trithemius'a](https://ideone.com/PzZXD9)
 
 ### Opis implementacji
 

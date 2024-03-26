@@ -1,10 +1,7 @@
 # Test pierwszości
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/prime-test.md)
 
-{% content-ref url="../../../../algorithms/integers/prime-test.md" %}
-[prime-test.md](../../../../algorithms/integers/prime-test.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -41,9 +38,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/eVaqy4" %}
-Test pierwszości
-{% endembed %}
+[Test pierwszości](https://ideone.com/eVaqy4)
 
 ### Opis implementacji
 

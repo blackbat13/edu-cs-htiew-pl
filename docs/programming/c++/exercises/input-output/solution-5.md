@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$a$$ - liczba naturalna
+* $a$ - liczba naturalna
 
 #### Wynik
 
-* Pierwiastek z $$a$$
+* Pierwiastek z $a$
 
 ## Rozwiązanie
 

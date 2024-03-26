@@ -1,15 +1,11 @@
 # Kwadrat Sierpińskiego
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/fractals/sierpinski-square.md)
 
-{% content-ref url="../../../../algorithms/fractals/sierpinski-square.md" %}
-[sierpinski-square.md](../../../../algorithms/fractals/sierpinski-square.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 import turtle
 
 
@@ -40,8 +36,8 @@ sierpinski_square(3, 300)
 
 turtle.done()
 ```
-{% endcode %}
+
 
 ### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/Sierpinski-Square#main.py" %}
+[https://replit.com/@damiankurpiewski/Sierpinski-Square#main.py](https://replit.com/@damiankurpiewski/Sierpinski-Square#main.py)

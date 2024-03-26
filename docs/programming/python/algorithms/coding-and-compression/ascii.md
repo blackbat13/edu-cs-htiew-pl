@@ -1,21 +1,17 @@
 # Kod ASCII
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/coding-and-compression/ascii.md)
 
-{% content-ref url="../../../../algorithms/coding-and-compression/ascii.md" %}
-[ascii.md](../../../../algorithms/coding-and-compression/ascii.md)
-{% endcontent-ref %}
 
 ## Podstawowa tablica ASCII
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 for i in range(128):
     print(chr(i))
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
@@ -25,12 +21,11 @@ Podstawowa tablica ASCII zawiera 128 znaków numerowanych od zera. Przechodzimy 
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 for i in range(256):
     print(chr(i))
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 

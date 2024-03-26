@@ -1,15 +1,11 @@
 # Odległość Hamminga
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/hamming-distance.md)
 
-{% content-ref url="../../../../algorithms/text/hamming-distance.md" %}
-[hamming-distance.md](../../../../algorithms/text/hamming-distance.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -37,4 +33,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

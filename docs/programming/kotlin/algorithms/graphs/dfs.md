@@ -4,11 +4,8 @@ description: Przeszukiwanie grafu w głąb
 
 # DFS
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/dfs.md)
 
-{% content-ref url="../../../../algorithms/graphs/dfs.md" %}
-[dfs.md](../../../../algorithms/graphs/dfs.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -44,9 +41,7 @@ dfs(graph, visited, 0)
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/nFGslg" %}
-DFS
-{% endembed %}
+[DFS](https://ideone.com/nFGslg)
 
 ### Opis implementacji
 

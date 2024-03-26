@@ -1,7 +1,6 @@
 # Python - rozwiązanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 n = int(input())
 
 slogans = {input():input() for _ in range(n)}
@@ -12,4 +11,4 @@ for i in range(n):
     slogan1 = input()
     print(slogans[slogan1])
 ```
-{% endcode %}
+

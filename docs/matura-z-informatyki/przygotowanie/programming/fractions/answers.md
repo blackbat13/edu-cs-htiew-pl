@@ -2,8 +2,7 @@
 
 ## Zadanie 1
 
-{% code overflow="wrap" lineNumbers="true" %}
-```
+``` linenums="1"
 1 3
 15 8
 21 11
@@ -105,12 +104,12 @@
 9 7
 4 3
 ```
-{% endcode %}
+
 
 ## Zadanie 2
 
-Suma ułamków: $$\frac{7271917729}{21162960}$$
+Suma ułamków: $\frac{7271917729}{21162960}$
 
 ## Zadanie 3
 
-Iloczyn ułamków: $$\frac{98818570351733115048023210625}{95321577472}$$
+Iloczyn ułamków: $\frac{98818570351733115048023210625}{95321577472}$

@@ -2,20 +2,12 @@
 
 ## Arkusze
 
-{% file src="../../../.gitbook/assets/pytania-informatyka-poziom-rozszerzony-czesc-I-matura-2014.pdf" %}
-Część I
-{% endfile %}
+[:fontawesome-solid-file-pdf: Część I](../../../assets/pytania-informatyka-poziom-rozszerzony-czesc-I-matura-2014.pdf)
 
-{% file src="../../../.gitbook/assets/pytania-informatyka-poziom-rozszerzony-czesc-II-matura-2014.pdf" %}
-Część II
-{% endfile %}
+[:fontawesome-solid-file-pdf: Część II](../../../assets/pytania-informatyka-poziom-rozszerzony-czesc-II-matura-2014.pdf)
 
-{% file src="../../../.gitbook/assets/dane_2014.zip" %}
-Dane
-{% endfile %}
+[:material-folder-zip: Dane](../../../assets/dane_2014.zip)
 
 ## Odpowiedzi
 
-{% file src="../../../.gitbook/assets/odpowiedzi-informatyka-poziom-rozszerzony-matura-2014.pdf" %}
-Klucz
-{% endfile %}
+[:fontawesome-solid-file-pdf: Klucz](../../../assets/odpowiedzi-informatyka-poziom-rozszerzony-matura-2014.pdf)

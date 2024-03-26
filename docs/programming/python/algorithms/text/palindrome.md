@@ -1,15 +1,11 @@
 # Palindrom
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/palindrome.md)
 
-{% content-ref url="../../../../algorithms/text/palindrome.md" %}
-[palindrome.md](../../../../algorithms/text/palindrome.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def is_palindrome(a: str) -> bool:
     return a == a[::-1]
 
@@ -21,4 +17,4 @@ if is_palindrome(a):
 else:
     print(f'{a} nie jest palindromem')
 ```
-{% endcode %}
+

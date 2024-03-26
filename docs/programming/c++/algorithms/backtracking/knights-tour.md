@@ -1,15 +1,11 @@
 # Problem skoczka
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/backtracking/knights-tour.md)
 
-{% content-ref url="../../../../algorithms/backtracking/knights-tour.md" %}
-[knights-tour.md](../../../../algorithms/backtracking/knights-tour.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <vector>
 
@@ -65,4 +61,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

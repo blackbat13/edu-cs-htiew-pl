@@ -4,16 +4,12 @@ description: BST
 
 # Drzewo przeszukiwań binarnych
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/structures/drzewa-przeszukiwan-binarnych.md)
 
-{% content-ref url="../../../../algorithms/structures/drzewa-przeszukiwan-binarnych.md" %}
-[drzewa-przeszukiwan-binarnych.md](../../../../algorithms/structures/drzewa-przeszukiwan-binarnych.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 class BinarySearchTree:
     def __init__(self):
         self._value = None
@@ -85,10 +81,10 @@ if __name__ == "__main__":
 
     bst.clear()
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
-![Przykładowe drzewo wykorzystane w implementacji](<../../../../.gitbook/assets/image (10).png>)
+![Przykładowe drzewo wykorzystane w implementacji](<../../../../assets/image (10).png>)
 
-{% embed url="http://graphonline.ru/en/?graph=iTYRccYJVswEnVGe" %}
+[http://graphonline.ru/en/?graph=iTYRccYJVswEnVGe](http://graphonline.ru/en/?graph=iTYRccYJVswEnVGe)

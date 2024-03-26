@@ -1,15 +1,11 @@
 # Kody Huffmana
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/coding-and-compression/huffman-coding.md)
 
-{% content-ref url="../../../../algorithms/coding-and-compression/huffman-coding.md" %}
-[huffman-coding.md](../../../../algorithms/coding-and-compression/huffman-coding.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 class Node:
     def __init__(self, letter = "", value = 0, left = None, right = None):
         self.letter = letter
@@ -82,7 +78,7 @@ print("Compressed:", compressed)
 decompressed = decompress(compressed, tree)
 print("Decompressed:", decompressed)
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 

@@ -57,4 +57,4 @@ flowchart TD
 
 ## Stopień kompresji
 
-$$45.14\%$$
+$45.14\%$

@@ -28,7 +28,7 @@ Szyfr Cezara jest bardzo prosty i łatwo jest go złamać, nawet bez znajomości
 ### Dane
 
 - **jawny/szyfrogram** - tekst do zaszyfrowania/odszyfrowania, składający się z małych liter alfabetu angielskiego
-- **klucz** - liczba naturalna z zakresu $$<0,25>$$
+- **klucz** - liczba naturalna z zakresu $<0,25>$
 
 ### Wynik
 
@@ -38,7 +38,7 @@ Szyfr Cezara jest bardzo prosty i łatwo jest go złamać, nawet bez znajomości
 
 ### Funkcje pomocnicze
 
-- **Pozycja(litera)** - zwraca liczbę od $$1$$ do $$26$$ - pozycję przekazanej jako argument litery w alfabecie angielskim
+- **Pozycja(litera)** - zwraca liczbę od $1$ do $26$ - pozycję przekazanej jako argument litery w alfabecie angielskim
 - **Alfabet(pozycja)** - zwraca literę na zadanej pozycji w alfabecie angielskim
 - **Długość(tekst)** - zwraca długość tekstu
 
@@ -61,7 +61,7 @@ funkcja SzyfrujCezar(jawny, klucz):
 
 ### Funkcje pomocnicze
 
-- **Pozycja(litera)** - zwraca liczbę od $$1$$ do $$26$$ - pozycję przekazanej jako argument litery w alfabecie angielskim
+- **Pozycja(litera)** - zwraca liczbę od $1$ do $26$ - pozycję przekazanej jako argument litery w alfabecie angielskim
 - **Alfabet(pozycja)** - zwraca literę na zadanej pozycji w alfabecie angielskim
 - **Długość(tekst)** - zwraca długość tekstu
 
@@ -84,12 +84,12 @@ funkcja DeszyfrujCezar(szyfrogram, klucz):
 
 ### C++
 
-{% content-ref url="../../../programming/c++/algorithms/cryptography/caesar.md" %}
+
 [caesar.md](../../../programming/c++/algorithms/cryptography/caesar.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../../programming/python/algorithms/cryptography/caesar.md" %}
+
 [caesar.md](../../../programming/python/algorithms/cryptography/caesar.md)
-{% endcontent-ref %}
+

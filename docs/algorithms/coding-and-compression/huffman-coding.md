@@ -73,7 +73,7 @@ Teraz możemy odczytać powstałe w ten sposób kody.
 
 Za pomocą tabeli kodów kodujemy wyraz **papuga**: 
 
-$$001000100111$$
+$001000100111$
 
 Wyrazy został zakodowany na trzynastu bitach. Gdybyśmy użyli kodowania ASCII to wyraz zostałby zakodowany na czterdziestu ośmiu bitach (każdy znak na ośmiu bitach).
 
@@ -81,12 +81,12 @@ Wyrazy został zakodowany na trzynastu bitach. Gdybyśmy użyli kodowania ASCII 
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/coding-and-compression/huffman-coding.md" %}
+
 [huffman-coding.md](../../programming/c++/algorithms/coding-and-compression/huffman-coding.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/coding-and-compression/huffman-coding.md" %}
+
 [huffman-coding.md](../../programming/python/algorithms/coding-and-compression/huffman-coding.md)
-{% endcontent-ref %}
+

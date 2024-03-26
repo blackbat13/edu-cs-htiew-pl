@@ -1,15 +1,11 @@
 # Przecinanie się odcinków
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/2d-geometry/segments-crossing.md)
 
-{% content-ref url="../../../../algorithms/2d-geometry/segments-crossing.md" %}
-[segments-crossing.md](../../../../algorithms/2d-geometry/segments-crossing.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 class Point:
     def __init__(self, x: int, y: int):
         self.x = x
@@ -74,4 +70,4 @@ else:
         f"Segments [({a.x}, {a.y}), ({b.x}, {b.y})] and [({c.x}, {c.y}), ({d.x}, {d.y})] do not cross"
     )
 ```
-{% endcode %}
+

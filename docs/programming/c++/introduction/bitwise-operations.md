@@ -2,9 +2,9 @@
 
 ## Opis zagadnienia
 
-{% content-ref url="../../../algorithms/numeral-systems/bitwise-operations.md" %}
+
 [bitwise-operations.md](../../../algorithms/numeral-systems/bitwise-operations.md)
-{% endcontent-ref %}
+
 
 ### Przesunięcie bitowe
 
@@ -55,4 +55,4 @@ cout << c << endl;
 
 ## Przykładowa implementacja
 
-{% embed url="https://replit.com/@damiankurpiewski/BitOperations" %}
+[https://replit.com/@damiankurpiewski/BitOperations](https://replit.com/@damiankurpiewski/BitOperations)

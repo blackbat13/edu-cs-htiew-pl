@@ -123,12 +123,8 @@ int main() {
 
 ### Zadanie 5
 
-{% file src="../../../.gitbook/assets/2015_5.xlsx" %}
-Excel
-{% endfile %}
+[:material-microsoft-excel: Excel](../../../assets/2015_5.xlsx)
 
 ### Zadanie 6
 
-{% file src="../../../.gitbook/assets/2015_6.accdb" %}
-Access
-{% endfile %}
+[:material-microsoft-access: Access](../../../assets/2015_6.accdb)

@@ -1,6 +1,6 @@
 # Kłódka
 
-Czas zająć się projektowaniem Escape Roomu, a kłódki szyfrowe czekają na swoją kolej. W swoim magazynie posiadasz kłódki z okrągłą tarczą, takie jak na zdjęciu poniżej. Tarcza kłódki składa się z $$40$$ przedziałek, które są numerowane od $$0$$ do $$39$$. Kombinacja do kłódki składa się z trzech liczb z tego zakresu.
+Czas zająć się projektowaniem Escape Roomu, a kłódki szyfrowe czekają na swoją kolej. W swoim magazynie posiadasz kłódki z okrągłą tarczą, takie jak na zdjęciu poniżej. Tarcza kłódki składa się z $40$ przedziałek, które są numerowane od $0$ do $39$. Kombinacja do kłódki składa się z trzech liczb z tego zakresu.
 
 ![Thegreenj, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/a/a1/Masterpadlock.jpg)
 
@@ -21,10 +21,10 @@ Twoim zadaniem jest wyliczenie, o ile stopni musisz łącznie obrócić tarczę,
 
 ### Dane
 
-* $$p$$ - liczba naturalna, początkowe ustawienie tarczy, $$0\leq p\leq 39$$.
-* $$c1$$ - liczba naturalna, pierwsza liczba kombinacji, $$0\leq c1\leq 39$$.
-* $$c2$$ - liczba naturalna, druga liczba kombinacji, $$0\leq c2\leq 39$$.
-* $$c3$$ - liczba naturalna, trzecia liczba kombinacji, $$0\leq c3\leq 39$$.
+* $p$ - liczba naturalna, początkowe ustawienie tarczy, $0\leq p\leq 39$.
+* $c1$ - liczba naturalna, pierwsza liczba kombinacji, $0\leq c1\leq 39$.
+* $c2$ - liczba naturalna, druga liczba kombinacji, $0\leq c2\leq 39$.
+* $c3$ - liczba naturalna, trzecia liczba kombinacji, $0\leq c3\leq 39$.
 
 ### Wynik
 
@@ -38,7 +38,7 @@ Twoim zadaniem jest wyliczenie, o ile stopni musisz łącznie obrócić tarczę,
 0 30 0 30
 ```
 
-**Wynik:** $$1350$$
+**Wynik:** $1350$
 
 ## Przykład 2
 
@@ -48,7 +48,7 @@ Twoim zadaniem jest wyliczenie, o ile stopni musisz łącznie obrócić tarczę,
 5 35 5 35
 ```
 
-**Wynik:** $$1350$$
+**Wynik:** $1350$
 
 ## Przykład 3
 
@@ -58,7 +58,7 @@ Twoim zadaniem jest wyliczenie, o ile stopni musisz łącznie obrócić tarczę,
 0 20 0 20
 ```
 
-**Wynik:** $$1620$$
+**Wynik:** $1620$
 
 ## Przykład 4
 
@@ -68,7 +68,7 @@ Twoim zadaniem jest wyliczenie, o ile stopni musisz łącznie obrócić tarczę,
 7 27 7 27
 ```
 
-**Wynik:** $$1620$$
+**Wynik:** $1620$
 
 ## Przykład 5
 
@@ -78,7 +78,7 @@ Twoim zadaniem jest wyliczenie, o ile stopni musisz łącznie obrócić tarczę,
 0 10 0 10
 ```
 
-**Wynik:** $$1890$$
+**Wynik:** $1890$
 
 ## Przykład 6
 
@@ -88,4 +88,4 @@ Twoim zadaniem jest wyliczenie, o ile stopni musisz łącznie obrócić tarczę,
 9 19 9 19
 ```
 
-**Wynik:** $$1890$$
+**Wynik:** $1890$

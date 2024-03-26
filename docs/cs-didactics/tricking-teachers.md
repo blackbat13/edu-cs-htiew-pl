@@ -2,6 +2,4 @@
 
 Krótki przegląd sposobów, w jakie uczniowie próbują nabierać swoich nauczycieli informatyki.
 
-{% file src="../.gitbook/assets/Jak uczniowie nabierają nauczycieli informatyki.pdf" %}
-Prezentacja
-{% endfile %}
+[:fontawesome-solid-file-pdf: Prezentacja](../assets/Jak uczniowie nabierają nauczycieli informatyki.pdf)

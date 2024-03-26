@@ -6,9 +6,7 @@ Zapoznając się z algorytmami sortowania zawartymi w tej sekcji przekonasz się
 
 Istnieje wiele algorytmów sortowania. Jedne prostsze, inne trudniejsze. Jedne wolniejsze, inne wydajniejsze. Omówimy tylko wybrane i, być może, popularniejsze z tych algorytmów. Poniższa animacja w ciekawy sposób pokazuje porównanie kilku algorytmów sortowania pod względem wydajności. Warto do niej zajrzeć i poświęcić chwilę, na prześledzenie przebiegu poszczególnych metod, zanim przejdziesz dalej.
 
-{% embed url="https://www.toptal.com/developers/sorting-algorithms" %}
-Porównanie algorytmów sortowania
-{% endembed %}
+[Porównanie algorytmów sortowania](https://www.toptal.com/developers/sorting-algorithms)
 
 ## Specyfikacja
 
@@ -16,9 +14,9 @@ W naszych algorytmach sortowania będziemy trzymać się poniższej specyfikacji
 
 ### Dane
 
-* $$n$$ — liczba naturalna, ilość elementów w tablicy
-* $$A[1..n]$$ — tablica $$n$$ wartości całkowitych
+* $n$ — liczba naturalna, ilość elementów w tablicy
+* $A[1..n]$ — tablica $n$ wartości całkowitych
 
 ### Wynik
 
-* Posortowana niemalejąco tablica $$A$$
+* Posortowana niemalejąco tablica $A$

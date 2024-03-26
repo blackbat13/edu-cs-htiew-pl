@@ -8,12 +8,12 @@ Płatek Kocha to fraktal stworzony poprzez złożenie ze sobą trzech krzywych K
 
 #### Dane
 
-* $$stopień$$ - stopień fraktala
-* $$długość$$ - długość linii
+* $stopień$ - stopień fraktala
+* $długość$ - długość linii
 
 #### Wynik
 
-* Płatek Kocha stopnia $$stopień$ i długości $$długość$$.
+* Płatek Kocha stopnia $stopień$ i długości $długość$.
 
 ## Rozwiązanie
 
@@ -67,18 +67,18 @@ flowchart TD
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/fractals/koch-snowflake.md" %}
+
 [koch-snowflake.md](../../programming/c++/algorithms/fractals/koch-snowflake.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/fractals/koch-snowflake.md" %}
+
 [koch-snowflake.md](../../programming/python/algorithms/fractals/koch-snowflake.md)
-{% endcontent-ref %}
+
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorithms/fractals/koch-snowflake.md" %}
+
 [koch-snowflake.md](../../programming/blockly/algorithms/fractals/koch-snowflake.md)
-{% endcontent-ref %}
+

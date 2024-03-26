@@ -4,16 +4,12 @@ description: Przeszukiwanie grafu w głąb
 
 # DFS
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/dfs.md)
 
-{% content-ref url="../../../../algorithms/graphs/dfs.md" %}
-[dfs.md](../../../../algorithms/graphs/dfs.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 from typing import List
 
 
@@ -43,4 +39,4 @@ visited = [False] * len(graph)
 
 dfs(graph, visited, 0)
 ```
-{% endcode %}
+

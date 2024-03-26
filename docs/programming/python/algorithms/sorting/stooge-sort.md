@@ -1,15 +1,11 @@
 # Sortowanie stooge
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/stooge-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/stooge-sort.md" %}
-[stooge-sort.md](../../../../algorithms/sorting/stooge-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def stooge_sort(array: list, i: int, j: int):
     if array[i] > array[j]:
         array[i], array[j] = array[j], array[i]
@@ -27,4 +23,4 @@ stooge_sort(array, 0, len(array) - 1)
 
 print(array)
 ```
-{% endcode %}
+

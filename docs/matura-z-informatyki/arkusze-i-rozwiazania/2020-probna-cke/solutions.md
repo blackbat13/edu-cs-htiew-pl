@@ -53,6 +53,4 @@ TODO
 
 ### Zadanie 6
 
-{% file src="../../../.gitbook/assets/2020_p_cke_zad6.accdb" %}
-Rozwiązanie - Access
-{% endfile %}
+[:material-microsoft-access: Rozwiązanie - Access](../../../assets/2020_p_cke_zad6.accdb)

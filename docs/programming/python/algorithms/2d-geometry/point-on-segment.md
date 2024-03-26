@@ -1,15 +1,11 @@
 # Punkt na odcinku
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/2d-geometry/point-on-segment.md)
 
-{% content-ref url="../../../../algorithms/2d-geometry/point-on-segment.md" %}
-[point-on-segment.md](../../../../algorithms/2d-geometry/point-on-segment.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 class Point:
     def __init__(self, x: int, y: int):
         self.x = x
@@ -49,4 +45,4 @@ if result:
 else:
     print(f"Point ({c.x}, {c.y}) not on segment [({a.x}, {a.y}), ({b.x}, {b.y})]")
 ```
-{% endcode %}
+

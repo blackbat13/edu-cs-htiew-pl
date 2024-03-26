@@ -2,9 +2,8 @@
 
 ## Opis problemu
 
-{% content-ref url="../../../../algorithms/numeral-systems/README.md" %}
 [Systemy liczbowe](../../../../algorithms/numeral-systems/README.md)
-{% endcontent-ref %}
+
 
 ## Konwersja z dziesiętnego
 
@@ -35,9 +34,7 @@ print(f'{number} (10) = {converted} ({base})')
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/Olpjrr" %}
-Konwersja z dziesiętnego
-{% endembed %}
+[Konwersja z dziesiętnego](https://ideone.com/Olpjrr)
 
 ## Konwersja na dziesiętny
 
@@ -70,6 +67,4 @@ print(f'{number} ({base}) = {converted} (10)')
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/KxEbY6" %}
-Konwersja na dziesiętny
-{% endembed %}
+[Konwersja na dziesiętny](https://ideone.com/KxEbY6)

@@ -6,13 +6,13 @@ Modyfikując wartości zmiennych korzystamy z różnych operatorów, które omaw
 
 | **Operator** | **Nazwa** | **Przykład** | **Wynik** |
 |:------------:|:---------:|:------------:|:---------:|
-|      `+`     |   Dodawanie        |     `3 + 2`         |    $$1$$       |
-|      `-`        |   Odejmowanie        |    `3 - 2`          |    $$1$$       |
-|      `*`        |   Mnożenie        |    `3 * 2`          |    $$6$$       |
-|      `/`        |   Dzielenie        |    `3 / 2`          |    $$1.5$$       |
-|      `//`        |   Dzielenie całkowite        |    `5 // 2`          |    $$2$$       |
-|      `%`        |   Reszta z dzielenia        |    `5 % 2`          |    $$1$$       |
-|      `**`        |   Potęgowanie        |    `2 ** 10`          |    $$1024$$       |
+|      `+`     |   Dodawanie        |     `3 + 2`         |    $1$       |
+|      `-`        |   Odejmowanie        |    `3 - 2`          |    $1$       |
+|      `*`        |   Mnożenie        |    `3 * 2`          |    $6$       |
+|      `/`        |   Dzielenie        |    `3 / 2`          |    $1.5$       |
+|      `//`        |   Dzielenie całkowite        |    `5 // 2`          |    $2$       |
+|      `%`        |   Reszta z dzielenia        |    `5 % 2`          |    $1$       |
+|      `**`        |   Potęgowanie        |    `2 ** 10`          |    $1024$       |
 
 ## Operatory bitowe
 

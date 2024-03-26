@@ -4,16 +4,12 @@ description: Najkrótsze ścieżki z zadanego wierzchołka
 
 # Dijkstra
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/dijkstra.md)
 
-{% content-ref url="../../../../algorithms/graphs/dijkstra.md" %}
-[dijkstra.md](../../../../algorithms/graphs/dijkstra.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 from math import inf
 from typing import List
 from queue import Queue
@@ -59,4 +55,4 @@ distances = dijkstra(graph, 0)
 
 print(distances)
 ```
-{% endcode %}
+

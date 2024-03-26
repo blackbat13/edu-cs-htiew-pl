@@ -1,10 +1,7 @@
 # Sortowanie szybkie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/quick-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/quick-sort.md" %}
-[quick-sort.md](../../../../algorithms/sorting/quick-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -54,6 +51,4 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/vwYIuK" %}
-Sortowanie szybkie
-{% endembed %}
+[Sortowanie szybkie](https://ideone.com/vwYIuK)

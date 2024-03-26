@@ -1,15 +1,11 @@
 # Test doskonałości
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/perfect-test.md)
 
-{% content-ref url="../../../../algorithms/integers/perfect-test.md" %}
-[perfect-test.md](../../../../algorithms/integers/perfect-test.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```haskell
+```haskell linenums="1"
 isPerfect n = sum ([x | x <- [1..sqrtN], n `mod` x == 0] ++ [n `div` x | x <- [sqrtN, sqrtN - 1 .. 2], (n `mod` x == 0) && (n `div` x /= x)]) == n
   where
     sqrtN = floor $ sqrt $ fromIntegral n
@@ -19,7 +15,7 @@ main = do
 
     print $ isPerfect n
 ```
-{% endcode %}
+
 
 ## Opis
 

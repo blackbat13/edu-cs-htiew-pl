@@ -11,7 +11,7 @@ Algorytm Prima jest jednym z algorytmów wyznaczających minimalne drzewo rozpin
 
 ## Złożoność
 
-Złożoność czasowa algorytmu Prima zależy od implementacji. Przy użyciu kolejki priorytetowej zaimplementowanej jako kopiec binarny, algorytm działa w czasie $$O(E log V)$$, gdzie $$E$$ to liczba krawędzi, a $$V$$ to liczba wierzchołków w grafie. Możliwe są jednak efektywniejsze implementacje.
+Złożoność czasowa algorytmu Prima zależy od implementacji. Przy użyciu kolejki priorytetowej zaimplementowanej jako kopiec binarny, algorytm działa w czasie $O(E log V)$, gdzie $E$ to liczba krawędzi, a $V$ to liczba wierzchołków w grafie. Możliwe są jednak efektywniejsze implementacje.
 
 ## Zastosowania
 
@@ -23,12 +23,12 @@ Ponadto, jest stosowany w algorytmach kompresji danych, takich jak algorytm kodo
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/graphs/prim.md" %}
+
 [prim.md](../../programming/c++/algorithms/graphs/prim.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/graphs/prim.md" %}
+
 [prim.md](../../programming/python/algorithms/graphs/prim.md)
-{% endcontent-ref %}
+

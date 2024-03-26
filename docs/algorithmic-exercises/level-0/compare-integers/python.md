@@ -1,6 +1,6 @@
 # Python
 
-```python
+```python linenums="1"
 a = int(input("Podaj a: "))
 b = int(input("Podaj b: "))
 

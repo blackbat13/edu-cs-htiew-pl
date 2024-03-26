@@ -2,11 +2,11 @@
 
 Wyobraźmy sobie czarne magiczne pudełko. Takie pudełko, do którego coś wrzucamy i coś innego z niego wypada. Wkładamy do niego **wejście**, a wychodzi **wyjście**:
 
-![](<../../.gitbook/assets/image (32).png>)
+![](<../../assets/image (32).png>)
 
 Inaczej mówiąc, wkładamy do pudełka pewne **dane**, a wyciągamy z niego **wynik**:
 
-![](<../../.gitbook/assets/image (33).png>)
+![](<../../assets/image (33).png>)
 
 Takie pudełko reprezentuje nam właśnie **funkcję**.
 
@@ -14,9 +14,8 @@ Takie pudełko reprezentuje nam właśnie **funkcję**.
 
 W programowaniu pojęcie funkcji możemy rozumieć wielorako. Najłatwiej myśleć o tym jak o pewnym **fragmencie** programu, który ma konkretne zadanie i swoją własną nazwę. Do funkcji przekazujemy dane w postaci **parametrów**, a w odpowiedzi dostajemy wynik zgodny ze **specyfikacją** funkcji.
 
-{% hint style="danger" %}
-Nie należy mylić funkcji w programowaniu i funkcji w matematyce, to dwa zupełnie różne twory!
-{% endhint %}
+!!! danger
+	 Nie należy mylić funkcji w programowaniu i funkcji w matematyce, to dwa zupełnie różne twory!
 
 Schematyczny zapis funkcji przedstawia się następująco:
 
@@ -43,9 +42,8 @@ Wyobraźmy sobie automat do kawy, taki jaki stoi na korytarzach wielu biur, szk�
 
 * Wybrany napój.
 
-{% hint style="info" %}
-Oczywiście jest to bardzo uproszczona specyfikacja. W rzeczywistości taki automat nie wyda nam napoju, jeśli nie uiścimy odpowiedniej opłaty. Czasem oprócz napoju dostaniemy też resztę. Taka specyfikacja wystarczy nam jednak do przykładu.
-{% endhint %}
+!!! info
+	 Oczywiście jest to bardzo uproszczona specyfikacja. W rzeczywistości taki automat nie wyda nam napoju, jeśli nie uiścimy odpowiedniej opłaty. Czasem oprócz napoju dostaniemy też resztę. Taka specyfikacja wystarczy nam jednak do przykładu.
 
 Spróbujmy zapisać fragment funkcji realizowanej przez taki automat w postaci pseudokodu:
 
@@ -68,12 +66,9 @@ procedura Powitanie(imie):
     5. Zakończ
 ```
 
-{% hint style="warning" %}
-Współcześnie już praktycznie nie rozróżniamy pomiędzy funkcją a procedurą. W wielu językach programowania występują tylko funkcje, w tym też takie, które nie zwracają wyniku (albo których wynik ignorujemy).
-{% endhint %}
+!!! warning
+	 Współcześnie już praktycznie nie rozróżniamy pomiędzy funkcją a procedurą. W wielu językach programowania występują tylko funkcje, w tym też takie, które nie zwracają wyniku (albo których wynik ignorujemy).
 
 ## Prezentacja
 
-{% file src="../../.gitbook/assets/Funkcje - wprowadzenie.pdf" %}
-Funkcje - wprowadzenie
-{% endfile %}
+[:fontawesome-solid-file-pdf: Funkcje - wprowadzenie](../../assets/Funkcje - wprowadzenie.pdf)

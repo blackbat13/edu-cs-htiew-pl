@@ -16,31 +16,25 @@ Stworzymy prostą grę, w której naszym graczem będzie świnia. Świnie, jak w
 
 Umieszczamy w katalogu **images**.
 
-{% file src="../../../.gitbook/assets/hungry_pig_images.zip" %}
-Grafiki do gry Głodna Świnia
-{% endfile %}
+[:material-folder-zip: Grafiki do gry Głodna Świnia](../../../assets/hungry_pig_images.zip)
 
 #### Dźwięki
 
 Umieszczamy w katalogu **sounds**.
 
-{% file src="../../../.gitbook/assets/hungry_pig_sounds.zip" %}
-Dźwięki do gry Głodna Świnia
-{% endfile %}
+[:material-folder-zip: Dźwięki do gry Głodna Świnia](../../../assets/hungry_pig_sounds.zip)
 
 #### Czcionki
 
 Umieszczamy w katalogu **fonts**.
 
-{% file src="../../../.gitbook/assets/hungry_pig_fonts.zip" %}
-Czcionki do gry Głodna Świnia
-{% endfile %}
+[:material-folder-zip: Czcionki do gry Głodna Świnia](../../../assets/hungry_pig_fonts.zip)
 
 #### Struktura projektu
 
 Po dodaniu potrzebnych materiałów, struktura projektu powinna wyglądać mniej więcej tak jak na grafice poniżej.
 
-![Struktura projektu](../../../.gitbook/assets/hungry_pig_structure.png)
+![Struktura projektu](../../../assets/hungry_pig_structure.png)
 
 ### Źródła
 
@@ -50,7 +44,7 @@ Po dodaniu potrzebnych materiałów, struktura projektu powinna wyglądać mniej
 
 ## Nasz cel
 
-![Głodna świnia - animacja](../../../.gitbook/assets/hungry_pig.gif)
+![Głodna świnia - animacja](../../../assets/hungry_pig.gif)
 
 ## Wstępna konfiguracja
 
@@ -72,7 +66,7 @@ import random
 
 ### Wymiary okna
 
-Wymiary okna ustawimy na $$800\times800$$, ponieważ tak mamy przygotowaną grafikę tła (**bg.png**). 
+Wymiary okna ustawimy na $800\times800$, ponieważ tak mamy przygotowaną grafikę tła (**bg.png**). 
 
 ```python
 WIDTH = 800
@@ -170,7 +164,7 @@ Naszą świnią będziemy sterować za pomocą klawiatury. Strzałkami będziemy
 
 Ogólna prędkość posłuży nam do wyznaczania, jak szybko świnia ma się poruszać w wybranym kierunku. Tę wartość będziemy także zwiększać po każdym zjedzonym warzywie.
 
-Dopisujemy więc nowe parametry do naszej świni. Aby na początku świnia stała w miejscu, prędkość poziomą i pionową ustawimy na $$0$$. Natomiast prędkość ogólną ustawimy na $$3$$, co wydaje się być dobrym poziomem startowym dla naszej gry. Oczywiście zachęcam do eksperymentowania!
+Dopisujemy więc nowe parametry do naszej świni. Aby na początku świnia stała w miejscu, prędkość poziomą i pionową ustawimy na $0$. Natomiast prędkość ogólną ustawimy na $3$, co wydaje się być dobrym poziomem startowym dla naszej gry. Oczywiście zachęcam do eksperymentowania!
 
 ```python
 pig = Actor("pig_down")
@@ -189,7 +183,7 @@ def update():
     pig.y += pig.vy
 ```
 
-Oczywiście w tym momencie świnia nie będzie się jeszcze poruszać, ponieważ ustawiliśmy jej prędkości na $$0$$. Warto dla testów tymczasowo zmienić prędkości **vx** i/lub **vy**, a następnie uruchomić grę by sprawdzić, czy wszystko działa poprawnie.
+Oczywiście w tym momencie świnia nie będzie się jeszcze poruszać, ponieważ ustawiliśmy jej prędkości na $0$. Warto dla testów tymczasowo zmienić prędkości **vx** i/lub **vy**, a następnie uruchomić grę by sprawdzić, czy wszystko działa poprawnie.
 
 Teraz czas wreszcie dodać obsługę sterowania. W tym celu będziemy potrzebowali nowej funkcji, która pozwoli nam reagować na zdarzenia wciśnięcia klawisza na klawiaturze: `on_key_down(key)`. Dopiszemy ją na dole naszego programu, pod funkcją `update`, ale przed poleceniem `pgzrun.go()`. Wewnątrz funkcji będziemy reagować na kliknięcia przycisków na klawiaturze. W zależności od klikniętego przycisku, będziemy wykonywać inne operacje. Kliknięty klawisz rozpoznamy dzięki parametrowi **key**, który przyjmuje nasza funkcja. Dla przykładu, żeby stwierdzić, czy kliknęliśmy klawisz strzałki w lewo, porównamy zmienną **key** z wartością **keys.LEFT**: `if key == keys.LEFT:`. Jeżeli kliknięta zostanie np. strzałka w lewo, to ustawimy prędkość poziomą **vx** świni na **-v** (`pig.vx = -pig.v`), wyzerujemy prędkość pionową (`pig.vy = 0`) i zmienimy grafikę na **pig_left.png** (`pig.image = "pig_left"`). 
 
@@ -339,7 +333,7 @@ Nasza świnia będzie żywić się burakami. Na ekranie zawsze będzie **dokład
 
 ### Dodajemy aktora
 
-Naszego aktora zapiszemy w zmiennej `beet`. Utworzymy go na podstawie grafiki ***beetroot.png*** i początkowo umieścimy w dowolnym miejscu na ekranie, np. pod współrzędnymi $$(200, 200)$$.
+Naszego aktora zapiszemy w zmiennej `beet`. Utworzymy go na podstawie grafiki ***beetroot.png*** i początkowo umieścimy w dowolnym miejscu na ekranie, np. pod współrzędnymi $(200, 200)$.
 
 ```python
 beet = Actor("beetroot")
@@ -373,7 +367,7 @@ def update():
     if pig.colliderect(beet):
 ```
 
-Po wykryciu kolizji zacznijmy od przemieszczenia buraka w losowe miejsce. Osobno wylosujemy nowe wartości dla współrzędnych $$x$$ oraz $$y$$. Aby jednak burak nie pojawił się na brzegu ekranu, warto zadbać o odpowiedni margines, np $$50$$ pikseli. W celu wylosowania wartości skorzystamy z biblioteki **random** oraz funkcji **randint**, do której, jako argumenty, przekazujemy przedział, z jakiego chcemy wylosować wartość.
+Po wykryciu kolizji zacznijmy od przemieszczenia buraka w losowe miejsce. Osobno wylosujemy nowe wartości dla współrzędnych $x$ oraz $y$. Aby jednak burak nie pojawił się na brzegu ekranu, warto zadbać o odpowiedni margines, np $50$ pikseli. W celu wylosowania wartości skorzystamy z biblioteki **random** oraz funkcji **randint**, do której, jako argumenty, przekazujemy przedział, z jakiego chcemy wylosować wartość.
 
 ```python
 def update():
@@ -384,7 +378,7 @@ def update():
         beet.y = random.randint(50, HEIGHT - 50)
 ```
 
-Następnie zwiększamy prędkość świni. W tym celu modyfikujemy parametr **v**, dodając do niego jakąś niewielką liczbę, np. $$0.8$$. Warto poeksperymentować z różnymi wartościami by dobrać odpowiedni dla siebie poziom trudności.
+Następnie zwiększamy prędkość świni. W tym celu modyfikujemy parametr **v**, dodając do niego jakąś niewielką liczbę, np. $0.8$. Warto poeksperymentować z różnymi wartościami by dobrać odpowiedni dla siebie poziom trudności.
 
 ```python
 def update():
@@ -484,7 +478,7 @@ pgzrun.go()
 
 ## Punkty
 
-Cóż to za gra bez punktów! Dodanie jednak punktów do naszej gry to żaden problem. Punkty będziemy dostawać za każdego zjedzonego buraka. Na początku dopisujemy punkty w postaci nowej zmiennej **points** do naszej świni. Początkowo punkty ustawiamy na $$0$$. Nową wartość dopisujemy zaraz pod ustaleniem głównej prędkości świni.
+Cóż to za gra bez punktów! Dodanie jednak punktów do naszej gry to żaden problem. Punkty będziemy dostawać za każdego zjedzonego buraka. Na początku dopisujemy punkty w postaci nowej zmiennej **points** do naszej świni. Początkowo punkty ustawiamy na $0$. Nową wartość dopisujemy zaraz pod ustaleniem głównej prędkości świni.
 
 ```python
 pig.points = 0
@@ -1158,6 +1152,4 @@ pgzrun.go()
 
 Pełna implementacja dostępna jest także poniżej.
 
-{% embed url="https://github.com/blackbat13/pighuntpgzero" %}
-Głodna świnia
-{% endembed %}
+[Głodna świnia](https://github.com/blackbat13/pighuntpgzero)

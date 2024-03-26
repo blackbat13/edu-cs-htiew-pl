@@ -1,10 +1,7 @@
 # Przecinanie się odcinków
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/2d-geometry/segments-crossing.md)
 
-{% content-ref url="../../../../algorithms/2d-geometry/segments-crossing.md" %}
-[segments-crossing.md](../../../../algorithms/2d-geometry/segments-crossing.md)
-{% endcontent-ref %}
 
 ## Implementacja
 

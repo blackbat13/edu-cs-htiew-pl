@@ -1,15 +1,11 @@
 # Odległość punktu od prostej
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/2d-geometry/point-line-distance.md)
 
-{% content-ref url="../../../../algorithms/2d-geometry/point-line-distance.md" %}
-[point-line-distance.md](../../../../algorithms/2d-geometry/point-line-distance.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 from math import abs, sqrt
 
 
@@ -28,11 +24,11 @@ distance = point_line_distance(line_point1, line_point2, point)
     
 print(distance)
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
-Funkcja `point_line_distance` przyjmuje jako argumenty współrzędne dwóch punktów (`line_point1`, `line_point2`) określających prostą oraz współrzędne punktu (`point`), dla którego obliczana jest odległość. Na początku obliczane są różnice między współrzędnymi drugiego punktu a pierwszego punktu prostej. Wartość `a` to różnica współrzędnymi $$y$$, a `b` to różnica pomiędzy współrzędnymi $$x$$.
+Funkcja `point_line_distance` przyjmuje jako argumenty współrzędne dwóch punktów (`line_point1`, `line_point2`) określających prostą oraz współrzędne punktu (`point`), dla którego obliczana jest odległość. Na początku obliczane są różnice między współrzędnymi drugiego punktu a pierwszego punktu prostej. Wartość `a` to różnica współrzędnymi $y$, a `b` to różnica pomiędzy współrzędnymi $x$.
 
 Następnie obliczana jest odległość między punktem a prostą przy użyciu wzoru `abs(a * (line_point1["x"] - point["x"]) + b * (point["y"] - line_point1["y"])) / sqrt(a * a + b * b)`, gdzie:
 
@@ -44,4 +40,4 @@ Wynik obliczeń jest zwracany jako wartość odległości.
 
 W przykładzie podane są konkretne wartości dla punktu `point` i prostych `(line_point1, line_point2)`. Funkcja `point_line_distance` jest wywoływana z tymi wartościami, a obliczona odległość jest wyświetlana przy użyciu funkcji `print`.
 
-W wyniku wykonania tego kodu, zostanie wyświetlona odległość między punktem $$(-5, -8)$$ a prostą przechodzącą przez punkty $$(-3, -4)$$ i $$(7, 6)$$.
+W wyniku wykonania tego kodu, zostanie wyświetlona odległość między punktem $(-5, -8)$ a prostą przechodzącą przez punkty $(-3, -4)$ i $(7, 6)$.

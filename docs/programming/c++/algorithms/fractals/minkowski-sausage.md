@@ -1,15 +1,11 @@
 # Minkowski Sausage
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/fractals/minkowski-sausage.md)
 
-{% content-ref url="../../../../algorithms/fractals/minkowski-sausage.md" %}
-[minkowski-sausage.md](../../../../algorithms/fractals/minkowski-sausage.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include "turtle.hpp"
 
 const int SIZE = 900;
@@ -46,8 +42,8 @@ int main() {
     return 0;
 } 
 ```
-{% endcode %}
+
 
 ### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/MinkowskiCurve#main.cpp" %}
+[https://replit.com/@damiankurpiewski/MinkowskiCurve#main.cpp](https://replit.com/@damiankurpiewski/MinkowskiCurve#main.cpp)

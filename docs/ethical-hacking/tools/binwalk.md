@@ -4,9 +4,7 @@ Binwalk to narzędzie do analizy, dekompresji i wyodrębniania danych z plików 
 
 Binwalk skanuje plik binarny i szuka znanych sygnatur (tj. sekwencji bajtów, które są charakterystyczne dla określonego typu danych). Te sygnatury mogą obejmować różne typy danych, takie jak obrazy JPEG, archiwa ZIP, skompilowane pliki wykonywalne i wiele innych. Kiedy Binwalk znajduje znaną sygnaturę, pokazuje jej położenie w pliku i typ danych, który reprezentuje.
 
-{% embed url="https://github.com/ReFirmLabs/binwalk" %}
-Binwalk
-{% endembed %}
+[Binwalk](https://github.com/ReFirmLabs/binwalk)
 
 ## Przykłady użycia
 

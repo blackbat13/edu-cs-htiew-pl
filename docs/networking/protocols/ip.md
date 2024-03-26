@@ -10,7 +10,7 @@ Protokół komunikacyjny warstwy sieciowej modelu OSI. Określa format i sposób
 
 Początkowe dane (bajty) każdego pakietu IPv4 to nagłówek:
 
-![Nagłówek pakietu IPv4](../../.gitbook/assets/IPv4header.png)
+![Nagłówek pakietu IPv4](../../assets/IPv4header.png)
 
 
 

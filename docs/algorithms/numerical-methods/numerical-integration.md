@@ -10,14 +10,14 @@ Wyróżniamy dwie podstawowe metody: metodę prostokątów i metodę trapezów.
 
 #### Dane
 
-* $$f(x)$$ — funkcja, której wykres nas interesuje
-* $$a$$ — liczba rzeczywista, początek przedziału
-* $$b$$ — liczba rzeczywista, koniec przedziału
-* $$n$$ — liczba podziałów (im większa, tym większa dokładność)
+* $f(x)$ — funkcja, której wykres nas interesuje
+* $a$ — liczba rzeczywista, początek przedziału
+* $b$ — liczba rzeczywista, koniec przedziału
+* $n$ — liczba podziałów (im większa, tym większa dokładność)
 
 #### Wynik
 
-* $$pole$$ — przybliżona wartość pola pod wykresem funkcji $$f(x)$$ w przedziale $$[a,b]$$
+* $pole$ — przybliżona wartość pola pod wykresem funkcji $f(x)$ w przedziale $[a,b]$
 
 ## Rozwiązanie — metoda prostokątów
 
@@ -25,19 +25,19 @@ Idea tej metody jest prosta: podzielmy pole pod wykresem funkcji na prostokąty 
 
 ### Wizualizacja
 
-Zobaczmy, jak ta metoda działa na przykładzie. Spróbujmy oszacować pole pod wykresem funkcji sinus na przedziale od $$0$$ do $$\pi$$.
+Zobaczmy, jak ta metoda działa na przykładzie. Spróbujmy oszacować pole pod wykresem funkcji sinus na przedziale od $0$ do $\pi$.
 
 #### 20 prostokątów
 
-![20 prostokątów](../../.gitbook/assets/numerical_integration_rectangles_sin_20.png)
+![20 prostokątów](../../assets/numerical_integration_rectangles_sin_20.png)
 
 #### 50 prostokątów
 
-![50 prostokątów](../../.gitbook/assets/numerical_integration_rectangles_sin_50.png)
+![50 prostokątów](../../assets/numerical_integration_rectangles_sin_50.png)
 
 #### 100 prostokątów
 
-![100 prostokątów](../../.gitbook/assets/numerical_integration_rectangles_sin_100.png)
+![100 prostokątów](../../assets/numerical_integration_rectangles_sin_100.png)
 
 ### Pseudokod
 
@@ -104,18 +104,17 @@ flowchart TD
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/numerical-methods/numerical-integration.md" %}
+
 [numerical-integration.md](../../programming/c++/algorithms/numerical-methods/numerical-integration.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/numerical-methods/numerical-integration.md" %}
+
 [numerical-integration.md](../../programming/python/algorithms/numerical-methods/numerical-integration.md)
-{% endcontent-ref %}
+
 
 ### Kotlin
 
-{% content-ref url="../../programming/kotlin/algorithms/numerical-methods/numerical-integration.md" %}
+
 [numerical-integration.md](../../programming/kotlin/algorithms/numerical-methods/numerical-integration.md)
-{% endcontent-ref %}

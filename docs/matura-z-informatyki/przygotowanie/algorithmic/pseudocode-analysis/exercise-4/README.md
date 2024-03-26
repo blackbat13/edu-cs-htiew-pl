@@ -6,8 +6,8 @@ Zapoznaj się z poniższą specyfikacją oraz pseudokodem, a następnie rozwią�
 
 ### Dane
 
-* $$n$$ - liczba naturalna, liczba elementów w tablicy.
-* $$tab[1..n]$$ - tablica $$n$$ wartości całkowitych, numerowana od jedynki.
+* $n$ - liczba naturalna, liczba elementów w tablicy.
+* $tab[1..n]$ - tablica $n$ wartości całkowitych, numerowana od jedynki.
 
 ## Pseudokod
 

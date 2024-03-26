@@ -53,6 +53,4 @@ nc -zv 192.168.1.100 20-80
 
 ## Ściąga
 
-{% embed url="https://cdn.comparitech.com/wp-content/uploads/2019/07/netcat-Cheat-Sheet.pdf" %}
-Ściąga
-{% endembed %}
+[Ściąga](https://cdn.comparitech.com/wp-content/uploads/2019/07/netcat-Cheat-Sheet.pdf)

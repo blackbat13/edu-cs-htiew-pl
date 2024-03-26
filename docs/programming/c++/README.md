@@ -18,6 +18,4 @@ Z powodu tych cech, C++ jest często wybierany do tworzenia aplikacji, które wy
 
 ## Popularność języka
 
-{% embed url="https://www.tiobe.com/tiobe-index/cplusplus/" %}
-Wykres popularności języka C++
-{% endembed %}
+[Wykres popularności języka C++](https://www.tiobe.com/tiobe-index/cplusplus/)

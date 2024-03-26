@@ -1,15 +1,11 @@
 # Permutacje
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/backtracking/permutations.md)
 
-{% content-ref url="../../../../algorithms/backtracking/permutations.md" %}
-[permutations.md](../../../../algorithms/backtracking/permutations.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```kotlin
+```kotlin linenums="1"
 fun permutation(elements: Array<Int>, start: Int, stop: Int) {
     if (start == stop) {
         println(elements.contentToString())
@@ -37,4 +33,4 @@ fun main() {
   permutation(elements, 0, 2)
 }
 ```
-{% endcode %}
+

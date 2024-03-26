@@ -2,14 +2,13 @@
 
 ## Opis implementacji
 
-{% content-ref url="../../../../algorithms/sorting/gnome-sort.md" %}
+
 [gnome-sort.md](../../../../algorithms/sorting/gnome-sort.md)
-{% endcontent-ref %}
+
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -45,4 +44,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

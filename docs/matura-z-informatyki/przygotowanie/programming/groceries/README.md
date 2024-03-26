@@ -3,36 +3,32 @@
 W pliku *groceries.txt* znajduje się 1000 linii, które zawierają informacje na temat pewnych zakupów. W każdej linii znajdują się trzy wartości oddzielone spacją:
 
 - nazwa produktu - tekst składający się wyłącznie z małych liter alfabetu angielskiego,
-- liczba sztuk - liczba naturalna z przedziału $$[1, 100]$$,
-- cena za sztukę - liczba rzeczywista z dokładnością do dwóch miejsc po przecinku, z przedziału $$[0.01, 10.01)$$.
+- liczba sztuk - liczba naturalna z przedziału $[1, 100]$,
+- cena za sztukę - liczba rzeczywista z dokładnością do dwóch miejsc po przecinku, z przedziału $[0.01, 10.01)$.
 
-{% file src="../../../../.gitbook/assets/groceries/groceries.txt" %}
-groceries.txt
-{% endfile %}
+[:material-note-text: groceries.txt](../../../../assets/groceries/groceries.txt)
 
 W pliku *groceries_test.txt* znajduje się 100 linii w formacie podanym powyżej.
 
-{% file src="../../../../.gitbook/assets/groceries/groceries_test.txt" %}
-groceries_test.txt
-{% endfile %}
+[:material-note-text: groceries_test.txt](../../../../assets/groceries/groceries_test.txt)
 
 ## Zadanie 1
 
 Podaj sumaryczny koszt zakupów, tzn. sumę wszystkich cen przemnożonych przez liczbę sztuk dla każdej linii w pliku. Wynik podaj z dokładnością do dwóch miejsc po przecinku.
 
-Wynik dla pliku *groceries_test.txt*: $$31511.71$$.
+Wynik dla pliku *groceries_test.txt*: $31511.71$.
 
 ## Zadanie 2
 
 Podaj sumaryczny koszt zakupów zakładając, że wszystkie produkty, których długość nazwy jest liczbą pierwszą, mają cenę pomniejszoną o 50%. Wynik podaj z dokładnością do dwóch miejsc po przecinku.
 
-Wynik dla pliku *groceries_test.txt*: $$24897.94$$.
+Wynik dla pliku *groceries_test.txt*: $24897.94$.
 
 ## Zadanie 3
 
 Podaj średnią cenę **zakupów**, tzn. sumaryczny koszt zakupów podzielony przez łączną liczbę produktów. Wynik podaj z dokładnością do dwóch miejsc po przecinku.
 
-Wynik dla pliku *groceries_test.txt*: $$5.78$$.
+Wynik dla pliku *groceries_test.txt*: $5.78$.
 
 ## Zadanie 4
 
@@ -172,4 +168,4 @@ zucchini: 3.06, 8.42
 
 Podaj sumaryczny koszt zakupów zakładając, że każdego produktu zakupiono łącznie co najwyżej 100 sztuk. Oznacza to, że jeżeli kolejny wpis w pliku zawiera transakcję, która przekroczy limit 100 sztuk dla danego produktu, to uwzględniamy z niej tylko tę część zakupu, która nie przekracza limitu, a kolejne transakcje dla tego produktu będziemy ignorować. Wynik podaj z dokładnością do dwóch miejsc po przecinku.
 
-Wynik dla pliku *groceries_test.txt*: $$17484.78$$.
+Wynik dla pliku *groceries_test.txt*: $17484.78$.

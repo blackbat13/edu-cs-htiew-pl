@@ -2,9 +2,7 @@
 
 ## Prezentacja
 
-{% file src="../../.gitbook/assets/Fraktale.pdf" %}
-Fraktale - wprowadzenie
-{% endfile %}
+[:fontawesome-solid-file-pdf: Fraktale - wprowadzenie](../../assets/Fraktale.pdf)
 
 ## Operacje
 

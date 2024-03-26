@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$a$$ - liczba całkowita
+* $a$ - liczba całkowita
 
 #### Wynik
 
-* Znak liczby $$a$$, tzn. $$1$$ gdy $$a$$ jest dodatnie, $$-1$$ gdy $$a$$ jest ujemne, $$0$$ gdy $$a$$ wynosi $$0$$ 
+* Znak liczby $a$, tzn. $1$ gdy $a$ jest dodatnie, $-1$ gdy $a$ jest ujemne, $0$ gdy $a$ wynosi $0$ 
 
 ## Rozwiązanie
 

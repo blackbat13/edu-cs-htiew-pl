@@ -10,13 +10,13 @@ Zacznijmy od formalnej specyfikacji problemu.
 
 ### Dane
 
-* $$n$$ - liczba naturalna, liczebność zbioru
-* $$A[1..n]$$ - $$n-elementowa$$ tablica różnych liczb całkowitych, posortowana rosnąco, indeksowana od jedynki
-* $$k$$ - liczba naturalna, szukana suma
+* $n$ - liczba naturalna, liczebność zbioru
+* $A[1..n]$ - $n-elementowa$ tablica różnych liczb całkowitych, posortowana rosnąco, indeksowana od jedynki
+* $k$ - liczba naturalna, szukana suma
 
 ### Wynik
 
-* $$a, b$$ - dwie różne wartości ze zbioru $$A$$ takie, że ich suma wynosi $$k$$ ($$a+b=k$$), lub $$-1$$, jeżeli takich liczb nie ma w zbiorze (jeżeli takich par jest wiele, to dowolna z nich)
+* $a, b$ - dwie różne wartości ze zbioru $A$ takie, że ich suma wynosi $k$ ($a+b=k$), lub $-1$, jeżeli takich liczb nie ma w zbiorze (jeżeli takich par jest wiele, to dowolna z nich)
 
 ## Przykład
 
@@ -28,7 +28,7 @@ A[1..10] := [1, 2, 4, 6, 8, 9, 10, 12, 13, 15]
 k := 18
 ```
 
-**Wynik**: $$6,\ 12$$(lub $$8,\ 10$$)
+**Wynik**: $6,\ 12$(lub $8,\ 10$)
 
 ## Rozwiązanie naiwne
 
@@ -71,7 +71,7 @@ flowchart TD
 
 ### Złożoność
 
-$$O(n^2)$$ - kwadratowa
+$O(n^2)$ - kwadratowa
 
 ## Rozwiązanie optymalne
 
@@ -125,32 +125,32 @@ flowchart TD
 
 ### Złożoność
 
-$$O(n)$$ - liniowa
+$O(n)$ - liniowa
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/searching/sum-of-two.md" %}
+
 [sum-of-two.md](../../programming/c++/algorithms/searching/sum-of-two.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/searching/sum-of-two.md" %}
+
 [sum-of-two.md](../../programming/python/algorithms/searching/sum-of-two.md)
-{% endcontent-ref %}
+
 
 ### Kotlin
 
-{% content-ref url="../../programming/kotlin/algorithms/searching/sum-of-two.md" %}
+
 [sum-of-two.md](../../programming/kotlin/algorithms/searching/sum-of-two.md)
-{% endcontent-ref %}
+
 
 ## Implementacje — pozostałe
 
 ### C
 
-{% content-ref url="../../programming/c/algorithms/searching/sum-of-two.md" %}
+
 [sum-of-two.md](../../programming/c/algorithms/searching/sum-of-two.md)
-{% endcontent-ref %}
+

@@ -4,6 +4,4 @@ Korzystając z komputera warto wiedzieć co piszczy w środku.
 
 ## Prezentacja
 
-{% file src="../.gitbook/assets/Budowa komputera.pdf" %}
-Prezentacja
-{% endfile %}
+[:fontawesome-solid-file-pdf: Prezentacja](../assets/Budowa komputera.pdf)

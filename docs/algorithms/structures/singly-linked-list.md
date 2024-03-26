@@ -10,9 +10,9 @@ Węzeł w liście jednokierunkowej składa się z dwóch elementów: "danych" i 
 
 Najważniejsze operacje, które można wykonać na liście jednokierunkowej, to:
 
-- **Dodawanie elementu na początek listy**: wymaga to stworzenia nowego węzła, ustawienia jego "danych" na dodawany element, jego "następnego" na obecną "głowę" listy, a następnie ustawienia "głowy" listy na nowy węzeł. Ta operacja jest zazwyczaj szybka i ma złożoność czasową $$O(1)$$.
-- **Usuwanie elementu z początku listy**: polega to na ustawieniu "głowy" listy na jej obecny "następny" węzeł. Ta operacja jest również szybka i ma złożoność czasową $$O(1)$$.
-- **Przeszukiwanie listy**: wymaga to przejścia przez listę od "głowy" do końca, sprawdzając "dane" w każdym węźle. Ta operacja jest wolniejsza i ma złożoność czasową $$O(n)$$, gdzie $$n$$ to liczba węzłów w liście.
+- **Dodawanie elementu na początek listy**: wymaga to stworzenia nowego węzła, ustawienia jego "danych" na dodawany element, jego "następnego" na obecną "głowę" listy, a następnie ustawienia "głowy" listy na nowy węzeł. Ta operacja jest zazwyczaj szybka i ma złożoność czasową $O(1)$.
+- **Usuwanie elementu z początku listy**: polega to na ustawieniu "głowy" listy na jej obecny "następny" węzeł. Ta operacja jest również szybka i ma złożoność czasową $O(1)$.
+- **Przeszukiwanie listy**: wymaga to przejścia przez listę od "głowy" do końca, sprawdzając "dane" w każdym węźle. Ta operacja jest wolniejsza i ma złożoność czasową $O(n)$, gdzie $n$ to liczba węzłów w liście.
 
 ## Zastosowania
 
@@ -22,12 +22,12 @@ Listy jednokierunkowe są wykorzystywane w wielu algorytmach i strukturach danyc
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/structures/singly-linked-list.md" %}
+
 [singly-linked-list.md](../../programming/c++/algorithms/structures/singly-linked-list.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/structures/singly-linked-list.md" %}
+
 [singly-linked-list.md](../../programming/python/algorithms/structures/singly-linked-list.md)
-{% endcontent-ref %}
+

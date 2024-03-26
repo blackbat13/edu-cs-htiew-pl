@@ -2,9 +2,7 @@
 
 Lua jest dynamicznym, interpretowanym językiem programowania o wysokim poziomie abstrakcji, zaprojektowanym z myślą o osadzaniu go w innych aplikacjach i systemach. Został stworzony w Rio de Janeiro, w Brazylii, przez zespół w Laboratorium Grafiki Komputerowej na PUC-Rio. Pierwsze wydanie miało miejsce w 1993 roku.
 
-{% embed url="https://www.lua.org/" %}
-Lua
-{% endembed %}
+[Lua](https://www.lua.org/)
 
 ## Kluczowe cechy
 
@@ -22,6 +20,4 @@ Lua jest często stosowany w branży gier, gdzie jest wykorzystywany do skryptow
 
 ## Popularność języka
 
-{% embed url="https://www.tiobe.com/tiobe-index/lua/" %}
-Wykres popularności języka Lua
-{% endembed %}
+[Wykres popularności języka Lua](https://www.tiobe.com/tiobe-index/lua/)

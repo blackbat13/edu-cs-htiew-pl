@@ -2,6 +2,4 @@
 
 ## Prezentacja
 
-{% file src="../.gitbook/assets/Wprowadzenie do systemu Linux.pdf" %}
-Prezentacja
-{% endfile %}
+[:fontawesome-solid-file-pdf: Prezentacja](../assets/Wprowadzenie do systemu Linux.pdf)

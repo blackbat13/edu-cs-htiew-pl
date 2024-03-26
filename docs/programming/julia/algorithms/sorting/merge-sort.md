@@ -1,15 +1,11 @@
 # Sortowanie przez scalanie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/merge-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/merge-sort.md" %}
-[merge-sort.md](../../../../algorithms/sorting/merge-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```julia
+```julia linenums="1"
 function merge(array, left, right, division)
     mergedLength = right - left
     merged = Array{Int}(undef, mergedLength)
@@ -52,4 +48,4 @@ mergeSort(array, 1, length(array) + 1)
 
 println(array)
 ```
-{% endcode %}
+

@@ -1,17 +1,13 @@
 # Wyszukiwanie liniowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/linear-search.md)
 
-{% content-ref url="../../../../algorithms/searching/linear-search.md" %}
-[linear-search.md](../../../../algorithms/searching/linear-search.md)
-{% endcontent-ref %}
 
 ## Istnienie elementu
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```haskell
+```haskell linenums="1"
 linearSearch [] num = False
 linearSearch arr num
     | head arr == num = True
@@ -28,7 +24,7 @@ main = do
     then putStrLn "Liczba jest w tablicy"
     else putStrLn "Liczby nie ma w tablicy"
 ```
-{% endcode %}
+
 
 ### Opis
 
@@ -40,8 +36,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: tabl
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```haskell
+```haskell linenums="1"
 linearSearch [] num ind = -1
 linearSearch arr num ind
     | head arr == num = ind
@@ -60,7 +55,7 @@ main = do
         putStr "Liczba jest pod indeksem "
         print index
 ```
-{% endcode %}
+
 
 ### Opis
 
@@ -72,8 +67,7 @@ W części głównej programu na początku przygotowujemy dane do problemu: tabl
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```haskell
+```haskell linenums="1"
 linearSearch [] num ind = []
 linearSearch arr num ind
     | head arr == num = ind : linearSearch (tail arr) num (ind + 1)
@@ -88,7 +82,7 @@ main = do
 
   print indexes
 ```
-{% endcode %}
+
 
 ### Opis
 

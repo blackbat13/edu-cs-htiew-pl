@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją. Wykorzystaj funkcję **max**.
 
 #### Dane
 
-* $$a, b, c$$ - trzy liczby całkowite
+* $a, b, c$ - trzy liczby całkowite
 
 #### Wynik
 
-* Największa z liczb $$a$$, $$b$$ i $$c$$ , lub dowolna gdy są sobie równe
+* Największa z liczb $a$, $b$ i $c$ , lub dowolna gdy są sobie równe
 
 ## Rozwiązanie
 

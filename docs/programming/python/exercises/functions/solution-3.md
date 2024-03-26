@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją. Obliczanie dzielników powinno
 
 #### Dane
 
-* $$n$$ - liczba naturalna
+* $n$ - liczba naturalna
 
 #### Wynik
 
-* Wszystkie dzielniki liczby $$n$$ 
+* Wszystkie dzielniki liczby $n$ 
 
 ## Rozwiązanie
 

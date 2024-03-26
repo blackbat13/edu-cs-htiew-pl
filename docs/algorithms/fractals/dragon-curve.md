@@ -10,7 +10,7 @@ Smocza krzywa to ciekawy fraktal, który wygląda bardzo efektownie.
 
 - **stopień** - stopień fraktala
 - **długość** - długość linii
-- **znak** - wartość $$1$$ lub $$-1$$ oznaczająca, w którą stronę należy skręcić
+- **znak** - wartość $1$ lub $-1$ oznaczająca, w którą stronę należy skręcić
 
 ## Rozwiązanie
 
@@ -44,18 +44,18 @@ flowchart TD
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/fractals/dragon-curve.md" %}
+
 [dragon-curve.md](../../programming/c++/algorithms/fractals/dragon-curve.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/fractals/dragon-curve.md" %}
+
 [dragon-curve.md](../../programming/python/algorithms/fractals/dragon-curve.md)
-{% endcontent-ref %}
+
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorithms/fractals/dragon-curve.md" %}
+
 [dragon-curve.md](../../programming/blockly/algorithms/fractals/dragon-curve.md)
-{% endcontent-ref %}
+

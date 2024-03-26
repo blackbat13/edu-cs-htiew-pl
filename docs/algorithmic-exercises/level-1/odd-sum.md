@@ -8,11 +8,11 @@ Dla zadanego przedziału podaj sumę wszystkich nieparzystych liczb z tego przed
 
 ### Dane
 
-* $$a, b$$ - liczby całkowite z przedziału $$[0,100]$$
+* $a, b$ - liczby całkowite z przedziału $[0,100]$
 
 ### Wynik
 
-* Suma wszystkich liczb nieparzystych z przedziału $$[a,b]$$ 
+* Suma wszystkich liczb nieparzystych z przedziału $[a,b]$ 
 
 ## Przykład
 
@@ -28,8 +28,7 @@ Dla zadanego przedziału podaj sumę wszystkich nieparzystych liczb z tego przed
 24
 ```
 
-{% hint style="info" %}
-#### Wyjaśnienie
-
-$$3+5+7+9=24$$
-{% endhint %}
+!!! info
+	#### Wyjaśnienie
+	
+	$3+5+7+9=24$

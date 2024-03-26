@@ -1,5 +1,3 @@
 # Rozwiązanie
 
-{% file src="../../../../.gitbook/assets/Piekarnia.xlsx" %}
-Rozwiązanie
-{% endfile %}
+[:material-microsoft-excel: Rozwiązanie](../../../../assets/Piekarnia.xlsx)

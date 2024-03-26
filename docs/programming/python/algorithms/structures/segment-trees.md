@@ -1,15 +1,11 @@
 # Drzewa przedziałowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/structures/segment-trees.md)
 
-{% content-ref url="../../../../algorithms/structures/segment-trees.md" %}
-[segment-trees.md](../../../../algorithms/structures/segment-trees.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 class SumSegmentTree:
     class Node:
         def __init__(self, index_from, index_to):
@@ -111,7 +107,7 @@ if __name__ == "__main__":
 
     print(f"\n\n[3, 5] = {sum_segment_tree.get_value(3, 5)}")
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
@@ -127,9 +123,9 @@ Metoda **change** wykonuje operację zmiany wartości na danym przedziale, korzy
 
 W części globalnej tworzona jest instancja klasy **SumSegmentTree** na podstawie przykładowej tablicy.
 Następnie wywoływana jest metoda **print** dla wyświetlenia struktury drzewa przed wykonaniem operacji.
-Wywoływana jest operacja **get_value** na przedziale $$[3, 5]$$ i wynik zostaje wyświetlony.
-Następnie wywoływana jest operacja **change** na przedziale $$[3, 5]$$ z wartością $$2$$ po czym wyświetlena jest zaktualizowana struktura drzewa.
-Na końcu obliczana jest aktualna suma na przedziale $$[3, 5]$$.
+Wywoływana jest operacja **get_value** na przedziale $[3, 5]$ i wynik zostaje wyświetlony.
+Następnie wywoływana jest operacja **change** na przedziale $[3, 5]$ z wartością $2$ po czym wyświetlena jest zaktualizowana struktura drzewa.
+Na końcu obliczana jest aktualna suma na przedziale $[3, 5]$.
 
 Wynik działania programu:
 

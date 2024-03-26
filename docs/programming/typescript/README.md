@@ -2,9 +2,7 @@
 
 TypeScript jest językiem programowania stworzonym przez Microsoft, który stanowi nadzbiór JavaScriptu. Jest zaprojektowany tak, aby pomóc programistom w łatwiejszym pisaniu i zarządzaniu dużymi skomplikowanymi kodami, które są trudne do utrzymania w czystym JavaScript.
 
-{% embed url="https://www.typescriptlang.org/" %}
-TypeScript
-{% endembed %}
+[TypeScript](https://www.typescriptlang.org/)
 
 ## Kluczowe cechy
 
@@ -22,6 +20,4 @@ TypeScript jest szeroko stosowany w przemyśle IT, szczególnie w dużych projek
 
 ## Popularność języka
 
-{% embed url="https://www.tiobe.com/tiobe-index/typescript/" %}
-Wykres popularności języka TypeScript
-{% endembed %}
+[Wykres popularności języka TypeScript](https://www.tiobe.com/tiobe-index/typescript/)

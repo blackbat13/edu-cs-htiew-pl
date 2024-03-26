@@ -2,9 +2,7 @@
 
 Nmap to wolne oprogramowanie używane do analizy bezpieczeństwa sieci i zarządzania sieciami. Narzędzie to jest zdolne do odkrywania hostów i usług w sieci, tworzenia map sieci, skanowania portów oraz sprawdzania dostępnych usług i ich wersji. Nmap jest przydatny zarówno dla administratorów sieci jak i osób testujących bezpieczeństwo sieci.
 
-{% embed url="https://nmap.org" %}
-Nmap
-{% endembed %}
+[Nmap](https://nmap.org)
 
 ## Podstawowe funkcje i zastosowania
 
@@ -30,7 +28,7 @@ Innym sposobem jest użycie zakresu:
 nmap 192.168.1.1-3
 ```
 
-Możemy także określić porty, które chcemy przeskanować. W tym celu należy skorzystać z opcji `-p`. Dla przykładu, żeby zeskanować porty od $$20$$ do $$25$$ na hoście $$192.168.1.1$$ napiszemy:
+Możemy także określić porty, które chcemy przeskanować. W tym celu należy skorzystać z opcji `-p`. Dla przykładu, żeby zeskanować porty od $20$ do $25$ na hoście $192.168.1.1$ napiszemy:
 
 ```bash
 nmap -p 20-25 192.168.1.1
@@ -54,6 +52,4 @@ nmap -sS 192.168.1.1
 
 ## Ściąga
 
-{% embed url="https://cdn.comparitech.com/wp-content/uploads/2019/06/Nmap-Cheat-Sheet.pdf" %}
-Ściąga
-{% endembed %}
+[Ściąga](https://cdn.comparitech.com/wp-content/uploads/2019/06/Nmap-Cheat-Sheet.pdf)

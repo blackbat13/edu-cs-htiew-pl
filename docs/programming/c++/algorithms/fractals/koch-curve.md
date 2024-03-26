@@ -1,15 +1,11 @@
 # Krzywa Kocha
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/fractals/koch-curve.md)
 
-{% content-ref url="../../../../algorithms/fractals/koch-curve.md" %}
-[koch-curve.md](../../../../algorithms/fractals/koch-curve.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include "turtle.hpp"
 
 const int SIZE = 900;
@@ -43,8 +39,8 @@ int main() {
     return 0;
 } 
 ```
-{% endcode %}
+
 
 ### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/KochCurve#main.cpp" %}
+[https://replit.com/@damiankurpiewski/KochCurve#main.cpp](https://replit.com/@damiankurpiewski/KochCurve#main.cpp)

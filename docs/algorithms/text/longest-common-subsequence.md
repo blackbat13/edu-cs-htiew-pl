@@ -6,11 +6,11 @@ Podciąg to sekwencja znaków wybrana z tekstu bez zmiany ich kolejności, nieko
 
 ### Dane
 
-* $$a, b$$ - dwa ciągi znaków
+* $a, b$ - dwa ciągi znaków
 
 ### Wynik
 
-* Najdłuższy wspólny podciąg ciągów $$a$$ i $$b$$
+* Najdłuższy wspólny podciąg ciągów $a$ i $b$
 
 ## Przykład
 
@@ -50,12 +50,12 @@ Złożoność czasowa algorytmu to `O(mn)`, gdzie `m` i `n` to długości analiz
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/text/longest-common-subsequence.md" %}
+
 [longest-common-subsequence.md](../../programming/c++/algorithms/text/longest-common-subsequence.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/text/longest-common-subsequence.md" %}
+
 [longest-common-subsequence.md](../../programming/python/algorithms/text/longest-common-subsequence.md)
-{% endcontent-ref %}
+

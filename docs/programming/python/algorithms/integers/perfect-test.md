@@ -1,15 +1,11 @@
 # Test doskonałości
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/perfect-test.md)
 
-{% content-ref url="../../../../algorithms/integers/perfect-test.md" %}
-[perfect-test.md](../../../../algorithms/integers/perfect-test.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def is_perfect(n: int) -> bool:
     divisors_sum = 1
     i = 2
@@ -33,4 +29,4 @@ if is_perfect(n):
 else:
     print(f'{n} is not a perfect number')
 ```
-{% endcode %}
+

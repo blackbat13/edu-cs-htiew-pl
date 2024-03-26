@@ -1,17 +1,12 @@
 # Wyszukiwanie liniowe
 
-## Opis problemu
-
-{% content-ref url="../../../../algorithms/searching/linear-search.md" %}
-[linear-search.md](../../../../algorithms/searching/linear-search.md)
-{% endcontent-ref %}
+## [Opis problemu](../../../../algorithms/searching/linear-search.md)
 
 ## Istnienie elementu
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```scheme
+```scheme linenums="1"
 (define linearSearch
   (lambda (array number)
     (if (null? array)
@@ -25,7 +20,6 @@
 
 (display (linearSearch `(8 2 9 10 5 4 2 7 18 0) 7))
 ```
-{% endcode %}
 
 ### Opis implementacji
 
@@ -37,8 +31,7 @@ W części głównej programu na wywołujemy funkcję `linearSearch` z przygotow
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```scheme
+```scheme linenums="1"
 (define linearSearch
   (lambda (array number index)
     (if (null? array)
@@ -52,7 +45,6 @@ W części głównej programu na wywołujemy funkcję `linearSearch` z przygotow
  
 (display (linearSearch `(8 2 9 10 5 4 2 7 18 0) 4 0))
 ```
-{% endcode %}
 
 ### Opis implementacji
 

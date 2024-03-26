@@ -1,10 +1,7 @@
 # Wydawanie reszty
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/change.md)
 
-{% content-ref url="../../../../algorithms/integers/change.md" %}
-[change.md](../../../../algorithms/integers/change.md)
-{% endcontent-ref %}
 
 ## Podejście zachłanne
 
@@ -34,9 +31,7 @@ print(f"Amount {amount} can be given out using {result} coins")
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/DQPy9c" %}
-Wydawanie reszty - podejście zachłanne
-{% endembed %}
+[Wydawanie reszty - podejście zachłanne](https://ideone.com/DQPy9c)
 
 ### Opis implementacji
 
@@ -86,9 +81,7 @@ change_dynamic(amount, coins)
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/piFFpG" %}
-Wydawanie reszty - podejście dynamiczne
-{% endembed %}
+[Wydawanie reszty - podejście dynamiczne](https://ideone.com/piFFpG)
 
 ### Opis implementacji
 

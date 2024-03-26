@@ -4,7 +4,7 @@
 
 Gra w monety to jedna z gier dla dwóch graczy, której zasady można bardzo szybko i łatwo przyswoić.
 Na stole leżą sobie monety, a gracze grają na przemian.
-W swojej turze gracz może zabrać ze stołu $$1$$, $$3$$ lub $$4$$ monety (o ile na stole pozostała odpowiednia liczba monet).
+W swojej turze gracz może zabrać ze stołu $1$, $3$ lub $4$ monety (o ile na stole pozostała odpowiednia liczba monet).
 Gracz, który zabierze ze stołu ostatnie monety, przegrywa.
 
 Jak widać jest to gra z prostymi zasadami, chociaż nie koniecznie łatwo w nią wygrać.
@@ -75,7 +75,7 @@ class GameOfCoins(TwoPlayerGame):
         self.players = players
 ```
 
-Powinniśmy także zdefiniować początkową liczbę monet na stole, np. $$17$$.
+Powinniśmy także zdefiniować początkową liczbę monet na stole, np. $17$.
 Liczbę monet zapamiętamy w zmiennej **pile**.
 
 ```python
@@ -325,9 +325,7 @@ Teraz zajmiemy się tworzeniem graficznej wersji naszej gry z wykorzystaniem **P
 
 Zanim zaczniemy, pobierz poniższe grafiki, rozpakuj i umieść w katalogu **images** w projekcie gry.
 
-{% file src="../../../.gitbook/assets/gameOfCoins-grafiki.zip" %}
-Grafiki do gry w monety
-{% endfile %}
+[:material-folder-zip: Grafiki do gry w monety](../../../assets/gameOfCoins-grafiki.zip)
 
 ### Szablon gry
 

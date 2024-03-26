@@ -1,7 +1,6 @@
 # Python - rozwiązanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 while True:
     try:
         tab1 = list(map(int, input().split()))
@@ -19,4 +18,3 @@ while True:
     else:
         print("N")
 ```
-{% endcode %}

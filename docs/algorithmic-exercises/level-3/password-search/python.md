@@ -1,7 +1,6 @@
 # Python - rozwiązanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 while True:
     try:
         line = input().split(" ")
@@ -44,4 +43,4 @@ while True:
 
     print(password)
 ```
-{% endcode %}
+

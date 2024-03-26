@@ -99,11 +99,10 @@ Gdy sami alokujemy nowy blok pamięci, należy pamiętać, że powinniśmy ten b
 
 Poniższy przykład pokazuje, co może się wydarzyć, gdy będziemy alokować nowe bloki w pamięci bez zwalniania poprzednich. 
 
-{% hint style="warning" %}
-**Uwaga**
-
-Przed uruchomieniem programu na swoim komputerze upewnij się, że nie utracisz danych, jeżeli będzie potrzeba zrestartować system.
-{% endhint %}
+!!! warning
+	**Uwaga**
+	
+	Przed uruchomieniem programu na swoim komputerze upewnij się, że nie utracisz danych, jeżeli będzie potrzeba zrestartować system.
 
 ```cpp
 #include <iostream>

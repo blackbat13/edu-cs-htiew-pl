@@ -1,15 +1,11 @@
 # Sortowanie bąbelkowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/bubble-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/bubble-sort.md" %}
-[bubble-sort.md](../../../../algorithms/sorting/bubble-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```julia
+```julia linenums="1"
 function bubbleSort(array)
     sorted = false
     i = 2
@@ -33,7 +29,7 @@ bubbleSort(array)
 
 println(array)
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 

@@ -9,9 +9,7 @@ W pliku *Rzeka.txt* znajdują się dane odczytów zanieczyszczenia rzeki Bug na 
 
 Dane oddzielone są średnikami. Pierwszy wiersz zawiera nagłówki kolumn.
 
-{% file src="../../../../.gitbook/assets/Rzeka.txt" %}
-Rzeka.txt
-{% endfile %}
+[:material-note-text: Rzeka.txt](../../../../assets/Rzeka.txt)
 
 Źródło danych: [https://www.kaggle.com/datasets/vbmokin/ammonium-prediction-in-river-water](https://www.kaggle.com/datasets/vbmokin/ammonium-prediction-in-river-water)
 

@@ -1,15 +1,11 @@
 # Szyfr Vigenere"a
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/cryptography/symmetric/vigenere.md)
 
-{% content-ref url="../../../../algorithms/cryptography/symmetric/vigenere.md" %}
-[vigenere.md](../../../../algorithms/cryptography/symmetric/vigenere.md)
-{% endcontent-ref %}
 
 ## Szyfrowanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def encrypt_vigenere(message: str, key: str) -> str:
     encrypted = ""
     key_index = 0
@@ -35,12 +31,11 @@ encrypted = encrypt_vigenere(message, key)
 
 print(encrypted)
 ```
-{% endcode %}
+
 
 ## Deszyfrowanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def decrypt_vigenere(message: str, key: str) -> str:
     decrypted = ""
     key_index = 0
@@ -66,4 +61,4 @@ decrypted = decrypt_vigenere(message, key)
 
 print(decrypted)
 ```
-{% endcode %}
+

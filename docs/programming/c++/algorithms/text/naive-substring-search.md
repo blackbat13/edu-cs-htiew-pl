@@ -1,15 +1,11 @@
 # Naiwne wyszukiwanie wzorca w tekście
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/naive-substring-search.md)
 
-{% content-ref url="../../../../algorithms/text/naive-substring-search.md" %}
-[naive-substring-search.md](../../../../algorithms/text/naive-substring-search.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -50,4 +46,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

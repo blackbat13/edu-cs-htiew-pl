@@ -1,10 +1,7 @@
 # Sortowanie przez wstawianie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/insertion-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/insertion-sort.md" %}
-[insertion-sort.md](../../../../algorithms/sorting/insertion-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -32,6 +29,4 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/g6l7oJ" %}
-Sortowanie przez wstawianie
-{% endembed %}
+[Sortowanie przez wstawianie](https://ideone.com/g6l7oJ)

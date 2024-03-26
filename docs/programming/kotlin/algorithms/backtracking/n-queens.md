@@ -1,15 +1,11 @@
 # Problem n królowych
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/backtracking/n-queens.md)
 
-{% content-ref url="../../../../algorithms/backtracking/n-queens.md" %}
-[n-queens.md](../../../../algorithms/backtracking/n-queens.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```kotlin
+```kotlin linenums="1"
 fun findSolution(n: Int, queenId: Int, positions: Array<Int>): Boolean {
     if (queenId == n) {
         return true
@@ -72,4 +68,4 @@ fun main() {
   }
 }
 ```
-{% endcode %}
+

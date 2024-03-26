@@ -1,7 +1,6 @@
 # Python - rozwiązanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 values = dict()
 
 m, n = map(int, input().split(" "))
@@ -23,4 +22,4 @@ for _ in range(n):
 
     print(result)
 ```
-{% endcode %}
+

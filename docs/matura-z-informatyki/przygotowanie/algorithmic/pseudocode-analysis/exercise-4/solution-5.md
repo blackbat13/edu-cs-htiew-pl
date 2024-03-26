@@ -1,3 +1,3 @@
 # Zadanie 5 - rozwiązanie
 
-Złożoność: $$O(n)$$ - liniowa. 
+Złożoność: $O(n)$ - liniowa. 

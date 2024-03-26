@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją. Wykorzystaj funkcję **min**.
 
 #### Dane
 
-* $$a, b$$ - dwie liczby całkowite
+* $a, b$ - dwie liczby całkowite
 
 #### Wynik
 
-* Mniejsza z liczb $$a$$ i $$b$$, lub dowolna gdy są sobie równe
+* Mniejsza z liczb $a$ i $b$, lub dowolna gdy są sobie równe
 
 ## Rozwiązanie
 

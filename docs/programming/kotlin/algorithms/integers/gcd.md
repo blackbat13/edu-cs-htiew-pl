@@ -4,11 +4,8 @@ description: Największy Wspólny Dzielnik
 
 # NWD
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/gcd.md)
 
-{% content-ref url="../../../../algorithms/integers/gcd.md" %}
-[gcd.md](../../../../algorithms/integers/gcd.md)
-{% endcontent-ref %}
 
 ## Algorytm NWD z odejmowaniem
 
@@ -42,9 +39,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/4NLzXI" %}
-NWD z odejmowaniem
-{% endembed %}
+[NWD z odejmowaniem](https://ideone.com/4NLzXI)
 
 ### Opis implementacji
 
@@ -80,9 +75,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/VUGRIi" %}
-Algorytm Euklidesa - wersja iteracyjna
-{% endembed %}
+[Algorytm Euklidesa - wersja iteracyjna](https://ideone.com/VUGRIi)
 
 ### Opis implementacji
 
@@ -113,9 +106,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/F52FKB" %}
-Algorytm Euklidesa - wersja rekurencyjna
-{% endembed %}
+[Algorytm Euklidesa - wersja rekurencyjna](https://ideone.com/F52FKB)
 
 ### Opis implementacji
 

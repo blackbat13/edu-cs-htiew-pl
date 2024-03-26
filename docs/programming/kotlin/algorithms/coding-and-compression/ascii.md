@@ -1,10 +1,7 @@
 # Kod ASCII
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/coding-and-compression/ascii.md)
 
-{% content-ref url="../../../../algorithms/coding-and-compression/ascii.md" %}
-[ascii.md](../../../../algorithms/coding-and-compression/ascii.md)
-{% endcontent-ref %}
 
 ## Podstawowa tablica ASCII
 
@@ -17,9 +14,7 @@ for i in range(128):
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/hwYbpz" %}
-Podstawowa tablica ASCII
-{% endembed %}
+[Podstawowa tablica ASCII](https://ideone.com/hwYbpz)
 
 ### Opis implementacji
 
@@ -36,9 +31,7 @@ for i in range(256):
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/1fn3jX" %}
-Rozszerzona tablica ASCII
-{% endembed %}
+[Rozszerzona tablica ASCII](https://ideone.com/1fn3jX)
 
 ### Opis implementacji
 

@@ -2,8 +2,7 @@
 
 ## Zadanie 1
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def zadanie1():
     path = "input/motylek.txt"
     movement = {"L": (-1, 0, 0),
@@ -26,12 +25,11 @@ def zadanie1():
                 print(x - xm, y - ym, z - zm)
                 break
 ```
-{% endcode %}
+
 
 ## Zadanie 2
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def zadanie2():
     path = "input/motylek.txt"
     movement = {"L": (-1, 0, 0),
@@ -61,12 +59,11 @@ def zadanie2():
         print(result)
         print(x, y, z)
 ```
-{% endcode %}
+
 
 ## Zadanie 3
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def zadanie3():
     path = "input/motylek.txt"
     movement = {"L": (-1, 0, 0),
@@ -105,12 +102,11 @@ def zadanie3():
         print(max_length)
         print(min_num, max_num)
 ```
-{% endcode %}
+
 
 ## Zadanie 4
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def zadanie4():
     path = "input/motylek.txt"
     movement = {"L": (-1, 0, 0),
@@ -138,12 +134,11 @@ def zadanie4():
         print()
         print(result)
 ```
-{% endcode %}
+
 
 ## Zadanie 5
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def zadanie5():
     path = "input/motylek.txt"
     movement = {"L": (-1, 0, 0),
@@ -181,4 +176,4 @@ def zadanie5():
     print(p1, p2)
     print(f"{(max_dist**0.5):.2f}")
 ```
-{% endcode %}
+

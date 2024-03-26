@@ -8,12 +8,12 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$n$$ - liczba naturalna
-* $$a_1,a_2,\dots,a_n$$ - $$n$$ liczb całkowitych
+* $n$ - liczba naturalna
+* $a_1,a_2,\dots,a_n$ - $n$ liczb całkowitych
 
 #### Wynik
 
-* $$a_n,a_{n-1},\dots,a_2,a_1$$ - podane liczby w odwrotnej kolejności
+* $a_n,a_{n-1},\dots,a_2,a_1$ - podane liczby w odwrotnej kolejności
 
 ## Rozwiązanie
 
@@ -28,7 +28,7 @@ print(tab)
 
 ### Opis rozwiązania
 
-Na początku wczytujemy od użytkownika liczbę elementów i zapisujemy ją w zmiennej $$n$$ (**linia 1**).
+Na początku wczytujemy od użytkownika liczbę elementów i zapisujemy ją w zmiennej $n$ (**linia 1**).
 
 Następnie tworzymy listę wczytując do niej wartości (**linia 2**).
 

@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$a, b$$ - dwie liczby całkowite
+* $a, b$ - dwie liczby całkowite
 
 #### Wynik
 
-* Suma liczb $$a$$ i $$b$$ 
+* Suma liczb $a$ i $b$ 
 
 ## Rozwiązanie
 

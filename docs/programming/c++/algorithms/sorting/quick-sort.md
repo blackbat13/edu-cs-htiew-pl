@@ -1,15 +1,11 @@
 # Sortowanie szybkie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/quick-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/quick-sort.md" %}
-[quick-sort.md](../../../../algorithms/sorting/quick-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -63,4 +59,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

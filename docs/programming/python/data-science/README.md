@@ -24,9 +24,7 @@ Dlatego Python jest tak często wykorzystywany w Data Science. Jego prostota i m
 
 Kaggle to platforma internetowa należąca do Google, która służy jako społeczność dla naukowców pracujących z danymi i uczeniem maszynowym. Użytkownicy platformy mogą znajdować i publikować zestawy danych, eksplorować i tworzyć modele w interaktywnym środowisku, a także uczyć się i współpracować w konkursach, zadaniach i dyskusjach.
 
-{% embed url="https://www.kaggle.com" %}
-Kaggle
-{% endembed %}
+[Kaggle](https://www.kaggle.com)
 
 ### Kluczowe cechy
 
@@ -42,10 +40,6 @@ Kaggle
 
 Kaggle jest niezwykle użyteczny dla osób uczących się lub pracujących w dziedzinie nauki o danych i uczenia maszynowego, umożliwiając im dostęp do ogromnej ilości danych, narzędzi analizy, a także do społeczności ekspertów i entuzjastów.
 
-{% embed url="https://www.beautiful.ai/player/-Nf17ohfuIsTOA68-5kZ" %}
-Prezentacja
-{% endembed %}
+[Prezentacja](https://www.beautiful.ai/player/-Nf17ohfuIsTOA68-5kZ)
 
-{% embed url="https://www.kaggle.com/damiankurpiewski/niecodzienny-python-i-obserwacja-danych" %}
-Projekt wprowadzający
-{% endembed %}
+[Projekt wprowadzający](https://www.kaggle.com/damiankurpiewski/niecodzienny-python-i-obserwacja-danych)

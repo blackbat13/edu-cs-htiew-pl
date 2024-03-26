@@ -1,17 +1,13 @@
 # Jednoczesne wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/min-max-search.md)
 
-{% content-ref url="../../../../algorithms/searching/min-max-search.md" %}
-[min-max-search.md](../../../../algorithms/searching/min-max-search.md)
-{% endcontent-ref %}
 
 ## Podejście naiwne
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -42,7 +38,7 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
@@ -56,8 +52,7 @@ W części głównej tworzymy przykładową tablicę (**linia 24**), a następni
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -107,7 +102,7 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 

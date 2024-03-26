@@ -1,15 +1,11 @@
 # Szyfr Playfaira
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/cryptography/symmetric/playfair.md)
 
-{% content-ref url="../../../../algorithms/cryptography/symmetric/playfair.md" %}
-[playfair.md](../../../../algorithms/cryptography/symmetric/playfair.md)
-{% endcontent-ref %}
 
 ## Szyfrowanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def find(letter: str, tab: list) -> (int, int):
     for i in range(6):
         for j in range(6):
@@ -67,12 +63,11 @@ encoded = encode(key, message)
 
 print(encoded)
 ```
-{% endcode %}
+
 
 ## Deszyfrowanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def find(letter: str, tab: list) -> (int, int):
     for i in range(6):
         for j in range(6):
@@ -130,4 +125,4 @@ decoded = decode(key, message)
 
 print(decoded)
 ```
-{% endcode %}
+

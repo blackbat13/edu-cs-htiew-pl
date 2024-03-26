@@ -1,15 +1,11 @@
 # Kwadrat Sierpińskiego
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/fractals/sierpinski-square.md)
 
-{% content-ref url="../../../../algorithms/fractals/sierpinski-square.md" %}
-[sierpinski-square.md](../../../../algorithms/fractals/sierpinski-square.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include "turtle.hpp"
 
 const int SIZE = 900;
@@ -51,8 +47,8 @@ int main() {
     return 0;
 } 
 ```
-{% endcode %}
+
 
 ### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/SierpinskiSquare#main.cpp" %}
+[https://replit.com/@damiankurpiewski/SierpinskiSquare#main.cpp](https://replit.com/@damiankurpiewski/SierpinskiSquare#main.cpp)

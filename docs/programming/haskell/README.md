@@ -2,9 +2,7 @@
 
 Haskell to język programowania ogólnego przeznaczenia o silnym, statycznym typowaniu, który jest znany przede wszystkim z tego, że jest jednym z najpopularniejszych języków funkcyjnych. Został stworzony w 1990 roku jako standard dla języków funkcyjnych.
 
-{% embed url="https://www.haskell.org/" %}
-Haskell
-{% endembed %}
+[Haskell](https://www.haskell.org/)
 
 ## Kluczowe cechy
 
@@ -22,6 +20,4 @@ Haskell jest często używany w środowisku akademickim i badawczym do nauki pro
 
 ## Popularność języka
 
-{% embed url="https://www.tiobe.com/tiobe-index/haskell/" %}
-Wykres popularności języka Haskell
-{% endembed %}
+[Wykres popularności języka Haskell](https://www.tiobe.com/tiobe-index/haskell/)

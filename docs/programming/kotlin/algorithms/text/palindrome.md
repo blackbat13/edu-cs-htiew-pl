@@ -1,10 +1,7 @@
 # Palindrom
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/palindrome.md)
 
-{% content-ref url="../../../../algorithms/text/palindrome.md" %}
-[palindrome.md](../../../../algorithms/text/palindrome.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -23,9 +20,7 @@ else:
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/nsapMq" %}
-Test palindromu
-{% endembed %}
+[Test palindromu](https://ideone.com/nsapMq)
 
 ### Opis implementacji
 

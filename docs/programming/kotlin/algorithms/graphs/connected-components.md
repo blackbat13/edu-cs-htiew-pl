@@ -1,10 +1,7 @@
 # Spójne składowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/connected-components.md)
 
-{% content-ref url="../../../../algorithms/graphs/connected-components.md" %}
-[connected-components.md](../../../../algorithms/graphs/connected-components.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -53,9 +50,7 @@ print("Number of connected components in the graph:", result)
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/68F4l6" %}
-Spójne składowe
-{% endembed %}
+[Spójne składowe](https://ideone.com/68F4l6)
 
 ### Opis implementacji
 

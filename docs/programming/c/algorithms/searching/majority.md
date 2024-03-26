@@ -1,15 +1,11 @@
 # Znajdowanie lidera w zbiorze
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/majority.md)
 
-{% content-ref url="../../../../algorithms/searching/majority.md" %}
-[majority.md](../../../../algorithms/searching/majority.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```c
+```c linenums="1"
 #include <stdio.h>
 
 int countOccurences(int number, int array[], int length) {
@@ -62,4 +58,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

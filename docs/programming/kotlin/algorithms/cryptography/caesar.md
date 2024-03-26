@@ -1,10 +1,7 @@
 # Szyfr Cezara
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/cryptography/caesar.md)
 
-{% content-ref url="../../../../algorithms/cryptography/caesar.md" %}
-[caesar.md](../../../../algorithms/cryptography/caesar.md)
-{% endcontent-ref %}
 
 ## Szyfrowanie
 
@@ -49,9 +46,7 @@ print(f'Encoded: {encoded}')
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/WgTR6z" %}
-Szyfrowanie szyfrem Cezara
-{% endembed %}
+[Szyfrowanie szyfrem Cezara](https://ideone.com/WgTR6z)
 
 ### Opis implementacji
 
@@ -100,9 +95,7 @@ print(f'Decoded: {decoded}')
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/BWheBr" %}
-Deszyfrowanie szyfrem Cezara
-{% endembed %}
+[Deszyfrowanie szyfrem Cezara](https://ideone.com/BWheBr)
 
 ### Opis implementacji
 

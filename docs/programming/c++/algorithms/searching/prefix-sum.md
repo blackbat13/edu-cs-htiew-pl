@@ -1,15 +1,11 @@
 # Sumy prefiksowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/prefix-sum.md)
 
-{% content-ref url="../../../../algorithms/searching/prefix-sum.md" %}
-[prefix-sum.md](../../../../algorithms/searching/prefix-sum.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -45,4 +41,4 @@ int main() {
   return 0;
 }
 ```
-{% endcode %}
+

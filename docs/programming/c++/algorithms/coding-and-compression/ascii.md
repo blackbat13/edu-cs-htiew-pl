@@ -1,17 +1,13 @@
 # Kod ASCII
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/coding-and-compression/ascii.md)
 
-{% content-ref url="../../../../algorithms/coding-and-compression/ascii.md" %}
-[ascii.md](../../../../algorithms/coding-and-compression/ascii.md)
-{% endcontent-ref %}
 
 ## Podstawowa tablica ASCII
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -27,14 +23,13 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ## Rozszerzona tablica ASCII
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -50,4 +45,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

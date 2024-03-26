@@ -1,10 +1,7 @@
 # Sortowanie przez wybieranie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/selection-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/selection-sort.md" %}
-[selection-sort.md](../../../../algorithms/sorting/selection-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -41,9 +38,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/EM3UPA" %}
-Sortowanie przez wybieranie
-{% endembed %}
+[Sortowanie przez wybieranie](https://ideone.com/EM3UPA)
 
 ### Opis implementacji
 

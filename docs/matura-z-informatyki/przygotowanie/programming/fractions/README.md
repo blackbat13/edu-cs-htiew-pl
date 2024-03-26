@@ -1,10 +1,8 @@
 # Ułamki
 
-W pliku **ulamki.txt** znajduje się $$100$$ par liczb całkowitych. Każda linia w pliku zawiera dwie liczby oddzielone spacją. Pierwsza liczba z pary oznacza licznik ułamka, a druga jego mianownik. **Postacią skróconą** ułamka zwykłego nazwiemy taką postać, że nie istnieje taka liczba naturalna większa od $$1$$, przez którą bez reszty dzieli się zarówno licznik jak i mianownik.
+W pliku **ulamki.txt** znajduje się $100$ par liczb całkowitych. Każda linia w pliku zawiera dwie liczby oddzielone spacją. Pierwsza liczba z pary oznacza licznik ułamka, a druga jego mianownik. **Postacią skróconą** ułamka zwykłego nazwiemy taką postać, że nie istnieje taka liczba naturalna większa od $1$, przez którą bez reszty dzieli się zarówno licznik jak i mianownik.
 
-{% file src="../../../../.gitbook/assets/ulamki.txt" %}
-ulamki.txt
-{% endfile %}
+[:material-note-text: ulamki.txt](../../../../assets/ulamki.txt)
 
 ## Zadanie 1
 

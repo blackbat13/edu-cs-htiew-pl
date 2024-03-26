@@ -1,15 +1,11 @@
 # Odległość Levenshteina (edycyjna)
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/levenshtein-distance.md)
 
-{% content-ref url="../../../../algorithms/text/levenshtein-distance.md" %}
-[levenshtein-distance.md](../../../../algorithms/text/levenshtein-distance.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def levenshtein_distance(a: str, b: str) -> int:
     matrix = [[i + j for j in range(len(b) + 1)] for i in range(len(a) + 1)]
 
@@ -33,4 +29,4 @@ distance = levenshtein_distance(a, b)
 
 print(f"Odległość Levenshteina pomiędzy wyrazami {a} i {b} wynosi {distance}")
 ```
-{% endcode %}
+

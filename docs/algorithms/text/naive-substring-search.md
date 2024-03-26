@@ -12,14 +12,14 @@ Problem wygląda następująco: dostajemy dwa teksty, nazwijmy je _tekst_ oraz _
 
 #### Dane:
 
-* $$n$$ - długość tekstu, $$n\in\mathbb{N}, n\geq1$$&#x20;
-* $$tekst[1..n]$$ - ciąg znaków o długości $$n$$, numerowanych od jedynki&#x20;
-* $$m$$ - długość wzorca,  $$m\in\mathbb{N}, 1\leq m\leq n$$
-* $$wzorzec[1..m]$$ - ciąg znaków o długości $$m$$, numerowanych od jedynki&#x20;
+* $n$ - długość tekstu, $n\in\mathbb{N}, n\geq1$&#x20;
+* $tekst[1..n]$ - ciąg znaków o długości $n$, numerowanych od jedynki&#x20;
+* $m$ - długość wzorca,  $m\in\mathbb{N}, 1\leq m\leq n$
+* $wzorzec[1..m]$ - ciąg znaków o długości $m$, numerowanych od jedynki&#x20;
 
 #### Wynik:
 
-* Indeks pierwszego wystąpienia wzorca w tekście, lub $$-1$$ jeżeli wzorzec nie występuje w tekście
+* Indeks pierwszego wystąpienia wzorca w tekście, lub $-1$ jeżeli wzorzec nie występuje w tekście
 
 ### Przykład 1
 
@@ -30,7 +30,7 @@ tekst := "alamakota"
 wzorzec := "kot"
 ```
 
-**Wynik**: $$6$$.
+**Wynik**: $6$.
 
 ### Przykład 2
 
@@ -41,7 +41,7 @@ tekst := "alamakota"
 wzorzec := "koty"
 ```
 
-**Wynik**: $$-1$$.
+**Wynik**: $-1$.
 
 ## Rozwiązanie
 
@@ -99,18 +99,18 @@ flowchart TD
 
 ### Złożoność
 
-$$O(n*m)\to O(n^2)$$ - kwadratowa
+$O(n*m)\to O(n^2)$ - kwadratowa
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/text/naive-substring-search.md" %}
+
 [naive-substring-search.md](../../programming/c++/algorithms/text/naive-substring-search.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/text/naive-substring-search.md" %}
+
 [naive-substring-search.md](../../programming/python/algorithms/text/naive-substring-search.md)
-{% endcontent-ref %}
+

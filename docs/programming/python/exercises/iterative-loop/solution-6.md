@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$n$$ - liczba naturalna
+* $n$ - liczba naturalna
 
 #### Wynik
 
-* Tabliczka mnożenia z zakresu $$[1,n]$$
+* Tabliczka mnożenia z zakresu $[1,n]$
 
 ## Rozwiązanie
 

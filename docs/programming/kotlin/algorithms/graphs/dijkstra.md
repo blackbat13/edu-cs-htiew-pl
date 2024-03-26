@@ -4,11 +4,8 @@ description: Najkrótsze ścieżki z zadanego wierzchołka
 
 # Dijkstra
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/dijkstra.md)
 
-{% content-ref url="../../../../algorithms/graphs/dijkstra.md" %}
-[dijkstra.md](../../../../algorithms/graphs/dijkstra.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -55,9 +52,7 @@ print(dijkstra(graph, 0))
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/BSdXrf" %}
-Dijkstra
-{% endembed %}
+[Dijkstra](https://ideone.com/BSdXrf)
 
 ### Opis implementacji
 

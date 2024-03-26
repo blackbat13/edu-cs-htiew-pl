@@ -1,15 +1,11 @@
 # Minkowski Sausage
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/fractals/minkowski-sausage.md)
 
-{% content-ref url="../../../../algorithms/fractals/minkowski-sausage.md" %}
-[minkowski-sausage.md](../../../../algorithms/fractals/minkowski-sausage.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 import turtle
 
 
@@ -41,8 +37,8 @@ minkowski_sausage(3, 100)
 
 turtle.done()
 ```
-{% endcode %}
+
 
 ### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/Minkowski-Sausage#main.py" %}
+[https://replit.com/@damiankurpiewski/Minkowski-Sausage#main.py](https://replit.com/@damiankurpiewski/Minkowski-Sausage#main.py)

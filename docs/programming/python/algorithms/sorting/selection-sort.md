@@ -1,15 +1,11 @@
 # Sortowanie przez wybieranie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/selection-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/selection-sort.md" %}
-[selection-sort.md](../../../../algorithms/sorting/selection-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def find_min(array: list, begin: int) -> int:
     min_index = begin
     
@@ -32,7 +28,7 @@ selection_sort(array)
 
 print(array)
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 

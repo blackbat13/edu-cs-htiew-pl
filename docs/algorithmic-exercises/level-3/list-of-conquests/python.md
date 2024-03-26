@@ -1,7 +1,6 @@
 # Python - rozwiązanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 counters = dict()
 n = int(input())
 
@@ -16,4 +15,4 @@ for _ in range(n):
 for country in sorted(counters):
     print(f"{country} {counters[country]}")
 ```
-{% endcode %}
+

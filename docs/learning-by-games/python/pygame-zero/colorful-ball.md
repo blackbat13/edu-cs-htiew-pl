@@ -107,7 +107,7 @@ pgzrun.go()
 
 ### Testujemy działanie
 
-{% embed url="https://replit.com/@damiankurpiewski/ColorBall" %}
+[https://replit.com/@damiankurpiewski/ColorBall](https://replit.com/@damiankurpiewski/ColorBall)
 
 TODO
 

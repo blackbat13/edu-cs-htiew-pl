@@ -11,7 +11,7 @@ Omówimy działanie klas na konkretnym przykładzie.
 
 Stwórzmy klasę reprezentującą dwuwymiarowy punkt.
 Nazwiemy ją **Point2D**.
-Nasza klasa będzie miała dwa atrybuty: współrzędne $$x$$ i $$y$$.
+Nasza klasa będzie miała dwa atrybuty: współrzędne $x$ i $y$.
 
 ### Implementacja
 

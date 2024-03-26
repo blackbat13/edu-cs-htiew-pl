@@ -1,8 +1,8 @@
 # Motylek
 
-Wyobraź sobie małego motylka, zamkniętego w sześcianie o wymiarach $$16\times 16\times 16$$. Motylek początkowo znajduje się w punkcie o współrzędnych $$(0,0,0)$$. Punkt ten stanowi także środek sześcianu. Krawędzie sześcianu są równoległe do poszczególnych osi współrzędnych. Motylek może poruszać się w dowolnym z sześciu kierunków: do przodu, do tyłu, w górę, w dół, w lewo, w prawo. Każdy ruch przemieszcza motylka o $$1$$ w zadanym kierunku. Dokładniej mówiąc, jeżeli motylek znajduje się w punkcie $$(0,0,0)$$, to po pofrunięciu do przodu znajdzie się w punkcie $$(0,0,1)$$. Podobnie, gdyby z nowej pozycji pofrunął do tyłu, to ponownie znajdzie się na pozycji $$(0,0,0)$$. Podczas swojego lotu motylek nie obraca się, co oznacza, że zawsze jest skierowany w tym samym kierunku.
+Wyobraź sobie małego motylka, zamkniętego w sześcianie o wymiarach $16\times 16\times 16$. Motylek początkowo znajduje się w punkcie o współrzędnych $(0,0,0)$. Punkt ten stanowi także środek sześcianu. Krawędzie sześcianu są równoległe do poszczególnych osi współrzędnych. Motylek może poruszać się w dowolnym z sześciu kierunków: do przodu, do tyłu, w górę, w dół, w lewo, w prawo. Każdy ruch przemieszcza motylka o $1$ w zadanym kierunku. Dokładniej mówiąc, jeżeli motylek znajduje się w punkcie $(0,0,0)$, to po pofrunięciu do przodu znajdzie się w punkcie $(0,0,1)$. Podobnie, gdyby z nowej pozycji pofrunął do tyłu, to ponownie znajdzie się na pozycji $(0,0,0)$. Podczas swojego lotu motylek nie obraca się, co oznacza, że zawsze jest skierowany w tym samym kierunku.
 
-W pliku **motylek.txt** znajduje się $$1000$$ poleceń dla motylka. Każde polecenie znajduje się w osobnej linii i składa się dokładnie z jednej wielkiej litery alfabetu angielskiego. W zadaniach polecenia numerujemy od jedynki. Polecenia interpretujemy zgodnie z poniższym schematem:
+W pliku **motylek.txt** znajduje się $1000$ poleceń dla motylka. Każde polecenie znajduje się w osobnej linii i składa się dokładnie z jednej wielkiej litery alfabetu angielskiego. W zadaniach polecenia numerujemy od jedynki. Polecenia interpretujemy zgodnie z poniższym schematem:
 
 - **L** - pofruń w lewo,
 - **R** - pofruń w prawo,
@@ -11,9 +11,7 @@ W pliku **motylek.txt** znajduje się $$1000$$ poleceń dla motylka. Każde pole
 - **F** - pofruń naprzód,
 - **B** - pofruń do tyłu.
 
-{% file src="../../../../.gitbook/assets/motylek.txt" %}
-motylek.txt
-{% endfile %}
+[:material-note-text: motylek.txt](../../../../assets/motylek.txt)
 
 ## Zadanie 1
 
@@ -29,7 +27,7 @@ Podaj długość najdłuższej sekwencji kolejnych poleceń, w trakcie wykonywan
 
 ## Zadanie 4
 
-Załóżmy, że gdy motylek miałby wykonać polecenie przenoszące go poza sześcian, to zamiast tego "teleportuje" się do punktu $$(0,0,0)$$ i kontynuuje wykonywanie poleceń z tej pozycji, poczynając od polecenia, które wyprowadziłoby go poza sześcian. Oblicz, ile razy motylek będzie "teleportował" się do środka sześcianu.
+Załóżmy, że gdy motylek miałby wykonać polecenie przenoszące go poza sześcian, to zamiast tego "teleportuje" się do punktu $(0,0,0)$ i kontynuuje wykonywanie poleceń z tej pozycji, poczynając od polecenia, które wyprowadziłoby go poza sześcian. Oblicz, ile razy motylek będzie "teleportował" się do środka sześcianu.
 
 ## Zadanie 5
 

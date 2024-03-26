@@ -1,15 +1,11 @@
 # Sortowanie szybkie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/quick-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/quick-sort.md" %}
-[quick-sort.md](../../../../algorithms/sorting/quick-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def quick_sort(array: list, left: int, right: int):
     if right <= left:
         return
@@ -43,7 +39,7 @@ quick_sort(array, 0, len(array) - 1)
 
 print(array)
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 

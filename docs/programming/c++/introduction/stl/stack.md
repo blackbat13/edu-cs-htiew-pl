@@ -15,9 +15,7 @@ Stos znajduje się w bibliotece `stack`.
 
 ### Dokumentacja
 
-{% embed url="https://www.cplusplus.com/reference/stack/stack/" %}
-Stack Reference
-{% endembed %}
+[Stack Reference](https://www.cplusplus.com/reference/stack/stack/)
 
 ## Implementacja: przykłady
 
@@ -126,6 +124,4 @@ int main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/V9xS3j" %}
-stack - przykłady
-{% endembed %}
+[stack - przykłady](https://ideone.com/V9xS3j)

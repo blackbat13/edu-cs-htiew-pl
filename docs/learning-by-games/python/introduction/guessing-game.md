@@ -13,7 +13,7 @@ Stworzymy kolejną, prostą grę tekstową: grę w zgadywanie! Reguły są prost
 
 ## Proste zgadywanie
 
-Zaczynamy od prostego zgadywania. Komputer losuje liczbę od $$1$$ do $$10$$, a użytkownik próbuje ją odgadnąć. Gra będzie się toczyć dopóki użytkownik nie odgadnie wylosowanej liczby. 
+Zaczynamy od prostego zgadywania. Komputer losuje liczbę od $1$ do $10$, a użytkownik próbuje ją odgadnąć. Gra będzie się toczyć dopóki użytkownik nie odgadnie wylosowanej liczby. 
 
 ### Losujemy ukrytą liczbę
 
@@ -23,7 +23,7 @@ Ponieważ będziemy losować liczbę, potrzebna nam jest biblioteka do liczb los
 import random
 ```
 
-Teraz możemy wylosować liczbę od $$1$$ do $$10$$, którą zapiszemy w zmiennej `ukryta`:
+Teraz możemy wylosować liczbę od $1$ do $10$, którą zapiszemy w zmiennej `ukryta`:
 
 ```python
 ukryta = random.randint(1, 10)
@@ -33,7 +33,7 @@ ukryta = random.randint(1, 10)
 
 Przyszedł czas na komunikację z użytkownikiem. Najpierw użytkownik wprowadzi jakąś liczbę, następnie komputer sprawdzi, czy jest ona taka sama, jak wylosowana na początku wartość. Jeżeli nie, to użytkownik będzie miał kolejną próbę. I tak w kółko, aż nie odgadnie.
 
-Można się domyśleć, że będziemy potrzebowali pętli. Nie wiemy jednak, ile prób będzie potrzebował wykonać użytkownik, zanim uda mu się odgadnąć. Może wystarczy jedna próba, a może będzie potrzeba ich $$10$$. Jak więc zastosować pętlę?
+Można się domyśleć, że będziemy potrzebowali pętli. Nie wiemy jednak, ile prób będzie potrzebował wykonać użytkownik, zanim uda mu się odgadnąć. Może wystarczy jedna próba, a może będzie potrzeba ich $10$. Jak więc zastosować pętlę?
 
 ### Wczytujemy liczbę od użytkownika
 
@@ -43,9 +43,8 @@ Zastanowimy się nad tym za chwilę. Na razie wczytajmy pierwszą próbę użytk
 liczba = int(input("Podaj liczbę: "))
 ```
 
-{% hint style="warning" %}
-Pamiętamy, żeby skorzystać z polecenia `int`, ponieważ potrzebujemy liczbę, a nie tekst!
-{% endhint %}
+!!! warning
+	 Pamiętamy, żeby skorzystać z polecenia `int`, ponieważ potrzebujemy liczbę, a nie tekst!
 
 ### Zgadujemy aż do skutku
 
@@ -57,9 +56,8 @@ Do zrealizowania tego zadania posłuży nam pętla **warunkowa** `while`:
 while liczba != ukryta:
 ```
 
-{% hint style="info" %}
-Do sprawdzenia, czy dwie wartości są od siebie **różne**, używamy `!=`
-{% endhint %}
+!!! info
+	 Do sprawdzenia, czy dwie wartości są od siebie **różne**, używamy `!=`
 
 Dopóki użytkownik nie odgadł poprawnie, będziemy wykonywać dwie operacje: wypiszemy stosowny komunikat i poprosimy użytkownika o podanie kolejnej liczby. Te dwie operacje wykonamy **w pętli**, pamiętamy więc o wcięciach.
 
@@ -111,11 +109,11 @@ Za którym razem teraz udało Ci się odgadnąć?
 
 Możesz także przetestować działanie gry poniżej.
 
-{% embed url="https://replit.com/@damiankurpiewski/Zgadywanie1#main.py" %}
+[https://replit.com/@damiankurpiewski/Zgadywanie1#main.py](https://replit.com/@damiankurpiewski/Zgadywanie1#main.py)
 
 ## Zgadywanie ciepło-zimno
 
-Zgadywanie w "ciemno" nie jest wcale takie proste. Oczywiście, gdy mamy odgadnąć liczbę od $$1$$ do $$10$$ to w najgorszym przypadku będziemy potrzebowali dziesięciu prób, żeby w końcu odgadnąć prawidłowo. Co jednak, gdy chcielibyśmy pytać o liczby z większego przedziału, np. od $$1$$ do $$100$$, albo od $$1$$ do $$1000$$? Bez żadnych wskazówek odgadnięcie wylosowanej wartości będzie bardzo trudne.
+Zgadywanie w "ciemno" nie jest wcale takie proste. Oczywiście, gdy mamy odgadnąć liczbę od $1$ do $10$ to w najgorszym przypadku będziemy potrzebowali dziesięciu prób, żeby w końcu odgadnąć prawidłowo. Co jednak, gdy chcielibyśmy pytać o liczby z większego przedziału, np. od $1$ do $100$, albo od $1$ do $1000$? Bez żadnych wskazówek odgadnięcie wylosowanej wartości będzie bardzo trudne.
 
 Dlatego zmodyfikujemy naszą grę, by dać graczowi większe szanse na szybkie odgadnięcie liczby. Dodamy coś w rodzaju podpowiedzi jakie występują w grze "**ciepło-zimno**". Dla tych, którzy nie znają tej gry, krótkie wyjaśnienie. Jeden z graczy chowa jakiś przedmiot w pomieszczeniu, a drugi próbuje go odnaleźć. Gdy zbliża się do schowanego przedmiotu dostaje podpowiedź "**ciepło**", a gdy idzie w złym kierunku: "**zimno**".
 
@@ -204,7 +202,7 @@ Czy potrafisz wymyśleć **strategię**, która pozwoli Ci odgadnąć w jak najm
 
 Poniżej możesz także przetestować działanie gry.
 
-{% embed url="https://replit.com/@damiankurpiewski/Zgadywanie2" %}
+[https://replit.com/@damiankurpiewski/Zgadywanie2](https://replit.com/@damiankurpiewski/Zgadywanie2)
 
 ## Zgadywanie ze zliczeniem prób
 
@@ -212,7 +210,7 @@ Nasza modyfikacja "ciepło-zimno" powinna ułatwić zgadywanie. Ile jednak prób
 
 ### Dodajemy licznik
 
-Na początku dodajemy do programu licznik prób. Nazwijmy tę zmienną `ile_prob`. Na początku przypiszemy jej wartość $$1$$, ponieważ zawsze zaczynamy od pierwszej próby (mniej nie możemy mieć!).
+Na początku dodajemy do programu licznik prób. Nazwijmy tę zmienną `ile_prob`. Na początku przypiszemy jej wartość $1$, ponieważ zawsze zaczynamy od pierwszej próby (mniej nie możemy mieć!).
 
 Naszą nową zmienną dopisujemy **na początku** całego programu, np. po wylosowaniu ukrytej wartości.
 
@@ -238,11 +236,10 @@ print("Liczba prób:", ile_prob)
 
 To wszystko! Testujemy i gramy!
 
-{% hint style="info" %}
-Zastanów się, jaką **strategię** należy obrać, by za każdym razem mieć jak najmniej prób.
-
-Spróbuj także zwiększyć zakres, z którego losowana jest ukryta wartość.
-{% endhint %}
+!!! info
+	Zastanów się, jaką **strategię** należy obrać, by za każdym razem mieć jak najmniej prób.
+	
+	Spróbuj także zwiększyć zakres, z którego losowana jest ukryta wartość.
 
 ### Pełna gra z komentarzami
 
@@ -294,7 +291,7 @@ A jaka była największa?
 
 Poniżej także możesz przetestować działanie gry.
 
-{% embed url="https://replit.com/@damiankurpiewski/Zgadywanie3" %}
+[https://replit.com/@damiankurpiewski/Zgadywanie3](https://replit.com/@damiankurpiewski/Zgadywanie3)
 
 ## Zgadywanie z własnego zakresu
 
@@ -340,11 +337,10 @@ if od > do:
 
 Ponownie uruchamiamy grę i sprawdzamy jej działanie. Czy teraz wszystko działa poprawnie?
 
-{% hint style="warning" %}
-**Uwaga**
-
-Dla ułatwienia zakładamy, że gracz podaje do programu prawidłowe liczby **całkowite**. Nie zajmujemy się przypadkami, gdy gracz poda liczbę ułamkową, albo zamiast liczby wpisze jakiś tekst.
-{% endhint %}
+!!! warning
+	**Uwaga**
+	
+	Dla ułatwienia zakładamy, że gracz podaje do programu prawidłowe liczby **całkowite**. Nie zajmujemy się przypadkami, gdy gracz poda liczbę ułamkową, albo zamiast liczby wpisze jakiś tekst.
 
 ### Pełna gra z komentarzami
 
@@ -412,4 +408,4 @@ Jaki jest największy przedział, w którym uda Ci się odgadnąć liczbę?
 
 Poniżej także możesz przetestować działanie gry.
 
-{% embed url="https://replit.com/@damiankurpiewski/Zgadywanie4" %}
+[https://replit.com/@damiankurpiewski/Zgadywanie4](https://replit.com/@damiankurpiewski/Zgadywanie4)

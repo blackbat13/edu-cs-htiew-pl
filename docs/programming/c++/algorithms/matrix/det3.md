@@ -1,15 +1,11 @@
 # Wyznacznik macierzy 3x3
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/matrix/det3.md)
 
-{% content-ref url="../../../../algorithms/matrix/det3.md" %}
-[det3.md](../../../../algorithms/matrix/det3.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -32,10 +28,10 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
-Funkcja `det3` (**linia 5**) wylicza wyznacznik macierzy $$3\times3$$ przekazanej jako parametr funkcji. Wewnątrz funkcji mamy tylko jedną operację zwracającą wyznacznik macierzy obliczony zgodnie ze wzorem.
+Funkcja `det3` (**linia 5**) wylicza wyznacznik macierzy $3\times3$ przekazanej jako parametr funkcji. Wewnątrz funkcji mamy tylko jedną operację zwracającą wyznacznik macierzy obliczony zgodnie ze wzorem.
 
 W części głównej najpierw przygotowujemy macierz (**linia 12**), następnie obliczamy jej wyznacznik (**linia 16**) i wypisujemy go na ekranie (**linia 18**). Na koniec kończymy działanie programu (**linia 20**).

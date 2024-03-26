@@ -1,15 +1,11 @@
 # Sortowanie przez wstawianie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/insertion-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/insertion-sort.md" %}
-[insertion-sort.md](../../../../algorithms/sorting/insertion-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def insertion_sort(array: list):
     for i in range(1, len(array)):
         j = i
@@ -25,4 +21,4 @@ insertion_sort(array)
 
 print(array)
 ```
-{% endcode %}
+

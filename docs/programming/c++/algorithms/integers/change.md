@@ -1,17 +1,13 @@
 # Wydawanie reszty
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/atm-problem/README.md)
 
-{% content-ref url="../../../../algorithms/integers/atm-problem/README.md" %}
-[README.md](../../../../algorithms/integers/atm-problem/README.md)
-{% endcontent-ref %}
 
 ## Podejście zachłanne
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -40,20 +36,17 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/PQmCHG" %}
-Zachłanne wydawanie reszty
-{% endembed %}
+[Zachłanne wydawanie reszty](https://ideone.com/PQmCHG)
 
 ## Podejście dynamiczne
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -111,4 +104,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

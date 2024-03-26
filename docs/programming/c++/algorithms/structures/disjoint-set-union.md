@@ -1,15 +1,11 @@
 # Struktura zbiorów rozłącznych
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/structures/disjoint-set-union.md)
 
-{% content-ref url="../../../../algorithms/structures/disjoint-set-union.md" %}
-[disjoint-set-union.md](../../../../algorithms/structures/disjoint-set-union.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <vector>
 
@@ -78,4 +74,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

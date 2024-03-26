@@ -23,9 +23,7 @@ else:
     print("Reszka")
 ```
 
-{% embed url="https://ideone.com/uMTxg9" %}
-Symulator rzutu monetą - Python
-{% endembed %}
+[Symulator rzutu monetą - Python](https://ideone.com/uMTxg9)
 
 ## C++
 
@@ -51,9 +49,7 @@ int main() {
 }
 ```
 
-{% embed url="https://ideone.com/ewTF4L" %}
-Symulator rzutu monetą - C++
-{% endembed %}
+[Symulator rzutu monetą - C++](https://ideone.com/ewTF4L)
 
 ## Java
 
@@ -77,9 +73,7 @@ class Main {
 }
 ```
 
-{% embed url="https://ideone.com/gLqkST" %}
-Symulator rzutu monetą - Java
-{% endembed %}
+[Symulator rzutu monetą - Java](https://ideone.com/gLqkST)
 
 ## Pascal
 
@@ -96,14 +90,10 @@ begin
 end.
 ```
 
-{% embed url="https://ideone.com/w7bHvU" %}
-Symulator rzutu monetą - Pascal
-{% endembed %}
+[Symulator rzutu monetą - Pascal](https://ideone.com/w7bHvU)
 
 ## Blockly
 
-![Symulator rzutu monetą](<../.gitbook/assets/image (8).png>)
+![Symulator rzutu monetą](<../assets/image (8).png>)
 
-{% embed url="https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pl#gsq3of" %}
-Symulator rzutu monetą - Blockly
-{% endembed %}
+[Symulator rzutu monetą - Blockly](https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pl#gsq3of)

@@ -6,7 +6,7 @@ Napisz program zgodny z poniższą specyfikacją. W implementacji wykorzystaj kl
 
 #### Dane
 
-* $$nawiasy$$ - ciąg składający się jedynie ze znaków reprezentujących nawiasy okrągłe i kwadratowe, tzn.: $$(, ), [, ]$$
+* $nawiasy$ - ciąg składający się jedynie ze znaków reprezentujących nawiasy okrągłe i kwadratowe, tzn.: $(, ), [, ]$
 
 #### Wynik
 

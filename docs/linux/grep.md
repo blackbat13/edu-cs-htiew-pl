@@ -163,6 +163,4 @@ Dla przykładu, jeżeli chcielibyśmy dopasować tylko cyfry, napisalibyśmy **[
 
 ## Ściąga
 
-{% embed url="https://quickref.me/grep" %}
-Ściąga
-{% endembed %}
+[Ściąga](https://quickref.me/grep)

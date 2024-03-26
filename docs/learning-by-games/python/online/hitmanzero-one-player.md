@@ -4,13 +4,11 @@
 
 Twój cel jest prosty: dostać się na drugą stronę. Po drodze jednak czekają na Ciebie wynajęci zabójcy, którzy wystrzeliwują w Twoim kierunku grad pocisków. Nie cofaj się, idź pewnie przed siebie!
 
-![Gra HimanZero napisana w Pygame Zero](../../../.gitbook/assets/hitmanGame.gif)
+![Gra HimanZero napisana w Pygame Zero](../../../assets/hitmanGame.gif)
 
 Grafiki zostały pobrane ze strony [https://kenney.nl/](https://kenney.nl)
 
-{% file src="../../../.gitbook/assets/hitman_grafiki.zip" %}
-Grafiki do gry
-{% endfile %}
+[:material-folder-zip: Grafiki do gry](../../../assets/hitman_grafiki.zip)
 
 ## Serwer
 

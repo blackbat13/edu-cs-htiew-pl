@@ -6,7 +6,7 @@ Zapoznaj się z poniższą specyfikacją oraz pseudokodem, a następnie rozwią�
 
 ### Dane
 
-* $$x, y$$ - liczby naturalne.
+* $x, y$ - liczby naturalne.
 
 ## Pseudokod
 

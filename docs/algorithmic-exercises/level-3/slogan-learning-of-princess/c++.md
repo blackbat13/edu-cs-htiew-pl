@@ -1,7 +1,6 @@
 # C++ - rozwiązanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <cstdio>
 #include <iostream>
 #include <map>
@@ -33,4 +32,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

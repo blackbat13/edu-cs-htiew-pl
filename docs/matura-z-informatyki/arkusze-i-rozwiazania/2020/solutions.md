@@ -4,6 +4,4 @@
 
 ### Zadanie 5
 
-{% file src="../../../.gitbook/assets/2020_zad5.accdb" %}
-Access
-{% endfile %}
+[:material-microsoft-access: Access](../../../assets/2020_zad5.accdb)

@@ -8,12 +8,12 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$n$$ - liczba naturalna
-* $$p$$ - liczba naturalna z zakresu $$[2,9]$$
+* $n$ - liczba naturalna
+* $p$ - liczba naturalna z zakresu $[2,9]$
 
 #### Wynik
 
-* Zapis liczby $$n$$ w systemie o podstawie $$p$$ 
+* Zapis liczby $n$ w systemie o podstawie $p$ 
 
 ## Rozwiązanie
 

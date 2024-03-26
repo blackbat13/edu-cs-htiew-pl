@@ -1,10 +1,7 @@
 # Wszystkie dzielniki
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/divisors.md)
 
-{% content-ref url="../../../../algorithms/integers/divisors.md" %}
-[divisors.md](../../../../algorithms/integers/divisors.md)
-{% endcontent-ref %}
 
 ## Rozwiązanie zupełnie naiwne
 
@@ -29,9 +26,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/hfECmZ" %}
-Wszystkie dzielniki - podejście zupełnie naiwne
-{% endembed %}
+[Wszystkie dzielniki - podejście zupełnie naiwne](https://ideone.com/hfECmZ)
 
 ### Opis implementacji
 
@@ -64,9 +59,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/iD7tJJ" %}
-Wszystkie dzielniki - podejście naiwne
-{% endembed %}
+[Wszystkie dzielniki - podejście naiwne](https://ideone.com/iD7tJJ)
 
 ### Opis implementacji
 
@@ -102,9 +95,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/m5v9Hi" %}
-Wszystkie dzielniki - podejście optymalne
-{% endembed %}
+[Wszystkie dzielniki - podejście optymalne](https://ideone.com/m5v9Hi)
 
 ### Opis implementacji
 

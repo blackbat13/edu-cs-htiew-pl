@@ -2,9 +2,8 @@
 
 Listy w języku Python są podstawową strukturą dynamiczną służącą do przechowywania wielu wartości.
 
-{% hint style="info" %}
-Elementy listy indeksujemy (numerujemy) od $$0$$.
-{% endhint %}
+!!! info
+	 Elementy listy indeksujemy (numerujemy) od $0$.
 
 ## Inicjalizacja listy
 
@@ -71,7 +70,7 @@ print(tab[2])
 ### Ujemne indeksy
 
 Standardowo, by dostać się do zadanego elementu listy, podajemy jego indeks licząc od początku listy.
-Możemy też jednak liczyć odległość od końca listy. Wtedy korzystamy z ujemnych indeksów, gdzie $$-1$$ oznacza ostatni element listy, $$-2$$ przedostatni itd.
+Możemy też jednak liczyć odległość od końca listy. Wtedy korzystamy z ujemnych indeksów, gdzie $-1$ oznacza ostatni element listy, $-2$ przedostatni itd.
 
 ```python
 print(tab[-1])
@@ -242,11 +241,10 @@ print(tab2)
 [25, 2, 3, 4]
 ```
 
-{% hint style="info" %}
-Na początku tworzymy nową listę i zapisujemy ją w zmiennej `tab1`. Następnie wartość tej zmiennej przypisujemy do `tab2`. W kolejnym kroku zmieniamy pierwszy element listy zapisanej w zmiennej `tab2`. Gdy jednak wypiszemy obie listy okaże się, że wartość została także zmieniona w liście zapisanej w zmiennej `tab1`.
-
-Dzieje się tak, ponieważ zmienne `tab1` i `tab2` wskazują na ten sam **obiekt w pamięci**. Gdy chcemy utworzyć faktyczną **kopię** listy, niepowiązaną z jej pierwotnym obiektem, możemy skorzystać z jednej z metod opisanych poniżej.
-{% endhint %}
+!!! info
+	Na początku tworzymy nową listę i zapisujemy ją w zmiennej `tab1`. Następnie wartość tej zmiennej przypisujemy do `tab2`. W kolejnym kroku zmieniamy pierwszy element listy zapisanej w zmiennej `tab2`. Gdy jednak wypiszemy obie listy okaże się, że wartość została także zmieniona w liście zapisanej w zmiennej `tab1`.
+	
+	Dzieje się tak, ponieważ zmienne `tab1` i `tab2` wskazują na ten sam **obiekt w pamięci**. Gdy chcemy utworzyć faktyczną **kopię** listy, niepowiązaną z jej pierwotnym obiektem, możemy skorzystać z jednej z metod opisanych poniżej.
 
 ### Płytka kopia (ang. *shallow copy*)
 
@@ -271,9 +269,8 @@ print(tab2)
 [25, 2, 3, 4]
 ```
 
-{% hint style="info" %}
-W tym przypadku tylko wartość zapisana w zmiennej `tab2` uległa zmianie, tak jak moglibyśmy się od początku spodziewać.
-{% endhint %}
+!!! info
+	 W tym przypadku tylko wartość zapisana w zmiennej `tab2` uległa zmianie, tak jak moglibyśmy się od początku spodziewać.
 
 ### Głęboka kopia (ang. *deep copy*)
 

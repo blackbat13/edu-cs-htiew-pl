@@ -4,16 +4,12 @@ description: Najkrótsze ścieżki pomiędzy wszystkimi wierzchołkami
 
 # Floyd-Warshall
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/floyd-warshall.md)
 
-{% content-ref url="../../../../algorithms/graphs/floyd-warshall.md" %}
-[floyd-warshall.md](../../../../algorithms/graphs/floyd-warshall.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 import math
 from typing import List
 from pprint import pprint
@@ -45,4 +41,4 @@ floyd_warshall(graph)
 
 pprint(graph)
 ```
-{% endcode %}
+

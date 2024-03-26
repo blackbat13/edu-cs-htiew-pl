@@ -8,4 +8,4 @@
 
 ## Implementacja
 
-{% embed url="https://replit.com/@damiankurpiewski/Asteroids" %}
+[https://replit.com/@damiankurpiewski/Asteroids](https://replit.com/@damiankurpiewski/Asteroids)

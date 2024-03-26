@@ -8,12 +8,12 @@ Napisz program zgodny z poniższą specyfikacją. Zadbaj o czytelność programu
 
 #### Dane
 
-* $$a, b$$ - dwie liczby całkowite
-* $$op$$ - znak jednej z dozwolonych operacji: $$+,-,*,/$$ 
+* $a, b$ - dwie liczby całkowite
+* $op$ - znak jednej z dozwolonych operacji: $+,-,*,/$ 
 
 #### Wynik
 
-* Wynik działania$$a\ op\ b$$ (np. $$a+b$$), lub komunikat, że nie można wykonać dzielenia.
+* Wynik działania$a\ op\ b$ (np. $a+b$), lub komunikat, że nie można wykonać dzielenia.
 
 ## Rozwiązanie
 

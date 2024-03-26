@@ -1,20 +1,18 @@
 # Problem n królowych
 
-Problem $$n$$ królowych to jeden z klasycznych problemów algorytmicznych związanych z szachami. Problem brzmi następująco: mając szachownicę $$n\times n$$ oraz $$n$$ królowych, czy można ustawić **wszystkie** królowe na szchownicy, tak by **żadne** dwie się wzajemnie nie atakowały?
+Problem $n$ królowych to jeden z klasycznych problemów algorytmicznych związanych z szachami. Problem brzmi następująco: mając szachownicę $n\times n$ oraz $n$ królowych, czy można ustawić **wszystkie** królowe na szchownicy, tak by **żadne** dwie się wzajemnie nie atakowały?
 
-Zaczniemy od przytoczenia tanecznego przeszukiwania, które demonstruje działanie algorytmu dla szachownicy $$4\times 4$$ oraz $$4$$ królowych. Następnie przejdziemy do formalnej specyfikacji.
+Zaczniemy od przytoczenia tanecznego przeszukiwania, które demonstruje działanie algorytmu dla szachownicy $4\times 4$ oraz $4$ królowych. Następnie przejdziemy do formalnej specyfikacji.
 
 ## Taneczne przeszukiwanie
 
-{% embed url="https://www.youtube.com/watch?v=R8bM6pxlrLY" %}
 [Taneczne przeszukiwanie](https://www.youtube.com/watch?v=R8bM6pxlrLY)
-{% endembed %}
 
 ## Specyfikacja
 
 ### Dane
 
-- $$n$$ - liczba naturalna, liczba królowych do rozstawienia
+- $n$ - liczba naturalna, liczba królowych do rozstawienia
 
 ### Wynik
 
@@ -124,26 +122,26 @@ flowchart TD
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/backtracking/n-queens.md" %}
+
 [n-queens.md](../../programming/c++/algorithms/backtracking/n-queens.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/backtracking/n-queens.md" %}
+
 [n-queens.md](../../programming/python/algorithms/backtracking/n-queens.md)
-{% endcontent-ref %}
+
 
 ### Kotlin
 
-{% content-ref url="../../programming/kotlin/algorithms/backtracking/n-queens.md" %}
+
 [n-queens.md](../../programming/kotlin/algorithms/backtracking/n-queens.md)
-{% endcontent-ref %}
+
 
 ## Implementacja - pozostałe
 
 ### Julia
 
-{% content-ref url="../../programming/julia/algorithms/backtracking/n-queens.md" %}
+
 [n-queens.md](../../programming/julia/algorithms/backtracking/n-queens.md)
-{% endcontent-ref %}
+

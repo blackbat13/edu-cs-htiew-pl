@@ -12,7 +12,7 @@ Algorytm Kosaraju jest popularnym algorytmem do znajdowania silnie spójnych sk�
 
 ## Złożoność
 
-Złożoność obliczeniowa algorytmu Kosaraju wynosi $$O(V + E)$$, gdzie $$V$$ to liczba wierzchołków, a $$E$$ to liczba krawędzi w grafie. Jest to wynik tego, że algorytm wykonuje dwa przeszukiwania w głąb.
+Złożoność obliczeniowa algorytmu Kosaraju wynosi $O(V + E)$, gdzie $V$ to liczba wierzchołków, a $E$ to liczba krawędzi w grafie. Jest to wynik tego, że algorytm wykonuje dwa przeszukiwania w głąb.
 
 ## Zastosowania
 
@@ -22,12 +22,12 @@ Silnie spójne składowe są używane w wielu różnych dziedzinach informatyki,
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/graphs/connected-components.md" %}
+
 [connected-components.md](../../programming/c++/algorithms/graphs/connected-components.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/graphs/connected-components.md" %}
+
 [connected-components.md](../../programming/python/algorithms/graphs/connected-components.md)
-{% endcontent-ref %}
+

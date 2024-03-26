@@ -9,9 +9,7 @@ Hashcat dokonuje tzw. ataku siłowego lub ataku słownikowego na hasła, próbuj
 - **Atak maskowy**: próbuje haseł na podstawie określonego wzorca.
 - **Atak hybrydowy**: kombinacja powyższych technik.
 
-{% embed url="https://hashcat.net/hashcat/" %}
-Hashcat
-{% endembed %}
+[Hashcat](https://hashcat.net/hashcat/)
 
 ## Przykłady użycia
 
@@ -27,7 +25,7 @@ W tym przypadku `-m 0` oznacza, że używamy algorytmu **MD5**, `-a 0` oznacza a
 
 ### Atak siłowy
 
-Poniższe polecenie wykonuje atak siłowy na hash MD5, próbując wszystkich kombinacji małych liter i cyfr o długości do $$5$$ znaków:
+Poniższe polecenie wykonuje atak siłowy na hash MD5, próbując wszystkich kombinacji małych liter i cyfr o długości do $5$ znaków:
 
 ```bash
 hashcat -m 0 -a 3 hash.txt ?l?d?d?d?d

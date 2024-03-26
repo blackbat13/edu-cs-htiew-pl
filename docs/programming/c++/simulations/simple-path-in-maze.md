@@ -123,16 +123,14 @@ int main() {
 
 ### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/SimplePath#main.cpp" %}
+[https://replit.com/@damiankurpiewski/SimplePath#main.cpp](https://replit.com/@damiankurpiewski/SimplePath#main.cpp)
 
 ### Opis implementacji
 
 TODO
 
-{% hint style="warning" %}
-Pod systemem Linux zamiast polecenia **cls** używamy polecenia **clear** do wyczyszczenia ekranu terminala.
-{% endhint %}
+!!! warning
+	 Pod systemem Linux zamiast polecenia **cls** używamy polecenia **clear** do wyczyszczenia ekranu terminala.
 
-{% hint style="warning" %}
-Pod systemem Linux polecenie **Sleep** należy zastąpić poleceniem **usleep**, które jako parametr przyjmuje mikrosekundy, a nie milisekundy. Trzeba także zmienić bibliotekę "**windows.h**" na "**unistd.h**".
-{% endhint %}
+!!! warning
+	 Pod systemem Linux polecenie **Sleep** należy zastąpić poleceniem **usleep**, które jako parametr przyjmuje mikrosekundy, a nie milisekundy. Trzeba także zmienić bibliotekę "**windows.h**" na "**unistd.h**".

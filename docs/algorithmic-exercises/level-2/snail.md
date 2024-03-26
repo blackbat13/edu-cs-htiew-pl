@@ -1,6 +1,6 @@
 # Ślimak
 
-Ślimak znajduje się na dnie studni o wysokości 6 cm. W ciągu dnia ślimak jest w stanie wspiąć się o 3cm, jednak nocą, podczas snu, zsuwa się o 1cm w dół. Niestety, ślimak się męczy - jego poziom zmęczenia wynosi $$10\%$$ dziennie, co oznacza, że każdego dnia jest w stanie wspiąć się o $$10\%*3=0.3$$ cm mniej niż poprzedniego dnia. Co ważne, każdego dnia odejmujemy stałą wartość, czyli $$10\%$$ wysokości wspinaczki z **pierwszego** dnia.
+Ślimak znajduje się na dnie studni o wysokości 6 cm. W ciągu dnia ślimak jest w stanie wspiąć się o 3cm, jednak nocą, podczas snu, zsuwa się o 1cm w dół. Niestety, ślimak się męczy - jego poziom zmęczenia wynosi $10\%$ dziennie, co oznacza, że każdego dnia jest w stanie wspiąć się o $10\%*3=0.3$ cm mniej niż poprzedniego dnia. Co ważne, każdego dnia odejmujemy stałą wartość, czyli $10\%$ wysokości wspinaczki z **pierwszego** dnia.
 
 Twoim zadaniem jest określenie, która doba będzie tą, podczas której ślimak wydostanie się ze studni, to znaczy kiedy wysokość, na której się znajduje po wspinaczce, będzie **większa** niż wysokość studni. Przykładowy przebieg sytuacji prezentuje poniższa tabela:
 
@@ -20,10 +20,10 @@ W zależności od parametrów, ślimak może albo wydostać się ze studni, albo
 
 ### Dane
 
-* $$H$$ - liczba naturalna, wysokość studni, $$1\leq H\leq 100$$.
-* $$U$$ - liczba naturalna, wysokość, na którą początkowo wspina się ślimak w trakcie dnia, $$1\leq U\leq 100$$.
-* $$D$$ - liczba naturalna, odległość, którą ślimak pokonuje zsuwając się w nocy, $$1\leq D\leq 100$$.
-* $$F$$ - liczba naturalna, stopień zmęczenia wyrażony w procentach, $$1\leq F\leq 100$$.
+* $H$ - liczba naturalna, wysokość studni, $1\leq H\leq 100$.
+* $U$ - liczba naturalna, wysokość, na którą początkowo wspina się ślimak w trakcie dnia, $1\leq U\leq 100$.
+* $D$ - liczba naturalna, odległość, którą ślimak pokonuje zsuwając się w nocy, $1\leq D\leq 100$.
+* $F$ - liczba naturalna, stopień zmęczenia wyrażony w procentach, $1\leq F\leq 100$.
 
 **Uwaga:** ślimak nigdy nie wspina się o wartość ujemną w trakcie dnia. Może co najwyżej zmęczyć się tak bardzo, że nie będzie się już w ogóle wspinał, tylko zsuwał w nocy.
 

@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$n$$ - liczba naturalna
+* $n$ - liczba naturalna
 
 #### Wynik
 
-* Liczba powstała poprzez odwrócenie cyfr liczby $$n$$
+* Liczba powstała poprzez odwrócenie cyfr liczby $n$
 
 ## Rozwiązanie
 

@@ -10,17 +10,15 @@ Poniżej znajdziesz animacje przedstawiające ideę omawianego algorytmu.
 
 ## Animacja 1
 
-![By Swfung8 — Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=14961606](../../.gitbook/assets/Insertion-sort-example-300px.gif)
+![By Swfung8 — Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=14961606](../../assets/Insertion-sort-example-300px.gif)
 
 ## Animacja 2
 
-{% embed url="https://blackbat13.github.io/visul2/sorting/insertion_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D" %}
+[https://blackbat13.github.io/visul2/sorting/insertion_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D](https://blackbat13.github.io/visul2/sorting/insertion_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D)
 
 ## Taneczne sortowanie
 
-{% embed url="https://www.youtube.com/watch?v=ROalU379l3U" %}
 [Taneczne sortowanie](https://www.youtube.com/watch?v=ROalU379l3U)
-{% endembed %}
 
 ## Rozwiązanie
 
@@ -55,7 +53,7 @@ flowchart TD
 
 ### Złożoność
 
-$$O(n^2)$$ — kwadratowa
+$O(n^2)$ — kwadratowa
 
 Dwie zagnieżdżone pętle. Chociaż warunkowa pętla wewnętrzna wykonuje zawsze co najwyżej tyle obrotów, ile wynosi indeks obecnie przesuwanego elementu, to i tak otrzymujemy złożoność kwadratową, co można dość łatwo samodzielnie policzyć.
 
@@ -63,18 +61,17 @@ Dwie zagnieżdżone pętle. Chociaż warunkowa pętla wewnętrzna wykonuje zawsz
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/sorting/insertion-sort.md" %}
+
 [insertion-sort.md](../../programming/c++/algorithms/sorting/insertion-sort.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/sorting/insertion-sort.md" %}
+
 [insertion-sort.md](../../programming/python/algorithms/sorting/insertion-sort.md)
-{% endcontent-ref %}
+
 
 ### Kotlin
 
-{% content-ref url="../../programming/kotlin/algorithms/sorting/insertion-sort.md" %}
+
 [insertion-sort.md](../../programming/kotlin/algorithms/sorting/insertion-sort.md)
-{% endcontent-ref %}

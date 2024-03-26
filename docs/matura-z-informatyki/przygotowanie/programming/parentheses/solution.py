@@ -1,5 +1,5 @@
 def exercise1():
-    path = "../../../../.gitbook/assets/parentheses.txt"
+    path = "../../../../assets/parentheses.txt"
     result = 0
     pairs = {"(": ")", "{": "}", "[": "]"}
     with open(path) as file:
@@ -28,7 +28,7 @@ def exercise1():
 
 
 def exercise2():
-    path = "../../../../.gitbook/assets/parentheses.txt"
+    path = "../../../../assets/parentheses.txt"
     with open(path) as file:
         parentheses = file.read().split()
         parentheses.sort(
@@ -42,7 +42,7 @@ def exercise2():
 
 
 def exercise3():
-    path = "../../../../.gitbook/assets/parentheses.txt"
+    path = "../../../../assets/parentheses.txt"
     with open(path) as file:
         parentheses = file.read().split()
         for par in parentheses:

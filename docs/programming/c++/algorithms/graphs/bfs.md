@@ -4,16 +4,12 @@ description: Przeszukiwanie grafu wszerz
 
 # BFS
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/bfs.md)
 
-{% content-ref url="../../../../algorithms/graphs/bfs.md" %}
-[bfs.md](../../../../algorithms/graphs/bfs.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -64,7 +60,7 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
@@ -78,6 +74,6 @@ Następnie przetwarzamy kolejne wierzchołki z kolejki, tak długo jak w tej kol
 
 Jeżeli wierzchołek nie został jeszcze odwiedzony, to oznaczamy go jako odwiedzony (**linia 20**) i wypisujemy jego numer (**linia 22**). Następnie przechodzimy przez wszystkich sąsiadów aktualnie przetworzonego wierzchołka (**linia 24**). W pomocniczej zmiennej `nextNode` zapamiętujemy numer przetwarzanego sąsiada, pobranego z listy sąsiedztwa (**linia 25**). Następnie sprawdzamy, czy wierzchołek ten był już odwiedzony (**linia 26**), a jeżeli nie, to dodajemy go do kolejki (**linia 27**).
 
-![Przykładowy graf wykorzystany w implementacji](../../../../.gitbook/assets/example_graph.png)
+![Przykładowy graf wykorzystany w implementacji](../../../../assets/example_graph.png)
 
-{% embed url="http://graphonline.ru/en/?graph=iyeQZmXVpPfZWqYG" %}
+[http://graphonline.ru/en/?graph=iyeQZmXVpPfZWqYG](http://graphonline.ru/en/?graph=iyeQZmXVpPfZWqYG)

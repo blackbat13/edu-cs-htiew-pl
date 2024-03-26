@@ -6,10 +6,6 @@ description: Lekcja ewaluacyjna
 
 ### Materiały
 
-{% file src="../../.gitbook/assets/4-wpr-do-zm.pdf" %}
-Konspekt
-{% endfile %}
+[:fontawesome-solid-file-pdf: Konspekt](../../assets/4-wpr-do-zm.pdf)
 
-{% file src="../../.gitbook/assets/Zmienne - zadania.pdf" %}
-Prezentacja - zadania
-{% endfile %}
+[:fontawesome-solid-file-pdf: Prezentacja - zadania](../../assets/Zmienne - zadania.pdf)

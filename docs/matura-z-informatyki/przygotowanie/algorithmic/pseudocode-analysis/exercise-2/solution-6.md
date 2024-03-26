@@ -4,8 +4,8 @@
 
 ### Dane
 
-* $$x$$ - liczba całkowita.
+* $x$ - liczba całkowita.
 
 ### Wynik
 
-* $$x^2$$
+* $x^2$

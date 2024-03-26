@@ -1,15 +1,11 @@
 # Naiwne wyszukiwanie wzorca w tekście
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/naive-substring-search.md)
 
-{% content-ref url="../../../../algorithms/text/naive-substring-search.md" %}
-[naive-substring-search.md](../../../../algorithms/text/naive-substring-search.md)
-{% endcontent-ref %}
 
 ## Znajdowanie miejsca pierwszego wystąpienia wzorca w tekście 
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def substring_pos(a: str, b: str) -> int:
     for i in range(len(a) - len(b)):
         j = 0
@@ -31,4 +27,4 @@ if pos == -1:
 else:
     print(f'{b} is substring of {a} and starts at position {pos}')
 ```
-{% endcode %}
+

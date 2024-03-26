@@ -8,12 +8,12 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$n$$ - liczba naturalna, większa od $$0$$ 
-* $$n$$liczb naturalnych
+* $n$ - liczba naturalna, większa od $0$ 
+* $n$liczb naturalnych
 
 #### Wynik
 
-* Największa z podanych $$n$$ liczb
+* Największa z podanych $n$ liczb
 
 ## Rozwiązanie
 

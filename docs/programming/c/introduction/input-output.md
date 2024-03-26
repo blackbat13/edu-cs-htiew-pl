@@ -129,7 +129,7 @@ printf("%e", 4342342343245.0); /* 4.342342e+12 */
 
 ### Znak liczby
 
-Aby zawsze wypisywać znak liczby, a nie tylko przy wartościach ujemnych, możemy podać znak $$+$$ przed literą formatu.
+Aby zawsze wypisywać znak liczby, a nie tylko przy wartościach ujemnych, możemy podać znak $+$ przed literą formatu.
 
 ```c
 printf("%+d", 5); /* +5 */
@@ -148,9 +148,7 @@ printf("%X", 127); /* 7F */
 
 ### Link do przykładów
 
-{% embed url="https://ideone.com/omTvgy" %}
-Printf - przykłady
-{% endembed %}
+[Printf - przykłady](https://ideone.com/omTvgy)
 
 ## Scanf
 

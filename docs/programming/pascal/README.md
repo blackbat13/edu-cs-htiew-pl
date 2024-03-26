@@ -16,6 +16,4 @@ Pascal był powszechnie używany w edukacji informatycznej i naukach ścisłych 
 
 ## Popularność języka
 
-{% embed url="https://www.tiobe.com/tiobe-index/delphi-object-pascal/" %}
-Wykres popularności języka Object Pascal
-{% endembed %}
+[Wykres popularności języka Object Pascal](https://www.tiobe.com/tiobe-index/delphi-object-pascal/)

@@ -1,15 +1,11 @@
 # Primorial
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/primorial.md)
 
-{% content-ref url="../../../../algorithms/integers/primorial.md" %}
-[primorial.md](../../../../algorithms/integers/primorial.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def is_prime(n: int) -> bool:
   if n < 2:
     return False
@@ -40,4 +36,4 @@ result = primorial(n)
 print(f"{n}# = {result}")
 
 ```
-{% endcode %}
+

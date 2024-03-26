@@ -80,9 +80,7 @@ Do zaawansowanej obsługi wejścia/wyjścia potrzebna jest biblioteka:
 
 #### Dokumentacja
 
-{% embed url="https://www.cplusplus.com/reference/iomanip" %}
-iomanip - dokumentacja
-{% endembed %}
+[iomanip - dokumentacja](https://www.cplusplus.com/reference/iomanip)
 
 ### Precyzja wyjścia
 
@@ -96,7 +94,7 @@ cout << setprecision(8) << a << endl;
 cout << setprecision(10) << a << endl;
 ```
 
-{% embed url="https://replit.com/@damiankurpiewski/setprecision#main.cpp" %}
+[https://replit.com/@damiankurpiewski/setprecision#main.cpp](https://replit.com/@damiankurpiewski/setprecision#main.cpp)
 
 Jeżeli chcemy, by liczba była wypisywana zawsze z określoną liczbą miejsc po przecinku (nawet jeżeli od pewnego miejsca są same zera), to należy najpierw użyć polecenia `fixed`:
 
@@ -109,7 +107,7 @@ cout << setprecision(8) << a << endl;
 cout << setprecision(10) << a << endl;
 ```
 
-{% embed url="https://replit.com/@damiankurpiewski/setprecisionfixed#main.cpp" %}
+[https://replit.com/@damiankurpiewski/setprecisionfixed#main.cpp](https://replit.com/@damiankurpiewski/setprecisionfixed#main.cpp)
 
 ### Inne systemy liczbowe
 
@@ -128,7 +126,7 @@ cout << setbase(10);
 cout << "dziesietny: " << a << endl;
 ```
 
-{% embed url="https://replit.com/@damiankurpiewski/coutsetbase#main.cpp" %}
+[https://replit.com/@damiankurpiewski/coutsetbase#main.cpp](https://replit.com/@damiankurpiewski/coutsetbase#main.cpp)
 
 Podobnie możemy zrobić w przypadku wczytywania wartości w innych systemach liczbowych:
 
@@ -148,4 +146,4 @@ cin >> a; // Np. 6e
 cout << "Wczytano: " << a << endl;
 ```
 
-{% embed url="https://replit.com/@damiankurpiewski/cinsetbase#main.cpp" %}
+[https://replit.com/@damiankurpiewski/cinsetbase#main.cpp](https://replit.com/@damiankurpiewski/cinsetbase#main.cpp)

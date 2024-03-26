@@ -8,7 +8,7 @@ W ramach przeprowadzanej przez pewną firmę redukcji zatrudnienia, pracownicy d
 
 ### Dane
 
-* $$a,b,c$$ - trzy liczby naturalne określające zarobki pracowników, wszystkie w zakresie $$[1000, 10000]$$
+* $a,b,c$ - trzy liczby naturalne określające zarobki pracowników, wszystkie w zakresie $[1000, 10000]$
 
 ### Wynik
 
@@ -24,10 +24,9 @@ b := 1200
 c := 1800
 ```
 
-**Wynik:** $$1500$$
+**Wynik:** $1500$
 
-{% hint style="info" %}
-#### Wyjaśnienie
+!!! info
+    #### Wyjaśnienie
 
-Najmniejsza z wartości to $$1200$$, a największa do $$1800$$, pozostaje więc $$1500$$.
-{% endhint %}
+    Najmniejsza z wartości to $1200$, a największa do $1800$, pozostaje więc $1500$.

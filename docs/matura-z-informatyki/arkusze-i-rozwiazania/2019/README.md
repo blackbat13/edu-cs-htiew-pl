@@ -2,20 +2,12 @@
 
 ## Arkusze
 
-{% file src="../../../.gitbook/assets/informatyka-2019-maj-matura-rozszerzona.pdf" %}
-Część I
-{% endfile %}
+[:fontawesome-solid-file-pdf: Część I](../../../assets/informatyka-2019-maj-matura-rozszerzona.pdf)
 
-{% file src="../../../.gitbook/assets/informatyka-2019-maj-matura-rozszerzona-2.pdf" %}
-Część II
-{% endfile %}
+[:fontawesome-solid-file-pdf: Część II](../../../assets/informatyka-2019-maj-matura-rozszerzona-2.pdf)
 
-{% file src="../../../.gitbook/assets/dane_2019.zip" %}
-Dane
-{% endfile %}
+[:material-folder-zip: Dane](../../../assets/dane_2019.zip)
 
 ## Odpowiedzi
 
-{% file src="../../../.gitbook/assets/informatyka-2019-maj-matura-rozszerzona-odpowiedzi.pdf" %}
-Klucz
-{% endfile %}
+[:fontawesome-solid-file-pdf: Klucz](../../../assets/informatyka-2019-maj-matura-rozszerzona-odpowiedzi.pdf)

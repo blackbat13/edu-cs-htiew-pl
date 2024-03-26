@@ -13,6 +13,6 @@
 ### Opis
 
 Na początku wczytujemy dane wejściowe: trzy liczby całkowite (**krok 1**).
-Następnie sprawdzamy, czy któraś z liczb przekracza wartość $$20$$, czyli wymiar walizki (**krok 2**).
-Jeżeli wszystkie liczby są mniejsze od $$20$$ to wypisujemy komunikat "TAK" (**krok 3**).
-Jeżeli któraś z liczb przekracza wartość $$20$$ to wypisujemy komunikat "NIE" (**krok 5**).
+Następnie sprawdzamy, czy któraś z liczb przekracza wartość $20$, czyli wymiar walizki (**krok 2**).
+Jeżeli wszystkie liczby są mniejsze od $20$ to wypisujemy komunikat "TAK" (**krok 3**).
+Jeżeli któraś z liczb przekracza wartość $20$ to wypisujemy komunikat "NIE" (**krok 5**).

@@ -1,10 +1,7 @@
 # Warunek trójkąta
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/2d-geometry/triangle-condition.md)
 
-{% content-ref url="../../../../algorithms/2d-geometry/triangle-condition.md" %}
-[triangle-condition.md](../../../../algorithms/2d-geometry/triangle-condition.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -25,9 +22,7 @@ else:
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/2anTf3" %}
-Warunek trójkąta
-{% endembed %}
+[Warunek trójkąta](https://ideone.com/2anTf3)
 
 ### Opis implementacji
 

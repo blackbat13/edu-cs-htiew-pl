@@ -4,8 +4,8 @@
 
 ### Dane
 
-* $$x, y$$ - liczby naturalne.
+* $x, y$ - liczby naturalne.
 
 ### Wynik
 
-* `NWW(x, y)` - najmniejsza wspólna wielokrotność $$x$$ oraz $$y$$.
+* `NWW(x, y)` - najmniejsza wspólna wielokrotność $x$ oraz $y$.

@@ -8,12 +8,12 @@ Napisz program zgodny z poniższą specyfikacją. Wczytywanie tablicy, a także 
 
 #### Dane
 
-* $$n$$ - liczba naturalna
-* $$tab[n]$$ - tablica liczb całkowitych
+* $n$ - liczba naturalna
+* $tab[n]$ - tablica liczb całkowitych
 
 #### Wynik
 
-* Statystyki tablicy $$tab$$: minimum, maksimum, suma, średnia
+* Statystyki tablicy $tab$: minimum, maksimum, suma, średnia
 
 ## Rozwiązanie
 

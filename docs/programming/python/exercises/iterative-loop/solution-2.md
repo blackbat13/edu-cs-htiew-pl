@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z operatora `**`
 
 #### Dane
 
-* $$a, n$$ - dwie liczby naturalne
+* $a, n$ - dwie liczby naturalne
 
 #### Wynik
 
-* $$a^n$$ 
+* $a^n$ 
 
 ## Rozwiązanie
 

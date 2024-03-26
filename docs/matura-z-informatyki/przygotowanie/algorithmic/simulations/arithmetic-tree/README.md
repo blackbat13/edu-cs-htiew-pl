@@ -47,4 +47,4 @@ flowchart TD
 
 Przedstaw poniższe wyrażenie arytmetyczne w postaci drzewa wyrażeń arytmetycznych.
 
-$$4 + (9 - 3) * (6 / 2)$$
+$4 + (9 - 3) * (6 / 2)$

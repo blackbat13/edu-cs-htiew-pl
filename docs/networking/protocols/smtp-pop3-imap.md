@@ -18,6 +18,5 @@ IMAP, czyli Protokół Dostępu do Wiadomości Internetowych, jest standardem in
 
 IMAP umożliwia również organizowanie wiadomości w foldery na serwerze, co ułatwia zarządzanie pocztą. Ponadto, wszystkie działania takie jak przenoszenie, kasowanie czy oznaczanie wiadomości jako przeczytane są synchronizowane na wszystkich urządzeniach.
 
-{% hint style="warning" %}
-Pamiętaj, że zarówno SMTP, POP3, jak i IMAP są protokołami **nieszyfrowanymi**. Oznacza to, że twoje wiadomości mogą być przechwycone i odczytane. Dlatego wiele usług pocztowych oferuje zabezpieczone wersje tych protokołów (SMTPS, POP3S, IMAPS), które używają SSL lub TLS do szyfrowania komunikacji.
-{% endhint %}
+!!! warning
+	 Pamiętaj, że zarówno SMTP, POP3, jak i IMAP są protokołami **nieszyfrowanymi**. Oznacza to, że twoje wiadomości mogą być przechwycone i odczytane. Dlatego wiele usług pocztowych oferuje zabezpieczone wersje tych protokołów (SMTPS, POP3S, IMAPS), które używają SSL lub TLS do szyfrowania komunikacji.

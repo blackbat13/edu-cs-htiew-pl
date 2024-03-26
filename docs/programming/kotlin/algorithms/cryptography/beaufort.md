@@ -1,10 +1,7 @@
 # Szyfr Beauforta
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/cryptography/beaufort.md)
 
-{% content-ref url="../../../../algorithms/cryptography/beaufort.md" %}
-[beaufort.md](../../../../algorithms/cryptography/beaufort.md)
-{% endcontent-ref %}
 
 ## Szyfrowanie i deszyfrowanie
 
@@ -57,9 +54,7 @@ print(f"Decoded: {decoded}")
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/bbGaVQ" %}
-Szyfr Beauforta
-{% endembed %}
+[Szyfr Beauforta](https://ideone.com/bbGaVQ)
 
 ### Opis implementacji
 

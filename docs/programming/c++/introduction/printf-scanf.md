@@ -138,7 +138,7 @@ printf("%e", 4342342343245.0); // 4.342342e+12
 
 ### Znak liczby
 
-Aby zawsze wypisywać znak liczby, a nie tylko przy wartościach ujemnych, możemy podać znak $$+$$ przed literą formatu.
+Aby zawsze wypisywać znak liczby, a nie tylko przy wartościach ujemnych, możemy podać znak $+$ przed literą formatu.
 
 ```cpp
 printf("%+d", 5); // +5
@@ -157,9 +157,7 @@ printf("%X", 127); // 7F
 
 ### Link do przykładów
 
-{% embed url="https://ideone.com/eMuOgx" %}
-Printf - przykłady
-{% endembed %}
+[Printf - przykłady](https://ideone.com/eMuOgx)
 
 ## Scanf
 
@@ -246,6 +244,4 @@ while(scanf("%d", &a) != EOF) {
 
 ## Prezentacja
 
-{% file src="../../../.gitbook/assets/Printf i Scanf (1).pdf" %}
-Prezentacja
-{% endfile %}
+[:fontawesome-solid-file-pdf: Prezentacja](../../../assets/Printf i Scanf (1).pdf)

@@ -33,13 +33,11 @@ server_ip = "127.0.0.1"
 
 Nie wystarczy nam jednak znać adres IP serwera, potrzebujemy także poznać numer **portu**, pod którym będzie działał (nasłuchiwał) serwer. 
 
-{% hint style="info" %}
-Na jednym urządzeniu może działać wiele usług sieciowych, każda jednak musi działać na osobnym **porcie**. To trochę tak, jak w jednym budynku może znajdować się wiele mieszkań, ale każde pod innym numerem (inaczej przesyłki nie trafiałyby tam, gdzie trzeba!).
-{% endhint %}
+!!! info
+	 Na jednym urządzeniu może działać wiele usług sieciowych, każda jednak musi działać na osobnym **porcie**. To trochę tak, jak w jednym budynku może znajdować się wiele mieszkań, ale każde pod innym numerem (inaczej przesyłki nie trafiałyby tam, gdzie trzeba!).
 
-{% hint style="warning" %}
-Na własne usługi powinniśmy wybierać wysokie numery portów (tysiące, a nawet dziesiątki tysięcy), ponieważ część początkowych numerów jest zarezerwowana na różne usługi systemowe.
-{% endhint %}
+!!! warning
+	 Na własne usługi powinniśmy wybierać wysokie numery portów (tysiące, a nawet dziesiątki tysięcy), ponieważ część początkowych numerów jest zarezerwowana na różne usługi systemowe.
 
 ```python
 port = 5555
@@ -67,9 +65,8 @@ print("Połączono z serwerem")
 
 Teraz przechodzimy do głównej części naszego klienta. Będziemy wczytywać wiadomość od użytkownika, wysyłać ją do serwera, odbierać wiadomość od serwera i wyświetlać ją na ekranie. I tak w kółko, w nieskończoność, aż nie wyłączymy programu.
 
-{% hint style="warning" %}
-Nie będziemy tutaj zajmować się poprawnym kończeniem komunikacji z serwerem, niemniej należy o tym pamiętać pisząc własne, bardziej zaawansowane programy.
-{% endhint %}
+!!! warning
+	 Nie będziemy tutaj zajmować się poprawnym kończeniem komunikacji z serwerem, niemniej należy o tym pamiętać pisząc własne, bardziej zaawansowane programy.
 
 Zaczynamy od pętli:
 

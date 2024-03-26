@@ -15,19 +15,17 @@ Poniżej znajdziesz animację przedstawiającą ideę omawianego algorytmu
 
 ## Animacja
 
-![By Swfung8 — Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=14957305](../../.gitbook/assets/Heapsort-example.gif)
+![By Swfung8 — Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=14957305](../../assets/Heapsort-example.gif)
 
 ## Taneczne sortowanie
 
-{% embed url="https://www.youtube.com/watch?v=Xw2D9aJRBY4" %}
 [Taneczne sortowanie](https://www.youtube.com/watch?v=Xw2D9aJRBY4)
-{% endembed %}
 
 ## Rozwiązanie
 
 Nasza implementacja algorytmu sortowania przez scalanie składa się z dwóch części:
 
-- procedura ZbudujKopiec: buduje kopiec binarny bazując na podanej liczbie początkowych elementów $$A$$;
+- procedura ZbudujKopiec: buduje kopiec binarny bazując na podanej liczbie początkowych elementów $A$;
 - procedura SortowaniePrzezKopcowanie: rekurencyjnie wywołuje budowanie kopca i odkłada posortowane elementy.
 
 ### Pseudokod
@@ -80,24 +78,23 @@ flowchart TD
 
 ### Złożoność
 
-Sortowanie przez kopcowanie ma złożoność obliczeniową $$O(n\log{n})$$ w przypadku najgorszym, średnim i najlepszym, co czyni go bardzo efektywnym algorytmem sortowania, zwłaszcza dla dużych zestawów danych.
+Sortowanie przez kopcowanie ma złożoność obliczeniową $O(n\log{n})$ w przypadku najgorszym, średnim i najlepszym, co czyni go bardzo efektywnym algorytmem sortowania, zwłaszcza dla dużych zestawów danych.
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/sorting/heap-sort.md" %}
+
 [heap-sort.md](../../programming/c++/algorithms/sorting/heap-sort.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/sorting/heap-sort.md" %}
+
 [heap-sort.md](../../programming/python/algorithms/sorting/heap-sort.md)
-{% endcontent-ref %}
+
 
 ### Kotlin
 
-{% content-ref url="../../programming/kotlin/algorithms/sorting/heap-sort.md" %}
+
 [heap-sort.md](../../programming/kotlin/algorithms/sorting/heap-sort.md)
-{% endcontent-ref %}

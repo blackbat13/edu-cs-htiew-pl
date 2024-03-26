@@ -1,15 +1,11 @@
 # Rozszerzony algorytm Euklidesa
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/extended-euclidean.md)
 
-{% content-ref url="../../../../algorithms/integers/extended-euclidean.md" %}
-[extended-euclidean.md](../../../../algorithms/integers/extended-euclidean.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -53,4 +49,4 @@ int main() {
   return 0;
 }
 ```
-{% endcode %}
+

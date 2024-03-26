@@ -15,21 +15,15 @@ Stworzymy naszą pierwszą grę kosmiczną!
 
 ### Grafiki do pobrania
 
-{% file src="../../../.gitbook/assets/images_asteroids.zip" %}
-Grafiki do gry Asteroidy
-{% endfile %}
+[:material-folder-zip: Grafiki do gry Asteroidy](../../../assets/images_asteroids.zip)
 
 ### Dźwięki do pobrania
 
-{% file src="../../../.gitbook/assets/sounds_asteroids.zip" %}
-Dźwięki do gry Asteroidy
-{% endfile %}
+[:material-folder-zip: Dźwięki do gry Asteroidy](../../../assets/sounds_asteroids.zip)
 
 ### Muzyka do pobrania
 
-{% file src="../../../.gitbook/assets/music_asteroids.zip" %}
-Muzyka do gry Asteroidy
-{% endfile %}
+[:material-folder-zip: Muzyka do gry Asteroidy](../../../assets/music_asteroids.zip)
 
 ### Źródła
 
@@ -37,7 +31,7 @@ Muzyka do gry Asteroidy
 
 ## Nasz cel
 
-![Asteroidy](../../../.gitbook/assets/asteroidsGame.gif)
+![Asteroidy](../../../assets/asteroidsGame.gif)
 
 Założenie gry jest proste: poruszamy statkiem u dołu ekranu, omijamy asteroidy, strzelamy do nich i zdobywamy punkty!
 Powyższa animacja pokazuje, jak będzie wyglądać nasza gra.
@@ -63,7 +57,7 @@ import random
 ### Przygotowujemy ekran gry
 
 Na początek ustalamy rozmiar okna i wyświetlamy tło naszej gry z grafiki *bg.png* za pomocą funkcji `screen.blit` w części rysującej *draw*.
-Rozmiar okna powinien być zgodny z rozmiarem grafiki tła, tzn. $$600\times900$$.
+Rozmiar okna powinien być zgodny z rozmiarem grafiki tła, tzn. $600\times900$.
 
 ```python
 WIDTH = 600
@@ -122,7 +116,7 @@ Naszego aktora tworzymy na górze, zaraz przed funkcją *draw*. Utworzymy go na 
 ship = Actor("ship")
 ```
 
-Statek umieścimy na środku ekranu ($$WIDTH / 2$$), na samym dole z zachowaniem marginesu $$60$$ pikseli ($$HEIGHT - 60$$).
+Statek umieścimy na środku ekranu ($WIDTH / 2$), na samym dole z zachowaniem marginesu $60$ pikseli ($HEIGHT - 60$).
 
 ```python
 ship = Actor("ship")
@@ -143,20 +137,20 @@ def draw():
 ### Poruszamy statkiem
 
 Statkiem będziemy poruszać w lewo/prawo.
-Nasza postać będzie sterowana za pomocą myszki: statek będzie leciał w kierunku, w którym znajduje się wskaźnik myszy. W tym celu musimy nadać naszemu statkowi jakąś prędkość poziomą. Dopiszemy więc do naszego statku zmienną **vx** z początkową wartością np. $$5$$, zaraz pod ustaleniem pozycji statku na ekranie.
+Nasza postać będzie sterowana za pomocą myszki: statek będzie leciał w kierunku, w którym znajduje się wskaźnik myszy. W tym celu musimy nadać naszemu statkowi jakąś prędkość poziomą. Dopiszemy więc do naszego statku zmienną **vx** z początkową wartością np. $5$, zaraz pod ustaleniem pozycji statku na ekranie.
 
 ```python
 ship.vx = 5
 ```
 
-W części aktualizującej usuwamy instrukcję *pass*. Na początku odczytamy aktualną pozycję wskaźnika myszy za pomocą funkcji `pygame.mouse.get_pos()` z biblioteki *pygame*. Ponieważ funkcja ta zwraca nam współrzędne wskaźnika myszy ($$x$$ oraz $$y$$), to jej wynik zapiszemy w dwóch zmiennych: **mouse_x** oraz **mouse_y**.
+W części aktualizującej usuwamy instrukcję *pass*. Na początku odczytamy aktualną pozycję wskaźnika myszy za pomocą funkcji `pygame.mouse.get_pos()` z biblioteki *pygame*. Ponieważ funkcja ta zwraca nam współrzędne wskaźnika myszy ($x$ oraz $y$), to jej wynik zapiszemy w dwóch zmiennych: **mouse_x** oraz **mouse_y**.
 
 ```python
 def update():
     mouse_x, mouse_y = pygame.mouse.get_pos()
 ```
 
-Teraz pozostało nam sprawdzić, z której strony znajduje się wskaźnik myszy względem statku: z lewej czy z prawej. Jeżeli współrzędna $$x$$ myszy jest mniejsza od współrzędnej $$x$$ statku, to znaczy, że mysz znajduje się z lewej strony statku. Dopisujemy więc instrukcję warunkową ze wspomnianym warunkiem na koniec funkcji *update*.
+Teraz pozostało nam sprawdzić, z której strony znajduje się wskaźnik myszy względem statku: z lewej czy z prawej. Jeżeli współrzędna $x$ myszy jest mniejsza od współrzędnej $x$ statku, to znaczy, że mysz znajduje się z lewej strony statku. Dopisujemy więc instrukcję warunkową ze wspomnianym warunkiem na koniec funkcji *update*.
 
 ```python
 def update():
@@ -164,7 +158,7 @@ def update():
     if mouse_x < ship.x:
 ```
 
-Jeżeli tak jest, to powinniśmy statek przesunąć w lewo zgodnie z jego prędkością. W tym celu odejmujemy prędkość statku (**vx**) od jego współrzędnej $$x$$.
+Jeżeli tak jest, to powinniśmy statek przesunąć w lewo zgodnie z jego prędkością. W tym celu odejmujemy prędkość statku (**vx**) od jego współrzędnej $x$.
 
 ```python
 def update():
@@ -173,7 +167,7 @@ def update():
         ship.x -= ship.vx
 ```
 
-Podobnie postępujemy przy ruchu w prawą stronę. Zaczynamy od warunku: sprawdzamy, czy współrzędna $$x$$ myszy jest większa od współrzędnej $$x$$ statku.
+Podobnie postępujemy przy ruchu w prawą stronę. Zaczynamy od warunku: sprawdzamy, czy współrzędna $x$ myszy jest większa od współrzędnej $x$ statku.
 
 ```python
 def update():
@@ -181,7 +175,7 @@ def update():
     if mouse_x > ship.x:
 ```
 
-Poruszamy statkiem w prawo, tzn. dodajemy jego prędkość do pozycji $$x$$.
+Poruszamy statkiem w prawo, tzn. dodajemy jego prędkość do pozycji $x$.
 
 ```python
 def update():
@@ -264,7 +258,7 @@ def add_asteroid():
     asteroid = Actor("asteroid1")
 ```
 
-Przypiszmy teraz naszej asteroidzie właściwe współrzędne. Jako współrzędną $$x$$ przyjmiemy losową wartość z przedziału $$<20, WIDTH-20>$$ wylosowaną za pomocą funkcji `random.randint` z biblioteki *random*.
+Przypiszmy teraz naszej asteroidzie właściwe współrzędne. Jako współrzędną $x$ przyjmiemy losową wartość z przedziału $<20, WIDTH-20>$ wylosowaną za pomocą funkcji `random.randint` z biblioteki *random*.
 
 
 ```python
@@ -273,7 +267,7 @@ def add_asteroid():
     asteroid.x = random.randint(20, WIDTH-20)
 ```
 
-Do współrzędnej $$y$$ przypiszemy wartość $$-10$$, tak by nowa asteroida znalazła się ponad górną krawędzią ekranu.
+Do współrzędnej $y$ przypiszemy wartość $-10$, tak by nowa asteroida znalazła się ponad górną krawędzią ekranu.
 
 ```python
 def add_asteroid():
@@ -281,7 +275,7 @@ def add_asteroid():
     asteroid.y = -10
 ```
 
-Teraz pozostało nam wylosować prędkość pionową, którą zapiszemy w asteroidzie w zmiennej $$vy$$. Wartość prędkości pionowej wylosujemy z przedziału $$<2, 10>$$, ponownie korzystając z funkcji `random.randint`.
+Teraz pozostało nam wylosować prędkość pionową, którą zapiszemy w asteroidzie w zmiennej $vy$. Wartość prędkości pionowej wylosujemy z przedziału $<2, 10>$, ponownie korzystając z funkcji `random.randint`.
 
 ```python
 def add_asteroid():
@@ -311,7 +305,7 @@ def add_asteroid():
 
 ### Dodajemy losowo asteroidy
 
-W części aktualizującej (*update*) będziemy losowo dodawać asteroidy w każdej klatce, z odpowiednio małym prawdopodobieństwem. W tym celu sprawdzimy, czy wylosowana liczba rzeczywista z przedziału $$<0, 1)$$ jest mniejsza od jakiejś ustalonej wartości, np. $$0.02$$. Liczbę rzeczywistą wylosujemy za pomocą funkcji `random.random()`. Instrukcję warunkową z wspomnianym warunkiem dopisujemy na końcu funkcji *update*.
+W części aktualizującej (*update*) będziemy losowo dodawać asteroidy w każdej klatce, z odpowiednio małym prawdopodobieństwem. W tym celu sprawdzimy, czy wylosowana liczba rzeczywista z przedziału $<0, 1)$ jest mniejsza od jakiejś ustalonej wartości, np. $0.02$. Liczbę rzeczywistą wylosujemy za pomocą funkcji `random.random()`. Instrukcję warunkową z wspomnianym warunkiem dopisujemy na końcu funkcji *update*.
 
 ```python
 def update():
@@ -379,7 +373,7 @@ def update_asteroids():
     for asteroid in asteroids_list[:]:
 ```
 
-Dla każdej asteroidy będziemy przemieszczać ją zgodnie z jej prędkością, więc do jej współrzędnej $$y$$ dodajemy jej prędkość *vy*.
+Dla każdej asteroidy będziemy przemieszczać ją zgodnie z jej prędkością, więc do jej współrzędnej $y$ dodajemy jej prędkość *vy*.
 
 ```python
 def update_asteroids():
@@ -387,7 +381,7 @@ def update_asteroids():
         asteroid.y += asteroid.vy
 ```
 
-Żeby nasza gra nie spowalniała po pewnym czasie, powinniśmy na bieżąco usuwać asteroidy, których już nie widać na ekranie. Dlatego dopisujemy w pętli instrukcję warunkową sprawdzającą, czy asteroida wyleciała poza ekran, tzn. czy jej współrzędna $$y$$ jest większa od $$HEIGHT + 50$$ (dodajemy $$50$$ tak by cała asteroida zdążyła wylecieć poza ekran).
+Żeby nasza gra nie spowalniała po pewnym czasie, powinniśmy na bieżąco usuwać asteroidy, których już nie widać na ekranie. Dlatego dopisujemy w pętli instrukcję warunkową sprawdzającą, czy asteroida wyleciała poza ekran, tzn. czy jej współrzędna $y$ jest większa od $HEIGHT + 50$ (dodajemy $50$ tak by cała asteroida zdążyła wylecieć poza ekran).
 
 ```python
 def update_asteroids():
@@ -506,7 +500,7 @@ def add_laser():
     laser.pos = ship.pos
 ```
 
-Naszemu laserowi powinniśmy także nadać jakąś prędkość pionową (*laser.vy*), np. $$-8$$, by laser poruszał się do góry.
+Naszemu laserowi powinniśmy także nadać jakąś prędkość pionową (*laser.vy*), np. $-8$, by laser poruszał się do góry.
 
 ```python
 def add_laser():
@@ -605,7 +599,7 @@ def update_lasers():
     for laser in lasers_list[:]:
 ```
 
-Wewnątrz pętli przemieszczamy nasz laser zgodnie z jego prędkością, więc do współrzędnej $$y$$ dodajemy prędkość pionową lasera (*laser.vy*).
+Wewnątrz pętli przemieszczamy nasz laser zgodnie z jego prędkością, więc do współrzędnej $y$ dodajemy prędkość pionową lasera (*laser.vy*).
 
 ```python
 def update_lasers():
@@ -613,7 +607,7 @@ def update_lasers():
         laser.y += laser.vy
 ```
 
-Teraz pora sprawdzić, czy laser wyleciał poza ekran. W tym celu sprawdzimy, czy jego pozycja $$y$$ jest mniejsza od ujemnej wartości jego wysokości. W ten sposób upewnimy się, że cały laser wyleciał poza ekran, a nie tylko jego część. Wysokość lasera możemy odczytać pisząc `laser.height`. Dopisujemy więc instrukcję warunkową.
+Teraz pora sprawdzić, czy laser wyleciał poza ekran. W tym celu sprawdzimy, czy jego pozycja $y$ jest mniejsza od ujemnej wartości jego wysokości. W ten sposób upewnimy się, że cały laser wyleciał poza ekran, a nie tylko jego część. Wysokość lasera możemy odczytać pisząc `laser.height`. Dopisujemy więc instrukcję warunkową.
 
 ```python
 def update_lasers():
@@ -820,7 +814,7 @@ def draw():
     screen.draw.text(str(ship.points))
 ```
 
-Środek (*center*) naszych punktów umieścimy w połowie szerokości ekranu ($$WIDTH / 2$$) na samej górze, zachowując niewielki margines ($$20$$).
+Środek (*center*) naszych punktów umieścimy w połowie szerokości ekranu ($WIDTH / 2$) na samej górze, zachowując niewielki margines ($20$).
 
 ```python
 def draw():
@@ -828,7 +822,7 @@ def draw():
     screen.draw.text(str(ship.points), center=(WIDTH / 2, 20))
 ```
 
-Rozmiar czcionki (*fontsize*) ustawimy na $$50$$.
+Rozmiar czcionki (*fontsize*) ustawimy na $50$.
 
 ```python
 def draw():
@@ -970,7 +964,7 @@ Jak już wspomnieliśmy, życia narysujemy w lewym górnym rogu ekranu za pomoc�
 def draw_lifes():
 ```
 
-Będziemy rysować tyle żyć, na ile wskazuje zmienna *ship.lifes*. W związku z tym potrzebna nam pętla. Użyjemy pętli *for* z licznikiem *life_id*, który będzie oznaczał numer obecnie rysowanego życia, a jako zakres przejdziemy od $$1$$ do liczby żyć statku włącznie, czyli  `range(1, ship.lifes + 1)`.
+Będziemy rysować tyle żyć, na ile wskazuje zmienna *ship.lifes*. W związku z tym potrzebna nam pętla. Użyjemy pętli *for* z licznikiem *life_id*, który będzie oznaczał numer obecnie rysowanego życia, a jako zakres przejdziemy od $1$ do liczby żyć statku włącznie, czyli  `range(1, ship.lifes + 1)`.
 
 ```python
 def draw_lifes():
@@ -985,7 +979,7 @@ def draw_lifes():
         life = Actor("life")
 ```
 
-Teraz czas wyznaczyć współrzędne naszego życia. Ponieważ chcemy, by były ułożone obok siebie w jednej linii, to współrzędna $$x$$ będzie zależna od numeru aktualnie rysowanego życia. Narysujemy życia tak, aby były obok siebie, ale na siebie nie nachodziły. Dlatego wartość współrzędnej poziomej to nic innego jak numer życia przemnożony przez szerokość grafiki życia. Szerokość grafiki aktora możemy łatwo poznać pisząc **life.width**.
+Teraz czas wyznaczyć współrzędne naszego życia. Ponieważ chcemy, by były ułożone obok siebie w jednej linii, to współrzędna $x$ będzie zależna od numeru aktualnie rysowanego życia. Narysujemy życia tak, aby były obok siebie, ale na siebie nie nachodziły. Dlatego wartość współrzędnej poziomej to nic innego jak numer życia przemnożony przez szerokość grafiki życia. Szerokość grafiki aktora możemy łatwo poznać pisząc **life.width**.
 
 ```python
 def draw_lifes():
@@ -994,7 +988,7 @@ def draw_lifes():
         life.x = life_id * life.width
 ```
 
-Jeżeli chodzi o położenie w pionie, to nasze życia będą dotykać górnego brzegu ekranu, ale nie powinny poza niego wychodzić. W tym celu do współrzędnej $$y$$ przypiszemy połowę wysokości grafiki życia. Wysokość grafiki aktora możemy pobrać podobnie jak szerokość: **life.height**.
+Jeżeli chodzi o położenie w pionie, to nasze życia będą dotykać górnego brzegu ekranu, ale nie powinny poza niego wychodzić. W tym celu do współrzędnej $y$ przypiszemy połowę wysokości grafiki życia. Wysokość grafiki aktora możemy pobrać podobnie jak szerokość: **life.height**.
 
 ```python
 def draw_lifes():
@@ -1130,7 +1124,7 @@ def draw():
     if ship.lifes <= 0:
 ```
 
-Wówczas wyświetlimy stosowny komunikat na środku ekranu. Możemy go wyświetlić w żółtym kolorze z czcionką o rozmiarze $$90$$.
+Wówczas wyświetlimy stosowny komunikat na środku ekranu. Możemy go wyświetlić w żółtym kolorze z czcionką o rozmiarze $90$.
 
 ```python
 def draw():
@@ -1278,7 +1272,7 @@ pgzrun.go()
 
 ## Amunicja
 
-Obecnie w naszej grze możemy strzelać praktycznie w nieskończoność, co znacząco ułatwia rozgrywkę. Pora to zmienić, ograniczając amunicję statku. W tym celu dopiszemy do statku nową zmienną **ammunition** o wartości $$5$$. Dopiszemy ją zaraz pod liczbą żyć.
+Obecnie w naszej grze możemy strzelać praktycznie w nieskończoność, co znacząco ułatwia rozgrywkę. Pora to zmienić, ograniczając amunicję statku. W tym celu dopiszemy do statku nową zmienną **ammunition** o wartości $5$. Dopiszemy ją zaraz pod liczbą żyć.
 
 ```python
 ship.ammunition = 5
@@ -1317,7 +1311,7 @@ def on_mouse_down(pos):
 
 ### Odzyskujemy amunicję
 
-Cóż to za gra, w której można oddać tylko $$5$$ strzałów? Powinniśmy jakoś odzyskiwać naszą straconą amunicję. Ponieważ nasz statek wystrzeliwuje lasery, to można sobie wyobrazić, że zużywa to energię, którą z czasem możemy zregenerować. Dlatego amunicję będziemy odzyskiwać po jednej sekundzie od każdego oddanego strzału. Zanim jednak do tego przejdziemy, będziemy potrzebować nowej pomocniczej funkcji, którą nazwiemy **regenerate_ammo** i dopiszemy ją na samym końcu, zaraz przed instrukcją `pgzrun.go()`.
+Cóż to za gra, w której można oddać tylko $5$ strzałów? Powinniśmy jakoś odzyskiwać naszą straconą amunicję. Ponieważ nasz statek wystrzeliwuje lasery, to można sobie wyobrazić, że zużywa to energię, którą z czasem możemy zregenerować. Dlatego amunicję będziemy odzyskiwać po jednej sekundzie od każdego oddanego strzału. Zanim jednak do tego przejdziemy, będziemy potrzebować nowej pomocniczej funkcji, którą nazwiemy **regenerate_ammo** i dopiszemy ją na samym końcu, zaraz przed instrukcją `pgzrun.go()`.
 
 ```python
 def regenerate_ammo():
@@ -1488,7 +1482,7 @@ Odtworzenie muzyki również zapiszemy na końcu kody, zaraz przed instrukcją `
 music.play("space")
 ```
 
-Ponieważ muzyka może być dość głośna, to warto ustawić jej głośność na wartość $$0.3$$, korzystając zmetody **music.set_volume**.
+Ponieważ muzyka może być dość głośna, to warto ustawić jej głośność na wartość $0.3$, korzystając zmetody **music.set_volume**.
 
 ```python
 music.play("space")
@@ -1497,7 +1491,7 @@ music.set_volume(0.3)
 
 ### Losowa grafika dla asteroid
 
-Gdy przyjrzymy się naszym grafikom to zobaczymy, że mamy kilka grafik przedstawiających asteroidy. Grafiki ponumerowane są od $$1$$ do $$4$$. My natomiast używamy tylko pierwszej grafiki. CZas to zmienić! W tym celu zmodyfikujemy naszą funkcję *add_asteroid* dodającą nową asteroidę do gry. Na samym jej początku wylosujemy losową liczbę z przedziału od $$1$$ do $$4$$ za pomocą metody **random.randint** i zapiszemy ją w zmiennej **image_id**.
+Gdy przyjrzymy się naszym grafikom to zobaczymy, że mamy kilka grafik przedstawiających asteroidy. Grafiki ponumerowane są od $1$ do $4$. My natomiast używamy tylko pierwszej grafiki. CZas to zmienić! W tym celu zmodyfikujemy naszą funkcję *add_asteroid* dodającą nową asteroidę do gry. Na samym jej początku wylosujemy losową liczbę z przedziału od $1$ do $4$ za pomocą metody **random.randint** i zapiszemy ją w zmiennej **image_id**.
 
 ```python
 def add_asteroid():
@@ -1505,7 +1499,7 @@ def add_asteroid():
     ...
 ```
 
-Teraz pozostało nam zmodyfikować linijkę tworzącą nowego aktora reprezentującego asteroidę. Z nazwy grafiki usuniemy liczbę $$1$$ pozostawiając sam wyraz *asteroid*, do którego dopiszemy naszą liczbę *image_id* zamienioną na tekst (*str(image_id)*).
+Teraz pozostało nam zmodyfikować linijkę tworzącą nowego aktora reprezentującego asteroidę. Z nazwy grafiki usuniemy liczbę $1$ pozostawiając sam wyraz *asteroid*, do którego dopiszemy naszą liczbę *image_id* zamienioną na tekst (*str(image_id)*).
 
 ```python
 def add_asteroid():
@@ -1788,10 +1782,8 @@ pgzrun.go()  # Uruchamiamy grę
 
 Pełna implementacja dostępna jest również poniżej.
 
-{% embed url="https://github.com/blackbat13/AsteroidsPygameZero" %}
-Asteroidy
-{% endembed %}
+[Asteroidy](https://github.com/blackbat13/AsteroidsPygameZero)
 
 ## Zadanie dodatkowe
 
-Spróbuj dodać do gry zwiększanie liczby żyć, gdy zdobędziemy odpowiednią liczbę punktów. Np. każde $$100$$ punktów daje nam kolejne życie. Podobnie możesz zrobić z amunicją.
+Spróbuj dodać do gry zwiększanie liczby żyć, gdy zdobędziemy odpowiednią liczbę punktów. Np. każde $100$ punktów daje nam kolejne życie. Podobnie możesz zrobić z amunicją.

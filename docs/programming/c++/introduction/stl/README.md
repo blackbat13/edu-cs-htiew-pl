@@ -8,12 +8,8 @@ Nie będziemy tutaj rozwodzić się nad tą biblioteką (a tak właściwie to ze
 
 #### Dokumentacja
 
-{% embed url="https://www.cppreference.com/Cpp_STL_ReferenceManual.pdf" %}
-C++ STL Manual
-{% endembed %}
+[C++ STL Manual](https://www.cppreference.com/Cpp_STL_ReferenceManual.pdf)
 
 #### Ściąga
 
-{% embed url="https://www.logicalbee.in/cpp-stl-algorithms-cheat-sheet" %}
-C++ STL - "ściąga"
-{% endembed %}
+[C++ STL - "ściąga"](https://www.logicalbee.in/cpp-stl-algorithms-cheat-sheet)

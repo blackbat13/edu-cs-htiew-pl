@@ -1,15 +1,11 @@
 # Spójne składowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/connected-components.md)
 
-{% content-ref url="../../../../algorithms/graphs/connected-components.md" %}
-[connected-components.md](../../../../algorithms/graphs/connected-components.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 from typing import List
 
 
@@ -50,4 +46,4 @@ result = count_connected_components(graph)
 
 print("Number of connected components in the graph:", result)
 ```
-{% endcode %}
+

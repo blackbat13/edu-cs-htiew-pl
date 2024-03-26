@@ -13,25 +13,25 @@ W szyfrach podstawieniowych szyfrogram powstaje poprzez zastąpienie każdej lit
 
 ### Wybrane szyfry
 
-{% content-ref url="caesar.md" %}
+
 [caesar.md](caesar.md)
-{% endcontent-ref %}
 
-{% content-ref url="rot13.md" %}
+
+
 [rot13.md](rot13.md)
-{% endcontent-ref %}
 
-{% content-ref url="trithemius.md" %}
+
+
 [trithemius.md](trithemius.md)
-{% endcontent-ref %}
 
-{% content-ref url="beaufort.md" %}
+
+
 [beaufort.md](beaufort.md)
-{% endcontent-ref %}
 
-{% content-ref url="vigenere.md" %}
+
+
 [vigenere.md](vigenere.md)
-{% endcontent-ref %}
+
 
 ## Szyfry przestawieniowe
 
@@ -39,13 +39,13 @@ W szyfrach przestawieniowych szyfrogram jest tworzony poprzez przestawienie kole
 
 ### Wybrane szyfry
 
-{% content-ref url="playfair.md" %}
-[playfair.md](playfair.md)
-{% endcontent-ref %}
 
-{% content-ref url="rail-fence.md" %}
+[playfair.md](playfair.md)
+
+
+
 [rail-fence.md](rail-fence.md)
-{% endcontent-ref %}
+
 
 ## Szyfry mieszane
 
@@ -53,6 +53,4 @@ Szyfry mieszane stanowią połączenie szyfru podstawieniowego z szyfrem przesta
 
 ## Prezentacja
 
-{% file src="../../../.gitbook/assets/Metody szyfrowania symetrycznego.pdf" %}
-Prezentacja
-{% endfile %}
+[:fontawesome-solid-file-pdf: Prezentacja](../../../assets/Metody szyfrowania symetrycznego.pdf)

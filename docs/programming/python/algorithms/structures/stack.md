@@ -1,15 +1,11 @@
 # Stos
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/structures/stack.md)
 
-{% content-ref url="../../../../algorithms/structures/stack.md" %}
-[stack.md](../../../../algorithms/structures/stack.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 class Stack:
   class Element:
     def __init__(self, value):
@@ -58,4 +54,4 @@ if __name__ == "__main__":
     print(stack.top())
     stack.pop()
 ```
-{% endcode %}
+

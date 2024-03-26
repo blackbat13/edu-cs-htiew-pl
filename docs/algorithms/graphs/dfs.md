@@ -35,7 +35,7 @@ DFS ma wiele zastosowań w praktyce, między innymi:
 
 ## Złożoność obliczeniowa
 
-Złożoność czasowa algorytmu DFS wynosi $$O(V + E)$$, gdzie $$V$$ to liczba wierzchołków, a $$E$$ to liczba krawędzi, ponieważ każdy wierzchołek i każda krawędź są przeszukiwane dokładnie raz.
+Złożoność czasowa algorytmu DFS wynosi $O(V + E)$, gdzie $V$ to liczba wierzchołków, a $E$ to liczba krawędzi, ponieważ każdy wierzchołek i każda krawędź są przeszukiwane dokładnie raz.
 
 ## Implementacja
 
@@ -45,12 +45,12 @@ Poniżej znajdziesz przykładowe implementacje w wybranych językach.
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/graphs/dfs.md" %}
+
 [dfs.md](../../programming/c++/algorithms/graphs/dfs.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/graphs/dfs.md" %}
+
 [dfs.md](../../programming/python/algorithms/graphs/dfs.md)
-{% endcontent-ref %}
+

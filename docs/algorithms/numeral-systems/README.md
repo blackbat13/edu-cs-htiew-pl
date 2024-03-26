@@ -6,39 +6,37 @@ Systemy liczbowe stanowią swoisty *język*, w którym możemy przedstawiać lic
 
 Kilka z istniejących systemów liczbowych możemy współcześnie uznać za *podstawowe*, czy też powszechnie stosowane, szczególnie w informatyce, a konkretniej w algorytmice i programowaniu. Poniżej opisujemy kilka z nich. Szerszy opis dostępny jest w załączonej prezentacji.
 
-{% file src="../../.gitbook/assets/Systemy liczbowe.pdf" %}
-Systemy liczbowe - prezentacja
-{% endfile %}
+[:fontawesome-solid-file-pdf: Systemy liczbowe - prezentacja](../../assets/Systemy liczbowe.pdf)
 
 ### System Dziesiętny (Decymalny)
 
-**Podstawa**: $$10$$
+**Podstawa**: $10$
 
-**Zestaw Cyfr**: $$0, 1, 2, 3, 4, 5, 6, 7, 8, 9$$
+**Zestaw Cyfr**: $0, 1, 2, 3, 4, 5, 6, 7, 8, 9$
 
 Jest to system, z którym stykamy się na codzień i którego używamy najczęściej.
 
 ### System Binarny
 
-**Podstawa**: $$2$$
+**Podstawa**: $2$
 
-**Zestaw Cyfr**: $$0, 1$$
+**Zestaw Cyfr**: $0, 1$
 
 System binarny jest fundamentalny dla informatyki i technologii komputerowej.
 
 ### System Oktalny
 
-**Podstawa**: $$8$$
+**Podstawa**: $8$
 
-**Zestaw Cyfr**: $$0, 1, 2, 3, 4, 5, 6, 7$$
+**Zestaw Cyfr**: $0, 1, 2, 3, 4, 5, 6, 7$
 
 Stosowany mniej powszechnie, ale może służyć jako skrótowy zapis liczb binarnych.
 
 ### System Heksadecymalny
 
-**Podstawa**: $$16$$
+**Podstawa**: $16$
 
-**Zestaw Cyfr**: $$0-9$$ oraz $$A-F$$ (gdzie $$A=10, B=11, ..., F=15$$)
+**Zestaw Cyfr**: $0-9$ oraz $A-F$ (gdzie $A=10, B=11, ..., F=15$)
 
 Często używany w programowaniu do reprezentowania wartości binarnych w sposób bardziej zwięzły, np. przy reprezentacji adresów pamięci czy kolorów.
 

@@ -16,9 +16,7 @@ Dzisiaj spróbujemy tę grę odtworzyć w trochę bardziej współczesnym środo
 
 Umieszczamy w katalogu **images**.
 
-{% file src="../../../.gitbook/assets/pong_images.zip" %}
-Grafiki do gry Pong
-{% endfile %}
+[:material-folder-zip: Grafiki do gry Pong](../../../assets/pong_images.zip)
 
 ### Źródła
 
@@ -26,7 +24,7 @@ Grafiki do gry Pong
 
 ## Nasz cel
 
-![Pong](../../../.gitbook/assets/pongGame.gif)
+![Pong](../../../assets/pongGame.gif)
 
 Spróbujmy przeanalizować powyższą animację. Wyróżnijmy elementy graficzne, co pomoże nam zaimplementować naszą grę:
 
@@ -43,7 +41,7 @@ Nasz projekt możemy nazwać np. "Pong". Gdy już utworzymy projekt, tworzymy w 
 
 ## Podstawowy szablon
 
-Jako wymiary gry przyjmiemy $$800\times600$$ (szerokość $$800$$ i wysokość $$600$$).
+Jako wymiary gry przyjmiemy $800\times600$ (szerokość $800$ i wysokość $600$).
 
 Ustalmy także tytuł naszej gry: "Pong".
 
@@ -79,7 +77,7 @@ Na początek rzecz prosta - tło gry. Jak już ustaliliśmy na tło składa się
 
 Dla ułatwienia kolor tła zapamiętamy w zmiennej `bg_color`, którą dodamy zaraz pod tytułem gry. Chcemy mieć lekki odcień szarości.
 W tym celu ustalamy kolor za pomocą trzech wartości: **(R, G, B)**.
-W celu uzyskania odcienia szarości wystarczy podać trzy takie same liczby, np. $$64$$.
+W celu uzyskania odcienia szarości wystarczy podać trzy takie same liczby, np. $64$.
 
 ```python
 bg_color = (64, 64, 64)
@@ -102,7 +100,7 @@ Gdybyśmy chcieli narysować żółtą linię przez cały ekran, wyglądałoby t
 screen.draw.line((WIDTH / 2, 0), (WIDTH / 2, HEIGHT), color = "yellow")
 ```
 
-Teraz dostosujmy naszą linię, dodając niewielkie marginesy: $$40$$ pikseli z góry i z dołu.
+Teraz dostosujmy naszą linię, dodając niewielkie marginesy: $40$ pikseli z góry i z dołu.
 
 ```python
 screen.draw.line((WIDTH / 2, 40), (WIDTH / 2, HEIGHT - 40), color = "yellow")
@@ -173,15 +171,15 @@ left = Actor("left")
 ### Ustalamy pozycję lewej paletki
 
 Nasza lewa paletka będzie znajdować się z lewej strony ekranu.
-Nie chcemy jednak, by dotykała krawędzi, damy jej więc pewien niewielki margines, np. $$20$$ pikseli.
+Nie chcemy jednak, by dotykała krawędzi, damy jej więc pewien niewielki margines, np. $20$ pikseli.
 Dzięki temu nasza gra będzie wyglądała estetyczniej.
-Ustalamy więc współrzędną $$x$$ lewej paletki.
+Ustalamy więc współrzędną $x$ lewej paletki.
 
 ```python
 left.x = 20
 ```
 
-Trzeba jeszcze pomyśleć o drugiej współrzędnej: $$y$$.
+Trzeba jeszcze pomyśleć o drugiej współrzędnej: $y$.
 Początkowo umieśćmy paletkę na środku, czyli w połowie wysokości ekranu gry.
 
 ```python
@@ -254,16 +252,16 @@ right = Actor("right")
 ### Ustalamy pozycję prawej paletki
 
 Nasza prawa paletka będzie znajdować się z prawej strony ekranu.
-Nie chcemy jednak, by dotykała krawędzi, damy jej więc pewien niewielki margines, taki jak dla lewej paletki, czyli $$20$$ pikseli.
+Nie chcemy jednak, by dotykała krawędzi, damy jej więc pewien niewielki margines, taki jak dla lewej paletki, czyli $20$ pikseli.
 Dzięki temu nasza gra będzie wyglądała estetyczniej.
-Ustalamy więc współrzędną $$x$$ prawej paletki.
+Ustalamy więc współrzędną $x$ prawej paletki.
 Ponieważ umieszczamy ją z prawej strony ekranu, to aby obliczyć jej pozycję, od szerokości ekranu (**WIDTH**) odejmujemy ustalony wcześniej margines.
 
 ```python
 right.x = WIDTH - 20
 ```
 
-Trzeba jeszcze pomyśleć o drugiej współrzędnej: $$y$$.
+Trzeba jeszcze pomyśleć o drugiej współrzędnej: $y$.
 Początkowo umieśćmy paletkę na środku, czyli w połowie wysokości ekranu gry, tak samo jak lewą paletkę.
 
 ```python
@@ -341,7 +339,7 @@ ball = Actor("ball")
 ### Ustalamy pozycję piłki
 
 Nasza piłka będzie początkowo znajdować się na środku ekranu.
-Dlatego do współrzędnej $$x$$ przypisujemy połowę szerokości (**WIDTH**) ekranu, a do współrzędnej $$y$$ przypisujemy połowę wysokości (**HEIGHT**) ekranu.
+Dlatego do współrzędnej $x$ przypisujemy połowę szerokości (**WIDTH**) ekranu, a do współrzędnej $y$ przypisujemy połowę wysokości (**HEIGHT**) ekranu.
 
 ```python
 ball.x = WIDTH / 2
@@ -572,7 +570,7 @@ def update():
 
 ### Odbijanie od ścian
 
-Chcemy, aby nasza piłka odbijała się od górnej i dolnej ściany. W tym celu, po przemieszczeniu piłki musimy sprawdzić, czy nie wyszła ona z góry lub z dołu ekranu. Porównujemy więc pozycję piłki z odpowiednimi wartościami. Dla lepszego efektu zachowamy niewielki margines, np. $$40$$ pikseli.
+Chcemy, aby nasza piłka odbijała się od górnej i dolnej ściany. W tym celu, po przemieszczeniu piłki musimy sprawdzić, czy nie wyszła ona z góry lub z dołu ekranu. Porównujemy więc pozycję piłki z odpowiednimi wartościami. Dla lepszego efektu zachowamy niewielki margines, np. $40$ pikseli.
 
 #### Górna ściana
 
@@ -585,7 +583,7 @@ def move_ball():
     if ball.top <= 40:
 ```
 
-Aby zasymulować odbicie się piłki od góry ekranu wystarczy **odwrócić** jej prędkość pionową (*vy*). To znaczy, zmienić znak jej prędkości na przeciwny: z minusa na plus, z plusa na minus. W tym celu przemnożymy prędkość pionową piłki przez $$-1$$.
+Aby zasymulować odbicie się piłki od góry ekranu wystarczy **odwrócić** jej prędkość pionową (*vy*). To znaczy, zmienić znak jej prędkości na przeciwny: z minusa na plus, z plusa na minus. W tym celu przemnożymy prędkość pionową piłki przez $-1$.
 
 ```python
 def move_ball():
@@ -637,7 +635,7 @@ def move_ball():
     if left.colliderect(ball):
 ```
 
-Teraz pozostało nam zasymulować odbicie poprzez przemnożenie prędkości poziomej (*vx*) naszej piłki przez wartość $$-1$$.
+Teraz pozostało nam zasymulować odbicie poprzez przemnożenie prędkości poziomej (*vx*) naszej piłki przez wartość $-1$.
 
 ```python
 def move_ball():
@@ -773,7 +771,7 @@ def move_ball():
 
 Obecnie, gdy nasza piłka wyleci z jednej strony ekranu, to wróci na środek i będzie się dalej poruszać w tym samym kierunku co wcześniej. Może to sprawić, że gracz, który właśnie nie zdołał odbić piłki będzie miał utrudnioną sytuację. W tym celu warto sprawić, by piłka po powrocie na środek poruszała się w losowo wybranym kierunku. Zmodyfikujemy więc naszą funkcję *reset_ball* dopisując do niej dwie linijki zmieniające prędkość piłki.
 
-Ponieważ chcemy, by piłka poruszała się cały czas tak samo szybko, to dla każdej z prędkości (poziomej i pionowej) mamy do wyboru dwie wartości: $$-5$$ lub $$5$$. Aby wylosować pomiędzy tymi dwiema wartościami skorzystamy z funkcji `random.choice`, do której podamy dwie wartości zamknięte w nawiasie kwadratowym i oddzielone przecinkiem (w ten sposób tworzymy **listę**, ale o listach powiemy sobie więcej w późniejszym temacie). Nasze losowanie będzie więc wyglądało następująco: `random.choice([-5, 5])`. Pozostało nam przypisać wyniki losowania do prędkości piłki.
+Ponieważ chcemy, by piłka poruszała się cały czas tak samo szybko, to dla każdej z prędkości (poziomej i pionowej) mamy do wyboru dwie wartości: $-5$ lub $5$. Aby wylosować pomiędzy tymi dwiema wartościami skorzystamy z funkcji `random.choice`, do której podamy dwie wartości zamknięte w nawiasie kwadratowym i oddzielone przecinkiem (w ten sposób tworzymy **listę**, ale o listach powiemy sobie więcej w późniejszym temacie). Nasze losowanie będzie więc wyglądało następująco: `random.choice([-5, 5])`. Pozostało nam przypisać wyniki losowania do prędkości piłki.
 
 ```python
 def reset_ball():
@@ -897,7 +895,7 @@ Przyszedł czas na zliczanie punktów!
 
 ### Zapamiętujemy punkty
 
-Punkty zdobyte przez graczy zapamiętamy w paletkach. W tym celu dopisujemy do lewej i prawej paletki (zaraz pod ustaleniem ich prędkości) zmienną **points** z początkową wartością $$0$$: `left.points = 0` oraz `right.points = 0`.
+Punkty zdobyte przez graczy zapamiętamy w paletkach. W tym celu dopisujemy do lewej i prawej paletki (zaraz pod ustaleniem ich prędkości) zmienną **points** z początkową wartością $0$: `left.points = 0` oraz `right.points = 0`.
 
 ### Wyświetlamy punkty
 
@@ -909,7 +907,7 @@ def draw_points():
 
 #### Punkty lewego gracza
 
-Zacznijmy od wypisania punktów lewego gracza. Skorzystamy z funkcji `screen.draw.text`. Jako tekst podamy punkty lewego gracza (*left.points*) z dopiskiem "Lewy: ": `f"Lewy: {left.points}"`. Kolor tekstu (*color*) ustawimy na żółty (*yellow*): `color="yellow"`. Środek tekstu (*center*) umieścimy z lewej strony ekranu, u góry: `center=(WIDTH / 4 - 20, 20)`. Jako rozmiar czcionki (*fontsize*) przyjmiemy wartość $$48$$: `fontsize=48`.
+Zacznijmy od wypisania punktów lewego gracza. Skorzystamy z funkcji `screen.draw.text`. Jako tekst podamy punkty lewego gracza (*left.points*) z dopiskiem "Lewy: ": `f"Lewy: {left.points}"`. Kolor tekstu (*color*) ustawimy na żółty (*yellow*): `color="yellow"`. Środek tekstu (*center*) umieścimy z lewej strony ekranu, u góry: `center=(WIDTH / 4 - 20, 20)`. Jako rozmiar czcionki (*fontsize*) przyjmiemy wartość $48$: `fontsize=48`.
 
 ```python
 def draw_points():
@@ -1086,7 +1084,7 @@ pgzrun.go()
 
 ## Koniec gry
 
-Czas zająć się zakończeniem gry. Gra się zakończy, gdy któryś z graczy uzyska $$11$$ punktów. 
+Czas zająć się zakończeniem gry. Gra się zakończy, gdy któryś z graczy uzyska $11$ punktów. 
 
 ### Zapamiętujemy zwycięzcę 
 
@@ -1159,9 +1157,9 @@ def draw():
 
 ### Ustalamy zwycięzcę
 
-Zwycięzcę ustalimy w części przemieszczającej piłkę (*move_ball*) sprawdzając, czy któryś z graczy zdobył $$11$$ punktów. 
+Zwycięzcę ustalimy w części przemieszczającej piłkę (*move_ball*) sprawdzając, czy któryś z graczy zdobył $11$ punktów. 
 
-Najpierw sprawdzimy, czy prawa paletka uzyskała $$11$$ punktów.
+Najpierw sprawdzimy, czy prawa paletka uzyskała $11$ punktów.
 
 ```python
 def move_ball():
@@ -1195,7 +1193,7 @@ def move_ball():
 
 ### Zatrzymanie gry
 
-Gdy któryś z graczy uzyska $$11$$ punktów gra powinna się zatrzymać. W tym celu, w części aktualizującej (*update*) będziemy aktualizować grę tylko wtedy, gdy żaden z graczy jeszcze nie wygrał. Zmieniamy więc implementację funkcji *update*.
+Gdy któryś z graczy uzyska $11$ punktów gra powinna się zatrzymać. W tym celu, w części aktualizującej (*update*) będziemy aktualizować grę tylko wtedy, gdy żaden z graczy jeszcze nie wygrał. Zmieniamy więc implementację funkcji *update*.
 
 W celu sprawdzenia, czy gra wciąż trwa, sprawdzimy, czy nieprawdą jest (**not**), że wygrał gracz lewy (**left.win**) lub (**or**) wygrał gracz prawy (**right.win**).
 
@@ -1543,9 +1541,7 @@ pgzrun.go()
 
 Pełna implementacja dostępna jest również poniżej.
 
-{% embed url="https://github.com/blackbat13/PongPygameZero" %}
-Pong
-{% endembed %}
+[Pong](https://github.com/blackbat13/PongPygameZero)
 
 <!-- ## Wersja z bonusami
 

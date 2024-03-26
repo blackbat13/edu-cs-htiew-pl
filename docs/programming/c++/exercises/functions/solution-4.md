@@ -8,8 +8,8 @@ Napisz program zgodny z poniższą specyfikacją. Wczytywanie tablicy oraz wypis
 
 #### Dane
 
-* $$n$$ - liczba naturalna
-* $$tab[n]$$ - tablica liczb całkowitych
+* $n$ - liczba naturalna
+* $tab[n]$ - tablica liczb całkowitych
 
 #### Wynik
 

@@ -8,12 +8,12 @@ Krzywa Kocha jest jednym z popularniejszych fraktali.
 
 #### Dane
 
-* $$stopień$$ - stopień krzywej
-* $$długość$$ - długość linii
+* $stopień$ - stopień krzywej
+* $długość$ - długość linii
 
 #### Wynik
 
-* Krzywa Kocha stopnia $$stopień$$ i początkowej długości $$długość$$.
+* Krzywa Kocha stopnia $stopień$ i początkowej długości $długość$.
 
 ## Rozwiązanie
 
@@ -49,18 +49,18 @@ flowchart TD
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/fractals/koch-curve.md" %}
+
 [koch-curve.md](../../programming/c++/algorithms/fractals/koch-curve.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/fractals/koch-curve.md" %}
+
 [koch-curve.md](../../programming/python/algorithms/fractals/koch-curve.md)
-{% endcontent-ref %}
+
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorithms/fractals/koch-curve.md" %}
+
 [koch-curve.md](../../programming/blockly/algorithms/fractals/koch-curve.md)
-{% endcontent-ref %}
+

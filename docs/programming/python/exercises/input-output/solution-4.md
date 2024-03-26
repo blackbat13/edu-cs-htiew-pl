@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$a, b$$ - dwie liczby naturalne, większe od zera
+* $a, b$ - dwie liczby naturalne, większe od zera
 
 #### Wynik
 
-* Wynik dzielenia całkowitego oraz reszta z dzielenia liczb $$a$$ i $$b$$ 
+* Wynik dzielenia całkowitego oraz reszta z dzielenia liczb $a$ i $b$ 
 
 ## Rozwiązanie
 

@@ -1,14 +1,13 @@
 # Wprowadzenie
 
-{% hint style="danger" %}
-#### Uwaga
-
-To nie jest tutorial programowania. Założenie jest takie, że wiesz już co nieco o programowaniu, być może znasz inny język programowania i chcesz się dowiedzieć jak podstawowe konstrukcje wyglądają w języku C++.
-
-**Nie będziemy tutaj tłumaczyć czym jest pętla czy instrukcja warunkowe, a jedynie pokażemy, jak te konstrukcje wyglądają w języku C++.**
-
-**Jeżeli dopiero zaczynasz, zapoznaj się najpierw z wprowadzeniem do algorytmów:** [**Wprowadzenie**](../../../algorithms/introduction/)
-{% endhint %}
+!!! danger
+	#### Uwaga
+	
+	To nie jest tutorial programowania. Założenie jest takie, że wiesz już co nieco o programowaniu, być może znasz inny język programowania i chcesz się dowiedzieć jak podstawowe konstrukcje wyglądają w języku C++.
+	
+	**Nie będziemy tutaj tłumaczyć czym jest pętla czy instrukcja warunkowe, a jedynie pokażemy, jak te konstrukcje wyglądają w języku C++.**
+	
+	**Jeżeli dopiero zaczynasz, zapoznaj się najpierw z wprowadzeniem do algorytmów:** [**Wprowadzenie**](../../../algorithms/introduction/)
 
 ## Środowiska lokalne
 
@@ -62,22 +61,18 @@ W przeciwieństwie do środowisk lokalnych, środowiska webowe dostępne są z p
 
 Dosyć podstawowy kompilator webowy. Posiada wsparcie dla wielu języków. Do jego zalet można zaliczyć stosunkowo szybką kompilację i możliwość korzystania bez rejestracji, a także łatwość udostępniania swoich kodów. Do minusów można zaliczyć brak interaktywności - całe wejście musimy wprowadzić w specjalnym oknie, przed uruchomieniem programu.
 
-{% embed url="https://ideone.com/" %}
+[https://ideone.com/](https://ideone.com/)
 
 ### Repl.it
 
 Rozbudowane narzędzie webowe, które wymaga jednak utworzenia darmowego konta. Posiada wsparcie dla wielu języków i pozwala na tworzenie rozbudowanych projektów ze złożoną strukturą plików, a także na wprowadzanie własnych opcji kompilacji.
 
-{% embed url="https://replit.com/" %}
+[https://replit.com/](https://replit.com/)
 
 ## Krótkie wprowadzenie do C++ - prezentacja
 
-{% file src="../../../.gitbook/assets/Wprowadzenie do Cpp.pdf" %}
-Wprowadzenie do C++
-{% endfile %}
+[:fontawesome-solid-file-pdf: Wprowadzenie do C++](../../../assets/Wprowadzenie do Cpp.pdf)
 
 ## Ściąga dla zaawansowanych
 
-{% embed url="https://hackingcpp.com/cpp/cheat_sheets.html#hfold0a" %}
-Ściąga
-{% endembed %}
+[Ściąga](https://hackingcpp.com/cpp/cheat_sheets.html#hfold0a)

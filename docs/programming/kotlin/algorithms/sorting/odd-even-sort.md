@@ -1,10 +1,7 @@
 # Sortowanie odd-even
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/odd-even-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/odd-even-sort.md" %}
-[odd-even-sort.md](../../../../algorithms/sorting/odd-even-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -32,6 +29,4 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/ZfC5Rh" %}
-Sortowanie odd-even
-{% endembed %}
+[Sortowanie odd-even](https://ideone.com/ZfC5Rh)

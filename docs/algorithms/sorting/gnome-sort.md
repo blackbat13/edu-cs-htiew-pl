@@ -6,13 +6,11 @@ Poniżej znajdziesz animację przedstawiającą ideę omawianego algorytmu.
 
 ## Animacja 1
 
-{% embed url="https://blackbat13.github.io/visul2/sorting/gnome_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D" %}
+[https://blackbat13.github.io/visul2/sorting/gnome_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D](https://blackbat13.github.io/visul2/sorting/gnome_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D)
 
 ## Animacja 2
 
-{% embed url="https://www.youtube.com/watch?v=EdcWAw4Hcu0" %}
 [Animacja sortowania gnoma](https://www.youtube.com/watch?v=EdcWAw4Hcu0)
-{% endembed %}
 
 ## Rozwiązanie
 
@@ -23,7 +21,7 @@ Zauważmy, że gnom ma do dyspozycji następujące operacje:
 - idź o jedną doniczkę w prawo,
 - idź o jedną doniczkę w lewo.
 
-Gnom zaczyna swoją podróż od lewej strony, czyli od pierwszej doniczki, czy też od pierwszego elementu. Ponieważ może wyłącznie porównywać obecny element z poprzednim, to gdy znajduje się na samym początku nie ma wielkiego wyboru i musi pójść w prawo. Podobnie postępuje, gdy zauważy, że dwie sąsiednie doniczki są ułożone we właściwym porządku: przemieszcza się w prawo. Kiedy w takim razie gnom powinien pójść w lewo? Gdy napotka dwie sąsiednie doniczki, które są ułożone w złej kolejności. Wówczas zamienia je miejscami i idzie w lewo. I to wszystko powtarzamy tak długo, aż gnom wyjdzie poza rząd doniczek, czyli aż jego pozycja będzie większa od liczby elementów ($$n$$).
+Gnom zaczyna swoją podróż od lewej strony, czyli od pierwszej doniczki, czy też od pierwszego elementu. Ponieważ może wyłącznie porównywać obecny element z poprzednim, to gdy znajduje się na samym początku nie ma wielkiego wyboru i musi pójść w prawo. Podobnie postępuje, gdy zauważy, że dwie sąsiednie doniczki są ułożone we właściwym porządku: przemieszcza się w prawo. Kiedy w takim razie gnom powinien pójść w lewo? Gdy napotka dwie sąsiednie doniczki, które są ułożone w złej kolejności. Wówczas zamienia je miejscami i idzie w lewo. I to wszystko powtarzamy tak długo, aż gnom wyjdzie poza rząd doniczek, czyli aż jego pozycja będzie większa od liczby elementów ($n$).
 
 ### Pseudokod
 
@@ -55,7 +53,7 @@ flowchart TD
 
 ### Złożoność
 
-$$O(n^2)$$ — kwadratowa
+$O(n^2)$ — kwadratowa
 
 Prześledzenie złożoności algorytmu sortowania gnoma może wydawać się nietrywialne, zauważmy jednak, że algorytm ten jest bardzo podobny do algorytmu sortowania przez wstawianie. Tak właściwie od wspomnianego algorytmu różni się jedynie dodatkowym "poruszaniem się w prawo", nie może mieć więc złożoności lepszej, niż tamten algorytm.
 
@@ -63,18 +61,17 @@ Prześledzenie złożoności algorytmu sortowania gnoma może wydawać się niet
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/sorting/gnome-sort.md" %}
+
 [gnome-sort.md](../../programming/c++/algorithms/sorting/gnome-sort.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/sorting/gnome-sort.md" %}
+
 [gnome-sort.md](../../programming/python/algorithms/sorting/gnome-sort.md)
-{% endcontent-ref %}
+
 
 ### Kotlin
 
-{% content-ref url="../../programming/kotlin/algorithms/sorting/gnome-sort.md" %}
+
 [gnome-sort.md](../../programming/kotlin/algorithms/sorting/gnome-sort.md)
-{% endcontent-ref %}

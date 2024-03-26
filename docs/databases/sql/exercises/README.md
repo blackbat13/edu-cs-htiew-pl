@@ -6,9 +6,8 @@ Poświęć czas na rozwiązanie każdego zadania. Zastanów się nad różnymi s
 
 Zadania podzielone są ze względu na tematy. Tematy ułożone są w sugerowanej kolejności poznawania zagadnień. Każdy temat zawiera od kilku do kilkunastu zadań. Po rozwinięciu tematu pojawią się przykładowe rozwiązania poszczególnych zadań, każde na osobnej stronie. Pamiętaj, że każde zadanie można rozwiązać na kilka sposobów. 
 
-{% hint style="danger" %}
-**Zajrzyj do przykładowego rozwiązania dopiero, jak samodzielnie wykonasz zadanie.**
-{% endhint %}
+!!! danger
+	 **Zajrzyj do przykładowego rozwiązania dopiero, jak samodzielnie wykonasz zadanie.**
 
 ## Przygotowanie
 
@@ -18,13 +17,10 @@ W ramach ćwiczeń będziemy pracować z plikową bazą danych **SQLite**. Zanim
 
 Narzędzie, z którym będziemy pracować to poniższa aplikacja webowa: 
 
-{% embed url="https://sqliteonline.com/" %}
-SQLite Online
-{% endembed %}
+[SQLite Online](https://sqliteonline.com/)
 
-{% hint style="info" %}
-Możesz oczywiście skorzystać z innego narzędzia, pod warunkiem, że wiesz jak je samodzielnie skonfigurować.
-{% endhint %}
+!!! info
+	 Możesz oczywiście skorzystać z innego narzędzia, pod warunkiem, że wiesz jak je samodzielnie skonfigurować.
 
 ### Baza danych
 
@@ -34,9 +30,7 @@ W celu załadowania bazy *Chinook* w narzędziu *SQLite Online* wystarczy w okie
 
 Bazę *Chinook* można także pobrać z poniższego linku:
 
-{% embed url="https://github.com/lerocha/chinook-database/raw/master/ChinookDatabase/DataSources/Chinook_Sqlite.sqlite" %}
-Baza Chinook
-{% endembed %}
+[Baza Chinook](https://github.com/lerocha/chinook-database/raw/master/ChinookDatabase/DataSources/Chinook_Sqlite.sqlite)
 
 Pobrany plik należy rozpakować. Jeżeli chcemy załadować bazę do naszego narzędzia online to wybieramy z menu **File->Open DB** i wybieramy wypakowany plik *chinook.sqlite*.
 

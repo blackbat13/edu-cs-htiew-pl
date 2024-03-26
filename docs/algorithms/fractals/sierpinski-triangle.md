@@ -10,26 +10,22 @@ Przyjrzyj się poniższej prezentacji, by lepiej zrozumieć tę procedurę.
 
 #### Dane
 
-* $$stopień$$ - stopień trójkąta
-* $$długość$$ - początkowa długość
+* $stopień$ - stopień trójkąta
+* $długość$ - początkowa długość
 
 #### Wynik
 
-* Trójkąt Sierpińskiego stopnia $$stopień$$ i początkowej długości $$długość$$.
+* Trójkąt Sierpińskiego stopnia $stopień$ i początkowej długości $długość$.
 
 ### Prezentacja
 
-{% file src="../../.gitbook/assets/Trójkąt Sierpińskiego.pdf" %}
-Trójkąt Sierpińskiego - wprowadzenie
-{% endfile %}
+[:fontawesome-solid-file-pdf: Trójkąt Sierpińskiego - wprowadzenie](../../assets/Trójkąt Sierpińskiego.pdf)
 
 ## Rozwiązanie
 
 ### Prezentacja
 
-{% file src="../../.gitbook/assets/Trójkąt Sierpińskiego - algorytm.pdf" %}
-Trójkąt Sierpińskiego - algorytm
-{% endfile %}
+[:fontawesome-solid-file-pdf: Trójkąt Sierpińskiego - algorytm](../../assets/Trójkąt Sierpińskiego - algorytm.pdf)
 
 ### Pseudokod
 
@@ -70,18 +66,18 @@ flowchart TD
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/fractals/sierpinski-triangle.md" %}
+
 [sierpinski-triangle.md](../../programming/c++/algorithms/fractals/sierpinski-triangle.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/fractals/sierpinski-triangle.md" %}
+
 [sierpinski-triangle.md](../../programming/python/algorithms/fractals/sierpinski-triangle.md)
-{% endcontent-ref %}
+
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorithms/fractals/sierpinski-triangle.md" %}
+
 [sierpinski-triangle.md](../../programming/blockly/algorithms/fractals/sierpinski-triangle.md)
-{% endcontent-ref %}
+

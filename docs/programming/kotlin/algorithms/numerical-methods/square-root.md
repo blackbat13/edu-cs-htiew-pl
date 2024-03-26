@@ -1,10 +1,7 @@
 # Pierwiastek kwadratowy
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/numerical-methods/square-root.md)
 
-{% content-ref url="../../../../algorithms/numerical-methods/square-root.md" %}
-[square-root.md](../../../../algorithms/numerical-methods/square-root.md)
-{% endcontent-ref %}
 
 ## Metoda Herona
 
@@ -32,9 +29,7 @@ print(f"sqrt({n}) ~= {result}")
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/YfdE5U" %}
-Pierwiastek kwadratowy - metoda Herona
-{% endembed %}
+[Pierwiastek kwadratowy - metoda Herona](https://ideone.com/YfdE5U)
 
 ### Opis implementacji
 

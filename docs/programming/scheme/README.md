@@ -18,6 +18,4 @@ Scheme jest często używany w środowiskach akademickich jako narzędzie do nau
 
 ## Popularność języka
 
-{% embed url="https://www.tiobe.com/tiobe-index/scheme/" %}
-Wykres popularności języka Scheme
-{% endembed %}
+[Wykres popularności języka Scheme](https://www.tiobe.com/tiobe-index/scheme/)

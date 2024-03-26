@@ -1,15 +1,11 @@
 # Warunek trójkąta
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/2d-geometry/triangle-condition.md)
 
-{% content-ref url="../../../../algorithms/2d-geometry/triangle-condition.md" %}
-[triangle-condition.md](../../../../algorithms/2d-geometry/triangle-condition.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def can_create_triangle(a: int, b: int, c: int) -> bool:
     return a < b + c and b < a + c and c < a + b
 
@@ -23,4 +19,4 @@ if can_create_triangle(a, b, c):
 else:
     print(f"Triangle cannot be created from {a}, {b} and {c}")
 ```
-{% endcode %}
+

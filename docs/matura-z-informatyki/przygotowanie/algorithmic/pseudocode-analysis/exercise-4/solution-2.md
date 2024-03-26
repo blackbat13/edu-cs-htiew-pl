@@ -1,3 +1,3 @@
 # Zadanie 2 - rozwiązanie
 
-Wynik: $$12$$ 
+Wynik: $12$ 

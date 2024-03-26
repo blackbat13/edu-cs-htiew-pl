@@ -2,8 +2,7 @@
 
 ## Zadanie 1
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def exercise1():
     path = "parentheses.txt"
     result = 0
@@ -32,12 +31,11 @@ def exercise1():
 
     return result
 ```
-{% endcode %}
+
 
 ## Zadanie 2
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def exercise2():
     path = "parentheses.txt"
     with open(path) as file:
@@ -45,12 +43,11 @@ def exercise2():
         parentheses.sort(key=lambda el : (el.count("(") + el.count(")"), el.count("[") + el.count("]"), el.count("{") + el.count("}")))
         return parentheses
 ```
-{% endcode %}
+
 
 ## Zadanie 3
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def exercise3():
     path = "parentheses.txt"
     with open(path) as file:
@@ -72,4 +69,4 @@ def exercise3():
 
             print(max_opening_length, max_closing_length)
 ```
-{% endcode %}
+

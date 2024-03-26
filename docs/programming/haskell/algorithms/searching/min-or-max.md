@@ -1,17 +1,13 @@
 # Wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/min-or-max.md)
 
-{% content-ref url="../../../../algorithms/searching/min-or-max.md" %}
-[min-or-max.md](../../../../algorithms/searching/min-or-max.md)
-{% endcontent-ref %}
 
 ## Wyszukiwanie wartości minimum i maksimum
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```haskell
+```haskell linenums="1"
 findMin [element] = element
 findMin (element:rest) = min element (findMin rest)
 
@@ -27,7 +23,7 @@ main = do
   putStrLn $ "Min: " ++ show minValue
   putStrLn $ "Max: " ++ show maxValue
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 

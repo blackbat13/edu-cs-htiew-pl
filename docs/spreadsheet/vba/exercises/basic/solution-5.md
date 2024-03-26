@@ -8,12 +8,12 @@ Napisz funkcję `NWW` zgodną z poniższą specyfikacją.
 
 #### Dane
 
-* $$a$$ - liczba naturalna
-* $$b$$ - liczba naturalna
+* $a$ - liczba naturalna
+* $b$ - liczba naturalna
 
 #### Wynik
 
-* Najmniejsza wspólna wielokrotność liczb $$a$$ i $$b$$.
+* Najmniejsza wspólna wielokrotność liczb $a$ i $b$.
 
 ## Rozwiązanie
 

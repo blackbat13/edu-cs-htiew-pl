@@ -1,17 +1,13 @@
 # Suma dwóch liczb
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/sum-of-two.md)
 
-{% content-ref url="../../../../algorithms/searching/sum-of-two.md" %}
-[sum-of-two.md](../../../../algorithms/searching/sum-of-two.md)
-{% endcontent-ref %}
 
 ## Rozwiązanie naiwne
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -39,14 +35,13 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ## Rozwiązanie optymalne
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -80,4 +75,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

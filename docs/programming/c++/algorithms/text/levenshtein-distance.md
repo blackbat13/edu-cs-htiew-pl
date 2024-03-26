@@ -1,15 +1,11 @@
 # Odległość Levenshteina (edycyjna)
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/levenshtein-distance.md)
 
-{% content-ref url="../../../../algorithms/text/levenshtein-distance.md" %}
-[levenshtein-distance.md](../../../../algorithms/text/levenshtein-distance.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -44,4 +40,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

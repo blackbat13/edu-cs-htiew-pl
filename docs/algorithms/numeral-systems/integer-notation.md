@@ -6,7 +6,7 @@ Zacznijmy od podstawowych zagadnień:
 
 - **Reprezentacja liczby**: liczby rzeczywiste w systemie binarnym w zapisie stałoprzecinkowym są reprezentowane jako ciągi bitów, które są podzielone na dwie części: część całkowitą i część ułamkową, rozdzielone stałym miejscem, zwanym przecinkiem.
 - **Część całkowita**: część liczby znajdująca się po lewej stronie przecinka. Konwertowana jest na binarny w sposób podobny do konwersji liczb całkowitych.
-- **Część ułamkowa**: część liczby znajdująca się po prawej stronie przecinka. Konwertowana jest na binarny przez mnożenie przez $$2$$ i zapisywanie części całkowitej wyniku na każdym etapie, aż do uzyskania wyniku zero lub osiągnięcia wymaganej precyzji.
+- **Część ułamkowa**: część liczby znajdująca się po prawej stronie przecinka. Konwertowana jest na binarny przez mnożenie przez $2$ i zapisywanie części całkowitej wyniku na każdym etapie, aż do uzyskania wyniku zero lub osiągnięcia wymaganej precyzji.
 
 ## Przykład
 
@@ -14,29 +14,29 @@ Zacznijmy od podstawowych zagadnień:
 
 Oddziel część całkowitą i ułamkową liczby rzeczywistej.
 
-Liczba dziesiętna: $$10.625$$
+Liczba dziesiętna: $10.625$
 
 ### Krok 2
 
 Konwertuj część całkowitą na binarny.
 
-$$10_{10}=1010_2$$
+$10_{10}=1010_2$
 
 ### Krok 3 
 
 Konwertuj część ułamkową na binarny.
 
-Część ułamkowa ($$0.625$$):
+Część ułamkowa ($0.625$):
 
-1. $$0.625 * 2 = 1.25$$ (zapisz $$1$$)
-2. $$0.25 * 2 = 0.5$$ (zapisz $$0$$)
-3. $$0.5 * 2 = 1.0$$ (zapisz $$1$$)
+1. $0.625 * 2 = 1.25$ (zapisz $1$)
+2. $0.25 * 2 = 0.5$ (zapisz $0$)
+3. $0.5 * 2 = 1.0$ (zapisz $1$)
 
-Więc $$0.625_{10}=0.101_2$$
+Więc $0.625_{10}=0.101_2$
 
 ### Krok 4
 
-Połącz część całkowitą i ułamkową w jednym zapisie: $$10.625_{10}=1010.101_2$$
+Połącz część całkowitą i ułamkową w jednym zapisie: $10.625_{10}=1010.101_2$
 
 ## Zalety i Wady
 
@@ -48,7 +48,7 @@ Połącz część całkowitą i ułamkową w jednym zapisie: $$10.625_{10}=1010.
 ### Wady
 
 - Ograniczona precyzja.
-- Problem z reprezentacją niektórych liczb ułamkowych (np. $$0.1$$ nie ma dokładnej reprezentacji binarnej).
+- Problem z reprezentacją niektórych liczb ułamkowych (np. $0.1$ nie ma dokładnej reprezentacji binarnej).
 - Może wymagać dużej liczby bitów do reprezentacji liczb z dużą precyzją.
 
 ## Zastosowania

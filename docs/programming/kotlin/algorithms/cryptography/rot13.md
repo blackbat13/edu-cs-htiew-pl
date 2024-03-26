@@ -1,10 +1,7 @@
 # Szyfr ROT13
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/cryptography/rot13.md)
 
-{% content-ref url="../../../../algorithms/cryptography/rot13.md" %}
-[rot13.md](../../../../algorithms/cryptography/rot13.md)
-{% endcontent-ref %}
 
 ## Szyfrowanie
 
@@ -43,9 +40,7 @@ print(f"Encoded: {encoded}")
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/k1CQdI" %}
-Szyfrowanie szyfrem ROT13
-{% endembed %}
+[Szyfrowanie szyfrem ROT13](https://ideone.com/k1CQdI)
 
 ### Opis implementacji
 
@@ -88,9 +83,7 @@ print(f"Decoded: {decoded}")
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/iXANLs" %}
-Deszyfrowanie szyfrem ROT13
-{% endembed %}
+[Deszyfrowanie szyfrem ROT13](https://ideone.com/iXANLs)
 
 ### Opis implementacji
 

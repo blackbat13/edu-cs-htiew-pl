@@ -1,15 +1,11 @@
 # Permutacje
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/backtracking/permutations.md)
 
-{% content-ref url="../../../../algorithms/backtracking/permutations.md" %}
-[permutations.md](../../../../algorithms/backtracking/permutations.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def permutation(elements, start, stop):
     if start == stop:
         print(elements)
@@ -28,4 +24,4 @@ elements = list(range(1, 4))
 print("Permutacje:")
 permutation(elements, 0, 2)
 ```
-{% endcode %}
+

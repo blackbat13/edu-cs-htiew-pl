@@ -44,7 +44,7 @@ Wypisz wszystkich pracowników zatrudnionych po 1 stycznia 2003 roku.
 
 ## Zadanie 4
 
-Utwórz zestawienie zawierające nazwę i długość trwania utworów dłuższych niż $$10$$ minut.
+Utwórz zestawienie zawierające nazwę i długość trwania utworów dłuższych niż $10$ minut.
 
 ### 10 pierwszych wierszy wyniku
 

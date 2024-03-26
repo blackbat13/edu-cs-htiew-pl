@@ -2,16 +2,10 @@
 
 ## Arkusz
 
-{% file src="../../../.gitbook/assets/matura/2022-probna-cke/informatyka-2022-grudzien-probna-rozszerzona.pdf" %}
-Arkusz
-{% endfile %}
+[:fontawesome-solid-file-pdf: Arkusz](../../../assets/matura/2022-probna-cke/informatyka-2022-grudzien-probna-rozszerzona.pdf)
 
-{% file src="../../../.gitbook/assets/matura/2022-probna-cke/Dane.zip" %}
-Dane
-{% endfile %}
+[:material-folder-zip: Dane](../../../assets/matura/2022-probna-cke/Dane.zip)
 
 ## Odpowiedzi
 
-{% file src="../../../.gitbook/assets/matura/2022-probna-cke/informatyka-2022-grudzien-probna-rozszerzona-odpowiedzi.pdf" %}
-Klucz
-{% endfile %}
+[:fontawesome-solid-file-pdf: Klucz](../../../assets/matura/2022-probna-cke/informatyka-2022-grudzien-probna-rozszerzona-odpowiedzi.pdf)

@@ -33,7 +33,7 @@ BFS ma wiele zastosowań w praktyce, między innymi:
 
 ## Złożoność obliczeniowa
 
-Złożoność czasowa algorytmu BFS wynosi $$O(V + E)$$, gdzie $$V$$ to liczba wierzchołków, a $$E$$ to liczba krawędzi, ponieważ każdy wierzchołek i każda krawędź są przeszukiwane dokładnie raz.
+Złożoność czasowa algorytmu BFS wynosi $O(V + E)$, gdzie $V$ to liczba wierzchołków, a $E$ to liczba krawędzi, ponieważ każdy wierzchołek i każda krawędź są przeszukiwane dokładnie raz.
 
 ## Implementacja
 
@@ -43,12 +43,12 @@ Poniżej znajdziesz przykładowe implementacje w wybranych językach.
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/graphs/bfs.md" %}
+
 [bfs.md](../../programming/c++/algorithms/graphs/bfs.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/graphs/bfs.md" %}
+
 [bfs.md](../../programming/python/algorithms/graphs/bfs.md)
-{% endcontent-ref %}
+

@@ -1,15 +1,11 @@
 # Sumy prefiksowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/prefix-sum.md)
 
-{% content-ref url="../../../../algorithms/searching/prefix-sum.md" %}
-[prefix-sum.md](../../../../algorithms/searching/prefix-sum.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def compute_prefix_sum(numbers_list: list) -> list:
   prefix_sum_list = [0]
   for num in numbers_list:
@@ -30,4 +26,4 @@ queries_list = [(1, 5), (0, 3), (6, 9)]
 
 answer_queries(numbers_list, queries_list)
 ```
-{% endcode %}
+

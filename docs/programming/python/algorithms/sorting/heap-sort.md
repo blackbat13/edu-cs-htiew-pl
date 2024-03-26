@@ -1,15 +1,11 @@
 # Sortowanie przez kopcowanie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/heap-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/heap-sort.md" %}
-[heap-sort.md](../../../../algorithms/sorting/heap-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def build_heap(array: [], n: int):
     for i in range(1, n):
         parent_index = (i - 1) // 2
@@ -33,4 +29,4 @@ heap_sort(array)
 
 print(array)
 ```
-{% endcode %}
+

@@ -10,9 +10,7 @@ Czas zacząć! Pozwólcie że będę Waszym przewodnikiem podczas podróży po p
 
 LÖVE, często nazywane Love2D, to otwarty, darmowy framework do tworzenia gier 2D, które używają języka programowania Lua. Umożliwia on twórcom gier proste tworzenie różnego rodzaju gier na wiele platform, w tym Windows, macOS, Linux, Android i iOS.
 
-{% embed url="https://love2d.org/" %}
-Lua Love
-{% endembed %}
+[Lua Love](https://love2d.org/)
 
 ### Kluczowe cechy
 

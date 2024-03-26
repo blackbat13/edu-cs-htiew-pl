@@ -44,6 +44,4 @@ Rozwój technologii grafiki komputerowej jest nierozerwalnie związany z postęp
 
 Krótkie wprowadzenie do grafiki komputerowej w formie prezentacji.
 
-{% file src="../.gitbook/assets/Grafika rastrowa i wektorowa.pdf" %}
-Grafika rastrowa i wektorowa
-{% endfile %}
+[:fontawesome-solid-file-pdf: Grafika rastrowa i wektorowa](../assets/Grafika rastrowa i wektorowa.pdf)

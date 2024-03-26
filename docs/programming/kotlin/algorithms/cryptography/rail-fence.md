@@ -1,10 +1,7 @@
 # Szyfr płotkowy
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/cryptography/rail-fence.md)
 
-{% content-ref url="../../../../algorithms/cryptography/rail-fence.md" %}
-[rail-fence.md](../../../../algorithms/cryptography/rail-fence.md)
-{% endcontent-ref %}
 
 ## Szyfrowanie
 
@@ -44,9 +41,7 @@ print(f"Encoded: {encoded}")
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/B5duIj" %}
-Szyfrowanie szyfrem płotkowym
-{% endembed %}
+[Szyfrowanie szyfrem płotkowym](https://ideone.com/B5duIj)
 
 ### Opis implementacji
 
@@ -92,9 +87,7 @@ print(f"Decoded: {decoded}")
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/b1On0g" %}
-Deszyfrowanie szyfrem płotkowym
-{% endembed %}
+[Deszyfrowanie szyfrem płotkowym](https://ideone.com/b1On0g)
 
 ### Opis implementacji
 

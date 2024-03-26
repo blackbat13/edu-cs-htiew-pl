@@ -1,7 +1,6 @@
 # Python - rozwiązanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 cases = int(input())
 
 for _ in range(cases):
@@ -23,4 +22,4 @@ for _ in range(cases):
 
     print(maxSnowflakes)
 ```
-{% endcode %}
+

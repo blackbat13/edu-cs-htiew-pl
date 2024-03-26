@@ -1,15 +1,11 @@
 # Trójkąt Sierpińskiego
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/fractals/sierpinski-triangle.md)
 
-{% content-ref url="../../../../algorithms/fractals/sierpinski-triangle.md" %}
-[sierpinski-triangle.md](../../../../algorithms/fractals/sierpinski-triangle.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include "turtle.hpp"
 
 const int SIZE = 900;
@@ -47,8 +43,8 @@ int main() {
     return 0;
 } 
 ```
-{% endcode %}
+
 
 ### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/SierpinskiTriangle#main.cpp" %}
+[https://replit.com/@damiankurpiewski/SierpinskiTriangle#main.cpp](https://replit.com/@damiankurpiewski/SierpinskiTriangle#main.cpp)

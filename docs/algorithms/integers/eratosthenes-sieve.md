@@ -4,19 +4,17 @@
 
 Liczby pierwsze odgrywają ważną rolę nie tylko w matematyce, ale także w informatyce, szczególnie w kryptografii. Potrzebne są więc metody efektywnego obliczania liczb pierwszych, a najlepiej całego ich zbioru. Jedną z takich metod jest właśnie **Sito Eratostenesa**, które pozwala nam na wydajne obliczenie wszystkich liczb pierwszych mniejszych bądź równych zadanej wartości. Zapoznaj się z poniższą prezentacją by zrozumieć działanie tego algorytmu.
 
-{% file src="../../.gitbook/assets/Sito Eratostenesa.pdf" %}
-Sito Eratostenesa — prezentacja
-{% endfile %}
+[:fontawesome-solid-file-pdf: Sito Eratostenesa — prezentacja](../../assets/Sito Eratostenesa.pdf)
 
 ### Specyfikacja
 
 #### Dane
 
-* $$n$$ — liczba całkowita
+* $n$ — liczba całkowita
 
 #### Wynik
 
-* Wszystkie liczby pierwsze od $$1$$ do $$n$$ włącznie.
+* Wszystkie liczby pierwsze od $1$ do $n$ włącznie.
 
 ### Przykład
 
@@ -28,13 +26,13 @@ n := 10
 
 #### Wynik
 
-$$2, 3, 5, 7$$ 
+$2, 3, 5, 7$ 
 
 ## Rozwiązanie
 
-Na początku potrzebujemy stworzyć tablicę, w której będziemy zapamiętywać, czy dana liczba jest pierwsza, czy też nie. W takim razie tworzymy $$n$$-elementową tablicę wartości prawda/fałsz. Początkowo wypełniamy całą tablicę wartościami *prawda*. Wiemy, że liczba $$1$$ nie jest liczbą pierwszą, więc odznaczamy ją w tablicy wartością *fałsz*. Następnie przechodzimy pętlą od liczby $$2$$ do $$n$$. Dla każdej wartości będziemy sprawdzać, czy ma ona w tablicy przypisaną wartość *prawda*, tzn. czy jest liczbą pierwszą. Jeżeli tak jest, to przechodzimy przez wszystkie kolejne wielokrotności tej liczby (aż do $$n$$) i odznaczamy je w tablicy jako *fałsz*.
+Na początku potrzebujemy stworzyć tablicę, w której będziemy zapamiętywać, czy dana liczba jest pierwsza, czy też nie. W takim razie tworzymy $n$-elementową tablicę wartości prawda/fałsz. Początkowo wypełniamy całą tablicę wartościami *prawda*. Wiemy, że liczba $1$ nie jest liczbą pierwszą, więc odznaczamy ją w tablicy wartością *fałsz*. Następnie przechodzimy pętlą od liczby $2$ do $n$. Dla każdej wartości będziemy sprawdzać, czy ma ona w tablicy przypisaną wartość *prawda*, tzn. czy jest liczbą pierwszą. Jeżeli tak jest, to przechodzimy przez wszystkie kolejne wielokrotności tej liczby (aż do $n$) i odznaczamy je w tablicy jako *fałsz*.
 
-Gdy już przejdziemy przez wszystkie wartości z zadanego zakresu, nasza tablica jest gotowa. Możemy ponownie przejść pętlą od $$2$$ do $$n$$ i wypisać wszystkie liczby, które w tablicy mają przypisaną wartość *prawda*, czyli wszystkie liczby pierwsze.
+Gdy już przejdziemy przez wszystkie wartości z zadanego zakresu, nasza tablica jest gotowa. Możemy ponownie przejść pętlą od $2$ do $n$ i wypisać wszystkie liczby, które w tablicy mają przypisaną wartość *prawda*, czyli wszystkie liczby pierwsze.
 
 ### Pseudokod
 
@@ -55,18 +53,18 @@ funkcja SitoEratostenesa(n):
 
 ### Złożoność
 
-$$O(n\log{n})$$ — liniowo logarytmiczna
+$O(n\log{n})$ — liniowo logarytmiczna
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/integers/eratosthenes-sieve.md" %}
+
 [eratosthenes-sieve.md](../../programming/c++/algorithms/integers/eratosthenes-sieve.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/integers/eratosthenes-sieve.md" %}
+
 [eratosthenes-sieve.md](../../programming/python/algorithms/integers/eratosthenes-sieve.md)
-{% endcontent-ref %}
+

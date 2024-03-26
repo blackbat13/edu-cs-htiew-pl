@@ -2,8 +2,7 @@
 
 ## Zadanie 1
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 from math import gcd
 
 
@@ -18,12 +17,11 @@ def zadanie1():
                 ulamek[1] //= dzielnik
                 print(f"{ulamek[0]} {ulamek[1]}", file=out_file)
 ```
-{% endcode %}
+
 
 ## Zadanie 2
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 from math import gcd
 
 
@@ -48,12 +46,11 @@ def zadanie2():
         mianownik //= dzielnik
         print(licznik, mianownik)
 ```
-{% endcode %}
+
 
 ## Zadanie 3
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 from math import gcd
 
 
@@ -73,4 +70,4 @@ def zadanie3():
         mianownik //= dzielnik
         print(licznik, mianownik)
 ```
-{% endcode %}
+

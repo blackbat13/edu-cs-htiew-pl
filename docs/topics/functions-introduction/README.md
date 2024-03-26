@@ -9,4 +9,4 @@
 * Lekcja 3 nieznacznie odbiega od tematu funkcji, wprowadzając pojęcie globalności i lokalności zmiennych.
 * Lekcja 4 jest lekcją ewaluacyjną i obejmuje zadanie zarówno na kartce jak i zadanie implementacyjne przy komputerze.
 
-[Protokół realizacji projektu](../assets/Protokół realizacji projektu - funkcje.pdf)
+[Protokół realizacji projektu](../../assets/Protokół realizacji projektu - funkcje.pdf)

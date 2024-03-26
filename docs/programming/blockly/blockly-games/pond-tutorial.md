@@ -2,7 +2,5 @@
 
 ## Prezentacja rozwiązań
 
-{% file src="../../../.gitbook/assets/Blockly Samouczek stawu.pdf" %}
-Blockly Samouczek Stawu - rozwiązania zadań
-{% endfile %}
+[:fontawesome-solid-file-pdf: Blockly Samouczek Stawu - rozwiązania zadań](../../../assets/Blockly Samouczek stawu.pdf)
 

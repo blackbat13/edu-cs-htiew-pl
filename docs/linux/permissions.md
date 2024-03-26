@@ -88,6 +88,4 @@ Oznacza dodanie uprawnień do czytania i wykonywania właścicielowi pliku.
 
 ## Ściąga
 
-{% embed url="https://quickref.me/chmod" %}
-Ściąga
-{% endembed %}
+[Ściąga](https://quickref.me/chmod)

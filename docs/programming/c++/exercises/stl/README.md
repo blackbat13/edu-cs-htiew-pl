@@ -8,7 +8,7 @@ Napisz program zgodny z poniższą specyfikacją. W implementacji wykorzystaj kl
 
 #### Dane
 
-* $$txt$$ - Wielolinijkowy tekst składający się ze znaków ze standardowej tablicy ASCII, zakończony znakiem końca wyjścia.
+* $txt$ - Wielolinijkowy tekst składający się ze znaków ze standardowej tablicy ASCII, zakończony znakiem końca wyjścia.
 
 #### Wynik
 
@@ -35,9 +35,8 @@ o - 1
 t - 1
 ```
 
-{% hint style="info" %}
-Pierwszy znak na powyższej liście to spacja.
-{% endhint %}
+!!! info
+	 Pierwszy znak na powyższej liście to spacja.
 
 ## Zadanie 2
 
@@ -47,7 +46,7 @@ Napisz program zgodny z poniższą specyfikacją. W implementacji wykorzystaj kl
 
 #### Dane
 
-* $$nawiasy$$ - ciąg składający się jedynie ze znaków reprezentujących nawiasy okrągłe i kwadratowe, tzn.: $$(, ), [, ]$$
+* $nawiasy$ - ciąg składający się jedynie ze znaków reprezentujących nawiasy okrągłe i kwadratowe, tzn.: $(, ), [, ]$
 
 #### Wynik
 
@@ -81,7 +80,7 @@ Napisz program zgodny z poniższą specyfikacją. W implementacji wykorzystaj ta
 
 #### Dane
 
-* $$instrukcje$$ - ciąg instrukcji opisany poniżej, zakończony instrukcją **KONIEC**
+* $instrukcje$ - ciąg instrukcji opisany poniżej, zakończony instrukcją **KONIEC**
 
 #### Wynik
 
@@ -91,11 +90,11 @@ Napisz program zgodny z poniższą specyfikacją. W implementacji wykorzystaj ta
 
 Wszystkie wartości są liczbami całkowitymi mieszczącymi się w typie `int`.
 
-* **DODAJ** $$x$$ - dopisz wartość $$x$$ na koniec tablicy
+* **DODAJ** $x$ - dopisz wartość $x$ na koniec tablicy
 * **USUN** - usuń ostatni element z tablicy
-* **WSTAW** $$x$$ **NA** $$i$$ - wstaw wartość $$x$$ na pozycję $$i$$ (numerowane od $$0$$)
-* **SORTUJ** $$i$$ $$j$$ - posortuj tablicę rosnąco od elementu pod indeksem $$i$$ do elementu pod indeksem $$j$$ włącznie
-* **WYPISZ** $$i$$ - wypisz wartość zapisaną pod indeksem $$i$$
+* **WSTAW** $x$ **NA** $i$ - wstaw wartość $x$ na pozycję $i$ (numerowane od $0$)
+* **SORTUJ** $i$ $j$ - posortuj tablicę rosnąco od elementu pod indeksem $i$ do elementu pod indeksem $j$ włącznie
+* **WYPISZ** $i$ - wypisz wartość zapisaną pod indeksem $i$
 * **KONIEC** - zakończ obliczenia (instrukcja ta występuje tylko raz, na samym końcu ciągu instrukcji)
 
 ### Przykład 1

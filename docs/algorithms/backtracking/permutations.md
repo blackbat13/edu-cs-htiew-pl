@@ -6,13 +6,13 @@ Permutacja tablicy określa jeden ze sposobów ułożenia elementów tej tablicy
 
 ### Dane
 
-* $$n$$ — liczba naturalna, liczba elementów tablicy, $$n>0$$
-* $$A[1..n]$$ - $$n$$-elementowa tablica 
-* $$pocz$$, $$kon$$ - liczby naturalne określające początek i koniec permutowanego zakresu elementów tablicy, $$1<=pocz<=kon<=n$$
+* $n$ — liczba naturalna, liczba elementów tablicy, $n>0$
+* $A[1..n]$ - $n$-elementowa tablica 
+* $pocz$, $kon$ - liczby naturalne określające początek i koniec permutowanego zakresu elementów tablicy, $1<=pocz<=kon<=n$
 
 ### Wynik
 
-* Wszystkie permutacje tablicy $$tab$$
+* Wszystkie permutacje tablicy $tab$
 
 ## Rozwiązanie
 
@@ -53,12 +53,11 @@ flowchart TD
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/backtracking/permutations.md" %}
+
 [permutations.md](../../programming/python/algorithms/backtracking/permutations.md)
-{% endcontent-ref %}
+
 
 ### Kotlin
 
-{% content-ref url="../../programming/kotlin/algorithms/backtracking/permutations.md" %}
+
 [permutations.md](../../programming/kotlin/algorithms/backtracking/permutations.md)
-{% endcontent-ref %}

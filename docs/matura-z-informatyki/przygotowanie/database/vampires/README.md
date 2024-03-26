@@ -6,9 +6,7 @@ Pan Józef von Stąd jest znanym badaczem wampirów. Od wielu lat prowadzi zapis
 
 ### Klany
 
-{% file src="../../../../.gitbook/assets/vampires/Klany.txt" %}
-Klany.txt
-{% endfile %}
+[:material-note-text: Klany.txt](../../../../assets/vampires/Klany.txt)
 
 Plik **Klany.txt** zawiera dane klanów – oddzielone średnikiem pozycje: 
 
@@ -21,9 +19,7 @@ Pierwszy wiersz zawiera nagłówki kolumn. Daty podane są w formacie "DD.MM.RRR
 
 ### Wampiry
 
-{% file src="../../../../.gitbook/assets/vampires/Wampiry.txt" %}
-Wampiry.txt
-{% endfile %}
+[:material-note-text: Wampiry.txt](../../../../assets/vampires/Wampiry.txt)
 
 Plik **Wampiry.txt** zawiera dane klanów – oddzielone średnikiem pozycje: 
 
@@ -38,9 +34,7 @@ Pierwszy wiersz zawiera nagłówki kolumn. Daty podane są w formacie "DD.MM.RRR
 
 ### Ofiary
 
-{% file src="../../../../.gitbook/assets/vampires/Ofiary.txt" %}
-Ofiary.txt
-{% endfile %}
+[:material-note-text: Ofiary.txt](../../../../assets/vampires/Ofiary.txt)
 
 Plik **Ofiary.txt** zawiera dane klanów – oddzielone średnikiem pozycje: 
 
@@ -53,9 +47,7 @@ Pierwszy wiersz zawiera nagłówki kolumn. Daty podane są w formacie "DD.MM.RRR
 
 ### Ataki
 
-{% file src="../../../../.gitbook/assets/vampires/Ataki.txt" %}
-Ataki.txt
-{% endfile %}
+[:material-note-text: Ataki.txt](../../../../assets/vampires/Ataki.txt)
 
 Plik **Ataki.txt** zawiera dane klanów – oddzielone średnikiem pozycje: 
 

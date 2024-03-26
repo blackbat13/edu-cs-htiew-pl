@@ -1,15 +1,11 @@
 # Zbiór Cantora
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/fractals/cantor-dust.md)
 
-{% content-ref url="../../../../algorithms/fractals/cantor-dust.md" %}
-[cantor-dust.md](../../../../algorithms/fractals/cantor-dust.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include "turtle.hpp"
 
 const int SIZE = 900;
@@ -53,8 +49,8 @@ int main() {
     return 0;
 } 
 ```
-{% endcode %}
+
 
 ### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/CantorDust#main.cpp" %}
+[https://replit.com/@damiankurpiewski/CantorDust#main.cpp](https://replit.com/@damiankurpiewski/CantorDust#main.cpp)

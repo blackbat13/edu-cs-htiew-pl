@@ -15,17 +15,13 @@ Dzisiaj odtworzymy jedną z kultowych gier mobilnych: Flappy Bird.
 
 Umieszczamy w katalogu **images**.
 
-{% file src="../../../.gitbook/assets/flappy_images.zip" %}
-Grafiki do gry Flappy Bird
-{% endfile %}
+[:material-folder-zip: Grafiki do gry Flappy Bird](../../../assets/flappy_images.zip)
 
 ### Efekty dźwiękowe do pobrania
 
 Umieszczamy w katalogu **sounds**.
 
-{% file src="../../../.gitbook/assets/flappy_sounds.zip" %}
-Efekty dźwiękowe do gry Flappy Bird
-{% endfile %}
+[:material-folder-zip: Efekty dźwiękowe do gry Flappy Bird](../../../assets/flappy_sounds.zip)
 
 ### Źródła
 
@@ -35,7 +31,7 @@ Efekty dźwiękowe do gry Flappy Bird
 
 ## Nasz cel
 
-![Flappy Bird - animacja](../../../.gitbook/assets/flappyGame.gif)
+![Flappy Bird - animacja](../../../assets/flappyGame.gif)
 
 ## Wstępna konfiguracja
 
@@ -44,7 +40,7 @@ Nasz projekt możemy nazwać np. "FlappyBird". Gdy już utworzymy projekt, tworz
 
 ## Tworzymy okno gry
 
-Jak zwykle zaczynamy od podstaw. Wymiary naszego okna są zależne od wymiarów grafiki tła i wynoszą $$400\times700$$. Ustawiamy więc odpowiednie wymiary i wypełniamy tło grafiką *bg.png* za pomocą polecenia `screen.blit()`. Możemy także skonfigurować tytuł naszej gry.
+Jak zwykle zaczynamy od podstaw. Wymiary naszego okna są zależne od wymiarów grafiki tła i wynoszą $400\times700$. Ustawiamy więc odpowiednie wymiary i wypełniamy tło grafiką *bg.png* za pomocą polecenia `screen.blit()`. Możemy także skonfigurować tytuł naszej gry.
 
 ```python
 # Importujemy potrzebne biblioteki
@@ -81,7 +77,7 @@ Zacznijmy od naszej głównej postaci: ptaka.
 
 ### Dodajemy aktora
 
-Na samym początku dodajemy nowego aktora z grafiki *bird1.png*. Umieścimy go z lewej strony ekranu, na środku, pod współrzędnymi $$(75, 200)$$.
+Na samym początku dodajemy nowego aktora z grafiki *bird1.png*. Umieścimy go z lewej strony ekranu, na środku, pod współrzędnymi $(75, 200)$.
 
 ```python
 bird = Actor("bird1")
@@ -101,13 +97,13 @@ def draw():
 
 ### Grawitacja
 
-Jak na razie nasza postać jest bardzo statyczna i tkwi w jednym miejscu. Urozmaićmy więc trochę jej życie i dodajmy siłę grawitacji. Grawitacja w naszej grze będzie działać podobnie do tej, którą znamy z codziennego życia: będzie ściągać postać w dół. Zanim jednak będziemy mogli dodać oddziaływanie grawitacji na postać, musimy ustalić siłę grawitacji. Dodajmy więc zmienną **GRAVITY** na początku naszego kodu, zaraz pod wymiarami okna, i przypiszmy jej wartość $$0.3$$. Nazwę zmiennej podamy z wielkich liter, ponieważ możemy ją potraktować jako jedno z **ustawień** naszej gry. Co więcej, wartości grawitacji nie będziemy modyfikować w trakcie rozgrywki, można więc powiedzieć, że jest to wartość **stała**.
+Jak na razie nasza postać jest bardzo statyczna i tkwi w jednym miejscu. Urozmaićmy więc trochę jej życie i dodajmy siłę grawitacji. Grawitacja w naszej grze będzie działać podobnie do tej, którą znamy z codziennego życia: będzie ściągać postać w dół. Zanim jednak będziemy mogli dodać oddziaływanie grawitacji na postać, musimy ustalić siłę grawitacji. Dodajmy więc zmienną **GRAVITY** na początku naszego kodu, zaraz pod wymiarami okna, i przypiszmy jej wartość $0.3$. Nazwę zmiennej podamy z wielkich liter, ponieważ możemy ją potraktować jako jedno z **ustawień** naszej gry. Co więcej, wartości grawitacji nie będziemy modyfikować w trakcie rozgrywki, można więc powiedzieć, że jest to wartość **stała**.
 
 ```python
 GRAVITY = 0.3
 ```
 
-Teraz czas zaaplikować grawitację do postaci ptaka. Grawitacja powinna wpływać na prędkość pionową postaci, musimy więc tę prędkość dopisać do naszego aktora. Do ptaka, zaraz pod ustaleniem jego pozycji na ekranie, dopisujemy zmienną **vy** i przypisujemy jej początkową wartość $$0$$.
+Teraz czas zaaplikować grawitację do postaci ptaka. Grawitacja powinna wpływać na prędkość pionową postaci, musimy więc tę prędkość dopisać do naszego aktora. Do ptaka, zaraz pod ustaleniem jego pozycji na ekranie, dopisujemy zmienną **vy** i przypisujemy jej początkową wartość $0$.
 
 ```python
 bird.vy = 0
@@ -143,7 +139,7 @@ def update():
 
 ### Latanie
 
-Mamy już grawitację, czas więc dodać możliwość próby przezwyciężenia tej wielkiej siły: zdolność latania. W celu zasymulowania unoszenia się postaci do góry wystarczy, że nadamy jej odpowiednią prędkość wzlotową. Prędkość ta, podobnie jak grawitacja, będzie jednym z ustawień naszej gry. W związku z tym tworzymy zmienną **FLAP** zaraz pod zmienną *GRAVITY* i przypisujemy jej wybraną wartość, np. $$7$$.
+Mamy już grawitację, czas więc dodać możliwość próby przezwyciężenia tej wielkiej siły: zdolność latania. W celu zasymulowania unoszenia się postaci do góry wystarczy, że nadamy jej odpowiednią prędkość wzlotową. Prędkość ta, podobnie jak grawitacja, będzie jednym z ustawień naszej gry. W związku z tym tworzymy zmienną **FLAP** zaraz pod zmienną *GRAVITY* i przypisujemy jej wybraną wartość, np. $7$.
 
 ```python
 FLAP = 7
@@ -250,7 +246,7 @@ def draw():
 
 ### Ustawiamy pozycję rur
 
-Główną trudnością w naszej grze będzie niewielka przestrzeń pomiędzy rurami, przez którą musimy przelecieć. Rozmiar tej przestrzeni zapiszemy jako **ustawienie** w zmiennej **GAP_SIZE**. Naszą nową zmienną zapisujemy zaraz pod zmienną *FLAP* i nadamy jej wartość $$180$$.
+Główną trudnością w naszej grze będzie niewielka przestrzeń pomiędzy rurami, przez którą musimy przelecieć. Rozmiar tej przestrzeni zapiszemy jako **ustawienie** w zmiennej **GAP_SIZE**. Naszą nową zmienną zapisujemy zaraz pod zmienną *FLAP* i nadamy jej wartość $180$.
 
 ```python
 GAP_SIZE = 180
@@ -263,7 +259,7 @@ Stworzymy więc funkcję `set_pipes` za pomocą której będziemy losować nową
 def set_pipes():
 ```
 
-Pierwszą operacją w naszej funkcji będzie wylosowanie pozycji pionowej **środka** naszej dziury. Zapiszemy ją w zmiennej **gap_y**, a do wylosowania wartości skorzystamy z funkcji **random.randint**. Jako przedział losowanej wartości warto podać takie liczby, żeby dziura nie pojawiała się na skraju ekranu, czyli np. $$(200, 500)$$.
+Pierwszą operacją w naszej funkcji będzie wylosowanie pozycji pionowej **środka** naszej dziury. Zapiszemy ją w zmiennej **gap_y**, a do wylosowania wartości skorzystamy z funkcji **random.randint**. Jako przedział losowanej wartości warto podać takie liczby, żeby dziura nie pojawiała się na skraju ekranu, czyli np. $(200, 500)$.
 
 ```python
 def set_pipes():
@@ -292,7 +288,7 @@ pgzrun.go()
 
 ### Przemieszczamy rury
 
-W każdej klatce animacji nasze rury powinny przemieszczać się w lewą stronę. Z jaką prędkością powinny się poruszać? To także możemy zapisać jako **ustawienie** naszej gry. Utwórzmy więc zmienną **SPEED**, którą zapiszemy zaraz pod ustawieniem rozmiaru przerwy. Nadajmy jej początkową wartość $$3$$.
+W każdej klatce animacji nasze rury powinny przemieszczać się w lewą stronę. Z jaką prędkością powinny się poruszać? To także możemy zapisać jako **ustawienie** naszej gry. Utwórzmy więc zmienną **SPEED**, którą zapiszemy zaraz pod ustawieniem rozmiaru przerwy. Nadajmy jej początkową wartość $3$.
 
 ```python
 SPEED = 3
@@ -312,7 +308,7 @@ def update_pipes():
     pipe_bottom.x -= SPEED
 ```
 
-Gdy rury znikną z lewej strony ekranu, należy ustawić je ponownie. Aby sprawdzić czy zniknęły, możemy sprawdzić, czy współrzędna **x** górnej (lub dolnej) rury jest odpowiednio mała, np. mniejsza od $$-100$$, tak aby mieć pewność, że rura całkowicie zniknęła z ekranu.
+Gdy rury znikną z lewej strony ekranu, należy ustawić je ponownie. Aby sprawdzić czy zniknęły, możemy sprawdzić, czy współrzędna **x** górnej (lub dolnej) rury jest odpowiednio mała, np. mniejsza od $-100$, tak aby mieć pewność, że rura całkowicie zniknęła z ekranu.
 
 ```python
 def update_pipes():
@@ -523,7 +519,7 @@ def update_bird():
 Gdy wylecimy ptakiem poza ekran, gra ma się zakończyć, tzn. zacząć od nowa, podobnie jak w przypadku uderzenia w rurę. Co to znaczy, że nasz aktor przemieścił się poza ekran? To znaczy, że jego współrzędne znajdują się poza ekranem.
 
 Ponieważ nasza postać porusza się jedynie góra-dół, ograniczymy się do sprawdzenia, czy nie wylecieliśmy z góry albo z dołu ekranu.
-Jeżeli wylecieliśmy z góry ekranu, to znaczy, że nasza współrzędna $$y$$ jest mniejsza od $$0$$. Nasz warunek dopiszemy jako kolejną opcję przy sprawdzaniu kolizji z rurami, ponieważ w obu przypadkach zareagujemy tak samo.
+Jeżeli wylecieliśmy z góry ekranu, to znaczy, że nasza współrzędna $y$ jest mniejsza od $0$. Nasz warunek dopiszemy jako kolejną opcję przy sprawdzaniu kolizji z rurami, ponieważ w obu przypadkach zareagujemy tak samo.
 
 ```python
 def update_bird():
@@ -534,7 +530,7 @@ def update_bird():
         reset()
 ```
 
-Jeżeli natomiast wylecieliśmy z dołu ekranu, to znaczy, że nasza współrzędna $$y$$ jest większa od wysokości (**HEIGHT**) ekranu.
+Jeżeli natomiast wylecieliśmy z dołu ekranu, to znaczy, że nasza współrzędna $y$ jest większa od wysokości (**HEIGHT**) ekranu.
 
 ```python
 def update_bird():
@@ -644,7 +640,7 @@ Czas na zdobywanie punktów!
 
 ### Zapamiętujemy punkty
 
-W celu zapamiętania punktów dopiszemy nową zmienną do naszego aktora ptaka. Nazwiemy ją **points** i przypiszemy jej początkową wartość $$0$$. Nową zmienną dopisujemy na górze kodu, zaraz pod przypisaniem prędkości pionowej do ptaka.
+W celu zapamiętania punktów dopiszemy nową zmienną do naszego aktora ptaka. Nazwiemy ją **points** i przypiszemy jej początkową wartość $0$. Nową zmienną dopisujemy na górze kodu, zaraz pod przypisaniem prędkości pionowej do ptaka.
 
 ```python
 bird = Actor("bird1")
@@ -1015,7 +1011,7 @@ Pora na ostatnie szlify. Teraz dodamy kilka efektów wizualnych, takich jak obr�
 
 ### Efekt spadania po kolizji
 
-Po kolizji ptaka z przeszkodą zmienimy jego grafikę (**bird.image**) na *dead*, a także ustawimy mu kąt obrotu (**bird.angle**) na $$-90$$, tak aby był skierowany w dół.
+Po kolizji ptaka z przeszkodą zmienimy jego grafikę (**bird.image**) na *dead*, a także ustawimy mu kąt obrotu (**bird.angle**) na $-90$, tak aby był skierowany w dół.
 
 ```python
 def update_bird():
@@ -1051,7 +1047,7 @@ def update_bird():
 
 Teraz przyszła pora na zajęcie się obrotem ptaka i zmianą jego grafik. Te dwie rzeczy uzależnimy od jego prędkości, a konkretnie od tego, czy leci do góry, czy spada w dół.
 
-Jeżeli prędkość pionowa ptaka jest mniejsza od zera, oznacza to, że ptak wzlatuje do góry. W takim razie zmienimy jego grafikę na *bird2*, a obrót **zwiększymy** o $$3$$, by obrócił się do góry.
+Jeżeli prędkość pionowa ptaka jest mniejsza od zera, oznacza to, że ptak wzlatuje do góry. W takim razie zmienimy jego grafikę na *bird2*, a obrót **zwiększymy** o $3$, by obrócił się do góry.
 
 ```python
 def update_bird():
@@ -1063,7 +1059,7 @@ def update_bird():
             bird.angle += 3
 ```
 
-W przeciwnym przypadku, tzn. gdy ptak spada w dół, zmienimy jego grafikę na *bird1* i **zmiejszymy** jego kąt obrotu o $$3$$, by obrócił się do dołu.
+W przeciwnym przypadku, tzn. gdy ptak spada w dół, zmienimy jego grafikę na *bird1* i **zmiejszymy** jego kąt obrotu o $3$, by obrócił się do dołu.
 
 ```python
 def update_bird():
@@ -1078,7 +1074,7 @@ def update_bird():
             bird.angle -= 3
 ```
 
-Aby zapobiec kręceniu się ptaka w kółko powinniśmy ograniczyć jego **maksymalny** i **minimalny** kąt obrotu. Powiedzmy, że chcemy zachować obrót w zakresie od $$-45$$ do $$45$$. W tym celu najpierw sprawdzimy, czy kąt obrotu przekroczył wartość $$45$$, a jeżeli tak, to przywrócimy jego maksymalną wartość, czyli właśnie $$45$$.
+Aby zapobiec kręceniu się ptaka w kółko powinniśmy ograniczyć jego **maksymalny** i **minimalny** kąt obrotu. Powiedzmy, że chcemy zachować obrót w zakresie od $-45$ do $45$. W tym celu najpierw sprawdzimy, czy kąt obrotu przekroczył wartość $45$, a jeżeli tak, to przywrócimy jego maksymalną wartość, czyli właśnie $45$.
 
 ```python
 def update_bird():
@@ -1096,7 +1092,7 @@ def update_bird():
             bird.angle = 45
 ```
 
-Podobnie robimy w drugą stronę, czyli gdy kąt obrotu jest mniejszy od $$-45$$. Wówczas przywracamy minimalną wartość $$-45$$.
+Podobnie robimy w drugą stronę, czyli gdy kąt obrotu jest mniejszy od $-45$. Wówczas przywracamy minimalną wartość $-45$.
 
 ```python
 def update_bird():
@@ -1501,6 +1497,4 @@ pgzrun.go()
 
 Pełna implementacja dostępna jest również poniżej.
 
-{% embed url="https://github.com/blackbat13/flappybirdpygamezero" %}
-Flappy Bird PyGameZero
-{% endembed %}
+[Flappy Bird PyGameZero](https://github.com/blackbat13/flappybirdpygamezero)

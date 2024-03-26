@@ -39,7 +39,7 @@ Podobnie jak szyfr Vigenère'a, szyfr Beauforta może być łamany przy użyciu 
 
 ### Funkcje pomocnicze
 
-- **Pozycja(litera)** - zwraca liczbę od $$1$$ do $$26$$ - pozycję przekazanej jako argument litery w alfabecie angielskim
+- **Pozycja(litera)** - zwraca liczbę od $1$ do $26$ - pozycję przekazanej jako argument litery w alfabecie angielskim
 - **Alfabet(pozycja)** - zwraca literę na zadanej pozycji w alfabecie angielskim
 - **Długość(tekst)** - zwraca długość tekstu
 
@@ -66,12 +66,12 @@ funkcja Beaufort(tekst, klucz):
 
 ### C++
 
-{% content-ref url="../../../programming/c++/algorithms/cryptography/beaufort.md" %}
+
 [beaufort.md](../../../programming/c++/algorithms/cryptography/beaufort.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../../programming/python/algorithms/cryptography/beaufort.md" %}
+
 [beaufort.md](../../../programming/python/algorithms/cryptography/beaufort.md)
-{% endcontent-ref %}
+

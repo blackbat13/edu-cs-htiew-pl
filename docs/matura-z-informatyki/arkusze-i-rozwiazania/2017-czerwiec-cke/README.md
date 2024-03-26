@@ -2,20 +2,12 @@
 
 ## Arkusze
 
-{% file src="../../../.gitbook/assets/matura/2017-czerwiec-cke/informatyka-2017-czerwiec-matura-rozszerzona.pdf" %}
-Część I
-{% endfile %}
+[:fontawesome-solid-file-pdf: Część I](../../../assets/matura/2017-czerwiec-cke/informatyka-2017-czerwiec-matura-rozszerzona.pdf)
 
-{% file src="../../../.gitbook/assets/matura/2017-czerwiec-cke/informatyka-2017-czerwiec-matura-rozszerzona-2.pdf" %}
-Część II
-{% endfile %}
+[:fontawesome-solid-file-pdf: Część II](../../../assets/matura/2017-czerwiec-cke/informatyka-2017-czerwiec-matura-rozszerzona-2.pdf)
 
-{% file src="../../../.gitbook/assets/matura/2017-czerwiec-cke/Dane.zip" %}
-Dane
-{% endfile %}
+[:material-folder-zip: Dane](../../../assets/matura/2017-czerwiec-cke/Dane.zip)
 
 ## Odpowiedzi
 
-{% file src="../../../.gitbook/assets/matura/2017-czerwiec-cke/informatyka-2017-czerwiec-matura-rozszerzona-odpowiedzi.pdf" %}
-Klucz
-{% endfile %}
+[:fontawesome-solid-file-pdf: Klucz](../../../assets/matura/2017-czerwiec-cke/informatyka-2017-czerwiec-matura-rozszerzona-odpowiedzi.pdf)

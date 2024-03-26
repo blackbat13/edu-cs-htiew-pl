@@ -1,15 +1,11 @@
 # Szyfr Trithemius"a
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/cryptography/symmetric/trithemius.md)
 
-{% content-ref url="../../../../algorithms/cryptography/symmetric/trithemius.md" %}
-[trithemius.md](../../../../algorithms/cryptography/symmetric/trithemius.md)
-{% endcontent-ref %}
 
 ## Szyfrowanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def encrypt_trithemius(message: str) -> bool:
     encrypted = ""
     k = 0
@@ -33,12 +29,11 @@ encrypted = encrypt_trithemius(message)
 
 print(encrypted)
 ```
-{% endcode %}
+
 
 ## Deszyfrowanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def decrypt_trithemius(message: str) -> str:
     decrypted = ""
     k = 0
@@ -62,4 +57,4 @@ decrypted = decrypt_trithemius(message)
 
 print(decrypted)
 ```
-{% endcode %}
+

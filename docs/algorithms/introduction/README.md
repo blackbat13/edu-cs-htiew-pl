@@ -8,9 +8,7 @@ W kolejnych częściach będziemy eksplorować różne rodzaje algorytmów, ich 
 
 Poniższa prezentacja zawiera krótkie wprowadzenie do świata algorytmów.
 
-{% file src="../../.gitbook/assets/Algorytmy - wprowadzenie.pdf" %}
-Algorytmy - wprowadzenie
-{% endfile %}
+[:fontawesome-solid-file-pdf: Algorytmy - wprowadzenie](../../assets/Algorytmy - wprowadzenie.pdf)
 
 ## Polecane książki
 
@@ -21,14 +19,8 @@ Algorytmy - wprowadzenie
 
 Do przećwiczenia myślenia algorytmicznego warto grać w różne gry logiczne, takie jak te:
 
-{% embed url="https://david-peter.de/cube-composer/" %}
-Cube composer
-{% endembed %}
+[Cube composer](https://david-peter.de/cube-composer/)
 
-{% embed url="https://robotopia-x.github.io/" %}
-Robotopia
-{% endembed %}
+[Robotopia](https://robotopia-x.github.io/)
 
-{% embed url="https://www.kidlocoding.com/" %}
-Coding Games for Kids
-{% endembed %}
+[Coding Games for Kids](https://www.kidlocoding.com/)

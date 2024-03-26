@@ -28,19 +28,17 @@ Jest to jednak idealna gra na początek. Przejdźmy więc do działania!
 
 ### Tworzymy nowy projekt
 
-{% embed url="https://youtu.be/WxS5iz4bNxM" %}
+[https://youtu.be/WxS5iz4bNxM](https://youtu.be/WxS5iz4bNxM)
 
-{% hint style="info" %}
-W naszym projekcie będziemy mogli stworzyć wiele różnych aplikacji i gier. Czasem jednak wygodniej będzie utworzyć nowy projekt do kolejnej gry, aby zachować lepszy porządek. Wszystko zależy od Ciebie!
-{% endhint %}
+!!! info
+	 W naszym projekcie będziemy mogli stworzyć wiele różnych aplikacji i gier. Czasem jednak wygodniej będzie utworzyć nowy projekt do kolejnej gry, aby zachować lepszy porządek. Wszystko zależy od Ciebie!
 
 ### Tworzymy nowy plik
 
 Klikamy prawym przyciskiem myszy na główny katalog naszej gry, następnie wybieramy **New->Python file**. Nazwijmy nasz plik _naiwna\_gra_. Utworzony przez Ciebie plik powinien mieć **rozszerzenie .py**. Oznacza to, że cała nazwa pliku będzie wyglądała następująco: _naiwna\_gra.py_.
 
-{% hint style="info" %}
-Rozszerzenie **.py** to format skryptów zapisanych w języku Python.
-{% endhint %}
+!!! info
+	 Rozszerzenie **.py** to format skryptów zapisanych w języku Python.
 
 ### Wczytujemy liczbę od gracza
 
@@ -56,15 +54,13 @@ Nie wystarczy jednak tylko wywołać odpowiednie polecenie. Musimy jeszcze gdzie
 liczba_tekst = input("Podaj liczbę: ")
 ```
 
-{% hint style="info" %}
-**Zmienne** możemy traktować jak "pudełka na dane". Możemy w nich przechowywać różne wartości, jednak każde pudełko może przechowywać tylko jedną wartość naraz i tylko jednego **typu**.
+!!! info
+	**Zmienne** możemy traktować jak "pudełka na dane". Możemy w nich przechowywać różne wartości, jednak każde pudełko może przechowywać tylko jedną wartość naraz i tylko jednego **typu**.
+	
+	W języku Python zmienne nazywamy zwyczajowo z małych liter alfabetu angielskiego, a kolejne wyrazy w nazwie zmiennej oddzielamy znakiem podłogi (`_`).
 
-W języku Python zmienne nazywamy zwyczajowo z małych liter alfabetu angielskiego, a kolejne wyrazy w nazwie zmiennej oddzielamy znakiem podłogi (`_`).
-{% endhint %}
-
-{% hint style="warning" %}
-W nazwach zmiennych nie możemy używać spacji ani innych białych znaków, takich jak tabulacje. Powinniśmy także unikać polskich znaków czy liter innych niż litery alfabetu angielskiego. Ponadto nazwa zmiennej nie może zaczynać się od cyfry i nie powinna zawierać większości znaków specjalnych takich jak dolar (`$`) czy ampersant (`&`).
-{% endhint %}
+!!! warning
+	 W nazwach zmiennych nie możemy używać spacji ani innych białych znaków, takich jak tabulacje. Powinniśmy także unikać polskich znaków czy liter innych niż litery alfabetu angielskiego. Ponadto nazwa zmiennej nie może zaczynać się od cyfry i nie powinna zawierać większości znaków specjalnych takich jak dolar (`$`) czy ampersant (`&`).
 
 Gdy używamy polecenia `input`, to wartość wpisana przez użytkownika będzie zawsze wczytana jako **tekst**. My jednak potrzebujemy liczbę. W tym celu skorzystamy z kolejnego polecenia: `int` (ang. **integer** czyli liczba całkowita). Posłuży nam ono do zamiany tekstu na liczbę całkowitą. Jako parametr tego polecenia podajemy tekst do zamiany na liczbę, w naszym przypadku ten tekst zapisany jest w zmiennej `liczba_tekst`:
 
@@ -72,9 +68,8 @@ Gdy używamy polecenia `input`, to wartość wpisana przez użytkownika będzie 
 int(liczba_tekst)
 ```
 
-{% hint style="info" %}
-W celu zamiany wprowadzonego tekstu na liczbę rzeczywistą skorzystalibyśmy z polecenia `float`.
-{% endhint %}
+!!! info
+	 W celu zamiany wprowadzonego tekstu na liczbę rzeczywistą skorzystalibyśmy z polecenia `float`.
 
 Oczywiście wynik polecenia musimy gdzieś zapisać. Zapamiętamy go w nowej zmiennej o nazwie `liczba`:
 
@@ -93,17 +88,15 @@ Już teraz warto uruchomić program i sprawdzić, czy wszystko działa.
 
 W celu uruchomienia naszej gry klikamy **prawym przyciskiem myszy** gdzieś w edytorze i wybieramy zieloną strzałkę z napisem **Run 'naiwna\_gra'**.
 
-{% hint style="warning" %}
-Pamiętaj, żeby testować swoje gry i programy jak najczęściej! Pozwoli to na bieżąco rozwiązywać wszelkie błędy i uniknąć późniejszej frustracji.
-{% endhint %}
+!!! warning
+	 Pamiętaj, żeby testować swoje gry i programy jak najczęściej! Pozwoli to na bieżąco rozwiązywać wszelkie błędy i uniknąć późniejszej frustracji.
 
-{% hint style="info" %}
-Pycharm na bieżąco zapisuje zmiany w plikach, więc nie musisz się martwić, że utracisz swoje dane.
-{% endhint %}
+!!! info
+	 Pycharm na bieżąco zapisuje zmiany w plikach, więc nie musisz się martwić, że utracisz swoje dane.
 
 ### Tworzymy nową, większą liczbę
 
-Przejdźmy teraz do roli komputera. Jego zadaniem jest wypisanie liczby o jeden większej od tej, którą podał użytkownik. W tym celu utworzymy nową liczbę, o jeden większą od tej wczytanej od użytkownika. Tworzymy nową zmienną `nowa_liczba` i przypisujemy do niej wynik dodania liczby $$1$$ do wartości wczytanej od użytkownika zapisanej w zmiennej `liczba`:
+Przejdźmy teraz do roli komputera. Jego zadaniem jest wypisanie liczby o jeden większej od tej, którą podał użytkownik. W tym celu utworzymy nową liczbę, o jeden większą od tej wczytanej od użytkownika. Tworzymy nową zmienną `nowa_liczba` i przypisujemy do niej wynik dodania liczby $1$ do wartości wczytanej od użytkownika zapisanej w zmiennej `liczba`:
 
 ```python
 nowa_liczba = liczba + 1
@@ -148,13 +141,12 @@ print(nowa_liczba)
 print("Wygrałem!")
 ```
 
-{% hint style="info" %}
-#### Komentarze
-
-Komentarze to fragmenty naszego kodu, które **nie wpływają** na działanie programu. Można je traktować jak notatki na marginesie. W tym kursie będziemy używać komentarzy, aby wytłumaczyć działanie wybranych fragmentów kodu. Często używa się komentarzy także do tego, aby zakomentować wybrane instrukcje, których nie chcemy usuwać, ale nie chcemy też, by były aktywne.
-
-W języku Python komentarze zaczynamy od znaku hash (`#`). Wszystko po tym znaku w danej linijce traktowane jest jako komentarz.
-{% endhint %}
+!!! info
+	#### Komentarze
+	
+	Komentarze to fragmenty naszego kodu, które **nie wpływają** na działanie programu. Można je traktować jak notatki na marginesie. W tym kursie będziemy używać komentarzy, aby wytłumaczyć działanie wybranych fragmentów kodu. Często używa się komentarzy także do tego, aby zakomentować wybrane instrukcje, których nie chcemy usuwać, ale nie chcemy też, by były aktywne.
+	
+	W języku Python komentarze zaczynamy od znaku hash (`#`). Wszystko po tym znaku w danej linijce traktowane jest jako komentarz.
 
 ### Uruchamiamy grę
 
@@ -162,10 +154,9 @@ Teraz czas, aby uruchomić swoją pierwszą grę! Spróbuj uruchomić ją kilka 
 
 Możesz także przetestować naszą grę w poniższym okienku. Kliknij zielony przycisk z napisem **Run**, aby ją uruchomić.
 
-{% embed url="https://replit.com/@damiankurpiewski/NaiwnaGra" %}
+[https://replit.com/@damiankurpiewski/NaiwnaGra](https://replit.com/@damiankurpiewski/NaiwnaGra)
 
-{% hint style="info" %}
-#### Błędy
-
-Podczas tworzenia kolejnych gier i programów popełnianie błędów stanie się chlebem powszednim. Nie należy się nimi przejmować, wręcz przeciwnie! Niektóre błędy mogą wręcz przynieść nieoczekiwane i zaskakujące rezultaty. Oczywiście czasami zdarzy nam się także popełnić błąd, który uniemożliwi uruchomienie naszego programu. W takim przypadku, przy próbie uruchomienia, w konsoli pojawią się stosowne komunikaty zaznaczone czerwonym kolorem. Warto się przyjrzeć tym komunikatom! Często będą wskazywać linijkę, w której wystąpił błąd, a także opiszą przyczynę samego błędu. Na początku w większości błędy będą ograniczać się do braku jakiegoś znaku, np. nawiasu końcowego, albo literówki w nazwie zmiennej czy polecenia.
-{% endhint %}
+!!! info
+	#### Błędy
+	
+	Podczas tworzenia kolejnych gier i programów popełnianie błędów stanie się chlebem powszednim. Nie należy się nimi przejmować, wręcz przeciwnie! Niektóre błędy mogą wręcz przynieść nieoczekiwane i zaskakujące rezultaty. Oczywiście czasami zdarzy nam się także popełnić błąd, który uniemożliwi uruchomienie naszego programu. W takim przypadku, przy próbie uruchomienia, w konsoli pojawią się stosowne komunikaty zaznaczone czerwonym kolorem. Warto się przyjrzeć tym komunikatom! Często będą wskazywać linijkę, w której wystąpił błąd, a także opiszą przyczynę samego błędu. Na początku w większości błędy będą ograniczać się do braku jakiegoś znaku, np. nawiasu końcowego, albo literówki w nazwie zmiennej czy polecenia.

@@ -6,14 +6,14 @@ Czasami bywa tak, że musimy policzyć **sumę pewnego spójnego fragmentu tabli
 
 ### Dane
 
-* $$n$$ — liczba naturalna, liczba elementów tablicy.
-* $$A[1..n]$$ — $$n-elementowa$$ tablica liczb całkowitych, indeksowana od jedynki.
-* $$m$$ — liczba naturalna, liczba zapytań.
-* $$P[1..m][1..2]$$ - dwuwymiarowa tablica liczb naturalnych z zakresu $$[1..n]$$, zapytań o sumy przedziałów, gdzie $$P[i][1]$$ to początek $$i$$-tego przedziału, a $$P[i][2]$$ to jego koniec.
+* $n$ — liczba naturalna, liczba elementów tablicy.
+* $A[1..n]$ — $n-elementowa$ tablica liczb całkowitych, indeksowana od jedynki.
+* $m$ — liczba naturalna, liczba zapytań.
+* $P[1..m][1..2]$ - dwuwymiarowa tablica liczb naturalnych z zakresu $[1..n]$, zapytań o sumy przedziałów, gdzie $P[i][1]$ to początek $i$-tego przedziału, a $P[i][2]$ to jego koniec.
 
 ### Wynik
 
-* $$m$$ liczb naturalnych, dla każdego zapytania $$i$$ suma wartości pod indeksami od $$P[i][1]$$ do $$P[i][2]$$, tzn. $$A[P[i][1]] + A[P[i][1] + 1] + A[P[i][1] + 2] + ... + A[P[i][2]]$$.
+* $m$ liczb naturalnych, dla każdego zapytania $i$ suma wartości pod indeksami od $P[i][1]$ do $P[i][2]$, tzn. $A[P[i][1]] + A[P[i][1] + 1] + A[P[i][1] + 2] + ... + A[P[i][2]]$.
 
 ## Przykład
 
@@ -34,13 +34,12 @@ P[1..3][1..2] := [[3, 5], [6, 7], [1, 1]]
 4
 ```
 
-{% hint style="info" %}
-**Wyjaśnienie**
-
-* $$sum_1 = A[3] + A[4] + A[5] = 2 + 6 + 1 = 9$$
-* $$sum_2 = A[6] + A[7] = 0 + 8 = 8$$
-* $$sum_3 = A[1] = 4$$
-{% endhint %}
+!!! info
+	**Wyjaśnienie**
+	
+	* $sum_1 = A[3] + A[4] + A[5] = 2 + 6 + 1 = 9$
+	* $sum_2 = A[6] + A[7] = 0 + 8 = 8$
+	* $sum_3 = A[1] = 4$
 
 ## Rozwiązanie naiwne
 
@@ -117,20 +116,20 @@ flowchart TD
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/searching/prefix-sum.md" %}
+
 [prefix-sum.md](../../programming/c++/algorithms/searching/prefix-sum.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/searching/prefix-sum.md" %}
+
 [prefix-sum.md](../../programming/python/algorithms/searching/prefix-sum.md)
-{% endcontent-ref %}
+
 
 ## Implementacje — pozostałe
 
 ### C
 
-{% content-ref url="../../programming/c/algorithms/searching/prefix-sum.md" %}
+
 [prefix-sum.md](../../programming/c/algorithms/searching/prefix-sum.md)
-{% endcontent-ref %}
+

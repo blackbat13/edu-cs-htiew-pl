@@ -1,15 +1,11 @@
 # Rozkład na czynniki pierwsze
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/prime-factors.md)
 
-{% content-ref url="../../../../algorithms/integers/prime-factors.md" %}
-[prime-factors.md](../../../../algorithms/integers/prime-factors.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def distribute(n: int) -> list:
     prime_factors = []
     i = 2
@@ -28,4 +24,4 @@ n = 124
 
 print(f"Prime factors of {n}: {distribute(n)}")
 ```
-{% endcode %}
+

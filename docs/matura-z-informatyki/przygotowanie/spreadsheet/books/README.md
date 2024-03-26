@@ -11,9 +11,7 @@ W pliku *ksiazki.txt* znajduje się zestawienie najpopularniejszych książek, p
 
 Dane oddzielone są tabulacjami. Pierwszy wiersz zawiera nagłówki kolumn.
 
-{% file src="../../../../.gitbook/assets/ksiazki.txt" %}
-ksiazki.txt
-{% endfile %}
+[:material-note-text: ksiazki.txt](../../../../assets/ksiazki.txt)
 
 Źródło danych: [https://www.kaggle.com/datasets/drahulsingh/best-selling-books](https://www.kaggle.com/datasets/drahulsingh/best-selling-books)
 

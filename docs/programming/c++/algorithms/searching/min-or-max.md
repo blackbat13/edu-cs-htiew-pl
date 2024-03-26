@@ -1,17 +1,13 @@
 # Wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/min-or-max.md)
 
-{% content-ref url="../../../../algorithms/searching/min-or-max.md" %}
-[min-or-max.md](../../../../algorithms/searching/min-or-max.md)
-{% endcontent-ref %}
 
 ## Wyszukiwanie wartości minimum i maksimum
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -53,7 +49,7 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
@@ -73,14 +69,13 @@ Podobnie, funkcja `findMax` działa w następujący sposób:
 3. Jeżeli aktualny element tablicy `tab[i]` jest większy od aktualnej wartości `max`, aktualizuje `max` na `tab[i]`.
 4. Po przejściu przez całą tablicę, zwraca `max`, które jest największą wartością w tablicy.
 
-Funkcja `main` definiuje tablicę `tab` z $$10$$ elementami, używa funkcji `findMin` i `findMax`, aby znaleźć minimalną i maksymalną wartość w tablicy, a następnie wyświetla te wartości na ekranie.
+Funkcja `main` definiuje tablicę `tab` z $10$ elementami, używa funkcji `findMin` i `findMax`, aby znaleźć minimalną i maksymalną wartość w tablicy, a następnie wyświetla te wartości na ekranie.
 
 ## Wyszukiwanie indeksów wartości minimum i maksimum
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -122,7 +117,7 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
@@ -130,16 +125,16 @@ Program znajduje indeksy minimalnej i maksymalnej wartości w tablicy liczb cał
 
 Funkcja `findMinIndex` działa następująco:
 
-1. Inicjalizuje zmienną `minInd` jako $$0$$, co odpowiada indeksowi pierwszego elementu tablicy.
+1. Inicjalizuje zmienną `minInd` jako $0$, co odpowiada indeksowi pierwszego elementu tablicy.
 2. Przechodzi przez tablicę od drugiego elementu do końca.
 3. Jeżeli wartość aktualnego elementu` tab[i]` jest mniejsza od wartości elementu o indeksie `minInd`, aktualizuje `minInd` na `i`.
 4. Po przejściu przez całą tablicę, zwraca `minInd`, które jest indeksem najmniejszego elementu w tablicy.
 
 Podobnie, funkcja `findMaxIndex` działa w następujący sposób:
 
-1. Inicjalizuje zmienną `maxInd` jako $$0$$, co odpowiada indeksowi pierwszego elementu tablicy.
+1. Inicjalizuje zmienną `maxInd` jako $0$, co odpowiada indeksowi pierwszego elementu tablicy.
 2. Przechodzi przez tablicę od drugiego elementu do końca.
 3. Jeżeli wartość aktualnego elementu `tab[i]` jest większa od wartości elementu o indeksie `maxInd`, aktualizuje `maxInd` na `i`.
 4. Po przejściu przez całą tablicę, zwraca `maxInd`, które jest indeksem największego elementu w tablicy.
 
-Funkcja `main` definiuje tablicę `tab` z $$10$$ elementami, używa funkcji `findMinIndex` i `findMaxIndex` do znalezienia indeksów minimalnej i maksymalnej wartości w tablicy, a następnie wyświetla te indeksy na ekranie.
+Funkcja `main` definiuje tablicę `tab` z $10$ elementami, używa funkcji `findMinIndex` i `findMaxIndex` do znalezienia indeksów minimalnej i maksymalnej wartości w tablicy, a następnie wyświetla te indeksy na ekranie.

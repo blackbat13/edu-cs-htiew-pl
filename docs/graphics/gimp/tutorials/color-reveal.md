@@ -35,7 +35,7 @@ Jako tryb wybieramy **Jasność (HSL)** i zatwierdzamy.
 
 Dostosowujemy jasność i kontrast czarno-białego zdjęcia tak, by wyglądało na bardziej *wyprane* i *wyblakłe*.
 W tym celu wybieramy menu **Kolory->Jasność i kontrast...**.
-Zwiększamy jasność, np. do $$50$$ i zmniejszamy kontrast, np. do $$-15$$.
+Zwiększamy jasność, np. do $50$ i zmniejszamy kontrast, np. do $-15$.
 
 ## Wyróżniamy element
 
@@ -47,14 +47,13 @@ Elementem, który wyróżnimy, będzie jabłko.
 Korzystając z narzędzi zaznaczania, np. **Odręczne zaznaczanie obszarów**, zaznaczamy element zdjęcia, który chcemy wyróżnić.
 Im dokładniej to zrobimy, tym lepszy efekt uzyskamy.
 
-{% hint style="info" %}
-Dla ułatwienia pracy możemy tymczasowo ukryć warstwę *Szara* klikając przy niej ikonkę oka.
-{% endhint %}
+!!! info
+	 Dla ułatwienia pracy możemy tymczasowo ukryć warstwę *Szara* klikając przy niej ikonkę oka.
 
 ### Zmiękczamy zaznaczenie
 
 Gdy już jesteśmy zadowoleni z naszego zaznaczenia, warto je delikatnie zmiękczyć.
-W tym celu wybieramy menu **Zaznaczenie->Zmiękcz...** i ustawiamy np. $$2 px$$.
+W tym celu wybieramy menu **Zaznaczenie->Zmiękcz...** i ustawiamy np. $2 px$.
 
 ### Dodajemy kanał alfa
 
@@ -70,9 +69,9 @@ Następnie czyścimy zaznaczenie (menu **Zaznaczenie->Brak** lub skrót **Shift+
 ### Poprawiamy kolory
 
 Na koniec warto jeszcze bardziej podkreślić wyróżniony element.
-W tym celu wybieramy menu **Kolory->Barwa i nasycenie...** i zmniejszamy jasność, np. na $$-15$$.
+W tym celu wybieramy menu **Kolory->Barwa i nasycenie...** i zmniejszamy jasność, np. na $-15$.
 
 ## Efekt końcowy
 
-![](../../../.gitbook/assets/color_reveal.png)
+![](../../../assets/color_reveal.png)
 

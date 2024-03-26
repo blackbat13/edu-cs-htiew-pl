@@ -2,15 +2,9 @@
 
 ### Materiały
 
-{% file src="../../.gitbook/assets/3-wpr-do-zm.pdf" %}
-Konspekt
-{% endfile %}
+[:fontawesome-solid-file-pdf: Konspekt](../../assets/3-wpr-do-zm.pdf)
 
-{% file src="../../.gitbook/assets/Zmienne - ćwiczenia Blockly.pdf" %}
-Prezentacja - ćwiczenia Blockly
-{% endfile %}
+[:fontawesome-solid-file-pdf: Prezentacja - ćwiczenia Blockly](../../assets/Zmienne - ćwiczenia Blockly.pdf)
 
-{% file src="../../.gitbook/assets/Zmienne3_Python.zip" %}
-Rozwiązania ćwiczeń - Python
-{% endfile %}
+[:material-folder-zip: Rozwiązania ćwiczeń - Python](../../assets/Zmienne3_Python.zip)
 

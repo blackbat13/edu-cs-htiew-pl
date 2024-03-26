@@ -1,15 +1,11 @@
 # Sortowanie wolne
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/slow-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/slow-sort.md" %}
-[slow-sort.md](../../../../algorithms/sorting/slow-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def slow_sort(array: list, start_index: int, end_index: int):
     if start_index >= end_index:
         return
@@ -29,4 +25,4 @@ slow_sort(array, 0, len(array) - 1)
 
 print(array)
 ```
-{% endcode %}
+

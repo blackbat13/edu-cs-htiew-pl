@@ -10,9 +10,8 @@ Wyobraźmy sobie dwa pudełka: jedno plastikowe i jedno metalowe. Do plastikoweg
 
 Podobnie jest ze zmiennymi. Każda zmienna może przechowywać tylko określony typ wartości. Mówimy wtedy, że zmienna ma swój typ. Dla przykładu, możemy utworzyć zmienną do przechowywania liczb całkowitych. Do takiej zmiennej nie przypiszemy już wartości innego typu, np. tekstu.
 
-{% hint style="warning" %}
-W niektórych językach programowania jednoznacznie określamy typ zmiennej przy jej tworzeniu, w innych nie. Podobnie, są języki, w których próba przypisania innego typu wartości do zmiennej zakończy się błędem. Są też takie, w których tego typu operacja będzie dozwolona. Nie oznacza to jednak, że powinniśmy to robić! Bardzo ważne jest przestrzeganie typu zmiennych. Jest to istotne z punktu widzenia czytelności kodu programu, ale także z poziomu mechanik, które kryją się pod spodem.
-{% endhint %}
+!!! warning
+	 W niektórych językach programowania jednoznacznie określamy typ zmiennej przy jej tworzeniu, w innych nie. Podobnie, są języki, w których próba przypisania innego typu wartości do zmiennej zakończy się błędem. Są też takie, w których tego typu operacja będzie dozwolona. Nie oznacza to jednak, że powinniśmy to robić! Bardzo ważne jest przestrzeganie typu zmiennych. Jest to istotne z punktu widzenia czytelności kodu programu, ale także z poziomu mechanik, które kryją się pod spodem.
 
 ## Wartości zmiennych
 
@@ -42,7 +41,7 @@ Najlepszym sposobem jest przeprowadzenie **symulacji** danego pseudokodu. Bierze
 6. Wypisz 25
 ```
 
-Jak widać, przedstawiony wcześniej algorytm wpisze kolejno liczby: $$10,\ 20,\ 25$$.
+Jak widać, przedstawiony wcześniej algorytm wpisze kolejno liczby: $10,\ 20,\ 25$.
 
 ### Przykład 2
 
@@ -85,14 +84,8 @@ W tym przykładzie bardzo ważne jest poprawne zrozumienie działania pętli. P�
 
 ## Prezentacja
 
-{% file src="../../.gitbook/assets/Zmienne - wprowadzenie.pdf" %}
-Wprowadzenie
-{% endfile %}
+[:fontawesome-solid-file-pdf: Wprowadzenie](../../assets/Zmienne - wprowadzenie.pdf)
 
-{% file src="../../.gitbook/assets/Zmienne - ćwiczenia.pdf" %}
-Ćwiczenia
-{% endfile %}
+[:fontawesome-solid-file-pdf: Ćwiczenia](../../assets/Zmienne - ćwiczenia.pdf)
 
-{% file src="../../.gitbook/assets/Zmienne w Pamięci - Ćwiczenia.pdf" %}
-Zmienne w pamięci
-{% endfile %}
+[:fontawesome-solid-file-pdf: Zmienne w pamięci](../../assets/Zmienne w Pamięci - Ćwiczenia.pdf)

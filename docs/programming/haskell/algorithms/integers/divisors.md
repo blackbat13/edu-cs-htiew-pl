@@ -1,15 +1,11 @@
 # Wszystkie dzielniki
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/divisors.md)
 
-{% content-ref url="../../../../algorithms/integers/divisors.md" %}
-[divisors.md](../../../../algorithms/integers/divisors.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```haskell
+```haskell linenums="1"
 divisors n = [x | x <- [1..sqrtN], n `mod` x == 0] ++ [n `div` x | x <- [sqrtN, sqrtN - 1 .. 1], (n `mod` x == 0) && (n `div` x /= x)]
   where
     sqrtN = floor $ sqrt $ fromIntegral n
@@ -19,7 +15,7 @@ main = do
 
     print $ divisors n
 ```
-{% endcode %}
+
 
 ## Opis
 

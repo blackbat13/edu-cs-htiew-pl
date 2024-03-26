@@ -1,15 +1,11 @@
 # Test pierwszości
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/prime-test.md)
 
-{% content-ref url="../../../../algorithms/integers/prime-test.md" %}
-[prime-test.md](../../../../algorithms/integers/prime-test.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def is_prime(n: int) -> bool:
     if n < 2:
         return False
@@ -32,4 +28,4 @@ if is_prime(n):
 else:
     print(f"{n} is not a prime number")
 ```
-{% endcode %}
+

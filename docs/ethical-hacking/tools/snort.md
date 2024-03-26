@@ -35,13 +35,11 @@ Gdzie:
 - `tcp any any -> $HOME_NET any` definiuje, że reguła dotyczy wszystkich pakietów **TCP** kierowanych do jakiejkolwiek sieci zdefiniowanej jako `HOME_NET`.
 - `msg:"Possible port scan detected"` to wiadomość wyświetlana, gdy reguła jest spełniona.
 - `flags: S` oznacza, że reguła dotyczy pakietów **TCP** z flagą **SYN**.
-- `threshold: type threshold, track by_src, count 1, seconds 60` definiuje, że alert jest generowany, gdy reguła jest spełniona co najmniej raz w ciągu $$60$$ sekund.
+- `threshold: type threshold, track by_src, count 1, seconds 60` definiuje, że alert jest generowany, gdy reguła jest spełniona co najmniej raz w ciągu $60$ sekund.
 - `sid:10001` to unikalny identyfikator reguły.
 
 Powyższy przykład jest bardzo prostym przykładem użycia Snort. W praktyce reguły Snort mogą być znacznie bardziej skomplikowane i precyzyjne, co pozwala na bardzo dokładną kontrolę nad tym, co jest wykrywane i jak na to reagować.
 
 ## Ściąga
 
-{% embed url="https://cdn.comparitech.com/wp-content/uploads/2019/07/Snort-Cheat-Sheet.pdf" %}
-Ściąga
-{% endembed %}
+[Ściąga](https://cdn.comparitech.com/wp-content/uploads/2019/07/Snort-Cheat-Sheet.pdf)

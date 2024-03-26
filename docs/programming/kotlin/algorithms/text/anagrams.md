@@ -1,10 +1,7 @@
 # Anagramy
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/anagrams.md)
 
-{% content-ref url="../../../../algorithms/text/anagrams.md" %}
-[anagrams.md](../../../../algorithms/text/anagrams.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -24,9 +21,7 @@ else:
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/EZQcCD" %}
-Test anagramów
-{% endembed %}
+[Test anagramów](https://ideone.com/EZQcCD)
 
 ### Opis implementacji
 

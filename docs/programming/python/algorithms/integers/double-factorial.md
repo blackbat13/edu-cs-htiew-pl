@@ -1,15 +1,11 @@
 # Podwójna silnia
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/double-factorial.md)
 
-{% content-ref url="../../../../algorithms/integers/double-factorial.md" %}
-[double-factorial.md](../../../../algorithms/integers/double-factorial.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def double_factorial(n: int) -> int:
     result = 1
     for i in range(n, 0, -2):
@@ -24,4 +20,4 @@ result = double_factorial(n)
 
 print(f"{n}!! = {result}")
 ```
-{% endcode %}
+

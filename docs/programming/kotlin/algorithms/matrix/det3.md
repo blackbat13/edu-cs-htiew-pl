@@ -1,10 +1,7 @@
 # Wyznacznik macierzy 3x3
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/matrix/det3.md)
 
-{% content-ref url="../../../../algorithms/matrix/det3.md" %}
-[det3.md](../../../../algorithms/matrix/det3.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -27,9 +24,7 @@ print(result)
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/tc3XAb" %}
-Wyznacznik macierzy 3x3
-{% endembed %}
+[Wyznacznik macierzy 3x3](https://ideone.com/tc3XAb)
 
 ### Opis implementacji
 

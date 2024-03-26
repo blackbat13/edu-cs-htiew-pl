@@ -1,15 +1,11 @@
 # Sortowanie koktajlowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/cocktail-shaker-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/cocktail-shaker-sort.md" %}
-[cocktail-shaker-sort.md](../../../../algorithms/sorting/cocktail-shaker-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def cocktail_shaker_sort(array: list):
     for i in range(len(array) // 2 + 1):
         for j in range(i, len(array) - i - 1):
@@ -27,7 +23,7 @@ cocktail_shaker_sort(array)
     
 print(array)
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 

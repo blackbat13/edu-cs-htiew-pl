@@ -2,17 +2,17 @@
 
 ## Opis problemu
 
-Każdą liczbę naturalną większą od $$1$$ możemy rozłożyć na czynniki pierwsze, czyli przedstawić w postaci iloczynu liczb pierwszych. Tym problemem się właśnie zajmiemy.
+Każdą liczbę naturalną większą od $1$ możemy rozłożyć na czynniki pierwsze, czyli przedstawić w postaci iloczynu liczb pierwszych. Tym problemem się właśnie zajmiemy.
 
 ### Specyfikacja
 
 #### Dane
 
-* $$n$$ - liczba naturalna, $$n>1$$.
+* $n$ - liczba naturalna, $n>1$.
 
 #### Wynik
 
-* Rozkład liczby $$n$$ na czynniki pierwsze .
+* Rozkład liczby $n$ na czynniki pierwsze .
 
 ### Przykład
 
@@ -22,11 +22,11 @@ Każdą liczbę naturalną większą od $$1$$ możemy rozłożyć na czynniki pi
 n := 124
 ```
 
-**Wynik**: $$2, 2, 31$$ 
+**Wynik**: $2, 2, 31$ 
 
 ## Rozwiązanie
 
-Idea rozwiązania jest prosta. Zaczynamy od najmniejszej liczby pierwszej, czyli od liczby $$2$$. Dzielimy naszą liczbę $$n$$ przez naszą liczbę pierwszą, tak długo, jak się da, czyli jak długo jest podzielna. Następnie przechodzimy do kolejnej liczby pierwszej i powtarzamy operacje dzielenia. Całość powtarzamy, aż wynikiem dzielenia będzie wartość $$1$$.
+Idea rozwiązania jest prosta. Zaczynamy od najmniejszej liczby pierwszej, czyli od liczby $2$. Dzielimy naszą liczbę $n$ przez naszą liczbę pierwszą, tak długo, jak się da, czyli jak długo jest podzielna. Następnie przechodzimy do kolejnej liczby pierwszej i powtarzamy operacje dzielenia. Całość powtarzamy, aż wynikiem dzielenia będzie wartość $1$.
 
 ### Pseudokod
 
@@ -41,11 +41,10 @@ funkcja Rozkład(n):
             7. i := i + 1
 ```
 
-{% hint style="info" %}
-**mod** oznacza resztę z dzielenia
-
-**div** oznacza dzielenie całkowite
-{% endhint %}
+!!! info
+	**mod** oznacza resztę z dzielenia
+	
+	**div** oznacza dzielenie całkowite
 
 ### Schemat blokowy
 
@@ -67,23 +66,23 @@ flowchart TD
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/integers/prime-factors.md" %}
+
 [prime-factors.md](../../programming/c++/algorithms/integers/prime-factors.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/integers/prime-factors.md" %}
+
 [prime-factors.md](../../programming/python/algorithms/integers/prime-factors.md)
-{% endcontent-ref %}
+
 
 ## Implementacja - pozostałe
 
 ### Haskell
 
-{% content-ref url="../../programming/haskell/algorithms/integers/prime-factors.md" %}
+
 [prime-factors.md](../../programming/haskell/algorithms/integers/prime-factors.md)
-{% endcontent-ref %}
+
 
 ## Powiązane zagadnienia
 

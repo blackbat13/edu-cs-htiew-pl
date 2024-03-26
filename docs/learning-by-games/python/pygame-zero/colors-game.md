@@ -185,6 +185,6 @@ pgzrun.go()
 
 ### Testujemy działanie
 
-{% embed url="https://replit.com/@damiankurpiewski/ColorsGame" %}
+[https://replit.com/@damiankurpiewski/ColorsGame](https://replit.com/@damiankurpiewski/ColorsGame)
 
 TODO

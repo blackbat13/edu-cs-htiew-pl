@@ -8,4 +8,4 @@ description: Globalność i lokalność
 
 [Konspekt](../../assets/3-wpr-do-fun.pdf)
 
-[Prezentacja - globalność i lokalność](../../.gitbook/assets/Globalność i lokalność.pdf)
+[Prezentacja - globalność i lokalność](../../assets/Globalność i lokalność.pdf)

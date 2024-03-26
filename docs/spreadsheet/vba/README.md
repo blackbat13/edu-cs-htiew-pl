@@ -25,6 +25,4 @@ VBA rozszerza możliwości Excela, umożliwiając użytkownikom tworzenie zaawan
 
 ## Ściąga
 
-{% file src="../../.gitbook/assets/VBAcard2.pdf" %}
-VBA Reference Card
-{% endfile %}
+[:fontawesome-solid-file-pdf: VBA Reference Card](../../assets/VBAcard2.pdf)

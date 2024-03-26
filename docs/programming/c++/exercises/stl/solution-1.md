@@ -8,7 +8,7 @@ Napisz program zgodny z poniższą specyfikacją. W implementacji wykorzystaj kl
 
 #### Dane
 
-* $$txt$$ - Wielolinijkowy tekst składający się ze znaków ze standardowej tablicy ASCII, zakończony znakiem końca wyjścia.
+* $txt$ - Wielolinijkowy tekst składający się ze znaków ze standardowej tablicy ASCII, zakończony znakiem końca wyjścia.
 
 #### Wynik
 

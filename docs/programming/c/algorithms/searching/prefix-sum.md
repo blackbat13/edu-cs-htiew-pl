@@ -1,15 +1,11 @@
 # Sumy prefiksowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/prefix-sum.md)
 
-{% content-ref url="../../../../algorithms/searching/prefix-sum.md" %}
-[prefix-sum.md](../../../../algorithms/searching/prefix-sum.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```c
+```c linenums="1"
 #include <stdio.h>
 
 void computePrefixSum(int numbersCount, int numbersArray[],
@@ -42,4 +38,4 @@ int main() {
   return 0;
 }
 ```
-{% endcode %}
+

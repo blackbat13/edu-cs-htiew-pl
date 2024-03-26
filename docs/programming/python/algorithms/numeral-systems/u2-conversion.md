@@ -2,14 +2,12 @@
 
 ## Opis problemu
 
-{% content-ref url="../../../../algorithms/numeral-systems/u2.md" %}
 [System U2](../../../../algorithms/numeral-systems/u2.md)
-{% endcontent-ref %}
+
 
 ## Z U2 do dziesiętnego
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def u2_to_decimal(number: str) -> int:
     power = 2 ** (len(number) - 1)
     result = 0
@@ -33,4 +31,4 @@ number_decimal = u2_to_decimal(number_u2)
 
 print(f"{number_u2} (U2) = {number_decimal} (10)")
 ```
-{% endcode %}
+

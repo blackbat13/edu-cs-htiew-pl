@@ -1,10 +1,7 @@
 # Sortowanie grzebieniowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/comb-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/comb-sort.md" %}
-[comb-sort.md](../../../../algorithms/sorting/comb-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -46,6 +43,4 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/WJ7PjF" %}
-Sortowanie grzebieniowe
-{% endembed %}
+[Sortowanie grzebieniowe](https://ideone.com/WJ7PjF)

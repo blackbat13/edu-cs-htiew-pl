@@ -8,11 +8,11 @@ Mając dane dwie liczby całkowite, Twoim zadaniem jest określenie relacji pomi
 
 ### Dane
 
-* $$a, b$$ - liczby całkowite z przedziału $$[-10^5,10^5]$$
+* $a, b$ - liczby całkowite z przedziału $[-10^5,10^5]$
 
 ### Wynik
 
-* Znak relacji pomiędzy liczbami $$a$$ i $$b$$, tzn. jeden ze znaków: $$<$$, $$>$$, $$=$$
+* Znak relacji pomiędzy liczbami $a$ i $b$, tzn. jeden ze znaków: $<$, $>$, $=$
 
 ## Przykład
 
@@ -29,8 +29,7 @@ b := 15
 <
 ```
 
-{% hint style="info" %}
-#### Wyjaśnienie:
+!!! info
+    #### Wyjaśnienie:
 
-$$10$$ jest **mniejsze** od $$15$$, więc $$a$$ jest **mniejsze** od $$b$$, dlatego wypisujemy znak **mniejszości** ($$<$$).
-{% endhint %}
+    $10$ jest **mniejsze** od $15$, więc $a$ jest **mniejsze** od $b$, dlatego wypisujemy znak **mniejszości** ($<$).

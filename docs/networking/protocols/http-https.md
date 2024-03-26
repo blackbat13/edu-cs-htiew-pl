@@ -46,6 +46,5 @@ Głównym celem HTTPS jest zapewnienie prywatności i bezpieczeństwa w komunika
 
 W przeglądarkach internetowych, strony korzystające z protokołu HTTPS są zazwyczaj oznaczone ikoną kłódki obok adresu URL, co sygnalizuje użytkownikom, że ich połączenie jest bezpieczne.
 
-{% hint style="warning" %}
-Pamiętaj, że nawet jeśli strona korzysta z protokołu HTTPS, to nie oznacza, że jest ona całkowicie bezpieczna. Zawsze warto korzystać z najnowszych wersji przeglądarek internetowych, oprogramowania antywirusowego i **dwuskładnikowego uwierzytelniania**, aby zapewnić sobie najwyższy poziom ochrony.
-{% endhint %}
+!!! warning
+	 Pamiętaj, że nawet jeśli strona korzysta z protokołu HTTPS, to nie oznacza, że jest ona całkowicie bezpieczna. Zawsze warto korzystać z najnowszych wersji przeglądarek internetowych, oprogramowania antywirusowego i **dwuskładnikowego uwierzytelniania**, aby zapewnić sobie najwyższy poziom ochrony.

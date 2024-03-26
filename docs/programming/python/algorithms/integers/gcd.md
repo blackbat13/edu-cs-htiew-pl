@@ -4,16 +4,12 @@ description: Największy Wspólny Dzielnik
 
 # NWD
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/gcd.md)
 
-{% content-ref url="../../../../algorithms/integers/gcd.md" %}
-[gcd.md](../../../../algorithms/integers/gcd.md)
-{% endcontent-ref %}
 
 ## Algorytm NWD z odejmowaniem
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def gcd(a: int, b: int) -> int:
     while a != b:
         if a > b:
@@ -31,12 +27,11 @@ result = gcd(a, b)
 
 print(f"GCD({a}, {b}) = {result}")
 ```
-{% endcode %}
+
 
 ## Algorytm Euklidesa - wersja iteracyjna
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def gcd(a: int, b: int) -> int:
     while b != 0:
         a, b = b, a % b
@@ -51,12 +46,11 @@ result = gcd(a, b)
 
 print(f"GCD({a},{b}) = {result}")
 ```
-{% endcode %}
+
 
 ## Algorytm Euklidesa - wersja rekurencyjna
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def gcd(a: int, b: int) -> int:
     if b == 0:
         return a
@@ -71,4 +65,4 @@ result = gcd(a, b)
 
 print(f"GCD({a},{b}) = {result}")
 ```
-{% endcode %}
+

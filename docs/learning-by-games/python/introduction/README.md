@@ -8,7 +8,7 @@ Zanim zaczniemy, należy skonfigurować nasze środowisko programistyczne. Będz
 
 Zaczynamy od zainstalowania interpretera do języka **Python**. Można go pobrać z tej strony:
 
-{% embed url="https://www.python.org/downloads/" %}
+[https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 Jeżeli nie wiesz, którą wersję wybrać, po prostu pobierz najnowszą dla swojego systemu operacyjnego. Najważniejsze, żeby był to **Python 3**, nie **Python 2**, ponieważ jest pomiędzy nimi kilka istotnych różnic, nawet na podstawowym poziomie.
 
@@ -16,6 +16,6 @@ Jeżeli nie wiesz, którą wersję wybrać, po prostu pobierz najnowszą dla swo
 
 Następnie pobieramy i instalujemy środowisko programistyczne:
 
-{% embed url="https://www.jetbrains.com/pycharm/download/" %}
+[https://www.jetbrains.com/pycharm/download/](https://www.jetbrains.com/pycharm/download/)
 
 Darmowa wersja **Community** stanowczo wystarczy do nauki języka i tworzenia własnych gier.

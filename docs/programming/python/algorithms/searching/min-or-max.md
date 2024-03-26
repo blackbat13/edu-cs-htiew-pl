@@ -1,15 +1,11 @@
 # Wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/min-or-max.md)
 
-{% content-ref url="../../../../algorithms/searching/min-or-max.md" %}
-[min-or-max.md](../../../../algorithms/searching/min-or-max.md)
-{% endcontent-ref %}
 
 ## Wyszukiwanie wartości minimum i maksimum
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def find_min_max(array: list) -> (int, int):
     min_val = array[0]
     max_val = array[0]
@@ -28,7 +24,7 @@ min_val, max_val = find_min_max(n, tab)
     
 print(f"Min: {min_val}, Max: {max_val}")
 ```
-{% endcode %}
+
 
 Funkcja `find_min_max` działa w następujący sposób:
 
@@ -40,14 +36,13 @@ Funkcja `find_min_max` działa w następujący sposób:
 
 W głównej części programu:
 
-1. Definiuje listę `tab` z $$10$$ elementami.
+1. Definiuje listę `tab` z $10$ elementami.
 2. Używa funkcji `find_min_max` do znalezienia minimalnej i maksymalnej wartości w liście.
 3. Wyświetla te wartości na ekranie.
 
 ## Wyszukiwanie indeksów wartości minimum i maksimum
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def find_min_max_ind(array: list) -> (int, int):
     min_val = array[0]
     max_val = array[0]
@@ -71,19 +66,19 @@ min_ind, max_ind = find_min_max_ind(n, tab)
     
 print(f"Min value index: {min_ind}, Max value index: {max_ind}")
 ```
-{% endcode %}
+
 
 Funkcja `find_min_max_ind` działa następująco:
 
-1. Zaczyna od zainicjowania `min_ind` i `max_ind` jako $$0$$ - indeksy pierwszego elementu listy.
+1. Zaczyna od zainicjowania `min_ind` i `max_ind` jako $0$ - indeksy pierwszego elementu listy.
 2. Przechodzi przez listę od drugiego elementu do końca.
-3. Jeżeli aktualny element `tab[i]` jest mniejszy niż element na pozycji `min_ind`, aktualizuje `min_ind` na $$i$$.
-4. Jeżeli aktualny element `tab[i]` jest większy niż element na pozycji `max_ind`, aktualizuje `max_ind` na $$i$$.
+3. Jeżeli aktualny element `tab[i]` jest mniejszy niż element na pozycji `min_ind`, aktualizuje `min_ind` na $i$.
+4. Jeżeli aktualny element `tab[i]` jest większy niż element na pozycji `max_ind`, aktualizuje `max_ind` na $i$.
 5. Po przejściu przez całą listę, zwraca krotkę `(min_ind, max_ind)`, która zawiera indeksy minimalnej i maksymalnej wartości w liście.
 
 W głównej części programu:
 
-1. Tworzy listę `tab` z $$10$$ elementami.
+1. Tworzy listę `tab` z $10$ elementami.
 2. Wywołuje funkcję `find_min_max_ind`, która zwraca indeksy minimalnej i maksymalnej wartości w liście.
 3. Wyświetla te indeksy na ekranie.
 

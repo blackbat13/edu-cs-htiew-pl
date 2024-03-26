@@ -8,9 +8,9 @@ Problem bankomatu, czy też problem wydawania reszty, to problem, w którym zada
 
 #### Dane
 
-* $$n$$ — liczba naturalna, ilość dostępnych nominałów
-* $$nominały[1..n]$$ — tablica dostępnych nominałów (liczb całkowitych) o rozmiarze $$n$$
-* $$kwota$$ — liczba naturalna, kwota do wydania
+* $n$ — liczba naturalna, ilość dostępnych nominałów
+* $nominały[1..n]$ — tablica dostępnych nominałów (liczb całkowitych) o rozmiarze $n$
+* $kwota$ — liczba naturalna, kwota do wydania
 
 #### Wynik
 
@@ -28,9 +28,9 @@ kwota := 28
 
 #### Wynik
 
-Minimalna liczba potrzebnych monet i/lub banknotów: $$5$$.
+Minimalna liczba potrzebnych monet i/lub banknotów: $5$.
 
-Wykorzystane monety/banknoty: $$1, 2, 5, 10, 10$$
+Wykorzystane monety/banknoty: $1, 2, 5, 10, 10$
 
 ### Przykład 2
 
@@ -44,6 +44,6 @@ kwota := 14
 
 #### Wynik
 
-Minimalna liczba potrzebnych monet i/lub banknotów: $$2$$.
+Minimalna liczba potrzebnych monet i/lub banknotów: $2$.
 
-Wykorzystane monety/banknoty: $$7, 7$$
+Wykorzystane monety/banknoty: $7, 7$

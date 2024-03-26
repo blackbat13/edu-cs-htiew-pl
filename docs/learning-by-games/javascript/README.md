@@ -8,4 +8,4 @@ Czas zacząć! Pozwólcie że będę Waszym przewodnikiem podczas podróży po p
 
 ### Biblioteka
 
-{% embed url="https://kaboomjs.com" %}
+[https://kaboomjs.com](https://kaboomjs.com)

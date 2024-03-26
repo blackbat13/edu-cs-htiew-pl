@@ -1,15 +1,11 @@
 # Znajdowanie lidera w zbiorze
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/majority.md)
 
-{% content-ref url="../../../../algorithms/searching/majority.md" %}
-[majority.md](../../../../algorithms/searching/majority.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 function majority(array)
     counter = 0
     currentCandidate = 0
@@ -37,4 +33,4 @@ array = [1, 2, 5, 5, 7, 5, 5, 10, 5, 5]
 
 println(majority(array))
 ```
-{% endcode %}
+

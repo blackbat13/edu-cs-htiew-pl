@@ -2,9 +2,7 @@
 
 Python to wysokopoziomowy, interpretowany język programowania, który zyskał popularność dzięki swojej czytelności i prostocie składni. Został stworzony przez Guido van Rossuma i po raz pierwszy opublikowany w 1991 roku. Python jest językiem programowania o ogólnym przeznaczeniu, ale jest szczególnie popularny w dziedzinach takich jak analiza danych, uczenie maszynowe i web development.
 
-{% embed url="https://www.python.org/" %}
-Python
-{% endembed %}
+[Python](https://www.python.org/)
 
 ## Kluczowe cechy
 
@@ -22,6 +20,4 @@ Ze względu na te cechy, Python jest doskonałym wyborem zarówno dla początkuj
 
 ## Popularność języka
 
-{% embed url="https://www.tiobe.com/tiobe-index/python/" %}
-Wykres popularności języka Python
-{% endembed %}
+[Wykres popularności języka Python](https://www.tiobe.com/tiobe-index/python/)

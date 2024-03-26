@@ -6,43 +6,43 @@ Zestaw ćwiczeń i materiałów pomagających w przygotowaniu się do matury z i
 
 ### Algorytmy, które należy umieć szybko i sprawnie zapisać na kartce w pseudokodzie nie używając funkcji z wybranego języka programowania
 
-{% content-ref url="../../algorithms/searching/min-or-max.md" %}
+
 [min-or-max.md](../../algorithms/searching/min-or-max.md)
-{% endcontent-ref %}
 
-{% content-ref url="../../algorithms/integers/prime-test.md" %}
+
+
 [prime-test.md](../../algorithms/integers/prime-test.md)
-{% endcontent-ref %}
 
-{% content-ref url="../../algorithms/searching/linear-search.md" %}
+
+
 [linear-search.md](../../algorithms/searching/linear-search.md)
-{% endcontent-ref %}
 
-{% content-ref url="../../algorithms/searching/binary-search.md" %}
+
+
 [binary-search.md](../../algorithms/searching/binary-search.md)
-{% endcontent-ref %}
 
-{% content-ref url="../../algorithms/sorting/bubble-sort.md" %}
+
+
 [bubble-sort.md](../../algorithms/sorting/bubble-sort.md)
-{% endcontent-ref %}
+
 
 ### Algorytmy, które należy umieć szybko i sprawnie zaimplementować w wybranym języku programowania
 
-{% content-ref url="../../algorithms/searching/min-or-max.md" %}
+
 [min-or-max.md](../../algorithms/searching/min-or-max.md)
-{% endcontent-ref %}
 
-{% content-ref url="../../algorithms/searching/linear-search.md" %}
+
+
 [linear-search.md](../../algorithms/searching/linear-search.md)
-{% endcontent-ref %}
 
-{% content-ref url="../../algorithms/searching/binary-search.md" %}
+
+
 [binary-search.md](../../algorithms/searching/binary-search.md)
-{% endcontent-ref %}
 
-{% content-ref url="../../algorithms/searching/longest-growing-substring.md" %}
+
+
 [longest-growing-substring.md](../../algorithms/searching/longest-growing-substring.md)
-{% endcontent-ref %}
+
 
 ### Zagadnienia programistyczne, które należy opanować
 

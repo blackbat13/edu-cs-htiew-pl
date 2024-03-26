@@ -10,9 +10,7 @@ Pokażemy kilka przykładowych i przydatnych funkcji, jakie można znaleźć w b
 
 ### Dokumentacja
 
-{% embed url="https://www.cplusplus.com/reference/cmath/" %}
-cmath - dokumentacja
-{% endembed %}
+[cmath - dokumentacja](https://www.cplusplus.com/reference/cmath/)
 
 ## Przykładowe funkcje
 
@@ -44,6 +42,4 @@ cout << "Zaokraglenie w dol (podloga): " << floor(2.3) << endl;
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/7reH5W" %}
-cmath - przykłady
-{% endembed %}
+[cmath - przykłady](https://ideone.com/7reH5W)

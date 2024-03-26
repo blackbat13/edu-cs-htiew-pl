@@ -1,15 +1,11 @@
 # Metoda Monte Carlo
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/numerical-methods/monte-carlo.md)
 
-{% content-ref url="../../../../algorithms/numerical-methods/monte-carlo.md" %}
-[monte-carlo.md](../../../../algorithms/numerical-methods/monte-carlo.md)
-{% endcontent-ref %}
 
 ## Obliczanie wartości liczby PI
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 from random import random
 
 
@@ -34,12 +30,11 @@ estimated_pi = monte_carlo_pi(points_count)
 
 print(f"PI ~= {estimated_pi}")
 ```
-{% endcode %}
+
 
 ## Obliczanie wartości PI wraz z rysowaniem wykresu
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 from random import random
 
 import matplotlib.pyplot as plt
@@ -76,4 +71,4 @@ print(f"PI ~= {estimated_pi}")
 
 plt.show()
 ```
-{% endcode %}
+

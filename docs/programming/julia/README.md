@@ -2,9 +2,7 @@
 
 Julia to nowoczesny język programowania o wysokiej wydajności, skierowany szczególnie do obliczeń naukowych i numerycznych. Został stworzony w celu rozwiązania problemu "dwóch języków", czyli zmuszania programistów do pisania prototypów w jednym języku (np. Python, MATLAB), a następnie przepisywania ich na język kompilowany (np. C, C++) dla zwiększenia wydajności. Język ten został zaprojektowany tak, aby mógł być łatwo zrozumiany przez ludzi, oferując jednocześnie szybkość na poziomie języków kompilowanych.
 
-{% embed url="https://julialang.org/" %}
-Julia
-{% endembed %}
+[Julia](https://julialang.org/)
 
 ## Kluczowe cechy
 
@@ -22,6 +20,4 @@ Julia jest coraz częściej wykorzystywana w dziedzinach nauki, inżynierii i fi
 
 ## Popularność języka
 
-{% embed url="https://www.tiobe.com/tiobe-index/julia/" %}
-Wykres popularności języka Julia
-{% endembed %}
+[Wykres popularności języka Julia](https://www.tiobe.com/tiobe-index/julia/)

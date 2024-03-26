@@ -2,21 +2,20 @@
 
 Znamy już ogólną definicję algorytmu. Zanim jednak przejdziemy dalej, omówmy różne sposoby zapisu algorytmów. Istnieje wiele metod, ale skoncentrujemy się na trzech z nich: **pseudokodzie**, **schemacie blokowym** i **implementacji**. Niemniej jednak, warto również poznać pozostałe.
 
-{% hint style="info" %}
-Algorytm omówiony na tej stronie ma charakter czysto ilustracyjny i ma na celu ukazanie różnic pomiędzy różnymi sposobami zapisu algorytmu. Jeśli coś wydaje się niejasne, nie przejmuj się - wszystko zostanie wyjaśnione w kolejnych tematach.
-{% endhint %}
+!!! info
+    Algorytm omówiony na tej stronie ma charakter czysto ilustracyjny i ma na celu ukazanie różnic pomiędzy różnymi sposobami zapisu algorytmu. Jeśli coś wydaje się niejasne, nie przejmuj się - wszystko zostanie wyjaśnione w kolejnych tematach.
 
 Kluczowym elementem każdego algorytmu, jak wcześniej zaznaczyliśmy, jest specyfikacja. Skorzystamy z przykładowej specyfikacji, dla której pokażemy, jak ten sam algorytm wygląda w różnych formach zapisu.
 
-### Specyfikacja
+## Specyfikacja
 
-#### Dane
+### Dane
 
-* $$n$$ - liczba naturalna
+* $n$ - liczba naturalna
 
-#### Wynik
+### Wynik
 
-* Liczba wszystkich dzielników $$n$$ 
+* Liczba wszystkich dzielników $n$
 
 ## Opis słowny
 
@@ -24,7 +23,7 @@ Najmniej formalny ze wszystkich przedstawionych tutaj sposobów opisu algorytmó
 
 ### Przykład
 
-Przejdź po kolejnych liczbach od $$1$$ do $$n$$ ($$1,2,3,4,...$$). W trakcie przechodzenia przez kolejne liczby, zliczaj, przez ile z nich $$n$$ jest podzielne. To będzie wynik algorytmu.
+Przejdź po kolejnych liczbach od $1$ do $n$ ($1,2,3,4,...$). W trakcie przechodzenia przez kolejne liczby, zliczaj, przez ile z nich $n$ jest podzielne. To będzie wynik algorytmu.
 
 ## Lista kroków
 
@@ -142,7 +141,7 @@ Najbardziej formalnym i dokładnym opisem algorytmu jest jego implementacja w wy
 
 #### C++
 
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -166,13 +165,11 @@ int main() {
 }
 ```
 
-{% embed url="https://ideone.com/y9PP9s" %}
-C++ - przykład
-{% endembed %}
+[Przykład - C++](https://ideone.com/y9PP9s)
 
 #### Python
 
-```python
+```python linenums="1"
 n = int(input())
 
 wynik = 0
@@ -184,13 +181,11 @@ for i in range(1, n + 1):
 print(wynik)
 ```
 
-{% embed url="https://ideone.com/6Zgr8N" %}
-Przykład - Python
-{% endembed %}
+[Przykład - Python](https://ideone.com/6Zgr8N)
 
 #### Pascal
 
-```delphi
+```delphi linenums="1"
 program dzielniki;
 var n, wynik, i: integer;
 begin
@@ -208,6 +203,4 @@ begin
 end.
 ```
 
-{% embed url="https://ideone.com/QWBt80" %}
-Przykład - Pascal
-{% endembed %}
+[Przykład - Pascal](https://ideone.com/QWBt80)

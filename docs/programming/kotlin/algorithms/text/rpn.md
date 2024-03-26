@@ -1,10 +1,7 @@
 # ONP
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/odwrotna-notacja-polska.md)
 
-{% content-ref url="../../../../algorithms/text/odwrotna-notacja-polska.md" %}
-[odwrotna-notacja-polska.md](../../../../algorithms/text/odwrotna-notacja-polska.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -44,9 +41,7 @@ print(result)
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/RuReCs" %}
-Obliczanie wartości wyrażenia ONP
-{% endembed %}
+[Obliczanie wartości wyrażenia ONP](https://ideone.com/RuReCs)
 
 ### Opis implementacji
 

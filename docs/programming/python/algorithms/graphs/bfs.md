@@ -4,16 +4,12 @@ description: Przeszukiwanie grafu wszerz
 
 # BFS
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/bfs.md)
 
-{% content-ref url="../../../../algorithms/graphs/bfs.md" %}
-[bfs.md](../../../../algorithms/graphs/bfs.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 from typing import List
 from queue import Queue
 
@@ -50,4 +46,4 @@ visited = [False] * len(graph)
 
 bfs(graph, visited, 0)
 ```
-{% endcode %}
+

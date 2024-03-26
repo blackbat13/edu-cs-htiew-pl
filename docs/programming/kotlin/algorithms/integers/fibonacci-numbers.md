@@ -1,10 +1,7 @@
 # Liczby Fibonacciego
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/fibonacci-numbers.md)
 
-{% content-ref url="../../../../algorithms/integers/fibonacci-numbers.md" %}
-[fibonacci-numbers.md](../../../../algorithms/integers/fibonacci-numbers.md)
-{% endcontent-ref %}
 
 ## Wersja iteracyjna
 
@@ -35,9 +32,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/4JCa5w" %}
-Liczby Fibonacciego - wersja iteracyjna
-{% endembed %}
+[Liczby Fibonacciego - wersja iteracyjna](https://ideone.com/4JCa5w)
 
 ### Opis implementacji
 
@@ -67,9 +62,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/cBKjhg" %}
-Liczby Fibonacciego - wersja rekurencyjna
-{% endembed %}
+[Liczby Fibonacciego - wersja rekurencyjna](https://ideone.com/cBKjhg)
 
 ### Opis implementacji
 

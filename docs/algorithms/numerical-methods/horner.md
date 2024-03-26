@@ -6,28 +6,28 @@ description: Obliczanie wartości wielomianu
 
 ## Opis problemu
 
-Jak wygląda wielomian pewnie każdy wie. Gdy mamy podany wzór, obliczenie jego wartości dla podanego $$x$$ jest rzeczą wręcz trywialną: wystarczy wykonać kilka mnożeń, podnieść parę razy do potęgi i wszystko zsumować. Tym bardziej dla komputera nie powinno to stanowić większego wyzwania i tak rzeczywiście jest. Nie oznacza to jednak, że nie należy szukać metod pozwalających na zminimalizowanie wykonywanych operacji. Spójrzmy na konkretny przykład:
+Jak wygląda wielomian pewnie każdy wie. Gdy mamy podany wzór, obliczenie jego wartości dla podanego $x$ jest rzeczą wręcz trywialną: wystarczy wykonać kilka mnożeń, podnieść parę razy do potęgi i wszystko zsumować. Tym bardziej dla komputera nie powinno to stanowić większego wyzwania i tak rzeczywiście jest. Nie oznacza to jednak, że nie należy szukać metod pozwalających na zminimalizowanie wykonywanych operacji. Spójrzmy na konkretny przykład:
 
-$$
+$
 W(x) = 2x^3+3x^2+5x+1
-$$
+$
 
-Zastanówmy się, ile dokładnie operacji dodawania i mnożenia musimy wykonać, żeby obliczyć wartość tego wielomianu dla podanego $$x$$. Spróbujmy to rozpisać:
+Zastanówmy się, ile dokładnie operacji dodawania i mnożenia musimy wykonać, żeby obliczyć wartość tego wielomianu dla podanego $x$. Spróbujmy to rozpisać:
 
-$$
+$
 W(x)=2*x*x*x+3*x*x+5*x+1
-$$
+$
 
 Teraz można łatwo policzyć, że mamy:
 
 * **6** operacji mnożenia
 * **3** operacje dodawania
 
-Łącznie **9** operacji. Czy możemy jakoś zmniejszyć ilość wykonywanych operacji? Zauważmy, że niektóre potęgi $$x$$ obliczamy wielokrotnie. Np. obliczając wartość $$x^3$$ obliczamy "po drodze" także wartość $$x^2$$. Spróbujmy to wykorzystać. Gdybyśmy mieli wykonać obliczenia na komputerze, moglibyśmy utworzyć zmienne, w których zapamiętamy kolejne potęgi wartości $$x$$ , które później wykorzystamy do obliczeń. Możemy do tego jednak podejść także bardziej matematycznie. Spróbujmy wyciągnąć $$x$$ przed nawias.
+Łącznie **9** operacji. Czy możemy jakoś zmniejszyć ilość wykonywanych operacji? Zauważmy, że niektóre potęgi $x$ obliczamy wielokrotnie. Np. obliczając wartość $x^3$ obliczamy "po drodze" także wartość $x^2$. Spróbujmy to wykorzystać. Gdybyśmy mieli wykonać obliczenia na komputerze, moglibyśmy utworzyć zmienne, w których zapamiętamy kolejne potęgi wartości $x$ , które później wykorzystamy do obliczeń. Możemy do tego jednak podejść także bardziej matematycznie. Spróbujmy wyciągnąć $x$ przed nawias.
 
-$$
+$
 W(x)=(2*x*x+3*x+5)*x+1
-$$
+$
 
 Policzmy, ile teraz wykonujemy operacji:
 
@@ -36,9 +36,9 @@ Policzmy, ile teraz wykonujemy operacji:
 
 Łącznie **7** operacji, czyli o **2** operacje mniej niż na początku! Pójdźmy więc o krok dalej.
 
-$$
+$
 W(x)=((2*x+3)*x+5)*x+1
-$$
+$
 
 Finalnie otrzymujemy:
 
@@ -53,31 +53,31 @@ Zastosowany wyżej schemat postępowania nazywamy _**Schematem Hornera**_.
 
 Zauważmy, że wartości współczynników wielomianu nie mają wpływu na zastosowanie _**Schematu Hornera**_. Możemy więc łatwo skonstruować ogólny wzór dla wielomianu 3 stopnia:
 
-$$
+$
 W(x)=a_3x^3+a_2x^2+a_1x+a_0=((a_3x+a_2)x+a_1)x+a_0
-$$
+$
 
 A także ogólny wzór dla wielomianu n-tego stopnia:
 
-$$
+$
 W(x)=a_nx^n+a_{n-1}x^{x-1}+...+a_1x+a_0=(...(a_nx+a_{n-1})x+...+a_1)x+a_0
-$$
+$
 
 ### Liczba operacji mnożenia
 
 Spróbujmy policzyć, ile operacji mnożenia musimy wykonać przy zastosowaniu standardowej metody, dla wielomianu:
 
-* 1-szego stopnia: $$1$$ mnożenie
-* 2-giego stopnia: $$1+2=3$$ mnożenia
-* 3-go stopnia: $$1+2+3=6$$ mnożeń
-* n-tego stopnia: $$1+2+3+...+(n-1)+n=\frac{n(n+1)}{2}$$ mnożeń
+* 1-szego stopnia: $1$ mnożenie
+* 2-giego stopnia: $1+2=3$ mnożenia
+* 3-go stopnia: $1+2+3=6$ mnożeń
+* n-tego stopnia: $1+2+3+...+(n-1)+n=\frac{n(n+1)}{2}$ mnożeń
 
 Gdy jednak zastosujemy _**Schemat Hornera**_, to ilość potrzebnych operacji mnożenia znacząco zmaleje:
 
-* 1-szego stopnia: $$1$$ mnożenie
-* 2-giego stopnia: $$2$$ mnożenia
-* 3-go stopnia: $$3$$ mnożenia
-* n-tego stopnia: $$n$$ mnożeń
+* 1-szego stopnia: $1$ mnożenie
+* 2-giego stopnia: $2$ mnożenia
+* 3-go stopnia: $3$ mnożenia
+* n-tego stopnia: $n$ mnożeń
 
 ### Zastosowania
 
@@ -87,18 +87,18 @@ _**Schemat Hornera**_ ma także zastosowanie przy przeliczaniu liczby z zadanego
 
 #### Dane
 
-* $$n$$ — stopień wielomianu, liczba naturalna
-* $$x$$ — wartość, dla której należy obliczyć wielomian
-* $$a_{n}, a_{n-1}, ..., a_1, a_0$$ — współczynniki wielomianu, podane w kolejności od największej potęgi do najmniejszej
+* $n$ — stopień wielomianu, liczba naturalna
+* $x$ — wartość, dla której należy obliczyć wielomian
+* $a_{n}, a_{n-1}, ..., a_1, a_0$ — współczynniki wielomianu, podane w kolejności od największej potęgi do najmniejszej
 
 #### Wynik
 
-* Wartość podanego wielomianu w punkcie $$x$$
+* Wartość podanego wielomianu w punkcie $x$
 
 ## Rozwiązanie
 
 Zaprojektujmy funkcje Horner, zgodną z powyższą specyfikacją.
-Będziemy postępować zgodnie ze schematem: w pętli mnożymy przez $$x$$ i dodajemy kolejny współczynnik.
+Będziemy postępować zgodnie ze schematem: w pętli mnożymy przez $x$ i dodajemy kolejny współczynnik.
 
 ### Pseudokod
 
@@ -126,18 +126,18 @@ flowchart TD
 
 ### Złożoność
 
-$$O(n)$$ — liniowa
+$O(n)$ — liniowa
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/numerical-methods/horner.md" %}
+
 [horner.md](../../programming/c++/algorithms/numerical-methods/horner.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/numerical-methods/horner.md" %}
+
 [horner.md](../../programming/python/algorithms/numerical-methods/horner.md)
-{% endcontent-ref %}
+

@@ -1,15 +1,11 @@
 # Liczby Fibonacciego
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/fibonacci-numbers.md)
 
-{% content-ref url="../../../../algorithms/integers/fibonacci-numbers.md" %}
-[fibonacci-numbers.md](../../../../algorithms/integers/fibonacci-numbers.md)
-{% endcontent-ref %}
 
 ## Wersja iteracyjna
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def fib(n: int) -> int:
     f1 = 1
     f2 = 1
@@ -26,12 +22,11 @@ result = fib(n)
 
 print(f"fib({n}) = {result}")
 ```
-{% endcode %}
+
 
 ## Wersja rekurencyjna
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def fib(n: int) -> int:
     if n <= 2:
         return 1
@@ -45,4 +40,4 @@ result = fib(n)
 
 print(f"fib({n}) = {result}")
 ```
-{% endcode %}
+

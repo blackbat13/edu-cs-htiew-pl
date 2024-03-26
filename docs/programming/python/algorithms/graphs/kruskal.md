@@ -1,15 +1,11 @@
 # Kruskal
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/kruskal.md)
 
-{% content-ref url="../../../../algorithms/graphs/kruskal.md" %}
-[kruskal.md](../../../../algorithms/graphs/kruskal.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 import heapq
 
 
@@ -108,4 +104,4 @@ if __name__ == "__main__":
 
   print(min_spanning_tree)
 ```
-{% endcode %}
+

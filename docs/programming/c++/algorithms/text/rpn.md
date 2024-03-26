@@ -4,16 +4,12 @@ description: Obliczanie wartości wyrażenia ONP
 
 # ONP
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/rpn.md)
 
-{% content-ref url="../../../../algorithms/text/odwrotna-notacja-polska.md" %}
-[odwrotna-notacja-polska.md](../../../../algorithms/text/odwrotna-notacja-polska.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <stack>
 
@@ -64,7 +60,7 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 

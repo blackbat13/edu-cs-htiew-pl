@@ -1,15 +1,11 @@
 # Flood fill
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/flood-fill.md)
 
-{% content-ref url="../../../../algorithms/graphs/flood-fill.md" %}
-[flood-fill.md](../../../../algorithms/graphs/flood-fill.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 from pprint import pprint
 
 
@@ -43,4 +39,4 @@ flood_fill(image, 1, 1)
 
 pprint(image)
 ```
-{% endcode %}
+

@@ -6,6 +6,4 @@ Niemniej tworząc prezentację popełniamy często różne błędy, które zosta
 
 ## Prezentacja
 
-{% file src="../.gitbook/assets/AntyPrezentacja.pdf" %}
-Anty-Prezentacja
-{% endfile %}
+[:fontawesome-solid-file-pdf: Anty-Prezentacja](../assets/AntyPrezentacja.pdf)

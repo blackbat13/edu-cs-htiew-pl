@@ -4,9 +4,7 @@ Stegosuite to otwartoźródłowe narzędzie do steganografii napisane w Javie, k
 
 Stegosuite ukrywa informacje w plikach obrazów poprzez subtelne modyfikacje pikseli, które nie są zauważalne dla ludzkiego oka. Dzięki temu osoba przeglądająca obraz nie jest w stanie zauważyć ukrytych informacji bez użycia odpowiednich narzędzi steganograficznych. Stegosuite obsługuje także szyfrowanie ukrytych danych, zwiększając poziom ich bezpieczeństwa.
 
-{% embed url="https://github.com/osde8info/stegosuite" %}
-Stegosuite
-{% endembed %}
+[Stegosuite](https://github.com/osde8info/stegosuite)
 
 ## Przykłady użycia
 

@@ -4,16 +4,12 @@ description: Przeszukiwanie grafu w głąb
 
 # DFS
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/dfs.md)
 
-{% content-ref url="../../../../algorithms/graphs/dfs.md" %}
-[dfs.md](../../../../algorithms/graphs/dfs.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <vector>
 
@@ -54,7 +50,7 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
@@ -66,6 +62,6 @@ Funkcja `dfs` (**linia 6**) jest funkcją rekurencyjną, która przyjmuje trzy p
 
 Główną częścią funkcji `dfs` jest pętla przechodząca przez wszystkich sąsiadów aktualnie przetwarzanego wierzchołka (**linia 15**). W pomocniczej zmiennej `nextNode` zapamiętujemy numer przetwarzanego sąsiada, pobranego z listy sąsiedztwa (**linia 16**). Następnie sprawdzamy, czy wierzchołek ten był już odwiedzony (**linia 17**), a jeżeli nie, to odwiedzamy go rekurencyjnie wywołując funkcję `dfs` z tym właśnie wierzchołkiem (**linia 18**).
 
-![Przykładowy graf wykorzystany w implementacji](../../../../.gitbook/assets/example_graph.png)
+![Przykładowy graf wykorzystany w implementacji](../../../../assets/example_graph.png)
 
-{% embed url="http://graphonline.ru/en/?graph=iyeQZmXVpPfZWqYG" %}
+[http://graphonline.ru/en/?graph=iyeQZmXVpPfZWqYG](http://graphonline.ru/en/?graph=iyeQZmXVpPfZWqYG)

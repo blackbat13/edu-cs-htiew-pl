@@ -2,16 +2,10 @@
 
 ## Arkusz
 
-{% file src="../../../.gitbook/assets/MINP-R0-100-2305.pdf" %}
-Arkusz
-{% endfile %}
+[:fontawesome-solid-file-pdf: Arkusz](../../../assets/MINP-R0-100-2305.pdf)
 
-{% file src="../../../.gitbook/assets/dane_2023.zip" %}
-Dane
-{% endfile %}
+[:material-folder-zip: Dane](../../../assets/dane_2023.zip)
 
 ## Odpowiedzi
 
-{% file src="../../../.gitbook/assets/MINP-R0-100-2305-zasady.pdf" %}
-Klucz
-{% endfile %}
+[:fontawesome-solid-file-pdf: Klucz](../../../assets/MINP-R0-100-2305-zasady.pdf)

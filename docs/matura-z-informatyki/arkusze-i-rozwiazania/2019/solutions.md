@@ -4,6 +4,4 @@
 
 ### Zadanie 6
 
-{% file src="../../../.gitbook/assets/6_2019.zip" %}
-Access
-{% endfile %}
+[:material-folder-zip: Access](../../../assets/6_2019.zip)

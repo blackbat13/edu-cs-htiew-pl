@@ -1,10 +1,7 @@
 # Sortowanie koktajlowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/cocktail-shaker-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/cocktail-shaker-sort.md" %}
-[cocktail-shaker-sort.md](../../../../algorithms/sorting/cocktail-shaker-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -41,6 +38,4 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/oNNYmV" %}
-Sortowanie koktajlowe
-{% endembed %}
+[Sortowanie koktajlowe](https://ideone.com/oNNYmV)

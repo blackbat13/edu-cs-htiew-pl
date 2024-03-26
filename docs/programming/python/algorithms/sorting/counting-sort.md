@@ -1,15 +1,11 @@
 # Sortowanie przez zliczanie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/counting-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/counting-sort.md" %}
-[counting-sort.md](../../../../algorithms/sorting/counting-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def count_occurrences(array: list) -> list:
     max_number = max(array)
     occurrences = [0] * (max_number + 1)
@@ -36,7 +32,7 @@ counting_sort(array)
 
 print(array)
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 

@@ -1,10 +1,7 @@
 # Kruskal
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/kruskal.md)
 
-{% content-ref url="../../../../algorithms/graphs/kruskal.md" %}
-[kruskal.md](../../../../algorithms/graphs/kruskal.md)
-{% endcontent-ref %}
 
 ## Implementacja
 

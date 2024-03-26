@@ -4,6 +4,4 @@ Kto z nas nie miał kiedyś problemów z komputerem? W poniższej prezentacji pr
 
 ## Prezentacja
 
-{% file src="../.gitbook/assets/Typowe problemy z komputerem.pdf" %}
-Prezentacja
-{% endfile %}
+[:fontawesome-solid-file-pdf: Prezentacja](../assets/Typowe problemy z komputerem.pdf)

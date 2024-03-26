@@ -1,15 +1,11 @@
 # Test doskonałości
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/perfect-test.md)
 
-{% content-ref url="../../../../algorithms/integers/perfect-test.md" %}
-[perfect-test.md](../../../../algorithms/integers/perfect-test.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <cmath>
 
@@ -41,4 +37,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

@@ -10,9 +10,9 @@ Drzewo segmentowe jest drzewem binarnym. Każdy węzeł w drzewie reprezentuje s
 
 Najważniejsze operacje, które można wykonać na drzewie segmentowym, to:
 
-- **Budowanie drzewa z tablicy**: ta operacja wymaga przejścia przez całą tablicę i budowy odpowiednich węzłów drzewa, więc jej złożoność czasowa to $$O(n)$$, gdzie $$n$$ to liczba elementów w tablicy.
-- **Aktualizowanie wartości w tablicy**: w drzewie segmentowym można to zrobić, przechodząc od węzła reprezentującego zmieniany element do korzenia i aktualizując informacje w węzłach po drodze. Ta operacja ma złożoność $$O(\log n)$$.
-- W**ykonywanie operacji na segmencie tablicy**: taka operacja może polegać na znalezieniu minimalnego elementu, sumie elementów itd. W drzewie segmentowym można to zrobić, przetwarzając tylko $$O(\log n)$$ węzłów.
+- **Budowanie drzewa z tablicy**: ta operacja wymaga przejścia przez całą tablicę i budowy odpowiednich węzłów drzewa, więc jej złożoność czasowa to $O(n)$, gdzie $n$ to liczba elementów w tablicy.
+- **Aktualizowanie wartości w tablicy**: w drzewie segmentowym można to zrobić, przechodząc od węzła reprezentującego zmieniany element do korzenia i aktualizując informacje w węzłach po drodze. Ta operacja ma złożoność $O(\log n)$.
+- W**ykonywanie operacji na segmencie tablicy**: taka operacja może polegać na znalezieniu minimalnego elementu, sumie elementów itd. W drzewie segmentowym można to zrobić, przetwarzając tylko $O(\log n)$ węzłów.
 
 ## Zastosowania
 
@@ -22,12 +22,12 @@ Drzewa segmentowe są wykorzystywane w wielu dziedzinach programowania, takich j
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/structures/segment-tree.md" %}
+
 [segment-tree.md](../../programming/c++/algorithms/structures/segment-tree.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/structures/segment-trees.md" %}
+
 [segment-trees.md](../../programming/python/algorithms/structures/segment-trees.md)
-{% endcontent-ref %}
+

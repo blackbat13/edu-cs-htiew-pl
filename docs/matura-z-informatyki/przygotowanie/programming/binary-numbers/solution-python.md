@@ -28,7 +28,7 @@ def count_even(binary_numbers_list):
 
 ## Zadanie 2
 
-Aby sprawdzić, czy liczba binarna jest podzielna przez $$4$$ wystarczy sprawdzić jej **dwie ostatnie** (najmniej znaczące) cyfry. Jeżeli są równe $$0$$, to liczba jest podzielna przez $$4$$.
+Aby sprawdzić, czy liczba binarna jest podzielna przez $4$ wystarczy sprawdzić jej **dwie ostatnie** (najmniej znaczące) cyfry. Jeżeli są równe $0$, to liczba jest podzielna przez $4$.
 
 ```python
 def count_divisible_by_4(binary_numbers_list):
@@ -44,43 +44,40 @@ def count_divisible_by_4(binary_numbers_list):
 
 Zamieniamy liczbę binarną na system dziesiętny i sprawdzamy podzielność przez 10 za pomocą operatora modulo (reszty z dzielenia).
 
-{% tabs %}
-{% tab title="Rozwiązanie 1" %}
-```python
-def binary_to_decimal(binary):  # Funkcja konwertująca liczbę binarną reprezentowaną jako tekst na liczbę naturalną w systemie dziesiętnym
-    decimal = 0  # Wartość w systemie 10
-    power = 1  # Potęga 2
-    # Idziemy pętlą od końca
-    for i in range(len(binary) - 1, -1, -1):
-        decimal += int(binary[i]) * power  # Przemnażamy cyfrę przez potęgę dwójki
-        power *= 2  # Zwiększamy potęgę dwójki
-    
-    return decimal
+=== "Rozwiązanie 1"
+    ```python
+    def binary_to_decimal(binary):  # Funkcja konwertująca liczbę binarną reprezentowaną jako tekst na liczbę naturalną w systemie dziesiętnym
+        decimal = 0  # Wartość w systemie 10
+        power = 1  # Potęga 2
+        # Idziemy pętlą od końca
+        for i in range(len(binary) - 1, -1, -1):
+            decimal += int(binary[i]) * power  # Przemnażamy cyfrę przez potęgę dwójki
+            power *= 2  # Zwiększamy potęgę dwójki
+        
+        return decimal
 
-def count_divisible_by_10(binary_numbers_list):
-    count = 0
-    for binary in binary_numbers_list:
-        decimal = binary_to_decimal(binary)
-        if decimal % 10 == 0:
-            count += 1
+    def count_divisible_by_10(binary_numbers_list):
+        count = 0
+        for binary in binary_numbers_list:
+            decimal = binary_to_decimal(binary)
+            if decimal % 10 == 0:
+                count += 1
 
-    return count
-```
-{% endtab %}
+        return count
+    ```
 
-{% tab title="Rozwiązanie 2" %}
-```python
-def count_divisible_by_10(binary_numbers_list):
-    count = 0
-    for binary in binary_numbers_list:
-        decimal = int(binary, 2)  # Konwertujemy tekst na liczbę dziesiętną za pomocą funkcji int. Jej drugi parametr to podstawa systemu, z którego dokonujemy konwersji.
-        if decimal % 10 == 0:
-            count += 1
-    
-    return count
-```
-{% endtab %}
-{% endtabs %}
+=== "Rozwiązanie 2"
+
+    ```python
+    def count_divisible_by_10(binary_numbers_list):
+        count = 0
+        for binary in binary_numbers_list:
+            decimal = int(binary, 2)  # Konwertujemy tekst na liczbę dziesiętną za pomocą funkcji int. Jej drugi parametr to podstawa systemu, z którego dokonujemy konwersji.
+            if decimal % 10 == 0:
+                count += 1
+        
+        return count
+    ```
 
 ## Zadanie 4
 
@@ -180,29 +177,27 @@ def find_min_max(binary_numbers_list):
 
 ## Zadanie 9
 
-{% tabs %}
-{% tab title="Rozwiązanie 1" %}
-```python
-def count_unique(binary_numbers_list):
-    dict_counter = dict()
-    for binary in binary_numbers_list:
-        dict_counter[binary] = 1  # Przypisujemy dowolną wartość, żeby dodać liczbę do słownika
+=== "Rozwiązanie 1"
 
-    return len(dict_counter)  # Zwracamy długość słownika
-```
-{% endtab %}
+    ```python
+    def count_unique(binary_numbers_list):
+        dict_counter = dict()
+        for binary in binary_numbers_list:
+            dict_counter[binary] = 1  # Przypisujemy dowolną wartość, żeby dodać liczbę do słownika
 
-{% tab title="Rozwiązanie 2" %}
-```python
-def count_unique(binary_numbers_list):
-    set_counter = set()  # Zbiór unikalnych wartości
-    for binary in binary_numbers_list:
-        set_counter.add(binary)  # Dopisujemy liczbę binarną do zbioru
+        return len(dict_counter)  # Zwracamy długość słownika
+    ```
 
-    return len(set_counter)  # Zwracamy długość zbioru
-```
-{% endtab %}
-{% endtabs %}
+=== "Rozwiązanie 2"
+
+    ```python
+    def count_unique(binary_numbers_list):
+        set_counter = set()  # Zbiór unikalnych wartości
+        for binary in binary_numbers_list:
+            set_counter.add(binary)  # Dopisujemy liczbę binarną do zbioru
+
+        return len(set_counter)  # Zwracamy długość zbioru
+    ```
 
 ## Zadanie 10
 

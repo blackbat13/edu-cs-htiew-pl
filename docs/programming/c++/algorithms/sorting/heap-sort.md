@@ -1,15 +1,11 @@
 # Sortowanie przez kopcowanie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/heap-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/heap-sort.md" %}
-[heap-sort.md](../../../../algorithms/sorting/heap-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -52,4 +48,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

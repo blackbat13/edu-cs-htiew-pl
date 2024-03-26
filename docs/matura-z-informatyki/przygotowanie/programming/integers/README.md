@@ -1,16 +1,12 @@
 # Liczby całkowite
 
-W pliku **integers.txt** znajduje się $$100$$ **różnych** liczb naturalnych z zakresu $$[2,200]$$. Każda linia w pliku zawiera jedną liczbę.
+W pliku **integers.txt** znajduje się $100$ **różnych** liczb naturalnych z zakresu $[2,200]$. Każda linia w pliku zawiera jedną liczbę.
 
-{% file src="../../../../.gitbook/assets/integers/integers.txt" %}
-integers.txt
-{% endfile %}
+[:material-note-text: integers.txt](../../../../assets/integers/integers.txt)
 
-W pliku *integers_test.txt* znajduje się $$10$$ **różnych** liczb całkowitych. Każda linia w pliku zawiera jedną liczbę.
+W pliku *integers_test.txt* znajduje się $10$ **różnych** liczb całkowitych. Każda linia w pliku zawiera jedną liczbę.
 
-{% file src="../../../../.gitbook/assets/integers/integers_test.txt" %}
-integers_test.txt
-{% endfile %}
+[:material-note-text: integers_test.txt](../../../../assets/integers/integers_test.txt)
 
 Napisz program/programy rozwiązujące poniższe zadania.
 
@@ -232,7 +228,7 @@ Wynik dla pliku *integers_test.txt*:
 
 ## Zadanie 21
 
-Podaj wszystkie liczby z pliku, które są liczbami **Kaprekara**. Liczba Kaprekara to taka liczba, której kwadrat można podzielić na dwie części (tak by obie były różne od zera), które po zsumowaniu dają wynik równy oryginalnej liczbie. Przykładowo, $$55$$ jest liczbą Kaprekara, ponieważ $$(55)^2 = 3025$$, a $$30 + 25 = 55$$.
+Podaj wszystkie liczby z pliku, które są liczbami **Kaprekara**. Liczba Kaprekara to taka liczba, której kwadrat można podzielić na dwie części (tak by obie były różne od zera), które po zsumowaniu dają wynik równy oryginalnej liczbie. Przykładowo, $55$ jest liczbą Kaprekara, ponieważ $(55)^2 = 3025$, a $30 + 25 = 55$.
 
 Wynik dla pliku *integers_test.txt*:
 
@@ -242,7 +238,7 @@ Wynik dla pliku *integers_test.txt*:
 
 ## Zadanie 22
 
-Podaj wszystkie liczby z pliku, które są liczbami **wieżowymi**, tzn. w ich zapisie binarnym najpierw występuję ciąg składający się z jednej lub więcej cyfr $$1$$, a następnie ciąg składający się z jednej lub więcej cyfr $$0$$. Podaj także zapis binarny tych liczb.
+Podaj wszystkie liczby z pliku, które są liczbami **wieżowymi**, tzn. w ich zapisie binarnym najpierw występuję ciąg składający się z jednej lub więcej cyfr $1$, a następnie ciąg składający się z jednej lub więcej cyfr $0$. Podaj także zapis binarny tych liczb.
 
 Wynik dla pliku *integers_test.txt*:
 
@@ -255,7 +251,7 @@ Wynik dla pliku *integers_test.txt*:
 
 ## Zadanie 23
 
-Podaj wszystkie liczby z pliku, które są liczbami **Fryderyka**, tzn. są równe sumie kolejnych potęg swoich cyfr. Przykładowo, $$89$$ jest liczbą Fryderyka, ponieważ $$8^1 + 9^2 = 89$$.
+Podaj wszystkie liczby z pliku, które są liczbami **Fryderyka**, tzn. są równe sumie kolejnych potęg swoich cyfr. Przykładowo, $89$ jest liczbą Fryderyka, ponieważ $8^1 + 9^2 = 89$.
 
 Wynik dla pliku *integers_test.txt*:
 
@@ -267,9 +263,9 @@ Wynik dla pliku *integers_test.txt*:
 
 ## Zadanie 24
 
-Liczbą **Keitha** nazywamy $$n$$-cyfrową liczbę całkowitą $$k$$, która stanowi element ciągu liczbowego, w któym pierwsze $$n$$ wyrazów to cyfry liczby $$k$$, a każdy kolejny wyraz to suma poprzedzających go $$n$$ wyrazów.
+Liczbą **Keitha** nazywamy $n$-cyfrową liczbę całkowitą $k$, która stanowi element ciągu liczbowego, w któym pierwsze $n$ wyrazów to cyfry liczby $k$, a każdy kolejny wyraz to suma poprzedzających go $n$ wyrazów.
 
-Dla przykładu, liczba $$197$$ jest liczbą Keitha, ponieważ tworzy ciąg $$1, 9, 7, 17, 33, 57, 107, 197$$.
+Dla przykładu, liczba $197$ jest liczbą Keitha, ponieważ tworzy ciąg $1, 9, 7, 17, 33, 57, 107, 197$.
 
 Podaj wszystkie liczby z pliku, które są liczbami Keitha.
 

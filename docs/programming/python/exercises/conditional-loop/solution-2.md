@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$n$$ - liczba naturalna
+* $n$ - liczba naturalna
 
 #### Wynik
 
-* Suma cyfr liczby $$n$$
+* Suma cyfr liczby $n$
 
 ## Rozwiązanie
 

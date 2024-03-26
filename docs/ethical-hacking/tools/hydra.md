@@ -4,9 +4,7 @@ Hydra jest szybkim i skutecznym narzędziem do ataków typu brute force na wiele
 
 Hydra przeprowadza ataki przeszukując przestrzeń możliwych haseł w celu znalezienia prawidłowego. Atak siłowy polega na systematycznym sprawdzaniu wszystkich możliwych kombinacji haseł, dopóki nie zostanie znalezione prawidłowe. Hydra potrafi równocześnie atakować wiele hostów i obsługuje wiele protokołów i usług, w tym, między innymi, Telnet, FTP, HTTP, HTTPS, SMB, SNMP, SMTP, POP3, IMAP, Oracle, MySQL i wiele innych.
 
-{% embed url="https://www.kali.org/tools/hydra/" %}
-Hydra
-{% endembed %}
+[Hydra](https://www.kali.org/tools/hydra/)
 
 ## Przykłady użycia
 

@@ -1,15 +1,11 @@
 # Szyfr płotkowy
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/cryptography/symmetric/rail-fence.md)
 
-{% content-ref url="../../../../algorithms/cryptography/symmetric/rail-fence.md" %}
-[rail-fence.md](../../../../algorithms/cryptography/symmetric/rail-fence.md)
-{% endcontent-ref %}
 
 ## Szyfrowanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def encrypt_rail_fence(message: str, key: int) -> str:
     encrypted = ""
 
@@ -32,12 +28,11 @@ encrypted = encrypt_rail_fence(message, key)
 
 print(encrypted)
 ```
-{% endcode %}
+
 
 ## Deszyfrowanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def decrypt_rail_fence(message: str, key: int) -> str:
     decrypted = list(message)
     j = 0
@@ -62,4 +57,4 @@ decrypted = decrypt_rail_fence(message, key)
 
 print(decrypted)
 ```
-{% endcode %}
+

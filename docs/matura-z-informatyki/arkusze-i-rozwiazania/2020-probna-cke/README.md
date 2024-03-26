@@ -2,20 +2,12 @@
 
 ## Arkusze
 
-{% file src="../../../.gitbook/assets/2020_p_cke_a1.pdf" %}
-Część I
-{% endfile %}
+[:fontawesome-solid-file-pdf: Część I](../../../assets/2020_p_cke_a1.pdf)
 
-{% file src="../../../.gitbook/assets/2020_p_cke_a2.pdf" %}
-Część II
-{% endfile %}
+[:fontawesome-solid-file-pdf: Część II](../../../assets/2020_p_cke_a2.pdf)
 
-{% file src="../../../.gitbook/assets/2020_p_cke_dane.zip" %}
-Dane
-{% endfile %}
+[:material-folder-zip: Dane](../../../assets/2020_p_cke_dane.zip)
 
 ## Odpowiedzi
 
-{% file src="../../../.gitbook/assets/2020_p_cke_klucz.pdf" %}
-Klucz
-{% endfile %}
+[:fontawesome-solid-file-pdf: Klucz](../../../assets/2020_p_cke_klucz.pdf)

@@ -1,16 +1,12 @@
 # Punkty
 
-W pliku *points.txt* znajduje się tysiąc linii. Każda linia zawiera dwie liczby naturalne z przedziału $$[1, 100]$$ oddzielone spacją. Każda para wartości oznacza współrzędne pola w tablicy o wymiarach $$100\times100$$ (pierwsza liczba to numer wiersza, druga to numer kolumny). 
+W pliku *points.txt* znajduje się tysiąc linii. Każda linia zawiera dwie liczby naturalne z przedziału $[1, 100]$ oddzielone spacją. Każda para wartości oznacza współrzędne pola w tablicy o wymiarach $100\times100$ (pierwsza liczba to numer wiersza, druga to numer kolumny). 
 
-{% file src="../../../../.gitbook/assets/points/points.txt" %}
-points.txt
-{% endfile %}
+[:material-note-text: points.txt](../../../../assets/points/points.txt)
 
-Plik *points_test.txt* zawiera sto linii, a w każdej znajduje się jedna para liczb naturalnych z przedziału $$[1, 10]$$ oddzielona spacją. Wartości oznaczają współrzędne pola w tablicy o wymiarach $$10\times10$$ (pierwsza liczba to numer wiersza, druga to numer kolumny).
+Plik *points_test.txt* zawiera sto linii, a w każdej znajduje się jedna para liczb naturalnych z przedziału $[1, 10]$ oddzielona spacją. Wartości oznaczają współrzędne pola w tablicy o wymiarach $10\times10$ (pierwsza liczba to numer wiersza, druga to numer kolumny).
 
-{% file src="../../../../.gitbook/assets/points/points_test.txt" %}
-points_test.txt
-{% endfile %}
+[:material-note-text: points_test.txt](../../../../assets/points/points_test.txt)
 
 Do każdego pola w tablicy przypisana jest wartość liczbowa. Zakładamy, że początkowo wszystkie pola w tablicy mają wartość zero. Jeżeli współrzędne pola znajdują się w pliku, to znaczy, że to pole zyskuje jeden punkt. Jeżeli współrzędne danego pola pojawiają się wielokrotnie, to znaczy, że to pole zyskuje tyle samo punktów, ile razy jego współrzędne się pojawiły.
 
@@ -92,6 +88,6 @@ Nad główną przekątną: 46
 
 ## Zadanie 8
 
-Policz, ile jest w tablicy takich poddtablic o wymiarach $$2\times2$$, w których wartości pól się nie powtarzają.
+Policz, ile jest w tablicy takich poddtablic o wymiarach $2\times2$, w których wartości pól się nie powtarzają.
 
 Dla pliku *points_test.txt* wynik to 6.

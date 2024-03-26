@@ -1,7 +1,6 @@
 # Python - rozwiązanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 case_count = int(input())
 
 for case_id in range(1, case_count + 1):
@@ -23,4 +22,4 @@ for case_id in range(1, case_count + 1):
     else:
         print(f"Case {case_id}: No")
 ```
-{% endcode %}
+

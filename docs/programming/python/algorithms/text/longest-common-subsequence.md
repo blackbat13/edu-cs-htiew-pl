@@ -1,15 +1,11 @@
 # Najdłuższy wspólny podciąg
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/longest-common-subsequence.md)
 
-{% content-ref url="../../../../algorithms/text/longest-common-subsequence.md" %}
-[longest-common-subsequence.md](../../../../algorithms/text/longest-common-subsequence.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def longest_common_subsequence(a: str, b: str) -> str:
     matrix = [[0] * (len(b) + 1) for _ in range(len(a) + 1)]
     result = ""
@@ -45,4 +41,4 @@ lcs = longest_common_subsequence(a, b)
     
 print(f"Longest common subsequence of words {a} and {b} is {lcs}")
 ```
-{% endcode %}
+

@@ -32,4 +32,4 @@ Na najwyższym poziomie, warstwa aplikacji jest warstwą, z którą najczęście
 
 ## Kapsułkowanie danych według modelu odniesienia OSI
 
-![Autorstwa ToAr - Praca własna, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=4223068](../.gitbook/assets/Kapsułkowanie_danych_wg_modelu_odniesienia_OSI.svg)
+![Autorstwa ToAr - Praca własna, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=4223068](../assets/Kapsułkowanie_danych_wg_modelu_odniesienia_OSI.svg)

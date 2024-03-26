@@ -16,15 +16,11 @@ Poniżej znajdziesz prezentację, na której poszczególne kroki algorytmu są w
 
 ## Prezentacja
 
-{% file src="../../.gitbook/assets/Sortowanie Szybkie.pdf" %}
-Sortowanie szybkie - prezentacja
-{% endfile %}
+[:fontawesome-solid-file-pdf: Sortowanie szybkie - prezentacja](../../assets/Sortowanie Szybkie.pdf)
 
 ## Taneczne sortowanie
 
-{% embed url="https://www.youtube.com/watch?v=ywWBy6J5gz8" %}
 [Taneczne sortowanie](https://www.youtube.com/watch?v=ywWBy6J5gz8)
-{% endembed %}
 
 ## Rozwiązanie
 
@@ -83,32 +79,32 @@ flowchart TD
 
 ### Złożoność
 
-Algorytm Quicksort ma złożoność obliczeniową $$O(n\log{n})$$ w przypadku średnim, co czyni go jednym z najbardziej efektywnych algorytmów sortujących. Jednakże, w najgorszym przypadku, gdy podział listy jest zawsze najbardziej nierównomierny (na przykład, gdy lista jest już posortowana), złożoność obliczeniowa może wzrosnąć do $$O(n^2)$$.
+Algorytm Quicksort ma złożoność obliczeniową $O(n\log{n})$ w przypadku średnim, co czyni go jednym z najbardziej efektywnych algorytmów sortujących. Jednakże, w najgorszym przypadku, gdy podział listy jest zawsze najbardziej nierównomierny (na przykład, gdy lista jest już posortowana), złożoność obliczeniowa może wzrosnąć do $O(n^2)$.
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/sorting/quick-sort.md" %}
+
 [quick-sort.md](../../programming/c++/algorithms/sorting/quick-sort.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/sorting/quick-sort.md" %}
+
 [quick-sort.md](../../programming/python/algorithms/sorting/quick-sort.md)
-{% endcontent-ref %}
+
 
 ### Kotlin
 
-{% content-ref url="../../programming/kotlin/algorithms/sorting/quick-sort.md" %}
+
 [quick-sort.md](../../programming/kotlin/algorithms/sorting/quick-sort.md)
-{% endcontent-ref %}
+
 
 ## Implementacja - pozostałe
 
 ### Julia
 
-{% content-ref url="../../programming/julia/algorithms/sorting/quick-sort.md" %}
+
 [quick-sort.md](../../programming/julia/algorithms/sorting/quick-sort.md)
-{% endcontent-ref %}
+

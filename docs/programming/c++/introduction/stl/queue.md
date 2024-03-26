@@ -15,9 +15,7 @@ Kolejka znajduje się w bibliotece `queue`.
 
 ### Dokumentacja
 
-{% embed url="https://www.cplusplus.com/reference/queue/queue/" %}
-Queue Reference
-{% endembed %}
+[Queue Reference](https://www.cplusplus.com/reference/queue/queue/)
 
 ## Implementacja: przykłady
 
@@ -131,9 +129,7 @@ int main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/xR1i8c" %}
-queue - przykłady
-{% endembed %}
+[queue - przykłady](https://ideone.com/xR1i8c)
 
 ## Kolejka priorytetowa
 
@@ -151,6 +147,4 @@ Aby korzystać z kolejki priorytetowej potrzebujemy biblioteki `priority_queue`.
 
 ### Dokumentacja
 
-{% embed url="https://www.cplusplus.com/reference/queue/priority_queue/" %}
-Priority Queue Reference
-{% endembed %}
+[Priority Queue Reference](https://www.cplusplus.com/reference/queue/priority_queue/)

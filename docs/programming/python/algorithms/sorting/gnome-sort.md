@@ -1,15 +1,11 @@
 # Sortowanie gnoma
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/gnome-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/gnome-sort.md" %}
-[gnome-sort.md](../../../../algorithms/sorting/gnome-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def gnome_sort(array: list):
     i = 0
     while i < len(array):
@@ -26,7 +22,7 @@ gnome_sort(array)
     
 print(array)
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 

@@ -1,10 +1,7 @@
 # Sortowanie przez scalanie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/merge-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/merge-sort.md" %}
-[merge-sort.md](../../../../algorithms/sorting/merge-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -59,6 +56,4 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/P8XQMA" %}
-Sortowanie przez scalanie
-{% endembed %}
+[Sortowanie przez scalanie](https://ideone.com/P8XQMA)

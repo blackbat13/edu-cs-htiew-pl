@@ -10,6 +10,4 @@ Wireshark jest często stosowany przez administratorów sieci do rozwiązywania 
 
 ## Ściąga
 
-{% embed url="https://cdn.comparitech.com/wp-content/uploads/2019/06/Wireshark-Cheat-Sheet.pdf" %}
-Ściąga
-{% endembed %}
+[Ściąga](https://cdn.comparitech.com/wp-content/uploads/2019/06/Wireshark-Cheat-Sheet.pdf)

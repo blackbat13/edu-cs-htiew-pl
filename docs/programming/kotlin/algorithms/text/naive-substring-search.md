@@ -1,10 +1,7 @@
 # Naiwne wyszukiwanie wzorca w tekście
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/naive-substring-search.md)
 
-{% content-ref url="../../../../algorithms/text/naive-substring-search.md" %}
-[naive-substring-search.md](../../../../algorithms/text/naive-substring-search.md)
-{% endcontent-ref %}
 
 ## Znajdowanie miejsca pierwszego wystąpienia wzorca w tekście 
 
@@ -33,9 +30,7 @@ else:
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/mZaOZo" %}
-Znajdowanie miejsca pierwszego wystąpienia wzorca w tekście
-{% endembed %}
+[Znajdowanie miejsca pierwszego wystąpienia wzorca w tekście](https://ideone.com/mZaOZo)
 
 ### Opis implementacji
 

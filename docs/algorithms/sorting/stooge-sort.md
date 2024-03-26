@@ -8,7 +8,7 @@ Sortowanie stooge (ang. *Stoogesort*) to rekurencyjny algorytm sortowania znany 
 
 ## Animacja
 
-![By Simpsons contributor - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=16021267](../../.gitbook/assets/Sorting_stoogesort_anim.gif)
+![By Simpsons contributor - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=16021267](../../assets/Sorting_stoogesort_anim.gif)
 
 ## Pseudokod
 
@@ -26,18 +26,18 @@ procedura SortowanieStooge(A, i, j):
 
 ## Złożoność
 
-Złożoność czasowa algorytmu jest rzędu $$O(n^{\log{3}/\log{1.5}})=O(n^{2.7095...})$$
+Złożoność czasowa algorytmu jest rzędu $O(n^{\log{3}/\log{1.5}})=O(n^{2.7095...})$
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/sorting/stooge-sort.md" %}
+
 [stooge-sort.md](../../programming/c++/algorithms/sorting/stooge-sort.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/sorting/stooge-sort.md" %}
+
 [stooge-sort.md](../../programming/python/algorithms/sorting/stooge-sort.md)
-{% endcontent-ref %}
+

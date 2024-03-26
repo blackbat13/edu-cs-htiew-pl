@@ -4,10 +4,8 @@ Prawa autorskie i właściwe posługiwanie się nimi oraz przestrzeganie ich jes
 
 ## Prezentacja
 
-{% file src="../.gitbook/assets/Prawa autorskie.pdf" %}
-Prezentacja
-{% endfile %}
+[:fontawesome-solid-file-pdf: Prezentacja](../assets/Prawa autorskie.pdf)
 
 ## Creative Commons
 
-![Autorzy: Centrum Cyfrowe i Vivid Studio](../.gitbook/assets/CC-infografika-final-min.jpg)
+![Autorzy: Centrum Cyfrowe i Vivid Studio](../assets/CC-infografika-final-min.jpg)

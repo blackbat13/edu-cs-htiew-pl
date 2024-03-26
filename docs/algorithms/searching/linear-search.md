@@ -16,21 +16,19 @@ Naszym celem będzie więc sprawdzenie, czy w tablicy znajduje się poszukiwana 
 
 ### Taneczne wyszukiwanie
 
-{% embed url="https://www.youtube.com/watch?v=-PuqKbu9K3U" %}
 [Taneczne wyszukiwanie liniowe](https://www.youtube.com/watch?v=-PuqKbu9K3U)
-{% endembed %}
 
 ### Specyfikacja
 
 #### Dane
 
-* $$n$$ — liczba naturalna, liczba elementów w tablicy
-* $$A[1..n]$$ — tablica n wartości całkowitych
-* $$k$$ — liczba całkowita, szukana wartość
+* $n$ — liczba naturalna, liczba elementów w tablicy
+* $A[1..n]$ — tablica n wartości całkowitych
+* $k$ — liczba całkowita, szukana wartość
 
 #### Wynik
 
-* Wartość **PRAWDA**, jeżeli wartość $$k$$ znajduje się w tablicy $$A$$, lub **FAŁSZ** w przeciwnym przypadku
+* Wartość **PRAWDA**, jeżeli wartość $k$ znajduje się w tablicy $A$, lub **FAŁSZ** w przeciwnym przypadku
 
 ### Przykład 1
 
@@ -44,11 +42,10 @@ k := 7
 
 **Wynik**: **PRAWDA**
 
-{% hint style="info" %}
-**Wyjaśnienie**
-
-Poszukiwana wartość w tablicy to $$7$$. Jak widać, ta wartość znajduje się w tablicy, stąd też wynik to **PRAWDA**.
-{% endhint %}
+!!! info
+	**Wyjaśnienie**
+	
+	Poszukiwana wartość w tablicy to $7$. Jak widać, ta wartość znajduje się w tablicy, stąd też wynik to **PRAWDA**.
 
 ### Przykład 2
 
@@ -62,11 +59,10 @@ k := 3
 
 **Wynik**: **FAŁSZ**
 
-{% hint style="info" %}
-**Wyjaśnienie**
-
-Poszukujemy wartości $$3$$, która nie występuje w tablicy. Dlatego wynik to **FAŁSZ**.
-{% endhint %}
+!!! info
+	**Wyjaśnienie**
+	
+	Poszukujemy wartości $3$, która nie występuje w tablicy. Dlatego wynik to **FAŁSZ**.
 
 ### Rozwiązanie
 
@@ -78,9 +74,8 @@ Pozostaje nam jeszcze jednak do rozważenia sytuacja, w której poszukiwany elem
 
 W takim razie, gdy sprawdzimy już wszystkie elementy tablicy i **nadal będziemy wykonywać kolejne operacje** (ponieważ nie zakończyliśmy wcześniej działania) będzie to oznaczało, że nie znaleźliśmy elementu w tablicy! W takim razie zwracamy **FAŁSZ** i kończymy działanie. 
 
-{% hint style="warning" %}
-Zwróć uwagę na to, że wartość **FAŁSZ** należy zwrócić **po** sprawdzeniu **wszystkich** elementów tablicy, czyli **po wyjściu z pętli**.
-{% endhint %}
+!!! warning
+	 Zwróć uwagę na to, że wartość **FAŁSZ** należy zwrócić **po** sprawdzeniu **wszystkich** elementów tablicy, czyli **po wyjściu z pętli**.
 
 ### Pseudokod
 
@@ -111,29 +106,28 @@ flowchart TD
 
 ### Złożoność 
 
-Głównym elementem algorytmu jest pętla przechodząca po kolei przez wszystkie wartości w tablicy. Ta pętla wykonuje dokładnie $$n$$ powtórzeń. Stąd też otrzymujemy złożoność liniową.
+Głównym elementem algorytmu jest pętla przechodząca po kolei przez wszystkie wartości w tablicy. Ta pętla wykonuje dokładnie $n$ powtórzeń. Stąd też otrzymujemy złożoność liniową.
 
-$$O(n)$$ — liniowa
+$O(n)$ — liniowa
 
 ## Pozycja elementu
 
 Czasami nie wystarczy nam informacja, że element _gdzieś_ się znajduje. Czasem musimy dokładnie wiedzieć, w którym miejscu jest. Innymi słowy, chcemy poznać położenie, czy też indeks w tablicy, pod którym znajduje się poszukiwana wartość (jeżeli oczywiście w ogóle znajduje się w tablicy). Zacznijmy od formalnej specyfikacji i kilku przykładów.
 
-{% hint style="warning" %}
-Szukana wartość może występować w tablicy wielokrotnie. Nas jednak na początek interesuje jej **dowolne** położenie. 
-{% endhint %}
+!!! warning
+	 Szukana wartość może występować w tablicy wielokrotnie. Nas jednak na początek interesuje jej **dowolne** położenie. 
 
 ### Specyfikacja
 
 #### Dane
 
-* $$n$$ — liczba naturalna, liczba elementów w tablicy
-* $$A[1..n]$$ — tablica n wartości całkowitych
-* $$k$$ — liczba całkowita, szukana wartość
+* $n$ — liczba naturalna, liczba elementów w tablicy
+* $A[1..n]$ — tablica n wartości całkowitych
+* $k$ — liczba całkowita, szukana wartość
 
 #### Wynik
 
-* Indeks dowolnego wystąpienia wartości $$k$$ w tablicy $$A$$, lub $$-1$$ jeżeli tej wartości nie ma w tablicy
+* Indeks dowolnego wystąpienia wartości $k$ w tablicy $A$, lub $-1$ jeżeli tej wartości nie ma w tablicy
 
 ### Przykład 1
 
@@ -145,13 +139,12 @@ A := [5, 2, 7, 9, 1]
 k := 7 
 ```
 
-**Wynik**: $$3$$ 
+**Wynik**: $3$ 
 
-{% hint style="info" %}
-**Wyjaśnienie**
-
-Poszukiwana wartość w tablicy to $$7$$. Jak widać, ta wartość znajduje się na trzecim miejscu w tablicy, stąd też wynik wynosi $$3$$.
-{% endhint %}
+!!! info
+	**Wyjaśnienie**
+	
+	Poszukiwana wartość w tablicy to $7$. Jak widać, ta wartość znajduje się na trzecim miejscu w tablicy, stąd też wynik wynosi $3$.
 
 ### Przykład 2
 
@@ -163,21 +156,20 @@ A := [5, 2, 7, 9, 1]
 k := 3
 ```
 
-**Wynik**: $$-1$$
+**Wynik**: $-1$
 
-{% hint style="info" %}
-**Wyjaśnienie**
-
-Poszukujemy wartości $$3$$, która nie występuje w tablicy. Dlatego wynik to $$-1$$.
-{% endhint %}
+!!! info
+	**Wyjaśnienie**
+	
+	Poszukujemy wartości $3$, która nie występuje w tablicy. Dlatego wynik to $-1$.
 
 ### Rozwiązanie
 
 Do skonstruowania rozwiązania tego problemu skorzystamy z poprzedniego rozwiązania. Zastanówmy się, jakie są różnice pomiędzy tymi dwoma problemami i co musimy zmienić.
 
-Różnicę tak naprawdę stanowią jedynie wartości, jakie mamy zwrócić w wyniku. Poprzednio zwracaliśmy **PRAWDA**, gdy element istniał w tablicy. Teraz mamy zwrócić jego **indeks**. Oznacza to, że musimy zmienić instrukcję, w której zwracamy wynik **PRAWDA** (numer 3). Powinniśmy w tym miejscu zwrócić indeks elementu, jednak skąd wziąć tę wartość? Przyjrzyjmy się poprzedzającej instrukcji warunkowej. W niej sprawdzamy, czy szukana wartość występuje pod **aktualnie sprawdzanym indeksem** w tablicy. A jaki to jest indeks? Ten indeks określany jest przez zmienną, która stanowi **licznik naszej pętli**, czyli przez zmienną $$i$$. W takim razie zamiast **PRAWDA** zwracamy wartość zmiennej $$i$$. Gotowe!
+Różnicę tak naprawdę stanowią jedynie wartości, jakie mamy zwrócić w wyniku. Poprzednio zwracaliśmy **PRAWDA**, gdy element istniał w tablicy. Teraz mamy zwrócić jego **indeks**. Oznacza to, że musimy zmienić instrukcję, w której zwracamy wynik **PRAWDA** (numer 3). Powinniśmy w tym miejscu zwrócić indeks elementu, jednak skąd wziąć tę wartość? Przyjrzyjmy się poprzedzającej instrukcji warunkowej. W niej sprawdzamy, czy szukana wartość występuje pod **aktualnie sprawdzanym indeksem** w tablicy. A jaki to jest indeks? Ten indeks określany jest przez zmienną, która stanowi **licznik naszej pętli**, czyli przez zmienną $i$. W takim razie zamiast **PRAWDA** zwracamy wartość zmiennej $i$. Gotowe!
 
-Teraz skupmy się na drugim możliwym wyniku. Przedtem zwracaliśmy **FAŁSZ**. Co teraz powinniśmy zwrócić, gdy element nie występuje w tablicy? Wystarczy spojrzeć na specyfikację. Zastępujemy **FAŁSZ** wartością $$-1$$ i kończymy działanie.
+Teraz skupmy się na drugim możliwym wyniku. Przedtem zwracaliśmy **FAŁSZ**. Co teraz powinniśmy zwrócić, gdy element nie występuje w tablicy? Wystarczy spojrzeć na specyfikację. Zastępujemy **FAŁSZ** wartością $-1$ i kończymy działanie.
 
 ### Pseudokod
 
@@ -208,7 +200,7 @@ flowchart TD
 
 ### Złożoność 
 
-$$O(n)$$ — liniowa
+$O(n)$ — liniowa
 
 ## Wszystkie pozycje elementu
 
@@ -218,13 +210,13 @@ Wiemy już jak sprawdzić, czy wartość występuje w tablicy, a także jak ją 
 
 #### Dane
 
-* $$n$$ — liczba naturalna, liczba elementów w tablicy
-* $$A[1..n]$$ — tablica n wartości całkowitych
-* $$k$$ — liczba całkowita, szukana wartość
+* $n$ — liczba naturalna, liczba elementów w tablicy
+* $A[1..n]$ — tablica n wartości całkowitych
+* $k$ — liczba całkowita, szukana wartość
 
 #### Wynik
 
-* Lista wszystkich indeksów, pod którymi znajduje się wartość $$k$$ w tablicy $$A$$
+* Lista wszystkich indeksów, pod którymi znajduje się wartość $k$ w tablicy $A$
 
 ### Przykład 1
 
@@ -236,13 +228,12 @@ A := [7, 2, 7, 9, 7]
 k := 7 
 ```
 
-**Wynik**: $$[1, 3, 5]$$ 
+**Wynik**: $[1, 3, 5]$ 
 
-{% hint style="info" %}
-**Wyjaśnienie**
-
-Poszukiwana wartość w tablicy to $$7$$. Jak widać, ta wartość znajduje się na pierwszym, trzecim oraz ostatnim (piątym) miejscu w tablicy.
-{% endhint %}
+!!! info
+	**Wyjaśnienie**
+	
+	Poszukiwana wartość w tablicy to $7$. Jak widać, ta wartość znajduje się na pierwszym, trzecim oraz ostatnim (piątym) miejscu w tablicy.
 
 ### Przykład 2
 
@@ -254,13 +245,12 @@ A := [7, 2, 7, 9, 7]
 k := 3 
 ```
 
-**Wynik**: $$[\ ]$$ 
+**Wynik**: $[\ ]$ 
 
-{% hint style="info" %}
-**Wyjaśnienie**
-
-Poszukiwana wartość w tablicy to $$3$$. Jak widać, ta wartość nie występuje w tablicy, stąd też wynik jest pusty, ponieważ lista indeksów jest pusta.
-{% endhint %}
+!!! info
+	**Wyjaśnienie**
+	
+	Poszukiwana wartość w tablicy to $3$. Jak widać, ta wartość nie występuje w tablicy, stąd też wynik jest pusty, ponieważ lista indeksów jest pusta.
 
 ### Rozwiązanie
 
@@ -298,116 +288,115 @@ flowchart TD
 
 ### Złożoność
 
-$$O(n)$$ — liniowa
+$O(n)$ — liniowa
 
 ## Implementacje — główne
 
 ### Pascal
 
-{% content-ref url="../../programming/pascal/algorithms/searching/linear-search.md" %}
+
 [linear-search.md](../../programming/pascal/algorithms/searching/linear-search.md)
-{% endcontent-ref %}
+
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/searching/linear-search.md" %}
+
 [linear-search.md](../../programming/c++/algorithms/searching/linear-search.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/searching/linear-search.md" %}
+
 [linear-search.md](../../programming/python/algorithms/searching/linear-search.md)
-{% endcontent-ref %}
+
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorithms/searching/linear-search.md" %}
+
 [linear-search.md](../../programming/blockly/algorithms/searching/linear-search.md)
-{% endcontent-ref %}
+
 
 ## Implementacje — pozostałe
 
 ### C
 
-{% content-ref url="../../programming/c/algorithms/searching/linear-search.md" %}
+
 [linear-search.md](../../programming/c/algorithms/searching/linear-search.md)
-{% endcontent-ref %}
+
 
 ### Dart
 
-{% content-ref url="../../programming/dart/algorithms/searching/linear-search.md" %}
+
 [linear-search.md](../../programming/dart/algorithms/searching/linear-search.md)
-{% endcontent-ref %}
+
 
 ### Elixir
 
-{% content-ref url="../../programming/elixir/algorithms/searching/linear-search.md" %}
+
 [linear-search.md](../../programming/elixir/algorithms/searching/linear-search.md)
-{% endcontent-ref %}
+
 
 ### Go
 
-{% content-ref url="../../programming/go/algorithms/searching/linear-search.md" %}
+
 [linear-search.md](../../programming/go/algorithms/searching/linear-search.md)
-{% endcontent-ref %}
+
 
 ### Haskell
 
-{% content-ref url="../../programming/haskell/algorithms/searching/linear-search.md" %}
+
 [linear-search.md](../../programming/haskell/algorithms/searching/linear-search.md)
-{% endcontent-ref %}
+
 
 ### JavaScript
 
-{% content-ref url="../../programming/javascript/algorithms/searching/linear-search.md" %}
+
 [linear-search.md](../../programming/javascript/algorithms/searching/linear-search.md)
-{% endcontent-ref %}
+
 
 ### Julia
 
-{% content-ref url="../../programming/julia/algorithms/searching/linear-search.md" %}
+
 [linear-search.md](../../programming/julia/algorithms/searching/linear-search.md)
-{% endcontent-ref %}
+
 
 ### Kotlin
 
-{% content-ref url="../../programming/kotlin/algorithms/searching/linear-search.md" %}
+
 [linear-search.md](../../programming/kotlin/algorithms/searching/linear-search.md)
-{% endcontent-ref %}
+
 
 ### Lua
 
-{% content-ref url="../../programming/lua/algorithms/searching/linear-search.md" %}
+
 [linear-search.md](../../programming/lua/algorithms/searching/linear-search.md)
-{% endcontent-ref %}
+
 
 ### Rust
 
-{% content-ref url="../../programming/rust/algorithms/searching/linear-search.md" %}
+
 [linear-search.md](../../programming/rust/algorithms/searching/linear-search.md)
-{% endcontent-ref %}
+
 
 ### Scheme
 
-{% content-ref url="../../programming/scheme/algorithms/searching/linear-search.md" %}
+
 [linear-search.md](../../programming/scheme/algorithms/searching/linear-search.md)
-{% endcontent-ref %}
+
 
 ### Swift
 
-{% content-ref url="../../programming/swift/algorithms/searching/linear-search.md" %}
+
 [linear-search.md](../../programming/swift/algorithms/searching/linear-search.md)
-{% endcontent-ref %}
+
 
 ### TypeScript
 
-{% content-ref url="../../programming/typescript/algorithms/searching/linear-search.md" %}
+
 [linear-search.md](../../programming/typescript/algorithms/searching/linear-search.md)
-{% endcontent-ref %}
+
 
 ### Visual Basic
 
-{% content-ref url="../../programming/visual-basic/algorithms/searching/linear-search.md" %}
+
 [linear-search.md](../../programming/visual-basic/algorithms/searching/linear-search.md)
-{% endcontent-ref %}

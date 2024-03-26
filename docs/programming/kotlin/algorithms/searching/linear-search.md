@@ -1,10 +1,7 @@
 # Wyszukiwanie liniowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/linear-search.md)
 
-{% content-ref url="../../../../algorithms/searching/linear-search.md" %}
-[linear-search.md](../../../../algorithms/searching/linear-search.md)
-{% endcontent-ref %}
 
 ## Istnienie elementu
 
@@ -37,9 +34,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/ShpM4v" %}
-Wyszukiwanie liniowe - istnienie elementu
-{% endembed %}
+[Wyszukiwanie liniowe - istnienie elementu](https://ideone.com/ShpM4v)
 
 ### Opis implementacji
 
@@ -76,13 +71,11 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/KeI9lc" %}
-Wyszukiwanie liniowe - pozycja elementu
-{% endembed %}
+[Wyszukiwanie liniowe - pozycja elementu](https://ideone.com/KeI9lc)
 
 ### Opis implementacji
 
-Funkcja `linearSearch` (**linia 1**) zwraca jako wynik liczbę całkowitą i przyjmuje dwa argumenty: listę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w liście (**linia 2**). Dla każdego indeksu sprawdzamy, czy pod tym indeksem w liście znajduje się poszukiwana wartość (**linia 3**). Jeżeli tak, to zwracamy indeks wartości w liście (**linia 4**). Po przejściu przez wszystkie indeksy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość $$-1$$ informującą, że poszukiwany element nie znajduje się w liście (**linia 8**).
+Funkcja `linearSearch` (**linia 1**) zwraca jako wynik liczbę całkowitą i przyjmuje dwa argumenty: listę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w liście (**linia 2**). Dla każdego indeksu sprawdzamy, czy pod tym indeksem w liście znajduje się poszukiwana wartość (**linia 3**). Jeżeli tak, to zwracamy indeks wartości w liście (**linia 4**). Po przejściu przez wszystkie indeksy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość $-1$ informującą, że poszukiwany element nie znajduje się w liście (**linia 8**).
 
 W części głównej programu na początku przygotowujemy dane do problemu: listę (**linia 12**) oraz wartość poszukiwanego elementu (**linia 13**). Następnie wywołujemy funkcję `linearSearch` z wcześniej przygotowanymi parametrami i jej wynik zapisujemy w nowej zmiennej `index` (**linia 15**). W zależności od wyniku (**linia 17**) wypisujemy odpowiedni komunikat (**linie 18 i 20**).
 
@@ -110,9 +103,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/G8jeS5" %}
-Wyszukiwanie liniowe - wszystkie pozycje elementu
-{% endembed %}
+[Wyszukiwanie liniowe - wszystkie pozycje elementu](https://ideone.com/G8jeS5)
 
 ### Opis implementacji
 

@@ -6,7 +6,7 @@ Napisz funkcję `SzukajMax`, która dla podanego zakresu komórek, znajdzie i zw
 
 ### Przykład
 
-![Przykładowe dane](../../../../.gitbook/assets/vba/advanced-ex-1.png)
+![Przykładowe dane](../../../../assets/vba/advanced-ex-1.png)
 
 ```
 SzukajMax(A1:A10) = $A$3
@@ -18,7 +18,7 @@ Stwórz przycisk, który po kliknięciu pokoloruje wszystkie komórki w zakresie
 
 ### Przykład
 
-![Przykład](../../../../.gitbook/assets/vba/advanced-ex-2.gif)
+![Przykład](../../../../assets/vba/advanced-ex-2.gif)
 
 ## Zadanie 3
 
@@ -26,7 +26,7 @@ Stwórz przycisk, który po kliknięciu wpisze w kolumnie C wszystkie wartości 
 
 ### Przykład
 
-![Przykład](../../../../.gitbook/assets/vba/advanced-ex-3.gif)
+![Przykład](../../../../assets/vba/advanced-ex-3.gif)
 
 ## Zadanie 4
 
@@ -34,7 +34,7 @@ Komórki `A1:A10` zawierają imiona i nazwiska oddzielone pojedynczą spacją. S
 
 ### Przykład
 
-![Przykład](../../../../.gitbook/assets/vba/advanced-ex-4.gif)
+![Przykład](../../../../assets/vba/advanced-ex-4.gif)
 
 ## Zadanie 5
 

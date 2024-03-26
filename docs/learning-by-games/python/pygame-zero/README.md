@@ -8,9 +8,7 @@ Ci z Was, którzy interesują się tworzeniem gier mogli już wcześniej słysze
 
 Pygame Zero to biblioteka dla Pythona, przeznaczona do tworzenia gier. Jest to "zerowy wysiłek" dla użytkowników, co oznacza, że jest prosta w użyciu i nie wymaga instalacji dodatkowych narzędzi. Pygame Zero jest nakładką na bibliotekę Pygame, ale jest prostsza i bardziej dostępna dla początkujących.
 
-{% embed url="https://pygame-zero.readthedocs.io/en/stable/index.html" %}
-Pygame Zero
-{% endembed %}
+[Pygame Zero](https://pygame-zero.readthedocs.io/en/stable/index.html)
 
 ### Kluczowe cechy
 
@@ -55,7 +53,7 @@ import pgzrun
 
 ### Określamy wymiary okna gry
 
-Na początek określamy wymiary okna naszej gry. Zacznijmy klasycznie od wymiarów $$800\times600$$.
+Na początek określamy wymiary okna naszej gry. Zacznijmy klasycznie od wymiarów $800\times600$.
 W zależności od zapotrzebowania będziemy te wymiary dostosowywać do konkretnych gier.
 
 Wymiary określamy podając szerokość (ang. *width*) i wysokość (ang. *height*) okna gry.
@@ -124,7 +122,7 @@ pgzrun.go()
 
 ### Testujemy działanie
 
-Teraz czas uruchomić naszą "grę". Postępujemy standardowo: prawy przycisk myszy w edytorze -> _Run 'szablon'_. Naszym oczom powinien ukazać się piękny, czarny ekran o wymiarach $$800$$ na $$600$$ pikseli. Świetnie!
+Teraz czas uruchomić naszą "grę". Postępujemy standardowo: prawy przycisk myszy w edytorze -> _Run 'szablon'_. Naszym oczom powinien ukazać się piękny, czarny ekran o wymiarach $800$ na $600$ pikseli. Świetnie!
 
 Efekt może nie jest bardzo satysfakcjonujący, ale to oznacza, że biblioteka zainstalowana została poprawnie i możemy przejść do tworzenia naszych gier!
 
@@ -160,18 +158,17 @@ W pliku wpisujemy:
 pyinstaller --collect-all pgzero main.py --distpath . --add-data "images;images" --add-data "fonts;fonts" --add-data "sounds;sounds" --add-data "music;music" --onefile --noconfirm --windowed --clean
 ```
 
-{% hint style="warning" %}
-Skrypt należy dostosować do naszego projektu, a konkretnie do katalogów, jakich używamy. Powyższy skrypt będzie działał, jeżeli nasza gra używa:
-- grafik (`--add-data "images;images"`),
-- czcionek (`--add-data "fonts;fonts"`),
-- efektów dźwiękowych (`--add-data "sounds;sounds"`),
-- muzyki (`--add-data "music;music"`).
-
-Jeżeli nie mamy któregoś z katalogów w naszym projekcie, to ze skryptu należy usunąć odpowiednie polecenie. Np. jeżeli nasza gra korzysta **tylko** z grafik, to skrypt powinien wyglądać tak:
-```
-pyinstaller --collect-all pgzero main.py --distpath . --add-data "images;images" --onefile --noconfirm --windowed --clean
-```
-{% endhint %}
+!!! warning
+	Skrypt należy dostosować do naszego projektu, a konkretnie do katalogów, jakich używamy. Powyższy skrypt będzie działał, jeżeli nasza gra używa:
+	- grafik (`--add-data "images;images"`),
+	- czcionek (`--add-data "fonts;fonts"`),
+	- efektów dźwiękowych (`--add-data "sounds;sounds"`),
+	- muzyki (`--add-data "music;music"`).
+	
+	Jeżeli nie mamy któregoś z katalogów w naszym projekcie, to ze skryptu należy usunąć odpowiednie polecenie. Np. jeżeli nasza gra korzysta **tylko** z grafik, to skrypt powinien wyglądać tak:
+	```
+	pyinstaller --collect-all pgzero main.py --distpath . --add-data "images;images" --onefile --noconfirm --windowed --clean
+	```
 
 ### Tworzymy plik wykonywalny
 

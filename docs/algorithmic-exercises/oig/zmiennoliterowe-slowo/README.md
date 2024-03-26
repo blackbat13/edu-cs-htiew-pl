@@ -6,6 +6,4 @@ description: XIV OIJ, etap II
 
 ## Treść zadania
 
-{% embed url="https://szkopul.edu.pl/problemset/problem/gfylBgxHvl-DByutdYjcr7dS/statement/" %}
 [Zmiennoliterowe słowo](https://szkopul.edu.pl/problemset/problem/gfylBgxHvl-DByutdYjcr7dS/site/?key=statement)
-{% endembed %}

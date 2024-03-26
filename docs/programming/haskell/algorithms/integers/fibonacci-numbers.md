@@ -1,17 +1,13 @@
 # Liczby Fibonacciego
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/fibonacci-numbers.md)
 
-{% content-ref url="../../../../algorithms/integers/fibonacci-numbers.md" %}
-[fibonacci-numbers.md](../../../../algorithms/integers/fibonacci-numbers.md)
-{% endcontent-ref %}
 
 ## Podejście naiwne
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```haskell
+```haskell linenums="1"
 fib 1 = 1
 fib 2 = 1
 fib n = fib (n-1) + fib (n-2)
@@ -19,7 +15,7 @@ fib n = fib (n-1) + fib (n-2)
 main = do
     print $ fib 10
 ```
-{% endcode %}
+
 
 ### Opis
 
@@ -34,15 +30,14 @@ W głównym programie (`main`) wywołujemy funkcję `fib` dla konkretnej wartoś
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```haskell
+```haskell linenums="1"
 fib n = fibs !! (n - 1)
     where fibs = 1 : 1 : zipWith (+) fibs (tail fibs)
 
 main = do
     print $ fib 10
 ```
-{% endcode %}
+
 
 ### Opis
 

@@ -76,7 +76,7 @@ Wypisz imię, nazwisko, miasto i kraj każdego klienta. Posortuj rosnąco po kra
 
 ## Zadanie 5
 
-Wypisz tytuł i długość trwania $$10$$ najdłuższych utworów.
+Wypisz tytuł i długość trwania $10$ najdłuższych utworów.
 
 ### Wynik
 

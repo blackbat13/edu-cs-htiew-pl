@@ -1,3 +1,3 @@
 # Zadanie 1 - rozwiązanie
 
-Wynik: $$10$$ 
+Wynik: $10$ 

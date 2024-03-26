@@ -13,10 +13,10 @@ Wszystkie grafiki, dźwięki i czcionki używane w projektach są na licencji CC
 
 Większość grafik i dźwięków pochodzi ze strony:
 
-{% embed url="https://kenney.nl/" %}
+[https://kenney.nl/](https://kenney.nl/)
 
 ### Inne źródła
 
-{% embed url="https://opengameart.org"}
+[https://opengameart.org][https://opengameart.org]
 
-{% embed url="https://www.zapsplat.com/"}
+[https://www.zapsplat.com/][https://www.zapsplat.com/]

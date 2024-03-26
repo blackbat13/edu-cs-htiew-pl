@@ -1,15 +1,11 @@
 # Najdłuższy spójny podciąg rosnący
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/longest-growing-substring.md)
 
-{% content-ref url="../../../../algorithms/searching/longest-growing-substring.md" %}
-[longest-growing-substring.md](../../../../algorithms/searching/longest-growing-substring.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```c
+```c linenums="1"
 #include <stdio.h>
 
 int longestGrowingSubstringLength(int n, int tab[]) {
@@ -41,4 +37,4 @@ int main() {
   return 0;
 }
 ```
-{% endcode %}
+

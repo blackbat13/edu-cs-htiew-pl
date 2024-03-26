@@ -1,10 +1,7 @@
 # Szyfr Vigenere'a
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/cryptography/vigenere.md)
 
-{% content-ref url="../../../../algorithms/cryptography/vigenere.md" %}
-[vigenere.md](../../../../algorithms/cryptography/vigenere.md)
-{% endcontent-ref %}
 
 ## Szyfrowanie
 
@@ -39,9 +36,7 @@ print(f"Encoded: {encoded}")
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/fDIhWN" %}
-Szyfrowanie szyfrem Vigenere'a
-{% endembed %}
+[Szyfrowanie szyfrem Vigenere'a](https://ideone.com/fDIhWN)
 
 ### Opis implementacji
 
@@ -80,9 +75,7 @@ print(f"Decoded: {decoded}")
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/95wFXH" %}
-Deszyfrowanie szyfrem Vigenere'a
-{% endembed %}
+[Deszyfrowanie szyfrem Vigenere'a](https://ideone.com/95wFXH)
 
 ### Opis implementacji
 

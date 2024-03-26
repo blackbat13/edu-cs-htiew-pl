@@ -14,6 +14,5 @@ Podstawowe operacje, które można wykonać za pomocą protokołu FTP, to:
 
 FTP posiada dwa tryby pracy: **aktywny** i **pasywny**. W trybie aktywnym to serwer FTP inicjuje połączenie z klientem FTP na porcie danych. W trybie pasywnym to klient FTP inicjuje połączenie z serwerem na porcie danych. Tryb pasywny jest częściej wykorzystywany, ponieważ lepiej współpracuje z zaporami ogniowymi i routerami.
 
-{% hint style="warning" %}
-Standardowy protokół FTP **nie jest bezpieczny**. Komunikacja odbywa się bez szyfrowania, co oznacza, że nazwy użytkowników, hasła, komendy i przesyłane pliki mogą być przechwycone i odczytane. Dlatego też zaleca się stosowanie **FTPS** (FTP Secure), który dodaje warstwę szyfrowania SSL/TLS do połączenia, lub **SFTP** (SSH File Transfer Protocol), który wykorzystuje bezpieczny protokół SSH do przesyłania plików.
-{% endhint %}
+!!! warning
+	 Standardowy protokół FTP **nie jest bezpieczny**. Komunikacja odbywa się bez szyfrowania, co oznacza, że nazwy użytkowników, hasła, komendy i przesyłane pliki mogą być przechwycone i odczytane. Dlatego też zaleca się stosowanie **FTPS** (FTP Secure), który dodaje warstwę szyfrowania SSL/TLS do połączenia, lub **SFTP** (SSH File Transfer Protocol), który wykorzystuje bezpieczny protokół SSH do przesyłania plików.

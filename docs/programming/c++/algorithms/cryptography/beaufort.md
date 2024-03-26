@@ -1,10 +1,7 @@
 # Szyfr Beauforta
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/cryptography/symmetric/beaufort.md)
 
-{% content-ref url="../../../../algorithms/cryptography/symmetric/beaufort.md" %}
-[beaufort.md](../../../../algorithms/cryptography/symmetric/beaufort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 

@@ -1,10 +1,7 @@
 # Sortowanie gnoma
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/gnome-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/gnome-sort.md" %}
-[gnome-sort.md](../../../../algorithms/sorting/gnome-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -34,6 +31,4 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/etOxuN" %}
-Sortowanie gnoma
-{% endembed %}
+[Sortowanie gnoma](https://ideone.com/etOxuN)

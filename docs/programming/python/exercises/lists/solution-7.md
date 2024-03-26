@@ -8,8 +8,8 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$n$$ - liczba naturalna
-* $$tab[n]$$ - tablica liczb całkowitych
+* $n$ - liczba naturalna
+* $tab[n]$ - tablica liczb całkowitych
 
 #### Wynik
 

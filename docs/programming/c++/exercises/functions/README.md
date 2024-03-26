@@ -8,7 +8,7 @@ Napisz program zgodny z poniższą specyfikacją. Wypisanie komunikatu powinno z
 
 #### Dane
 
-* $$imie$$ - ciąg znaków, małych i wielkich liter alfabetu angielskiego
+* $imie$ - ciąg znaków, małych i wielkich liter alfabetu angielskiego
 
 #### Wynik
 
@@ -22,11 +22,11 @@ Napisz program zgodny z poniższą specyfikacją. Obliczanie sumy powinno być z
 
 #### Dane
 
-* $$a, b$$ - dwie liczby całkowite
+* $a, b$ - dwie liczby całkowite
 
 #### Wynik
 
-* Suma liczb $$a$$ i $$b$$ 
+* Suma liczb $a$ i $b$ 
 
 ## Zadanie 3
 
@@ -36,11 +36,11 @@ Napisz program zgodny z poniższą specyfikacją. Obliczenie i wypisywanie dziel
 
 #### Dane
 
-* $$n$$ - liczba naturalna
+* $n$ - liczba naturalna
 
 #### Wynik
 
-* Wszystkie dzielniki liczby $$n$$ 
+* Wszystkie dzielniki liczby $n$ 
 
 ### Przykład
 
@@ -50,7 +50,7 @@ Napisz program zgodny z poniższą specyfikacją. Obliczenie i wypisywanie dziel
 n := 10
 ```
 
-**Wynik**: $$1, 2, 5, 10$$ 
+**Wynik**: $1, 2, 5, 10$ 
 
 ## Zadanie 4
 
@@ -60,8 +60,8 @@ Napisz program zgodny z poniższą specyfikacją. Wczytywanie tablicy oraz wypis
 
 #### Dane
 
-* $$n$$ - liczba naturalna
-* $$tab[n]$$ - tablica liczb całkowitych
+* $n$ - liczba naturalna
+* $tab[n]$ - tablica liczb całkowitych
 
 #### Wynik
 
@@ -75,12 +75,12 @@ Napisz program zgodny z poniższą specyfikacją. Losowanie tablicy oraz wypisyw
 
 #### Dane
 
-* $$n$$ - liczba naturalna
-* $$p, k$$ - liczby całkowite, $$p < k$$
+* $n$ - liczba naturalna
+* $p, k$ - liczby całkowite, $p < k$
 
 #### Wynik
 
-* $$n$$-elementowa tablica losowych liczb całkowitych z przedziału $$[p,k)$$
+* $n$-elementowa tablica losowych liczb całkowitych z przedziału $[p,k)$
 
 ## Zadanie 6
 
@@ -90,13 +90,13 @@ Napisz program zgodny z poniższą specyfikacją. Wczytywanie tablicy, przemnaż
 
 #### Dane
 
-* $$n$$ - liczba naturalna
-* $$k$$ - liczba całkowita
-* $$tab[n]$$ - tablica liczb całkowitych
+* $n$ - liczba naturalna
+* $k$ - liczba całkowita
+* $tab[n]$ - tablica liczb całkowitych
 
 #### Wynik
 
-* Tablica powstała poprzez przemnożenie każdego elementu tablicy $$tab$$ przez liczbę $$k$$ 
+* Tablica powstała poprzez przemnożenie każdego elementu tablicy $tab$ przez liczbę $k$ 
 
 ### Przykład
 
@@ -108,7 +108,7 @@ k := 2
 tab := [4, 1, 7, 0, 2]
 ```
 
-**Wynik**: $$[8, 2, 14, 0, 4]$$ 
+**Wynik**: $[8, 2, 14, 0, 4]$ 
 
 ## Zadanie 7
 
@@ -118,12 +118,12 @@ Napisz program zgodny z poniższą specyfikacją. Wczytywanie tablicy, a także 
 
 #### Dane
 
-* $$n$$ - liczba naturalna
-* $$tab[n]$$ - tablica liczb całkowitych
+* $n$ - liczba naturalna
+* $tab[n]$ - tablica liczb całkowitych
 
 #### Wynik
 
-* Statystyki tablicy $$tab$$: minimum, maksimum, suma, średnia
+* Statystyki tablicy $tab$: minimum, maksimum, suma, średnia
 
 ### Przykład
 

@@ -1,15 +1,11 @@
 # Szybkie potęgowanie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/numerical-methods/fast-exp.md)
 
-{% content-ref url="../../../../algorithms/numerical-methods/fast-exp.md" %}
-[fast-exp.md](../../../../algorithms/numerical-methods/fast-exp.md)
-{% endcontent-ref %}
 
 ## Rozwiązanie iteracyjne
 
-{% code overflow="wrap" lineNumbers="true" %}
-```julia
+```julia linenums="1"
 function fastExp(a, n)
     result = 1
 
@@ -28,4 +24,4 @@ end
 
 println(fastExp(2, 10))
 ```
-{% endcode %}
+

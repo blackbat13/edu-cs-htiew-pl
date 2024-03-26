@@ -1,15 +1,11 @@
 # Drzewo binarne
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/fractals/binary-tree.md)
 
-{% content-ref url="../../../../algorithms/fractals/binary-tree.md" %}
-[binary-tree.md](../../../../algorithms/fractals/binary-tree.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 import turtle
 
 
@@ -37,17 +33,15 @@ binary_tree(5, 400)
 
 turtle.done()
 ```
-{% endcode %}
+
 
 ### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/Binary-Tree#main.py" %}
-Drzewo binarne
-{% endembed %}
+[Drzewo binarne](https://replit.com/@damiankurpiewski/Binary-Tree#main.py)
 
 ### Opis implementacji
 
-Funkcja `binary_tree` (**linia 4**) przyjmuje dwa argumenty: stopień drzewa i początkową długość gałęzi (pnia). Na początku przemieszczamy żółwia do przodu o zadaną długość (**linia 5**), rysując w ten sposób gałąź. Następnie, jeżeli stopień jest większy od zera (**linia 7**), to znaczy, że musimy narysować kolejne gałęzie. W tym celu obracamy najpierw żółwia w lewo o $$45\degree$$ (**linia 8**) i wywołaniem rekurencyjnym (**linia 9**) rysujemy gałęzie. Podobnie postępujemy z drugim rozgałęzieniem. Najpierw musimy obrócić żółwia w prawo o $$90\degree$$ (**linia 10**), czyli $$2*45\degree$$. Następnie stosujemy wywołanie rekurencyjne (**linia 11**), a potem obracamy żółwia w lewo o $$45\degree$$ (**linia 12**), w ten sposób wracając do początkowego ustawienia.
+Funkcja `binary_tree` (**linia 4**) przyjmuje dwa argumenty: stopień drzewa i początkową długość gałęzi (pnia). Na początku przemieszczamy żółwia do przodu o zadaną długość (**linia 5**), rysując w ten sposób gałąź. Następnie, jeżeli stopień jest większy od zera (**linia 7**), to znaczy, że musimy narysować kolejne gałęzie. W tym celu obracamy najpierw żółwia w lewo o $45\degree$ (**linia 8**) i wywołaniem rekurencyjnym (**linia 9**) rysujemy gałęzie. Podobnie postępujemy z drugim rozgałęzieniem. Najpierw musimy obrócić żółwia w prawo o $90\degree$ (**linia 10**), czyli $2*45\degree$. Następnie stosujemy wywołanie rekurencyjne (**linia 11**), a potem obracamy żółwia w lewo o $45\degree$ (**linia 12**), w ten sposób wracając do początkowego ustawienia.
 
 Na koniec, po ewentualnym narysowaniu rozgałęzień, cofamy żółwia o zadaną długość (**linia 14**), tym samym wracając do ustawienia z początku wywołania funkcji.
 

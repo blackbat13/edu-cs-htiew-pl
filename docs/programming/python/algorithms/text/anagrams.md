@@ -1,15 +1,11 @@
 # Anagramy
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/anagrams.md)
 
-{% content-ref url="../../../../algorithms/text/anagrams.md" %}
-[anagrams.md](../../../../algorithms/text/anagrams.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def are_anagrams(a: str, b: str) -> bool:
     return sorted(a) == sorted(b)
 
@@ -22,4 +18,4 @@ if are_anagrams(a, b):
 else:
     print(f"{a} i {b} nie są anagramami")
 ```
-{% endcode %}
+

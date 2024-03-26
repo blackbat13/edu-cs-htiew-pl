@@ -23,15 +23,11 @@ using namespace std;
 
 #### Vector
 
-{% embed url="https://www.cplusplus.com/reference/vector/vector/" %}
-Vector Reference
-{% endembed %}
+[Vector Reference](https://www.cplusplus.com/reference/vector/vector/)
 
 #### Deque
 
-{% embed url="https://www.cplusplus.com/reference/deque/deque/" %}
-Deque Reference
-{% endembed %}
+[Deque Reference](https://www.cplusplus.com/reference/deque/deque/)
 
 ## Implementacja: przykłady
 
@@ -47,7 +43,7 @@ vector<int> array;
 vector<int> array(10);
 ```
 
-Tablica zostanie wypełniona wartościami domyślnymi dla danego typu, np. dla typu `int` jest to $$0$$.
+Tablica zostanie wypełniona wartościami domyślnymi dla danego typu, np. dla typu `int` jest to $0$.
 
 ### Utworzenie tablicy wypełnionej zadaną wartością
 
@@ -55,7 +51,7 @@ Tablica zostanie wypełniona wartościami domyślnymi dla danego typu, np. dla t
 vector<int> array(10, -1);
 ```
 
-Tablica zostanie wypełniona wartościami $$-1$$.
+Tablica zostanie wypełniona wartościami $-1$.
 
 ### Wypisanie wybranego elementu tablicy
 
@@ -63,7 +59,7 @@ Tablica zostanie wypełniona wartościami $$-1$$.
 cout << "4-th element of the array is: " << array[3] << endl;
 ```
 
-Tak jak i w przypadku tablic statycznych, elementy indeksujemy od $$0$$.
+Tak jak i w przypadku tablic statycznych, elementy indeksujemy od $0$.
 
 ### Wypisanie długości tablicy
 
@@ -107,7 +103,7 @@ array.erase(array.begin() + 5);
 array.erase(array.begin() + 5, array.begin() + 7);
 ```
 
-Po wykonaniu powyższej operacji zostaną usunięte elementy pod indeksami $$5$$ oraz $$6$$ (bez elementu na pozycji $$7$$).
+Po wykonaniu powyższej operacji zostaną usunięte elementy pod indeksami $5$ oraz $6$ (bez elementu na pozycji $7$).
 
 ### Zmiana rozmiaru tablicy
 
@@ -123,7 +119,7 @@ Jeżeli tablica była mniejsza, to nowe pozycje zostaną wypełnione domyślnymi
 array.resize(30, -1);
 ```
 
-Jeżeli tablica była mniejsza, to nowe pozycje zostaną wypełnione wartością $$-1$$.
+Jeżeli tablica była mniejsza, to nowe pozycje zostaną wypełnione wartością $-1$.
 
 ### Sprawdzenie, czy tablica jest pusta
 
@@ -235,6 +231,4 @@ int main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/6qwyfQ" %}
-vector - przykłady
-{% endembed %}
+[vector - przykłady](https://ideone.com/6qwyfQ)

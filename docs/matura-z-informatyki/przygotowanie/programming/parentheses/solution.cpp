@@ -27,7 +27,7 @@ int exercise1()
 {
     vector<string> tab;
     string line;
-    ifstream file("../../../../.gitbook/assets/parentheses.txt");
+    ifstream file("../../../../assets/parentheses.txt");
     while (file >> line && !file.eof())
     {
         tab.push_back(line);
@@ -78,7 +78,7 @@ vector<string> exercise2()
 {
     vector<string> tab;
     string line;
-    ifstream file("../../../../.gitbook/assets/parentheses.txt");
+    ifstream file("../../../../assets/parentheses.txt");
     while (file >> line && !file.eof())
     {
         tab.push_back(line);
@@ -95,7 +95,7 @@ void exercise3()
 {
     vector<string> tab;
     string line;
-    ifstream file("../../../../.gitbook/assets/parentheses.txt");
+    ifstream file("../../../../assets/parentheses.txt");
     while (file >> line && !file.eof())
     {
         tab.push_back(line);

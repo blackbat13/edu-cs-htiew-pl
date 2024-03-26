@@ -1,17 +1,13 @@
 # Wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/min-or-max.md)
 
-{% content-ref url="../../../../algorithms/searching/min-or-max.md" %}
-[min-or-max.md](../../../../algorithms/searching/min-or-max.md)
-{% endcontent-ref %}
 
 ## Wyszukiwanie wartości minimum i maksimum
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```julia
+```julia linenums="1"
 function findMinMax(array)
     minVal = array[1]
     maxVal = array[1]
@@ -32,14 +28,13 @@ array = [8, 2, 9, 10, 5, 4, 2, 7, 18, 0]
 
 println("Values: ", findMinMax(array))
 ```
-{% endcode %}
+
 
 ## Wyszukiwanie indeksów wartości minimum i maksimum
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```julia
+```julia linenums="1"
 function findMinMaxIndex(array)
     minVal = array[1]
     minInd = 1
@@ -64,4 +59,4 @@ array = [8, 2, 9, 10, 5, 4, 2, 7, 18, 0]
     
 println("Indexes: ", findMinMaxIndex(array))
 ```
-{% endcode %}
+

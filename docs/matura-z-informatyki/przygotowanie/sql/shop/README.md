@@ -58,7 +58,7 @@ Dla każdego artykułu podaj jego identyfikator, nazwę oraz liczbę zamówień,
 
 ## Zadanie 7
 
-Utwórz zestawienie zawierające nazwę miasta, id artykułu, nazwę artykułu oraz liczbę sztuk tego artykułu sprzedanych klientom z danego miasta, gdzie przekroczyła ona $$100$$ sztuk.
+Utwórz zestawienie zawierające nazwę miasta, id artykułu, nazwę artykułu oraz liczbę sztuk tego artykułu sprzedanych klientom z danego miasta, gdzie przekroczyła ona $100$ sztuk.
 
 ## Zadanie 8
 
@@ -70,4 +70,4 @@ Podaj identyfikatory i nazwy artykułów, których nikt nie zamówił.
 
 ## Zadanie 10
 
-Podaj identyfikator, imię oraz nazwisko każdego klienta, który złożył dokładnie $$2$$ zamówienia na artykuły o *id_art* równym $$10$$ lub $$20$$.
+Podaj identyfikator, imię oraz nazwisko każdego klienta, który złożył dokładnie $2$ zamówienia na artykuły o *id_art* równym $10$ lub $20$.

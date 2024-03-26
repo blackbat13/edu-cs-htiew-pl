@@ -15,6 +15,4 @@ Mapa znajduje się w bibliotece `map`.
 
 ### Dokumentacja
 
-{% embed url="https://www.cplusplus.com/reference/map/map/" %}
-Map Reference
-{% endembed %}
+[Map Reference](https://www.cplusplus.com/reference/map/map/)

@@ -2,7 +2,5 @@
 
 ## Prezentacja rozwiązań
 
-{% file src="../../../.gitbook/assets/Blockly Ptak.pdf" %}
-Blockly Ptak - rozwiązania zadań
-{% endfile %}
+[:fontawesome-solid-file-pdf: Blockly Ptak - rozwiązania zadań](../../../assets/Blockly Ptak.pdf)
 

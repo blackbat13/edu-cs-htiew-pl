@@ -1,15 +1,11 @@
 # Sortowanie szybkie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/quick-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/quick-sort.md" %}
-[quick-sort.md](../../../../algorithms/sorting/quick-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```julia
+```julia linenums="1"
 function quicksort(array, left, right)
     if right <= left
         return
@@ -49,4 +45,4 @@ quicksort(array, 1, length(array))
 
 println(array)
 ```
-{% endcode %}
+

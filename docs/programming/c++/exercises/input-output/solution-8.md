@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$sekundy$$ - liczba naturalna
+* $sekundy$ - liczba naturalna
 
 #### Wynik
 
-* Czas podany w czytelnej formie ** **$$H:M:S$$ ($$H$$ - godziny, $$M$$ - minuty, $$S$$ - sekundy)
+* Czas podany w czytelnej formie ** **$H:M:S$ ($H$ - godziny, $M$ - minuty, $S$ - sekundy)
 
 ## Rozwiązanie
 

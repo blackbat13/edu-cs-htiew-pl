@@ -10,23 +10,21 @@ Poniżej znajdziesz animacje przedstawiające ideę omawianego algorytmu.
 
 ## Animacja 1
 
-![By Joestape89, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3330231](../../.gitbook/assets/Selection-Sort-Animation.gif)
+![By Joestape89, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3330231](../../assets/Selection-Sort-Animation.gif)
 
 ## Animacja 2
 
-{% embed url="https://blackbat13.github.io/visul2/sorting/selection_sort/#array=%5B8%2C5%2C2%2C6%2C9%2C3%2C1%2C4%2C0%2C7%5D" %}
+[https://blackbat13.github.io/visul2/sorting/selection_sort/#array=%5B8%2C5%2C2%2C6%2C9%2C3%2C1%2C4%2C0%2C7%5D](https://blackbat13.github.io/visul2/sorting/selection_sort/#array=%5B8%2C5%2C2%2C6%2C9%2C3%2C1%2C4%2C0%2C7%5D)
 
 ## Taneczne sortowanie
 
-{% embed url="https://www.youtube.com/watch?v=Ns4TPTC8whw" %}
 [Taneczne sortowanie](https://www.youtube.com/watch?v=Ns4TPTC8whw)
-{% endembed %}
 
 ## Rozwiązanie
 
 Sortowanie przez wybieranie składa się tak właściwie z dwóch części: znajdowania minimum i samego sortowania. Opis algorytmu znajdowania minimum można znaleźć tutaj: [Wyszukiwanie minimum i maksimum](../searching/min-or-max.md).
 
-Sam algorytm wyszukiwania minimum musimy zmodyfikować tak, by działał na określonym przedziale w tablicy, tzn. chcemy wyszukać minimum nie w całej tablicy, a w jej konkretnym przedziale $$[p..k]$$. Co więcej, potrzebujemy nie tyle znać wartość minimalną, co jej **pozycję** w tablicy. Gdy to już mamy, samo sortowanie jest bardzo proste. Przechodzimy przez kolejne indeksy w naszej tablicy i wyszukujemy pozycję minimum od obecnego indeksu do końca tablicy, a następnie zamieniamy z elementem na obecnie sprawdzanej pozycji.
+Sam algorytm wyszukiwania minimum musimy zmodyfikować tak, by działał na określonym przedziale w tablicy, tzn. chcemy wyszukać minimum nie w całej tablicy, a w jej konkretnym przedziale $[p..k]$. Co więcej, potrzebujemy nie tyle znać wartość minimalną, co jej **pozycję** w tablicy. Gdy to już mamy, samo sortowanie jest bardzo proste. Przechodzimy przez kolejne indeksy w naszej tablicy i wyszukujemy pozycję minimum od obecnego indeksu do końca tablicy, a następnie zamieniamy z elementem na obecnie sprawdzanej pozycji.
 
 ### Pseudokod
 
@@ -75,32 +73,31 @@ flowchart TD
 
 ### Złożoność
 
-$$O(n^2)$$ — kwadratowa
+$O(n^2)$ — kwadratowa
 
-Wyszukiwanie minimum ma złożoność liniową. Wywołujemy ten algorytm $$n-1$$ razy, więc w efekcie otrzymujemy złożoność kwadratową algorytmu sortowania przez wybieranie.
+Wyszukiwanie minimum ma złożoność liniową. Wywołujemy ten algorytm $n-1$ razy, więc w efekcie otrzymujemy złożoność kwadratową algorytmu sortowania przez wybieranie.
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/sorting/selection-sort.md" %}
+
 [selection-sort.md](../../programming/c++/algorithms/sorting/selection-sort.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/sorting/selection-sort.md" %}
+
 [selection-sort.md](../../programming/python/algorithms/sorting/selection-sort.md)
-{% endcontent-ref %}
+
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorithms/sorting/selection-sort.md" %}
+
 [selection-sort.md](../../programming/blockly/algorithms/sorting/selection-sort.md)
-{% endcontent-ref %}
+
 
 ### Kotlin
 
-{% content-ref url="../../programming/kotlin/algorithms/sorting/selection-sort.md" %}
+
 [selection-sort.md](../../programming/kotlin/algorithms/sorting/selection-sort.md)
-{% endcontent-ref %}

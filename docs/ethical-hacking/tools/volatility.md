@@ -4,9 +4,7 @@ Volatility to otwartoźródłowe narzędzie do analizy pamięci w systemach oper
 
 Volatility analizuje obrazy pamięci RAM, umożliwiając badaczom odtworzenie działania systemu w czasie bliskim incydentowi. Narzędzie to jest w stanie wydobyć wiele typów informacji, w tym listę procesów, otwartych gniazd sieciowych, załadowanych modułów jądra, plików cache, zawartości bufora i wiele innych.
 
-{% embed url="https://www.volatilityfoundation.org" %}
-Volatility
-{% endembed %}
+[Volatility](https://www.volatilityfoundation.org)
 
 ## Przykłady użycia
 
@@ -34,4 +32,4 @@ Aby wyświetlić zawartość bufora dla konkretnego procesu, można użyć polec
 volatility -f memorydump.raw --profile=Win7SP1x64 procdump -p 1234 -D dump/
 ```
 
-W powyższym przykładzie $$1234$$ to identyfikator procesu (**PID**), a `dump/` to katalog, w którym zostanie zapisany zrzut procesu.
+W powyższym przykładzie $1234$ to identyfikator procesu (**PID**), a `dump/` to katalog, w którym zostanie zapisany zrzut procesu.

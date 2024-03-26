@@ -1,15 +1,11 @@
 # Sortowanie odd-even
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/odd-even-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/odd-even-sort.md" %}
-[odd-even-sort.md](../../../../algorithms/sorting/odd-even-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -43,4 +39,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

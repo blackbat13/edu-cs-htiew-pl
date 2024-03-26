@@ -17,11 +17,11 @@ Najpopularniejszymi wariantami algorytmu Flood Fill są:
 
 ## Przykład 1 - wariant czterosąsiadowy
 
-![By André Karwath aka Aka - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=481651](../../.gitbook/assets/Recursive\_Flood\_Fill\_4\_\(aka\).gif)
+![By André Karwath aka Aka - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=481651](../../assets/Recursive_Flood_Fill_4_(aka).gif)
 
 ## Przykład 2 - wariant ośmiosąsiadowy
 
-![By André Karwath aka Aka - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=481652](../../.gitbook/assets/Recursive\_Flood\_Fill\_8\_\(aka\).gif)
+![By André Karwath aka Aka - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=481652](../../assets/Recursive_Flood_Fill_8_(aka).gif)
 
 ## Pseudokod - wariant czterosąsiadowy
 
@@ -45,7 +45,7 @@ Pamiętaj, że powyższy pseudokod jest rekurencyjny i może prowadzić do przek
 
 ## Złożoność obliczeniowa
 
-Złożoność obliczeniowa algorytmu Flood Fill to $$O(n)$$, gdzie $$n$$ to liczba pikseli, które muszą zostać zmienione. W praktyce wydajność algorytmu zależy od wielu czynników, takich jak wielkość obszaru do wypełnienia, kształt obszaru i wybrana strategia (np. czterosąsiadowa czy ośmiosąsiadowa).
+Złożoność obliczeniowa algorytmu Flood Fill to $O(n)$, gdzie $n$ to liczba pikseli, które muszą zostać zmienione. W praktyce wydajność algorytmu zależy od wielu czynników, takich jak wielkość obszaru do wypełnienia, kształt obszaru i wybrana strategia (np. czterosąsiadowa czy ośmiosąsiadowa).
 
 ## Podsumowanie
 
@@ -55,12 +55,12 @@ Algorytm Flood Fill to podstawowe narzędzie w grafice komputerowej, używane do
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/graphs/flood-fill.md" %}
+
 [flood-fill.md](../../programming/c++/algorithms/graphs/flood-fill.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/graphs/flood-fill.md" %}
+
 [flood-fill.md](../../programming/python/algorithms/graphs/flood-fill.md)
-{% endcontent-ref %}
+

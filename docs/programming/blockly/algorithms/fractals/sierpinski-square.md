@@ -1,10 +1,7 @@
 # Kwadrat Sierpińskiego
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/fractals/sierpinski-square.md)
 
-{% content-ref url="../../../../algorithms/fractals/sierpinski-square.md" %}
-[sierpinski-square.md](../../../../algorithms/fractals/sierpinski-square.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -12,14 +9,12 @@
 
 
 
-![Funkcja rysująca kwadrat Sierpińskiego](<../../../../.gitbook/assets/image (20).png>)
+![Funkcja rysująca kwadrat Sierpińskiego](<../../../../assets/image (20).png>)
 
 ### Kod główny
 
-![Wywołanie funkcji rysującej kwadrat Sierpińskiego](<../../../../.gitbook/assets/image (21).png>)
+![Wywołanie funkcji rysującej kwadrat Sierpińskiego](<../../../../assets/image (21).png>)
 
 ### Link do implementacji
 
-{% embed url="https://blockly.games/turtle?lang=pl&level=10#o8wwfr" %}
-Kwadrat Sierpińskiego
-{% endembed %}
+[Kwadrat Sierpińskiego](https://blockly.games/turtle?lang=pl&level=10#o8wwfr)

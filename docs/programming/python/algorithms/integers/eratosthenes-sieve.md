@@ -1,15 +1,11 @@
 # Sito Eratostenesa
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/eratosthenes-sieve.md)
 
-{% content-ref url="../../../../algorithms/integers/eratosthenes-sieve.md" %}
-[eratosthenes-sieve.md](../../../../algorithms/integers/eratosthenes-sieve.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def sieve(n: int) -> list:
     primes = [False, False] + [True] * (n - 1)
     i = 2
@@ -38,4 +34,4 @@ primes = sieve(n)
 
 print_prime_numbers(primes)
 ```
-{% endcode %}
+

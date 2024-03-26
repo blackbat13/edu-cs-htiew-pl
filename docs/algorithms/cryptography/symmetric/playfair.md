@@ -6,7 +6,7 @@ Szyfr Playfair, wynaleziony w 1854 roku przez Charlesa Wheatstone’a i promowan
 
 1. **Klucz**: wybierz frazę kluczową (np. "KRYPTOGRAFIA"). Usuń z niej powtarzające się litery i wypełnij resztę literami alfabetu (w większości implementacji litery "I" i "J" są traktowane jako jedno). 
 
-2. **Macierz 5x5**: utwórz macierz $$5\times5$$ i wypełnij ją literami uzyskanymi w poprzednim kroku.
+2. **Macierz 5x5**: utwórz macierz $5\times5$ i wypełnij ją literami uzyskanymi w poprzednim kroku.
 
 3. **Szyfrowanie**:
    - Tekst jawny dzieli się na pary liter. Jeśli litera w parze się powtarza lub jest nieparzysta liczba liter, dodaj "X" lub inną literę dla wyrównania.
@@ -40,12 +40,12 @@ Szyfr Playfair jest bardziej bezpieczny niż szyfry monoalfabetyczne, ponieważ 
 
 ### C++
 
-{% content-ref url="../../../programming/c++/algorithms/cryptography/playfair.md" %}
+
 [playfair.md](../../../programming/c++/algorithms/cryptography/playfair.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../../programming/python/algorithms/cryptography/playfair.md" %}
+
 [playfair.md](../../../programming/python/algorithms/cryptography/playfair.md)
-{% endcontent-ref %}
+

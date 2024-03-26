@@ -1,15 +1,11 @@
 # Struktura zbiorów rozłącznych
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/structures/disjoint-set-union.md)
 
-{% content-ref url="../../../../algorithms/structures/disjoint-set-union.md" %}
-[disjoint-set-union.md](../../../../algorithms/structures/disjoint-set-union.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 class DisjointUnion:
     """
     Class representing Disjoint-Set-Union structure.
@@ -72,4 +68,4 @@ if __name__ == "__main__":
     print(disjoint_union.is_in_union(0, 1))
     print(disjoint_union.is_in_union(1, 2))
 ```
-{% endcode %}
+

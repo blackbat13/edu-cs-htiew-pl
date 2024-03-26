@@ -59,6 +59,4 @@ int main() {
 
 ### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/TryCatch#main.cpp" %}
-Wyjątek - przykład
-{% endembed %}
+[Wyjątek - przykład](https://replit.com/@damiankurpiewski/TryCatch#main.cpp)

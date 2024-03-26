@@ -1,10 +1,7 @@
 # Znajdowanie lidera w zbiorze
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/majority.md)
 
-{% content-ref url="../../../../algorithms/searching/majority.md" %}
-[majority.md](../../../../algorithms/searching/majority.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -58,9 +55,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/btfNVv" %}
-Znajdowanie lidera w zbiorze
-{% endembed %}
+[Znajdowanie lidera w zbiorze](https://ideone.com/btfNVv)
 
 ### Opis implementacji
 

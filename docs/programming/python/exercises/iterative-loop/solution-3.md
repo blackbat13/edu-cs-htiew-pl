@@ -8,12 +8,12 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$n$$ - liczba naturalna
-* $$n$$ liczb całkowitych
+* $n$ - liczba naturalna
+* $n$ liczb całkowitych
 
 #### Wynik
 
-* Suma podanych $$n$$ liczb
+* Suma podanych $n$ liczb
 
 ## Rozwiązanie
 

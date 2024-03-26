@@ -45,7 +45,7 @@ Szyfr Vigenère'a był popularny wśród dyplomatów i wojskowych do komunikacji
 
 ### Funkcje pomocnicze
 
-- **Pozycja(litera)** - zwraca liczbę od $$1$$ do $$26$$ - pozycję przekazanej jako argument litery w alfabecie angielskim
+- **Pozycja(litera)** - zwraca liczbę od $1$ do $26$ - pozycję przekazanej jako argument litery w alfabecie angielskim
 - **Alfabet(pozycja)** - zwraca literę na zadanej pozycji w alfabecie angielskim
 - **Długość(tekst)** - zwraca długość tekstu
 
@@ -72,7 +72,7 @@ funkcja SzyfrujVigenere(jawny, klucz):
 
 ### Funkcje pomocnicze
 
-- **Pozycja(litera)** - zwraca liczbę od $$1$$ do $$26$$ - pozycję przekazanej jako argument litery w alfabecie angielskim
+- **Pozycja(litera)** - zwraca liczbę od $1$ do $26$ - pozycję przekazanej jako argument litery w alfabecie angielskim
 - **Alfabet(pozycja)** - zwraca literę na zadanej pozycji w alfabecie angielskim
 - **Długość(tekst)** - zwraca długość tekstu
 
@@ -99,12 +99,12 @@ funkcja DeszyfrujVigenere(szyfrogram, klucz):
 
 ### C++
 
-{% content-ref url="../../../programming/c++/algorithms/cryptography/vigenere.md" %}
+
 [vigenere.md](../../../programming/c++/algorithms/cryptography/vigenere.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../../programming/python/algorithms/cryptography/vigenere.md" %}
+
 [vigenere.md](../../../programming/python/algorithms/cryptography/vigenere.md)
-{% endcontent-ref %}
+

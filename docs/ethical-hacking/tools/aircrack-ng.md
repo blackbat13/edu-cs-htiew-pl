@@ -2,13 +2,10 @@
 
 Aircrack-ng to kompletne narzędzie do oceny bezpieczeństwa sieci Wi-Fi. Zawiera różne programy do przechwytywania pakietów, monitorowania ruchu sieciowego, ataków typu brute-force na klucze sieci Wi-Fi oraz testowania bezpieczeństwa sieci bezprzewodowych.
 
-{% hint style="warning" %}
-Używanie Aircrack-ng, podobnie jak każdego innego narzędzia do testowania penetracji, wymaga uprzedniego uzyskania zgody od właściciela sieci. Bez odpowiednich uprawnień, korzystanie z Aircrack-ng jest nielegalne.
-{% endhint %}
+!!! warning
+	 Używanie Aircrack-ng, podobnie jak każdego innego narzędzia do testowania penetracji, wymaga uprzedniego uzyskania zgody od właściciela sieci. Bez odpowiednich uprawnień, korzystanie z Aircrack-ng jest nielegalne.
 
-{% embed url="https://www.aircrack-ng.org" %}
-Aircrack-ng
-{% endembed %}
+[Aircrack-ng](https://www.aircrack-ng.org)
 
 ## Podstawowe funkcje i zastosowania
 
@@ -45,4 +42,4 @@ Atak deautentykacji, czyli odłączanie użytkowników od sieci, może być prze
 aireplay-ng --deauth 100 -a 00:11:22:33:44:55 wlan0mon
 ```
 
-Gdzie $$100$$ to liczba pakietów deautentykacji do wysłania, a `00:11:22:33:44:55` to adres MAC punktu dostępowego.
+Gdzie $100$ to liczba pakietów deautentykacji do wysłania, a `00:11:22:33:44:55` to adres MAC punktu dostępowego.

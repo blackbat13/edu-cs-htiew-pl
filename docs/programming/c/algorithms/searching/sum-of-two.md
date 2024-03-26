@@ -1,17 +1,13 @@
 # Suma dwóch liczb
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/sum-of-two.md)
 
-{% content-ref url="../../../../algorithms/searching/sum-of-two.md" %}
-[sum-of-two.md](../../../../algorithms/searching/sum-of-two.md)
-{% endcontent-ref %}
 
 ## Rozwiązanie naiwne
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```c
+```c linenums="1"
 #include <stdio.h>
 
 void sumOfTwoNaive(int n, int tab[], int sum) {
@@ -37,14 +33,13 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ## Rozwiązanie optymalne
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```c
+```c linenums="1"
 #include <stdio.h>
 
 void sumOfTwoOptimal(int n, int tab[], int sum) {
@@ -76,4 +71,4 @@ int main() {
   return 0;
 }
 ```
-{% endcode %}
+

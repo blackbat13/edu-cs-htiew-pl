@@ -1,17 +1,13 @@
 # Jednoczesne wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/min-max-search.md)
 
-{% content-ref url="../../../../algorithms/searching/min-max-search.md" %}
-[min-max-search.md](../../../../algorithms/searching/min-max-search.md)
-{% endcontent-ref %}
 
 ## Podejście naiwne
 
 ## Podejście optymalne
 
-{% code overflow="wrap" lineNumbers="true" %}
-```julia
+```julia linenums="1"
 function MinMax(array)
     minCandidates = []
     maxCandidates = []
@@ -46,4 +42,4 @@ end
 array = [3, 6, 1, 9, 10, 4, -4, 6, 12, 5, 11]
 println(MinMax(array))
 ```
-{% endcode %}
+

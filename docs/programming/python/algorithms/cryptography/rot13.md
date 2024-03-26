@@ -1,15 +1,11 @@
 # Szyfr ROT13
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/cryptography/symmetric/rot13.md)
 
-{% content-ref url="../../../../algorithms/cryptography/symmetric/rot13.md" %}
-[rot13.md](../../../../algorithms/cryptography/symmetric/rot13.md)
-{% endcontent-ref %}
 
 ## Szyfrowanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def encrypt_rot13(message: str) -> str:
     encrypted = ""
     
@@ -30,12 +26,11 @@ encrypted = encrypt_rot13(message)
 
 print(encrypted)
 ```
-{% endcode %}
+
 
 ## Deszyfrowanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def decrypt_rot13(message: str) -> str:
     decrypted = ""
     
@@ -56,4 +51,4 @@ decrypted = decrypt_rot13(message)
 
 print(decrypted)
 ```
-{% endcode %}
+

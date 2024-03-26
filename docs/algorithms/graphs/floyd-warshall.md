@@ -29,7 +29,7 @@ funkcja FloydWarshall(G, V):   (G - graf, V - liczba wierzchołków w grafie, nu
 
 ## Złożoność obliczeniowa
 
-Algorytm Floyda-Warshalla ma złożoność czasową $$O(V^3)$$, gdzie $$V$$ to liczba wierzchołków w grafie. Jest to wynik trzykrotnego zagnieżdżania pętli, gdzie każda pętla przechodzi przez wszystkie wierzchołki.
+Algorytm Floyda-Warshalla ma złożoność czasową $O(V^3)$, gdzie $V$ to liczba wierzchołków w grafie. Jest to wynik trzykrotnego zagnieżdżania pętli, gdzie każda pętla przechodzi przez wszystkie wierzchołki.
 
 ## Zastosowania
 
@@ -39,12 +39,12 @@ Algorytm Floyda-Warshalla jest używany w sieciach komputerowych do routingu, ja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/graphs/floyd-warshall.md" %}
+
 [floyd-warshall.md](../../programming/c++/algorithms/graphs/floyd-warshall.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/graphs/floyd-warshall.md" %}
+
 [floyd-warshall.md](../../programming/python/algorithms/graphs/floyd-warshall.md)
-{% endcontent-ref %}
+

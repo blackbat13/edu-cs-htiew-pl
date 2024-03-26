@@ -1,7 +1,6 @@
 # Python - rozwiązanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 dictionary = dict()
 
 while True:
@@ -24,4 +23,4 @@ while True:
     else:
         print(dictionary[word])
 ```
-{% endcode %}
+

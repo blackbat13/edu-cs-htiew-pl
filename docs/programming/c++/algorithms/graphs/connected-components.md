@@ -1,15 +1,11 @@
 # Spójne składowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/connected-components.md)
 
-{% content-ref url="../../../../algorithms/graphs/connected-components.md" %}
-[connected-components.md](../../../../algorithms/graphs/connected-components.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <vector>
 
@@ -62,10 +58,10 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
-![Przykładowy graf wykorzystany w implementacji](../../../../.gitbook/assets/example_graph_disconnected.png)
+![Przykładowy graf wykorzystany w implementacji](../../../../assets/example_graph_disconnected.png)
 
-{% embed url="http://graphonline.ru/en/?graph=ntlitKWvBAKeDOgo" %}
+[http://graphonline.ru/en/?graph=ntlitKWvBAKeDOgo](http://graphonline.ru/en/?graph=ntlitKWvBAKeDOgo)

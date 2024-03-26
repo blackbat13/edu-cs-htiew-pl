@@ -1,15 +1,11 @@
 # Palindrom
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/palindrome.md)
 
-{% content-ref url="../../../../algorithms/text/palindrome.md" %}
-[palindrome.md](../../../../algorithms/text/palindrome.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <algorithm>
 
@@ -36,4 +32,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

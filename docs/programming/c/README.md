@@ -18,6 +18,4 @@ Ze względu na swoją wydajność i kontrolę na niskim poziomie, C jest często
 
 ## Popularność języka
 
-{% embed url="https://www.tiobe.com/tiobe-index/c/" %}
-Wykres popularności języka C
-{% endembed %}
+[Wykres popularności języka C](https://www.tiobe.com/tiobe-index/c/)

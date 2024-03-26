@@ -1,7 +1,6 @@
 # Python - rozwiązanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def combine_genes(gene1: str, gene2: str) -> str:
     if (gene1 == "non-existent" and gene2 != "dominant") or (
         gene1 != "dominant" and gene2 == "non-existent"
@@ -46,4 +45,4 @@ for el in parents:
 for el in sorted(genes):
     print(el, genes[el])
 ```
-{% endcode %}
+

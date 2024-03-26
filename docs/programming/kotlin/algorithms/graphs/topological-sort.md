@@ -1,10 +1,7 @@
 # Sortowanie topologiczne
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/topological-sort.md)
 
-{% content-ref url="../../../../algorithms/graphs/topological-sort.md" %}
-[topological-sort.md](../../../../algorithms/graphs/topological-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 

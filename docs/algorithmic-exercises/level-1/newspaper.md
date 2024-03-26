@@ -10,13 +10,13 @@ Twoje zadanie polega na obliczeniu, ile wyniesie opłata za określone ogłoszen
 
 ### Dane
 
-* $$n$$ - liczba znaków
-* $$(z_1, c_1), (z_2, c_2), ..., (z_n, c_n)$$ - cennik: pary znak oraz cena znaku, podana w groszach
-* $$wyraz$$ - ciąg znaków, małych i/lub wielkich liter alfabetu angielskiego, bez spacji i innych białych znaków
+* $n$ - liczba znaków
+* $(z_1, c_1), (z_2, c_2), ..., (z_n, c_n)$ - cennik: pary znak oraz cena znaku, podana w groszach
+* $wyraz$ - ciąg znaków, małych i/lub wielkich liter alfabetu angielskiego, bez spacji i innych białych znaków
 
 ### Wynik
 
-* Opłata za $$wyraz$$, podana w złotówkach, wedle nowego cennika. Zakładamy, że każdy znak z wyrazu pojawi się w cenniku.
+* Opłata za $wyraz$, podana w złotówkach, wedle nowego cennika. Zakładamy, że każdy znak z wyrazu pojawi się w cenniku.
 
 ## Przykład
 
@@ -39,17 +39,16 @@ alamakota
 1.36
 ```
 
-{% hint style="info" %}
-#### Wyjaśnienie
-
-W wyrazie **alamakota** możemy wyróżnić:
-
-* $$4$$ litery **a**
-* $$1$$ literę **l**
-* $$1$$ literę **m**
-* $$1$$ literę **k**
-* $$1$$ literę **o**
-* $$1$$ literę **t**
-
-Daje nam to: $$4*5+1*25+1*30+1*50+1*10+1*1=136$$ groszy, czyli $$1.36$$ złoty.
-{% endhint %}
+!!! info
+	#### Wyjaśnienie
+	
+	W wyrazie **alamakota** możemy wyróżnić:
+	
+	* $4$ litery **a**
+	* $1$ literę **l**
+	* $1$ literę **m**
+	* $1$ literę **k**
+	* $1$ literę **o**
+	* $1$ literę **t**
+	
+	Daje nam to: $4*5+1*25+1*30+1*50+1*10+1*1=136$ groszy, czyli $1.36$ złoty.

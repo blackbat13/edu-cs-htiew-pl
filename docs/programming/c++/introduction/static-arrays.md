@@ -2,9 +2,8 @@
 
 Tablice statyczne charakteryzują się tym, że mają ustalony rozmiar. Gdy raz utworzymy tablicę statyczną, to nie możemy już zmieniać jej rozmiaru.
 
-{% hint style="info" %}
-Elementy w tablicy indeksujemy (numerujemy) od $$0$$.
-{% endhint %}
+!!! info
+	 Elementy w tablicy indeksujemy (numerujemy) od $0$.
 
 ## Inicjalizacja tablicy
 
@@ -20,7 +19,7 @@ int tab[10];
 int tab[5] = {1, 2, 3, 4, 5};
 ```
 
-Gdy podamy mniej wartości, niż wskazuje długość tablicy, to pozostałe miejsca zostaną wypełnione wartością domyślną dla danego typu (np. $$0$$ dla liczb).
+Gdy podamy mniej wartości, niż wskazuje długość tablicy, to pozostałe miejsca zostaną wypełnione wartością domyślną dla danego typu (np. $0$ dla liczb).
 
 ```cpp
 int tab[10] = {1, 2, 3, 4, 5};

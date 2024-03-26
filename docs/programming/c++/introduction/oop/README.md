@@ -2,9 +2,9 @@
 
 ## Opis zagadnienia
 
-{% content-ref url="../../../../algorithms/oop/README.md" %}
+
 [programowanie-obiektowe.md](../../../../algorithms/oop/README.md)
-{% endcontent-ref %}
+
 
 ## Wstęp
 

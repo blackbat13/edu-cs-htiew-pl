@@ -4,16 +4,12 @@ description: BST
 
 # Drzewa przeszukiwań binarnych
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/structures/bst.md)
 
-{% content-ref url="../../../../algorithms/structures/drzewa-przeszukiwan-binarnych.md" %}
-[drzewa-przeszukiwan-binarnych.md](../../../../algorithms/structures/drzewa-przeszukiwan-binarnych.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -132,10 +128,10 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
-![Przykładowe drzewo wykorzystane w implementacji](<../../../../.gitbook/assets/image (10).png>)
+![Przykładowe drzewo wykorzystane w implementacji](<../../../../assets/image (10).png>)
 
-{% embed url="http://graphonline.ru/en/?graph=iTYRccYJVswEnVGe" %}
+[http://graphonline.ru/en/?graph=iTYRccYJVswEnVGe](http://graphonline.ru/en/?graph=iTYRccYJVswEnVGe)

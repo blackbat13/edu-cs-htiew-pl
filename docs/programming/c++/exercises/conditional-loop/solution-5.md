@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$n$$ - liczba naturalna
+* $n$ - liczba naturalna
 
 #### Wynik
 
-* Zapis binarny liczby $$n$$
+* Zapis binarny liczby $n$
 
 ## Rozwiązanie
 

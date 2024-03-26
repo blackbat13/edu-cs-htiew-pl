@@ -18,6 +18,4 @@ Visual Basic jest używany w wielu różnych obszarach, w tym do tworzenia aplik
 
 ## Popularność języka
 
-{% embed url="https://www.tiobe.com/tiobe-index/visual-basic/" %}
-Wykres popularności języka Visual Basic
-{% endembed %}
+[Wykres popularności języka Visual Basic](https://www.tiobe.com/tiobe-index/visual-basic/)

@@ -6,7 +6,7 @@
 
 #### Dane
 
-- $$a, b, c$$ - liczby naturalne, długości odcinków, $$a>0$$, $$b>0$$, $$c>0$$.
+- $a, b, c$ - liczby naturalne, długości odcinków, $a>0$, $b>0$, $c>0$.
 
 #### Wynik
 
@@ -43,12 +43,12 @@ flowchart TD
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/2d-geometry/triangle-condition.md" %}
+
 [triangle-condition.md](../../programming/c++/algorithms/2d-geometry/triangle-condition.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/2d-geometry/triangle-condition.md" %}
+
 [triangle-condition.md](../../programming/python/algorithms/2d-geometry/triangle-condition.md)
-{% endcontent-ref %}
+

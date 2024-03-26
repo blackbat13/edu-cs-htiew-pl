@@ -1,15 +1,11 @@
 # Płatek Kocha
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/fractals/koch-snowflake.md)
 
-{% content-ref url="../../../../algorithms/fractals/koch-snowflake.md" %}
-[koch-snowflake.md](../../../../algorithms/fractals/koch-snowflake.md)
-{% endcontent-ref %}
 
 ## Implementacja 
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include "turtle.hpp"
 
 const int SIZE = 900;
@@ -46,8 +42,8 @@ int main() {
     return 0;
 } 
 ```
-{% endcode %}
+
 
 ### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/KochSnowflake#main.cpp" %}
+[https://replit.com/@damiankurpiewski/KochSnowflake#main.cpp](https://replit.com/@damiankurpiewski/KochSnowflake#main.cpp)

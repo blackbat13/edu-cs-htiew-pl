@@ -84,9 +84,7 @@ int main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/X1NpNn" %}
-Sortowanie z STL - przykład
-{% endembed %}
+[Sortowanie z STL - przykład](https://ideone.com/X1NpNn)
 
 ### Opis implementacji
 

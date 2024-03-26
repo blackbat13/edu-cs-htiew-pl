@@ -1,6 +1,6 @@
 # Pokemony
 
-W pliku *Pokemony.txt* znajdują się informacje na temat $$800$$ pokemonów. Każda linia zawiera następujące informacje:
+W pliku *Pokemony.txt* znajdują się informacje na temat $800$ pokemonów. Każda linia zawiera następujące informacje:
 
 - nazwę pokemona,
 - pierwszy typ,
@@ -14,9 +14,7 @@ W pliku *Pokemony.txt* znajdują się informacje na temat $$800$$ pokemonów. Ka
 
 Dane oddzielone są znakiem tabulacji. Pierwszy wiersz zawiera nagłówki kolumn.
 
-{% file src="../../../../.gitbook/assets/Pokemony.txt" %}
-Pokemony.txt
-{% endfile %}
+[:material-note-text: Pokemony.txt](../../../../assets/Pokemony.txt)
 
 Źródło danych: [https://www.kaggle.com/datasets/abcsds/pokemon](https://www.kaggle.com/datasets/abcsds/pokemon)
 
@@ -58,7 +56,7 @@ Policz medianę szybkości dla każdej generacji.
 
 Policz, ile pokemonów ma atak w zakresie:
 
-- $$[0, 49]$$
-- $$[50, 99]$$
-- $$[100, 149]$$
-- $$[150, 200]$$
+- $[0, 49]$
+- $[50, 99]$
+- $[100, 149]$
+- $[150, 200]$

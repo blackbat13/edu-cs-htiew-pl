@@ -2,25 +2,21 @@
 
 Sortowanie grzebieniowe (ang. *Comb Sort*) to algorytm sortujący, który jest ulepszoną wersją sortowania bąbelkowego. Podczas gdy sortowanie bąbelkowe zawsze porównuje sąsiednie elementy, sortowanie grzebieniowe eliminuje narastające *żółwie*, czyli małe wartości końca listy, które muszą być przesunięte na początek listy. Działa on poprzez porównywanie elementów oddzielonych przez określony "rozstęp", który jest na początku duży, a następnie maleje.
 
-Algorytm sortowania grzebieniowego działa poprzez porównywanie elementów oddzielonych przez określony "rozstęp". W początkowych fazach sortowania, "rozstęp" jest dość duży i maleje w każdej iteracji. W końcu "rozstęp" wynosi $$1$$, co czyni algorytm podobnym do sortowania bąbelkowego. Oto podstawowe kroki algorytmu:
+Algorytm sortowania grzebieniowego działa poprzez porównywanie elementów oddzielonych przez określony "rozstęp". W początkowych fazach sortowania, "rozstęp" jest dość duży i maleje w każdej iteracji. W końcu "rozstęp" wynosi $1$, co czyni algorytm podobnym do sortowania bąbelkowego. Oto podstawowe kroki algorytmu:
 
-- Ustal "rozstęp": na początku "rozstęp" jest ustalany na dużą wartość, zwykle równą długości listy. Zwykle jest on skracany o około $$1.3$$ w każdej iteracji, aż osiągnie wartość $$1$$.
+- Ustal "rozstęp": na początku "rozstęp" jest ustalany na dużą wartość, zwykle równą długości listy. Zwykle jest on skracany o około $1.3$ w każdej iteracji, aż osiągnie wartość $1$.
 - Porównaj elementy i zamień je miejscami: porównuj elementy oddzielone "rozstępem" i zamieniaj je miejscami, jeśli są w niewłaściwej kolejności.
-- Zmniejsz "rozstęp" i powtórz: zmniejsz "rozstęp" o określony współczynnik (zazwyczaj o $$1.3$$) i powtórz krok drugi. Proces ten kontynuowany jest aż "rozstęp" osiągnie wartość $$1$$ i lista zostanie posortowana.
+- Zmniejsz "rozstęp" i powtórz: zmniejsz "rozstęp" o określony współczynnik (zazwyczaj o $1.3$) i powtórz krok drugi. Proces ten kontynuowany jest aż "rozstęp" osiągnie wartość $1$ i lista zostanie posortowana.
 
 Poniżej znajdziesz animację przedstawiającą ideę omawianego algorytmu.
 
 ## Animacja 1
 
-{% embed url="https://blackbat13.github.io/visul2/sorting/comb_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D" %}
-Sortowanie grzebieniowe
-{% endembed %}
+[Sortowanie grzebieniowe](https://blackbat13.github.io/visul2/sorting/comb_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D)
 
 ## Animacja 2
 
-{% embed url="https://www.youtube.com/watch?v=ob49RukGnAw" %}
 [Animacja sortowania grzebieniowego](https://www.youtube.com/watch?v=ob49RukGnAw)
-{% endembed %}
 
 ## Rozwiązanie
 
@@ -68,24 +64,23 @@ flowchart TD
 
 ### Złożoność
 
-Sortowanie grzebieniowe ma średnią i najgorszą złożoność obliczeniową $$O(n^2)$$, ale dla list prawie posortowanych złożoność ta może zbliżać się do $$O(n\log{n})$$.
+Sortowanie grzebieniowe ma średnią i najgorszą złożoność obliczeniową $O(n^2)$, ale dla list prawie posortowanych złożoność ta może zbliżać się do $O(n\log{n})$.
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/sorting/comb-sort.md" %}
+
 [comb-sort.md](../../programming/c++/algorithms/sorting/comb-sort.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/sorting/comb-sort.md" %}
+
 [comb-sort.md](../../programming/python/algorithms/sorting/comb-sort.md)
-{% endcontent-ref %}
+
 
 ### Kotlin
 
-{% content-ref url="../../programming/kotlin/algorithms/sorting/comb-sort.md" %}
+
 [comb-sort.md](../../programming/kotlin/algorithms/sorting/comb-sort.md)
-{% endcontent-ref %}

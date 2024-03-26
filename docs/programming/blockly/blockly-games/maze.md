@@ -2,12 +2,8 @@
 
 ## Prezentacja rozwiązań
 
-{% file src="../../../.gitbook/assets/Blockly Labirynt - rozwiązania.pdf" %}
-Blockly Labirynt - rozwiązania zadań
-{% endfile %}
+[:fontawesome-solid-file-pdf: Blockly Labirynt - rozwiązania zadań](../../../assets/Blockly Labirynt - rozwiązania.pdf)
 
 ## Algorytm do zadania 10
 
-{% file src="../../../.gitbook/assets/Metoda lewej ręki - blockly.pdf" %}
-Metoda lewej ręki
-{% endfile %}
+[:fontawesome-solid-file-pdf: Metoda lewej ręki](../../../assets/Metoda lewej ręki - blockly.pdf)

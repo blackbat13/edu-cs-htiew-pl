@@ -4,9 +4,9 @@ Sortowanie nieparzysto-parzyste (ang. *Odd-even*), znane również jako sortowan
 
 Algorytm sortowania nieparzysto-parzystego składa się z następujących kroków:
 
-- **Faza nieparzysta**: przeglądaj całą listę i dla każdej pary elementów na nieparzystych pozycjach $$i$$, jeżeli element na pozycji $$i$$ jest większy od elementu na pozycji $$i+1$$, zamień je miejscami.
+- **Faza nieparzysta**: przeglądaj całą listę i dla każdej pary elementów na nieparzystych pozycjach $i$, jeżeli element na pozycji $i$ jest większy od elementu na pozycji $i+1$, zamień je miejscami.
 
-- **Faza parzysta**: przeglądaj całą listę i dla każdej pary elementów na parzystych pozycjach $$i$$, jeżeli element na pozycji $$i$$ jest większy od elementu na pozycji $$i+1$$, zamień je miejscami.
+- **Faza parzysta**: przeglądaj całą listę i dla każdej pary elementów na parzystych pozycjach $i$, jeżeli element na pozycji $i$ jest większy od elementu na pozycji $i+1$, zamień je miejscami.
 
 - **Powtarzaj fazy**: powtarzaj powyższe fazy, aż lista zostanie całkowicie posortowana.
 
@@ -16,9 +16,7 @@ Poniżej znajdziesz animację przedstawiającą ideę omawianego algorytmu.
 
 ## Animacja
 
-{% embed url="https://blackbat13.github.io/visul2/sorting/odd_even_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D" %}
-Sortowanie odd-even
-{% endembed %}
+[Sortowanie odd-even](https://blackbat13.github.io/visul2/sorting/odd_even_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D)
 
 ## Rozwiązanie
 
@@ -67,24 +65,23 @@ flowchart TD
 
 ### Złożoność
 
-Algorytm sortowania nieparzysto-parzystego ma złożoność obliczeniową $$O(n^2)$$, zarówno w przypadku średnim, jak i najgorszym. Jest to więc algorytm nieefektywny dla dużych zestawów danych.
+Algorytm sortowania nieparzysto-parzystego ma złożoność obliczeniową $O(n^2)$, zarówno w przypadku średnim, jak i najgorszym. Jest to więc algorytm nieefektywny dla dużych zestawów danych.
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/sorting/odd-even-sort.md" %}
+
 [odd-even-sort.md](../../programming/c++/algorithms/sorting/odd-even-sort.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/sorting/odd-even-sort.md" %}
+
 [odd-even-sort.md](../../programming/python/algorithms/sorting/odd-even-sort.md)
-{% endcontent-ref %}
+
 
 ### Kotlin
 
-{% content-ref url="../../programming/kotlin/algorithms/sorting/odd-even-sort.md" %}
+
 [odd-even-sort.md](../../programming/kotlin/algorithms/sorting/odd-even-sort.md)
-{% endcontent-ref %}

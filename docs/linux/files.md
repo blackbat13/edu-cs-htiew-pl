@@ -30,11 +30,10 @@ cat <nazwa pliku>
 
 Aby usunąć plik skorzystamy z polecenia **rm**.
 
-{% hint style="warning" %}
-**Uwaga**
-
-Pliki usunięte za pomocą polecenia ``rm`` nie trafiają do kosza, tylko są bezpowrotnie usuwane. Należy więc obchodzić się z tym poleceniem bardzo ostrożnie.
-{% endhint %}
+!!! warning
+	**Uwaga**
+	
+	Pliki usunięte za pomocą polecenia ``rm`` nie trafiają do kosza, tylko są bezpowrotnie usuwane. Należy więc obchodzić się z tym poleceniem bardzo ostrożnie.
 
 ### Składnia
 

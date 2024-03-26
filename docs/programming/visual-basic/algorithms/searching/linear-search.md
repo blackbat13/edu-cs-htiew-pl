@@ -1,17 +1,13 @@
 # Wyszukiwanie liniowe
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/linear-search.md)
 
-{% content-ref url="../../../../algorithms/searching/linear-search.md" %}
-[linear-search.md](../../../../algorithms/searching/linear-search.md)
-{% endcontent-ref %}
 
 ## Istnienie elementu
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```vb
+```vb linenums="1"
 Module Search
     Public Function LinearSearch(array as Integer(), number as Integer) As Boolean
         For Each el As Integer In array
@@ -37,14 +33,13 @@ Module Search
     End Sub
 End Module
 ```
-{% endcode %}
+
 
 ## Pozycja elementu
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```vb
+```vb linenums="1"
 Module Search
     Public Function LinearSearch(array as Integer(), number as Integer) As Integer
         For index As Integer = 0 To array.Length - 1
@@ -70,14 +65,13 @@ Module Search
     End Sub
 End Module
 ```
-{% endcode %}
+
 
 ## Wszystkie pozycje elementu
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```vb
+```vb linenums="1"
 Module Search
     Public Sub LinearSearch(array as Integer(), number as Integer)
         For index As Integer = 0 To array.Length - 1
@@ -97,4 +91,4 @@ Module Search
     End Sub
 End Module
 ```
-{% endcode %}
+

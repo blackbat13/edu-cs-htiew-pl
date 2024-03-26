@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$n$$ - liczba naturalna, $$n>2$$
+* $n$ - liczba naturalna, $n>2$
 
 #### Wynik
 
-* $$fib[n]$$ - lista zawierająca $$n$$ kolejnych liczb Fibonacciego
+* $fib[n]$ - lista zawierająca $n$ kolejnych liczb Fibonacciego
 
 ## Rozwiązanie
 

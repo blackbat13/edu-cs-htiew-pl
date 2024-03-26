@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$n$$ - liczba naturalna
+* $n$ - liczba naturalna
 
 #### Wynik
 
-* Wszystkie pary liczb naturalnych, których suma wynosi $$n$$
+* Wszystkie pary liczb naturalnych, których suma wynosi $n$
 
 ## Rozwiązanie
 

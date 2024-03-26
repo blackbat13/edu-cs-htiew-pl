@@ -1,17 +1,13 @@
 # Pierwiastek kwadratowy
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/numerical-methods/square-root.md)
 
-{% content-ref url="../../../../algorithms/numerical-methods/square-root.md" %}
-[square-root.md](../../../../algorithms/numerical-methods/square-root.md)
-{% endcontent-ref %}
 
 ## Metoda Herona
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <cmath>
 
@@ -39,4 +35,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

@@ -1,15 +1,11 @@
 # Test pierwszości
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/prime-test.md)
 
-{% content-ref url="../../../../algorithms/integers/prime-test.md" %}
-[prime-test.md](../../../../algorithms/integers/prime-test.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <cmath>
 
@@ -43,4 +39,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

@@ -16,9 +16,7 @@ Tym razem stworzymy grę, w której postacie poruszać będą się same. Będzie
 
 Umieszczamy w katalogu **images**.
 
-{% file src="../../../.gitbook/assets/idle_images.zip" %}
-Grafiki do gry typu idle
-{% endfile %}
+[:material-folder-zip: Grafiki do gry typu idle](../../../assets/idle_images.zip)
 
 ### Źródła
 
@@ -27,7 +25,7 @@ Grafiki do gry typu idle
 
 ## Nasz cel
 
-![Idle Pig - animacja](../../../.gitbook/assets/IdlePig.gif)
+![Idle Pig - animacja](../../../assets/IdlePig.gif)
 
 ## Wstępna konfiguracja
 
@@ -272,14 +270,14 @@ pgzrun.go()
 
 ## Poszerzenie ekranu
 
-Przyciski do kupowania ulepszeń w naszej grze umieścimy z prawej strony ekranu. W tym celu musimy poszerzyć nasz ekran, powiedzmy o $$400$$ pikseli. Zwiększamy więc wartość szerokości (**WIDTH**).
+Przyciski do kupowania ulepszeń w naszej grze umieścimy z prawej strony ekranu. W tym celu musimy poszerzyć nasz ekran, powiedzmy o $400$ pikseli. Zwiększamy więc wartość szerokości (**WIDTH**).
 
 ```python
 WIDTH = 1200
 HEIGHT = 800
 ```
 
-Teraz jednak położenie zarówno punktów jak i świni nie będzie poprawne. Dlatego dopiszemy sobie jeszcze jedną stałą, która będzie przechowywała szerokość naszego panelu z przyciskami. Nazwiemy ją **PANEL** i przypiszemy jej wartość $$400$$. Dopiszemy ją zaraz pod określeniem wymiarów okna gry.
+Teraz jednak położenie zarówno punktów jak i świni nie będzie poprawne. Dlatego dopiszemy sobie jeszcze jedną stałą, która będzie przechowywała szerokość naszego panelu z przyciskami. Nazwiemy ją **PANEL** i przypiszemy jej wartość $400$. Dopiszemy ją zaraz pod określeniem wymiarów okna gry.
 
 ```python
 WIDTH = 1200
@@ -287,7 +285,7 @@ HEIGHT = 800
 PANEL = 400
 ```
 
-Pozostało nam skorzystać z naszej nowej stałej podczas ustalania pozycji elementów na ekranie. Zacznijmy od świni. Zamiast umieszczać ją na środku całego ekranu w poziomie, to umieścimy ją na środku właściwego pola gry. W tym celu, do współrzędnej $$x$$ świni przypiszemy `(WIDTH - PANEL) / 2`.
+Pozostało nam skorzystać z naszej nowej stałej podczas ustalania pozycji elementów na ekranie. Zacznijmy od świni. Zamiast umieszczać ją na środku całego ekranu w poziomie, to umieścimy ją na środku właściwego pola gry. W tym celu, do współrzędnej $x$ świni przypiszemy `(WIDTH - PANEL) / 2`.
 
 ```python
 pig = Actor("pig_down")

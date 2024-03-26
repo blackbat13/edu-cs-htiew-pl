@@ -8,11 +8,11 @@ Napisz funkcję `IleCyfr` zgodną z poniższą specyfikacją.
 
 #### Dane
 
-* $$n$$ - liczba naturalna
+* $n$ - liczba naturalna
 
 #### Wynik
 
-* Liczba cyfr liczby $$n$$.
+* Liczba cyfr liczby $n$.
 
 ## Rozwiązanie
 

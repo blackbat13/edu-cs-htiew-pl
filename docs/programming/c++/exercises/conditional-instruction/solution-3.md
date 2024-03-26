@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$a, b$$ - dwie liczby całkowite
+* $a, b$ - dwie liczby całkowite
 
 #### Wynik
 
-* Wynik dzielenia liczb $$a$$ i $$b$$, lub komunikat, że nie można wykonać dzielenia.
+* Wynik dzielenia liczb $a$ i $b$, lub komunikat, że nie można wykonać dzielenia.
 
 ## Rozwiązanie
 

@@ -2,9 +2,7 @@
 
 Dart to język programowania ogólnego przeznaczenia opracowany przez Google, którego głównym celem jest umożliwienie tworzenia aplikacji na różne platformy. Język ten jest znany przede wszystkim jako język programowania używany we frameworku *Flutter* do tworzenia interfejsów użytkownika w aplikacjach mobilnych.
 
-{% embed url="https://dart.dev/" %}
-Oficjalna strona języka Dart
-{% endembed %}
+[Oficjalna strona języka Dart](https://dart.dev/)
 
 ## Kluczowe cechy
 
@@ -22,12 +20,8 @@ Dart jest szczególnie popularny w kontekście tworzenia aplikacji mobilnych za 
 
 ## Popularność języka
 
-{% embed url="https://www.tiobe.com/tiobe-index/dart/" %}
-Wykres popularności języka Dart
-{% endembed %}
+[Wykres popularności języka Dart](https://www.tiobe.com/tiobe-index/dart/)
 
 ## Ściąga
 
-{% embed url="https://quickref.me/dart" %}
-Ściąga
-{% endembed %}
+[Ściąga](https://quickref.me/dart)

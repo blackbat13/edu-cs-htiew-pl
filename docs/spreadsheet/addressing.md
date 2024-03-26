@@ -27,4 +27,4 @@ Załóżmy, że masz wartość stałą w komórce A1, którą chcesz użyć w se
 
 W tym przykładzie pokazujemy, jak używać adresowania mieszanego, aby utworzyć tabliczkę mnożenia.
 
-![](../.gitbook/assets/spreadsheet/multiplication.gif)
+![](../assets/spreadsheet/multiplication.gif)

@@ -2,8 +2,7 @@
 
 ## Zadanie 1
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -15,7 +14,7 @@ int exercise1()
 {
     vector<string> tab;
     string line;
-    ifstream file("../../../../.gitbook/assets/parentheses.txt");
+    ifstream file("../../../../assets/parentheses.txt");
     while (file >> line && !file.eof())
     {
         tab.push_back(line);
@@ -62,12 +61,11 @@ int exercise1()
     return count;
 }
 ```
-{% endcode %}
+
 
 ## Zadanie 2
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -136,7 +134,7 @@ vector<string> exercise2()
 {
     vector<string> tab;
     string line;
-    ifstream file("../../../../.gitbook/assets/parentheses.txt");
+    ifstream file("../../../../assets/parentheses.txt");
     while (file >> line && !file.eof())
     {
         tab.push_back(line);
@@ -149,12 +147,11 @@ vector<string> exercise2()
     return tab;
 }
 ```
-{% endcode %}
+
 
 ## Zadanie 3
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -165,7 +162,7 @@ void exercise3()
 {
     vector<string> tab;
     string line;
-    ifstream file("../../../../.gitbook/assets/parentheses.txt");
+    ifstream file("../../../../assets/parentheses.txt");
     while (file >> line && !file.eof())
     {
         tab.push_back(line);
@@ -199,4 +196,4 @@ void exercise3()
     }
 }
 ```
-{% endcode %}
+

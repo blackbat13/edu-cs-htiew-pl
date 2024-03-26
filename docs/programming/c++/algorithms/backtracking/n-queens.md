@@ -1,15 +1,11 @@
 # Problem n królowych
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/backtracking/n-queens.md)
 
-{% content-ref url="../../../../algorithms/backtracking/n-queens.md" %}
-[n-queens.md](../../../../algorithms/backtracking/n-queens.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -73,4 +69,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

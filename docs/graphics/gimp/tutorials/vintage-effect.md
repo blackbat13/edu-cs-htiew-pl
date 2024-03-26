@@ -24,13 +24,13 @@ Naszym celem będzie zwiększenie kontrastu, nasycenia i dostosowanie krzywych k
 
 ### 1. Zwiększamy kontrast
 
-Wybieramy menu **Kolory->Jasność i kontrast** i zwiększamy kontrast, np. $$+20$$.
+Wybieramy menu **Kolory->Jasność i kontrast** i zwiększamy kontrast, np. $+20$.
 
 ### 2. Zwiększamy nasycenie
 
 Wybieramy menu **Kolory->Barwa i nasycenie**.
-Zwiększamy nasycenie, np. $$+20$$.
-Warto także dostosować barwę, np. $$-10$$.
+Zwiększamy nasycenie, np. $+20$.
+Warto także dostosować barwę, np. $-10$.
 
 ### 3. Dostosowujemy krzywe kolorów
 
@@ -41,7 +41,7 @@ Każdą krzywą dostosowujemy indywidualnie.
 ### 4. Zmniejszamy nasycenie
 
 Ponownie wybieramy menu **Kolory->Barwa i nasycenie**.
-Tym razem zmniejszamy nasycenie, np. $$-30$$.
+Tym razem zmniejszamy nasycenie, np. $-30$.
 Możemy także delikatnie zwiększyć jasność i zmniejszyć barwę.
 
 ## Dodajemy winietę
@@ -55,7 +55,7 @@ Najpierw tworzymy nową warstwę z przezroczystością.
 W tym celu wybieramy menu **Warstwa->Nowa warstwa**.
 Nazwijmy ją *Winieta*.
 Jako wypełnienie wybieramy **Przezroczystość**.
-Gdy nowa warstwa zostanie już utworzona, ustawiamy jej krycie na $$50%$$.
+Gdy nowa warstwa zostanie już utworzona, ustawiamy jej krycie na $50%$.
 
 ### 2. Tworzymy zaznaczenie
 
@@ -65,7 +65,7 @@ Nasza elipsa powinna być wpisana w prostokąt zdjęcia.
 ### 3. Zmiękczamy zaznaczenie
 
 Wybieramy menu **Zaznaczenie->Zmiękcz**.
-Ustawiamy zmiękczenie na $$150 px$$.
+Ustawiamy zmiękczenie na $150 px$.
 
 ### 4. Odwracamy zaznaczenie
 
@@ -83,13 +83,12 @@ W ten sposób uzyskujemy efekt winiety.
 
 Dodajemy kolejną warstwę, tak jak poprzednio.
 Nazwijmy ją *Róż*.
-Ustawiamy krycie nowej warstwy na $$8%$$.
+Ustawiamy krycie nowej warstwy na $8%$.
 
 ### 2. Wypełniamy warstwę kolorem
 
-{% hint style="warning" %}
-Przed przystąpieniem do tego kroku usuwamy wszystkie aktywne zaznaczenia: menu **Zaznaczenie->Brak**.
-{% endhint %}
+!!! warning
+	 Przed przystąpieniem do tego kroku usuwamy wszystkie aktywne zaznaczenia: menu **Zaznaczenie->Brak**.
 
 W celu uzyskania pożądanego efektu używamy narzędzia **Wypełnienie kubełkiem** i wypełniamy nową warstwę żywym kolorem różowym, np **#FF0090**.
 
@@ -98,4 +97,4 @@ W celu uzyskania pożądanego efektu używamy narzędzia **Wypełnienie kubełki
 W ten sposób dodaliśmy efekt retro do naszego zdjęcia. 
 Zależnie od wybranych ustawień, nasze zdjęcie może teraz wyglądać np. tak:
 
-![](../../../.gitbook/assets/vintage_effect.png)
+![](../../../assets/vintage_effect.png)

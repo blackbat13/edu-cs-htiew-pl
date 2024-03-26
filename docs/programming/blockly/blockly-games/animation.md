@@ -2,7 +2,5 @@
 
 ## Prezentacja rozwiązań
 
-{% file src="../../../.gitbook/assets/Blockly Animacja.pdf" %}
-Blockly Animacja - rozwiązania zadań
-{% endfile %}
+[:fontawesome-solid-file-pdf: Blockly Animacja - rozwiązania zadań](../../../assets/Blockly Animacja.pdf)
 

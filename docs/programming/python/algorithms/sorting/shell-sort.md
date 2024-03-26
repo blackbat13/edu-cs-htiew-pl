@@ -1,15 +1,11 @@
 # Sortowanie Shella
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/shell-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/shell-sort.md" %}
-[shell-sort.md](../../../../algorithms/sorting/shell-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def shell_sort(array: list):
     gap = len(array) // 2
     while gap > 0:
@@ -26,4 +22,4 @@ shell_sort(array)
 
 print(array)
 ```
-{% endcode %}
+

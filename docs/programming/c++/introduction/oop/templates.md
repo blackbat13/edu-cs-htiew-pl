@@ -51,9 +51,7 @@ cout << typeid(sum(i1, i2)).name() << endl;
 
 #### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/SumTemplate#main.cpp" %}
-Szablon funkcji
-{% endembed %}
+[Szablon funkcji](https://replit.com/@damiankurpiewski/SumTemplate#main.cpp)
 
 ## Szablony klas
 

@@ -14,21 +14,21 @@ Dlatego nie będziemy wchodzić głęboko w szczegóły matematyczne. Zaintereso
 
 ## Notacja dużego O (asymptotyczna)
 
-Nie będziemy tutaj wchodzić w szczegóły notacji asymptotycznej dużego O. W dużym skrócie będziemy jej używać do określania **pesymistycznej** złożoności czasowej algorytmu. Dla przykładu, jeżeli algorytm będzie miał złożoność $$O(n)$$ to oznacza, że w najgorszym przypadku będzie działał liniowo w stosunku do rozmiaru danych. Oczywiście nie wyklucza do sytuacji, w których taki algorytm zadziała szybciej.
+Nie będziemy tutaj wchodzić w szczegóły notacji asymptotycznej dużego O. W dużym skrócie będziemy jej używać do określania **pesymistycznej** złożoności czasowej algorytmu. Dla przykładu, jeżeli algorytm będzie miał złożoność $O(n)$ to oznacza, że w najgorszym przypadku będzie działał liniowo w stosunku do rozmiaru danych. Oczywiście nie wyklucza do sytuacji, w których taki algorytm zadziała szybciej.
 
 ## Podstawowe klasy złożoności
 
 | Zapis            | Nazwa                                   | Przykład                               |
 | ---------------- | --------------------------------------- | -------------------------------------- |
-| $$O(1)$$         | stała                                   | Sprawdzenie warunku trójkąta           |
-| $$O(\log{n})$$   | logarytmiczna                           | Wyszukiwanie binarne                   |
-| $$O(n)$$         | liniowa                                 | Wyszukiwanie liniowe                   |
-| $$O(n\log{n})$$  | liniowo logarytmiczna                   | Sortowanie przez scalanie              |
-| $$O(n^2)$$       | kwadratowa                              | Sortowanie bąbelkowe                   |
-| $$O(n^3)$$       | sześcienna                              | Algorytm Floyda-Warshalla              |
-| $$O(n^k)$$       | wielomianowa ( $$k$$ - stała, $$k>1$$ ) | -                                      |
-| $$O(n!)$$        | n-silnia                                | Wypisanie wszystkich permutacji zbioru |
-| $$O(2^n)$$       | wykładnicza                             | Wypisanie wszystkich podzbiorów zbioru |
+| $O(1)$         | stała                                   | Sprawdzenie warunku trójkąta           |
+| $O(\log{n})$   | logarytmiczna                           | Wyszukiwanie binarne                   |
+| $O(n)$         | liniowa                                 | Wyszukiwanie liniowe                   |
+| $O(n\log{n})$  | liniowo logarytmiczna                   | Sortowanie przez scalanie              |
+| $O(n^2)$       | kwadratowa                              | Sortowanie bąbelkowe                   |
+| $O(n^3)$       | sześcienna                              | Algorytm Floyda-Warshalla              |
+| $O(n^k)$       | wielomianowa ( $k$ - stała, $k>1$ ) | -                                      |
+| $O(n!)$        | n-silnia                                | Wypisanie wszystkich permutacji zbioru |
+| $O(2^n)$       | wykładnicza                             | Wypisanie wszystkich podzbiorów zbioru |
 
 ## Szacowanie złożoności
 
@@ -64,10 +64,9 @@ Nie będziemy tutaj wchodzić w szczegóły notacji asymptotycznej dużego O. W 
     3. n := n div 2
 ```
 
-{% hint style="info" %}
-**div** oznacza dzielenie całkowite
-{% endhint %}
+!!! info
+    **div** oznacza dzielenie całkowite
 
 ## Ściąga
 
-{% embed url="https://github.com/ro31337/bigoposter/blob/master/bigoposter.pdf" %}
+[https://github.com/ro31337/bigoposter/blob/master/bigoposter.pdf](https://github.com/ro31337/bigoposter/blob/master/bigoposter.pdf)

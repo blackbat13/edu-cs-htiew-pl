@@ -1,10 +1,7 @@
 # Jednoczesne wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/min-max-search.md)
 
-{% content-ref url="../../../../algorithms/searching/min-max-search.md" %}
-[min-max-search.md](../../../../algorithms/searching/min-max-search.md)
-{% endcontent-ref %}
 
 ## Podejście naiwne
 
@@ -37,9 +34,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/freoSQ" %}
-Jednoczesne wyszukiwanie minimum i maksimum - podejście naiwne
-{% endembed %}
+[Jednoczesne wyszukiwanie minimum i maksimum - podejście naiwne](https://ideone.com/freoSQ)
 
 ### Opis implementacji
 
@@ -94,9 +89,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/r8KFFR" %}
-Jednoczesne wyszukiwanie minimum i maksimum - podejście optymalne
-{% endembed %}
+[Jednoczesne wyszukiwanie minimum i maksimum - podejście optymalne](https://ideone.com/r8KFFR)
 
 ### Opis implementacji
 

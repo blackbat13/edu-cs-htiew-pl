@@ -10,21 +10,19 @@ Zacznijmy od tanecznego wyszukiwania i formalnej specyfikacji, by lepiej zrozumi
 
 ## Taneczne wyszukiwanie
 
-{% embed url="https://www.youtube.com/watch?v=iP897Z5Nerk" %}
 [Taneczne wyszukiwanie binarne](https://www.youtube.com/watch?v=iP897Z5Nerk)
-{% endembed %}
 
 ## Specyfikacja
 
 ### Dane:
 
-* $$n$$ - liczba naturalna, ilość elementów w tablicy
-* $$A[1..n]$$ - $$n-elementowa$$ tablica liczb całkowitych, posortowana niemalejąco, indeksowana od jedynki
-* $$k$$ - liczba całkowita, szukana wartość
+* $n$ - liczba naturalna, ilość elementów w tablicy
+* $A[1..n]$ - $n-elementowa$ tablica liczb całkowitych, posortowana niemalejąco, indeksowana od jedynki
+* $k$ - liczba całkowita, szukana wartość
 
 ### Wynik:
 
-* Indeks wartości $$k$$ w tablicy $$A$$, lub $$-1$$ jeżeli tej wartości nie ma w tablicy
+* Indeks wartości $k$ w tablicy $A$, lub $-1$ jeżeli tej wartości nie ma w tablicy
 
 ## Przykład
 
@@ -36,15 +34,15 @@ A := [1, 2, 5, 7, 9]
 k := 7 
 ```
 
-**Wynik**: $$4$$ 
+**Wynik**: $4$ 
 
 ## Rozwiązanie iteracyjne
 
-Zacznijmy od wersji iteracyjnej. Na początku definiujemy początek i koniec przeszukiwanego przedziału. Jako początek przyjmujemy numer pierwszego elementu (czyli $$1$$), a jako koniec numer ostatniego elementu (czyli $$n$$). W pętli będziemy powtarzać przeszukiwanie tak długo, jak długo nasz zdefiniowany przez początek i koniec przedział będzie zawierał co najmniej jeden element. Inaczej mówiąc, powtarzamy tak długo, jak długo początek jest mniejszy od końca.
+Zacznijmy od wersji iteracyjnej. Na początku definiujemy początek i koniec przeszukiwanego przedziału. Jako początek przyjmujemy numer pierwszego elementu (czyli $1$), a jako koniec numer ostatniego elementu (czyli $n$). W pętli będziemy powtarzać przeszukiwanie tak długo, jak długo nasz zdefiniowany przez początek i koniec przedział będzie zawierał co najmniej jeden element. Inaczej mówiąc, powtarzamy tak długo, jak długo początek jest mniejszy od końca.
 
 Wewnątrz pętli najpierw obliczamy środek przeszukiwanego przedziału. Następnie sprawdzamy, jak element znajdujący się na środku ma się do naszego poszukiwanego elementu. Jeżeli poszukiwane element jest większy od elementu, który mamy na środku, to znaczy, że należy szukać po prawej stronie od środka: przesuwamy więc początek naszego przedziału na prawo od środka. W przeciwnym przypadku, czyli gdy poszukiwany element jest mniejszy bądź równy elementowi na środku, oznacza to, że należy szukać po lewej stronie od środka (ale nie możemy wykluczyć też elementu na środku!). W związku z tym przesuwamy koniec przedziału na środek. 
 
-Gdy już wyjdziemy z pętli pozostaje nam sprawdzić, czy znaleźliśmy poszukiwany element. Sprawdzamy, czy pod indeksem wskazującym na zmieniony początek (lub koniec) przedziału znajduje się poszukiwana wartość. Jeżeli tak, to zwracamy jako wynik ten indeks. W przeciwnym przypadku zwracamy $$-1$$.
+Gdy już wyjdziemy z pętli pozostaje nam sprawdzić, czy znaleźliśmy poszukiwany element. Sprawdzamy, czy pod indeksem wskazującym na zmieniony początek (lub koniec) przedziału znajduje się poszukiwana wartość. Jeżeli tak, to zwracamy jako wynik ten indeks. W przeciwnym przypadku zwracamy $-1$.
 
 ### Pseudokod
 
@@ -67,9 +65,8 @@ funkcja SzukajBinarnie(n, A, k)
         12. Zwróć -1, zakończ
 ```
 
-{% hint style="info" %}
-**div** oznacza dzielenie całkowite
-{% endhint %}
+!!! info
+	 **div** oznacza dzielenie całkowite
 
 ### Schemat blokowy
 
@@ -93,7 +90,7 @@ flowchart TD
 
 ### Złożoność
 
-$$O(\log n)$$ - logarytmiczna
+$O(\log n)$ - logarytmiczna
 
 ## Rozwiązanie rekurencyjne
 
@@ -139,53 +136,53 @@ flowchart TD
 
 ### Złożoność 
 
-$$O(\log n)$$ - logarytmiczna
+$O(\log n)$ - logarytmiczna
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/searching/binary-search.md" %}
+
 [binary-search.md](../../programming/c++/algorithms/searching/binary-search.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/searching/binary-search.md" %}
+
 [binary-search.md](../../programming/python/algorithms/searching/binary-search.md)
-{% endcontent-ref %}
+
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorithms/searching/binary-search.md" %}
+
 [binary-search.md](../../programming/blockly/algorithms/searching/binary-search.md)
-{% endcontent-ref %}
+
 
 ### Kotlin
 
-{% content-ref url="../../programming/kotlin/algorithms/searching/binary-search.md" %}
+
 [binary-search.md](../../programming/kotlin/algorithms/searching/binary-search.md)
-{% endcontent-ref %}
+
 
 ## Implementacje — pozostałe
 
 ### C
 
-{% content-ref url="../../programming/c/algorithms/searching/binary-search.md" %}
+
 [binary-search.md](../../programming/c/algorithms/searching/binary-search.md)
-{% endcontent-ref %}
+
 
 ### Haskell
 
-{% content-ref url="../../programming/haskell/algorithms/searching/binary-search.md" %}
+
 [binary-search.md](../../programming/haskell/algorithms/searching/binary-search.md)
-{% endcontent-ref %}
+
 
 ### Julia
 
-{% content-ref url="../../programming/julia/algorithms/searching/binary-search.md" %}
+
 [binary-search.md](../../programming/julia/algorithms/searching/binary-search.md)
-{% endcontent-ref %}
+
 
 ## Powiązane zagadnienia
 

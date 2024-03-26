@@ -8,13 +8,13 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$n$$ - liczba naturalna
-* $$a_1,a_2,\dots,a_n$$ - $$n$$ liczb całkowitych
-* $$k$$ - liczba naturalna, $$1<=k<=n$$
+* $n$ - liczba naturalna
+* $a_1,a_2,\dots,a_n$ - $n$ liczb całkowitych
+* $k$ - liczba naturalna, $1<=k<=n$
 
 #### Wynik
 
-* $$a_k$$ - $$k$$-ta podana liczba
+* $a_k$ - $k$-ta podana liczba
 
 ## Rozwiązanie
 
@@ -46,12 +46,12 @@ int main() {
 
 ### Opis rozwiązania
 
-Na początku tworzymy zmienną $$n$$ (**linia 5**), w której będziemy przechowywać liczbę elementów, którą następnie wczytujemy od użytkownika (**linia 8**).
+Na początku tworzymy zmienną $n$ (**linia 5**), w której będziemy przechowywać liczbę elementów, którą następnie wczytujemy od użytkownika (**linia 8**).
 
-Gdy już znamy liczbę elementów, możemy utworzyć tablicę o odpowiednim rozmiarze. Tworzymy więc tablicę o rozmiarze $$n$$ (**linia 10**).
+Gdy już znamy liczbę elementów, możemy utworzyć tablicę o odpowiednim rozmiarze. Tworzymy więc tablicę o rozmiarze $n$ (**linia 10**).
 
-W kolejnym kroku, w pętli wczytujemy kolejne wartości od użytkownika i zapisujemy je w tablicy. Pętlą przechodzimy przez kolejne indeksy w naszej tablicy, tzn. od $$0$$ do $$n$$ (**linia 12**). Licznik pętli, zmienna `i`, określa indeks w tablicy, pod którym zapisujemy wczytaną wartość (**linia 14**).
+W kolejnym kroku, w pętli wczytujemy kolejne wartości od użytkownika i zapisujemy je w tablicy. Pętlą przechodzimy przez kolejne indeksy w naszej tablicy, tzn. od $0$ do $n$ (**linia 12**). Licznik pętli, zmienna `i`, określa indeks w tablicy, pod którym zapisujemy wczytaną wartość (**linia 14**).
 
 Następnie wczytujemy od użytkownika numer elementu, który należy wypisać (**linia 18**).
 
-Teraz pozostało wypisać właściwy element. Ponieważ tablica jest numerowana (indeksowana) od zera, należy wypisać element pod indeksem $$k - 1$$ (**linia 20**).
+Teraz pozostało wypisać właściwy element. Ponieważ tablica jest numerowana (indeksowana) od zera, należy wypisać element pod indeksem $k - 1$ (**linia 20**).

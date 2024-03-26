@@ -1,10 +1,7 @@
 # Wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/min-or-max.md)
 
-{% content-ref url="../../../../algorithms/searching/min-or-max.md" %}
-[min-or-max.md](../../../../algorithms/searching/min-or-max.md)
-{% endcontent-ref %}
 
 ## Wyszukiwanie wartości minimum i maksimum
 
@@ -48,9 +45,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/ksC9K4" %}
-Wyszukiwanie wartości minimum i maksimum
-{% endembed %}
+[Wyszukiwanie wartości minimum i maksimum](https://ideone.com/ksC9K4)
 
 ### Opis implementacji
 
@@ -98,9 +93,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/bA2kuB" %}
-Wyszukiwanie indeksów wartości min i maks
-{% endembed %}
+[Wyszukiwanie indeksów wartości min i maks](https://ideone.com/bA2kuB)
 
 ### Opis implementacji
 

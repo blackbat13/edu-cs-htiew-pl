@@ -2,21 +2,20 @@
 
 ## Zadanie 1
 
-- Punkty w kole: $$8136$$
-- Punkty poza kołem: $$1864$$
+- Punkty w kole: $8136$
+- Punkty poza kołem: $1864$
 
 ## Zadanie 2
 
-Długość sekwencji: $$43$$
+Długość sekwencji: $43$
 
 ## Zadanie 3
 
-Przykładowa wartość $$k=-0.0028421983934499573$$
+Przykładowa wartość $k=-0.0028421983934499573$
 
 ## Zadanie 4
 
-{% code overflow="wrap" lineNumbers="true" %}
-```
+``` linenums="1"
 -900 -803
 -864 -724
 -859 199
@@ -118,4 +117,4 @@ Przykładowa wartość $$k=-0.0028421983934499573$$
 925 -465
 927 -510
 ```
-{% endcode %}
+

@@ -1,15 +1,11 @@
 # Prim
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/prim.md)
 
-{% content-ref url="../../../../algorithms/graphs/prim.md" %}
-[prim.md](../../../../algorithms/graphs/prim.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -87,7 +83,7 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
@@ -99,6 +95,6 @@ Na początku definiujemy strukturę `edge` do reprezentacji krawędzi grafu (**l
 
 Dla ułatwienia definiujemy także konstruktor dla naszej struktury (**linia 13**). Ponieważ krawędzie chcemy przechowywać w kolejce priorytetowej, musimy także zdefiniować `operator<` do porównywania krawędzi (**linia 19**). Warto tutaj zwrócić uwagę na to, że kolejka priorytetowa z stl jest typu max, co oznacza, że domyślnie zwracałaby nam krawędź o największej wadze. Ponieważ do algorytmu Prima potrzebujemy pobierać krawędzie o najmniejszej wadze najpierw, odwracamy porządek krawędzi podczas porównywania ich wagi (**linia 20**).
 
-![Przykładowy graf wykorzystany w implementacji](../../../../.gitbook/assets/example_graph_weighted.png)
+![Przykładowy graf wykorzystany w implementacji](../../../../assets/example_graph_weighted.png)
 
-{% embed url="http://graphonline.ru/en/?graph=DZlFqSBPNgdHwNXK" %}
+[http://graphonline.ru/en/?graph=DZlFqSBPNgdHwNXK](http://graphonline.ru/en/?graph=DZlFqSBPNgdHwNXK)

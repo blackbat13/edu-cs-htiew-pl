@@ -1,15 +1,11 @@
 # Flood Fill
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/flood-fill.md)
 
-{% content-ref url="../../../../algorithms/graphs/flood-fill.md" %}
-[flood-fill.md](../../../../algorithms/graphs/flood-fill.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -56,4 +52,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

@@ -8,11 +8,11 @@ Największy wspólny dzielnik dwóch liczb naturalnych wykorzystywane jest w wie
 
 #### Dane
 
-* $$a, b$$ — liczby naturalne, większe od zera
+* $a, b$ — liczby naturalne, większe od zera
 
 #### Wynik
 
-* $$NWD(a, b)$$ — największy wspólny dzielnik liczb $$a$$ i $$b$$ 
+* $NWD(a, b)$ — największy wspólny dzielnik liczb $a$ i $b$ 
 
 ### Przykład
 
@@ -23,19 +23,18 @@ a := 32
 b := 12
 ```
 
-**Wynik**: $$4$$ 
+**Wynik**: $4$ 
 
-{% hint style="info" %}
-**Wyjaśnienie**
-
-Dzielnikami liczby $$32$$ są: $$1, 2, 4, 8, 16, 32$$
-
-Dzielnikami liczby $$12$$ są: 1, 2, 3, 4, 6, 12
-
-Wspólnymi dzielnikami są więc: $$1, 2, 4$$ 
-
-Największy z nich to właśnie $$4$$.
-{% endhint %}
+!!! info
+	**Wyjaśnienie**
+	
+	Dzielnikami liczby $32$ są: $1, 2, 4, 8, 16, 32$
+	
+	Dzielnikami liczby $12$ są: 1, 2, 3, 4, 6, 12
+	
+	Wspólnymi dzielnikami są więc: $1, 2, 4$ 
+	
+	Największy z nich to właśnie $4$.
 
 ## Wersja z odejmowaniem
 
@@ -83,9 +82,8 @@ funkcja NWD(a, b):
     5. Zwróc a
 ```
 
-{% hint style="info" %}
-**mod** oznacza resztę z dzielenia
-{% endhint %}
+!!! info
+	 **mod** oznacza resztę z dzielenia
 
 ### Schemat blokowy
 
@@ -126,26 +124,26 @@ flowchart TD
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/integers/gcd.md" %}
+
 [gcd.md](../../programming/c++/algorithms/integers/gcd.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/integers/gcd.md" %}
+
 [gcd.md](../../programming/python/algorithms/integers/gcd.md)
-{% endcontent-ref %}
+
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorithms/integers/gcd.md" %}
+
 [gcd.md](../../programming/blockly/algorithms/integers/gcd.md)
-{% endcontent-ref %}
+
 
 ## Implementacja - pozostałe
 
 ### Haskell
 
-{% content-ref url="../../programming/haskell/algorithms/integers/gcd.md" %}
+
 [gcd.md](../../programming/haskell/algorithms/integers/gcd.md)
-{% endcontent-ref %}
+

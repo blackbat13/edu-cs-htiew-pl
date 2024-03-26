@@ -46,6 +46,4 @@ tcpdump -r output.pcap
 
 ## Ściąga
 
-{% embed url="https://cdn.comparitech.com/wp-content/uploads/2019/06/tcpdump-cheat-sheet-2.pdf" %}
-Ściąga
-{% endembed %}
+[Ściąga](https://cdn.comparitech.com/wp-content/uploads/2019/06/tcpdump-cheat-sheet-2.pdf)

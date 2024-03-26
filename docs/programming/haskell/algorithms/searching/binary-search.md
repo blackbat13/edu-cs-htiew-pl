@@ -1,17 +1,13 @@
 # Wyszukiwanie binarne
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/binary-search.md)
 
-{% content-ref url="../../../../algorithms/searching/binary-search.md" %}
-[binary-search.md](../../../../algorithms/searching/binary-search.md)
-{% endcontent-ref %}
 
 ## Istnienie elementu
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```haskell
+```haskell linenums="1"
 binarySearch lst num left right
   | left > right = False
   | lst !! mid == num = True
@@ -29,7 +25,7 @@ main = do
     then putStrLn "Liczba jest w tablicy"
     else putStrLn "Liczby nie ma w tablicy"
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
@@ -46,8 +42,7 @@ W części `main`, definiujemy uporządkowaną listę `lst` i liczbę `num`, kt�
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```haskell
+```haskell linenums="1"
 binarySearch lst num left right
   | left > right = -1
   | lst !! mid == num = mid
@@ -67,7 +62,7 @@ main = do
         putStr "Liczba jest pod indeksem "
         print index
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 

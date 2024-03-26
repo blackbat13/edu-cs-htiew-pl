@@ -6,7 +6,7 @@ Zapoznaj się z poniższą specyfikacją oraz pseudokodem, a następnie rozwią�
 
 ### Dane
 
-* $$n$$ - liczba naturalna, $$n>0$$.
+* $n$ - liczba naturalna, $n>0$.
 
 ## Pseudokod
 

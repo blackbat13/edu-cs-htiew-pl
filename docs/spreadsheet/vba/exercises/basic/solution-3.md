@@ -8,11 +8,11 @@ Napisz funkcję `CzyParzysta` zgodną z poniższą specyfikacją.
 
 #### Dane
 
-* $$n$$ - liczba naturalna
+* $n$ - liczba naturalna
 
 #### Wynik
 
-* PRAWDA, jeżeli $$n$$ jest liczbą parzystą, FAŁSZ w przeciwnym przypadku.
+* PRAWDA, jeżeli $n$ jest liczbą parzystą, FAŁSZ w przeciwnym przypadku.
 
 ## Rozwiązanie
 

@@ -1,10 +1,7 @@
 # Test doskonałości
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/perfect-test.md)
 
-{% content-ref url="../../../../algorithms/integers/perfect-test.md" %}
-[perfect-test.md](../../../../algorithms/integers/perfect-test.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -36,9 +33,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/FVvc2L" %}
-Test doskonałości
-{% endembed %}
+[Test doskonałości](https://ideone.com/FVvc2L)
 
 ### Opis implementacji
 

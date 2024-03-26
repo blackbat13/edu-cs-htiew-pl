@@ -6,7 +6,7 @@ Zapoznaj się z poniższą specyfikacją oraz pseudokodem, a następnie rozwią�
 
 ### Dane
 
-* n - liczba naturalna, $$n>0$$. 
+* n - liczba naturalna, $n>0$. 
 
 ## Pseudokod
 
@@ -37,7 +37,7 @@ Przeanalizuj powyższą funkcję i uzupełnij poniższą tabelkę.
 
 ## Zadanie 2
 
-Oblicz ilość wywołań funkcji `fun` dla różnych wartości $$n$$.
+Oblicz ilość wywołań funkcji `fun` dla różnych wartości $n$.
 
 | n   | liczba wywołań funkcji fun |
 | :-: | :------------------------: |

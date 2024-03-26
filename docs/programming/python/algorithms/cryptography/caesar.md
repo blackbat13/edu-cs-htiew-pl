@@ -1,15 +1,11 @@
 # Szyfr Cezara
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/cryptography/symmetric/caesar.md)
 
-{% content-ref url="../../../../algorithms/cryptography/symmetric/caesar.md" %}
-[caesar.md](../../../../algorithms/cryptography/symmetric/caesar.md)
-{% endcontent-ref %}
 
 ## Szyfrowanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def encrypt_caesar(message: str, key: int) -> str:
     encrypted = ""
 
@@ -30,12 +26,11 @@ encrypted = encrypt_caesar(message, key)
 
 print(encrypted)
 ```
-{% endcode %}
+
 
 ## Deszyfrowanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def decrypt_caesar(message: str, key: int) -> str:
     decrypted = ""
 
@@ -56,4 +51,4 @@ decrypted = decrypt_caesar(message, key)
 
 print(decrypted)
 ```
-{% endcode %}
+

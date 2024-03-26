@@ -32,26 +32,25 @@ funkcja Reszta(n, nominały, kwota):
     7. Zwróć wynik
 ```
 
-{% hint style="info" %}
-**div** oznacza dzielenie całkowite
-
-**mod** oznacza resztę z dzielenia
-{% endhint %}
+!!! info
+	**div** oznacza dzielenie całkowite
+	
+	**mod** oznacza resztę z dzielenia
 
 ### Złożoność
 
-$$O(n)$$ - liniowa (przy zastosowaniu odpowiedniego algorytmu sortowania)
+$O(n)$ - liniowa (przy zastosowaniu odpowiedniego algorytmu sortowania)
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../../programming/c++/algorithms/integers/change.md" %}
+
 [change.md](../../../programming/c++/algorithms/integers/change.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../../programming/python/algorithms/integers/change.md" %}
+
 [change.md](../../../programming/python/algorithms/integers/change.md)
-{% endcontent-ref %}
+

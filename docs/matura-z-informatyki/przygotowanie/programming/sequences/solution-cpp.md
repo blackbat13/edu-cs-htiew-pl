@@ -2,8 +2,7 @@
 
 ## Zadanie 1
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <fstream>
 
@@ -29,12 +28,11 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ## Zadanie 2
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <fstream>
 
@@ -70,12 +68,11 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ## Zadanie 3
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -131,12 +128,11 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ## Zadanie 4
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <fstream>
 
@@ -185,12 +181,11 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ## Zadanie 5
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <fstream>
 #include <algorithm>
@@ -229,4 +224,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

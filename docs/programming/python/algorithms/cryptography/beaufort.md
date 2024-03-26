@@ -1,15 +1,11 @@
 # Szyfr Beauforta
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/cryptography/symmetric/beaufort.md)
 
-{% content-ref url="../../../../algorithms/cryptography/symmetric/beaufort.md" %}
-[beaufort.md](../../../../algorithms/cryptography/symmetric/beaufort.md)
-{% endcontent-ref %}
 
 ## Szyfrowanie i deszyfrowanie
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def encode(message: str, key: str) -> str:
     encoded = ""
     letter = key_index = k = 0
@@ -38,4 +34,4 @@ decoded = encode(encoded, key)
 print(f"Encoded: {encoded}")
 print(f"Decoded: {decoded}")
 ```
-{% endcode %}
+

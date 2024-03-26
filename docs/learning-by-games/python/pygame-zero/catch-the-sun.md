@@ -18,12 +18,11 @@ Każdy potrzebuje witaminy D, złapmy więc trochę słońca! Nie jest to jednak
 Pobieramy poniższą grafikę: klikamy prawym przyciskiem myszy i wybieramy *Zapisz obraz jako*. Zapisujemy obraz w wybranym przez siebie miejscu i nazywamy **sun.png**.
 Grafikę umieszczamy w katalogu **images** w naszym projekcie. W celu utworzenia katalogu klikamy prawym przyciskiem myszy na główny katalog projektu, a następnie wybieramy *New -> Directory*. Teraz wystarczy przeciągnąć nasze słońce do katalogu images i zatwierdzić zmiany klikając niebieski przycisk z napisem *Refactor*.
 
-![Źródło: [kenney.nl](https://www.kenney.nl/)](../../../.gitbook/assets/sun.png)
+![Źródło: [kenney.nl](https://www.kenney.nl/)](../../../assets/sun.png)
 
-{% hint style="warning" %}
-Wszystkie grafiki, z których będziemy korzystać w naszej grze, powinny znaleźć się w katalogu *images*, inaczej biblioteka nie znajdzie tych grafik. 
-Ponadto nazwy grafik nie mogą zawierać wielkich liter.
-{% endhint %}
+!!! warning
+	Wszystkie grafiki, z których będziemy korzystać w naszej grze, powinny znaleźć się w katalogu *images*, inaczej biblioteka nie znajdzie tych grafik. 
+	Ponadto nazwy grafik nie mogą zawierać wielkich liter.
 
 ## Podstawowy szablon
 
@@ -45,7 +44,7 @@ import random
 
 ### Określamy wymiary okna gry
 
-Nasza gra nie musi mieć dużego okna. Co więcej, im mniejsze będzie okno gry, tym gra będzie łatwiejsza! Dlaczego? Słońce będzie miało mniej miejsca do ucieczki, łatwiej więc będzie je złapać. Zacznijmy więc od niewielkiego, dość standardowego wymiaru $$800\times600$$. W każdej chwili możemy te wymiary zmienić.
+Nasza gra nie musi mieć dużego okna. Co więcej, im mniejsze będzie okno gry, tym gra będzie łatwiejsza! Dlaczego? Słońce będzie miało mniej miejsca do ucieczki, łatwiej więc będzie je złapać. Zacznijmy więc od niewielkiego, dość standardowego wymiaru $800\times600$. W każdej chwili możemy te wymiary zmienić.
 
 ```python
 WIDTH = 800
@@ -129,13 +128,12 @@ Zaczniemy od utworzenia naszego nowego aktora: słońca. W tym celu potrzebna na
 sun = Actor("sun")
 ```
 
-{% hint style="info" %}
-W nazwie grafiki możemy, ale nie musimy podawać rozszerzenia, tzn. moglibyśmy równie dobrze napisać:
-
-```
-sun = Actor("sun.png")
-```
-{% endhint %}
+!!! info
+	W nazwie grafiki możemy, ale nie musimy podawać rozszerzenia, tzn. moglibyśmy równie dobrze napisać:
+	
+	```
+	sun = Actor("sun.png")
+	```
 
 ### Rysujemy słońce na ekranie
 
@@ -147,9 +145,8 @@ def draw():
     sun.draw()
 ```
 
-{% hint style="info" %}
-Kolejność, w jakiej rysujemy kolejne elementy na ekranie, ma znaczenie. Możemy je sobie wyobrazić jak kolejne obrazki, które kładziemy jeden na drugim. Gdybyśmy najpierw narysowali słońce, a dopiero potem tło, to niebieski kolor przykryłby naszego aktora.
-{% endhint %}
+!!! info
+	 Kolejność, w jakiej rysujemy kolejne elementy na ekranie, ma znaczenie. Możemy je sobie wyobrazić jak kolejne obrazki, które kładziemy jeden na drugim. Gdybyśmy najpierw narysowali słońce, a dopiero potem tło, to niebieski kolor przykryłby naszego aktora.
 
 ### Pełny program
 
@@ -190,7 +187,7 @@ W tym momencie nasze słońce jest dość statyczne. Chcemy jednak, by zaznało 
 
 ### Przemieszczamy słońce w losowe miejsce
 
-Zacznijmy od przemieszczenia słońca w losowe miejsce. Będziemy teraz pracować w części **aktualizującej** (`update`), ponieważ nasze słońce powinno się przemieszczać przez cały czas trwania gry. Aby przemieścić słońce w inne miejsce na ekranie, powinniśmy zmienić jego **współrzędne**, tzn. parametry `sun.x` oraz `sun.y`. Przypiszemy im losowe wartości korzystając z metody `random.randint`, do której jako parametry przekażemy przedział, z którego chcemy wylosować wartość. Musimy pamiętać, że współrzędna $$x$$ powinna się mieścić w szerokości (**WIDTH**) ekranu, a współrzędna $$y$$ powinna się mieścić w wysokości (**HEIGHT**) ekranu. Dodatkowo warto dodać niewielki **margines**, powiedzmy $$80$$ pikseli, tak aby nasze słońce nie wychodziło poza brzegi okna gry.
+Zacznijmy od przemieszczenia słońca w losowe miejsce. Będziemy teraz pracować w części **aktualizującej** (`update`), ponieważ nasze słońce powinno się przemieszczać przez cały czas trwania gry. Aby przemieścić słońce w inne miejsce na ekranie, powinniśmy zmienić jego **współrzędne**, tzn. parametry `sun.x` oraz `sun.y`. Przypiszemy im losowe wartości korzystając z metody `random.randint`, do której jako parametry przekażemy przedział, z którego chcemy wylosować wartość. Musimy pamiętać, że współrzędna $x$ powinna się mieścić w szerokości (**WIDTH**) ekranu, a współrzędna $y$ powinna się mieścić w wysokości (**HEIGHT**) ekranu. Dodatkowo warto dodać niewielki **margines**, powiedzmy $80$ pikseli, tak aby nasze słońce nie wychodziło poza brzegi okna gry.
 
 W części aktualizującej (`update`) usuwamy więc instrukcję `pass` i dopisujemy losowanie nowych współrzędnych naszego słońca (pamiętając o wcięciach).
 
@@ -200,9 +197,8 @@ def update():
     sun.y = random.randint(80, HEIGHT - 80)
 ```
 
-{% hint style="info" %}
-Domyślnie współrzędne $$x, y$$ aktora oznaczają położenie jego lewego górnego rogu na ekranie.
-{% endhint %}
+!!! info
+	 Domyślnie współrzędne $x, y$ aktora oznaczają położenie jego lewego górnego rogu na ekranie.
 
 Gdy teraz uruchomimy naszą grę zobaczymy, że słońce faktycznie skacze po ekranie w losowych miejscach. Jest jednak zbyt szybkie, byśmy dali radę je złapać. Musimy je spowolnić.
 
@@ -215,7 +211,7 @@ sun = Actor("sun")
 sun.timer = 0
 ```
 
-Teraz, w części aktualizującej, powinniśmy zmniejszać nasz timer o jeden w każdej **klatce** gry. Następnie sprawdzimy, czy timer osiągnął wartość mniejszą lub równą zero, a jeżeli tak, to ustawimy słońce w losowym miejscu (tak jak poprzednio) i ustawimy timer na jakąś ustaloną z góry wartość, np $$60$$. Zakładając, że nasza gra będzie działać w sześćdziesięciu klatkach na sekundę, to wartość $$60$$ będzie odpowiadać jednej sekundzie.
+Teraz, w części aktualizującej, powinniśmy zmniejszać nasz timer o jeden w każdej **klatce** gry. Następnie sprawdzimy, czy timer osiągnął wartość mniejszą lub równą zero, a jeżeli tak, to ustawimy słońce w losowym miejscu (tak jak poprzednio) i ustawimy timer na jakąś ustaloną z góry wartość, np $60$. Zakładając, że nasza gra będzie działać w sześćdziesięciu klatkach na sekundę, to wartość $60$ będzie odpowiadać jednej sekundzie.
 
 ```python
 def update():
@@ -282,13 +278,13 @@ sun.timer = 0
 sun.points = 0
 ```
 
-Teraz czas wyświetlić punkty na ekranie, tak abyśmy mogli sprawdzać, czy naliczają się poprawnie. W tym celu skorzystamy z metody `screen.draw.text`, którą umieścimy na samym końcu części rysującej (`draw`). Do tej metody musimy przekazać kilka parametrów. W celu ułatwienia sobie pracy, przed wartością każdego parametru dopiszemy jego nazwę i znak przypisania $$=$$.
+Teraz czas wyświetlić punkty na ekranie, tak abyśmy mogli sprawdzać, czy naliczają się poprawnie. W tym celu skorzystamy z metody `screen.draw.text`, którą umieścimy na samym końcu części rysującej (`draw`). Do tej metody musimy przekazać kilka parametrów. W celu ułatwienia sobie pracy, przed wartością każdego parametru dopiszemy jego nazwę i znak przypisania $=$.
 Parametry, jakie przekażemy, to:
 
 - **text** - Tekst do wyświetlenia na ekranie, czyli nasza liczba punktów. Ponieważ musimy podać tekst, a nie liczbę, to punkty zamieniamy na tekst za pomocą funkcji **str**: `str(sun.points)`.
-- **center** - Współrzędne miejsca, w którym ma się znaleźć **środek** wyświetlanego tekstu. Chcemy, aby punkty były wyświetlane na środku ekranu (czyli w połowie szerokości), u góry (np. $$50$$ pikseli od góry). W takim razie podajemy parę współrzędnych zapisaną w nawiasach okrągłych: `(WIDTH / 2, 50)`.
+- **center** - Współrzędne miejsca, w którym ma się znaleźć **środek** wyświetlanego tekstu. Chcemy, aby punkty były wyświetlane na środku ekranu (czyli w połowie szerokości), u góry (np. $50$ pikseli od góry). W takim razie podajemy parę współrzędnych zapisaną w nawiasach okrągłych: `(WIDTH / 2, 50)`.
 - **color** - Kolor wyświetlanego tekstu. Podobnie jak przy tle możemy wybrać własny kolor, np. czerwony (**red**).
-- **fontsize** - Rozmiar czcionki. Jeżeli chcemy, by punkty były dobrze widoczne, warto podać jakąś dużą wartość, np. $$100$$.
+- **fontsize** - Rozmiar czcionki. Jeżeli chcemy, by punkty były dobrze widoczne, warto podać jakąś dużą wartość, np. $100$.
 
 Pełne wywołanie metody `screen.draw.text` będzie więc wyglądało następująco:
 
@@ -354,7 +350,7 @@ Warto w tym momencie uruchomić naszą grę i sprawdzić, jak zmieniają się pu
 
 ### Zwiększanie poziomu trudności
 
-Aby gra stawała się tym trudniejsza, im więcej mamy punktów, uzależnijmy wartość parametru *timer* od liczby zdobytych punktów. W tym celu zmodyfikujemy linijkę w części aktualizującej, gdzie resetujemy nasz licznik. Możemy to zrobić na kilka sposobów. Jednym z pomysłów jest odjęcie od liczby $$60$$ (reprezentującej jedną sekundę) liczby zdobytych punktów. W ten sposób, im więcej będziemy mieli punktów, tym słońce będzie szybciej przeskakiwać po ekranie. Natomiast jak będzie nam słabo szło i często będziemy tracić punkty, to słońce będzie wolniejsze i łatwiejsze do złapania.
+Aby gra stawała się tym trudniejsza, im więcej mamy punktów, uzależnijmy wartość parametru *timer* od liczby zdobytych punktów. W tym celu zmodyfikujemy linijkę w części aktualizującej, gdzie resetujemy nasz licznik. Możemy to zrobić na kilka sposobów. Jednym z pomysłów jest odjęcie od liczby $60$ (reprezentującej jedną sekundę) liczby zdobytych punktów. W ten sposób, im więcej będziemy mieli punktów, tym słońce będzie szybciej przeskakiwać po ekranie. Natomiast jak będzie nam słabo szło i często będziemy tracić punkty, to słońce będzie wolniejsze i łatwiejsze do złapania.
 
 W ostatniej linijce części *update* zamiast `sun.timer = 60` zapisujemy `sun.timer = 60 - sun.points`.
 
@@ -487,9 +483,7 @@ pgzrun.go()
 
 Pełna implementacja dostępna jest również poniżej.
 
-{% embed url="https://github.com/blackbat13/CatchTheSunPgZero" %}
-Złap Słońce
-{% endembed %}
+[Złap Słońce](https://github.com/blackbat13/CatchTheSunPgZero)
 
 ### Gramy
 

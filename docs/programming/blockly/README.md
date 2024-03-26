@@ -2,9 +2,7 @@
 
 Blockly to biblioteka programistyczna stworzona przez Google, która umożliwia tworzenie wizualnych edytorów do programowania za pomocą bloków. Każdy blok reprezentuje pewien fragment kodu, który może być połączony z innymi blokami, tworząc w ten sposób kompleksowe programy.
 
-{% embed url="https://developers.google.com/blockly" %}
-Oficjalna strona Blockly
-{% endembed %}
+[Oficjalna strona Blockly](https://developers.google.com/blockly)
 
 ## Zastosowanie w edukacji
 

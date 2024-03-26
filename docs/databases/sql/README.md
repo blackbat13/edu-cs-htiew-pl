@@ -13,6 +13,4 @@ SQL (ang. Structured Query Language) to język zapytań, za pomocą którego mo�
 
 Ciekawe gry do ćwiczenia zagadnień związanych z SQL:
 
-{% embed url="https://mystery.knightlab.com/" %}
-SQL Murder Mystery
-{% endembed %}
+[SQL Murder Mystery](https://mystery.knightlab.com/)

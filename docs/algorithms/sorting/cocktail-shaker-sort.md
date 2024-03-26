@@ -14,7 +14,7 @@ Poniżej znajdziesz animację przedstawiającą ideę omawianego algorytmu.
 
 ## Animacja
 
-{% embed url="https://blackbat13.github.io/visul2/sorting/cocktail_shaker_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D" %}
+[https://blackbat13.github.io/visul2/sorting/cocktail_shaker_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D](https://blackbat13.github.io/visul2/sorting/cocktail_shaker_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D)
 
 ## Rozwiązanie
 
@@ -31,9 +31,8 @@ procedura SortowanieKoktajlowe(n, A):
                 7. Zamień(A[j], A[j - 1]
 ```
 
-{% hint style="info" %}
-**div** oznacza dzielenie całkowite
-{% endhint %}
+!!! info
+	 **div** oznacza dzielenie całkowite
 
 ### Schemat blokowy
 
@@ -63,24 +62,23 @@ flowchart TD
 
 ### Złożoność
 
-Podobnie jak sortowanie bąbelkowe, sortowanie koktajlowe ma złożoność obliczeniową $$O(n^2)$$ zarówno w przypadku średnim, jak i najgorszym. Wynika to z przeglądania całej listy dla każdego elementu.
+Podobnie jak sortowanie bąbelkowe, sortowanie koktajlowe ma złożoność obliczeniową $O(n^2)$ zarówno w przypadku średnim, jak i najgorszym. Wynika to z przeglądania całej listy dla każdego elementu.
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/sorting/cocktail-shaker-sort.md" %}
+
 [cocktail-shaker-sort.md](../../programming/c++/algorithms/sorting/cocktail-shaker-sort.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/sorting/cocktail-shaker-sort.md" %}
+
 [cocktail-shaker-sort.md](../../programming/python/algorithms/sorting/cocktail-shaker-sort.md)
-{% endcontent-ref %}
+
 
 ### Kotlin
 
-{% content-ref url="../../programming/kotlin/algorithms/sorting/cocktail-shaker-sort.md" %}
+
 [cocktail-shaker-sort.md](../../programming/kotlin/algorithms/sorting/cocktail-shaker-sort.md)
-{% endcontent-ref %}

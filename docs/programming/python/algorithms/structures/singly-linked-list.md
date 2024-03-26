@@ -1,15 +1,11 @@
 # Lista jednokierunkowa
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/structures/singly-linked-list.md)
 
-{% content-ref url="../../../../algorithms/structures/singly-linked-list.md" %}
-[singly-linked-list.md](../../../../algorithms/structures/singly-linked-list.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 class List:
 
   class Element:
@@ -109,4 +105,4 @@ if __name__ == "__main__":
   for i in range(lst.size()):
     print(lst[i])
 ```
-{% endcode %}
+

@@ -1,15 +1,11 @@
 # Rozkład na czynniki pierwsze
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/prime-factors.md)
 
-{% content-ref url="../../../../algorithms/integers/prime-factors.md" %}
-[prime-factors.md](../../../../algorithms/integers/prime-factors.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```haskell
+```haskell linenums="1"
 primeFactors n i
   | i > n = []
   | n `mod` i == 0 = i : primeFactors (n `div` i) i
@@ -20,7 +16,7 @@ main = do
 
     print $ primeFactors n 2
 ```
-{% endcode %}
+
 
 ### Opis
 

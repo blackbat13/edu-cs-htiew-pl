@@ -1,17 +1,13 @@
 # Szyfr Trithemius'a
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/cryptography/symmetric/trithemius.md)
 
-{% content-ref url="../../../../algorithms/cryptography/symmetric/trithemius.md" %}
-[trithemius.md](../../../../algorithms/cryptography/symmetric/trithemius.md)
-{% endcontent-ref %}
 
 ## Szyfrowanie
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -45,14 +41,13 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ## Deszyfrowanie
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -86,4 +81,4 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+

@@ -17,12 +17,12 @@ Jak zwykle, zaczynamy od bardziej formalnej specyfikacji naszego problemu.
 
 #### Dane
 
-* $$n$$ - liczba naturalna, liczba elementów w tablicy
-* $$A[1..n]$$ - tablica $$n$$ wartości całkowitych
+* $n$ - liczba naturalna, liczba elementów w tablicy
+* $A[1..n]$ - tablica $n$ wartości całkowitych
 
 #### Wynik
 
-* Największa wartość z tablicy $$A$$
+* Największa wartość z tablicy $A$
 
 ### Przykład
 
@@ -33,13 +33,11 @@ n := 8
 A := [6, 5, 3, 1, 8, 7, 2, 4]
 ```
 
-**Wynik**: $$8$$
+**Wynik**: $8$
 
 ### Animacja
 
-{% embed url="https://blackbat13.github.io/visul2/searching/find_max/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D" %}
-Wyszukiwanie maksimum
-{% endembed %}
+[Wyszukiwanie maksimum](https://blackbat13.github.io/visul2/searching/find_max/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D)
 
 ### Rozwiązanie
 
@@ -91,7 +89,7 @@ flowchart TD
 Podobnie jak w przypadku wyszukiwania liniowego przeglądamy elementy jeden po drugim w poszukiwaniu maksimum.
 Dlatego i w tym przypadku mamy złożoność liniową.
 
-$$O(n)$$ - liniowa
+$O(n)$ - liniowa
 
 ## Wyszukiwanie indeksu wartości maksymalnej w tablicy
 
@@ -102,12 +100,12 @@ Zmodyfikujmy więc odpowiednio specyfikację naszego problemu.
 
 #### Dane
 
-* $$n$$ - liczba naturalna, ilość elementów w tablicy
-* $$A[1..n]$$ - tablica $$n$$ wartości całkowitych
+* $n$ - liczba naturalna, ilość elementów w tablicy
+* $A[1..n]$ - tablica $n$ wartości całkowitych
 
 #### Wynik
 
-* Indeks największej wartości z tablicy $$A$$ 
+* Indeks największej wartości z tablicy $A$ 
 
 ### Przykład
 
@@ -118,20 +116,19 @@ n := 8
 A := [6, 5, 3, 1, 8, 7, 2, 4]
 ```
 
-**Wynik**: $$5$$ 
+**Wynik**: $5$ 
 
-{% hint style="info" %}
-**Wyjaśnienie**
-
-Największa wartość w tablicy to $$8$$. Wartość ta znajduje się na pozycji piątej.
-{% endhint %}
+!!! info
+	**Wyjaśnienie**
+	
+	Największa wartość w tablicy to $8$. Wartość ta znajduje się na pozycji piątej.
 
 ### Rozwiązanie
 
 Nowy problem jest bardzo zbliżony do poprzedniego, więc aby go rozwiązać, rozszerzymy nasze poprzednie rozwiązanie.
 Teraz, poza wartością maksymalnego elementu, potrzebujemy zapamiętać dodatkową informację: indeks elementu maksymalnego.
 W tym celu dodajemy nową zmienną, w której zapamiętamy ten indeks. 
-Na początku, gdy jako potencjalne maksimum przyjmujemy wartość pierwszego elementu tablicy, musimy także indeks ustawić na wartość $$1$$, czyli pozycję naszego dotychczasowego maksimum.
+Na początku, gdy jako potencjalne maksimum przyjmujemy wartość pierwszego elementu tablicy, musimy także indeks ustawić na wartość $1$, czyli pozycję naszego dotychczasowego maksimum.
 
 Jest jeszcze jedno miejsce, w którym powinniśmy pamiętać o zmianie zapamiętanego indeksu.
 Za każdym razem, gdy znajdziemy większą wartość i zaktualizujemy nasze dotychczasowe maksimum, aktualizujemy także indeks tego maksimum.
@@ -174,54 +171,54 @@ flowchart TD
 
 Dodanie nowej zmiennej, w której pamiętamy indeks wyszukiwanego elementu, nie wpływa na złożoność naszego rozwiązania. Struktura algorytmu pozostaje niezmieniona, więc złożoność cały czas jest liniowa.
 
-$$O(n)$$ - liniowa
+$O(n)$ - liniowa
 
 ## Wyszukiwanie elementu minimalnego w tablicy
 
-W przypadku poszukiwania elementu minimalnego, postępujemy praktycznie identycznie jak przy poszukiwaniu elementu maksymalnego. W zasadzie wystarczy zmienić **znak porównania**: z $$<$$ na $$>$$. Zaprojektowanie rozwiązania zostawiamy jako samodzielne ćwiczenie dla zainteresowanych.
+W przypadku poszukiwania elementu minimalnego, postępujemy praktycznie identycznie jak przy poszukiwaniu elementu maksymalnego. W zasadzie wystarczy zmienić **znak porównania**: z $<$ na $>$. Zaprojektowanie rozwiązania zostawiamy jako samodzielne ćwiczenie dla zainteresowanych.
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/searching/min-or-max.md" %}
+
 [min-or-max.md](../../programming/c++/algorithms/searching/min-or-max.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/searching/min-or-max.md" %}
+
 [min-or-max.md](../../programming/python/algorithms/searching/min-or-max.md)
-{% endcontent-ref %}
+
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorithms/searching/min-or-max.md" %}
+
 [min-or-max.md](../../programming/blockly/algorithms/searching/min-or-max.md)
-{% endcontent-ref %}
+
 
 ### Kotlin
 
-{% content-ref url="../../programming/kotlin/algorithms/searching/min-or-max.md" %}
+
 [min-or-max.md](../../programming/kotlin/algorithms/searching/min-or-max.md)
-{% endcontent-ref %}
+
 
 ## Implementacje — pozostałe
 
 ### C
 
-{% content-ref url="../../programming/c/algorithms/searching/min-or-max.md" %}
+
 [min-or-max.md](../../programming/c/algorithms/searching/min-or-max.md)
-{% endcontent-ref %}
+
 
 ### Haskell
 
-{% content-ref url="../../programming/haskell/algorithms/searching/min-or-max.md" %}
+
 [min-or-max.md](../../programming/haskell/algorithms/searching/min-or-max.md)
-{% endcontent-ref %}
+
 
 ### Julia
 
-{% content-ref url="../../programming/julia/algorithms/searching/min-or-max.md" %}
+
 [min-or-max.md](../../programming/julia/algorithms/searching/min-or-max.md)
-{% endcontent-ref %}
+

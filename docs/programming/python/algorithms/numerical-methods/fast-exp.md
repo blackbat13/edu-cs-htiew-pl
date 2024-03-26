@@ -1,15 +1,11 @@
 # Szybkie potęgowanie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/numerical-methods/fast-exp.md)
 
-{% content-ref url="../../../../algorithms/numerical-methods/fast-exp.md" %}
-[fast-exp.md](../../../../algorithms/numerical-methods/fast-exp.md)
-{% endcontent-ref %}
 
 ## Rozwiązanie iteracyjne
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def fast_exp(a: int, n: int) -> int:
     w = 1
     
@@ -30,12 +26,11 @@ result = fast_exp(a, n)
 
 print(f"{a}^{n} = {result}")
 ```
-{% endcode %}
+
 
 ## Rozwiązanie rekurencyjne
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def fast_exp(a: int, n : int) -> int:
     if n == 0:
         return 1
@@ -53,4 +48,4 @@ result = fast_exp(a, n)
 
 print(f"{a}^{n} = {result}")
 ```
-{% endcode %}
+

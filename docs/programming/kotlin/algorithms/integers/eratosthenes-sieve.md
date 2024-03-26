@@ -1,10 +1,7 @@
 # Sito Eratostenesa
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/eratosthenes-sieve.md)
 
-{% content-ref url="../../../../algorithms/integers/eratosthenes-sieve.md" %}
-[eratosthenes-sieve.md](../../../../algorithms/integers/eratosthenes-sieve.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -49,9 +46,7 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/GUPgH6" %}
-Sito Eratostenesa
-{% endembed %}
+[Sito Eratostenesa](https://ideone.com/GUPgH6)
 
 ### Opis implementacji
 

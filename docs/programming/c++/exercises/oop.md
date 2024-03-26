@@ -8,13 +8,13 @@ Napisz program zgodny z poniższą specyfikacją. Do reprezentacji ułamków i w
 
 #### Dane
 
-* $$l1, m1$$ - licznik i mianownik pierwszego ułamka, liczby całkowite
-* $$op$$ - znak operacji: $$+$$, $$-$$, $$*$$ lub $$/$$
-* $$l2, m2$$ - licznik i mianownik drugiego ułamka, liczby całkowite
+* $l1, m1$ - licznik i mianownik pierwszego ułamka, liczby całkowite
+* $op$ - znak operacji: $+$, $-$, $*$ lub $/$
+* $l2, m2$ - licznik i mianownik drugiego ułamka, liczby całkowite
 
 #### Wynik
 
-* Wynik działania operacji $$\frac{l1}{m2}\ op\ \frac{l2}{m2}$$ przedstawiony w formie ułamka zwyczajnego (maksymalnie skróconego), wypisany w formacie `licznik / mianownik`, np. `3 / 4`
+* Wynik działania operacji $\frac{l1}{m2}\ op\ \frac{l2}{m2}$ przedstawiony w formie ułamka zwyczajnego (maksymalnie skróconego), wypisany w formacie `licznik / mianownik`, np. `3 / 4`
 
 ### Przykład 1
 
@@ -61,13 +61,13 @@ Możesz założyć, że wartości wszystkich liczb w systemie dziesiętnym zmies
 
 #### Dane
 
-* $$l1, p1$$ - liczba $$l1$$ reprezentowana w podstawie $$p1$$, $$2 \leq p1 \leq 16$$
-* $$l2, p2$$ - liczba $$l2$$ reprezentowana w podstawie $$p2$$, $$2 \leq p2 \leq 16$$
-* $$p3$$ - docelowa podstawa, $$2 \leq p3 \leq 16$$
+* $l1, p1$ - liczba $l1$ reprezentowana w podstawie $p1$, $2 \leq p1 \leq 16$
+* $l2, p2$ - liczba $l2$ reprezentowana w podstawie $p2$, $2 \leq p2 \leq 16$
+* $p3$ - docelowa podstawa, $2 \leq p3 \leq 16$
 
 #### Wynik
 
-* Suma podanych wartości przedstawiona w podstawie $$p3$$
+* Suma podanych wartości przedstawiona w podstawie $p3$
 
 ### Przykład 1
 
@@ -87,11 +87,10 @@ p3 := 8
 17
 ```
 
-{% hint style="info" %}
-**Wyjaśnienie**
-
-$$1010_2+5_{10}=17_8$$
-{% endhint %}
+!!! info
+	**Wyjaśnienie**
+	
+	$1010_2+5_{10}=17_8$
 
 ### Przykład 2
 
@@ -111,11 +110,10 @@ p3 := 16
 F
 ```
 
-{% hint style="info" %}
-**Wyjaśnienie**
-
-$$1010_2+5_{10}=F_16$$
-{% endhint %}
+!!! info
+	**Wyjaśnienie**
+	
+	$1010_2+5_{10}=F_16$
 
 ## Zadanie 3
 
@@ -127,13 +125,13 @@ Informacje na temat liczb zespolonych można znaleźć na stronie Wikipedii: [ht
 
 #### Dane
 
-* $$re1, im1$$ - część rzeczywista i urojona pierwszej liczby, liczby całkowite
-* $$op$$ - znak operacji: $$+$$, $$-$$, $$*$$ lub $$/$$
-* $$re2, im2$$ - część rzeczywista i urojona drugiej liczby, liczby całkowite
+* $re1, im1$ - część rzeczywista i urojona pierwszej liczby, liczby całkowite
+* $op$ - znak operacji: $+$, $-$, $*$ lub $/$
+* $re2, im2$ - część rzeczywista i urojona drugiej liczby, liczby całkowite
 
 #### Wynik
 
-* Wynik działania operacji $$\Re{re1}+\Im{im1} op\ \Re{re2}+\Im{im2}$$ przedstawiony w formacie `re + imi`, np. `3 + 4i`
+* Wynik działania operacji $\Re{re1}+\Im{im1} op\ \Re{re2}+\Im{im2}$ przedstawiony w formacie `re + imi`, np. `3 + 4i`
 
 ### Przykład
 
@@ -163,7 +161,7 @@ Zadbaj o czyszczenie pamięci przy użyciu destruktora klasy.
 
 #### Dane
 
-* $$a1, a2, a3...$$ - ciąg liczb całkowitych
+* $a1, a2, a3...$ - ciąg liczb całkowitych
 
 #### Wynik
 

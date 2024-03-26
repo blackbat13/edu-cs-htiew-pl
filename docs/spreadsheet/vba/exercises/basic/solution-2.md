@@ -6,30 +6,30 @@ Napisz funkcję `KonwTemp` zgodną z poniższą specyfikacją.
 
 Skorzystaj z następujących wzorów:
 
-- $$C = K - 273.15$$
-- $$C = \frac{5}{9} * (F - 32)$$
-- $$F = \frac{9}{5} * C + 32$$
-- $$F = \frac{9}{5} * K - 459.67$$
-- $$K = C + 273.15$$
-- $$K = \frac{5}{9} * (F + 459.67)$$
+- $C = K - 273.15$
+- $C = \frac{5}{9} * (F - 32)$
+- $F = \frac{9}{5} * C + 32$
+- $F = \frac{9}{5} * K - 459.67$
+- $K = C + 273.15$
+- $K = \frac{5}{9} * (F + 459.67)$
 
 gdzie:
 
-* $$C$$ - temperatura podana w stopniach Celsjusza
-* $$F$$ - temperatura podana w stopniach Fahrenheita
-* $$K$$ - temperatura podana w stopniach Kelvina
+* $C$ - temperatura podana w stopniach Celsjusza
+* $F$ - temperatura podana w stopniach Fahrenheita
+* $K$ - temperatura podana w stopniach Kelvina
 
 ### Specyfikacja
 
 #### Dane
 
-* $$temp$$ - liczba rzeczywista, temperatura do konwersji
-* $$jednZ$$ - jeden znak, wielka litera oznaczająca jednostkę temperatury z której należy dokonać konwersji
-* $$jednDo$$ - jeden znak, wielka litera oznaczająca jednostkę temperatury do której należy dokonać konwersji
+* $temp$ - liczba rzeczywista, temperatura do konwersji
+* $jednZ$ - jeden znak, wielka litera oznaczająca jednostkę temperatury z której należy dokonać konwersji
+* $jednDo$ - jeden znak, wielka litera oznaczająca jednostkę temperatury do której należy dokonać konwersji
 
 #### Wynik
 
-* Podana temperatura przekonwertowana z jednostki $$jednZ$$ do jednostki $$jednDo$$.
+* Podana temperatura przekonwertowana z jednostki $jednZ$ do jednostki $jednDo$.
 
 ## Rozwiązanie
 

@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją.
 
 #### Dane
 
-* $$a, b$$ - dwie liczby całkowite, różne od zera.
+* $a, b$ - dwie liczby całkowite, różne od zera.
 
 #### Wynik
 
-* Iloraz (wynik dzielenia), iloczyn (wynik mnożenia), suma oraz różnica liczb $$a$$ i $$b$$.
+* Iloraz (wynik dzielenia), iloczyn (wynik mnożenia), suma oraz różnica liczb $a$ i $b$.
 
 ## Rozwiązanie
 

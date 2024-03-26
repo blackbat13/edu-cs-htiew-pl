@@ -6,7 +6,7 @@ Zapoznaj się z poniższą specyfikacją oraz pseudokodem, a następnie rozwią�
 
 ### Dane
 
-* $$x$$ - liczba całkowita.
+* $x$ - liczba całkowita.
 
 ## Pseudokod
 

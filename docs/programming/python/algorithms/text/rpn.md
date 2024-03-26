@@ -1,15 +1,11 @@
 # ONP
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/odwrotna-notacja-polska.md)
 
-{% content-ref url="../../../../algorithms/text/odwrotna-notacja-polska.md" %}
-[odwrotna-notacja-polska.md](../../../../algorithms/text/odwrotna-notacja-polska.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 from queue import LifoQueue
 
 
@@ -33,4 +29,4 @@ result = calculate_rpn(rpn)
 
 print(result)
 ```
-{% endcode %}
+

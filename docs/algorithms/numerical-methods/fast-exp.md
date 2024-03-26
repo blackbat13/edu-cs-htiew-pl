@@ -4,31 +4,31 @@
 
 Zadanie jest proste: mamy podnieść liczbę do zadanej potęgi. Jak to jednak zwykle bywa, można to zrobić na różne sposoby, spośród których jedne będą szybsze, a inne wolniejsze. Zacznijmy od przykładu.
 
-$$
+$
 x^4=x*x*x*x
-$$
+$
 
-Jak widać w powyższym przykładzie, aby podnieść $$x$$ do potęgi 4, musimy wykonać **3 mnożenia**.
+Jak widać w powyższym przykładzie, aby podnieść $x$ do potęgi 4, musimy wykonać **3 mnożenia**.
 
 Zauważmy jednak, że pewne obliczenia będziemy wykonywać wielokrotnie:
 
-$$
+$
 x^4=x^2*x^2
-$$
+$
 
-Możemy najpierw obliczyć $$x^2$$ a następnie wynik podnieść do kwadratu:
+Możemy najpierw obliczyć $x^2$ a następnie wynik podnieść do kwadratu:
 
-$$
+$
 x^4=(x^2)^2
-$$
+$
 
 Jak przeanalizujemy powyższy przykład to zobaczymy, że teraz wystarczy wykonać **2 mnożenia**!
 
 Zobaczmy, że podobnie postępować możemy także z innymi potęgami, np.:
 
-$$
+$
 x^8=(x^4)^2=((x^2)^2)^2
-$$
+$
 
 Zamiast oryginalnych **7 mnożeń**, wystarczy wykonać **3 mnożenia**.
 
@@ -36,20 +36,20 @@ Zamiast oryginalnych **7 mnożeń**, wystarczy wykonać **3 mnożenia**.
 
 Co jednak w sytuacji, gdy wykładnik potęgi nie jest parzysty? Spójrzmy na poniższy przykład:
 
-$$
+$
 x^5=(x^2)^2*x
-$$
+$
 
 ### Specyfikacja
 
 #### Dane:
 
-* $$x$$ — liczba całkowita, podstawa potęgi
-* $$n$$ — liczba naturalna, wykładnik potęgi
+* $x$ — liczba całkowita, podstawa potęgi
+* $n$ — liczba naturalna, wykładnik potęgi
 
 #### Wynik:
 
-* $$x^n$$
+* $x^n$
 
 ## Rozwiązanie iteracyjne
 
@@ -86,19 +86,19 @@ flowchart TD
 
 ### Złożoność
 
-$$O(\log{n})$$ — logarytmiczna
+$O(\log{n})$ — logarytmiczna
 
 ## Rozwiązanie rekurencyjne
 
 ### Definicja rekurencyjna
 
-$$
+$
 potega(x,n)=\left\{ \begin{array}{c1}
 1 & : \ n = 0 \\
 potega(x, n\ div\ 2)^2 & : \ n\ mod\ 2 = 0 \\
 potega(x, n\ div\ 2)^2 * x & : \ n\ mod\ 2 = 1
 \end{array} \right.
-$$
+$
 
 ### Pseudokod
 
@@ -134,24 +134,24 @@ flowchart TD
 
 ### Złożoność
 
-$$O(\log{n})$$ — logarytmiczna
+$O(\log{n})$ — logarytmiczna
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/numerical-methods/fast-exp.md" %}
+
 [fast-exp.md](../../programming/c++/algorithms/numerical-methods/fast-exp.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/numerical-methods/fast-exp.md" %}
+
 [fast-exp.md](../../programming/python/algorithms/numerical-methods/fast-exp.md)
-{% endcontent-ref %}
+
 
 ### Julia
 
-{% content-ref url="../../programming/julia/algorithms/numerical-methods/fast-exp.md" %}
+
 [fast-exp.md](../../programming/julia/algorithms/numerical-methods/fast-exp.md)
-{% endcontent-ref %}
+

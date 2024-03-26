@@ -17,7 +17,7 @@ Niektóre implementacje stosu mogą również obsługiwać dodatkowe operacje, t
 
 Stosy są wykorzystywane w wielu różnych kontekstach w informatyce, w tym:
 
-- **Wywołanie funkcji**: kiedy funkcja $$A$$ wywołuje inną funkcję $$B$$, aktualny stan funkcji $$A$$ jest umieszczany na stosie, a funkcja $$B$$ jest wykonywana. Gdy funkcja $$B$$ zakończy działanie, stan funkcji $$A$$ jest zdejmowany ze stosu, co umożliwia powrót do miejsca, w którym została przerwana.
+- **Wywołanie funkcji**: kiedy funkcja $A$ wywołuje inną funkcję $B$, aktualny stan funkcji $A$ jest umieszczany na stosie, a funkcja $B$ jest wykonywana. Gdy funkcja $B$ zakończy działanie, stan funkcji $A$ jest zdejmowany ze stosu, co umożliwia powrót do miejsca, w którym została przerwana.
 - **Odwracanie sekwencji**: elementy dodane do stosu będą zdejmowane w odwrotnej kolejności, dzięki czemu stosy są użyteczne do odwracania sekwencji.
 - **Sprawdzanie zrównoważenia nawiasów**: stosy mogą być używane do sprawdzania zrównoważenia nawiasów w wyrażeniach matematycznych lub kodzie programu.
 - **Algorytmy wykorzystujące backtracking**: takie jak algorytmy przeszukiwania przestrzeni stanów (np. labiryntu), algorytmy przeszukiwania grafu (DFS), algorytmy rozwiązywania problemów związanych z permutacjami i kombinacjami.
@@ -32,20 +32,20 @@ Poniżej znajdziesz przykładowe implementacje stosu w wybranych językach progr
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/structures/stack.md" %}
+
 [stack.md](../../programming/c++/algorithms/structures/stack.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/structures/stack.md" %}
+
 [stack.md](../../programming/python/algorithms/structures/stack.md)
-{% endcontent-ref %}
+
 
 ## Implementacje — pozostałe
 
 ### C
 
-{% content-ref url="../../programming/c/algorithms/structures/stack.md" %}
+
 [stack.md](../../programming/c/algorithms/structures/stack.md)
-{% endcontent-ref %}
+

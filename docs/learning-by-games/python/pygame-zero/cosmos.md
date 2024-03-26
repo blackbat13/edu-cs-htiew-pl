@@ -16,15 +16,11 @@ Jak długo uda nam się przetrwać?
 
 ### Grafiki do pobrania
 
-{% file src="../../../.gitbook/assets/grafiki_kosmos.zip" %}
-Grafiki do gry Kosmos
-{% endfile %}
+[:material-folder-zip: Grafiki do gry Kosmos](../../../assets/grafiki_kosmos.zip)
 
 ### Dźwięki do pobrania
 
-{% file src="../../../.gitbook/assets/dzwieki_kosmos.zip" %}
-Dźwięki do gry Kosmos
-{% endfile %}
+[:material-folder-zip: Dźwięki do gry Kosmos](../../../assets/dzwieki_kosmos.zip)
 
 ### Źródła
 
@@ -32,7 +28,7 @@ Dźwięki do gry Kosmos
 
 ## Nasz cel
 
-![Kosmos](../../../.gitbook/assets/cosmos.gif)
+![Kosmos](../../../assets/cosmos.gif)
 
 ## Szablon
 
@@ -52,7 +48,7 @@ import math
 
 ### Konfiguracja
 
-Utworzymy ekran o wymiarach $$1200\times 1200$$. Do tego w opcjach konfiguracyjnych zapamiętamy sobie także margines (**MARGIN**) o wartości $$20$$, którego będziemy używać przy elementach interfejsu.
+Utworzymy ekran o wymiarach $1200\times 1200$. Do tego w opcjach konfiguracyjnych zapamiętamy sobie także margines (**MARGIN**) o wartości $20$, którego będziemy używać przy elementach interfejsu.
 
 ```python
 ...
@@ -321,7 +317,7 @@ def draw():
 
 ### Poruszamy statkiem
 
-Przejdźmy teraz do ruchu gracza. Będziemy go przemieszczać zgodnie z jego kierunkiem obrotu proporcjonalnie do prędkości. Na początku dopiszmy prędkość (*v*) do naszego gracza, z początkową wartością $$2$$, zaraz pod jego współrzędnymi.
+Przejdźmy teraz do ruchu gracza. Będziemy go przemieszczać zgodnie z jego kierunkiem obrotu proporcjonalnie do prędkości. Na początku dopiszmy prędkość (*v*) do naszego gracza, z początkową wartością $2$, zaraz pod jego współrzędnymi.
 
 ```python
 player.v = 2
@@ -335,12 +331,12 @@ def update_player():
 
 Do obliczenia ruchu gracza wykorzystamy matematyczną formułę opartą na trygonometrii:
 
-$$
+$
 x += \sin(angle) * v
 y += \cos(angle) * v
-$$
+$
 
-Gdzie *angle* to kąt obrotu gracza, a *v* to jego prędkość. Musimy jednak dostosować funkcję do naszych warunków. Do obliczenia sinusa i cosinusa wykorzystamy odpowiednie funkcji z biblioteki *math*: `math.sin` oraz `math.cos`. Funkcje te jednak przyjmują kąt w **radianach**, a nie stopniach. Kąt obrotu gracza zapisany jest w zmiennej *player.angle* i podany jest w stopniach. Dlatego musimy zamienić stopnie na radiany za pomocą funkcji `math.radians`. Zanim to jednak zrobimy, musimy odpowiednio zmodyfikować ten kąt, ponieważ na naszej grafice statek skierowany jest do góry, a *Pygame Zero* domyślnie traktuje aktorów tak, jakby byli skierowani w prawo. Dlatego od kąta obrotu gracza odejmiemy połowę pełnego obrotu, czyli $$180$$.
+Gdzie *angle* to kąt obrotu gracza, a *v* to jego prędkość. Musimy jednak dostosować funkcję do naszych warunków. Do obliczenia sinusa i cosinusa wykorzystamy odpowiednie funkcji z biblioteki *math*: `math.sin` oraz `math.cos`. Funkcje te jednak przyjmują kąt w **radianach**, a nie stopniach. Kąt obrotu gracza zapisany jest w zmiennej *player.angle* i podany jest w stopniach. Dlatego musimy zamienić stopnie na radiany za pomocą funkcji `math.radians`. Zanim to jednak zrobimy, musimy odpowiednio zmodyfikować ten kąt, ponieważ na naszej grafice statek skierowany jest do góry, a *Pygame Zero* domyślnie traktuje aktorów tak, jakby byli skierowani w prawo. Dlatego od kąta obrotu gracza odejmiemy połowę pełnego obrotu, czyli $180$.
 
 ```python
 def update_player():
@@ -350,7 +346,7 @@ def update_player():
 
 ### Obracamy statek
 
-Czas zająć się obrotem gracza. Obracać będziemy go na klawisze **A** oraz **D** zgodnie z prędkością obrotu, którą najpierw musimy do gracza dopisać. Dopisujemy więc nową zmienną do gracza, zaraz pod jego prędkością. Nazwiemy ją **va** (*a* od *angle*) i ustawimy jej początkową wartość $$2$$.
+Czas zająć się obrotem gracza. Obracać będziemy go na klawisze **A** oraz **D** zgodnie z prędkością obrotu, którą najpierw musimy do gracza dopisać. Dopisujemy więc nową zmienną do gracza, zaraz pod jego prędkością. Nazwiemy ją **va** (*a* od *angle*) i ustawimy jej początkową wartość $2$.
 
 ```python
 player.va = 2
@@ -378,13 +374,13 @@ def update_player():
 
 ### Przyspieszamy statek
 
-Nasz statek powinien mieć jakieś przyspieszenie, żeby gra była ciekawsza. W tym celu dopiszemy do gracza zmienną *ac* (*acceleration*), która będzie oznaczała wartość przyspieszenia. Nową zmienną dopisujemy pod prędkością obrotu i nadajemy jej wartość $$0.2$$.
+Nasz statek powinien mieć jakieś przyspieszenie, żeby gra była ciekawsza. W tym celu dopiszemy do gracza zmienną *ac* (*acceleration*), która będzie oznaczała wartość przyspieszenia. Nową zmienną dopisujemy pod prędkością obrotu i nadajemy jej wartość $0.2$.
 
 ```python
 player.ac = 0.2
 ```
 
-Dopiszemy jeszcze prędkość maksymalną, którą zapiszemy w graczu w zmiennej *maxv* z początkową wartością $$8$$.
+Dopiszemy jeszcze prędkość maksymalną, którą zapiszemy w graczu w zmiennej *maxv* z początkową wartością $8$.
 
 ```python
 player.ac = 0.2
@@ -642,7 +638,7 @@ def on_key_down(key):
         laser.angle = player.angle
 ```
 
-Zdefiniujemy także prędkość (*v*) i ustawimy ją na $$10$$, tak by zawsze laser był szybszy od statku.
+Zdefiniujemy także prędkość (*v*) i ustawimy ją na $10$, tak by zawsze laser był szybszy od statku.
 
 ```python
 def on_key_down(key):
@@ -870,7 +866,7 @@ Skoro możemy już strzelać, to czas zająć się przeciwnikami.
 
 ### Dodajemy przeciwników
 
-Zacznijmy od dodawania przeciwników. W tym celu będziemy edytować funkcję *update_enemies*, z której usuwamy instrukcję *pass*. Naszych przeciwników będziemy dodawać w sposób losowy. Dlatego skorzystamy z metody **random.random()**, która losuje liczbę rzeczywistą z przedziału $$<0,1)$$. Jeżeli wylosowana wartość będzie mniejsza od jakiejś małej liczby, np. $$0.01$$, to dodamy nowego przeciwnika wywołując funkcję *add_enemy*.
+Zacznijmy od dodawania przeciwników. W tym celu będziemy edytować funkcję *update_enemies*, z której usuwamy instrukcję *pass*. Naszych przeciwników będziemy dodawać w sposób losowy. Dlatego skorzystamy z metody **random.random()**, która losuje liczbę rzeczywistą z przedziału $<0,1)$. Jeżeli wylosowana wartość będzie mniejsza od jakiejś małej liczby, np. $0.01$, to dodamy nowego przeciwnika wywołując funkcję *add_enemy*.
 
 ```python
 def update_enemies():
@@ -893,7 +889,7 @@ def add_enemy():
     enemy.pos = choose_position()
 ```
 
-Pora na prędkość (*v*). Możemy ją ustalić jako losową wartość całkowitą (*random.randint*) z wybranego przedziału, np. $$<2,5>$$.
+Pora na prędkość (*v*). Możemy ją ustalić jako losową wartość całkowitą (*random.randint*) z wybranego przedziału, np. $<2,5>$.
 
 ```python
 def add_enemy():
@@ -914,14 +910,14 @@ def add_enemy():
 
 ### Losujemy pozycję
 
-Zajmijmy się teraz losowaniem startowej pozycji dla naszych przeciwników, a później także dla asteroid. W tym celu edytujemy funkcję *choose_position* i usuwamy z niej instrukcję *pass*. Pozycję będziemy losować w taki sposób, aby nowy element pojawił się poza granicami ekranu, po lewej, prawej, u góry lub u dołu. Zrobimy to w ten sposób, że najpierw wylosujemy wartość całkowitą z przedziału $$<1,2>$$. Jeżeli wylosujemy $$1$$, to umieścimy przeciwnika z lewej lub prawej strony. W przeciwnym przypadku umieścimy go u góry lub u dołu. Zaczynamy od instrukcji warunkowej sprawdzającej, czy wylosowaliśmy $$1$$.
+Zajmijmy się teraz losowaniem startowej pozycji dla naszych przeciwników, a później także dla asteroid. W tym celu edytujemy funkcję *choose_position* i usuwamy z niej instrukcję *pass*. Pozycję będziemy losować w taki sposób, aby nowy element pojawił się poza granicami ekranu, po lewej, prawej, u góry lub u dołu. Zrobimy to w ten sposób, że najpierw wylosujemy wartość całkowitą z przedziału $<1,2>$. Jeżeli wylosujemy $1$, to umieścimy przeciwnika z lewej lub prawej strony. W przeciwnym przypadku umieścimy go u góry lub u dołu. Zaczynamy od instrukcji warunkowej sprawdzającej, czy wylosowaliśmy $1$.
 
 ```python
 def choose_position():
     if random.randint(1, 2) == 1:
 ```
 
-Jeżeli tak, to współrzędna $$x$$ powinna znajdować się z lewej lub prawej strony ekranu, zachowując przy tym odpowiedni margines. Mamy więc do dyspozycji dwie wartości: `-MARGIN` lub `WIDTH + MARGIN`. Aby wybrać pomiędzy nimi skorzystamy z funkcji *random.choice*, do której jako parametr podamy te dwie wartości w postaci listy, czyli zapisane w nawiasach kwadratowych. Wynik przypiszemy do nowej zmiennej **x**.
+Jeżeli tak, to współrzędna $x$ powinna znajdować się z lewej lub prawej strony ekranu, zachowując przy tym odpowiedni margines. Mamy więc do dyspozycji dwie wartości: `-MARGIN` lub `WIDTH + MARGIN`. Aby wybrać pomiędzy nimi skorzystamy z funkcji *random.choice*, do której jako parametr podamy te dwie wartości w postaci listy, czyli zapisane w nawiasach kwadratowych. Wynik przypiszemy do nowej zmiennej **x**.
 
 ```python
 def choose_position():
@@ -1017,7 +1013,7 @@ def update_enemies():
         enemy.angle = enemy.angle_to(player.pos)
 ```
 
-Ze względu na grafikę przeciwników od kąta musimy jeszcze odjąć $$90$$ stopni, by rzeczywiście byli skierowani we właściwą stronę.
+Ze względu na grafikę przeciwników od kąta musimy jeszcze odjąć $90$ stopni, by rzeczywiście byli skierowani we właściwą stronę.
 
 ```python
 def update_enemies():
@@ -1102,7 +1098,7 @@ def update_collisions():
 
 ### Sprawdzamy zderzenia z przeciwnikami
 
-Nasi przeciwnicy nie tylko będą strzelać laserami (tym zajmiemy się za chwilę), ale będą stanowić także zagrożenie kolizyjne. Gdy zderzymy się z przeciwnikiem, ten zostanie zniszczony, ale my stracimy życie. Zanim jednak przejdziemy to utraty żyć, musimy je dopisać do naszego gracza. Zapiszemy je w zmiennej *lifes* gracza i nadamy początkową wartość $$3$$. Życia dopisujemy zaraz pod maksymalną prędkością.
+Nasi przeciwnicy nie tylko będą strzelać laserami (tym zajmiemy się za chwilę), ale będą stanowić także zagrożenie kolizyjne. Gdy zderzymy się z przeciwnikiem, ten zostanie zniszczony, ale my stracimy życie. Zanim jednak przejdziemy to utraty żyć, musimy je dopisać do naszego gracza. Zapiszemy je w zmiennej *lifes* gracza i nadamy początkową wartość $3$. Życia dopisujemy zaraz pod maksymalną prędkością.
 
 ```python
 player.lifes = 3
@@ -1179,7 +1175,7 @@ def update_collisions():
 
 ### Strzelamy laserami
 
-Nasi przeciwnicy także powinni strzelać laserami. Dlatego wewnątrz pętli, którą przed chwilą stworzyliśmy, dopiszemy nowe instrukcje na sam koniec, ponieważ chcemy, by **każdy** przeciwnik mógł strzelać. Strzały będziemy oddawać losowo, podobnie jak zrobiliśmy z dodawaniem nowych przeciwników. Dlatego zaczynamy od instrukcji warunkowej. Jako warunek sprawdzimy, czy wylosowana liczba rzeczywista jest odpowiednio mała, np. mniejsza od $$0.005$$.
+Nasi przeciwnicy także powinni strzelać laserami. Dlatego wewnątrz pętli, którą przed chwilą stworzyliśmy, dopiszemy nowe instrukcje na sam koniec, ponieważ chcemy, by **każdy** przeciwnik mógł strzelać. Strzały będziemy oddawać losowo, podobnie jak zrobiliśmy z dodawaniem nowych przeciwników. Dlatego zaczynamy od instrukcji warunkowej. Jako warunek sprawdzimy, czy wylosowana liczba rzeczywista jest odpowiednio mała, np. mniejsza od $0.005$.
 
 ```python
 def update_enemies():
@@ -1233,7 +1229,7 @@ def update_enemies():
             laser.angle = enemy.angle
 ```
 
-Jeżeli chodzi o prędkość (*laser.v*), to możemy wylosować liczbę całkowitą z wybranego przedziału, np. $$<5,10>$$.
+Jeżeli chodzi o prędkość (*laser.v*), to możemy wylosować liczbę całkowitą z wybranego przedziału, np. $<5,10>$.
 
 ```python
 def update_enemies():
@@ -1587,7 +1583,7 @@ pgzrun.go()
 
 ## Czas
 
-Zajmiemy się teraz czasem, który będzie swoistymi punktami w naszej grze. Im dłużej uda nam się przetrwać, tym lepiej. Musimy jednak mieć jakieś miejsce do przechowywania wartości czasu. Czas będziemy reprezentować w sekundach, wystarczy nam więc zwykła liczba. Do naszego gracza dopiszemy zmienną *time* i nadamy jej wartość $$0$$. Nową zmienną dopisujemy zaraz pod życiami gracza.
+Zajmiemy się teraz czasem, który będzie swoistymi punktami w naszej grze. Im dłużej uda nam się przetrwać, tym lepiej. Musimy jednak mieć jakieś miejsce do przechowywania wartości czasu. Czas będziemy reprezentować w sekundach, wystarczy nam więc zwykła liczba. Do naszego gracza dopiszemy zmienną *time* i nadamy jej wartość $0$. Nową zmienną dopisujemy zaraz pod życiami gracza.
 
 ```python
 player.time = 0
@@ -1595,7 +1591,7 @@ player.time = 0
 
 ### Wyświetlamy czas
 
-Teraz możemy wyświetlić czas na ekranie, zanim przejdziemy do jego upływu. Na końcu funkcji *draw* dopisujemy instrukcję wypisującą tekst na ekranie (*screen.draw.text*). Jako tekst do wyświetlenia podamy tekstową reprezentację czasu przypisanego do gracza (*str(player.time)*). Środek tekstu (*center*) umieścimy na środku ekranu w poziomie (*WIDTH/2*) z niewielkim marginesem od góry ($$40$$). Jako rozmiar czcionki (*fontsize*) przyjmiemy wartość $$80$$, a kolor (*color*) ustawimy na żółty (*yellow*).
+Teraz możemy wyświetlić czas na ekranie, zanim przejdziemy do jego upływu. Na końcu funkcji *draw* dopisujemy instrukcję wypisującą tekst na ekranie (*screen.draw.text*). Jako tekst do wyświetlenia podamy tekstową reprezentację czasu przypisanego do gracza (*str(player.time)*). Środek tekstu (*center*) umieścimy na środku ekranu w poziomie (*WIDTH/2*) z niewielkim marginesem od góry ($40$). Jako rozmiar czcionki (*fontsize*) przyjmiemy wartość $80$, a kolor (*color*) ustawimy na żółty (*yellow*).
 
 ```python
 def draw():
@@ -1605,7 +1601,7 @@ def draw():
 
 ### Aktualizujemy czas
 
-Czas się już wyświetla, czas więc go zaktualizować. Najpierw zajmiemy się naszą funkcją *add_time*, z której usuwamy instrukcję *pass*. Czas będziemy zwiększać tylko wtedy, gdy gracz jest jeszcze żywy, tzn. gdy ma więcej żyć niż $$0$$. Dlatego na początku sprawdzamy, czy tak rzeczywiście jest.
+Czas się już wyświetla, czas więc go zaktualizować. Najpierw zajmiemy się naszą funkcją *add_time*, z której usuwamy instrukcję *pass*. Czas będziemy zwiększać tylko wtedy, gdy gracz jest jeszcze żywy, tzn. gdy ma więcej żyć niż $0$. Dlatego na początku sprawdzamy, czy tak rzeczywiście jest.
 
 ```python
 def add_time():
@@ -1620,7 +1616,7 @@ def add_time():
         player.time += 1
 ```
 
-Naszą funkcję zwiększającą czas musimy jednak jakoś wywołać. Chcemy zliczać upływ sekund, powinniśmy więc funkcję wywoływać co jedną sekundę. Z pomocą przyjdzie nam funkcja **clock.schedule_interval** z biblioteki *Pygame Zero*. Jako parametry podamy nazwę funkcji *add_time* oraz liczbę sekund określającą odstęp czasowy do kolejnych wywołań funkcji. W naszym przypadku będzie to oczywiście $$1$$. Nową instrukcję dopisujemy na samym końcu naszego kodu, zaraz przed *pgzrun.go()*, tak aby czas zaczął być zliczany jak tylko rozpoczniemy grę.
+Naszą funkcję zwiększającą czas musimy jednak jakoś wywołać. Chcemy zliczać upływ sekund, powinniśmy więc funkcję wywoływać co jedną sekundę. Z pomocą przyjdzie nam funkcja **clock.schedule_interval** z biblioteki *Pygame Zero*. Jako parametry podamy nazwę funkcji *add_time* oraz liczbę sekund określającą odstęp czasowy do kolejnych wywołań funkcji. W naszym przypadku będzie to oczywiście $1$. Nową instrukcję dopisujemy na samym końcu naszego kodu, zaraz przed *pgzrun.go()*, tak aby czas zaczął być zliczany jak tylko rozpoczniemy grę.
 
 ```python
 clock.schedule_interval(add_time, 1)
@@ -1812,7 +1808,7 @@ pgzrun.go()
 
 Teraz zajmiemy się wyświetleniem żyć gracza na ekranie. Zrobimy to praktycznie tak samo jak w przypadku gry *Asteroidy*. Życia narysujemy w lewym górnym rogu ekranu za pomocą grafik małego statku. Grafika, której użyjemy, nazywa się *life.png*. Do rysowania żyć wykorzystamy naszą funkcję *draw_lifes*, z której usuwamy instrukcję *draw*.
 
-Będziemy rysować tyle żyć, na ile wskazuje zmienna *player.lifes*. W związku z tym potrzebna nam pętla. Użyjemy pętli *for* z licznikiem *life_id*, który będzie oznaczał numer obecnie rysowanego życia, a jako zakres przejdziemy od $$1$$ do liczby żyć statku włącznie, czyli  `range(1, player.lifes + 1)`.
+Będziemy rysować tyle żyć, na ile wskazuje zmienna *player.lifes*. W związku z tym potrzebna nam pętla. Użyjemy pętli *for* z licznikiem *life_id*, który będzie oznaczał numer obecnie rysowanego życia, a jako zakres przejdziemy od $1$ do liczby żyć statku włącznie, czyli  `range(1, player.lifes + 1)`.
 
 ```python
 def draw_lifes():
@@ -1827,7 +1823,7 @@ def draw_lifes():
         life = Actor("life")
 ```
 
-Teraz czas wyznaczyć współrzędne naszego życia. Ponieważ chcemy, by były ułożone obok siebie w jednej linii, to współrzędna $$x$$ będzie zależna od numeru aktualnie rysowanego życia. Narysujemy życia tak, aby były obok siebie, ale na siebie nie nachodziły. Dlatego wartość współrzędnej poziomej to nic innego jak numer życia przemnożony przez szerokość grafiki życia. Szerokość grafiki aktora możemy łatwo poznać pisząc **life.width**.
+Teraz czas wyznaczyć współrzędne naszego życia. Ponieważ chcemy, by były ułożone obok siebie w jednej linii, to współrzędna $x$ będzie zależna od numeru aktualnie rysowanego życia. Narysujemy życia tak, aby były obok siebie, ale na siebie nie nachodziły. Dlatego wartość współrzędnej poziomej to nic innego jak numer życia przemnożony przez szerokość grafiki życia. Szerokość grafiki aktora możemy łatwo poznać pisząc **life.width**.
 
 ```python
 def draw_lifes():
@@ -1836,7 +1832,7 @@ def draw_lifes():
         life.x = life_id * life.width
 ```
 
-Jeżeli chodzi o położenie w pionie, to nasze życia będą dotykać górnego brzegu ekranu, ale nie powinny poza niego wychodzić. W tym celu do współrzędnej $$y$$ przypiszemy połowę wysokości grafiki życia. Wysokość grafiki aktora możemy pobrać podobnie jak szerokość: **life.height**.
+Jeżeli chodzi o położenie w pionie, to nasze życia będą dotykać górnego brzegu ekranu, ale nie powinny poza niego wychodzić. W tym celu do współrzędnej $y$ przypiszemy połowę wysokości grafiki życia. Wysokość grafiki aktora możemy pobrać podobnie jak szerokość: **life.height**.
 
 ```python
 def draw_lifes():
@@ -2078,7 +2074,7 @@ def draw():
     if player.lifes <= 0:
 ```
 
-Jeżeli tak, to wyświetlimy napis *GAME OVER*. Umieścimy go dokładnie na środku ekranu, z czcionką o rozmiarze $$100$$ i czerwonym (*red*) kolorze.
+Jeżeli tak, to wyświetlimy napis *GAME OVER*. Umieścimy go dokładnie na środku ekranu, z czcionką o rozmiarze $100$ i czerwonym (*red*) kolorze.
 
 ```python
 def draw():

@@ -1,16 +1,12 @@
 # Sekwencje
 
-W pliku *sequences.txt* znajduje się $$10$$ wierszy. W każdym wierszu znajduje się liczba naturalna $$n$$, a następnie sekwencja $$n$$ liczb naturalnych z przedziału $$[1,1000]$$ oddzielonych spacją.
+W pliku *sequences.txt* znajduje się $10$ wierszy. W każdym wierszu znajduje się liczba naturalna $n$, a następnie sekwencja $n$ liczb naturalnych z przedziału $[1,1000]$ oddzielonych spacją.
 
-{% file src="../../../../.gitbook/assets/sequences/sequences.txt" %}
-sequences.txt
-{% endfile %}
+[:material-note-text: sequences.txt](../../../../assets/sequences/sequences.txt)
 
-W pliku *sequences_test.txt* znajduje się $$10$$ wierszy, jak opisano powyżej.
+W pliku *sequences_test.txt* znajduje się $10$ wierszy, jak opisano powyżej.
 
-{% file src="../../../../.gitbook/assets/sequences/sequences_test.txt" %}
-sequences_test.txt
-{% endfile %}
+[:material-note-text: sequences_test.txt](../../../../assets/sequences/sequences_test.txt)
 
 Napisz program/programy rozwiązujące poniższe zadania.
 

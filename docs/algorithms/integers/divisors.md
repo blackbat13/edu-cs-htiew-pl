@@ -10,11 +10,11 @@ Zadanie to jest stosunkowo proste, należy jednak zadać sobie pytanie: **jakie 
 
 #### Dane
 
-* $$n$$ — liczba naturalna, większa od zera
+* $n$ — liczba naturalna, większa od zera
 
 #### Wynik
 
-* Wszystkie dzielniki liczby $$n$$ 
+* Wszystkie dzielniki liczby $n$ 
 
 ### Przykład
 
@@ -24,15 +24,15 @@ Zadanie to jest stosunkowo proste, należy jednak zadać sobie pytanie: **jakie 
 n := 12
 ```
 
-**Wynik**: $$1,2,3,4,6,12$$ 
+**Wynik**: $1,2,3,4,6,12$ 
 
 ## Rozwiązanie zupełnie naiwne
 
-Przejdźmy do próby rozwiązania problemu. Naszym zadaniem jest wypisać **wszystkie dzielniki** podanej wartości. Nie możemy żadnego pominąć. Spróbujmy więc odpowiedzieć na postawione wcześniej pytanie: **jakie liczby musimy sprawdzić**? Po pierwsze możemy łatwo zauważyć, że nie ma sensu sprawdzać wartości mniejszych niż $$1$$. Najmniejszy i zarazem pierwszy dzielnik to będzie zawsze liczba $$1$$. Od niej więc zaczynamy poszukiwanie dzielników. W którym miejscu jednak należy się zatrzymać? Cóż, na pewno nie ma sensu sprawdzać wartości większych od $$n$$. Liczba nie może być podzielna przez wartość od siebie większą!
+Przejdźmy do próby rozwiązania problemu. Naszym zadaniem jest wypisać **wszystkie dzielniki** podanej wartości. Nie możemy żadnego pominąć. Spróbujmy więc odpowiedzieć na postawione wcześniej pytanie: **jakie liczby musimy sprawdzić**? Po pierwsze możemy łatwo zauważyć, że nie ma sensu sprawdzać wartości mniejszych niż $1$. Najmniejszy i zarazem pierwszy dzielnik to będzie zawsze liczba $1$. Od niej więc zaczynamy poszukiwanie dzielników. W którym miejscu jednak należy się zatrzymać? Cóż, na pewno nie ma sensu sprawdzać wartości większych od $n$. Liczba nie może być podzielna przez wartość od siebie większą!
 
-Podsumowując wystarczy sprawdzić wszystkie liczby od $$1$$ do $$n$$, aby znaleźć dzielniki. W ten sposób otrzymaliśmy pierwsze, zgrubne ograniczenie naszego przeszukiwanego przedziału wartości. Dla każdej liczby z tego zakresu będziemy sprawdzać, czy jest ona dzielnikiem $$n$$.
+Podsumowując wystarczy sprawdzić wszystkie liczby od $1$ do $n$, aby znaleźć dzielniki. W ten sposób otrzymaliśmy pierwsze, zgrubne ograniczenie naszego przeszukiwanego przedziału wartości. Dla każdej liczby z tego zakresu będziemy sprawdzać, czy jest ona dzielnikiem $n$.
 
-Pozostaje jeszcze bardzo ważna kwestia: jak sprawdzić, czy jedna liczba jest dzielnikiem drugiej? Cóż, wystarczy sprawdzić, czy **dzielą się bez reszty**. Czy też, bardziej formalnie, **reszta z dzielenia wynosi** $$0$$.
+Pozostaje jeszcze bardzo ważna kwestia: jak sprawdzić, czy jedna liczba jest dzielnikiem drugiej? Cóż, wystarczy sprawdzić, czy **dzielą się bez reszty**. Czy też, bardziej formalnie, **reszta z dzielenia wynosi** $0$.
 
 Spróbujmy teraz to wszystko zapisać w formie algorytmu.
 
@@ -45,9 +45,8 @@ funkcja Dzielniki(n):
             3. Wypisz i
 ```
 
-{% hint style="info" %}
-**mod** oznacza resztę z dzielenia
-{% endhint %}
+!!! info
+	 **mod** oznacza resztę z dzielenia
 
 ### Schemat blokowy
 
@@ -66,15 +65,15 @@ flowchart TD
 
 ### Złożoność
 
-W naszym rozwiązaniu przechodzimy przez wszystkie kolejne wartości od $$1$$ do $$n$$. Dla zadanego $$n$$ mamy więc do sprawdzenia $$n$$ potencjalnych dzielników. Stąd też otrzymujemy złożoność:
+W naszym rozwiązaniu przechodzimy przez wszystkie kolejne wartości od $1$ do $n$. Dla zadanego $n$ mamy więc do sprawdzenia $n$ potencjalnych dzielników. Stąd też otrzymujemy złożoność:
 
-$$O(n)$$ — liniowa
+$O(n)$ — liniowa
 
 ## Rozwiązanie naiwne
 
-Mamy już pierwsze rozwiązanie naszego problemu. Zastanówmy się teraz, jak możemy je **zoptymalizować**, czyli usprawnić. Szczególnym fragmentem naszego rozwiązania, który aż prosi się o optymalizację, jest przeglądanie liczb od $$1$$ do $$n$$. Pomyślmy, jak możemy zawęzić ten zakres?
+Mamy już pierwsze rozwiązanie naszego problemu. Zastanówmy się teraz, jak możemy je **zoptymalizować**, czyli usprawnić. Szczególnym fragmentem naszego rozwiązania, który aż prosi się o optymalizację, jest przeglądanie liczb od $1$ do $n$. Pomyślmy, jak możemy zawęzić ten zakres?
 
-Zauważmy, że od pewnej wartości możemy mieć już **gwarancję**, że nie znajdziemy kolejnych dzielników, poza samym $$n$$. Gdy sprawdzana liczba jest **większa** od połowy $$n$$, to nie może być już dzielnikiem $$n$$. W związku z tym wystarczy, że będziemy sprawdzać potencjalne dzielniki do $$n/2$$, a dokładniej do części całkowitej z tegoż dzielenia. Musimy tylko pamiętać o tym, by wypisać także wartość $$n$$, jeżeli jest większe od jedynki.
+Zauważmy, że od pewnej wartości możemy mieć już **gwarancję**, że nie znajdziemy kolejnych dzielników, poza samym $n$. Gdy sprawdzana liczba jest **większa** od połowy $n$, to nie może być już dzielnikiem $n$. W związku z tym wystarczy, że będziemy sprawdzać potencjalne dzielniki do $n/2$, a dokładniej do części całkowitej z tegoż dzielenia. Musimy tylko pamiętać o tym, by wypisać także wartość $n$, jeżeli jest większe od jedynki.
 
 ### Pseudokod
 
@@ -87,9 +86,8 @@ funkcja Dzielniki(n):
         5. Wypisz n
 ```
 
-{% hint style="info" %}
-**div** oznacza dzielenie całkowite
-{% endhint %}
+!!! info
+	 **div** oznacza dzielenie całkowite
 
 ### Schemat blokowy
 
@@ -111,9 +109,9 @@ flowchart TD
 
 ### Złożoność
 
-W naszym rozwiązaniu przechodzimy przez wszystkie kolejne wartości od $$1$$ do $$n/2$$. Dla zadanego $$n$$ mamy więc do sprawdzenia $$n/2$$ potencjalnych dzielników. Stąd też otrzymujemy złożoność:
+W naszym rozwiązaniu przechodzimy przez wszystkie kolejne wartości od $1$ do $n/2$. Dla zadanego $n$ mamy więc do sprawdzenia $n/2$ potencjalnych dzielników. Stąd też otrzymujemy złożoność:
 
-$$O(\frac{n}{2})$$
+$O(\frac{n}{2})$
 
 ## Rozwiązanie optymalne
 
@@ -130,9 +128,8 @@ funkcja Dzielniki(n):
                 5. Wypisz (n / i)
 ```
 
-{% hint style="info" %}
-**sqrt** oznacza pierwiastek
-{% endhint %}
+!!! info
+	 **sqrt** oznacza pierwiastek
 
 ### Schemat blokowy
 
@@ -154,28 +151,27 @@ flowchart TD
 
 ### Złożoność
 
-W naszym rozwiązaniu przechodzimy przez wszystkie kolejne wartości od $$1$$ do $$\sqrt{n}$$. Dla zadanego $$n$$ mamy więc do sprawdzenia $$\sqrt{n}$$ potencjalnych dzielników. Stąd też otrzymujemy złożoność:
+W naszym rozwiązaniu przechodzimy przez wszystkie kolejne wartości od $1$ do $\sqrt{n}$. Dla zadanego $n$ mamy więc do sprawdzenia $\sqrt{n}$ potencjalnych dzielników. Stąd też otrzymujemy złożoność:
 
-$$O(\sqrt{n})$$
+$O(\sqrt{n})$
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/integers/divisors.md" %}
+
 [divisors.md](../../programming/c++/algorithms/integers/divisors.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/integers/divisors.md" %}
+
 [divisors.md](../../programming/python/algorithms/integers/divisors.md)
-{% endcontent-ref %}
+
 
 ## Implementacja - pozostałe
 
 ### Haskell
 
-{% content-ref url="../../programming/haskell/algorithms/integers/divisors.md" %}
+
 [divisors.md](../../programming/haskell/algorithms/integers/divisors.md)
-{% endcontent-ref %}

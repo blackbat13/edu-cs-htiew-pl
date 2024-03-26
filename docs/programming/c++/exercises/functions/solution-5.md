@@ -8,12 +8,12 @@ Napisz program zgodny z poniższą specyfikacją. Losowanie tablicy oraz wypisyw
 
 #### Dane
 
-* $$n$$ - liczba naturalna
-* $$p, k$$ - liczby całkowite, $$p < k$$
+* $n$ - liczba naturalna
+* $p, k$ - liczby całkowite, $p < k$
 
 #### Wynik
 
-* $$n$$-elementowa tablica losowych liczb całkowitych z przedziału $$[p,k)$$
+* $n$-elementowa tablica losowych liczb całkowitych z przedziału $[p,k)$
 
 ## Rozwiązanie
 

@@ -20,11 +20,11 @@ Weźmy na przykład wyrażenie matematyczne `2 * (3 + 4)`. W odwrotnej notacji p
 ### Ewaluacja wyrażenia
 
 1. Przejrzyj wyrażenie od lewej do prawej. Na początku stos jest pusty.
-2. Pierwsze dwie liczby to $$2$$ i $$3$$, które są dodawane do stosu.
-3. Kolejna liczba to $$4$$, która jest dodawana do stosu.
-4. Napotykamy operator $$+$$. Zdejmujemy dwie ostatnie liczby ze stosu, dodajemy je do siebie $$(3 + 4 = 7)$$, a wynik wrzucamy na stos.
-5. Ostatecznie napotykamy operator $$*$$. Zdejmujemy dwie ostatnie liczby ze stosu, mnożymy je przez siebie $$(2 * 7 = 14)$$, a wynik wrzucamy na stos.
-6. Przejrzeliśmy całe wyrażenie. Na stosie pozostała jedna liczba - $$14$$, co jest wynikiem całego wyrażenia.
+2. Pierwsze dwie liczby to $2$ i $3$, które są dodawane do stosu.
+3. Kolejna liczba to $4$, która jest dodawana do stosu.
+4. Napotykamy operator $+$. Zdejmujemy dwie ostatnie liczby ze stosu, dodajemy je do siebie $(3 + 4 = 7)$, a wynik wrzucamy na stos.
+5. Ostatecznie napotykamy operator $*$. Zdejmujemy dwie ostatnie liczby ze stosu, mnożymy je przez siebie $(2 * 7 = 14)$, a wynik wrzucamy na stos.
+6. Przejrzeliśmy całe wyrażenie. Na stosie pozostała jedna liczba - $14$, co jest wynikiem całego wyrażenia.
 
 Z powyższego przykładu widać, że korzystanie z Odwrotnej Notacji Polskiej może znacznie uprościć obliczenia, szczególnie dla komputerów i kalkulatorów.
 
@@ -46,26 +46,25 @@ Z powyższego przykładu widać, że korzystanie z Odwrotnej Notacji Polskiej mo
 onp := "27+3/13-4*+2/"
 ```
 
-**Wynik**: $$-2.5$$
+**Wynik**: $-2.5$
 
-{% hint style="info" %}
-**Wyjaśnienie**
-
-Przedstawione wyrażenie ONP odpowiada następującemu wyrażeniu arytmetycznemu:
-
-$$(((2 + 7) / 3) + (1 - 3) * 4) / 2$$
-{% endhint %}
+!!! info
+	**Wyjaśnienie**
+	
+	Przedstawione wyrażenie ONP odpowiada następującemu wyrażeniu arytmetycznemu:
+	
+	$(((2 + 7) / 3) + (1 - 3) * 4) / 2$
 
 ## Implementacja
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/text/rpn.md" %}
+
 [rpn.md](../../programming/c++/algorithms/text/rpn.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/text/rpn.md" %}
+
 [rpn.md](../../programming/python/algorithms/text/rpn.md)
-{% endcontent-ref %}
+

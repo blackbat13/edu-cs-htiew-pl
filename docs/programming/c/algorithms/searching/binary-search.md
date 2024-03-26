@@ -1,17 +1,13 @@
 # Wyszukiwanie binarne
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/binary-search.md)
 
-{% content-ref url="../../../../algorithms/searching/binary-search.md" %}
-[binary-search.md](../../../../algorithms/searching/binary-search.md)
-{% endcontent-ref %}
 
 ## Wersja iteracyjna
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```c
+```c linenums="1"
 #include <stdio.h>
 
 int binarySearchIterative(int array[], int length, int number) {
@@ -50,7 +46,7 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
@@ -58,18 +54,17 @@ Funkcja `binarySearchIterative` przyjmuje jako argumenty tablicę liczb, jej dł
 
 Następnie, w pętli `while`, oblicza środek tablicy (`middle`). Jeżeli szukana liczba jest mniejsza lub równa elementowi środkowemu, `right` zostaje przesunięty na pozycję środka. W przeciwnym razie, `left` przesuwa się na pozycję po środkowym elemencie.
 
-Pętla `while` kontynuuje działanie, dopóki `left` jest mniejszy od `right`, dzieląc tablicę na pół z każdą iteracją. To jest kluczowy aspekt wyszukiwania binarnego - za każdym razem odrzucamy połowę tablicy, co sprawia, że algorytm jest bardzo efektywny (ma złożoność $$O(log n)$$).
+Pętla `while` kontynuuje działanie, dopóki `left` jest mniejszy od `right`, dzieląc tablicę na pół z każdą iteracją. To jest kluczowy aspekt wyszukiwania binarnego - za każdym razem odrzucamy połowę tablicy, co sprawia, że algorytm jest bardzo efektywny (ma złożoność $O(log n)$).
 
-Gdy pętla `while` kończy działanie, sprawdzamy, czy element na pozycji `left` jest równy szukanej liczbie. Jeśli tak, zwracamy jego indeks. Jeśli nie, zwracamy $$-1$$, co oznacza, że szukana liczba nie znajduje się w tablicy.
+Gdy pętla `while` kończy działanie, sprawdzamy, czy element na pozycji `left` jest równy szukanej liczbie. Jeśli tak, zwracamy jego indeks. Jeśli nie, zwracamy $-1$, co oznacza, że szukana liczba nie znajduje się w tablicy.
 
-Funkcja `main` tworzy tablicę $$10$$ elementów od $$1$$ do $$10$$, następnie wywołuje funkcję `binarySearchIterative` szukając liczby $$8$$. Jeżeli wynikiem funkcji jest $$-1$$, wypisywana jest na ekran informacja, że liczba nie została znaleziona. W przeciwnym razie wypisywany jest indeks znalezionej liczby w tablicy.
+Funkcja `main` tworzy tablicę $10$ elementów od $1$ do $10$, następnie wywołuje funkcję `binarySearchIterative` szukając liczby $8$. Jeżeli wynikiem funkcji jest $-1$, wypisywana jest na ekran informacja, że liczba nie została znaleziona. W przeciwnym razie wypisywany jest indeks znalezionej liczby w tablicy.
 
 ## Wersja rekurencyjna
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```c
+```c linenums="1"
 #include <stdio.h>
 
 int binarySearchRecursive(int array[], int number, int left, int right) {
@@ -104,4 +99,4 @@ int main() {
   return 0;
 }
 ```
-{% endcode %}
+

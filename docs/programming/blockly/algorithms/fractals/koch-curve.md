@@ -1,23 +1,18 @@
 # Krzywa Kocha
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/fractals/koch-curve.md)
 
-{% content-ref url="../../../../algorithms/fractals/koch-curve.md" %}
-[koch-curve.md](../../../../algorithms/fractals/koch-curve.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
 ### Krzywa Kocha
 
-![Funkcja rysujące krzywą Kocha](<../../../../.gitbook/assets/image (14).png>)
+![Funkcja rysujące krzywą Kocha](<../../../../assets/image (14).png>)
 
 ### Kod główny
 
-![Wywołanie funkcji rysującej krzywą Kocha](<../../../../.gitbook/assets/image (15).png>)
+![Wywołanie funkcji rysującej krzywą Kocha](<../../../../assets/image (15).png>)
 
 ### Link do implementacji
 
-{% embed url="https://blockly.games/turtle?lang=pl&level=10#esbc59" %}
-Krzywa Kocha
-{% endembed %}
+[Krzywa Kocha](https://blockly.games/turtle?lang=pl&level=10#esbc59)

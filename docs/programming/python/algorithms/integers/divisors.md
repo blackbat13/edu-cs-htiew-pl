@@ -1,15 +1,11 @@
 # Wszystkie dzielniki
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/integers/divisors.md)
 
-{% content-ref url="../../../../algorithms/integers/divisors.md" %}
-[divisors.md](../../../../algorithms/integers/divisors.md)
-{% endcontent-ref %}
 
 ## Rozwiązanie zupełnie naiwne
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def divisors(n: int):
     for i in range(1, n + 1):
         if n % i == 0:
@@ -20,12 +16,11 @@ n = 12
  
 divisors(n)
 ```
-{% endcode %}
+
 
 ## Rozwiązanie naiwne
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def divisors(n: int):
     for i in range(1, (n // 2) + 1):
         if n % i == 0:
@@ -39,12 +34,11 @@ n = 12
  
 divisors(n)
 ```
-{% endcode %}
+
 
 ## Rozwiązanie optymalne
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 def divisors(n: int):
     i = 1
     while i * i <= n:
@@ -59,4 +53,4 @@ n = 12
  
 divisors(n)
 ```
-{% endcode %}
+

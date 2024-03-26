@@ -45,6 +45,4 @@ Dla profesjonalistów z branży graficznej kluczowe jest, aby kolory na ekranie 
 
 Krótka prezentacja na temat przestrzeni kolorów.
 
-{% file src="../.gitbook/assets/Przestrzenie Kolorów.pdf" %}
-Przestrzenie kolorów
-{% endfile %}
+[:fontawesome-solid-file-pdf: Przestrzenie kolorów](../assets/Przestrzenie Kolorów.pdf)

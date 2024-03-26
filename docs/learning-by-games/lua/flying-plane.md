@@ -2,5 +2,5 @@
 
 ## Pełna gra
 
-{% embed url="https://replit.com/@damiankurpiewski/TappyPlane" %}
+[https://replit.com/@damiankurpiewski/TappyPlane](https://replit.com/@damiankurpiewski/TappyPlane)
 

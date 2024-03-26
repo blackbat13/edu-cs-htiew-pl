@@ -1,6 +1,6 @@
 # Nikto
 
-Nikto to darmowe, otwarte narzędzie do testowania bezpieczeństwa stron internetowych. Jest to skaner, który wykonuje kompleksowe testy na serwerach WWW, wykrywając potencjalne problemy i luki bezpieczeństwa. Nikto jest zdolny do identyfikacji ponad $$6700$$ potencjalnie niebezpiecznych plików/cgich, sprawdzania serwera i oprogramowania w poszukiwaniu niebezpiecznych wersji oraz wykonywania wielu innych kontroli.
+Nikto to darmowe, otwarte narzędzie do testowania bezpieczeństwa stron internetowych. Jest to skaner, który wykonuje kompleksowe testy na serwerach WWW, wykrywając potencjalne problemy i luki bezpieczeństwa. Nikto jest zdolny do identyfikacji ponad $6700$ potencjalnie niebezpiecznych plików/cgich, sprawdzania serwera i oprogramowania w poszukiwaniu niebezpiecznych wersji oraz wykonywania wielu innych kontroli.
 
 Nikto jest zdolny do wykonania wielu różnych testów, w tym:
 
@@ -43,6 +43,4 @@ Gdzie `-o wyniki.txt` to nazwa pliku, do którego mają być zapisane wyniki ska
 
 ## Ściąga
 
-{% embed url="https://cdn.comparitech.com/wp-content/uploads/2019/07/NIkto-Cheat-Sheet.pdf" %}
-Ściąga
-{% endembed %}
+[Ściąga](https://cdn.comparitech.com/wp-content/uploads/2019/07/NIkto-Cheat-Sheet.pdf)

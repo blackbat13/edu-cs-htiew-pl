@@ -4,12 +4,8 @@
 
 ### Zadanie 4
 
-{% file src="../../../.gitbook/assets/2016_4.xlsx" %}
-Excel
-{% endfile %}
+[:material-microsoft-excel: Excel](../../../assets/2016_4.xlsx)
 
 ### Zadanie 5
 
-{% file src="../../../.gitbook/assets/2016_5.zip" %}
-Access
-{% endfile %}
+[:material-folder-zip: Access](../../../assets/2016_5.zip)

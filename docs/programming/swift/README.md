@@ -2,9 +2,7 @@
 
 Swift jest nowoczesnym językiem programowania stworzonym przez Apple do tworzenia aplikacji na platformy iOS, macOS, watchOS i tvOS. Został zaprojektowany, aby być jak najbardziej przyjazny dla deweloperów, oferując szybkość i wydajność porównywalną z C++, a jednocześnie prostotę i czytelność kodu zbliżoną do Pythona.
 
-{% embed url="https://www.swift.org/" %}
-Swift
-{% endembed %}
+[Swift](https://www.swift.org/)
 
 ## Kluczowe cechy
 
@@ -24,12 +22,8 @@ Od swojego wprowadzenia w 2014 roku, Swift stał się jednym z najszybciej rosn�
 
 ## Ściąga
 
-{% embed url="https://quickref.me/swift" %}
-Ściąga
-{% endembed %}
+[Ściąga](https://quickref.me/swift)
 
 ## Popularność języka
 
-{% embed url="https://www.tiobe.com/tiobe-index/swift/" %}
-Wykres popularności języka Swift
-{% endembed %}
+[Wykres popularności języka Swift](https://www.tiobe.com/tiobe-index/swift/)

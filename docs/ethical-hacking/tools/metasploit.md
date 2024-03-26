@@ -2,13 +2,10 @@
 
 Metasploit to jeden z najpopularniejszych frameworków do testowania penetracyjnego. Został stworzony w celu odkrywania, eksploatowania i walidowania luk bezpieczeństwa. Wyposażony jest w setki gotowych eksploitów i różnorodne narzędzia, które pozwalają na kompleksową ocenę bezpieczeństwa systemów i sieci.
 
-{% hint style="warning" %}
-Korzystanie z Metasploit bez odpowiednich uprawnień jest nielegalne i nieetyczne. Pamiętaj, że narzędzia te są stworzone w celu poprawy bezpieczeństwa, a nie jego łamania.
-{% endhint %}
+!!! warning
+	 Korzystanie z Metasploit bez odpowiednich uprawnień jest nielegalne i nieetyczne. Pamiętaj, że narzędzia te są stworzone w celu poprawy bezpieczeństwa, a nie jego łamania.
 
-{% embed url="https://www.metasploit.com" %}
-Metasploit
-{% endembed %}
+[Metasploit](https://www.metasploit.com)
 
 ## Podstawowe funkcje i zastosowania
 
@@ -54,6 +51,4 @@ msf auxiliary(scanner/smb/smb_login) > run
 
 ## Ściąga
 
-{% embed url="https://cdn.comparitech.com/wp-content/uploads/2019/06/Metasploit-Cheat-Sheet.pdf" %}
-Ściąga
-{% endembed %}
+[Ściąga](https://cdn.comparitech.com/wp-content/uploads/2019/06/Metasploit-Cheat-Sheet.pdf)

@@ -1,15 +1,11 @@
 # Płatek Kocha
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/fractals/koch-snowflake.md)
 
-{% content-ref url="../../../../algorithms/fractals/koch-snowflake.md" %}
-[koch-snowflake.md](../../../../algorithms/fractals/koch-snowflake.md)
-{% endcontent-ref %}
 
 ## Implementacja 
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 import turtle
 
 
@@ -41,8 +37,8 @@ koch_snowflake(3, 100)
 
 turtle.done()
 ```
-{% endcode %}
+
 
 ### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/Koch-Snowflake#main.py" %}
+[https://replit.com/@damiankurpiewski/Koch-Snowflake#main.py](https://replit.com/@damiankurpiewski/Koch-Snowflake#main.py)

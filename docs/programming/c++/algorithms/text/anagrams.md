@@ -1,15 +1,11 @@
 # Anagramy
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/text/anagrams.md)
 
-{% content-ref url="../../../../algorithms/text/anagrams.md" %}
-[anagrams.md](../../../../algorithms/text/anagrams.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <algorithm>
 
@@ -36,7 +32,7 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 

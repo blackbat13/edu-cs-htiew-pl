@@ -1,12 +1,10 @@
 # Blockly
 
-![Porównywanie liczb - Blockly](<../../../.gitbook/assets/image (9).png>)
+![Porównywanie liczb - Blockly](../../../assets/image (9).png)
 
 ## Link do implementacji
 
-{% embed url="https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pl#qv4ea5" %}
-Porównywanie liczb - Blockly
-{% endembed %}
+[Porównywanie liczb - Blockly](https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pl#qv4ea5)
 
 ## Opis
 

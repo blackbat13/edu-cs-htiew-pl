@@ -8,10 +8,10 @@ TODO
 
 #### Dane
 
-* $$n$$ - wymiar kwadratowego labiryntu
-* $$labirynt[n][n]$$ - dwuwymiarowa tablica definiująca labirynt, w którym spacja oznacza wolne miejsce, a znak hasz oznacza ścianę
-* $$startK, startW$$ - współrzędne punktu startowego (kolumna i wiersz)
-* $$stopK, stopW$$ - współrzędne punktu docelowego (kolumna i wiersz)
+* $n$ - wymiar kwadratowego labiryntu
+* $labirynt[n][n]$ - dwuwymiarowa tablica definiująca labirynt, w którym spacja oznacza wolne miejsce, a znak hasz oznacza ścianę
+* $startK, startW$ - współrzędne punktu startowego (kolumna i wiersz)
+* $stopK, stopW$ - współrzędne punktu docelowego (kolumna i wiersz)
 
 #### Wynik
 
@@ -198,16 +198,14 @@ int main() {
 
 ### Link do implementacji
 
-{% embed url="https://replit.com/@damiankurpiewski/Maze#main.cpp" %}
+[https://replit.com/@damiankurpiewski/Maze#main.cpp](https://replit.com/@damiankurpiewski/Maze#main.cpp)
 
 ### Opis implementacji
 
 TODO
 
-{% hint style="warning" %}
-Pod systemem Linux zamiast polecenia **cls** używamy polecenia **clear** do wyczyszczenia ekranu terminala.
-{% endhint %}
+!!! warning
+	 Pod systemem Linux zamiast polecenia **cls** używamy polecenia **clear** do wyczyszczenia ekranu terminala.
 
-{% hint style="warning" %}
-Pod systemem Linux polecenie **Sleep** należy zastąpić poleceniem **usleep**, które jako parametr przyjmuje mikrosekundy, a nie milisekundy. Trzeba także zmienić bibliotekę "**windows.h**" na "**unistd.h**".
-{% endhint %}
+!!! warning
+	 Pod systemem Linux polecenie **Sleep** należy zastąpić poleceniem **usleep**, które jako parametr przyjmuje mikrosekundy, a nie milisekundy. Trzeba także zmienić bibliotekę "**windows.h**" na "**unistd.h**".

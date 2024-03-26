@@ -1,17 +1,13 @@
 # Wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/min-or-max.md)
 
-{% content-ref url="../../../../algorithms/searching/min-or-max.md" %}
-[min-or-max.md](../../../../algorithms/searching/min-or-max.md)
-{% endcontent-ref %}
 
 ## Wyszukiwanie wartości minimum i maksimum
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```c
+```c linenums="1"
 #include <stdio.h>
 
 int findMin(int n, int tab[]) {
@@ -51,14 +47,13 @@ int main() {
   return 0;
 }
 ```
-{% endcode %}
+
 
 ## Wyszukiwanie indeksów wartości minimum i maksimum
 
 ### Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```c
+```c linenums="1"
 #include <stdio.h>
 
 int findMinIndex(int n, int tab[]) {
@@ -98,4 +93,4 @@ int main() {
   return 0;
 }
 ```
-{% endcode %}
+

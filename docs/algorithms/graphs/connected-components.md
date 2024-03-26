@@ -11,14 +11,14 @@ Przyjrzyjmy się, jak wygląda algorytm wykorzystujący metodę DFS do obliczani
 1. Inicjalizacja: Na początku wszystkie wierzchołki są nieodwiedzone.
 2. Wybieramy dowolny nieodwiedzony wierzchołek i rozpoczynamy od niego przeszukiwanie w głąb (DFS).
 3. Po zakończeniu przeszukiwania w głąb z danego wierzchołka, wszystkie wierzchołki, które odwiedziliśmy, należą do tej samej spójnej składowej. Oznaczamy te wierzchołki jako odwiedzone.
-4. Zwiększamy licznik spójnych składowych o $$1$$.
-5. Powtarzamy kroki $$2$$-$$4$$, dopóki wszystkie wierzchołki nie zostaną odwiedzone.
+4. Zwiększamy licznik spójnych składowych o $1$.
+5. Powtarzamy kroki $2$-$4$, dopóki wszystkie wierzchołki nie zostaną odwiedzone.
 
 Podobny algorytm można również opracować z użyciem BFS zamiast DFS. Przy odpowiedniej implementacji wystarczy zamienić wykorzystywaną strukturę danych (ze stosu na kolejkę).
 
 ## Złożoność obliczeniowa
 
-Złożoność obliczeniowa tego algorytmu to $$O(V+E)$$, gdzie $$V$$ to liczba wierzchołków, a $$E$$ to liczba krawędzi w grafie. Jest to złożoność typowego przeszukiwania grafu (DFS lub BFS).
+Złożoność obliczeniowa tego algorytmu to $O(V+E)$, gdzie $V$ to liczba wierzchołków, a $E$ to liczba krawędzi w grafie. Jest to złożoność typowego przeszukiwania grafu (DFS lub BFS).
 
 ## Zastosowania
 
@@ -28,12 +28,12 @@ Obliczanie liczby spójnych składowych w grafie jest podstawowym zagadnieniem w
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/graphs/connected-components.md" %}
+
 [connected-components.md](../../programming/c++/algorithms/graphs/connected-components.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/graphs/connected-components.md" %}
+
 [connected-components.md](../../programming/python/algorithms/graphs/connected-components.md)
-{% endcontent-ref %}
+

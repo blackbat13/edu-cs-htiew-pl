@@ -2,6 +2,4 @@
 
 ## Pełna gra
 
-{% embed url="https://replit.com/@damiankurpiewski/Snake-1" %}
-Snake
-{% endembed %}
+[Snake](https://replit.com/@damiankurpiewski/Snake-1)

@@ -1,38 +1,34 @@
 # Imiona
 
-W pliku *names.txt* znajduje się $$100$$ imion złożonych wyłącznie z liter alfabetu angielskiego, każde zapisane w osobnym wierszu. Imiona mogą się powtarzać.
+W pliku *names.txt* znajduje się $100$ imion złożonych wyłącznie z liter alfabetu angielskiego, każde zapisane w osobnym wierszu. Imiona mogą się powtarzać.
 
-{% file src="../../../../.gitbook/assets/names/names.txt" %}
-names.txt
-{% endfile %}
+[:material-note-text: names.txt](../../../../assets/names/names.txt)
 
-W pliku *names_test.txt* znajduje się $$10$$ wierszy, jak opisano powyżej.
+W pliku *names_test.txt* znajduje się $10$ wierszy, jak opisano powyżej.
 
-{% file src="../../../../.gitbook/assets/names/names_test.txt" %}
-names_test.txt
-{% endfile %}
+[:material-note-text: names_test.txt](../../../../assets/names/names_test.txt)
 
 Napisz program/programy rozwiązujące poniższe zadania.
 
 ## Zadanie 1
 
-Podaj, ile imion z pliku *names.txt* **zaczyna** się na literę **B**. Dla danych z pliku *names_test.txt* wynik to $$1$$.
+Podaj, ile imion z pliku *names.txt* **zaczyna** się na literę **B**. Dla danych z pliku *names_test.txt* wynik to $1$.
 
 ## Zadanie 2
 
-Podaj, ile imion w pliku *names.txt* **kończy** się na literę **a**. Dla danych z pliku *names_test.txt* wynik to $$3$$.
+Podaj, ile imion w pliku *names.txt* **kończy** się na literę **a**. Dla danych z pliku *names_test.txt* wynik to $3$.
 
 ## Zadanie 3
 
-Podaj, ile imion w pliku *names.txt* **zaczyna** się samogłoską. Dla danych z pliku *names_test.txt* wynik to $$1$$.
+Podaj, ile imion w pliku *names.txt* **zaczyna** się samogłoską. Dla danych z pliku *names_test.txt* wynik to $1$.
 
 ## Zadanie 4
 
-Podaj, ile imion w pliku *names.txt* **zaczyna** się spółgłoską i **jednocześnie** **kończy** się samogłoską. Dla danych z pliku *names_test.txt* wynik to $$4$$.
+Podaj, ile imion w pliku *names.txt* **zaczyna** się spółgłoską i **jednocześnie** **kończy** się samogłoską. Dla danych z pliku *names_test.txt* wynik to $4$.
 
 ## Zadanie 5
 
-Podaj, ile imion w pliku *names.txt* zawiera w **środku** (pomijamy pierwszą i ostatnią literę) literę **e**. Dla danych z pliku *names_test.txt* wynik to $$3$$.
+Podaj, ile imion w pliku *names.txt* zawiera w **środku** (pomijamy pierwszą i ostatnią literę) literę **e**. Dla danych z pliku *names_test.txt* wynik to $3$.
 
 ## Zadanie 6
 
@@ -88,7 +84,7 @@ Imiona: Crystal, Jessica, Jeffrey
  
 ## Zadanie 11
 
-Podaj liczbę imion z pliku *names.txt* po usunięciu duplikatów. Dla danych z pliku *names_test.txt* wynik to $$9$$
+Podaj liczbę imion z pliku *names.txt* po usunięciu duplikatów. Dla danych z pliku *names_test.txt* wynik to $9$
 
 ## Zadanie 12
 

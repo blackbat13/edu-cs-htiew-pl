@@ -1,15 +1,11 @@
 # Prim
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/prim.md)
 
-{% content-ref url="../../../../algorithms/graphs/prim.md" %}
-[prim.md](../../../../algorithms/graphs/prim.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```python
+```python linenums="1"
 import heapq
 
 
@@ -80,4 +76,4 @@ if __name__ == "__main__":
 
   print(min_spanning_tree)
 ```
-{% endcode %}
+

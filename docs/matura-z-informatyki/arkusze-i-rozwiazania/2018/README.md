@@ -2,20 +2,12 @@
 
 ## Arkusze
 
-{% file src="../../../.gitbook/assets/informatyka-czesc-1-rozszerzony-matura-2018.pdf" %}
-Część I
-{% endfile %}
+[:fontawesome-solid-file-pdf: Część I](../../../assets/informatyka-czesc-1-rozszerzony-matura-2018.pdf)
 
-{% file src="../../../.gitbook/assets/informatyka-czesc-2-rozszerzony-matura-2018.pdf" %}
-Część II
-{% endfile %}
+[:fontawesome-solid-file-pdf: Część II](../../../assets/informatyka-czesc-2-rozszerzony-matura-2018.pdf)
 
-{% file src="../../../.gitbook/assets/dane_2018.zip" %}
-Dane
-{% endfile %}
+[:material-folder-zip: Dane](../../../assets/dane_2018.zip)
 
 ## Odpowiedzi
 
-{% file src="../../../.gitbook/assets/odpowiedzi-informatyka-rozszerzony-matura-2018.pdf" %}
-Odpowiedzi
-{% endfile %}
+[:fontawesome-solid-file-pdf: Odpowiedzi](../../../assets/odpowiedzi-informatyka-rozszerzony-matura-2018.pdf)

@@ -2,19 +2,19 @@
 
 ## Opis problemu
 
-Ciąg Fibonacciego to ciąg, w którym dwa pierwsze elementy mają wartość $$1$$, a każdy kolejny element stanowi sumę dwóch poprzednich.
+Ciąg Fibonacciego to ciąg, w którym dwa pierwsze elementy mają wartość $1$, a każdy kolejny element stanowi sumę dwóch poprzednich.
 
-Pierwszych dziesięć kolejnych liczb Fibonacciego to: $$1, 1, 2, 3, 5, 8, 13, 21, 34, 55$$.
+Pierwszych dziesięć kolejnych liczb Fibonacciego to: $1, 1, 2, 3, 5, 8, 13, 21, 34, 55$.
 
 ### Specyfikacja
 
 #### Dane
 
-* $$n$$ - liczba naturalna, $$n>0$$.
+* $n$ - liczba naturalna, $n>0$.
 
 #### Wynik
 
-* $$n$$-ta liczba Fibonacciego.
+* $n$-ta liczba Fibonacciego.
 
 ### Przykład
 
@@ -24,16 +24,16 @@ Pierwszych dziesięć kolejnych liczb Fibonacciego to: $$1, 1, 2, 3, 5, 8, 13, 2
 n := 10
 ```
 
-**Wynik**: $$55$$ 
+**Wynik**: $55$ 
 
 ## Rozwiązanie rekurencyjne
 
-$$
+$
 Fib(n) =  \begin{cases} 
       1 & n \leq 2 \\
       Fib(n - 1) + Fib(n - 2) & n > 2 \\
    \end{cases}
-$$
+$
 
 ### Pseudokod
 
@@ -88,20 +88,20 @@ flowchart TD
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/integers/fibonacci-numbers.md" %}
+
 [fibonacci-numbers.md](../../programming/c++/algorithms/integers/fibonacci-numbers.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/integers/fibonacci-numbers.md" %}
+
 [fibonacci-numbers.md](../../programming/python/algorithms/integers/fibonacci-numbers.md)
-{% endcontent-ref %}
+
 
 ## Implementacja - pozostałe
 
 ### Haskell
 
-{% content-ref url="../../programming/haskell/algorithms/integers/fibonacci-numbers.md" %}
+
 [fibonacci-numbers.md](../../programming/haskell/algorithms/integers/fibonacci-numbers.md)
-{% endcontent-ref %}
+

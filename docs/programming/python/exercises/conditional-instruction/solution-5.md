@@ -8,11 +8,11 @@ Napisz program zgodny z poniższą specyfikacją. Nie korzystaj z funkcji **min,
 
 #### Dane
 
-* $$a, b, c, d$$ - cztery liczby całkowite
+* $a, b, c, d$ - cztery liczby całkowite
 
 #### Wynik
 
-* Największa z liczb $$a, b, c$$ i $$d$$, lub dowolna gdy są sobie równe
+* Największa z liczb $a, b, c$ i $d$, lub dowolna gdy są sobie równe
 
 ## Rozwiązanie
 

@@ -2,16 +2,10 @@
 
 ## Arkusze
 
-{% file src="../../../.gitbook/assets/informatyka-2023-przykladowy-arkusz-cke-rozszerzona.pdf" %}
-Arkusz
-{% endfile %}
+[:fontawesome-solid-file-pdf: Arkusz](../../../assets/informatyka-2023-przykladowy-arkusz-cke-rozszerzona.pdf)
 
-{% file src="../../../.gitbook/assets/dane_2023_pcke.zip" %}
-Dane
-{% endfile %}
+[:material-folder-zip: Dane](../../../assets/dane_2023_pcke.zip)
 
 ## Odpowiedzi
 
-{% file src="../../../.gitbook/assets/informatyka-2023-przykladowy-arkusz-cke-rozszerzona-odpowiedzi.pdf" %}
-Klucz
-{% endfile %}
+[:fontawesome-solid-file-pdf: Klucz](../../../assets/informatyka-2023-przykladowy-arkusz-cke-rozszerzona-odpowiedzi.pdf)

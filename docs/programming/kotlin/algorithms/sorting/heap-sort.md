@@ -1,10 +1,7 @@
 # Sortowanie przez kopcowanie
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/sorting/heap-sort.md)
 
-{% content-ref url="../../../../algorithms/sorting/heap-sort.md" %}
-[heap-sort.md](../../../../algorithms/sorting/heap-sort.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
@@ -45,6 +42,4 @@ fun main() {
 
 ### Link do implementacji
 
-{% embed url="https://ideone.com/spy6YJ" %}
-Sortowanie przez kopcowanie
-{% endembed %}
+[Sortowanie przez kopcowanie](https://ideone.com/spy6YJ)

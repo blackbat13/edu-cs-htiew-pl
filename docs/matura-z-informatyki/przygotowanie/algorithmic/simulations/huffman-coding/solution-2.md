@@ -6,7 +6,7 @@
 
 ## Stopień kompresji
 
-$$40.00\%$$
+$40.00\%$
 
 ## Tabela kodów
 

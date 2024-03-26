@@ -12,15 +12,15 @@
 
 ### Przykład 1
 
-Krzywa Peano o stopniu $$4$$ i kącie $$90\degree$$.
+Krzywa Peano o stopniu $4$ i kącie $90\degree$.
 
-![Krzywa Peano](../../.gitbook/assets/peano_curve_4_90.bmp)
+![Krzywa Peano](../../assets/peano_curve_4_90.bmp)
 
 ### Przykład 2
 
-Krzywa Peano o stopniu $$4$$ i kącie $$60\degree$$.
+Krzywa Peano o stopniu $4$ i kącie $60\degree$.
 
-![Krzywa Peano](../../.gitbook/assets/peano_curve_4_60.bmp)
+![Krzywa Peano](../../assets/peano_curve_4_60.bmp)
 
 ## Rozwiązanie
 
@@ -55,18 +55,18 @@ flowchart TD
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/fractals/peano-curve.md" %}
+
 [peano-curve.md](../../programming/c++/algorithms/fractals/peano-curve.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/fractals/peano-curve.md" %}
+
 [peano-curve.md](../../programming/python/algorithms/fractals/peano-curve.md)
-{% endcontent-ref %}
+
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorithms/fractals/peano-curve.md" %}
+
 [peano-curve.md](../../programming/blockly/algorithms/fractals/peano-curve.md)
-{% endcontent-ref %}
+

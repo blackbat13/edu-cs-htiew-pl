@@ -6,26 +6,22 @@
 
 #### Dane
 
-* $$stopień$$ - stopień drzewa binarnego
-* $$długość$$ - początkowa długość gałęzi (pnia)
+* $stopień$ - stopień drzewa binarnego
+* $długość$ - początkowa długość gałęzi (pnia)
 
 #### Wynik
 
-* Drzewo binarne stopnia $$stopień$$ i początkowej długości $$długość$$.
+* Drzewo binarne stopnia $stopień$ i początkowej długości $długość$.
 
 ### Prezentacja
 
-{% file src="../../.gitbook/assets/Drzewo Binarne (1).pdf" %}
-Drzewo binarne - wprowadzenie
-{% endfile %}
+[:fontawesome-solid-file-pdf: Drzewo binarne - wprowadzenie](../../assets/Drzewo Binarne (1).pdf)
 
 ## Rozwiązanie
 
 ### Prezentacja
 
-{% file src="../../.gitbook/assets/Drzewo Binarne - algorytm (1).pdf" %}
-Drzewo binarne - algorytm
-{% endfile %}
+[:fontawesome-solid-file-pdf: Drzewo binarne - algorytm](../../assets/Drzewo Binarne - algorytm (1).pdf)
 
 ### Pseudokod
 
@@ -58,18 +54,18 @@ flowchart TD
 
 ### C++
 
-{% content-ref url="../../programming/c++/algorithms/fractals/binary-tree.md" %}
+
 [binary-tree.md](../../programming/c++/algorithms/fractals/binary-tree.md)
-{% endcontent-ref %}
+
 
 ### Python
 
-{% content-ref url="../../programming/python/algorithms/fractals/binary-tree.md" %}
+
 [binary-tree.md](../../programming/python/algorithms/fractals/binary-tree.md)
-{% endcontent-ref %}
+
 
 ### Blockly
 
-{% content-ref url="../../programming/blockly/algorithms/fractals/binary-tree.md" %}
+
 [binary-tree.md](../../programming/blockly/algorithms/fractals/binary-tree.md)
-{% endcontent-ref %}
+

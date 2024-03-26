@@ -4,16 +4,12 @@ description: Najkrótsze ścieżki z jednego wierzchołka
 
 # Dijkstra
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/dijkstra.md)
 
-{% content-ref url="../../../../algorithms/graphs/dijkstra.md" %}
-[dijkstra.md](../../../../algorithms/graphs/dijkstra.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -85,10 +81,10 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
-![Przykładowy graf wykorzystany w implementacji](../../../../.gitbook/assets/example_graph_weighted.png)
+![Przykładowy graf wykorzystany w implementacji](../../../../assets/example_graph_weighted.png)
 
-{% embed url="http://graphonline.ru/en/?graph=DZlFqSBPNgdHwNXK" %}
+[http://graphonline.ru/en/?graph=DZlFqSBPNgdHwNXK](http://graphonline.ru/en/?graph=DZlFqSBPNgdHwNXK)

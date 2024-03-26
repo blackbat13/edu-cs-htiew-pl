@@ -10,4 +10,4 @@ Podczas tej lekcji uczniowie stają przed zadaniem zaimplementowania algorytmu z
 
 [Konspekt](../../assets/4-wpr-do-alg.pdf)
 
-[Prezentacja - zadanie](../../.gitbook/assets/Zadanie z labiryntem.pdf)
+[Prezentacja - zadanie](../../assets/Zadanie z labiryntem.pdf)

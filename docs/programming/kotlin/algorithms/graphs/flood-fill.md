@@ -1,10 +1,7 @@
 # Flood fill
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/graphs/flood-fill.md)
 
-{% content-ref url="../../../../algorithms/graphs/flood-fill.md" %}
-[flood-fill.md](../../../../algorithms/graphs/flood-fill.md)
-{% endcontent-ref %}
 
 ## Implementacja
 

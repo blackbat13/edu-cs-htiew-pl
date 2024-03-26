@@ -1,15 +1,11 @@
 # Najdłuższy spójny podciąg rosnący
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/longest-growing-substring.md)
 
-{% content-ref url="../../../../algorithms/searching/longest-growing-substring.md" %}
-[longest-growing-substring.md](../../../../algorithms/searching/longest-growing-substring.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
-{% code overflow="wrap" lineNumbers="true" %}
-```cpp
+```cpp linenums="1"
 #include <iostream>
 
 using namespace std;
@@ -43,7 +39,7 @@ int main() {
     return 0;
 }
 ```
-{% endcode %}
+
 
 ### Opis implementacji
 
@@ -51,10 +47,10 @@ Funkcja `longestGrowingSubstringLength` przyjmuje dwa argumenty: liczbę `n` rep
 
 Schemat działania funkcji jest następujący:
 
-1. Zainicjalizuj długość `length` aktualnie analizowanego podciągu oraz najdłuższego dotychczas znalezionego podciągu `mx` na $$1$$.
+1. Zainicjalizuj długość `length` aktualnie analizowanego podciągu oraz najdłuższego dotychczas znalezionego podciągu `mx` na $1$.
 2. Przeszukaj tablicę od drugiego elementu do końca.
-3. Jeżeli bieżący element `tab[i]` jest większy od poprzedniego `tab[i-1]`, to zwiększ długość `length` aktualnie analizowanego podciągu o $$1$$ i jeżeli ta długość jest większa od dotychczas najdłuższego podciągu, zaktualizuj `mx`.
-4. Jeżeli bieżący element `tab[i]` nie jest większy od poprzedniego `tab[i-1]`, to zresetuj długość `length` aktualnie analizowanego podciągu do $$1$$.
+3. Jeżeli bieżący element `tab[i]` jest większy od poprzedniego `tab[i-1]`, to zwiększ długość `length` aktualnie analizowanego podciągu o $1$ i jeżeli ta długość jest większa od dotychczas najdłuższego podciągu, zaktualizuj `mx`.
+4. Jeżeli bieżący element `tab[i]` nie jest większy od poprzedniego `tab[i-1]`, to zresetuj długość `length` aktualnie analizowanego podciągu do $1$.
 5. Po przejściu przez całą tablicę zwróć `mx`, czyli długość najdłuższego rosnącego podciągu.
 
-Funkcja `main` definiuje tablicę `tab` z $$10$$ elementami, przekazuje tę tablicę do funkcji `longestGrowingSubstringLength` w celu znalezienia długości najdłuższego rosnącego podciągu, a następnie wyświetla ten wynik na ekranie.
+Funkcja `main` definiuje tablicę `tab` z $10$ elementami, przekazuje tę tablicę do funkcji `longestGrowingSubstringLength` w celu znalezienia długości najdłuższego rosnącego podciągu, a następnie wyświetla ten wynik na ekranie.

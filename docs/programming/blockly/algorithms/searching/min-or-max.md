@@ -1,27 +1,22 @@
 # Wyszukiwanie minimum i maksimum
 
-## Opis problemu
+## [Opis problemu](../../../../algorithms/searching/min-or-max.md)
 
-{% content-ref url="../../../../algorithms/searching/min-or-max.md" %}
-[min-or-max.md](../../../../algorithms/searching/min-or-max.md)
-{% endcontent-ref %}
 
 ## Implementacja
 
 ### Znajdowanie minimum
 
-![](../../../../.gitbook/assets/minimum.png)
+![](../../../../assets/minimum.png)
 
 ### Znajdowanie maksimum
 
-![](../../../../.gitbook/assets/maximum.png)
+![](../../../../assets/maximum.png)
 
 ### Kod główny
 
-![](../../../../.gitbook/assets/min_max_main.png)
+![](../../../../assets/min_max_main.png)
 
 ### Link do implementacji
 
-{% embed url="https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pl#6rhsk3" %}
-Znajdowanie minimum i maksimum
-{% endembed %}
+[Znajdowanie minimum i maksimum](https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pl#6rhsk3)
