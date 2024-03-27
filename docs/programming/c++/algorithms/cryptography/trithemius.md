@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/cryptography/symmetric/trithemius.md)
 
-
 ## Szyfrowanie
 
 ### Implementacja
@@ -42,7 +41,6 @@ int main() {
 }
 ```
 
-
 ## Deszyfrowanie
 
 ### Implementacja
@@ -81,4 +79,3 @@ int main() {
     return 0;
 }
 ```
-

@@ -21,4 +21,3 @@ string daneNowegoUsera;
 ## Prezentacja
 
 [:fontawesome-solid-file-pdf: Wprowadzenie do zmiennych - C++](../../../assets/Zmienne_cpp.pdf)
-

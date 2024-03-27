@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/counting-sort.md)
 
-
 ## Implementacja
 
 ```kotlin
@@ -15,7 +14,6 @@ fun countOccurrences(array: MutableList<Int>, maxNumber: Int): Array<Int> {
         
     return occurrences
 }
-
 
 fun countingSort(array: MutableList<Int>) {
     val occurrences = countOccurrences(array, 100)

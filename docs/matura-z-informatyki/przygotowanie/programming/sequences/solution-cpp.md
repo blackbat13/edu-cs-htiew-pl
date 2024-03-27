@@ -29,7 +29,6 @@ int main() {
 }
 ```
 
-
 ## Zadanie 2
 
 ```cpp linenums="1"
@@ -68,7 +67,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ## Zadanie 3
 
@@ -129,7 +127,6 @@ int main() {
 }
 ```
 
-
 ## Zadanie 4
 
 ```cpp linenums="1"
@@ -182,7 +179,6 @@ int main() {
 }
 ```
 
-
 ## Zadanie 5
 
 ```cpp linenums="1"
@@ -224,4 +220,3 @@ int main() {
     return 0;
 }
 ```
-

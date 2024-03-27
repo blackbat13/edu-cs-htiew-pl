@@ -2,9 +2,7 @@
 
 ## Opis algorytmu
 
-
 [rpn.md](../../../../../algorithms/text/rpn.md)
-
 
 ## Zadanie 1
 

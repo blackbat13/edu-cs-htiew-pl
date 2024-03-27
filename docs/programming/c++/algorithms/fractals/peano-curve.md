@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/fractals/peano-curve.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -32,7 +31,6 @@ int main() {
     return 0;
 } 
 ```
-
 
 ### Link do implementacji
 

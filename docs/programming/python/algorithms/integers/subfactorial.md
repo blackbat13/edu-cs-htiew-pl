@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/subfactorial.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -18,11 +17,9 @@ def subfactorial(n: int) -> int:
 
     return b
 
-
 n = 3
 
 result = subfactorial(n)
 
 print(f"!{n} = {result}")
 ```
-

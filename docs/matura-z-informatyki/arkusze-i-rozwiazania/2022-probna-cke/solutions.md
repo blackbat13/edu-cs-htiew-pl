@@ -34,7 +34,6 @@
     }
     ```
 
-
     Zaczynamy od wczytania zawartości pliku do zmiennej typu string. Następnie przechodzimy przez kolejne elementy ciągu, poczynając od drugiego znaku. W pętli porównujemy obecny znak z poprzednim i zwiększamy wynik o 1, jeśli znaki są różne.
 
 === "Python"
@@ -52,11 +51,9 @@
     print("Wynik:", result)
     ```
 
-
     Zaczynamy od wczytania zawartości pliku do zmiennej. Dane będą wczytane w postaci tekstu (typ `str`). Na wszelki wypadek usuwamy białe znaki z początku i końca poleceniem `strip`.
 
     Następnie przechodzimy przez kolejne elementy ciągu, poczynając od drugiego znaku. W pętli porównujemy obecny znak z poprzednim i zwiększamy wynik o 1, jeśli znaki są różne.
-
 
 ### 1.2
 
@@ -280,7 +277,6 @@
 
         return True
 
-
     with open("liczby.txt") as file:
         data = [int(line) for line in file]
 
@@ -372,7 +368,6 @@
             i += 1
 
         return True
-
 
     with open("liczby.txt") as file:
         data = [int(line) for line in file]

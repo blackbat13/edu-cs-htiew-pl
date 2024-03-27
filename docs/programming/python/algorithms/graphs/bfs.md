@@ -6,13 +6,11 @@ description: Przeszukiwanie grafu wszerz
 
 ## [Opis problemu](../../../../algorithms/graphs/bfs.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
 from typing import List
 from queue import Queue
-
 
 def bfs(graph: List[List[int]], visited: List[bool], node: int):
     q = Queue()
@@ -31,7 +29,6 @@ def bfs(graph: List[List[int]], visited: List[bool], node: int):
             if not visited[new_node]:
                 q.put(new_node)
 
-
 graph = [
 	[1, 6],
 	[0, 6, 3, 2],
@@ -46,4 +43,3 @@ visited = [False] * len(graph)
 
 bfs(graph, visited, 0)
 ```
-

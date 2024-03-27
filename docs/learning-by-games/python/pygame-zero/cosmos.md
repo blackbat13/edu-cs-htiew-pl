@@ -152,18 +152,14 @@ Teraz pozostało nam stworzyć szablony tych funkcji, zaraz pod funkcją *update
 def update_player():
     pass
 
-
 def update_player_lasers():
     pass
-
 
 def update_enemies():
     pass
 
-
 def update_enemy_lasers():
     pass
-
 
 def update_collisions():
     pass
@@ -195,10 +191,8 @@ Podobnie jak wcześniej, funkcje stworzymy jako szablony i wypełnimy jedynie in
 def add_enemy():
     pass
 
-
 def choose_position():
     pass
-
 
 def add_time():
     pass
@@ -229,19 +223,15 @@ player_lasers_list = []
 enemy_lasers_list = []
 enemies_list = []
 
-
 def draw():
     screen.fill("black")
     draw_lifes()
 
-
 def draw_list(list):
     pass
 
-
 def draw_lifes():
     pass
-
 
 def update():
     update_player()
@@ -250,42 +240,32 @@ def update():
     update_enemy_lasers()
     update_collisions()
 
-
 def update_player():
     pass
-
 
 def update_player_lasers():
     pass
 
-
 def update_enemies():
     pass
-
 
 def update_enemy_lasers():
     pass
 
-
 def update_collisions():
     pass
-
 
 def on_key_down(key):
     pass
 
-
 def add_enemy():
     pass
-
 
 def choose_position():
     pass
 
-
 def add_time():
     pass
-
 
 pgzrun.go()
 ```
@@ -507,20 +487,16 @@ player_lasers_list = []
 enemy_lasers_list = []
 enemies_list = []
 
-
 def draw():
     screen.fill("black")
     player.draw()
     draw_lifes()
 
-
 def draw_list(list):
     pass
 
-
 def draw_lifes():
     pass
-
 
 def update():
     update_player()
@@ -528,7 +504,6 @@ def update():
     update_enemies()
     update_enemy_lasers()
     update_collisions()
-
 
 def update_player():
     player.x += math.sin(math.radians(player.angle - 180)) * player.v
@@ -562,38 +537,29 @@ def update_player():
     if player.y > HEIGHT + MARGIN:
         player.y = -MARGIN
 
-
 def update_player_lasers():
     pass
-
 
 def update_enemies():
     pass
 
-
 def update_enemy_lasers():
     pass
-
 
 def update_collisions():
     pass
 
-
 def on_key_down(key):
     pass
-
 
 def add_enemy():
     pass
 
-
 def choose_position():
     pass
 
-
 def add_time():
     pass
-
 
 pgzrun.go()
 ```
@@ -756,22 +722,18 @@ player_lasers_list = []
 enemy_lasers_list = []
 enemies_list = []
 
-
 def draw():
     screen.fill("black")
     draw_list(player_lasers_list)
     player.draw()
     draw_lifes()
 
-
 def draw_list(list):
     for element in list:
         element.draw()
 
-
 def draw_lifes():
     pass
-
 
 def update():
     update_player()
@@ -779,7 +741,6 @@ def update():
     update_enemies()
     update_enemy_lasers()
     update_collisions()
-
 
 def update_player():
     player.x += math.sin(math.radians(player.angle - 180)) * player.v
@@ -813,7 +774,6 @@ def update_player():
     if player.y > HEIGHT + MARGIN:
         player.y = -MARGIN
 
-
 def update_player_lasers():
     for laser in player_lasers_list[:]:
         laser.x += math.sin(math.radians(laser.angle - 180)) * laser.v
@@ -822,18 +782,14 @@ def update_player_lasers():
         if laser.x > WIDTH + MARGIN or laser.x < -MARGIN or laser.y > HEIGHT + MARGIN or laser.y < -MARGIN:
             player_lasers_list.remove(laser)
 
-
 def update_enemies():
     pass
-
 
 def update_enemy_lasers():
     pass
 
-
 def update_collisions():
     pass
-
 
 def on_key_down(key):
     if key == keys.SPACE:
@@ -844,18 +800,14 @@ def on_key_down(key):
         player_lasers_list.append(laser)
         sounds.laser1.play()
 
-
 def add_enemy():
     pass
-
 
 def choose_position():
     pass
 
-
 def add_time():
     pass
-
 
 pgzrun.go()
 ```
@@ -1427,7 +1379,6 @@ player_lasers_list = []
 enemy_lasers_list = []
 enemies_list = []
 
-
 def draw():
     screen.fill("black")
     draw_list(player_lasers_list)
@@ -1436,15 +1387,12 @@ def draw():
     player.draw()
     draw_lifes()
 
-
 def draw_list(list):
     for element in list:
         element.draw()
 
-
 def draw_lifes():
     pass
-
 
 def update():
     update_player()
@@ -1452,7 +1400,6 @@ def update():
     update_enemies()
     update_enemy_lasers()
     update_collisions()
-
 
 def update_player():
     player.x += math.sin(math.radians(player.angle - 180)) * player.v
@@ -1486,7 +1433,6 @@ def update_player():
     if player.y > HEIGHT + MARGIN:
         player.y = -MARGIN
 
-
 def update_player_lasers():
     for laser in player_lasers_list[:]:
         laser.x += math.sin(math.radians(laser.angle - 180)) * laser.v
@@ -1494,7 +1440,6 @@ def update_player_lasers():
 
         if laser.x > WIDTH + MARGIN or laser.x < -MARGIN or laser.y > HEIGHT + MARGIN or laser.y < -MARGIN:
             player_lasers_list.remove(laser)
-
 
 def update_enemies():
     if random.random() < 0.01:
@@ -1513,7 +1458,6 @@ def update_enemies():
             enemy_lasers_list.append(laser)
             sounds.laser2.play()
 
-
 def update_enemy_lasers():
     for laser in enemy_lasers_list[:]:
         laser.x += math.sin(math.radians(laser.angle - 180)) * laser.v
@@ -1521,7 +1465,6 @@ def update_enemy_lasers():
 
         if laser.x > WIDTH + MARGIN or laser.x < -MARGIN or laser.y > HEIGHT + MARGIN or laser.y < -MARGIN:
             enemy_lasers_list.remove(laser)
-
 
 def update_collisions():
     for laser in player_lasers_list[:]:
@@ -1545,7 +1488,6 @@ def update_collisions():
             if player.lifes == 0:
                 sounds.game_over.play()
 
-
 def on_key_down(key):
     if key == keys.SPACE:
         laser = Actor("laser1")
@@ -1555,13 +1497,11 @@ def on_key_down(key):
         player_lasers_list.append(laser)
         sounds.laser1.play()
 
-
 def add_enemy():
     enemy = Actor("enemy")
     enemy.pos = choose_position()
     enemy.v = random.randint(2, 5)
     enemies_list.append(enemy)
-
 
 def choose_position():
     if random.randint(1, 2) == 1:
@@ -1573,10 +1513,8 @@ def choose_position():
 
     return x, y
 
-
 def add_time():
     pass
-
 
 pgzrun.go()
 ```
@@ -1647,7 +1585,6 @@ player_lasers_list = []
 enemy_lasers_list = []
 enemies_list = []
 
-
 def draw():
     screen.fill("black")
     draw_list(player_lasers_list)
@@ -1657,15 +1594,12 @@ def draw():
     draw_lifes()
     screen.draw.text(str(player.time), center=(WIDTH / 2, 40), fontsize=80, color="yellow")
 
-
 def draw_list(list):
     for element in list:
         element.draw()
 
-
 def draw_lifes():
     pass
-
 
 def update():
     update_player()
@@ -1673,7 +1607,6 @@ def update():
     update_enemies()
     update_enemy_lasers()
     update_collisions()
-
 
 def update_player():
     player.x += math.sin(math.radians(player.angle - 180)) * player.v
@@ -1707,7 +1640,6 @@ def update_player():
     if player.y > HEIGHT + MARGIN:
         player.y = -MARGIN
 
-
 def update_player_lasers():
     for laser in player_lasers_list[:]:
         laser.x += math.sin(math.radians(laser.angle - 180)) * laser.v
@@ -1715,7 +1647,6 @@ def update_player_lasers():
 
         if laser.x > WIDTH + MARGIN or laser.x < -MARGIN or laser.y > HEIGHT + MARGIN or laser.y < -MARGIN:
             player_lasers_list.remove(laser)
-
 
 def update_enemies():
     if random.random() < 0.01:
@@ -1734,7 +1665,6 @@ def update_enemies():
             enemy_lasers_list.append(laser)
             sounds.laser2.play()
 
-
 def update_enemy_lasers():
     for laser in enemy_lasers_list[:]:
         laser.x += math.sin(math.radians(laser.angle - 180)) * laser.v
@@ -1742,7 +1672,6 @@ def update_enemy_lasers():
 
         if laser.x > WIDTH + MARGIN or laser.x < -MARGIN or laser.y > HEIGHT + MARGIN or laser.y < -MARGIN:
             enemy_lasers_list.remove(laser)
-
 
 def update_collisions():
     for laser in player_lasers_list[:]:
@@ -1766,7 +1695,6 @@ def update_collisions():
             if player.lifes == 0:
                 sounds.game_over.play()
 
-
 def on_key_down(key):
     if key == keys.SPACE:
         laser = Actor("laser1")
@@ -1776,13 +1704,11 @@ def on_key_down(key):
         player_lasers_list.append(laser)
         sounds.laser1.play()
 
-
 def add_enemy():
     enemy = Actor("enemy")
     enemy.pos = choose_position()
     enemy.v = random.randint(2, 5)
     enemies_list.append(enemy)
-
 
 def choose_position():
     if random.randint(1, 2) == 1:
@@ -1794,11 +1720,9 @@ def choose_position():
 
     return x, y
 
-
 def add_time():
     if player.lifes > 0:
         player.time += 1
-
 
 clock.schedule_interval(add_time, 1)
 pgzrun.go()
@@ -1878,7 +1802,6 @@ player_lasers_list = []
 enemy_lasers_list = []
 enemies_list = []
 
-
 def draw():
     screen.fill("black")
     draw_list(player_lasers_list)
@@ -1888,11 +1811,9 @@ def draw():
     draw_lifes()
     screen.draw.text(str(player.time), center=(WIDTH / 2, 40), fontsize=80, color="yellow")
 
-
 def draw_list(list):
     for element in list:
         element.draw()
-
 
 def draw_lifes():
     for life_id in range(1, player.lifes + 1):
@@ -1901,14 +1822,12 @@ def draw_lifes():
         life.y = life.height / 2
         life.draw()
 
-
 def update():
     update_player()
     update_player_lasers()
     update_enemies()
     update_enemy_lasers()
     update_collisions()
-
 
 def update_player():
     player.x += math.sin(math.radians(player.angle - 180)) * player.v
@@ -1942,7 +1861,6 @@ def update_player():
     if player.y > HEIGHT + MARGIN:
         player.y = -MARGIN
 
-
 def update_player_lasers():
     for laser in player_lasers_list[:]:
         laser.x += math.sin(math.radians(laser.angle - 180)) * laser.v
@@ -1950,7 +1868,6 @@ def update_player_lasers():
 
         if laser.x > WIDTH + MARGIN or laser.x < -MARGIN or laser.y > HEIGHT + MARGIN or laser.y < -MARGIN:
             player_lasers_list.remove(laser)
-
 
 def update_enemies():
     if random.random() < 0.01:
@@ -1969,7 +1886,6 @@ def update_enemies():
             enemy_lasers_list.append(laser)
             sounds.laser2.play()
 
-
 def update_enemy_lasers():
     for laser in enemy_lasers_list[:]:
         laser.x += math.sin(math.radians(laser.angle - 180)) * laser.v
@@ -1977,7 +1893,6 @@ def update_enemy_lasers():
 
         if laser.x > WIDTH + MARGIN or laser.x < -MARGIN or laser.y > HEIGHT + MARGIN or laser.y < -MARGIN:
             enemy_lasers_list.remove(laser)
-
 
 def update_collisions():
     for laser in player_lasers_list[:]:
@@ -2001,7 +1916,6 @@ def update_collisions():
             if player.lifes == 0:
                 sounds.game_over.play()
 
-
 def on_key_down(key):
     if key == keys.SPACE:
         laser = Actor("laser1")
@@ -2011,13 +1925,11 @@ def on_key_down(key):
         player_lasers_list.append(laser)
         sounds.laser1.play()
 
-
 def add_enemy():
     enemy = Actor("enemy")
     enemy.pos = choose_position()
     enemy.v = random.randint(2, 5)
     enemies_list.append(enemy)
-
 
 def choose_position():
     if random.randint(1, 2) == 1:
@@ -2029,11 +1941,9 @@ def choose_position():
 
     return x, y
 
-
 def add_time():
     if player.lifes > 0:
         player.time += 1
-
 
 clock.schedule_interval(add_time, 1)
 pgzrun.go()
@@ -2108,7 +2018,6 @@ player_lasers_list = []
 enemy_lasers_list = []
 enemies_list = []
 
-
 def draw():
     screen.fill("black")
     draw_list(player_lasers_list)
@@ -2120,11 +2029,9 @@ def draw():
     if player.lifes <= 0:
         screen.draw.text("GAME OVER", center=(WIDTH / 2, HEIGHT / 2), fontsize=100, color="red")
 
-
 def draw_list(list):
     for element in list:
         element.draw()
-
 
 def draw_lifes():
     for life_id in range(1, player.lifes + 1):
@@ -2132,7 +2039,6 @@ def draw_lifes():
         life.x = life_id * life.width
         life.y = life.height / 2
         life.draw()
-
 
 def update():
     if player.lifes <= 0:
@@ -2143,7 +2049,6 @@ def update():
     update_enemies()
     update_enemy_lasers()
     update_collisions()
-
 
 def update_player():
     player.x += math.sin(math.radians(player.angle - 180)) * player.v
@@ -2177,7 +2082,6 @@ def update_player():
     if player.y > HEIGHT + MARGIN:
         player.y = -MARGIN
 
-
 def update_player_lasers():
     for laser in player_lasers_list[:]:
         laser.x += math.sin(math.radians(laser.angle - 180)) * laser.v
@@ -2185,7 +2089,6 @@ def update_player_lasers():
 
         if laser.x > WIDTH + MARGIN or laser.x < -MARGIN or laser.y > HEIGHT + MARGIN or laser.y < -MARGIN:
             player_lasers_list.remove(laser)
-
 
 def update_enemies():
     if random.random() < 0.01:
@@ -2204,7 +2107,6 @@ def update_enemies():
             enemy_lasers_list.append(laser)
             sounds.laser2.play()
 
-
 def update_enemy_lasers():
     for laser in enemy_lasers_list[:]:
         laser.x += math.sin(math.radians(laser.angle - 180)) * laser.v
@@ -2212,7 +2114,6 @@ def update_enemy_lasers():
 
         if laser.x > WIDTH + MARGIN or laser.x < -MARGIN or laser.y > HEIGHT + MARGIN or laser.y < -MARGIN:
             enemy_lasers_list.remove(laser)
-
 
 def update_collisions():
     for laser in player_lasers_list[:]:
@@ -2236,7 +2137,6 @@ def update_collisions():
             if player.lifes == 0:
                 sounds.game_over.play()
 
-
 def on_key_down(key):
     if key == keys.SPACE:
         laser = Actor("laser1")
@@ -2246,13 +2146,11 @@ def on_key_down(key):
         player_lasers_list.append(laser)
         sounds.laser1.play()
 
-
 def add_enemy():
     enemy = Actor("enemy")
     enemy.pos = choose_position()
     enemy.v = random.randint(2, 5)
     enemies_list.append(enemy)
-
 
 def choose_position():
     if random.randint(1, 2) == 1:
@@ -2264,11 +2162,9 @@ def choose_position():
 
     return x, y
 
-
 def add_time():
     if player.lifes > 0:
         player.time += 1
-
 
 clock.schedule_interval(add_time, 1)
 pgzrun.go()
@@ -2301,7 +2197,6 @@ player_lasers_list = []
 enemy_lasers_list = []
 enemies_list = []
 
-
 def draw():
     screen.fill("black")
     draw_list(player_lasers_list)
@@ -2313,11 +2208,9 @@ def draw():
     if player.lifes <= 0:
         screen.draw.text("GAME OVER", center=(WIDTH / 2, HEIGHT / 2), fontsize=100, color="red")
 
-
 def draw_list(list):
     for element in list:
         element.draw()
-
 
 def draw_lifes():
     for life_id in range(1, player.lifes + 1):
@@ -2325,7 +2218,6 @@ def draw_lifes():
         life.x = life_id * life.width
         life.y = life.height / 2
         life.draw()
-
 
 def update():
     if player.lifes <= 0:
@@ -2336,7 +2228,6 @@ def update():
     update_enemies()
     update_enemy_lasers()
     update_collisions()
-
 
 def update_player():
     player.x += math.sin(math.radians(player.angle - 180)) * player.v
@@ -2370,7 +2261,6 @@ def update_player():
     if player.y > HEIGHT + MARGIN:
         player.y = -MARGIN
 
-
 def update_player_lasers():
     for laser in player_lasers_list[:]:
         laser.x += math.sin(math.radians(laser.angle - 180)) * laser.v
@@ -2378,7 +2268,6 @@ def update_player_lasers():
 
         if laser.x > WIDTH + MARGIN or laser.x < -MARGIN or laser.y > HEIGHT + MARGIN or laser.y < -MARGIN:
             player_lasers_list.remove(laser)
-
 
 def update_enemies():
     if random.random() < 0.01:
@@ -2397,7 +2286,6 @@ def update_enemies():
             enemy_lasers_list.append(laser)
             sounds.laser2.play()
 
-
 def update_enemy_lasers():
     for laser in enemy_lasers_list[:]:
         laser.x += math.sin(math.radians(laser.angle - 180)) * laser.v
@@ -2405,7 +2293,6 @@ def update_enemy_lasers():
 
         if laser.x > WIDTH + MARGIN or laser.x < -MARGIN or laser.y > HEIGHT + MARGIN or laser.y < -MARGIN:
             enemy_lasers_list.remove(laser)
-
 
 def update_collisions():
     for laser in player_lasers_list[:]:
@@ -2429,7 +2316,6 @@ def update_collisions():
             if player.lifes == 0:
                 sounds.game_over.play()
 
-
 def on_key_down(key):
     if key == keys.SPACE:
         laser = Actor("laser1")
@@ -2439,13 +2325,11 @@ def on_key_down(key):
         player_lasers_list.append(laser)
         sounds.laser1.play()
 
-
 def add_enemy():
     enemy = Actor("enemy")
     enemy.pos = choose_position()
     enemy.v = random.randint(2, 5)
     enemies_list.append(enemy)
-
 
 def choose_position():
     if random.randint(1, 2) == 1:
@@ -2457,11 +2341,9 @@ def choose_position():
 
     return x, y
 
-
 def add_time():
     if player.lifes > 0:
         player.time += 1
-
 
 clock.schedule_interval(add_time, 1)
 pgzrun.go()

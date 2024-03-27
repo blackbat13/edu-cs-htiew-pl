@@ -2,9 +2,7 @@
 
 ## Opis implementacji
 
-
 [gnome-sort.md](../../../../algorithms/sorting/gnome-sort.md)
-
 
 ## Implementacja
 
@@ -44,4 +42,3 @@ int main() {
     return 0;
 }
 ```
-

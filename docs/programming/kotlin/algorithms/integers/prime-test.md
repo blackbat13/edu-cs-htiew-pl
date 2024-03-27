@@ -2,12 +2,10 @@
 
 ## [Opis problemu](../../../../algorithms/integers/prime-test.md)
 
-
 ## Implementacja
 
 ```kotlin
 import kotlin.math.sqrt
-
 
 fun isPrime(n: Int): Boolean {
   if (n < 2) {

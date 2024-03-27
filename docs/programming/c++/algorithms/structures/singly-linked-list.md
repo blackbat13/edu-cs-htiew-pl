@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/structures/singly-linked-list.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -139,4 +138,3 @@ int main() {
     return 0;
 }
 ```
-

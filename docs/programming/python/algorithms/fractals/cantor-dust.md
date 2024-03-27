@@ -2,12 +2,10 @@
 
 ## [Opis problemu](../../../../algorithms/fractals/cantor-dust.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
 import turtle
-
 
 def cantor_dust(rank, length):
     if rank > 0:
@@ -19,7 +17,6 @@ def cantor_dust(rank, length):
     else:
         turtle.forward(length)
 
-
 def cantor(rank, length):
     for i in range(rank + 1):
         cantor_dust(i, length)
@@ -29,7 +26,6 @@ def cantor(rank, length):
         turtle.forward(20)
         turtle.left(90)
         turtle.pendown()
-
 
 turtle.speed(0)
 turtle.penup()
@@ -41,7 +37,6 @@ cantor(5, 729)
 turtle.hideturtle()
 turtle.done()
 ```
-
 
 ### Link do implementacji
 

@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/numerical-methods/square-root.md)
 
-
 ## Metoda Herona
 
 ```python linenums="1"
@@ -15,7 +14,6 @@ def sqrt(n: float, p: float) -> float:
 
     return x2
 
-
 n = 9.0
 p = 0.00000001
 
@@ -23,7 +21,6 @@ result = sqrt(n, p)
 
 print(f"sqrt({n}) ~= {result}")
 ```
-
 
 ### Opis implementacji
 
@@ -35,7 +32,6 @@ W części głównej definiujemy dane wejściowe do naszego problemu (**linie 11
 
 ```python linenums="1"
 import matplotlib.pyplot as plt
-
 
 def sqrt(n: float, p: float) -> float:
     x1 = n / 2
@@ -51,7 +47,6 @@ def sqrt(n: float, p: float) -> float:
 
     return x2
 
-
 n = 9.0
 p = 0.00000001
 
@@ -61,7 +56,6 @@ print(f"sqrt({n}) ~= {result}")
 
 plt.show()
 ```
-
 
 ### Opis implementacji
 

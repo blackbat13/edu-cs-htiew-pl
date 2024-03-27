@@ -2,12 +2,10 @@
 
 ## [Opis problemu](../../../../algorithms/fractals/koch-snowflake.md)
 
-
 ## Implementacja 
 
 ```python linenums="1"
 import turtle
-
 
 def koch_curve(rank, length):
     if rank > 0:
@@ -21,12 +19,10 @@ def koch_curve(rank, length):
     else:
         turtle.forward(length)
 
-
 def koch_snowflake(rank, length):
     for i in range(0, 3):
         koch_curve(rank, length)
         turtle.right(120)
-
 
 turtle.speed(0)
 turtle.penup()
@@ -37,7 +33,6 @@ koch_snowflake(3, 100)
 
 turtle.done()
 ```
-
 
 ### Link do implementacji
 

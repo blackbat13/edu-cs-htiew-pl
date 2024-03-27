@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/divisors.md)
 
-
 ## Rozwiązanie zupełnie naiwne
 
 ### Implementacja
@@ -71,7 +70,6 @@ TODO
 
 ```kotlin
 import kotlin.math.sqrt
-
 
 fun printDivisors(n: Int) {
   for (i in 1 until sqrt(n.toDouble()).toInt() + 1) {

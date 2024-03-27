@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/2d-geometry/segments-crossing.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -10,7 +9,6 @@ class Point:
     def __init__(self, x: int, y: int):
         self.x = x
         self.y = y
-
 
 def det3(matrix: list) -> int:
     return (
@@ -22,7 +20,6 @@ def det3(matrix: list) -> int:
         - matrix[0][0] * matrix[1][2] * matrix[2][1]
     )
 
-
 def point_on_segment(a: Point, b: Point, c: Point) -> bool:
     matrix = [[a.x, a.y, 1], [b.x, b.y, 1], [c.x, c.y, 1]]
 
@@ -33,7 +30,6 @@ def point_on_segment(a: Point, b: Point, c: Point) -> bool:
         a.y, b.y
     )
 
-
 def sgn(a: int) -> int:
     if a < 0:
         return -1
@@ -41,7 +37,6 @@ def sgn(a: int) -> int:
         return 1
     else:
         return 0
-
 
 def segment_crossing(a: Point, b: Point, c: Point, d: Point) -> bool:
     return (
@@ -52,7 +47,6 @@ def segment_crossing(a: Point, b: Point, c: Point, d: Point) -> bool:
         or sgn(det3([[a.x, a.y, 1], [b.x, b.y, 1], [c.x, c.y, 1]]))
         != sgn(det3([[a.x, a.y, 1], [b.x, b.y, 1], [d.x, d.y, 1]]))
     )
-
 
 a = Point(1, 1)
 b = Point(2, 2)
@@ -70,4 +64,3 @@ else:
         f"Segments [({a.x}, {a.y}), ({b.x}, {b.y})] and [({c.x}, {c.y}), ({d.x}, {d.y})] do not cross"
     )
 ```
-

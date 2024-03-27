@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/numerical-methods/fast-exp.md)
 
-
 ## Rozwiązanie iteracyjne
 
 ```cpp linenums="1"
@@ -37,7 +36,6 @@ int main() {
 }
 ```
 
-
 ## Rozwiązanie rekurencyjne
 
 ```cpp linenums="1"
@@ -70,4 +68,3 @@ int main() {
     return 0;
 }
 ```
-

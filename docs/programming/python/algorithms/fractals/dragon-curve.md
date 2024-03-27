@@ -2,12 +2,10 @@
 
 ## [Opis problemu](../../../../algorithms/fractals/dragon-curve.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
 import turtle
-
 
 def dragon_curve(rank, sign, length):
     if rank > 0:
@@ -18,7 +16,6 @@ def dragon_curve(rank, sign, length):
         turtle.left(45 * sign)
     else:
         turtle.forward(length)
-
 
 turtle.speed(0)
 turtle.penup()
@@ -32,7 +29,6 @@ dragon_curve(10, 1, 5)
 
 turtle.done()
 ```
-
 
 ### Link do implementacji
 

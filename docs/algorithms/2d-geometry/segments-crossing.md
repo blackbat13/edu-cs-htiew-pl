@@ -2,14 +2,6 @@
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/2d-geometry/segments-crossing.md)
 
-
-[segments-crossing.md](../../programming/c++/algorithms/2d-geometry/segments-crossing.md)
-
-
-### Python
-
-
-[segments-crossing.md](../../programming/python/algorithms/2d-geometry/segments-crossing.md)
-
+### [Python](../../programming/python/algorithms/2d-geometry/segments-crossing.md)

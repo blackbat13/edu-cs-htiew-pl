@@ -140,49 +140,21 @@ $O(\log n)$ - logarytmiczna
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/searching/binary-search.md)
 
+### [Python](../../programming/python/algorithms/searching/binary-search.md)
 
-[binary-search.md](../../programming/c++/algorithms/searching/binary-search.md)
+### [Blockly](../../programming/blockly/algorithms/searching/binary-search.md)
 
-
-### Python
-
-
-[binary-search.md](../../programming/python/algorithms/searching/binary-search.md)
-
-
-### Blockly
-
-
-[binary-search.md](../../programming/blockly/algorithms/searching/binary-search.md)
-
-
-### Kotlin
-
-
-[binary-search.md](../../programming/kotlin/algorithms/searching/binary-search.md)
-
+### [Kotlin](../../programming/kotlin/algorithms/searching/binary-search.md)
 
 ## Implementacje — pozostałe
 
-### C
+### [C](../../programming/c/algorithms/searching/binary-search.md)
 
+### [Haskell](../../programming/haskell/algorithms/searching/binary-search.md)
 
-[binary-search.md](../../programming/c/algorithms/searching/binary-search.md)
-
-
-### Haskell
-
-
-[binary-search.md](../../programming/haskell/algorithms/searching/binary-search.md)
-
-
-### Julia
-
-
-[binary-search.md](../../programming/julia/algorithms/searching/binary-search.md)
-
+### [Julia](../../programming/julia/algorithms/searching/binary-search.md)
 
 ## Powiązane zagadnienia
 

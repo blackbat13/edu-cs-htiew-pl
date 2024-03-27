@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/fibonacci-numbers.md)
 
-
 ## Podejście naiwne
 
 ### Implementacja
@@ -15,7 +14,6 @@ fib n = fib (n-1) + fib (n-2)
 main = do
     print $ fib 10
 ```
-
 
 ### Opis
 
@@ -37,7 +35,6 @@ fib n = fibs !! (n - 1)
 main = do
     print $ fib 10
 ```
-
 
 ### Opis
 

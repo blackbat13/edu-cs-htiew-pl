@@ -25,4 +25,3 @@ while True:
 
     print(mx_index + 1)
 ```
-

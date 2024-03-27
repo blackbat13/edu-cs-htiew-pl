@@ -102,19 +102,8 @@ flowchart TD
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/numerical-methods/numerical-integration.md)
 
+### [Python](../../programming/python/algorithms/numerical-methods/numerical-integration.md)
 
-[numerical-integration.md](../../programming/c++/algorithms/numerical-methods/numerical-integration.md)
-
-
-### Python
-
-
-[numerical-integration.md](../../programming/python/algorithms/numerical-methods/numerical-integration.md)
-
-
-### Kotlin
-
-
-[numerical-integration.md](../../programming/kotlin/algorithms/numerical-methods/numerical-integration.md)
+### [Kotlin](../../programming/kotlin/algorithms/numerical-methods/numerical-integration.md)

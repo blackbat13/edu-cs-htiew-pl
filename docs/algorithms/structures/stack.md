@@ -30,22 +30,10 @@ Stosy mogą być zaimplementowane za pomocą różnych struktur danych, takich j
 
 Poniżej znajdziesz przykładowe implementacje stosu w wybranych językach programowania.
 
-### C++
+### [C++](../../programming/c++/algorithms/structures/stack.md)
 
-
-[stack.md](../../programming/c++/algorithms/structures/stack.md)
-
-
-### Python
-
-
-[stack.md](../../programming/python/algorithms/structures/stack.md)
-
+### [Python](../../programming/python/algorithms/structures/stack.md)
 
 ## Implementacje — pozostałe
 
-### C
-
-
-[stack.md](../../programming/c/algorithms/structures/stack.md)
-
+### [C](../../programming/c/algorithms/structures/stack.md)

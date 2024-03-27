@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/fractals/cantor-dust.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -23,7 +22,6 @@ void cantorDust(int rank, int length) {
         turtle.forward(length);
     }
 }
-
 
 void cantor(int rank, int length){
     for (int i = 0; i <= rank; i++) {
@@ -49,7 +47,6 @@ int main() {
     return 0;
 } 
 ```
-
 
 ### Link do implementacji
 

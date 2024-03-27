@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/linear-search.md)
 
-
 ## Istnienie elementu
 
 ### Implementacja
@@ -33,7 +32,6 @@ Module Search
     End Sub
 End Module
 ```
-
 
 ## Pozycja elementu
 
@@ -66,7 +64,6 @@ Module Search
 End Module
 ```
 
-
 ## Wszystkie pozycje elementu
 
 ### Implementacja
@@ -91,4 +88,3 @@ Module Search
     End Sub
 End Module
 ```
-

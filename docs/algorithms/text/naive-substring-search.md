@@ -103,14 +103,6 @@ $O(n*m)\to O(n^2)$ - kwadratowa
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/text/naive-substring-search.md)
 
-
-[naive-substring-search.md](../../programming/c++/algorithms/text/naive-substring-search.md)
-
-
-### Python
-
-
-[naive-substring-search.md](../../programming/python/algorithms/text/naive-substring-search.md)
-
+### [Python](../../programming/python/algorithms/text/naive-substring-search.md)

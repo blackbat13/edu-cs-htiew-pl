@@ -6,7 +6,6 @@ description: BST
 
 ## [Opis problemu](../../../../algorithms/structures/bst.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -62,7 +61,6 @@ class BinarySearchTree:
             self._right.clear()
             self._right = None
 
-
 if __name__ == "__main__":
     values = [20, 10, 30, 5, 15, 25, 35]
     bst = BinarySearchTree()
@@ -81,7 +79,6 @@ if __name__ == "__main__":
 
     bst.clear()
 ```
-
 
 ### Opis implementacji
 

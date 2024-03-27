@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/bubble-sort.md)
 
-
 ## Implementacja
 
 ```kotlin linenums="1"
@@ -32,7 +31,6 @@ fun main() {
     println(array)
 }
 ```
-
 
 ### Opis implementacji
 

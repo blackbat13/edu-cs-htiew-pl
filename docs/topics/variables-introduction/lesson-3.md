@@ -7,4 +7,3 @@
 [:fontawesome-solid-file-pdf: Prezentacja - ćwiczenia Blockly](../../assets/Zmienne - ćwiczenia Blockly.pdf)
 
 [:material-folder-zip: Rozwiązania ćwiczeń - Python](../../assets/Zmienne3_Python.zip)
-

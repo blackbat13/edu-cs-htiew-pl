@@ -25,7 +25,4 @@ Warto zauważyć, że podwójna silnia rośnie bardzo szybko, podobnie jak stand
 
 ## Implementacja
 
-### Python
-
-
-[double-factorial.md](../../programming/python/algorithms/integers/double-factorial.md)
+### [Python](../../programming/python/algorithms/integers/double-factorial.md)

@@ -53,20 +53,8 @@ flowchart TD
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/fractals/peano-curve.md)
 
+### [Python](../../programming/python/algorithms/fractals/peano-curve.md)
 
-[peano-curve.md](../../programming/c++/algorithms/fractals/peano-curve.md)
-
-
-### Python
-
-
-[peano-curve.md](../../programming/python/algorithms/fractals/peano-curve.md)
-
-
-### Blockly
-
-
-[peano-curve.md](../../programming/blockly/algorithms/fractals/peano-curve.md)
-
+### [Blockly](../../programming/blockly/algorithms/fractals/peano-curve.md)

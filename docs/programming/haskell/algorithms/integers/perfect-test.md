@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/perfect-test.md)
 
-
 ## Implementacja
 
 ```haskell linenums="1"
@@ -15,7 +14,6 @@ main = do
 
     print $ isPerfect n
 ```
-
 
 ## Opis
 

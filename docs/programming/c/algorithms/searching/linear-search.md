@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/linear-search.md)
 
-
 ## Istnienie elementu
 
 ### Implementacja
@@ -37,7 +36,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 
@@ -79,7 +77,6 @@ int main() {
 }
 ```
 
-
 ### Opis implementacji
 
 Funkcja `linearSearch` (**linia 3**) zwraca jako wynik liczbę całkowitą i przyjmuje trzy argumenty: tablicę do przeszukania, rozmiar tablicy oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy od $0$ do $n-1$ włącznie (**linia 4**). Dla każdego indeksu sprawdzamy, czy pod tym indeksem w tablicy znajduje się poszukiwana wartość (**linia 5**). Jeżeli tak, to zwracamy indeks tej wartości w tablicy (**linia 6**). Po przejściu przez wszystkie indeksy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość $-1$ informującą, że poszukiwany element nie znajduje się w tablicy (**linia 10**).
@@ -112,7 +109,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 

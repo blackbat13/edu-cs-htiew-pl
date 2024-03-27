@@ -19,7 +19,6 @@ Napisz program zgodny z poniższą specyfikacją.
 ```python
 from pprint import pprint
 
-
 n = int(input("Podaj liczbę wartości: "))
 
 mno = [[i * j for j in range(n)] for i in range(n)]

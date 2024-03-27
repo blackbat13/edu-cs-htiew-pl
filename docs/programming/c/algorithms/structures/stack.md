@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/structures/stack.md)
 
-
 ## Implementacja
 
 ```c linenums="1"
@@ -78,4 +77,3 @@ int main() {
   return 0;
 }
 ```
-

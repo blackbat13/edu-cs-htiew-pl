@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/cryptography/symmetric/rail-fence.md)
 
-
 ## Szyfrowanie
 
 ### Implementacja
@@ -44,7 +43,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ## Deszyfrowanie
 
@@ -89,4 +87,3 @@ int main() {
     return 0;
 }
 ```
-

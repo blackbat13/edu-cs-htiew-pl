@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/eratosthenes-sieve.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -21,12 +20,10 @@ def sieve(n: int) -> list:
 
     return primes
 
-
 def print_prime_numbers(primes: list):
     for i, is_prime in enumerate(primes):
         if is_prime:
             print(i)
-
 
 n = 100
 
@@ -34,4 +31,3 @@ primes = sieve(n)
 
 print_prime_numbers(primes)
 ```
-

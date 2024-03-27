@@ -292,111 +292,40 @@ $O(n)$ — liniowa
 
 ## Implementacje — główne
 
-### Pascal
+### [Pascal](../../programming/pascal/algorithms/searching/linear-search.md)
 
+### [C++](../../programming/c++/algorithms/searching/linear-search.md)
 
-[linear-search.md](../../programming/pascal/algorithms/searching/linear-search.md)
+### [Python](../../programming/python/algorithms/searching/linear-search.md)
 
-
-### C++
-
-
-[linear-search.md](../../programming/c++/algorithms/searching/linear-search.md)
-
-
-### Python
-
-
-[linear-search.md](../../programming/python/algorithms/searching/linear-search.md)
-
-
-### Blockly
-
-
-[linear-search.md](../../programming/blockly/algorithms/searching/linear-search.md)
-
+### [Blockly](../../programming/blockly/algorithms/searching/linear-search.md)
 
 ## Implementacje — pozostałe
 
-### C
+### [C](../../programming/c/algorithms/searching/linear-search.md)
 
+### [Dart](../../programming/dart/algorithms/searching/linear-search.md)
 
-[linear-search.md](../../programming/c/algorithms/searching/linear-search.md)
+### [Elixir](../../programming/elixir/algorithms/searching/linear-search.md)
 
+### [Go](../../programming/go/algorithms/searching/linear-search.md)
 
-### Dart
+### [Haskell](../../programming/haskell/algorithms/searching/linear-search.md)
 
+### [JavaScript](../../programming/javascript/algorithms/searching/linear-search.md)
 
-[linear-search.md](../../programming/dart/algorithms/searching/linear-search.md)
+### [Julia](../../programming/julia/algorithms/searching/linear-search.md)
 
+### [Kotlin](../../programming/kotlin/algorithms/searching/linear-search.md)
 
-### Elixir
+### [Lua](../../programming/lua/algorithms/searching/linear-search.md)
 
+### [Rust](../../programming/rust/algorithms/searching/linear-search.md)
 
-[linear-search.md](../../programming/elixir/algorithms/searching/linear-search.md)
+### [Scheme](../../programming/scheme/algorithms/searching/linear-search.md)
 
+### [Swift](../../programming/swift/algorithms/searching/linear-search.md)
 
-### Go
+### [TypeScript](../../programming/typescript/algorithms/searching/linear-search.md)
 
-
-[linear-search.md](../../programming/go/algorithms/searching/linear-search.md)
-
-
-### Haskell
-
-
-[linear-search.md](../../programming/haskell/algorithms/searching/linear-search.md)
-
-
-### JavaScript
-
-
-[linear-search.md](../../programming/javascript/algorithms/searching/linear-search.md)
-
-
-### Julia
-
-
-[linear-search.md](../../programming/julia/algorithms/searching/linear-search.md)
-
-
-### Kotlin
-
-
-[linear-search.md](../../programming/kotlin/algorithms/searching/linear-search.md)
-
-
-### Lua
-
-
-[linear-search.md](../../programming/lua/algorithms/searching/linear-search.md)
-
-
-### Rust
-
-
-[linear-search.md](../../programming/rust/algorithms/searching/linear-search.md)
-
-
-### Scheme
-
-
-[linear-search.md](../../programming/scheme/algorithms/searching/linear-search.md)
-
-
-### Swift
-
-
-[linear-search.md](../../programming/swift/algorithms/searching/linear-search.md)
-
-
-### TypeScript
-
-
-[linear-search.md](../../programming/typescript/algorithms/searching/linear-search.md)
-
-
-### Visual Basic
-
-
-[linear-search.md](../../programming/visual-basic/algorithms/searching/linear-search.md)
+### [Visual Basic](../../programming/visual-basic/algorithms/searching/linear-search.md)

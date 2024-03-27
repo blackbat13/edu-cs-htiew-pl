@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/structures/stack.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -43,7 +42,6 @@ class Stack:
     if self._top_element is not None:
       self._top_element.clear()
 
-
 if __name__ == "__main__":
   stack = Stack()
 
@@ -54,4 +52,3 @@ if __name__ == "__main__":
     print(stack.top())
     stack.pop()
 ```
-

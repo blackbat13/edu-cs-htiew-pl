@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/merge-sort.md)
 
-
 ## Implementacja
 
 ```kotlin

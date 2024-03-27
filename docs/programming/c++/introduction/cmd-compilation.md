@@ -18,8 +18,6 @@ Załóżmy, że mamy gotowy program zapisany w pliku main.cpp. Aby go skompilowa
     g++ main.cpp
     ```
 
-
-
 Proste, prawda? Teraz, aby uruchomić program, należy wykonać polecenie:
 
 === "Linux"

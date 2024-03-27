@@ -79,25 +79,10 @@ Wyszukiwanie minimum ma złożoność liniową. Wywołujemy ten algorytm $n-1$ r
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/sorting/selection-sort.md)
 
+### [Python](../../programming/python/algorithms/sorting/selection-sort.md)
 
-[selection-sort.md](../../programming/c++/algorithms/sorting/selection-sort.md)
+### [Blockly](../../programming/blockly/algorithms/sorting/selection-sort.md)
 
-
-### Python
-
-
-[selection-sort.md](../../programming/python/algorithms/sorting/selection-sort.md)
-
-
-### Blockly
-
-
-[selection-sort.md](../../programming/blockly/algorithms/sorting/selection-sort.md)
-
-
-### Kotlin
-
-
-[selection-sort.md](../../programming/kotlin/algorithms/sorting/selection-sort.md)
+### [Kotlin](../../programming/kotlin/algorithms/sorting/selection-sort.md)

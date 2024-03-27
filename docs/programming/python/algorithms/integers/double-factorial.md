@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/double-factorial.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -13,11 +12,9 @@ def double_factorial(n: int) -> int:
 
     return result
 
-
 n = 8
 
 result = double_factorial(n)
 
 print(f"{n}!! = {result}")
 ```
-

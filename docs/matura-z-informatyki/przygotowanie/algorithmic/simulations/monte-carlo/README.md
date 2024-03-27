@@ -2,9 +2,7 @@
 
 ## Opis algorytmu
 
-
 [monte-carlo.md](../../../../../algorithms/numerical-methods/monte-carlo.md)
-
 
 ## Zadanie 1
 

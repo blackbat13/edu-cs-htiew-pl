@@ -102,34 +102,14 @@ Mamy jedną pętlę, która przechodzi przez kolejne elementy tablicy, której d
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/searching/longest-growing-substring.md)
 
+### [Python](../../programming/python/algorithms/searching/longest-growing-substring.md)
 
-[longest-growing-substring.md](../../programming/c++/algorithms/searching/longest-growing-substring.md)
-
-
-### Python
-
-
-[longest-growing-substring.md](../../programming/python/algorithms/searching/longest-growing-substring.md)
-
-
-### Kotlin
-
-
-[longest-growing-substring.md](../../programming/kotlin/algorithms/searching/longest-growing-substring.md)
-
+### [Kotlin](../../programming/kotlin/algorithms/searching/longest-growing-substring.md)
 
 ## Implementacje — pozostałe
 
-### C
+### [C](../../programming/c/algorithms/searching/longest-growing-substring.md)
 
-
-[longest-growing-substring.md](../../programming/c/algorithms/searching/longest-growing-substring.md)
-
-
-### Julia
-
-
-[longest-growing-substring.md](../../programming/julia/algorithms/searching/longest-growing-substring.md)
-
+### [Julia](../../programming/julia/algorithms/searching/longest-growing-substring.md)

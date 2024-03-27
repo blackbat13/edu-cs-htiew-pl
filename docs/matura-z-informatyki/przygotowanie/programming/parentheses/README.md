@@ -37,7 +37,6 @@ Wypisz ciągi nawiasów z pliku *parentheses.txt* posortowane niemalejąco pod w
 ({[]}[])[()]({[()][[]]{}}{})()
 ```
 
-
 ## Zadanie 3
 
 Dla każdego ciągu nawiasów w pliku *parentheses.txt*, podaj długość najdłuższego spójnego podciągu nawiasów otwierających oraz długość najdłuższego spójnego podciągu nawiasów zamykających. Dla pliku *parentheses_test.txt* poprawny wynik to:
@@ -54,4 +53,3 @@ Dla każdego ciągu nawiasów w pliku *parentheses.txt*, podaj długość najdł
 3 2
 2 2
 ```
-

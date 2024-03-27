@@ -11,10 +11,13 @@ theme:
     - navigation.sections
     - navigation.tracking
     - navigation.top
+    - navigation.indexes
+    - navigation.footer
     - content.code.copy
     - content.code.annotate
     - search.suggest
     - search.highlight
+    - toc.follow
 extra:
   alternate:
     - name: Polski
@@ -46,6 +49,9 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tabbed:
       alternate_style: true
+  - toc:
+      anchorlink: true
+  - tables
 extra_javascript:
   - assets/js/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -53,47 +59,47 @@ extra_javascript:
 nav:
   - 'Informatyka: Trudne Tematy w Najprostszy Sposób': 'index.md'
   - 'Kontakt': 'contact.md'
-  - 'Tematy':
-    - 'Wstęp': 'topics/README.md'
+  - 'Scenariusze zajęć':
+    - 'topics/README.md'
     - 'Wprowadzenie do algorytmów': 
-      - 'Wstęp': 'topics/algorithms-introduction/README.md'
+      - 'topics/algorithms-introduction/README.md'
       - 'Lekcja 1': 'topics/algorithms-introduction/lesson-1.md'
       - 'Lekcja 2': 'topics/algorithms-introduction/lesson-2.md'
       - 'Lekcja 3': 'topics/algorithms-introduction/lesson-3.md'
       - 'Lekcja 4': 'topics/algorithms-introduction/lesson-4.md'
     - 'Wprowadzenie do zmiennych': 
-      - 'Wstęp': 'topics/variables-introduction/README.md'
+      - 'topics/variables-introduction/README.md'
       - 'Lekcja 1': 'topics/variables-introduction/lesson-1.md'
       - 'Lekcja 2': 'topics/variables-introduction/lesson-2.md'
       - 'Lekcja 3': 'topics/variables-introduction/lesson-3.md'
       - 'Lekcja 4': 'topics/variables-introduction/lesson-4.md'
     - 'Wprowadzenie do funkcji': 
-      - 'Wstęp': 'topics/functions-introduction/README.md'
+      - 'topics/functions-introduction/README.md'
       - 'Lekcja 1': 'topics/functions-introduction/lesson-1.md'
       - 'Lekcja 2': 'topics/functions-introduction/lesson-2.md'
       - 'Lekcja 3': 'topics/functions-introduction/lesson-3.md'
       - 'Lekcja 4': 'topics/functions-introduction/lesson-4.md'
       - 'Lekcja 5': 'topics/functions-introduction/lesson-5.md'
     - 'Wprowadzenie do rekurencji': 
-      - 'Wstęp': 'topics/recursion-introduction/README.md'
+      - 'topics/recursion-introduction/README.md'
       - 'Lekcja 1': 'topics/recursion-introduction/lesson-1.md'
       - 'Lekcja 2': 'topics/recursion-introduction/lesson-2.md'
       - 'Lekcja 3': 'topics/recursion-introduction/lesson-3.md'
       - 'Lekcja 4': 'topics/recursion-introduction/lesson-4.md'
     - 'Tematy programistyczne': 
-      - 'Wstęp': 'topics/programming/README.md'
+      - 'topics/programming/README.md'
       - 'Wprowadzenie do języka Python 3': 'topics/programming/python-introduction.md'
       - 'Wprowadzenie do języka Ruby': 'topics/programming/ruby-introduction.md'
       - 'Wprowadzenie do Ruby on Rails': 'topics/programming/ruby-on-rails-introduction.md'
   - 'Dydaktyka Informatyki':
-    - 'Wstęp': 'cs-didactics/README.md'
+    - 'cs-didactics/README.md'
     - 'Omówienie podstawy programowej': 'cs-didactics/core-curriculum-discussion.md'
     - 'Nauczanie zdalne': 'cs-didactics/remote-learning.md'
     - 'Programowanie w szkole': 'cs-didactics/programming-in-school.md'
     - 'Nabieranie nauczycieli': 'cs-didactics/tricking-teachers.md'
   - 'Algorytmy':
     - 'Wprowadzenie': 
-      - 'Wstęp': 'algorithms/introduction/README.md'
+      - 'algorithms/introduction/README.md'
       - 'Algorytmy liniowe': 'algorithms/introduction/linear-algorithms.md'
       - 'Sposoby opisu algorytmów': 'algorithms/introduction/algorithm-representation.md'
       - 'Instrukcja warunkowa': 'algorithms/introduction/conditionals.md'
@@ -104,7 +110,7 @@ nav:
       - 'Złożoność': 'algorithms/introduction/complexity.md'
       - 'Ćwiczenia': 'algorithms/introduction/exercises.md'
     - 'Wyszukiwanie': 
-      - 'Wstęp': 'algorithms/searching/README.md'
+      - 'algorithms/searching/README.md'
       - 'Wyszukiwanie liniowe': 'algorithms/searching/linear-search.md'
       - 'Wyszukiwanie binarne': 'algorithms/searching/binary-search.md'
       - 'Wyszukiwanie minimum i maksimum': 'algorithms/searching/min-or-max.md'
@@ -114,12 +120,12 @@ nav:
       - 'Suma dwóch liczb': 'algorithms/searching/sum-of-two.md'
       - 'Sumy prefiksowe': 'algorithms/searching/prefix-sum.md'
     - 'Przeszukiwanie z powrotami': 
-      - 'Wstęp': 'algorithms/backtracking/README.md'
+      - 'algorithms/backtracking/README.md'
       - 'Problem n królowych': 'algorithms/backtracking/n-queens.md'
       - 'Problem skoczka': 'algorithms/backtracking/knights-tour.md'
       - 'Permutacje': 'algorithms/backtracking/permutations.md'
     - 'Sortowanie': 
-      - 'Wstęp': 'algorithms/sorting/README.md'
+      - 'algorithms/sorting/README.md'
       - 'Sortowanie przez wybieranie': 'algorithms/sorting/selection-sort.md'
       - 'Sortowanie przez wstawianie': 'algorithms/sorting/insertion-sort.md'
       - 'Sortowanie przez zliczanie': 'algorithms/sorting/counting-sort.md'
@@ -135,7 +141,7 @@ nav:
       - 'Sortowanie stooge': 'algorithms/sorting/stooge-sort.md'
       - 'Sortowanie wolne': 'algorithms/sorting/slow-sort.md'
     - 'Algorytmy na liczbach całkowitych': 
-      - 'Wstęp': 'algorithms/integers/README.md'
+      - 'algorithms/integers/README.md'
       - 'Wszystkie dzielniki': 'algorithms/integers/divisors.md'
       - 'Test pierwszości': 'algorithms/integers/prime-test.md'
       - 'Test doskonałości': 'algorithms/integers/perfect-test.md'
@@ -145,7 +151,7 @@ nav:
       - 'Rozszerzony algorytm Euklidesa': 'algorithms/integers/extended-euclidean.md'
       - 'Liczby Fibonacciego': 'algorithms/integers/fibonacci-numbers.md'
       - 'Problem bankomatu': 
-        - 'Wstęp': 'algorithms/integers/atm-problem/README.md'
+        - 'algorithms/integers/atm-problem/README.md'
         - 'Rozwiązanie zachłanne': 'algorithms/integers/atm-problem/greedy.md'
         - 'Rozwiązanie dynamiczne': 'algorithms/integers/atm-problem/dynamic.md'
       - 'Podwójna silnia': 'algorithms/integers/double-factorial.md'
@@ -153,7 +159,7 @@ nav:
       - 'Primorial': 'algorithms/integers/primorial.md'
       - 'Superfactorial': 'algorithms/integers/superfactorial.md'
     - 'Systemy liczbowe': 
-      - 'Wstęp': 'algorithms/numeral-systems/README.md'
+      - 'algorithms/numeral-systems/README.md'
       - 'System binarny': 'algorithms/numeral-systems/binary.md'
       - 'Operacje bitowe': 'algorithms/numeral-systems/bitwise-operations.md'
       - 'Konwersja pomiędzy systemami': 'algorithms/numeral-systems/conversion.md'
@@ -161,14 +167,14 @@ nav:
       - 'Zapis stałoprzecinkowy': 'algorithms/numeral-systems/integer-notation.md'
       - 'Zapis zmiennoprzecinkowy': 'algorithms/numeral-systems/floating-point.md'
     - 'Metody numeryczne': 
-      - 'Wstęp': 'algorithms/numerical-methods/README.md'
+      - 'algorithms/numerical-methods/README.md'
       - 'Schemat Hornera': 'algorithms/numerical-methods/horner.md'
       - 'Pierwiastek kwadratowy': 'algorithms/numerical-methods/square-root.md'
       - 'Całkowanie numeryczne': 'algorithms/numerical-methods/numerical-integration.md'
       - 'Szybkie potęgowanie': 'algorithms/numerical-methods/fast-exp.md'
       - 'Metoda Monte Carlo': 'algorithms/numerical-methods/monte-carlo.md'
     - 'Tekstowe': 
-      - 'Wstęp': 'algorithms/text/README.md'
+      - 'algorithms/text/README.md'
       - 'Palindrom': 'algorithms/text/palindrome.md'
       - 'Anagramy': 'algorithms/text/anagrams.md'
       - 'Naiwne wyszukiwanie wzorca w tekście': 'algorithms/text/naive-substring-search.md'
@@ -177,13 +183,13 @@ nav:
       - 'Odległość Hamminga': 'algorithms/text/hamming-distance.md'
       - 'Odległość Levenshteina "edycyjna"': 'algorithms/text/levenshtein-distance.md'
     - 'Kodowanie i kompresja': 
-      - 'Wstęp': 'algorithms/coding-and-compression/README.md'
+      - 'algorithms/coding-and-compression/README.md'
       - 'Kod ASCII': 'algorithms/coding-and-compression/ascii.md'
       - 'Kody Huffmana': 'algorithms/coding-and-compression/huffman-coding.md'
     - 'Szyfrowanie': 
-      - 'Wstęp': 'algorithms/cryptography/README.md'
+      - 'algorithms/cryptography/README.md'
       - 'Metody szyfrowania symetrycznego': 
-        - 'Wstęp': 'algorithms/cryptography/symmetric/README.md'
+        - 'algorithms/cryptography/symmetric/README.md'
         - 'Szyfr Cezara': 'algorithms/cryptography/symmetric/caesar.md'
         - 'Szyfr Vigenere': 'algorithms/cryptography/symmetric/vigenere.md'
         - 'Szyfr płotkowy': 'algorithms/cryptography/symmetric/rail-fence.md'
@@ -192,19 +198,19 @@ nav:
         - 'Szyfr Beauforta': 'algorithms/cryptography/symmetric/beaufort.md'
         - 'Szyfr Trithemius': 'algorithms/cryptography/symmetric/trithemius.md'
       - 'Szyfrowanie asymetryczne': 
-        - 'Wstęp': 'algorithms/cryptography/assymetric/README.md'
+        - 'algorithms/cryptography/assymetric/README.md'
         - 'RSA': 'algorithms/cryptography/assymetric/rsa.md'
     - 'Macierze': 
-      - 'Wstęp': 'algorithms/matrix/README.md'
+      - 'algorithms/matrix/README.md'
       - 'Wyznacznik macierzy 3x3': 'algorithms/matrix/det3.md'
     - 'Geometria 2D': 
-      - 'Wstęp': 'algorithms/2d-geometry/README.md'
+      - 'algorithms/2d-geometry/README.md'
       - 'Warunek trójkąta': 'algorithms/2d-geometry/triangle-condition.md'
       - 'Odległość punktu od prostej': 'algorithms/2d-geometry/point-line-distance.md'
       - 'Punkt na odcinku': 'algorithms/2d-geometry/point-on-segment.md'
       - 'Przecinanie się odcinków': 'algorithms/2d-geometry/segments-crossing.md'
     - 'Fraktale': 
-      - 'Wstęp': 'algorithms/fractals/README.md'
+      - 'algorithms/fractals/README.md'
       - 'Drzewo binarne': 'algorithms/fractals/binary-tree.md'
       - 'Trójkąt Sierpińskiego': 'algorithms/fractals/sierpinski-triangle.md'
       - 'Kwadrat Sierpińskiego': 'algorithms/fractals/sierpinski-square.md'
@@ -215,7 +221,7 @@ nav:
       - 'Minkowski Sausage': 'algorithms/fractals/minkowski-sausage.md'
       - 'Zbiór Cantora': 'algorithms/fractals/cantor-dust.md'
     - 'Struktury danych': 
-      - 'Wstęp': 'algorithms/structures/README.md'
+      - 'algorithms/structures/README.md'
       - 'Stos': 'algorithms/structures/stack.md'
       - 'Kolejka': 'algorithms/structures/queue.md'
       - 'Lista jednokierunkowa': 'algorithms/structures/singly-linked-list.md'
@@ -224,7 +230,7 @@ nav:
       - 'Drzewa przeszukiwań binarnych': 'algorithms/structures/bst.md'
       - 'Drzewa przedziałowe': 'algorithms/structures/segment-trees.md'
     - 'Grafowe': 
-      - 'Wstęp': 'algorithms/graphs/README.md'
+      - 'algorithms/graphs/README.md'
       - 'DFS': 'algorithms/graphs/dfs.md'
       - 'Spójne składowe': 'algorithms/graphs/connected-components.md'
       - 'Silnie spójne składowe': 'algorithms/graphs/strongly-connected-components.md'
@@ -237,18 +243,16 @@ nav:
       - 'Flood fill': 'algorithms/graphs/flood-fill.md'
     - 'Programowanie obiektowe': 'algorithms/oop/README.md'
   - 'Programowanie':
-    - 'Wstęp': 'programming/README.md'
+    - 'programming/README.md'
     - 'Pascal': 
-      - 'Wstęp': 'programming/pascal/README.md'
+      - 'programming/pascal/README.md'
       - 'Algorytmy': 
-        - 'Wstęp': 'programming/pascal/algorithms/README.md'
         - 'Wyszukiwanie': 
-          - 'Wstęp': 'programming/pascal/algorithms/searching/README.md'
           - 'Wyszukiwanie liniowe': 'programming/pascal/algorithms/searching/linear-search.md'
     - 'C++': 
-      - 'Wstęp': 'programming/c++/README.md'
+      - 'programming/c++/README.md'
       - 'Wprowadzenie': 
-        - 'Wstęp': 'programming/c++/introduction/README.md'
+        - 'programming/c++/introduction/README.md'
         - 'Szablon': 'programming/c++/introduction/template.md'
         - 'Wprowadzenie do zmiennych': 'programming/c++/introduction/variables.md'
         - 'Podstawowe typy zmiennych': 'programming/c++/introduction/data-types.md'
@@ -266,7 +270,7 @@ nav:
         - 'Wskaźniki': 'programming/c++/introduction/pointers.md'
         - 'Wyjątki': 'programming/c++/introduction/exceptions.md'
         - 'OOP': 
-          - 'Wstęp': 'programming/c++/introduction/oop/README.md'
+          - 'programming/c++/introduction/oop/README.md'
           - 'Struktury': 'programming/c++/introduction/oop/structures.md'
           - 'Klasy': 'programming/c++/introduction/oop/classes.md'
           - 'Enumeracje': 'programming/c++/introduction/oop/enum.md'
@@ -276,7 +280,7 @@ nav:
           - 'Klasy abstrakcyjne': 'programming/c++/introduction/oop/abstract-class.md'
           - 'Rzutowanie': 'programming/c++/introduction/oop/casting.md'
         - 'STL': 
-          - 'Wstęp': 'programming/c++/introduction/stl/README.md'
+          - 'programming/c++/introduction/stl/README.md'
           - 'Sortowanie': 'programming/c++/introduction/stl/stl-sorting.md'
           - 'Tablica statyczna': 'programming/c++/introduction/stl/static-array.md'
           - 'Tablice dynamiczne': 'programming/c++/introduction/stl/dynamic-array.md'
@@ -287,9 +291,9 @@ nav:
           - 'Mapa': 'programming/c++/introduction/stl/map.md'
         - 'Kompilacja z linii poleceń': 'programming/c++/introduction/cmd-compilation.md'
       - 'Ćwiczenia': 
-        - 'Wstęp': 'programming/c++/exercises/README.md'
+        - 'programming/c++/exercises/README.md'
         - 'Obsługa wejścia/wyjścia': 
-          - 'Treść': 'programming/c++/exercises/input-output/README.md'
+          - 'programming/c++/exercises/input-output/README.md'
           - 'Rozwiązanie 1': 'programming/c++/exercises/input-output/solution-1.md'
           - 'Rozwiązanie 2': 'programming/c++/exercises/input-output/solution-2.md'
           - 'Rozwiązanie 3': 'programming/c++/exercises/input-output/solution-3.md'
@@ -299,7 +303,7 @@ nav:
           - 'Rozwiązanie 7': 'programming/c++/exercises/input-output/solution-7.md'
           - 'Rozwiązanie 8': 'programming/c++/exercises/input-output/solution-8.md'
         - 'Instrukcja warunkowa': 
-          - 'Treść': 'programming/c++/exercises/conditional-instruction/README.md'
+          - 'programming/c++/exercises/conditional-instruction/README.md'
           - 'Rozwiązanie 1': 'programming/c++/exercises/conditional-instruction/solution-1.md'
           - 'Rozwiązanie 2': 'programming/c++/exercises/conditional-instruction/solution-2.md'
           - 'Rozwiązanie 3': 'programming/c++/exercises/conditional-instruction/solution-3.md'
@@ -308,7 +312,7 @@ nav:
           - 'Rozwiązanie 6': 'programming/c++/exercises/conditional-instruction/solution-6.md'
           - 'Rozwiązanie 7': 'programming/c++/exercises/conditional-instruction/solution-7.md'
         - 'Pętla warunkowa': 
-          - 'Treść': 'programming/c++/exercises/conditional-loop/README.md'
+          - 'programming/c++/exercises/conditional-loop/README.md'
           - 'Rozwiązanie 1': 'programming/c++/exercises/conditional-loop/solution-1.md'
           - 'Rozwiązanie 2': 'programming/c++/exercises/conditional-loop/solution-2.md'
           - 'Rozwiązanie 3': 'programming/c++/exercises/conditional-loop/solution-3.md'
@@ -316,7 +320,7 @@ nav:
           - 'Rozwiązanie 5': 'programming/c++/exercises/conditional-loop/solution-5.md'
           - 'Rozwiązanie 6': 'programming/c++/exercises/conditional-loop/solution-6.md'
         - 'Pętla iteracyjna': 
-          - 'Treść': 'programming/c++/exercises/iterative-loop/README.md'
+          - 'programming/c++/exercises/iterative-loop/README.md'
           - 'Rozwiązanie 1': 'programming/c++/exercises/iterative-loop/solution-1.md'
           - 'Rozwiązanie 2': 'programming/c++/exercises/iterative-loop/solution-2.md'
           - 'Rozwiązanie 3': 'programming/c++/exercises/iterative-loop/solution-3.md'
@@ -326,7 +330,7 @@ nav:
           - 'Rozwiązanie 7': 'programming/c++/exercises/iterative-loop/solution-7.md'
           - 'Rozwiązanie 8': 'programming/c++/exercises/iterative-loop/solution-8.md'
         - 'Tablice statyczne': 
-          - 'Treść': 'programming/c++/exercises/static-arrays/README.md'
+          - 'programming/c++/exercises/static-arrays/README.md'
           - 'Rozwiązanie 1': 'programming/c++/exercises/static-arrays/solution-1.md'
           - 'Rozwiązanie 2': 'programming/c++/exercises/static-arrays/solution-2.md'
           - 'Rozwiązanie 3': 'programming/c++/exercises/static-arrays/solution-3.md'
@@ -335,7 +339,7 @@ nav:
           - 'Rozwiązanie 6': 'programming/c++/exercises/static-arrays/solution-6.md'
           - 'Rozwiązanie 7': 'programming/c++/exercises/static-arrays/solution-7.md'
         - 'Funkcje': 
-          - 'Treść': 'programming/c++/exercises/functions/README.md'
+          - 'programming/c++/exercises/functions/README.md'
           - 'Rozwiązanie 1': 'programming/c++/exercises/functions/solution-1.md'
           - 'Rozwiązanie 2': 'programming/c++/exercises/functions/solution-2.md'
           - 'Rozwiązanie 3': 'programming/c++/exercises/functions/solution-3.md'
@@ -344,12 +348,12 @@ nav:
           - 'Rozwiązanie 6': 'programming/c++/exercises/functions/solution-6.md'
           - 'Rozwiązanie 7': 'programming/c++/exercises/functions/solution-7.md'
         - 'STL': 
-          - 'Treść': 'programming/c++/exercises/stl/README.md'
+          - 'programming/c++/exercises/stl/README.md'
           - 'Rozwiązanie 1': 'programming/c++/exercises/stl/solution-1.md'
           - 'Rozwiązanie 2': 'programming/c++/exercises/stl/solution-2.md'
         - 'Programowanie obiektowe': 'programming/c++/exercises/oop.md'
       - 'Symulacje': 
-        - 'Wstęp': 'programming/c++/simulations/README.md'
+        - 'programming/c++/simulations/README.md'
         - 'Wężyk': 'programming/c++/simulations/snake.md'
         - 'Robot w labiryncie': 'programming/c++/simulations/robot-in-maze.md'
         - 'Prosta ścieżka w labiryncie': 'programming/c++/simulations/simple-path-in-maze.md'
@@ -358,9 +362,7 @@ nav:
         - 'Rekurencja w labiryncie': 'programming/c++/simulations/recursion-in-maze.md'
         - 'Saper': 'programming/c++/simulations/minesweeper.md'
       - 'Algorytmy': 
-        - 'Wstęp': 'programming/c++/algorithms/README.md'
         - 'Wyszukiwanie': 
-          - 'Wstęp': 'programming/c++/algorithms/searching/README.md'
           - 'Wyszukiwanie liniowe': 'programming/c++/algorithms/searching/linear-search.md'
           - 'Wyszukiwanie binarne': 'programming/c++/algorithms/searching/binary-search.md'
           - 'Wyszukiwanie minimum i maksimum': 'programming/c++/algorithms/searching/min-or-max.md'
@@ -370,11 +372,9 @@ nav:
           - 'Suma dwóch liczb': 'programming/c++/algorithms/searching/sum-of-two.md'
           - 'Sumy prefiksowe': 'programming/c++/algorithms/searching/prefix-sum.md'
         - 'Przeszukiwanie z powrotami': 
-          - 'Wstęp': 'programming/c++/algorithms/backtracking/README.md'
           - 'Problem n królowych': 'programming/c++/algorithms/backtracking/n-queens.md'
           - 'Problem skoczka': 'programming/c++/algorithms/backtracking/knights-tour.md'
         - 'Sortowanie': 
-          - 'Wstęp': 'programming/c++/algorithms/sorting/README.md'
           - 'Sortowanie przez wybieranie': 'programming/c++/algorithms/sorting/selection-sort.md'
           - 'Sortowanie przez wstawianie': 'programming/c++/algorithms/sorting/insertion-sort.md'
           - 'Sortowanie przez zliczanie': 'programming/c++/algorithms/sorting/counting-sort.md'
@@ -390,7 +390,6 @@ nav:
           - 'Sortowanie stooge': 'programming/c++/algorithms/sorting/stooge-sort.md'
           - 'Sortowanie wolne': 'programming/c++/algorithms/sorting/slow-sort.md'
         - 'Algorytmy na liczbach całkowitych': 
-          - 'Wstęp': 'programming/c++/algorithms/integers/README.md'
           - 'Wszystkie dzielniki': 'programming/c++/algorithms/integers/divisors.md'
           - 'Test pierwszości': 'programming/c++/algorithms/integers/prime-test.md'
           - 'Test doskonałości': 'programming/c++/algorithms/integers/perfect-test.md'
@@ -401,17 +400,14 @@ nav:
           - 'Liczby Fibonacciego': 'programming/c++/algorithms/integers/fibonacci-numbers.md'
           - 'Wydawanie reszty': 'programming/c++/algorithms/integers/change.md'
         - 'Systemy liczbowe': 
-          - 'Wstęp': 'programming/c++/algorithms/numeral-systems/README.md'
           - 'Konwersja pomiędzy systemami liczbowymi': 'programming/c++/algorithms/numeral-systems/base-conversion.md'
         - 'Metody numeryczne': 
-          - 'Wstęp': 'programming/c++/algorithms/numerical-methods/README.md'
           - 'Schemat Hornera': 'programming/c++/algorithms/numerical-methods/horner.md'
           - 'Pierwiastek kwadratowy': 'programming/c++/algorithms/numerical-methods/square-root.md'
           - 'Całkowanie numeryczne': 'programming/c++/algorithms/numerical-methods/numerical-integration.md'
           - 'Szybkie potęgowanie': 'programming/c++/algorithms/numerical-methods/fast-exp.md'
           - 'Metoda Monte Carlo': 'programming/c++/algorithms/numerical-methods/monte-carlo.md'
         - 'Tekstowe': 
-          - 'Wstęp': 'programming/c++/algorithms/text/README.md'
           - 'Palindrom': 'programming/c++/algorithms/text/palindrome.md'
           - 'Anagramy': 'programming/c++/algorithms/text/anagrams.md'
           - 'Naiwne wyszukiwanie wzorca w tekście': 'programming/c++/algorithms/text/naive-substring-search.md'
@@ -420,11 +416,9 @@ nav:
           - 'Odległość Hamminga': 'programming/c++/algorithms/text/hamming-distance.md'
           - 'Odległość Levenshteina "edycyjna"': 'programming/c++/algorithms/text/levenshtein-distance.md'
         - 'Kodowanie i kompresja': 
-          - 'Wstęp': 'programming/c++/algorithms/coding-and-compression/README.md'
           - 'Kod ASCII': 'programming/c++/algorithms/coding-and-compression/ascii.md'
           - 'Kody Huffmana': 'programming/c++/algorithms/coding-and-compression/huffman-coding.md'
         - 'Szyfrowanie': 
-          - 'Wstęp': 'programming/c++/algorithms/cryptography/README.md'
           - 'Szyfr Cezara': 'programming/c++/algorithms/cryptography/caesar.md'
           - 'Szyfr Vigenere': 'programming/c++/algorithms/cryptography/vigenere.md'
           - 'Szyfr płotkowy': 'programming/c++/algorithms/cryptography/rail-fence.md'
@@ -433,16 +427,14 @@ nav:
           - 'Szyfr Beauforta': 'programming/c++/algorithms/cryptography/beaufort.md'
           - 'Szyfr Trithemius': 'programming/c++/algorithms/cryptography/trithemius.md'
         - 'Macierze': 
-          - 'Wstęp': 'programming/c++/algorithms/matrix/README.md'
           - 'Wyznacznik macierzy 3x3': 'programming/c++/algorithms/matrix/det3.md'
         - 'Geometria 2D': 
-          - 'Wstęp': 'programming/c++/algorithms/2d-geometry/README.md'
           - 'Warunek trójkąta': 'programming/c++/algorithms/2d-geometry/triangle-condition.md'
           - 'Odległość punktu od prostej': 'programming/c++/algorithms/2d-geometry/point-line-distance.md'
           - 'Punkt na odcinku': 'programming/c++/algorithms/2d-geometry/point-on-segment.md'
           - 'Przecinanie się odcinków': 'programming/c++/algorithms/2d-geometry/segments-crossing.md'
         - 'Fraktale': 
-          - 'Wstęp': 'programming/c++/algorithms/fractals/README.md'
+          - 'programming/c++/algorithms/fractals/README.md'
           - 'Drzewo binarne': 'programming/c++/algorithms/fractals/binary-tree.md'
           - 'Trójkąt Sierpińskiego': 'programming/c++/algorithms/fractals/sierpinski-triangle.md'
           - 'Kwadrat Sierpińskiego': 'programming/c++/algorithms/fractals/sierpinski-square.md'
@@ -453,7 +445,6 @@ nav:
           - 'Minkowski Sausage': 'programming/c++/algorithms/fractals/minkowski-sausage.md'
           - 'Zbiór Cantora': 'programming/c++/algorithms/fractals/cantor-dust.md'
         - 'Struktury danych': 
-          - 'Wstęp': 'programming/c++/algorithms/structures/README.md'
           - 'Stos': 'programming/c++/algorithms/structures/stack.md'
           - 'Kolejka': 'programming/c++/algorithms/structures/queue.md'
           - 'Lista jednokierunkowa': 'programming/c++/algorithms/structures/singly-linked-list.md'
@@ -462,7 +453,6 @@ nav:
           - 'Drzewa przeszukiwań binarnych': 'programming/c++/algorithms/structures/bst.md'
           - 'Drzewa przedziałowe': 'programming/c++/algorithms/structures/segment-tree.md'
         - 'Grafowe': 
-          - 'Wstęp': 'programming/c++/algorithms/graphs/README.md'
           - 'DFS': 'programming/c++/algorithms/graphs/dfs.md'
           - 'Spójne składowe': 'programming/c++/algorithms/graphs/connected-components.md'
           - 'BFS': 'programming/c++/algorithms/graphs/bfs.md'
@@ -473,9 +463,9 @@ nav:
           - 'Sortowanie topologiczne': 'programming/c++/algorithms/graphs/topological-sort.md'
           - 'Flood Fill': 'programming/c++/algorithms/graphs/flood-fill.md'
     - 'Python 3': 
-      - 'Wstęp': 'programming/python/README.md'
+      - 'programming/python/README.md'
       - 'Wprowadzenie': 
-        - 'Wstęp': 'programming/python/introduction/README.md'
+        - 'programming/python/introduction/README.md'
         - 'Komentarze': 'programming/python/introduction/comments.md'
         - 'Zmienne': 'programming/python/introduction/variables.md'
         - 'Operatory': 'programming/python/introduction/operators.md'
@@ -489,9 +479,9 @@ nav:
         - 'Pliki': 'programming/python/introduction/files.md'
         - 'Wydajność': 'programming/python/introduction/performance.md'
       - 'Ćwiczenia': 
-        - 'Wstęp': 'programming/python/exercises/README.md'
+        - 'programming/python/exercises/README.md'
         - 'Obsługa wejścia/wyjścia': 
-          - 'Treść': 'programming/python/exercises/input-output/README.md'
+          - 'programming/python/exercises/input-output/README.md'
           - 'Rozwiązanie 1': 'programming/python/exercises/input-output/solution-1.md'
           - 'Rozwiązanie 2': 'programming/python/exercises/input-output/solution-2.md'
           - 'Rozwiązanie 3': 'programming/python/exercises/input-output/solution-3.md'
@@ -501,7 +491,7 @@ nav:
           - 'Rozwiązanie 7': 'programming/python/exercises/input-output/solution-7.md'
           - 'Rozwiązanie 8': 'programming/python/exercises/input-output/solution-8.md'
         - 'Instrukcja warunkowa': 
-          - 'Treść': 'programming/python/exercises/conditional-instruction/README.md'
+          - 'programming/python/exercises/conditional-instruction/README.md'
           - 'Rozwiązanie 1': 'programming/python/exercises/conditional-instruction/solution-1.md'
           - 'Rozwiązanie 2': 'programming/python/exercises/conditional-instruction/solution-2.md'
           - 'Rozwiązanie 3': 'programming/python/exercises/conditional-instruction/solution-3.md'
@@ -510,7 +500,7 @@ nav:
           - 'Rozwiązanie 6': 'programming/python/exercises/conditional-instruction/solution-6.md'
           - 'Rozwiązanie 7': 'programming/python/exercises/conditional-instruction/solution-7.md'
         - 'Pętla warunkowa': 
-          - 'Treść': 'programming/python/exercises/conditional-loop/README.md'
+          - 'programming/python/exercises/conditional-loop/README.md'
           - 'Rozwiązanie 1': 'programming/python/exercises/conditional-loop/solution-1.md'
           - 'Rozwiązanie 2': 'programming/python/exercises/conditional-loop/solution-2.md'
           - 'Rozwiązanie 3': 'programming/python/exercises/conditional-loop/solution-3.md'
@@ -518,7 +508,7 @@ nav:
           - 'Rozwiązanie 5': 'programming/python/exercises/conditional-loop/solution-5.md'
           - 'Rozwiązanie 6': 'programming/python/exercises/conditional-loop/solution-6.md'
         - 'Pętla iteracyjna': 
-          - 'Treść': 'programming/python/exercises/iterative-loop/README.md'
+          - 'programming/python/exercises/iterative-loop/README.md'
           - 'Rozwiązanie 1': 'programming/python/exercises/iterative-loop/solution-1.md'
           - 'Rozwiązanie 2': 'programming/python/exercises/iterative-loop/solution-2.md'
           - 'Rozwiązanie 3': 'programming/python/exercises/iterative-loop/solution-3.md'
@@ -528,7 +518,7 @@ nav:
           - 'Rozwiązanie 7': 'programming/python/exercises/iterative-loop/solution-7.md'
           - 'Rozwiązanie 8': 'programming/python/exercises/iterative-loop/solution-8.md'
         - 'Listy': 
-          - 'Treść': 'programming/python/exercises/lists/README.md'
+          - 'programming/python/exercises/lists/README.md'
           - 'Rozwiązanie 1': 'programming/python/exercises/lists/solution-1.md'
           - 'Rozwiązanie 2': 'programming/python/exercises/lists/solution-2.md'
           - 'Rozwiązanie 3': 'programming/python/exercises/lists/solution-3.md'
@@ -538,17 +528,14 @@ nav:
           - 'Rozwiązanie 7': 'programming/python/exercises/lists/solution-7.md'
           - 'Rozwiązanie 8': 'programming/python/exercises/lists/solution-8.md'
         - 'Funkcje': 
-          - 'Treść': 'programming/python/exercises/functions/README.md'
+          - 'programming/python/exercises/functions/README.md'
           - 'Rozwiązanie 1': 'programming/python/exercises/functions/solution-1.md'
           - 'Rozwiązanie 2': 'programming/python/exercises/functions/solution-2.md'
           - 'Rozwiązanie 3': 'programming/python/exercises/functions/solution-3.md'
       - 'Symulacje': 
-        - 'Wstęp': 'programming/python/simulations/README.md'
         - 'A*': 'programming/python/simulations/a-star.md'
       - 'Algorytmy': 
-        - 'Wstęp': 'programming/python/algorithms/README.md'
         - 'Wyszukiwanie': 
-          - 'Wstęp': 'programming/python/algorithms/searching/README.md'
           - 'Wyszukiwanie liniowe': 'programming/python/algorithms/searching/linear-search.md'
           - 'Wyszukiwanie binarne': 'programming/python/algorithms/searching/binary-search.md'
           - 'Wyszukiwanie minimum i maksimum': 'programming/python/algorithms/searching/min-or-max.md'
@@ -558,12 +545,10 @@ nav:
           - 'Suma dwóch liczb': 'programming/python/algorithms/searching/sum-of-two.md'
           - 'Sumy prefiksowe': 'programming/python/algorithms/searching/prefix-sum.md'
         - 'Przeszukiwanie z powrotami': 
-          - 'Wstęp': 'programming/python/algorithms/backtracking/README.md'
           - 'Problem n królowych': 'programming/python/algorithms/backtracking/n-queens.md'
           - 'Problem skoczka': 'programming/python/algorithms/backtracking/knights-tour.md'
           - 'Permutacje': 'programming/python/algorithms/backtracking/permutations.md'
         - 'Sortowanie': 
-          - 'Wstęp': 'programming/python/algorithms/sorting/README.md'
           - 'Sortowanie przez wybieranie': 'programming/python/algorithms/sorting/selection-sort.md'
           - 'Sortowanie przez wstawianie': 'programming/python/algorithms/sorting/insertion-sort.md'
           - 'Sortowanie przez zliczanie': 'programming/python/algorithms/sorting/counting-sort.md'
@@ -579,7 +564,6 @@ nav:
           - 'Sortowanie stooge': 'programming/python/algorithms/sorting/stooge-sort.md'
           - 'Sortowanie wolne': 'programming/python/algorithms/sorting/slow-sort.md'
         - 'Algorytmy na liczbach całkowitych': 
-          - 'Wstęp': 'programming/python/algorithms/integers/README.md'
           - 'Wszystkie dzielniki': 'programming/python/algorithms/integers/divisors.md'
           - 'Test pierwszości': 'programming/python/algorithms/integers/prime-test.md'
           - 'Rozkład na czynniki pierwsze': 'programming/python/algorithms/integers/prime-factors.md'
@@ -594,18 +578,15 @@ nav:
           - 'Primorial': 'programming/python/algorithms/integers/primorial.md'
           - 'Superfactorial': 'programming/python/algorithms/integers/superfactorial.md'
         - 'Systemy liczbowe': 
-          - 'Wstęp': 'programming/python/algorithms/numeral-systems/README.md'
           - 'Konwersja pomiędzy systemami liczbowymi': 'programming/python/algorithms/numeral-systems/base-conversion.md'
           - 'Konwersja w systemie U2': 'programming/python/algorithms/numeral-systems/u2-conversion.md'
         - 'Metody numeryczne': 
-          - 'Wstęp': 'programming/python/algorithms/numerical-methods/README.md'
           - 'Schemat Hornera': 'programming/python/algorithms/numerical-methods/horner.md'
           - 'Pierwiastek kwadratowy': 'programming/python/algorithms/numerical-methods/square-root.md'
           - 'Całkowanie numeryczne': 'programming/python/algorithms/numerical-methods/numerical-integration.md'
           - 'Szybkie potęgowanie': 'programming/python/algorithms/numerical-methods/fast-exp.md'
           - 'Metoda Monte Carlo': 'programming/python/algorithms/numerical-methods/monte-carlo.md'
         - 'Tekstowe': 
-          - 'Wstęp': 'programming/python/algorithms/text/README.md'
           - 'Palindrom': 'programming/python/algorithms/text/palindrome.md'
           - 'Anagramy': 'programming/python/algorithms/text/anagrams.md'
           - 'Naiwne wyszukiwanie wzorca w tekście': 'programming/python/algorithms/text/naive-substring-search.md'
@@ -614,11 +595,9 @@ nav:
           - 'Odległość Hamminga': 'programming/python/algorithms/text/hamming-distance.md'
           - 'Odległość Levenshteina "edycyjna"': 'programming/python/algorithms/text/levenshtein-distance.md'
         - 'Kodowanie i kompresja': 
-          - 'Wstęp': 'programming/python/algorithms/coding-and-compression/README.md'
           - 'Kod ASCII': 'programming/python/algorithms/coding-and-compression/ascii.md'
           - 'Kody Huffmana': 'programming/python/algorithms/coding-and-compression/huffman-coding.md'
         - 'Szyfrowanie': 
-          - 'Wstęp': 'programming/python/algorithms/cryptography/README.md'
           - 'Szyfr Cezara': 'programming/python/algorithms/cryptography/caesar.md'
           - 'Szyfr Vigenere': 'programming/python/algorithms/cryptography/vigenere.md'
           - 'Szyfr płotkowy': 'programming/python/algorithms/cryptography/rail-fence.md'
@@ -627,16 +606,13 @@ nav:
           - 'Szyfr Beauforta': 'programming/python/algorithms/cryptography/beaufort.md'
           - 'Szyfr Trithemius': 'programming/python/algorithms/cryptography/trithemius.md'
         - 'Macierze': 
-          - 'Wstęp': 'programming/python/algorithms/matrix/README.md'
           - 'Wyznacznik macierzy 3x3': 'programming/python/algorithms/matrix/det3.md'
         - 'Geometria 2D': 
-          - 'Wstęp': 'programming/python/algorithms/2d-geometry/README.md'
           - 'Warunek trójkąta': 'programming/python/algorithms/2d-geometry/triangle-condition.md'
           - 'Odległość punktu od prostej': 'programming/python/algorithms/2d-geometry/point-line-distance.md'
           - 'Punkt na odcinku': 'programming/python/algorithms/2d-geometry/point-on-segment.md'
           - 'Przecinanie się odcinków': 'programming/python/algorithms/2d-geometry/segments-crossing.md'
         - 'Fraktale': 
-          - 'Wstęp': 'programming/python/algorithms/fractals/README.md'
           - 'Drzewo binarne': 'programming/python/algorithms/fractals/binary-tree.md'
           - 'Trójkąt Sierpińskiego': 'programming/python/algorithms/fractals/sierpinski-triangle.md'
           - 'Kwadrat Sierpińskiego': 'programming/python/algorithms/fractals/sierpinski-square.md'
@@ -647,7 +623,6 @@ nav:
           - 'Minkowski Sausage': 'programming/python/algorithms/fractals/minkowski-sausage.md'
           - 'Zbiór Cantora': 'programming/python/algorithms/fractals/cantor-dust.md'
         - 'Struktury danych': 
-          - 'Wstęp': 'programming/python/algorithms/structures/README.md'
           - 'Stos': 'programming/python/algorithms/structures/stack.md'
           - 'Kolejka': 'programming/python/algorithms/structures/queue.md'
           - 'Lista jednokierunkowa': 'programming/python/algorithms/structures/singly-linked-list.md'
@@ -656,7 +631,6 @@ nav:
           - 'Drzewo przeszukiwań binarnych': 'programming/python/algorithms/structures/bst.md'
           - 'Drzewa przedziałowe': 'programming/python/algorithms/structures/segment-trees.md'
         - 'Grafowe': 
-          - 'Wstęp': 'programming/python/algorithms/graphs/README.md'
           - 'DFS': 'programming/python/algorithms/graphs/dfs.md'
           - 'Spójne składowe': 'programming/python/algorithms/graphs/connected-components.md'
           - 'BFS': 'programming/python/algorithms/graphs/bfs.md'
@@ -667,36 +641,30 @@ nav:
           - 'Sortowanie topologiczne': 'programming/python/algorithms/graphs/topological-sort.md'
           - 'Flood fill': 'programming/python/algorithms/graphs/flood-fill.md'
       - 'Przetwarzanie danych': 
-        - 'Wstęp': 'programming/python/data-science/README.md'
+        - 'programming/python/data-science/README.md'
         - 'Pandas': 'programming/python/data-science/pandas.md'
         - 'Pyplot': 'programming/python/data-science/pyplot.md'
         - 'Seaborn': 'programming/python/data-science/seaborn.md'
     - 'Blockly': 
-      - 'Wstęp': 'programming/blockly/README.md'
+      - 'programming/blockly/README.md'
       - 'Gry Blockly': 
-        - 'Wstęp': 'programming/blockly/blockly-games/README.md'
         - 'Labirynt': 'programming/blockly/blockly-games/maze.md'
         - 'Ptak': 'programming/blockly/blockly-games/bird.md'
         - 'Żółw': 'programming/blockly/blockly-games/turtle.md'
         - 'Animacja': 'programming/blockly/blockly-games/animation.md'
         - 'Samouczek Stawu': 'programming/blockly/blockly-games/pond-tutorial.md'
       - 'Algorytmy': 
-        - 'Wstęp': 'programming/blockly/algorithms/README.md'
         - 'Wyszukiwanie': 
-          - 'Wstęp': 'programming/blockly/algorithms/searching/README.md'
           - 'Wyszukiwanie minimum i maksimum': 'programming/blockly/algorithms/searching/min-or-max.md'
           - 'Wyszukiwanie liniowe': 'programming/blockly/algorithms/searching/linear-search.md'
           - 'Wyszukiwanie binarne': 'programming/blockly/algorithms/searching/binary-search.md'
         - 'Sortowanie': 
-          - 'Wstęp': 'programming/blockly/algorithms/sorting/README.md'
           - 'Sortowanie przez wybieranie': 'programming/blockly/algorithms/sorting/selection-sort.md'
           - 'Sortowanie przez zliczanie': 'programming/blockly/algorithms/sorting/counting-sort.md'
         - 'Algorytmy na liczbach całkowitych': 
-          - 'Wstęp': 'programming/blockly/algorithms/integers/README.md'
           - 'NWD': 'programming/blockly/algorithms/integers/gcd.md'
           - 'NWW': 'programming/blockly/algorithms/integers/lcm.md'
         - 'Fraktale': 
-          - 'Wstęp': 'programming/blockly/algorithms/fractals/README.md'
           - 'Drzewo binarne': 'programming/blockly/algorithms/fractals/binary-tree.md'
           - 'Trójkąt Sierpińskiego': 'programming/blockly/algorithms/fractals/sierpinski-triangle.md'
           - 'Kwadrat Sierpińskiego': 'programming/blockly/algorithms/fractals/sierpinski-square.md'
@@ -707,17 +675,15 @@ nav:
           - 'Minkowski Sausage': 'programming/blockly/algorithms/fractals/minkowski-sausage.md'
           - 'Zbiór Cantora': 'programming/blockly/algorithms/fractals/cantor-dust.md'
     - 'C': 
-      - 'Wstęp': 'programming/c/README.md'
+      - 'programming/c/README.md'
       - 'Wprowadzenie': 
-        - 'Wstęp': 'programming/c/introduction/README.md'
+        - 'programming/c/introduction/README.md'
         - 'Obsługa wejścia-wyjścia': 'programming/c/introduction/input-output.md'
         - 'Struktury': 'programming/c/introduction/structures.md'
         - 'Enumeracje': 'programming/c/introduction/enumerations.md'
         - 'Projekty': 'programming/c/introduction/projects.md'
       - 'Algorytmy': 
-        - 'Wstęp': 'programming/c/algorithms/README.md'
         - 'Wyszukiwanie': 
-          - 'Wstęp': 'programming/c/algorithms/searching/README.md'
           - 'Wyszukiwanie liniowe': 'programming/c/algorithms/searching/linear-search.md'
           - 'Wyszukiwanie binarne': 'programming/c/algorithms/searching/binary-search.md'
           - 'Wyszukiwanie minimum i maksimum': 'programming/c/algorithms/searching/min-or-max.md'
@@ -727,40 +693,30 @@ nav:
           - 'Suma dwóch liczb': 'programming/c/algorithms/searching/sum-of-two.md'
           - 'Sumy prefiksowe': 'programming/c/algorithms/searching/prefix-sum.md'
         - 'Struktury': 
-          - 'Wstęp': 'programming/c/algorithms/structures/README.md'
           - 'Stos': 'programming/c/algorithms/structures/stack.md'
     - 'Dart': 
-      - 'Wstęp': 'programming/dart/README.md'
+      - 'programming/dart/README.md'
       - 'Algorytmy': 
-        - 'Wstęp': 'programming/dart/algorithms/README.md'
         - 'Wyszukiwanie': 
-          - 'Wstęp': 'programming/dart/algorithms/searching/README.md'
           - 'Wyszukiwanie liniowe': 'programming/dart/algorithms/searching/linear-search.md'
     - 'Elixir': 
-      - 'Wstęp': 'programming/elixir/README.md'
+      - 'programming/elixir/README.md'
       - 'Algorytmy': 
-        - 'Wstęp': 'programming/elixir/algorithms/README.md'
         - 'Wyszukiwanie': 
-          - 'Wstęp': 'programming/elixir/algorithms/searching/README.md'
           - 'Wyszukiwanie liniowe': 'programming/elixir/algorithms/searching/linear-search.md'
     - 'Go': 
-      - 'Wstęp': 'programming/go/README.md'
+      - 'programming/go/README.md'
       - 'Algorytmy': 
-        - 'Wstęp': 'programming/go/algorithms/README.md'
         - 'Wyszukiwanie': 
-          - 'Wstęp': 'programming/go/algorithms/searching/README.md'
           - 'Wyszukiwanie liniowe': 'programming/go/algorithms/searching/linear-search.md'
     - 'Haskell': 
-      - 'Wstęp': 'programming/haskell/README.md'
+      - 'programming/haskell/README.md'
       - 'Algorytmy': 
-        - 'Wstęp': 'programming/haskell/algorithms/README.md'
         - 'Wyszukiwanie': 
-          - 'Wstęp': 'programming/haskell/algorithms/searching/README.md'
           - 'Wyszukiwanie liniowe': 'programming/haskell/algorithms/searching/linear-search.md'
           - 'Wyszukiwanie binarne': 'programming/haskell/algorithms/searching/binary-search.md'
           - 'Wyszukiwanie minimum i maksimum': 'programming/haskell/algorithms/searching/min-or-max.md'
         - 'Algorytmy na liczbach całkowitych': 
-          - 'Wstęp': 'programming/haskell/algorithms/integers/README.md'
           - 'Wszystkie dzielniki': 'programming/haskell/algorithms/integers/divisors.md'
           - 'Test pierwszości': 'programming/haskell/algorithms/integers/prime-test.md'
           - 'Test doskonałości': 'programming/haskell/algorithms/integers/perfect-test.md'
@@ -768,18 +724,14 @@ nav:
           - 'Algorytm Euklidesa': 'programming/haskell/algorithms/integers/gcd.md'
           - 'Liczby Fibonacciego': 'programming/haskell/algorithms/integers/fibonacci-numbers.md'
     - 'JavaScript': 
-      - 'Wstęp': 'programming/javascript/README.md'
+      - 'programming/javascript/README.md'
       - 'Algorytmy': 
-        - 'Wstęp': 'programming/javascript/algorithms/README.md'
         - 'Wyszukiwanie': 
-          - 'Wstęp': 'programming/javascript/algorithms/searching/README.md'
           - 'Wyszukiwanie liniowe': 'programming/javascript/algorithms/searching/linear-search.md'
     - 'Julia': 
-      - 'Wstęp': 'programming/julia/README.md'
+      - 'programming/julia/README.md'
       - 'Algorytmy': 
-        - 'Wstęp': 'programming/julia/algorithms/README.md'
         - 'Wyszukiwanie': 
-          - 'Wstęp': 'programming/julia/algorithms/searching/README.md'
           - 'Wyszukiwanie liniowe': 'programming/julia/algorithms/searching/linear-search.md'
           - 'Wyszukiwanie binarne': 'programming/julia/algorithms/searching/binary-search.md'
           - 'Wyszukiwanie minimum i maksimum': 'programming/julia/algorithms/searching/min-or-max.md'
@@ -787,23 +739,18 @@ nav:
           - 'Znajdowanie lidera w zbiorze': 'programming/julia/algorithms/searching/majority.md'
           - 'Najdłuższy spójny podciąg rosnący': 'programming/julia/algorithms/searching/longest-growing-substring.md'
         - 'Przeszukiwanie z powrotami': 
-          - 'Wstęp': 'programming/julia/algorithms/backtracking/README.md'
           - 'Problem n królowych': 'programming/julia/algorithms/backtracking/n-queens.md'
         - 'Sortowanie': 
-          - 'Wstęp': 'programming/julia/algorithms/sorting/README.md'
           - 'Sortowanie bąbelkowe': 'programming/julia/algorithms/sorting/bubble-sort.md'
           - 'Sortowanie przez scalanie': 'programming/julia/algorithms/sorting/merge-sort.md'
           - 'Sortowanie szybkie': 'programming/julia/algorithms/sorting/quick-sort.md'
         - 'Metody numeryczne': 
-          - 'Wstęp': 'programming/julia/algorithms/numerical-methods/README.md'
           - 'Szybkie potęgowanie': 'programming/julia/algorithms/numerical-methods/fast-exp.md'
           - 'Metoda Monte Carlo': 'programming/julia/algorithms/numerical-methods/monte-carlo.md'
     - 'Kotlin': 
-      - 'Wstęp': 'programming/kotlin/README.md'
+      - 'programming/kotlin/README.md'
       - 'Algorytmy': 
-        - 'Wstęp': 'programming/kotlin/algorithms/README.md'
         - 'Wyszukiwanie': 
-          - 'Wstęp': 'programming/kotlin/algorithms/searching/README.md'
           - 'Wyszukiwanie liniowe': 'programming/kotlin/algorithms/searching/linear-search.md'
           - 'Wyszukiwanie binarne': 'programming/kotlin/algorithms/searching/binary-search.md'
           - 'Wyszukiwanie minimum i maksimum': 'programming/kotlin/algorithms/searching/min-or-max.md'
@@ -812,11 +759,9 @@ nav:
           - 'Najdłuższy spójny podciąg rosnący': 'programming/kotlin/algorithms/searching/longest-growing-substring.md'
           - 'Suma dwóch liczb': 'programming/kotlin/algorithms/searching/sum-of-two.md'
         - 'Przeszukiwanie z powrotami': 
-          - 'Wstęp': 'programming/kotlin/algorithms/backtracking/README.md'
           - 'Problem n królowych': 'programming/kotlin/algorithms/backtracking/n-queens.md'
           - 'Permutacje': 'programming/kotlin/algorithms/backtracking/permutations.md'
         - 'Sortowanie': 
-          - 'Wstęp': 'programming/kotlin/algorithms/sorting/README.md'
           - 'Sortowanie przez wybieranie': 'programming/kotlin/algorithms/sorting/selection-sort.md'
           - 'Sortowanie przez wstawianie': 'programming/kotlin/algorithms/sorting/insertion-sort.md'
           - 'Sortowanie przez zliczanie': 'programming/kotlin/algorithms/sorting/counting-sort.md'
@@ -829,7 +774,6 @@ nav:
           - 'Sortowanie grzebieniowe': 'programming/kotlin/algorithms/sorting/comb-sort.md'
           - 'Sortowanie odd-even': 'programming/kotlin/algorithms/sorting/odd-even-sort.md'
         - 'Algorytmy na liczbach całkowitych': 
-          - 'Wstęp': 'programming/kotlin/algorithms/integers/README.md'
           - 'Wszystkie dzielniki': 'programming/kotlin/algorithms/integers/divisors.md'
           - 'Test pierwszości': 'programming/kotlin/algorithms/integers/prime-test.md'
           - 'Rozkład na czynniki pierwsze': 'programming/kotlin/algorithms/integers/prime-factors.md'
@@ -838,89 +782,75 @@ nav:
           - 'NWD': 'programming/kotlin/algorithms/integers/gcd.md'
           - 'Liczby Fibonacciego': 'programming/kotlin/algorithms/integers/fibonacci-numbers.md'
         - 'Metody numeryczne': 
-          - 'Wstęp': 'programming/kotlin/algorithms/numerical-methods/README.md'
           - 'Całkowanie numeryczne': 'programming/kotlin/algorithms/numerical-methods/numerical-integration.md'
     - 'Lua': 
-      - 'Wstęp': 'programming/lua/README.md'
+      - 'programming/lua/README.md'
       - 'Algorytmy': 
-        - 'Wstęp': 'programming/lua/algorithms/README.md'
         - 'Wyszukiwanie': 
-          - 'Wstęp': 'programming/lua/algorithms/searching/README.md'
           - 'Wyszukiwanie liniowe': 'programming/lua/algorithms/searching/linear-search.md'
       - 'Symulacje': 
-        - 'Wstęp': 'programming/lua/simulations/README.md'
         - 'Gra w życie': 'programming/lua/simulations/game-of-life.md'
     - 'Rust': 
-      - 'Wstęp': 'programming/rust/README.md'
+      - 'programming/rust/README.md'
       - 'Algorytmy': 
-        - 'Wstęp': 'programming/rust/algorithms/README.md'
         - 'Wyszukiwanie': 
-          - 'Wstęp': 'programming/rust/algorithms/searching/README.md'
           - 'Wyszukiwanie liniowe': 'programming/rust/algorithms/searching/linear-search.md'
     - 'Scheme': 
-      - 'Wstęp': 'programming/scheme/README.md'
+      - 'programming/scheme/README.md'
       - 'Algorytmy': 
-        - 'Wstęp': 'programming/scheme/algorithms/README.md'
         - 'Wyszukiwanie': 
-          - 'Wstęp': 'programming/scheme/algorithms/searching/README.md'
           - 'Wyszukiwanie liniowe': 'programming/scheme/algorithms/searching/linear-search.md'
     - 'Swift': 
-      - 'Wstęp': 'programming/swift/README.md'
+      - 'programming/swift/README.md'
       - 'Algorytmy': 
-        - 'Wstęp': 'programming/swift/algorithms/README.md'
         - 'Wyszukiwanie': 
-          - 'Wstęp': 'programming/swift/algorithms/searching/README.md'
           - 'Wyszukiwanie liniowe': 'programming/swift/algorithms/searching/linear-search.md'
     - 'TypeScript': 
-      - 'Wstęp': 'programming/typescript/README.md'
+      - 'programming/typescript/README.md'
       - 'Algorytmy': 
-        - 'Wstęp': 'programming/typescript/algorithms/README.md'
         - 'Wyszukiwanie': 
-          - 'Wstęp': 'programming/typescript/algorithms/searching/README.md'
           - 'Wyszukiwanie liniowe': 'programming/typescript/algorithms/searching/linear-search.md'
     - 'Visual Basic': 
-      - 'Wstęp': 'programming/visual-basic/README.md'
+      - 'programming/visual-basic/README.md'
       - 'Algorytmy': 
-        - 'Wstęp': 'programming/visual-basic/algorithms/README.md'
         - 'Wyszukiwanie': 
-          - 'Wstęp': 'programming/visual-basic/algorithms/searching/README.md'
           - 'Wyszukiwanie liniowe': 'programming/visual-basic/algorithms/searching/linear-search.md'
   - 'Algorytmika - zadania':
-    - 'Wstęp': 'algorithmic-exercises/README.md'
+    - 'algorithmic-exercises/README.md'
     - 'Poziom 0': 
-      - 'Wstęp': 'algorithmic-exercises/level-0/README.md'
+      - 'algorithmic-exercises/level-0/README.md'
       - 'Porównywanie liczb': 
-        - 'Treść': 'algorithmic-exercises/level-0/compare-integers/README.md'
+        - 'algorithmic-exercises/level-0/compare-integers/README.md'
         - 'Pseudokod': 'algorithmic-exercises/level-0/compare-integers/pseudocode.md'
         - 'Schemat blokowy': 'algorithmic-exercises/level-0/compare-integers/block-diagram.md'
         - 'Python': 'algorithmic-exercises/level-0/compare-integers/python.md'
         - 'C++': 'algorithmic-exercises/level-0/compare-integers/c++.md'
         - 'Blockly': 'algorithmic-exercises/level-0/compare-integers/blockly.md'
       - 'Cięcie kosztów': 
-        - 'Treść': 'algorithmic-exercises/level-0/cutting-costs/README.md'
+        - 'algorithmic-exercises/level-0/cutting-costs/README.md'
         - 'Pseudokod': 'algorithmic-exercises/level-0/cutting-costs/pseudocode.md'
         - 'Schemat blokowy': 'algorithmic-exercises/level-0/cutting-costs/block-diagram.md'
       - 'Pakowanie na wakacje': 
-        - 'Treść': 'algorithmic-exercises/level-0/holidays-packing/README.md'
+        - 'algorithmic-exercises/level-0/holidays-packing/README.md'
         - 'Pseudokod': 'algorithmic-exercises/level-0/holidays-packing/pseudocode.md'
         - 'Schemat blokowy': 'algorithmic-exercises/level-0/holidays-packing/block-diagram.md'
       - 'Szkolna fizyka': 'algorithmic-exercises/level-0/school-physics.md'
     - 'Poziom 1': 
-      - 'Wstęp': 'algorithmic-exercises/level-1/README.md'
+      - 'algorithmic-exercises/level-1/README.md'
       - 'Automated Checking Machine': 
-        - 'Treść': 'algorithmic-exercises/level-1/automated-checking-machine/README.md'
+        - 'algorithmic-exercises/level-1/automated-checking-machine/README.md'
         - 'Rozwiązanie C++': 'algorithmic-exercises/level-1/automated-checking-machine/c++.md'
         - 'Rozwiązanie Python': 'algorithmic-exercises/level-1/automated-checking-machine/python.md'
       - 'Search the Khoj': 
-        - 'Treść': 'algorithmic-exercises/level-1/search-the-khoj/README.md'
+        - 'algorithmic-exercises/level-1/search-the-khoj/README.md'
         - 'Rozwiązanie C++': 'algorithmic-exercises/level-1/search-the-khoj/c++.md'
         - 'Rozwiązanie Python': 'algorithmic-exercises/level-1/search-the-khoj/python.md'
       - 'Strategy Game': 
-        - 'Treść': 'algorithmic-exercises/level-1/strategy-game/README.md'
+        - 'algorithmic-exercises/level-1/strategy-game/README.md'
         - 'Rozwiązanie C++': 'algorithmic-exercises/level-1/strategy-game/c++.md'
         - 'Rozwiązanie Python': 'algorithmic-exercises/level-1/strategy-game/python.md'
       - 'Ultimate Mango Challenge': 
-        - 'Treść': 'algorithmic-exercises/level-1/ultimate-mango-challenge/README.md'
+        - 'algorithmic-exercises/level-1/ultimate-mango-challenge/README.md'
         - 'Rozwiązanie C++': 'algorithmic-exercises/level-1/ultimate-mango-challenge/c++.md'
         - 'Rozwiązanie Python': 'algorithmic-exercises/level-1/ultimate-mango-challenge/python.md'
       - 'Suma nieparzystych': 'algorithmic-exercises/level-1/odd-sum.md'
@@ -934,138 +864,138 @@ nav:
       - 'Bajtowi wojownicy': 'algorithmic-exercises/level-1/byte-warriors.md'
       - 'Robot': 'algorithmic-exercises/level-1/robot.md'
     - 'Poziom 2': 
-      - 'Wstęp': 'algorithmic-exercises/level-2/README.md'
+      - 'algorithmic-exercises/level-2/README.md'
       - 'Gra planszowa': 'algorithmic-exercises/level-2/board-game.md'
       - 'Kłódka': 'algorithmic-exercises/level-2/combination-lock.md'
       - 'Ślimak': 'algorithmic-exercises/level-2/snail.md'
       - 'Gra w liczby': 'algorithmic-exercises/level-2/number-game.md'
     - 'Poziom 3': 
-      - 'Wstęp': 'algorithmic-exercises/level-3/README.md'
+      - 'algorithmic-exercises/level-3/README.md'
       - 'Andy First Dictionary': 
-        - 'Treść': 'algorithmic-exercises/level-3/andy-first-dictionary/README.md'
+        - 'algorithmic-exercises/level-3/andy-first-dictionary/README.md'
         - 'Rozwiązanie C++': 'algorithmic-exercises/level-3/andy-first-dictionary/c++.md'
       - 'Babelfish': 
-        - 'Treść': 'algorithmic-exercises/level-3/babelfish/README.md'
+        - 'algorithmic-exercises/level-3/babelfish/README.md'
         - 'Rozwiązanie C++': 'algorithmic-exercises/level-3/babelfish/c++.md'
         - 'Rozwiązanie Python': 'algorithmic-exercises/level-3/babelfish/python.md'
       - 'Genes': 
-        - 'Treść': 'algorithmic-exercises/level-3/genes/README.md'
+        - 'algorithmic-exercises/level-3/genes/README.md'
         - 'Rozwiązanie C++': 'algorithmic-exercises/level-3/genes/c++.md'
         - 'Rozwiązanie Python': 'algorithmic-exercises/level-3/genes/python.md'
       - 'Hay Points': 
-        - 'Treść': 'algorithmic-exercises/level-3/hay-points/README.md'
+        - 'algorithmic-exercises/level-3/hay-points/README.md'
         - 'Rozwiązanie C++': 'algorithmic-exercises/level-3/hay-points/c++.md'
         - 'Rozwiązanie Python': 'algorithmic-exercises/level-3/hay-points/python.md'
       - 'List of Conquests': 
-        - 'Treść': 'algorithmic-exercises/level-3/list-of-conquests/README.md'
+        - 'algorithmic-exercises/level-3/list-of-conquests/README.md'
         - 'Rozwiązanie C++': 'algorithmic-exercises/level-3/list-of-conquests/c++.md'
         - 'Rozwiązanie Python': 'algorithmic-exercises/level-3/list-of-conquests/python.md'
       - 'Password Search': 
-        - 'Treść': 'algorithmic-exercises/level-3/password-search/README.md'
+        - 'algorithmic-exercises/level-3/password-search/README.md'
         - 'Rozwiązanie C++': 'algorithmic-exercises/level-3/password-search/c++.md'
         - 'Rozwiązanie Python': 'algorithmic-exercises/level-3/password-search/python.md'
       - 'Slogan Learning of Princess': 
-        - 'Treść': 'algorithmic-exercises/level-3/slogan-learning-of-princess/README.md'
+        - 'algorithmic-exercises/level-3/slogan-learning-of-princess/README.md'
         - 'Rozwiązanie C++': 'algorithmic-exercises/level-3/slogan-learning-of-princess/c++.md'
         - 'Rozwiązanie Python': 'algorithmic-exercises/level-3/slogan-learning-of-princess/python.md'
       - 'Unique Snowflakes': 
-        - 'Treść': 'algorithmic-exercises/level-3/unique-snowflakes/README.md'
+        - 'algorithmic-exercises/level-3/unique-snowflakes/README.md'
         - 'Rozwiązanie C++': 'algorithmic-exercises/level-3/unique-snowflakes/c++.md'
         - 'Rozwiązanie Python': 'algorithmic-exercises/level-3/unique-snowflakes/python.md'
       - 'Word Index': 
-        - 'Treść': 'algorithmic-exercises/level-3/word-index/README.md'
+        - 'algorithmic-exercises/level-3/word-index/README.md'
         - 'Rozwiązanie C++': 'algorithmic-exercises/level-3/word-index/c++.md'
     - 'SZKOpuł': 
-      - 'Wstęp': 'algorithmic-exercises/szkopul/README.md'
+      - 'algorithmic-exercises/szkopul/README.md'
       - '10 Wspaniałych': 
-        - 'Treść': 'algorithmic-exercises/szkopul/10-wspanialych/README.md'
+        - 'algorithmic-exercises/szkopul/10-wspanialych/README.md'
         - 'C++': 'algorithmic-exercises/szkopul/10-wspanialych/c++.md'
       - '210': 
-        - 'Treść': 'algorithmic-exercises/szkopul/210/README.md'
+        - 'algorithmic-exercises/szkopul/210/README.md'
         - 'C++': 'algorithmic-exercises/szkopul/210/c++.md'
         - 'Python': 'algorithmic-exercises/szkopul/210/python.md'
       - 'Akcje': 
-        - 'Treść': 'algorithmic-exercises/szkopul/akcje/README.md'
+        - 'algorithmic-exercises/szkopul/akcje/README.md'
         - 'C++': 'algorithmic-exercises/szkopul/akcje/c++.md'
       - 'Anagramy': 
-        - 'Treść': 'algorithmic-exercises/szkopul/anagramy/README.md'
+        - 'algorithmic-exercises/szkopul/anagramy/README.md'
         - 'C++': 'algorithmic-exercises/szkopul/anagramy/c++.md'
       - 'Astronom Janusz': 
-        - 'Treść': 'algorithmic-exercises/szkopul/astronom-janusz/README.md'
+        - 'algorithmic-exercises/szkopul/astronom-janusz/README.md'
         - 'C++': 'algorithmic-exercises/szkopul/astronom-janusz/c++.md'
       - 'Awantura o czapki': 
-        - 'Treść': 'algorithmic-exercises/szkopul/awantura-o-czapki/README.md'
+        - 'algorithmic-exercises/szkopul/awantura-o-czapki/README.md'
         - 'C++': 'algorithmic-exercises/szkopul/awantura-o-czapki/c++.md'
       - 'Gra': 
-        - 'Treść': 'algorithmic-exercises/szkopul/gra/README.md'
+        - 'algorithmic-exercises/szkopul/gra/README.md'
         - 'C++': 'algorithmic-exercises/szkopul/gra/c++.md'
       - 'Kamyki': 
-        - 'Treść': 'algorithmic-exercises/szkopul/kamyki/README.md'
+        - 'algorithmic-exercises/szkopul/kamyki/README.md'
         - 'C++': 'algorithmic-exercises/szkopul/kamyki/c++.md'
       - 'Pikieta': 
-        - 'Treść': 'algorithmic-exercises/szkopul/pikieta/README.md'
+        - 'algorithmic-exercises/szkopul/pikieta/README.md'
         - 'C++': 'algorithmic-exercises/szkopul/pikieta/c++.md'
       - 'Tarasy': 
-        - 'Treść': 'algorithmic-exercises/szkopul/tarasy/README.md'
+        - 'algorithmic-exercises/szkopul/tarasy/README.md'
         - 'C++': 'algorithmic-exercises/szkopul/tarasy/c++.md'
     - 'Olimpiada Informatyczna Juniorów': 
-      - 'Wstęp': 'algorithmic-exercises/oig/README.md'
+      - 'algorithmic-exercises/oig/README.md'
       - '... albo psikus!': 
-        - 'Treść': 'algorithmic-exercises/oig/albo-psikus/README.md'
+        - 'algorithmic-exercises/oig/albo-psikus/README.md'
         - 'C++': 'algorithmic-exercises/oig/albo-psikus/c++.md'
         - 'Python': 'algorithmic-exercises/oig/albo-psikus/python.md'
       - 'Basen': 
-        - 'Treść': 'algorithmic-exercises/oig/basen/README.md'
+        - 'algorithmic-exercises/oig/basen/README.md'
         - 'C++': 'algorithmic-exercises/oig/basen/c++.md'
       - 'Bierki': 
-        - 'Treść': 'algorithmic-exercises/oig/bierki/README.md'
+        - 'algorithmic-exercises/oig/bierki/README.md'
         - 'C++': 'algorithmic-exercises/oig/bierki/c++.md'
         - 'Python': 'algorithmic-exercises/oig/bierki/python.md'
       - 'H4x0r': 
-        - 'Treść': 'algorithmic-exercises/oig/h4x0r/README.md'
+        - 'algorithmic-exercises/oig/h4x0r/README.md'
         - 'C++': 'algorithmic-exercises/oig/h4x0r/c++.md'
         - 'Python': 'algorithmic-exercises/oig/h4x0r/python.md'
       - 'Skarpetki': 
-        - 'Treść': 'algorithmic-exercises/oig/skarpetki/README.md'
+        - 'algorithmic-exercises/oig/skarpetki/README.md'
         - 'C++': 'algorithmic-exercises/oig/skarpetki/c++.md'
       - 'Wynik meczu': 
-        - 'Treść': 'algorithmic-exercises/oig/wynik-meczu/README.md'
+        - 'algorithmic-exercises/oig/wynik-meczu/README.md'
         - 'C++': 'algorithmic-exercises/oig/wynik-meczu/c++.md'
       - 'Zmiennoliterowe słowo': 
-        - 'Treść': 'algorithmic-exercises/oig/zmiennoliterowe-slowo/README.md'
+        - 'algorithmic-exercises/oig/zmiennoliterowe-slowo/README.md'
         - 'C++': 'algorithmic-exercises/oig/zmiennoliterowe-slowo/c++.md'
     - 'Olimpiada Informatyczna': 
-      - 'Wstęp': 'algorithmic-exercises/oi/README.md'
+      - 'algorithmic-exercises/oi/README.md'
       - 'Anagramy': 
-        - 'Treść': 'algorithmic-exercises/oi/anagramy/README.md'
+        - 'algorithmic-exercises/oi/anagramy/README.md'
         - 'C++': 'algorithmic-exercises/oi/anagramy/c++.md'
         - 'Python': 'algorithmic-exercises/oi/anagramy/python.md'
       - 'Gra w dzielniki': 
-        - 'Treść': 'algorithmic-exercises/oi/gra-w-dzielniki/README.md'
+        - 'algorithmic-exercises/oi/gra-w-dzielniki/README.md'
         - 'C++': 'algorithmic-exercises/oi/gra-w-dzielniki/c++.md'
       - 'Gra w minima': 
-        - 'Treść': 'algorithmic-exercises/oi/gra-w-minima/README.md'
+        - 'algorithmic-exercises/oi/gra-w-minima/README.md'
         - 'C++': 'algorithmic-exercises/oi/gra-w-minima/c++.md'
       - 'Minusy': 
-        - 'Treść': 'algorithmic-exercises/oi/minusy/README.md'
+        - 'algorithmic-exercises/oi/minusy/README.md'
         - 'C++': 'algorithmic-exercises/oi/minusy/c++.md'
         - 'Python': 'algorithmic-exercises/oi/minusy/python.md'
     - 'Potyczki Algorytmiczne': 
-      - 'Wstęp': 'algorithmic-exercises/potyczki-algorytmiczne/README.md'
+      - 'algorithmic-exercises/potyczki-algorytmiczne/README.md'
       - 'A+B': 
-        - 'Treść': 'algorithmic-exercises/potyczki-algorytmiczne/apb/README.md'
+        - 'algorithmic-exercises/potyczki-algorytmiczne/apb/README.md'
         - 'C++': 'algorithmic-exercises/potyczki-algorytmiczne/apb/c++.md'
   - 'Nauka programowania poprzez tworzenie gier':
-    - 'Wstęp': 'learning-by-games/intro.md'
+    - 'learning-by-games/intro.md'
     - 'Python 3': 
-      - 'Wstęp': 'learning-by-games/python/README.md'
+      - 'learning-by-games/python/README.md'
       - 'Wprowadzenie': 
-        - 'Wstęp': 'learning-by-games/python/introduction/README.md'
+        - 'learning-by-games/python/introduction/README.md'
         - 'Prosta (naiwna) gra': 'learning-by-games/python/introduction/silly-game.md'
         - 'Symulacja rzutu kością': 'learning-by-games/python/introduction/dice-simulator.md'
         - 'Gra w zgadywanie': 'learning-by-games/python/introduction/guessing-game.md'
       - 'Gry 2D - Pygame Zero': 
-        - 'Wstęp': 'learning-by-games/python/pygame-zero/README.md'
+        - 'learning-by-games/python/pygame-zero/README.md'
         - 'Złap słońce': 'learning-by-games/python/pygame-zero/catch-the-sun.md'
         - 'Głodna świnia': 'learning-by-games/python/pygame-zero/hungry-pig.md'
         - 'Flappy Bird': 'learning-by-games/python/pygame-zero/flappy-bird.md'
@@ -1079,43 +1009,43 @@ nav:
         - 'Kolorowa piłka': 'learning-by-games/python/pygame-zero/colorful-ball.md'
         - 'Snake': 'learning-by-games/python/pygame-zero/snake.md'
       - 'Gry sieciowe': 
-        - 'Wstęp': 'learning-by-games/python/online/README.md'
+        - 'learning-by-games/python/online/README.md'
         - 'Echo': 'learning-by-games/python/online/echo.md'
       - 'Sztuczna inteligencja': 
-        - 'Wstęp': 'learning-by-games/python/ai/README.md'
+        - 'learning-by-games/python/ai/README.md'
         - 'Gra w monety z AI': 'learning-by-games/python/ai/game-of-coins-ai.md'
     - 'Lua': 
-      - 'Wstęp': 'learning-by-games/lua/README.md'
+      - 'learning-by-games/lua/README.md'
       - 'Głodna świnia': 'learning-by-games/lua/hungry-pig.md'
       - 'Asteroidy': 'learning-by-games/lua/asteroids.md'
       - 'Latający samolocik': 'learning-by-games/lua/flying-plane.md'
     - 'JavaScript': 
-      - 'Wstęp': 'learning-by-games/javascript/README.md'
+      - 'learning-by-games/javascript/README.md'
       - 'Głodna świnia': 'learning-by-games/javascript/hungry-pig.md'
       - 'Złap kosmitę': 'learning-by-games/javascript/catch-alien.md'
   - 'Grafika komputerowa':
-    - 'Wstęp': 'graphics/README.md'
+    - 'graphics/README.md'
     - 'Przestrzenie kolorów': 'graphics/color-space.md'
     - 'Gimp': 
-      - 'Wstęp': 'graphics/gimp/README.md'
+      - 'graphics/gimp/README.md'
       - 'Tutoriale': 
-        - 'Wstęp': 'graphics/gimp/tutorials/README.md'
+        - 'graphics/gimp/tutorials/README.md'
         - 'Efekt vintage': 'graphics/gimp/tutorials/vintage-effect.md'
         - 'Wyróżnienie elementu': 'graphics/gimp/tutorials/color-reveal.md'
   - 'Tworzenie stron internetowych':
-    - 'Wstęp': 'web-design/README.md'
+    - 'web-design/README.md'
     - 'CSS': 'web-design/css/README.md'
   - 'Arkusz kalkulacyjny':
-    - 'Wstęp': 'spreadsheet/README.md'
+    - 'spreadsheet/README.md'
     - 'Auto-wypełnianie': 'spreadsheet/auto-fill.md'
     - 'Adresowanie': 'spreadsheet/addressing.md'
     - 'Tabele przestawne': 'spreadsheet/pivot-table.md'
     - 'VBA': 
-      - 'Wstęp': 'spreadsheet/vba/README.md'
+      - 'spreadsheet/vba/README.md'
       - 'Ćwiczenia': 
-        - 'Wstęp': 'spreadsheet/vba/exercises/README.md'
+        - 'spreadsheet/vba/exercises/README.md'
         - 'Podstawy': 
-          - 'Treść': 'spreadsheet/vba/exercises/basic/README.md'
+          - 'spreadsheet/vba/exercises/basic/README.md'
           - 'Rozwiązanie 1': 'spreadsheet/vba/exercises/basic/solution-1.md'
           - 'Rozwiązanie 2': 'spreadsheet/vba/exercises/basic/solution-2.md'
           - 'Rozwiązanie 3': 'spreadsheet/vba/exercises/basic/solution-3.md'
@@ -1125,26 +1055,26 @@ nav:
           - 'Rozwiązanie 7': 'spreadsheet/vba/exercises/basic/solution-7.md'
           - 'Rozwiązanie 8': 'spreadsheet/vba/exercises/basic/solution-8.md'
         - 'Zaawansowane': 
-          - 'Treść': 'spreadsheet/vba/exercises/advanced/README.md'
+          - 'spreadsheet/vba/exercises/advanced/README.md'
           - 'Rozwiązanie 1': 'spreadsheet/vba/exercises/advanced/solution-1.md'
           - 'Rozwiązanie 2': 'spreadsheet/vba/exercises/advanced/solution-2.md'
           - 'Rozwiązanie 3': 'spreadsheet/vba/exercises/advanced/solution-3.md'
           - 'Rozwiązanie 4': 'spreadsheet/vba/exercises/advanced/solution-4.md'
           - 'Rozwiązanie 5': 'spreadsheet/vba/exercises/advanced/solution-5.md'
   - 'Bazy danych':
-    - 'Wstęp': 'databases/README.md'
+    - 'databases/README.md'
     - 'Wprowadzenie': 
-      - 'Wstęp': 'databases/introduction/README.md'
+      - 'databases/introduction/README.md'
       - 'Typy danych': 'databases/introduction/datatypes.md'
       - 'Relacje': 'databases/introduction/relations.md'
     - 'SQL': 
-      - 'Wstęp': 'databases/sql/README.md'
+      - 'databases/sql/README.md'
       - 'JOIN': 
-        - 'Wstęp': 'databases/sql/join.md'
+        - 'databases/sql/join.md'
       - 'Ćwiczenia': 
-        - 'Wstęp': 'databases/sql/exercises/README.md'
+        - 'databases/sql/exercises/README.md'
         - 'SELECT': 
-          - 'Treść': 'databases/sql/exercises/select/README.md'
+          - 'databases/sql/exercises/select/README.md'
           - 'Rozwiązanie 1': 'databases/sql/exercises/select/solution-1.md'
           - 'Rozwiązanie 2': 'databases/sql/exercises/select/solution-2.md'
           - 'Rozwiązanie 3': 'databases/sql/exercises/select/solution-3.md'
@@ -1155,7 +1085,7 @@ nav:
           - 'Rozwiązanie 8': 'databases/sql/exercises/select/solution-8.md'
           - 'Rozwiązanie 9': 'databases/sql/exercises/select/solution-9.md'
         - 'WHERE': 
-          - 'Treść': 'databases/sql/exercises/where/README.md'
+          - 'databases/sql/exercises/where/README.md'
           - 'Rozwiązanie 1': 'databases/sql/exercises/where/solution-1.md'
           - 'Rozwiązanie 2': 'databases/sql/exercises/where/solution-2.md'
           - 'Rozwiązanie 3': 'databases/sql/exercises/where/solution-3.md'
@@ -1167,7 +1097,7 @@ nav:
           - 'Rozwiązanie 9': 'databases/sql/exercises/where/solution-9.md'
           - 'Rozwiązanie 10': 'databases/sql/exercises/where/solution-10.md'
         - 'ORDER BY': 
-          - 'Treść': 'databases/sql/exercises/order-by/README.md'
+          - 'databases/sql/exercises/order-by/README.md'
           - 'Rozwiązanie 1': 'databases/sql/exercises/order-by/solution-1.md'
           - 'Rozwiązanie 2': 'databases/sql/exercises/order-by/solution-2.md'
           - 'Rozwiązanie 3': 'databases/sql/exercises/order-by/solution-3.md'
@@ -1175,7 +1105,7 @@ nav:
           - 'Rozwiązanie 5': 'databases/sql/exercises/order-by/solution-5.md'
           - 'Rozwiązanie 6': 'databases/sql/exercises/order-by/solution-6.md'
         - 'JOIN': 
-          - 'Treść': 'databases/sql/exercises/join/README.md'
+          - 'databases/sql/exercises/join/README.md'
           - 'Rozwiązanie 1': 'databases/sql/exercises/join/solution-1.md'
           - 'Rozwiązanie 2': 'databases/sql/exercises/join/solution-2.md'
           - 'Rozwiązanie 3': 'databases/sql/exercises/join/solution-3.md'
@@ -1187,7 +1117,7 @@ nav:
           - 'Rozwiązanie 9': 'databases/sql/exercises/join/solution-9.md'
           - 'Rozwiązanie 10': 'databases/sql/exercises/join/solution-10.md'
         - 'GROUP BY': 
-          - 'Treść': 'databases/sql/exercises/group-by/README.md'
+          - 'databases/sql/exercises/group-by/README.md'
           - 'Rozwiązanie 1': 'databases/sql/exercises/group-by/solution-1.md'
           - 'Rozwiązanie 2': 'databases/sql/exercises/group-by/solution-2.md'
           - 'Rozwiązanie 3': 'databases/sql/exercises/group-by/solution-3.md'
@@ -1202,20 +1132,20 @@ nav:
     - 'Procesy': 'linux/processes.md'
     - 'Grep': 'linux/grep.md'
     - 'Bash': 
-      - 'Wstęp': 'linux/bash/README.md'
+      - 'linux/bash/README.md'
       - 'Obsługa wejścia-wyjścia': 'linux/bash/input-output.md'
       - 'Obliczenia': 'linux/bash/math.md'
       - 'Polecenia': 'linux/bash/commands.md'
       - 'Pliki': 'linux/bash/files.md'
       - 'Instrukcja warunkowa': 'linux/bash/conditionals.md'
     - 'AWK': 
-      - 'Wstęp': 'linux/awk/README.md'
+      - 'linux/awk/README.md'
       - 'Wyrazy': 'linux/awk/words.md'
       - 'Instrukcja warunkowa': 'linux/awk/conditionals.md'
       - 'Bloki': 'linux/awk/blocks.md'
       - 'Pętle': 'linux/awk/loops.md'
     - 'Perl': 
-      - 'Wstęp': 'linux/perl/README.md'
+      - 'linux/perl/README.md'
       - 'Obsługa wejścia-wyjścia': 'linux/perl/input-output.md'
       - 'Tablice': 'linux/perl/arrays.md'
       - 'Instrukcja warunkowa': 'linux/perl/conditionals.md'
@@ -1223,13 +1153,13 @@ nav:
       - 'Pliki': 'linux/perl/files.md'
       - 'Fork': 'linux/perl/fork.md'
   - 'Sieci komputerowe':
-    - 'Wstęp': 'networking/README.md'
+    - 'networking/README.md'
     - 'Słownik pojęć': 'networking/terms.md'
     - 'Topologia sieci': 'networking/topology.md'
     - 'Model OSI': 'networking/osi.md'
     - 'Adresowanie sieciowe': 'networking/network-addressing.md'
     - 'Protokoły': 
-      - 'Wstęp': 'networking/protocols/README.md'
+      - 'networking/protocols/README.md'
       - 'Protokół IP': 'networking/protocols/ip.md'
       - 'DHCP': 'networking/protocols/dhcp.md'
       - 'TCP i UDP': 'networking/protocols/tcp-udp.md'
@@ -1239,13 +1169,13 @@ nav:
       - 'FTP': 'networking/protocols/ftp.md'
       - 'SSH': 'networking/protocols/ssh.md'
     - 'Wireshark': 
-      - 'Wstęp': 'networking/wireshark/README.md'
+      - 'networking/wireshark/README.md'
       - 'Zapytania HTTP': 'networking/wireshark/http.md'
       - 'Połączenia HTTPS': 'networking/wireshark/https.md'
   - 'Etyczne hakowanie':
-    - 'Wstęp': 'ethical-hacking/README.md'
+    - 'ethical-hacking/README.md'
     - 'Narzędzia': 
-      - 'Wstęp': 'ethical-hacking/tools/README.md'
+      - 'ethical-hacking/tools/README.md'
       - 'Nmap': 'ethical-hacking/tools/nmap.md'
       - 'Netcat': 'ethical-hacking/tools/netcat.md'
       - 'Tcpdump': 'ethical-hacking/tools/tcpdump.md'
@@ -1264,7 +1194,7 @@ nav:
     - 'CTF': 'ethical-hacking/ctf/README.md'
     - 'Hasła': 'ethical-hacking/passwords.md'
   - 'Sztuczna inteligencja':
-    - 'Wstęp': 'ai/README.md'
+    - 'ai/README.md'
   - 'Inne tematy':
     - 'Prawa autorskie': 'other/copyright.md'
     - 'Fake news i postprawda': 'other/fake-news-and-post-truth.md'
@@ -1274,18 +1204,18 @@ nav:
     - 'Programowanie funkcyjne - wprowadzenie': 'other/functional-programming-introduction.md'
   - 'Matura z informatyki':
     - 'Przygotowanie': 
-      - 'Wstęp': 'matura-z-informatyki/przygotowanie/README.md'
+      - 'matura-z-informatyki/przygotowanie/README.md'
       - 'Algorytmika': 
-        - 'Wstęp': 'matura-z-informatyki/przygotowanie/algorithmic/README.md'
+        - 'matura-z-informatyki/przygotowanie/algorithmic/README.md'
         - 'Analiza pseudokodu': 
-          - 'Wstęp': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/README.md'
+          - 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/README.md'
           - 'Ćwiczenie 1': 
-            - 'Treść': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-1/README.md'
+            - 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-1/README.md'
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-1/solution-1.md'
             - 'Rozwiązanie 2': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-1/solution-2.md'
             - 'Rozwiązanie 3': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-1/solution-3.md'
           - 'Ćwiczenie 2': 
-            - 'Treść': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-2/README.md'
+            - 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-2/README.md'
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-2/solution-1.md'
             - 'Rozwiązanie 2': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-2/solution-2.md'
             - 'Rozwiązanie 3': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-2/solution-3.md'
@@ -1293,7 +1223,7 @@ nav:
             - 'Rozwiązanie 5': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-2/solution-5.md'
             - 'Rozwiązanie 6': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-2/solution-6.md'
           - 'Ćwiczenie 3': 
-            - 'Treść': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-3/README.md'
+            - 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-3/README.md'
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-3/solution-1.md'
             - 'Rozwiązanie 2': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-3/solution-2.md'
             - 'Rozwiązanie 3': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-3/solution-3.md'
@@ -1301,162 +1231,162 @@ nav:
             - 'Rozwiązanie 5': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-3/solution-5.md'
             - 'Rozwiązanie 6': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-3/solution-6.md'
           - 'Ćwiczenie 4': 
-            - 'Treść': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-4/README.md'
+            - 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-4/README.md'
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-4/solution-1.md'
             - 'Rozwiązanie 2': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-4/solution-2.md'
             - 'Rozwiązanie 3': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-4/solution-3.md'
             - 'Rozwiązanie 4': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-4/solution-4.md'
             - 'Rozwiązanie 5': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-4/solution-5.md'
           - 'Ćwiczenie 5': 
-            - 'Treść': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-5/README.md'
+            - 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-5/README.md'
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-5/solution-1.md'
             - 'Rozwiązanie 2': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-5/solution-2.md'
             - 'Rozwiązanie 3': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-5/solution-3.md'
           - 'Ćwiczenie 6': 
-            - 'Treść': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-6/README.md'
+            - 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-6/README.md'
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-6/solution-1.md'
             - 'Rozwiązanie 2': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-6/solution-2.md'
         - 'Rekurencja': 
-          - 'Wstęp': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/README.md'
+          - 'matura-z-informatyki/przygotowanie/algorithmic/recursion/README.md'
           - 'Ćwiczenie 1': 
-            - 'Treść': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-1/README.md'
+            - 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-1/README.md'
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-1/solution-1.md'
             - 'Rozwiązanie 2': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-1/solution-2.md'
             - 'Rozwiązanie 3': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-1/solution-3.md'
             - 'Rozwiązanie 4': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-1/solution-4.md'
           - 'Ćwiczenie 2': 
-            - 'Treść': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-2/README.md'
+            - 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-2/README.md'
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-2/solution-1.md'
             - 'Rozwiązanie 2': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-2/solution-2.md'
             - 'Rozwiązanie 3': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-2/solution-3.md'
             - 'Rozwiązanie 4': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-2/solution-4.md'
             - 'Rozwiązanie 5': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-2/solution-5.md'
           - 'Ćwiczenie 3': 
-            - 'Treść': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-3/README.md'
+            - 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-3/README.md'
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-3/solution-1.md'
             - 'Rozwiązanie 2': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-3/solution-2.md'
             - 'Rozwiązanie 3': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-3/solution-3.md'
           - 'Ćwiczenie 4': 
-            - 'Treść': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-4/README.md'
+            - 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-4/README.md'
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-4/solution-1.md'
             - 'Rozwiązanie 2': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-4/solution-2.md'
             - 'Rozwiązanie 3': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-4/solution-3.md'
           - 'Ćwiczenie 5': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-5/README.md'
           - 'Ćwiczenie 6': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-6/README.md'
         - 'Symulacje': 
-          - 'Wstęp': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/README.md'
+          - 'matura-z-informatyki/przygotowanie/algorithmic/simulations/README.md'
           - 'Kody Huffmana': 
-            - 'Treść': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/huffman-coding/README.md'
+            - 'matura-z-informatyki/przygotowanie/algorithmic/simulations/huffman-coding/README.md'
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/huffman-coding/solution-1.md'
             - 'Rozwiązanie 2': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/huffman-coding/solution-2.md'
           - 'Drzewo wyrażeń arytmetycznych': 
-            - 'Treść': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/arithmetic-tree/README.md'
+            - 'matura-z-informatyki/przygotowanie/algorithmic/simulations/arithmetic-tree/README.md'
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/arithmetic-tree/solution-1.md'
             - 'Rozwiązanie 2': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/arithmetic-tree/solution-2.md'
             - 'Rozwiązanie 3': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/arithmetic-tree/solution-3.md'
           - 'Odwrotna notacja polska': 
-            - 'Treść': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/rpn/README.md'
+            - 'matura-z-informatyki/przygotowanie/algorithmic/simulations/rpn/README.md'
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/rpn/solution-1.md'
             - 'Rozwiązanie 2': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/rpn/solution-2.md'
           - 'Metoda Monte Carlo': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/monte-carlo/README.md'
           - 'Całkowanie numeryczne': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/numerical-integration/README.md'
         - 'Lista liczb': 'matura-z-informatyki/przygotowanie/algorithmic/list-of-numbers/README.md'
       - 'Programowanie': 
-        - 'Wstęp': 'matura-z-informatyki/przygotowanie/programming/README.md'
+        - 'matura-z-informatyki/przygotowanie/programming/README.md'
         - 'Liczby binarne': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/programming/binary-numbers/README.md'
+          - 'matura-z-informatyki/przygotowanie/programming/binary-numbers/README.md'
           - 'Rozwiązanie - C++': 'matura-z-informatyki/przygotowanie/programming/binary-numbers/solution-cpp.md'
           - 'Rozwiązanie - Python': 'matura-z-informatyki/przygotowanie/programming/binary-numbers/solution-python.md'
         - 'Ułamki': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/programming/fractions/README.md'
+          - 'matura-z-informatyki/przygotowanie/programming/fractions/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/fractions/answers.md'
           - 'Rozwiązanie - Python': 'matura-z-informatyki/przygotowanie/programming/fractions/solution-python.md'
         - 'Motylek': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/programming/butterfly/README.md'
+          - 'matura-z-informatyki/przygotowanie/programming/butterfly/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/butterfly/answers.md'
           - 'Rozwiązanie - python': 'matura-z-informatyki/przygotowanie/programming/butterfly/solution-python.md'
         - 'Kółko i kwadrat': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/programming/circle-and-square/README.md'
+          - 'matura-z-informatyki/przygotowanie/programming/circle-and-square/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/circle-and-square/answers.md'
           - 'Rozwiązanie - Python': 'matura-z-informatyki/przygotowanie/programming/circle-and-square/solution-python.md'
         - 'Nawiasy': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/programming/parentheses/README.md'
+          - 'matura-z-informatyki/przygotowanie/programming/parentheses/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/parentheses/answers.md'
           - 'Rozwiązanie - C++': 'matura-z-informatyki/przygotowanie/programming/parentheses/solution-cpp.md'
           - 'Rozwiązanie - Python': 'matura-z-informatyki/przygotowanie/programming/parentheses/solution-python.md'
         - 'Duplikaty': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/programming/duplicates/README.md'
+          - 'matura-z-informatyki/przygotowanie/programming/duplicates/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/duplicates/answers.md'
         - 'Imiona': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/programming/names/README.md'
+          - 'matura-z-informatyki/przygotowanie/programming/names/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/names/answers.md'
           - 'Rozwiązanie - C++': 'matura-z-informatyki/przygotowanie/programming/names/solution-cpp.md'
           - 'Rozwiązanie - Python': 'matura-z-informatyki/przygotowanie/programming/names/solution-python.md'
         - 'Sekwencje': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/programming/sequences/README.md'
+          - 'matura-z-informatyki/przygotowanie/programming/sequences/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/sequences/answers.md'
           - 'Rozwiązanie - C++': 'matura-z-informatyki/przygotowanie/programming/sequences/solution-cpp.md'
           - 'Rozwiązanie - Python': 'matura-z-informatyki/przygotowanie/programming/sequences/solution-python.md'
         - 'Liczby całkowite': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/programming/integers/README.md'
+          - 'matura-z-informatyki/przygotowanie/programming/integers/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/integers/answers.md'
           - 'Rozwiązanie - Python': 'matura-z-informatyki/przygotowanie/programming/integers/solution-python.md'
         - 'Zakupy': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/programming/groceries/README.md'
+          - 'matura-z-informatyki/przygotowanie/programming/groceries/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/groceries/answers.md'
         - 'Punkty': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/programming/points/README.md'
+          - 'matura-z-informatyki/przygotowanie/programming/points/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/points/answers.md'
         - 'Labirynt': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/programming/maze/README.md'
+          - 'matura-z-informatyki/przygotowanie/programming/maze/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/maze/answers.md'
           - 'Rozwiązanie - Python': 'matura-z-informatyki/przygotowanie/programming/maze/solution-python.md'
       - 'Arkusz kalkulacyjny': 
-        - 'Wstęp': 'matura-z-informatyki/przygotowanie/spreadsheet/README.md'
+        - 'matura-z-informatyki/przygotowanie/spreadsheet/README.md'
         - 'Sklep': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/spreadsheet/shop/README.md'
+          - 'matura-z-informatyki/przygotowanie/spreadsheet/shop/README.md'
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/spreadsheet/shop/solution.md'
         - 'Owoce': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/spreadsheet/fruits/README.md'
+          - 'matura-z-informatyki/przygotowanie/spreadsheet/fruits/README.md'
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/spreadsheet/fruits/solution.md'
         - 'Kolory': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/spreadsheet/colours/README.md'
+          - 'matura-z-informatyki/przygotowanie/spreadsheet/colours/README.md'
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/spreadsheet/colours/solution.md'
         - 'Gry': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/spreadsheet/games/README.md'
+          - 'matura-z-informatyki/przygotowanie/spreadsheet/games/README.md'
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/spreadsheet/games/solution.md'
         - 'Pokemony': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/spreadsheet/pokemons/README.md'
+          - 'matura-z-informatyki/przygotowanie/spreadsheet/pokemons/README.md'
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/spreadsheet/pokemons/solution.md'
         - 'Rzeka': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/spreadsheet/river/README.md'
+          - 'matura-z-informatyki/przygotowanie/spreadsheet/river/README.md'
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/spreadsheet/river/solution.md'
         - 'Książki': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/spreadsheet/books/README.md'
+          - 'matura-z-informatyki/przygotowanie/spreadsheet/books/README.md'
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/spreadsheet/books/solution.md'
         - 'Piekarnia': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/spreadsheet/bakery/README.md'
+          - 'matura-z-informatyki/przygotowanie/spreadsheet/bakery/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/spreadsheet/bakery/answers.md'
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/spreadsheet/bakery/solution.md'
         - 'Restauracja': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/spreadsheet/restaurant/README.md'
+          - 'matura-z-informatyki/przygotowanie/spreadsheet/restaurant/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/spreadsheet/restaurant/answers.md'
       - 'Baza danych': 
-        - 'Treść': 'matura-z-informatyki/przygotowanie/database/README.md'
+        - 'matura-z-informatyki/przygotowanie/database/README.md'
         - 'Wampiry': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/database/vampires/README.md'
+          - 'matura-z-informatyki/przygotowanie/database/vampires/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/database/vampires/answers.md'
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/database/vampires/solution.md'
       - 'SQL': 
-        - 'Wstęp': 'matura-z-informatyki/przygotowanie/sql/README.md'
+        - 'matura-z-informatyki/przygotowanie/sql/README.md'
         - 'Sklep': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/sql/shop/README.md'
+          - 'matura-z-informatyki/przygotowanie/sql/shop/README.md'
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/sql/shop/solution.md'
         - 'Komandosi': 
-          - 'Treść': 'matura-z-informatyki/przygotowanie/sql/commandos/README.md'
+          - 'matura-z-informatyki/przygotowanie/sql/commandos/README.md'
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/sql/commandos/solution.md'
     - 'Arkusze i rozwiązania': 
-      - 'Wstęp': 'matura-z-informatyki/arkusze-i-rozwiazania/README.md'
+      - 'matura-z-informatyki/arkusze-i-rozwiazania/README.md'
       - '2010': 
         - 'Arkusze': 'matura-z-informatyki/arkusze-i-rozwiazania/2010/README.md'
         - 'Rozwiązania': 'matura-z-informatyki/arkusze-i-rozwiazania/2010/solutions.md'

@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/divisors.md)
 
-
 ## Rozwiązanie zupełnie naiwne
 
 ### Implementacja
@@ -28,7 +27,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 
@@ -66,7 +64,6 @@ int main() {
 }
 ```
 
-
 ### Opis implementacji
 
 Funkcja `divisors` (**linia 5**) wypisuje wszystkie dzielniki liczby podanej jako parametr. Na początku przechodzimy pętlą przez wszystkie potencjalne dzielniki od $1$ do $\lfloor n/2\rfloor$ włącznie (**linia 6**). W pętli sprawdzamy, czy reszta z dzielenia liczby $n$ przez licznik pętli wynosi $0$ (**linia 7**), czyli czy $n$ jest podzielne przez sprawdzaną wartość. Jeżeli tak jest, to znaleźliśmy dzielnik, więc go wypisujemy (**linia 8**). Po wyjściu z pętli musimy jeszcze sprawdzić, czy $n$ jest większe od $1$ (**linia 12**). Jeżeli tak jest, to musimy wypisać jeszcze jeden dzielnik: $n$ (**linia 13**).
@@ -102,7 +99,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 

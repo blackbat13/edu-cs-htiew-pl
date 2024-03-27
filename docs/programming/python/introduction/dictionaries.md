@@ -142,7 +142,6 @@ Możemy jednak skorzystać ze struktury `defaultdict` z biblioteki `collections`
 ```python
 from collections import defaultdict
 
-
 letters_dict = defaultdict(int)
 
 print(letters_dict["a"])  # Wypisze 0

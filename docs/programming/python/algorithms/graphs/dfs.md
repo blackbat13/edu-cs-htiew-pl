@@ -6,12 +6,10 @@ description: Przeszukiwanie grafu w głąb
 
 ## [Opis problemu](../../../../algorithms/graphs/dfs.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
 from typing import List
-
 
 def dfs(graph: List[List[int]], visited: List[bool], node: int):
     if visited[node]:
@@ -23,7 +21,6 @@ def dfs(graph: List[List[int]], visited: List[bool], node: int):
     for new_node in graph[node]:
         if not visited[new_node]:
             dfs(graph, visited, new_node)
-
 
 graph = [
 	[1, 6],
@@ -39,4 +36,3 @@ visited = [False] * len(graph)
 
 dfs(graph, visited, 0)
 ```
-

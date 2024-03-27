@@ -1,6 +1,5 @@
 from math import gcd
 
-
 def exercise1():
     with open(file_name) as file:
         sequences = []
@@ -10,7 +9,6 @@ def exercise1():
     for seq in sequences:
         print(sum(seq))
 
-
 def exercise2():
     with open(file_name) as file:
         sequences = []
@@ -19,7 +17,6 @@ def exercise2():
 
     for seq in sequences:
         print(f"Minimum: {min(seq)}, Maksimum: {max(seq)}")
-
 
 def is_prime(n):
     if n < 2:
@@ -33,7 +30,6 @@ def is_prime(n):
         i += 1
 
     return True
-
 
 def exercise3():
     with open(file_name) as file:
@@ -49,7 +45,6 @@ def exercise3():
 
         print(f"Ile pierwszych: {len(primes)}, Liczby pierwsze: ", end="")
         print(*primes)
-
 
 def exercise4():
     with open(file_name) as file:
@@ -73,7 +68,6 @@ def exercise4():
         print(f"Dlugosc: {max_length}, Sekwencja: ", end="")
         print(*seq[max_start : max_start + max_length])
 
-
 def exercise5():
     with open(file_name) as file:
         sequences = []
@@ -88,7 +82,6 @@ def exercise5():
                     count += 1
 
         print(count)
-
 
 file_name = "sequences.txt"
 

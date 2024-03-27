@@ -28,14 +28,6 @@ Algorytm Dijkstry jest podstawowym narzędziem do rozwiązywania problemów zwi�
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/graphs/dijkstra.md)
 
-
-[dijkstra.md](../../programming/c++/algorithms/graphs/dijkstra.md)
-
-
-### Python
-
-
-[dijkstra.md](../../programming/python/algorithms/graphs/dijkstra.md)
-
+### [Python](../../programming/python/algorithms/graphs/dijkstra.md)

@@ -86,22 +86,10 @@ flowchart TD
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/integers/fibonacci-numbers.md)
 
-
-[fibonacci-numbers.md](../../programming/c++/algorithms/integers/fibonacci-numbers.md)
-
-
-### Python
-
-
-[fibonacci-numbers.md](../../programming/python/algorithms/integers/fibonacci-numbers.md)
-
+### [Python](../../programming/python/algorithms/integers/fibonacci-numbers.md)
 
 ## Implementacja - pozostałe
 
-### Haskell
-
-
-[fibonacci-numbers.md](../../programming/haskell/algorithms/integers/fibonacci-numbers.md)
-
+### [Haskell](../../programming/haskell/algorithms/integers/fibonacci-numbers.md)

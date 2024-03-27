@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/quick-sort.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -32,14 +31,12 @@ def quick_sort(array: list, left: int, right: int):
     quick_sort(array, left, j)
     quick_sort(array, i, right)
 
-
 array = [7, 3, 0, 1, 5, 2, 5, 19, 10, 5]
 
 quick_sort(array, 0, len(array) - 1)
 
 print(array)
 ```
-
 
 ### Opis implementacji
 

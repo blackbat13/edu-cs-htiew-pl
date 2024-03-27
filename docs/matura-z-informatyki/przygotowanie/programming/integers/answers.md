@@ -9,7 +9,6 @@ Maksimum: 200 Pozycja: 100
 
 ## Zadanie 2
 
-
 ```
 Suma: 10036
 Średnia: 100.36

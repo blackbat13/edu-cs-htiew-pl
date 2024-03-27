@@ -96,7 +96,6 @@ namespace complex {
     }
 }
 
-
 using namespace fractions;
 
 int main() {

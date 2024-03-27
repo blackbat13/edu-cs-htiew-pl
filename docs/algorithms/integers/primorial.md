@@ -14,8 +14,4 @@ Primorial nie powinien być mylony z funkcją silni, $n!$, która jest iloczynem
 
 ## Implementacja
 
-### Python
-
-
-[primorial.md](../../programming/python/algorithms/integers/primorial.md)
-
+### [Python](../../programming/python/algorithms/integers/primorial.md)

@@ -789,7 +789,6 @@ beet = Actor("beetroot")
 beet.x = 200
 beet.y = 200
 
-
 def draw():
     screen.blit("bg", (0, 0))
     pig.draw()
@@ -797,7 +796,6 @@ def draw():
     screen.draw.text(f"{pig.points}", center=(WIDTH / 2, 50), fontsize=60, color="#fdee00", fontname="kenney_bold")
     if pig.dead:
         screen.draw.text(f"GAME OVER", center=(WIDTH / 2, HEIGHT / 2), fontsize=70, color="#e30022", fontname="kenney_bold")
-
 
 def update():
     if pig.dead:
@@ -818,7 +816,6 @@ def update():
         pig.x = WIDTH / 2
         pig.y = HEIGHT / 3
         pig.image = "pig_dead"
-
 
 def on_key_down(key):
     if pig.dead:
@@ -843,7 +840,6 @@ def on_key_down(key):
         pig.vx = 0
         pig.vy = pig.v
         pig.image = "pig_down"
-
 
 pgzrun.go()
 ```
@@ -904,7 +900,6 @@ beet = Actor("beetroot")
 beet.x = 200
 beet.y = 200
 
-
 def draw():
     screen.blit("bg", (0, 0))
     pig.draw()
@@ -913,7 +908,6 @@ def draw():
     if pig.dead:
         screen.draw.text(f"GAME OVER", center=(WIDTH / 2, HEIGHT / 2), fontsize=70, color="#e30022", fontname="kenney_bold")
         screen.draw.text(f"Press SPACE to try again", center=(WIDTH / 2, 2 * HEIGHT / 3), fontsize=30, color="#e30022", fontname="kenney_bold")
-
 
 def update():
     if pig.dead:
@@ -934,7 +928,6 @@ def update():
         pig.x = WIDTH / 2
         pig.y = HEIGHT / 3
         pig.image = "pig_dead"
-
 
 def on_key_down(key):
     if pig.dead:
@@ -962,7 +955,6 @@ def on_key_down(key):
         pig.vx = 0
         pig.vy = pig.v
         pig.image = "pig_down"
-		
 
 def restart():
     pig.image = "pig_down"
@@ -973,7 +965,6 @@ def restart():
     pig.v = 3
     pig.points = 0
     pig.dead = False
-
 
 pgzrun.go()
 ``` -->

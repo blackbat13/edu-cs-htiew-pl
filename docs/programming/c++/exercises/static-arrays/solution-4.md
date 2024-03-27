@@ -39,7 +39,6 @@ int main() {
     cin >> t2[i];
   }
 
-
   for(int i = 0; i < n; i++) {
     t3[i] = t1[i] + t2[i];
   }

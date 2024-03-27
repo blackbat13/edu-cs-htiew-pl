@@ -129,28 +129,12 @@ $O(n)$ - liniowa
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/searching/sum-of-two.md)
 
+### [Python](../../programming/python/algorithms/searching/sum-of-two.md)
 
-[sum-of-two.md](../../programming/c++/algorithms/searching/sum-of-two.md)
-
-
-### Python
-
-
-[sum-of-two.md](../../programming/python/algorithms/searching/sum-of-two.md)
-
-
-### Kotlin
-
-
-[sum-of-two.md](../../programming/kotlin/algorithms/searching/sum-of-two.md)
-
+### [Kotlin](../../programming/kotlin/algorithms/searching/sum-of-two.md)
 
 ## Implementacje — pozostałe
 
-### C
-
-
-[sum-of-two.md](../../programming/c/algorithms/searching/sum-of-two.md)
-
+### [C](../../programming/c/algorithms/searching/sum-of-two.md)

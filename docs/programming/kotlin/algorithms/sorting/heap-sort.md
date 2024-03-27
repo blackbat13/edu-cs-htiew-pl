@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/heap-sort.md)
 
-
 ## Implementacja
 
 ```kotlin
@@ -20,7 +19,6 @@ fun buildHeap(array: MutableList<Int>, n: Int) {
         }
     }
 }
-            
 
 fun heapSort(array: MutableList<Int>) {
     for (i in array.count() - 1 downTo 1) {

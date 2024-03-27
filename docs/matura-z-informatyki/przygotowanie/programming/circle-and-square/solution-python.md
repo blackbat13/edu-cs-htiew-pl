@@ -21,7 +21,6 @@ def zadanie1():
         print(f"inside: {inside}, outside: {outside}")
 ```
 
-
 ## Zadanie 2
 
 ```python linenums="1"
@@ -47,7 +46,6 @@ def zadanie2():
         print(f"{max_length}")
 ```
 
-
 ## Zadanie 3
 
 ```python linenums="1"
@@ -60,7 +58,6 @@ def zadanie3():
         print()
         print(((xs[len(xs) // 2] - xs[len(xs) // 2 - 1]) / 2) + xs[len(xs) // 2 - 1])
 ```
-
 
 ## Zadanie 4
 
@@ -85,4 +82,3 @@ def zadanie4():
             for punkt in punkty:
                 print(f"{punkt[0]} {punkt[1]}", file=out_file)
 ```
-

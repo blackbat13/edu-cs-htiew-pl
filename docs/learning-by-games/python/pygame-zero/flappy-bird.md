@@ -47,7 +47,6 @@ Jak zwykle zaczynamy od podstaw. Wymiary naszego okna są zależne od wymiarów 
 import pgzrun
 import random
 
-
 # Ustalamy wymiary okna gry
 WIDTH = 400
 HEIGHT = 700
@@ -55,17 +54,14 @@ HEIGHT = 700
 # Ustalamy tytuł okna gry
 TITLE = "Pygame Zero Flappy Bird"
 
-
 # Funkcja rysująca stan gry na ekranie
 def draw():
     # Rysujemy tło gry
     screen.blit("bg", (0, 0))
 
-
 # Funkcja aktualizująca stan gry
 def update():
     pass
-
 
 # Uruchamiamy grę
 pgzrun.go()
@@ -168,7 +164,6 @@ Dotychczasowy pełny kod naszej gry przedstawiony jest poniżej.
 import pgzrun
 import random
 
-
 WIDTH = 400
 HEIGHT = 700
 
@@ -187,17 +182,14 @@ bird.y = 200
 # Ustalamy początkową prędkość pionową ptaka
 bird.vy = 0
 
-
 def draw():
     screen.blit("bg", (0, 0))
     # Rysujemy ptaka
     bird.draw()
 
-
 def update():
     # Aktualizujemy ptaka
     update_bird()
-
 
 # Pomocnicza funkcja aktualizująca ptaka
 def update_bird():
@@ -206,14 +198,12 @@ def update_bird():
     # Przemieszczamy ptaka zgodnie z jego prędkością
     bird.y += bird.vy
 
-
 # Funkcja odczytująca kliknięcia myszy
 def on_mouse_down(pos):
     # Symulujemy wzlot ptaka
     bird.vy = -FLAP
     # Odtwarzamy dźwięk machnięcia skrzydełkami
     sounds.wing.play()
-
 
 pgzrun.go()
 ```
@@ -346,7 +336,6 @@ Dotychczasowy pełny kod naszej gry przedstawiony jest poniżej.
 import pgzrun
 import random
 
-
 WIDTH = 400
 HEIGHT = 700
 
@@ -370,7 +359,6 @@ pipe_top.anchor = ("left", "bottom")
 pipe_bottom = Actor("bottom")
 pipe_bottom.anchor = ("left", "top")
 
-
 def draw():
     screen.blit("bg", (0, 0))
     # Rysujemy górną rurę
@@ -379,17 +367,14 @@ def draw():
     pipe_bottom.draw()
     bird.draw()
 
-
 def update():
     update_bird()
     # Aktualizujemy rury
     update_pipes()
 
-
 def update_bird():
     bird.vy += GRAVITY
     bird.y += bird.vy
-
 
 # Pomocnicza funkcja aktualizująca rury
 def update_pipes():
@@ -402,11 +387,9 @@ def update_pipes():
         # Ponownie ustawiamy rury
         set_pipes()
 
-
 def on_mouse_down(pos):
     bird.vy = -FLAP
     sounds.wing.play()
-
 
 # Pomocnicza funkcja ustawiająca rury
 def set_pipes():
@@ -420,7 +403,6 @@ def set_pipes():
     # Ustawiamy pozycję dolnej rury
     pipe_bottom.x = WIDTH
     pipe_bottom.y = gap_y + GAP_SIZE / 2
-
 
 # Ustawiamy rury na początku gry
 set_pipes()
@@ -549,7 +531,6 @@ Dotychczasowy pełny kod naszej gry przedstawiony jest poniżej.
 import pgzrun
 import random
 
-
 WIDTH = 400
 HEIGHT = 700
 
@@ -571,18 +552,15 @@ pipe_top.anchor = ("left", "bottom")
 pipe_bottom = Actor("bottom")
 pipe_bottom.anchor = ("left", "top")
 
-
 def draw():
     screen.blit("bg", (0, 0))
     pipe_top.draw()
     pipe_bottom.draw()
     bird.draw()
 
-
 def update():
     update_bird()
     update_pipes()
-    
 
 def update_bird():
     bird.vy += GRAVITY
@@ -595,7 +573,6 @@ def update_bird():
         # Resetujemy grę
         reset()
 
-
 def update_pipes():
     pipe_top.x -= SPEED
     pipe_bottom.x -= SPEED
@@ -603,11 +580,9 @@ def update_pipes():
     if pipe_top.x < -100:
         set_pipes()
 
-
 def on_mouse_down(pos):
     bird.vy = -FLAP
     sounds.wing.play()
-
 
 def set_pipes():
     gap_y = random.randint(200, 500)
@@ -618,7 +593,6 @@ def set_pipes():
     pipe_bottom.x = WIDTH
     pipe_bottom.y = gap_y + GAP_SIZE / 2
 
-
 # Pomocnicza funkcja resetująca stan gry
 def reset():
     # Ustalamy początkową pozycję ptaka na ekranie
@@ -628,7 +602,6 @@ def reset():
     bird.vy = 0
     # Ustawiamy rury
     set_pipes()
-
 
 set_pipes()
 pgzrun.go()
@@ -706,7 +679,6 @@ Dotychczasowy pełny kod naszej gry przedstawiony jest poniżej.
 import pgzrun
 import random
 
-
 WIDTH = 400
 HEIGHT = 700
 
@@ -730,7 +702,6 @@ pipe_top.anchor = ("left", "bottom")
 pipe_bottom = Actor("bottom")
 pipe_bottom.anchor = ("left", "top")
 
-
 def draw():
     screen.blit("bg", (0, 0))
     pipe_top.draw()
@@ -739,11 +710,9 @@ def draw():
     # Wypisujemy liczbę punktów na ekranie
     screen.draw.text(str(bird.points), center=(WIDTH / 2, 30), fontsize=70)
 
-
 def update():
     update_bird()
     update_pipes()
-    
 
 def update_bird():
     bird.vy += GRAVITY
@@ -752,7 +721,6 @@ def update_bird():
     if bird.colliderect(pipe_top) or bird.colliderect(pipe_bottom) or bird.y > HEIGHT or bird.y < 0:
         sounds.hit.play()
         reset()
-
 
 def update_pipes():
     pipe_top.x -= SPEED
@@ -765,11 +733,9 @@ def update_pipes():
         # Odtwarzamy dźwięk zdobycia punktu
         sounds.point.play()
 
-
 def on_mouse_down(pos):
     bird.vy = -FLAP
     sounds.wing.play()
-
 
 def set_pipes():
     gap_y = random.randint(200, 500)
@@ -780,7 +746,6 @@ def set_pipes():
     pipe_bottom.x = WIDTH
     pipe_bottom.y = gap_y + GAP_SIZE / 2
 
-
 def reset():
     bird.x = 75
     bird.y = 200
@@ -788,7 +753,6 @@ def reset():
     # Zapamiętujemy liczbę punktów zdobytych przez gracza
     bird.points = 0
     set_pipes()
-
 
 set_pipes()
 pgzrun.go()
@@ -897,7 +861,6 @@ Dotychczasowy pełny kod naszej gry przedstawiony jest poniżej.
 import pgzrun
 import random
 
-
 WIDTH = 400
 HEIGHT = 700
 
@@ -928,7 +891,6 @@ start = Actor("start1")
 start.x = WIDTH / 2
 start.y = HEIGHT / 2
 
-
 def draw():
     screen.blit("bg", (0, 0))
     pipe_top.draw()
@@ -940,11 +902,9 @@ def draw():
         # Rysujemy przycisk startu gry
         start.draw()
 
-
 def update():
     update_bird()
     update_pipes()
-    
 
 def update_bird():
     bird.vy += GRAVITY
@@ -954,7 +914,6 @@ def update_bird():
         sounds.hit.play()
         # Zapamiętujemy, że gra się zakończyła
         bird.dead = True
-
 
 def update_pipes():
     # Jeżeli gra się zakończyła
@@ -970,7 +929,6 @@ def update_pipes():
         bird.points += 1
         sounds.point.play()
 
-
 def on_mouse_down(pos):
     # Jeżeli gra jeszcze trwa
     if not bird.dead:
@@ -979,7 +937,6 @@ def on_mouse_down(pos):
     elif start.collidepoint(pos): # W przeciwnym przypadku, gdy kliknęliśmy na przycisk start i gra jest już zakończona
         # Resetujemy stan gry
         reset() 
-
 
 def set_pipes():
     gap_y = random.randint(200, 500)
@@ -990,7 +947,6 @@ def set_pipes():
     pipe_bottom.x = WIDTH
     pipe_bottom.y = gap_y + GAP_SIZE / 2
 
-
 def reset():
     bird.x = 75
     bird.y = 200
@@ -999,7 +955,6 @@ def reset():
     # Zapamiętujemy, czy gra się już zakończyła
     bird.dead = False
     set_pipes()
-
 
 set_pipes()
 pgzrun.go()
@@ -1156,7 +1111,6 @@ Dotychczasowy pełny kod naszej gry przedstawiony jest poniżej.
 import pgzrun
 import random
 
-
 WIDTH = 400
 HEIGHT = 700
 
@@ -1184,7 +1138,6 @@ start = Actor("start1")
 start.x = WIDTH / 2
 start.y = HEIGHT / 2
 
-
 def draw():
     screen.blit("bg", (0, 0))
     pipe_top.draw()
@@ -1194,11 +1147,9 @@ def draw():
     if bird.dead:
         start.draw()
 
-
 def update():
     update_bird()
     update_pipes()
-    
 
 def update_bird():
     bird.vy += GRAVITY
@@ -1235,7 +1186,6 @@ def update_bird():
             # Przywracamy kąt -45
             bird.angle = -45
 
-
 def update_pipes():
     if bird.dead:
         return
@@ -1248,14 +1198,12 @@ def update_pipes():
         bird.points += 1
         sounds.point.play()
 
-
 def on_mouse_down(pos):
     if not bird.dead:
         bird.vy = -FLAP
         sounds.wing.play()
     elif start.collidepoint(pos):
         reset() 
-
 
 # Funkcja odczytująca ruch myszy
 def on_mouse_move(pos):
@@ -1267,7 +1215,6 @@ def on_mouse_move(pos):
         # Ustalamy inną grafikę przycisku
         start.image = "start1"
 
-
 def set_pipes():
     gap_y = random.randint(200, 500)
 
@@ -1276,7 +1223,6 @@ def set_pipes():
 
     pipe_bottom.x = WIDTH
     pipe_bottom.y = gap_y + GAP_SIZE / 2
-
 
 def reset():
     bird.x = 75
@@ -1288,7 +1234,6 @@ def reset():
     bird.image = "bird1"
     set_pipes()
 
-
 set_pipes()
 pgzrun.go()
 ```
@@ -1299,7 +1244,6 @@ pgzrun.go()
 # Importujemy potrzebne biblioteki
 import pgzrun
 import random
-
 
 # Ustalamy wymiary okna gry
 WIDTH = 400
@@ -1343,7 +1287,6 @@ start = Actor("start1")
 start.x = WIDTH / 2
 start.y = HEIGHT / 2
 
-
 # Funkcja rysująca stan gry na ekranie
 def draw():
     # Rysujemy tło gry
@@ -1361,14 +1304,12 @@ def draw():
         # Rysujemy przycisk startu gry
         start.draw()
 
-
 # Funkcja aktualizująca stan gry
 def update():
     # Aktualizujemy ptaka
     update_bird()
     # Aktualizujemy rury
     update_pipes()
-
 
 # Pomocnicza funkcja aktualizująca ptaka
 def update_bird():
@@ -1411,7 +1352,6 @@ def update_bird():
         if bird.angle < -45:
             # Przywracamy kąt -45
             bird.angle = -45
-        
 
 # Pomocnicza funkcja aktualizująca rury
 def update_pipes():
@@ -1433,7 +1373,6 @@ def update_pipes():
         # Odtwarzamy dźwięk zdobycia punktu
         sounds.point.play()
 
-
 # Funkcja odczytująca kliknięcia myszy
 def on_mouse_down(pos):
     # Jeżeli gra jeszcze trwa
@@ -1446,7 +1385,6 @@ def on_mouse_down(pos):
         # Resetujemy stan gry
         reset() 
 
-
 # Funkcja odczytująca ruch myszy
 def on_mouse_move(pos):
     # Jeżeli wskaźnik myszy jest w kolizji z przyciskiem startu
@@ -1456,7 +1394,6 @@ def on_mouse_move(pos):
     else: # W przeciwnym przypadku, gdy wskaźnik myszy nie znajduje się na przycisku
         # Ustalamy inną grafikę przycisku
         start.image = "start1"
-
 
 # Pomocnicza funkcja resetująca stan gry
 def reset():
@@ -1474,7 +1411,6 @@ def reset():
     # Ustawiamy rury
     set_pipes()
 
-
 # Pomocnicza funkcja ustawiająca rury
 def set_pipes():
     # Losujemy pozycję środka przestrzeni pomiędzy rurami
@@ -1487,7 +1423,6 @@ def set_pipes():
     # Ustawiamy pozycję dolnej rury
     pipe_bottom.x = WIDTH
     pipe_bottom.y = gap_y + GAP_SIZE / 2
-
 
 # Ustawiamy rury na początku gry
 set_pipes()

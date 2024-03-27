@@ -2,12 +2,10 @@
 
 ## [Opis problemu](../../../../algorithms/fractals/minkowski-sausage.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
 import turtle
-
 
 def minkowski_curve(rank, length):
     if rank > 0:
@@ -21,12 +19,10 @@ def minkowski_curve(rank, length):
     else:
         turtle.forward(length)
 
-
 def minkowski_sausage(rank, length):
     for i in range(0, 4):
         minkowski_curve(rank, length)
         turtle.right(90)
-
 
 turtle.speed(0)
 turtle.penup()
@@ -37,7 +33,6 @@ minkowski_sausage(3, 100)
 
 turtle.done()
 ```
-
 
 ### Link do implementacji
 

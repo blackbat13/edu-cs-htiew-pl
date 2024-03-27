@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/linear-search.md)
 
-
 ## Istnienie elementu
 
 ### Implementacja
@@ -12,7 +11,6 @@ linearSearch [] num = False
 linearSearch arr num
     | head arr == num = True
     | otherwise = linearSearch (tail arr) num
-
 
 main = do
   let arr = [8, 2, 9, 10, 5, 4, 2, 7, 18, 0]
@@ -24,7 +22,6 @@ main = do
     then putStrLn "Liczba jest w tablicy"
     else putStrLn "Liczby nie ma w tablicy"
 ```
-
 
 ### Opis
 
@@ -42,7 +39,6 @@ linearSearch arr num ind
     | head arr == num = ind
     | otherwise = linearSearch (tail arr) num (ind + 1)
 
-
 main = do
   let arr = [8, 2, 9, 10, 5, 4, 2, 7, 18, 0]
   let num = 7
@@ -55,7 +51,6 @@ main = do
         putStr "Liczba jest pod indeksem "
         print index
 ```
-
 
 ### Opis
 
@@ -73,7 +68,6 @@ linearSearch arr num ind
     | head arr == num = ind : linearSearch (tail arr) num (ind + 1)
     | otherwise = linearSearch (tail arr) num (ind + 1)
 
-
 main = do
   let arr = [8, 7, 9, 10, 5, 4, 2, 7, 18, 7]
   let num = 7
@@ -82,7 +76,6 @@ main = do
 
   print indexes
 ```
-
 
 ### Opis
 

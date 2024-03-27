@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/quick-sort.md)
 
-
 ## Implementacja
 
 ```julia linenums="1"
@@ -38,11 +37,9 @@ function quicksort(array, left, right)
     quicksort(array, i, right)
 end
 
-
 array = [7, 3, 0, 1, 5, 2, 5, 19, 10, 5]
 
 quicksort(array, 1, length(array))
 
 println(array)
 ```
-

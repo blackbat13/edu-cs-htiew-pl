@@ -41,14 +41,6 @@ flowchart TD
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/2d-geometry/triangle-condition.md)
 
-
-[triangle-condition.md](../../programming/c++/algorithms/2d-geometry/triangle-condition.md)
-
-
-### Python
-
-
-[triangle-condition.md](../../programming/python/algorithms/2d-geometry/triangle-condition.md)
-
+### [Python](../../programming/python/algorithms/2d-geometry/triangle-condition.md)

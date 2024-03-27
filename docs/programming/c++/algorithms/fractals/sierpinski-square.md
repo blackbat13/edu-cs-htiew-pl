@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/fractals/sierpinski-square.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -47,7 +46,6 @@ int main() {
     return 0;
 } 
 ```
-
 
 ### Link do implementacji
 

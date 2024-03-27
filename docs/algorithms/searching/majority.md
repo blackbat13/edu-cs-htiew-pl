@@ -128,7 +128,6 @@ funkcja Zlicz(n, A, el):
 			4. ile := ile + 1
 	5. Zwróć ile
 
-
 funkcja SzukajLidera(n, A)
     1. lider := A[1]
     2. ile := 1
@@ -211,37 +210,17 @@ $O(n)$ — liniowa
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/searching/majority.md)
 
+### [Python](../../programming/python/algorithms/searching/majority.md)
 
-[majority.md](../../programming/c++/algorithms/searching/majority.md)
-
-
-### Python
-
-
-[majority.md](../../programming/python/algorithms/searching/majority.md)
-
-
-### Kotlin
-
-
-[majority.md](../../programming/kotlin/algorithms/searching/majority.md)
-
+### [Kotlin](../../programming/kotlin/algorithms/searching/majority.md)
 
 ## Implementacje — pozostałe
 
-### C
+### [C](../../programming/c/algorithms/searching/majority.md)
 
-
-[majority.md](../../programming/c/algorithms/searching/majority.md)
-
-
-### Julia
-
-
-[majority.md](../../programming/julia/algorithms/searching/majority.md)
-
+### [Julia](../../programming/julia/algorithms/searching/majority.md)
 
 ## Powiązane zagadnienia
 

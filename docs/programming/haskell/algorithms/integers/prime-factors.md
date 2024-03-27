@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/prime-factors.md)
 
-
 ## Implementacja
 
 ```haskell linenums="1"
@@ -16,7 +15,6 @@ main = do
 
     print $ primeFactors n 2
 ```
-
 
 ### Opis
 

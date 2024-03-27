@@ -77,7 +77,6 @@ Na koniec pozostało nam uzupełnić nasz program o pozostałe wymagane elementy
 def update():
     pass
 
-
 pgzrun.go()
 ```
 
@@ -96,17 +95,14 @@ import random
 WIDTH = 800
 HEIGHT = 600
 
-
 # Funkcja rysująca stan gry na ekranie
 def draw():
     # Wypełniamy tło wybranym kolorem
     screen.fill("skyblue")
 
-
 # Funkcja aktualizująca stan gry
 def update():
     pass
-
 
 # Uruchamiamy grę
 pgzrun.go()
@@ -156,23 +152,19 @@ Kod naszej gry prezentuje się dotąd tak, jak pokazano poniżej.
 import pgzrun
 import random
 
-
 WIDTH = 800
 HEIGHT = 600
 
 # Tworzymy aktora słońca
 sun = Actor("sun")
 
-
 def draw():
     screen.fill("skyblue")
     # Rysujemy słońce
     sun.draw()
 
-
 def update():
     pass
-
 
 pgzrun.go()
 ```
@@ -238,11 +230,9 @@ sun = Actor("sun")
 # Licznik czasu
 sun.timer = 0
 
-
 def draw():
     screen.fill("skyblue")
     sun.draw()
-
 
 def update():
     # Zmiejszamy licznik czasu
@@ -255,7 +245,6 @@ def update():
         sun.y = random.randint(80, HEIGHT - 80)
         # Ustalamy początkową wartość licznika czasu
         sun.timer = 60
-
 
 pgzrun.go()
 ```
@@ -382,13 +371,11 @@ sun.timer = 0
 # Zliczamy zdobyte przez gracza punkty
 sun.points = 0
 
-
 def draw():
     screen.fill("skyblue")
     sun.draw()
     # Wypisujemy liczbę punktów
     screen.draw.text(text=str(sun.points), center=(WIDTH / 2, 50), color="red", fontsize=100)
-
 
 def update():
     sun.timer -= 1
@@ -398,7 +385,6 @@ def update():
         sun.y = random.randint(80, HEIGHT - 80)
         # Ustalamy początkową wartość licznika czasu
         sun.timer = 60 - sun.points
-
 
 # Funkcja odczytująca kliknięcia myszy
 def on_mouse_down(pos):
@@ -414,7 +400,6 @@ def on_mouse_down(pos):
         # Zerujemy licznik czasu, aby słońce się przemieściło
         sun.timer = 0
 
-
 pgzrun.go()
 ```
 
@@ -424,7 +409,6 @@ pgzrun.go()
 # Importujemy potrzebne biblioteki
 import pgzrun
 import random
-
 
 # Ustalamy wymiary okna gry
 WIDTH = 800
@@ -437,7 +421,6 @@ sun.timer = 0
 # Zliczamy zdobyte przez gracza punkty
 sun.points = 0
 
-
 # Funkcja rysująca stan gry na ekranie
 def draw():
     # Wypełniamy tło niebieskim kolorem
@@ -446,7 +429,6 @@ def draw():
     sun.draw()
     # Wypisujemy liczbę punktów
     screen.draw.text(text=str(sun.points), center=(WIDTH / 2, 50), color="red", fontsize=100)
-
 
 # Funkcja aktualizująca stan gry
 def update():
@@ -461,7 +443,6 @@ def update():
         # Ustalamy początkową wartość licznika czasu
         sun.timer = 60 - sun.points
 
-
 # Funkcja odczytująca kliknięcia myszy
 def on_mouse_down(pos):
     # Jeżeli kliknęliśmy na słońce
@@ -475,7 +456,6 @@ def on_mouse_down(pos):
         sun.points -= 1
         # Zerujemy licznik czasu, aby słońce się przemieściło
         sun.timer = 0
-
 
 # Uruchamiamy grę
 pgzrun.go()

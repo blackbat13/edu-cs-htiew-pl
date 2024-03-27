@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/perfect-test.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -21,7 +20,6 @@ def is_perfect(n: int) -> bool:
 
     return divisors_sum == n
 
-
 n = 6
 
 if is_perfect(n):
@@ -29,4 +27,3 @@ if is_perfect(n):
 else:
     print(f'{n} is not a perfect number')
 ```
-

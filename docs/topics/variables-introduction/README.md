@@ -25,6 +25,4 @@ Bez zmiennych ciężko wyobrazić sobie programowanie. Ich dobre zrozumienie jes
 * Lekcję 4 należy zrealizować innego dnia, niż lekcje 1, 2 i 3.
 * Lekcję 4, ze względu na jej ewaluacyjny charakter, należy potraktować podobnie do sprawdzianu.
 
-
-
 [:fontawesome-solid-file-pdf: Protokół realizacji projektu](../../assets/Protokół realizacji projektu - zmienne.pdf)

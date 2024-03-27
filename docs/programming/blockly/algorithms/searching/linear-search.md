@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/linear-search.md)
 
-
 ## Istnienie elementu
 
 ### Wyszukiwanie

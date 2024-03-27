@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/coding-and-compression/ascii.md)
 
-
 ## Podstawowa tablica ASCII
 
 ### Implementacja
@@ -24,7 +23,6 @@ int main() {
 }
 ```
 
-
 ## Rozszerzona tablica ASCII
 
 ### Implementacja
@@ -45,4 +43,3 @@ int main() {
     return 0;
 }
 ```
-

@@ -4,7 +4,6 @@
 
 [Systemy liczbowe](../../../../algorithms/numeral-systems/README.md)
 
-
 ## Konwersja z dziesiętnego
 
 ```cpp linenums="1"
@@ -41,7 +40,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ## Konwersja na dziesiętny
 
@@ -82,4 +80,3 @@ int main() {
     return 0;
 }
 ```
-

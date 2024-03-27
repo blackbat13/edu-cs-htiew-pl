@@ -13,4 +13,3 @@
 ## Liczby zmiennoprzecinkowe
 
 <table><thead><tr><th>Typ</th><th data-type="number">Ilość bajtów</th><th>Zakres</th></tr></thead><tbody><tr><td><code>float</code></td><td>4</td><td><span class="math">\pm3.4e \pm 38</span> (~ 7 znaków)</td></tr><tr><td><code>double</code></td><td>8</td><td><span class="math">\pm1.7e \pm 308</span> (~ 15 znaków)</td></tr><tr><td><code>long double</code></td><td>10</td><td><span class="math">[3.4e-4932,1.1e+4932]</span> </td></tr></tbody></table>
-

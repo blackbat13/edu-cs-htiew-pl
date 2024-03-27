@@ -60,7 +60,6 @@ float distance(const Point *a, const Point *b) {
 
 Na początku, za pomocą instrukcji `include` dołączamy plik nagłówkowy `point.h`.
 
-
 ### main.c
 
 ```c

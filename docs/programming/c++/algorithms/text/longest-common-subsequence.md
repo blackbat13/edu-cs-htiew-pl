@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/text/longest-common-subsequence.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -56,4 +55,3 @@ int main() {
     return 0;
 }
 ```
-

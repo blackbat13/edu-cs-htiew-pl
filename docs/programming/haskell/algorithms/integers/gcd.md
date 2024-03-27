@@ -6,7 +6,6 @@ description: Największy Wspólny Dzielnik
 
 ## [Opis problemu](../../../../algorithms/integers/gcd.md)
 
-
 ## Implementacja
 
 ```haskell linenums="1"
@@ -17,7 +16,6 @@ gcdModulo a b
 main = do
     print $ gcdModulo 32 12
 ```
-
 
 ## Opis
 

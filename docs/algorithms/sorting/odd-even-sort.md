@@ -69,19 +69,8 @@ Algorytm sortowania nieparzysto-parzystego ma złożoność obliczeniową $O(n^2
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/sorting/odd-even-sort.md)
 
+### [Python](../../programming/python/algorithms/sorting/odd-even-sort.md)
 
-[odd-even-sort.md](../../programming/c++/algorithms/sorting/odd-even-sort.md)
-
-
-### Python
-
-
-[odd-even-sort.md](../../programming/python/algorithms/sorting/odd-even-sort.md)
-
-
-### Kotlin
-
-
-[odd-even-sort.md](../../programming/kotlin/algorithms/sorting/odd-even-sort.md)
+### [Kotlin](../../programming/kotlin/algorithms/sorting/odd-even-sort.md)

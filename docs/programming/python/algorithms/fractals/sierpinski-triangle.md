@@ -2,12 +2,10 @@
 
 ## [Opis problemu](../../../../algorithms/fractals/sierpinski-triangle.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
 import turtle
-
 
 def sierpinski_triangle(rank, length):
     if rank == 0:
@@ -23,7 +21,6 @@ def sierpinski_triangle(rank, length):
         turtle.forward(length)
         turtle.left(120)
 
-
 turtle.speed(0)
 turtle.penup()
 turtle.back(200)
@@ -33,7 +30,6 @@ sierpinski_triangle(4, 300)
 
 turtle.done()
 ```
-
 
 ### Link do implementacji
 

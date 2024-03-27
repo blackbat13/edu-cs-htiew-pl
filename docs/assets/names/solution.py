@@ -10,7 +10,6 @@ def exercise1():
 
     print(count)
 
-
 def exercise2():
     names_list = []
     with open(file_name) as file:
@@ -22,7 +21,6 @@ def exercise2():
             count += 1
 
     print(count)
-
 
 def exercise3():
     names_list = []
@@ -36,7 +34,6 @@ def exercise3():
 
     print(count)
 
-
 def exercise4():
     names_list = []
     with open(file_name) as file:
@@ -48,7 +45,6 @@ def exercise4():
             count += 1
 
     print(count)
-
 
 def exercise5():
     names_list = []
@@ -64,7 +60,6 @@ def exercise5():
 
     print(count)
 
-
 def exercise6():
     names_list = []
     with open(file_name) as file:
@@ -74,7 +69,6 @@ def exercise6():
         if name.count("a") + name.count("A") > 1:
             print(name)
 
-
 def exercise7():
     names_list = []
     with open(file_name) as file:
@@ -83,7 +77,6 @@ def exercise7():
     for name in names_list:
         if name.count("a") + name.count("A") == 0:
             print(name)
-
 
 def exercise8():
     names_list = []
@@ -96,7 +89,6 @@ def exercise8():
                 print(name)
                 break
 
-
 def count_vowels(text):
     vowels = "aeiouy"
     count = 0
@@ -105,7 +97,6 @@ def count_vowels(text):
             count += 1
 
     return count
-
 
 def exercise9():
     names_list = []
@@ -121,7 +112,6 @@ def exercise9():
     ]
 
     print("\n".join(sorted(max_vowels_names)))
-
 
 def exercise10():
     names_list = []
@@ -143,7 +133,6 @@ def exercise10():
     print("Długość:", max_length)
     print("Imiona:", ", ".join(max_names))
 
-
 def exercise11():
     names_list = []
     with open(file_name) as file:
@@ -152,7 +141,6 @@ def exercise11():
     names_set = set(names_list)
 
     print(len(names_set))
-
 
 def exercise12():
     names_list = []
@@ -163,7 +151,6 @@ def exercise12():
     unique_names = [name for name in names_set if names_list.count(name) == 1]
 
     print("\n".join(sorted(unique_names)))
-
 
 def exercise13():
     names_list = []
@@ -179,7 +166,6 @@ def exercise13():
 
     print("\n".join(most_common_names))
 
-
 def exercise14():
     names_list = []
     with open(file_name) as file:
@@ -188,10 +174,8 @@ def exercise14():
     result = [name for name in names_list if len(name) == len(set(name.lower()))]
     print("\n".join(sorted(result)))
 
-
 def sum_ascii(name):
     return sum(ord(char) for char in name)
-
 
 def exercise15():
     names_list = []
@@ -213,7 +197,6 @@ def exercise15():
     print()
     print(f"Największa suma ascii: {max_sum}")
     print("Imiona:", "\n".join(max_sum_names))
-
 
 def exercise16():
     names_list = []
@@ -247,7 +230,6 @@ def exercise16():
     print("Koniec sekwencji:", max_end + 1)
     print(f"Najdłuższa sekwencja rosnących imion:")
     print("\n".join(max_names))
-
 
 file_name = "names.txt"
 

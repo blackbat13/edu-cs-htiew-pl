@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/bubble-sort.md)
 
-
 ## Implementacja
 
 ```julia linenums="1"
@@ -22,14 +21,12 @@ function bubbleSort(array)
     end
 end
 
-
 array = [7, 3, 0, 1, 5, 2, 5, 19, 10, 5]
 
 bubbleSort(array)
 
 println(array)
 ```
-
 
 ### Opis implementacji
 

@@ -66,7 +66,6 @@ Domyślnie wartości w krotkach indeksujemy od 0. Jeśli chcemy, aby wartości m
 ```python
 from collections import namedtuple
 
-
 Point = namedtuple('Point', ['x', 'y'])
 ```
 

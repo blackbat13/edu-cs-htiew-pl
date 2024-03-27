@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/text/longest-common-subsequence.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -33,7 +32,6 @@ def longest_common_subsequence(a: str, b: str) -> str:
 
     return result
 
-
 a = "kitten"
 b = "sitting"
     
@@ -41,4 +39,3 @@ lcs = longest_common_subsequence(a, b)
     
 print(f"Longest common subsequence of words {a} and {b} is {lcs}")
 ```
-

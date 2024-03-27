@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/cocktail-shaker-sort.md)
 
-
 ## Implementacja
 
 ```kotlin
@@ -25,7 +24,6 @@ fun cocktailShakerSort(array: MutableList<Int>) {
         }
     }
 }
-
 
 fun main() {
     val array = mutableListOf(7, 3, 0, 1, 5, 2, 5, 19, 10, 5)

@@ -51,12 +51,10 @@ int main() {
                 break;
             }
         }
-        
 
         n = gramy_dalej();
     }
 
-    
     return 0;
 }
 ```

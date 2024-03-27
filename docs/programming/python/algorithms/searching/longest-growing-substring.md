@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/longest-growing-substring.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -18,14 +17,12 @@ def longest_growing_substring_length(tab: list) -> int:
     
     return mx
 
-
 tab = [4, 9, 7, 2, 4, 7, 9, 3, 8, 6]
 
 result = longest_growing_substring_length(tab)
 
 print(result)
 ```
-
 
 Funkcja `longest_growing_substring_length` przyjmuje jako argument listę `tab` (lista liczb) i zwraca długość najdłuższego rosnącego podciągu.
 

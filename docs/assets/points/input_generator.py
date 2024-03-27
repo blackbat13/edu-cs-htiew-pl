@@ -1,6 +1,5 @@
 from random import randint
 
-
 with open("points.txt", "w") as file:
     for i in range(1000):
         print(randint(1, 100), randint(1, 100), file=file)

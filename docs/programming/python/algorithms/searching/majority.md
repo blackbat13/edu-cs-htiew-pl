@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/majority.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -23,14 +22,12 @@ def find_majority(array: list) -> int:
     else:
         return -1
 
-
 array = [1, 2, 5, 5, 7, 5, 5, 10, 5, 5]
 
 majority = find_majority(array)
 
 print(majority)
 ```
-
 
 Początkowo ustawiamy zmienną `count` na $0$.
 W pętli `for` iterujemy po każdym elemencie `el` z listy `array`.

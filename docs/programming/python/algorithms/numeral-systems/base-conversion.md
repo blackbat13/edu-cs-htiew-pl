@@ -4,7 +4,6 @@
 
 [Systemy liczbowe](../../../../algorithms/numeral-systems/README.md)
 
-
 ## Konwersja z dziesiętnego
 
 ```python linenums="1"
@@ -23,7 +22,6 @@ def from_dec(number: int, new_base: int) -> str:
 
     return converted
 
-
 number = 241
 base = 16
 
@@ -31,7 +29,6 @@ converted = from_dec(number, base)
 
 print(f'{number} (10) = {converted} ({base})')
 ```
-
 
 ## Konwersja na dziesiętny
 
@@ -53,7 +50,6 @@ def to_dec(number: str, base: int) -> int:
 
     return converted
 
-
 number = "AF2"
 base = 16
 
@@ -61,4 +57,3 @@ converted = to_dec(number, base)
 
 print(f'{number} ({base}) = {converted} (10)')
 ```
-

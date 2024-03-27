@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/insertion-sort.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -39,4 +38,3 @@ int main() {
     return 0;
 }
 ```
-

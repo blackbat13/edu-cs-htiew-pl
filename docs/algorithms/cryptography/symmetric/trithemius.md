@@ -84,14 +84,6 @@ funkcja DeszyfrujTrithemius(szyfrogram):
 
 ## Implementacja
 
-### C++
+### [C++](../../../programming/c++/algorithms/cryptography/trithemius.md)
 
-
-[trithemius.md](../../../programming/c++/algorithms/cryptography/trithemius.md)
-
-
-### Python
-
-
-[trithemius.md](../../../programming/python/algorithms/cryptography/trithemius.md)
-
+### [Python](../../../programming/python/algorithms/cryptography/trithemius.md)

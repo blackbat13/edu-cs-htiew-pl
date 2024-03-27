@@ -26,14 +26,6 @@ Obliczanie liczby spójnych składowych w grafie jest podstawowym zagadnieniem w
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/graphs/connected-components.md)
 
-
-[connected-components.md](../../programming/c++/algorithms/graphs/connected-components.md)
-
-
-### Python
-
-
-[connected-components.md](../../programming/python/algorithms/graphs/connected-components.md)
-
+### [Python](../../programming/python/algorithms/graphs/connected-components.md)

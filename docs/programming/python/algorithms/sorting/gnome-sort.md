@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/gnome-sort.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -15,14 +14,12 @@ def gnome_sort(array: list):
             array[i], array[i - 1] = array[i - 1], array[i]
             i -= 1
 
-
 array = [7, 3, 0, 1, 5, 2, 5, 19, 10, 5]
 
 gnome_sort(array)
     
 print(array)
 ```
-
 
 ### Opis implementacji
 

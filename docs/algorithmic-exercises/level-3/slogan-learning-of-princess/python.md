@@ -11,4 +11,3 @@ for i in range(n):
     slogan1 = input()
     print(slogans[slogan1])
 ```
-

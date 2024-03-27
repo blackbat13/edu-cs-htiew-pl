@@ -47,20 +47,8 @@ flowchart TD
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/fractals/koch-curve.md)
 
+### [Python](../../programming/python/algorithms/fractals/koch-curve.md)
 
-[koch-curve.md](../../programming/c++/algorithms/fractals/koch-curve.md)
-
-
-### Python
-
-
-[koch-curve.md](../../programming/python/algorithms/fractals/koch-curve.md)
-
-
-### Blockly
-
-
-[koch-curve.md](../../programming/blockly/algorithms/fractals/koch-curve.md)
-
+### [Blockly](../../programming/blockly/algorithms/fractals/koch-curve.md)

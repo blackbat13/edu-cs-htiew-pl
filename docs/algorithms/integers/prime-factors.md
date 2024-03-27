@@ -64,25 +64,13 @@ flowchart TD
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/integers/prime-factors.md)
 
-
-[prime-factors.md](../../programming/c++/algorithms/integers/prime-factors.md)
-
-
-### Python
-
-
-[prime-factors.md](../../programming/python/algorithms/integers/prime-factors.md)
-
+### [Python](../../programming/python/algorithms/integers/prime-factors.md)
 
 ## Implementacja - pozostałe
 
-### Haskell
-
-
-[prime-factors.md](../../programming/haskell/algorithms/integers/prime-factors.md)
-
+### [Haskell](../../programming/haskell/algorithms/integers/prime-factors.md)
 
 ## Powiązane zagadnienia
 

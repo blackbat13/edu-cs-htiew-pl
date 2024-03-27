@@ -1,6 +1,5 @@
 from math import inf
 
-
 def dfs(x, y, maze, length):
     if maze[x][y] == 9:
         return length
@@ -17,7 +16,6 @@ def dfs(x, y, maze, length):
         dfs(x, y + 1, maze, length + 1),
     )
 
-
 def exercise1():
     with open(file_name) as file:
         file.readline()
@@ -25,7 +23,6 @@ def exercise1():
 
     x, y = 1, 1
     print(dfs(x, y, maze, 0))
-
 
 def dfs_cost(x, y, maze, cost):
     if maze[x][y] == 9:
@@ -44,7 +41,6 @@ def dfs_cost(x, y, maze, cost):
         dfs_cost(x, y + 1, maze, cost),
     )
 
-
 def exercise2():
     with open(file_name) as file:
         file.readline()
@@ -52,7 +48,6 @@ def exercise2():
 
     x, y = 1, 1
     print(dfs_cost(x, y, maze, 0))
-
 
 def exercise3():
     with open(file_name) as file:
@@ -64,14 +59,12 @@ def exercise3():
     x, y = 1, 1
     print(fields_count - dfs(x, y, maze, 0) - 1)
 
-
 def exercise4():
     with open(file_name) as file:
         file.readline()
         maze_sum = sum([sum(map(int, list(line.strip()))) for line in file])
 
     print(maze_sum - 10)
-
 
 def exercise5():
     with open(file_name) as file:
@@ -98,7 +91,6 @@ def exercise5():
 
     print(result - 9)
 
-
 def exercise6():
     with open(file_name) as file:
         width, height = map(int, file.readline().split())
@@ -109,7 +101,6 @@ def exercise6():
             maze[x][y] += max(maze[x + 1][y], maze[x][y + 1])
 
     print(maze[1][1] - 10)
-
 
 file_name = "maze.txt"
 

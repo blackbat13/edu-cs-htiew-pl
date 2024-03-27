@@ -22,4 +22,3 @@ for _ in range(cases):
 
     print(maxSnowflakes)
 ```
-

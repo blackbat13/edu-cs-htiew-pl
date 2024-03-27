@@ -136,25 +136,10 @@ Najłatwiej jest policzyć złożoność na najprostszej, naiwnej wersji algoryt
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/sorting/bubble-sort.md)
 
+### [Python](../../programming/python/algorithms/sorting/bubble-sort.md)
 
-[bubble-sort.md](../../programming/c++/algorithms/sorting/bubble-sort.md)
+### [Kotlin](../../programming/kotlin/algorithms/sorting/bubble-sort.md)
 
-
-### Python
-
-
-[bubble-sort.md](../../programming/python/algorithms/sorting/bubble-sort.md)
-
-
-### Kotlin
-
-
-[bubble-sort.md](../../programming/kotlin/algorithms/sorting/bubble-sort.md)
-
-
-### Julia
-
-
-[bubble-sort.md](../../programming/julia/algorithms/sorting/bubble-sort.md)
+### [Julia](../../programming/julia/algorithms/sorting/bubble-sort.md)

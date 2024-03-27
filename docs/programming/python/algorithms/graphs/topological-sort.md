@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/graphs/topological-sort.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -23,7 +22,6 @@ def topological_sort(graph: list) -> list:
     for i, neighbours_list in enumerate(graph):
       if removed[i] or in_ranks[i] > 0:
         continue
-      
 
       change = True
       result.append(i)
@@ -33,7 +31,6 @@ def topological_sort(graph: list) -> list:
           in_ranks[node] -= 1
 
   return result
-
 
 graph = [
 		[2],
@@ -51,4 +48,3 @@ if len(result) < len(graph):
 else:
   print(" ".join(map(str, result)))
 ```
-

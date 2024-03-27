@@ -26,7 +26,6 @@ def exercise1():
 
     return result
 
-
 def exercise2():
     path = "../../../../assets/parentheses.txt"
     with open(path) as file:
@@ -39,7 +38,6 @@ def exercise2():
             )
         )
         return parentheses
-
 
 def exercise3():
     path = "../../../../assets/parentheses.txt"
@@ -61,7 +59,6 @@ def exercise3():
                     max_closing_length = max(max_closing_length, current_closing_length)
 
             print(max_opening_length, max_closing_length)
-
 
 print("Exercise 1:", exercise1())
 print("Exercise 2:\n", "\n".join(exercise2()))

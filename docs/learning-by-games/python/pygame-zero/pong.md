@@ -49,7 +49,6 @@ Ustalmy także tytuł naszej gry: "Pong".
 import pgzrun
 import random
 
-
 # Wymiary okna
 WIDTH = 800
 HEIGHT = 600
@@ -57,15 +56,12 @@ HEIGHT = 600
 # Tytuł gry
 TITLE = "PONG"
 
-
 def draw():
     pass
-    
-    
+
 def update():
     pass
-    
-    
+
 pgzrun.go()
 ```
 
@@ -122,7 +118,6 @@ Dotychczasowy pełny kod naszej gry przedstawiony jest poniżej.
 import pgzrun
 import random
 
-
 WIDTH = 800
 HEIGHT = 600
 
@@ -131,18 +126,15 @@ TITLE = "PONG"
 # Kolor tła
 bg_color = (64, 64, 64)
 
-
 def draw():
     # Wypełniamy ekran kolorem tła
     screen.fill(bg_color)
     # Rysujemy linię dzielącą pole gry
     screen.draw.line((WIDTH / 2, 40), (WIDTH / 2, HEIGHT - 40), color = "yellow")
-    
-    
+
 def update():
     pass
-    
-    
+
 pgzrun.go()
 ```
 
@@ -206,7 +198,6 @@ Dotychczasowy pełny kod naszej gry przedstawiony jest poniżej.
 import pgzrun
 import random
 
-
 WIDTH = 800
 HEIGHT = 600
 
@@ -220,18 +211,15 @@ left = Actor("left")
 left.x = 20
 left.y = HEIGHT / 2
 
-
 def draw():
     screen.fill(bg_color)
     screen.draw.line((WIDTH / 2, 40), (WIDTH / 2, HEIGHT - 40), color = "yellow")
     # Rysujemy lewą paletkę
     left.draw()
 
-    
 def update():
     pass
-    
-    
+
 pgzrun.go()
 ```
 
@@ -289,7 +277,6 @@ Dotychczasowy pełny kod naszej gry przedstawiony jest poniżej.
 import pgzrun
 import random
 
-
 WIDTH = 800
 HEIGHT = 600
 
@@ -307,19 +294,16 @@ right = Actor("right")
 right.x = WIDTH - 20
 right.y = HEIGHT / 2
 
-
 def draw():
     screen.fill(bg_color)
     screen.draw.line((WIDTH / 2, 40), (WIDTH / 2, HEIGHT - 40), color = "yellow")
     left.draw()
     # Rysujemy prawą paletkę
     right.draw()
-    
-    
+
 def update():
     pass
-    
-    
+
 pgzrun.go()
 ```
 
@@ -366,7 +350,6 @@ Dotychczasowy pełny kod naszej gry przedstawiony jest poniżej.
 import pgzrun
 import random
 
-
 WIDTH = 800
 HEIGHT = 600
 
@@ -388,7 +371,6 @@ ball = Actor("ball")
 ball.x = WIDTH / 2
 ball.y = HEIGHT / 2
 
-
 def draw():
     screen.fill(bg_color)
     screen.draw.line((WIDTH / 2, 40), (WIDTH / 2, HEIGHT - 40), color = "yellow")
@@ -396,12 +378,10 @@ def draw():
     right.draw()
     # Rysujemy piłkę
     ball.draw()
-    
-    
+
 def update():
     pass
-    
-    
+
 pgzrun.go()
 ```
 
@@ -475,7 +455,6 @@ Dotychczasowy pełny kod naszej gry przedstawiony jest poniżej.
 import pgzrun
 import random
 
-
 WIDTH = 800
 HEIGHT = 600
 
@@ -497,19 +476,16 @@ ball = Actor("ball")
 ball.x = WIDTH / 2
 ball.y = HEIGHT / 2
 
-
 def draw():
     screen.fill(bg_color)
     screen.draw.line((WIDTH / 2, 40), (WIDTH / 2, HEIGHT - 40), color = "yellow")
     left.draw()
     right.draw()
     ball.draw()
-    
-    
+
 def update():
     # Odczytujemy ruchy graczy
     move_players()
-
 
 # Pomocnicza funkcja odczytująca ruchy graczy
 def move_players():
@@ -526,8 +502,7 @@ def move_players():
 
     if keyboard.down and right.bottom < HEIGHT - 40:
         right.y += right.vy
-    
-    
+
 pgzrun.go()
 ```
 
@@ -702,7 +677,6 @@ def move_ball():
         ball.vx *= -1
 ```
 
-
 ### Wypadnięcie poza ekran
 
 Pozostało nam obsłużyć przypadek, gdy jedna z paletek nie zdąży odbić piłki i ta *wyleci* z lewej lub prawej strony ekranu.
@@ -789,7 +763,6 @@ Dotychczasowy pełny kod naszej gry przedstawiony jest poniżej.
 import pgzrun
 import random
 
-
 WIDTH = 800
 HEIGHT = 600
 
@@ -814,20 +787,17 @@ ball.y = HEIGHT / 2
 ball.vx = 5
 ball.vy = 5
 
-
 def draw():
     screen.fill(bg_color)
     screen.draw.line((WIDTH / 2, 40), (WIDTH / 2, HEIGHT - 40), color = "yellow")
     left.draw()
     right.draw()
     ball.draw()
-    
-    
+
 def update():
     move_players()
     # Poruszamy piłkę
     move_ball()
-
 
 def move_players():
     if keyboard.w and left.top > 40:
@@ -841,7 +811,6 @@ def move_players():
 
     if keyboard.down and right.bottom < HEIGHT - 40:
         right.y += right.vy
-    
 
 # Pomocnicza funkcja obliczająca ruch piłki i przemieszczająca ją
 def move_ball():
@@ -874,7 +843,6 @@ def move_ball():
     if ball.right >= WIDTH:
         # Resetujemy pozycję piłki
         reset_ball()
-    
 
 # Pomocnicza funkcja resetująca pozycję piłki
 def reset_ball():
@@ -884,7 +852,6 @@ def reset_ball():
     # Losowo wybieramy początkową prędkość piłki
     ball.vx = random.choice([-5, 5])
     ball.vy = random.choice([-5, 5])
-
 
 pgzrun.go()
 ```
@@ -972,7 +939,6 @@ Dotychczasowy pełny kod naszej gry przedstawiony jest poniżej.
 import pgzrun
 import random
 
-
 WIDTH = 800
 HEIGHT = 600
 
@@ -1000,7 +966,6 @@ ball.y = HEIGHT / 2
 ball.vx = 5
 ball.vy = 5
 
-
 def draw():
     screen.fill(bg_color)
     screen.draw.line((WIDTH / 2, 40), (WIDTH / 2, HEIGHT - 40), color = "yellow")
@@ -1009,7 +974,6 @@ def draw():
     ball.draw()
     # Wypisujemy punkty
     draw_points()
-
 
 # Pomocnicza funkcja wypisująca na ekranie punkty graczy
 def draw_points():
@@ -1024,12 +988,10 @@ def draw_points():
                      color="yellow",
                      center=(WIDTH / 2 + WIDTH / 4 - 20, 20),
                      fontsize=48)
-    
-    
+
 def update():
     move_players()
     move_ball()
-
 
 def move_players():
     if keyboard.w and left.top > 40:
@@ -1043,7 +1005,6 @@ def move_players():
 
     if keyboard.down and right.bottom < HEIGHT - 40:
         right.y += right.vy
-    
 
 def move_ball():
     ball.x += ball.vx
@@ -1070,14 +1031,12 @@ def move_ball():
         reset_ball()
         # Lewy gracz dostaje punkt
         left.points += 1
-    
 
 def reset_ball():
     ball.x = WIDTH / 2
     ball.y = HEIGHT / 2
     ball.vx = random.choice([-5, 5])
     ball.vy = random.choice([-5, 5])
-
 
 pgzrun.go()
 ```
@@ -1219,7 +1178,6 @@ Dotychczasowy pełny kod naszej gry przedstawiony jest poniżej.
 import pgzrun
 import random
 
-
 WIDTH = 800
 HEIGHT = 600
 
@@ -1249,7 +1207,6 @@ ball.y = HEIGHT / 2
 ball.vx = 5
 ball.vy = 5
 
-
 def draw():
     screen.fill(bg_color)
     screen.draw.line((WIDTH / 2, 40), (WIDTH / 2, HEIGHT - 40), color = "yellow")
@@ -1259,7 +1216,6 @@ def draw():
     draw_points()
     # Wypisujemy wynik gry
     draw_result()
-
 
 def draw_points():
     screen.draw.text(f"Lewy: {left.points}",
@@ -1271,7 +1227,6 @@ def draw_points():
                      color="yellow",
                      center=(WIDTH / 2 + WIDTH / 4 - 20, 20),
                      fontsize=48)
-
 
 # Pomocnicza funkcja wypisująca na ekranie wynik końca gry
 def draw_result():
@@ -1288,14 +1243,12 @@ def draw_result():
                             color="yellow",
                             center=(WIDTH / 2, HEIGHT / 2),
                             fontsize=96) 
-    
 
 def update():
     # Jeżeli gra nie została jeszcze zakończona
     if not (left.win or right.win):
         move_players()
         move_ball()
-
 
 def move_players():
     if keyboard.w and left.top > 40:
@@ -1309,7 +1262,6 @@ def move_players():
 
     if keyboard.down and right.bottom < HEIGHT - 40:
         right.y += right.vy
-    
 
 def move_ball():
     ball.x += ball.vx
@@ -1342,14 +1294,12 @@ def move_ball():
     # Jeżeli lewa paletka uzyskała 11 punktów to wygrywa i gra się kończy
     if left.points == 11:
         left.win = True
-    
 
 def reset_ball():
     ball.x = WIDTH / 2
     ball.y = HEIGHT / 2
     ball.vx = random.choice([-5, 5])
     ball.vy = random.choice([-5, 5])
-
 
 pgzrun.go()
 ```
@@ -1359,7 +1309,6 @@ pgzrun.go()
 ```python
 import pgzrun
 import random
-
 
 # Wymiary okna
 WIDTH = 800
@@ -1404,7 +1353,6 @@ ball.y = HEIGHT / 2
 ball.vx = 5
 ball.vy = 5
 
-
 def draw():
     # Wypełniamy ekran kolorem tła
     screen.fill(bg_color)
@@ -1421,7 +1369,6 @@ def draw():
     # Wypisujemy wynik gry
     draw_result()
 
-
 # Pomocnicza funkcja wypisująca na ekranie punkty graczy
 def draw_points():
     # Wypisujemy wynik lewego gracza
@@ -1435,7 +1382,6 @@ def draw_points():
                      color="yellow",
                      center=(WIDTH / 2 + WIDTH / 4 - 20, 20),
                      fontsize=48)
-
 
 # Pomocnicza funkcja wypisująca na ekranie wynik końca gry
 def draw_result():
@@ -1453,7 +1399,6 @@ def draw_result():
                             center=(WIDTH / 2, HEIGHT / 2),
                             fontsize=96)
 
-
 # Aktualizujemy stan gry - ruchy graczy i piłki
 def update():
     # Jeżeli gra nie została jeszcze zakończona
@@ -1462,7 +1407,6 @@ def update():
         move_players()
         # Poruszamy piłkę
         move_ball()
-
 
 # Pomocnicza funkcja odczytująca ruchy graczy
 def move_players():
@@ -1479,7 +1423,6 @@ def move_players():
 
     if keyboard.down and right.bottom < HEIGHT - 40:
         right.y += right.vy
-
 
 # Pomocnicza funkcja obliczająca ruch piłki i przemieszczająca ją
 def move_ball():
@@ -1525,7 +1468,6 @@ def move_ball():
     if left.points == 11:
         left.win = True
 
-
 # Pomocnicza funkcja resetująca pozycję piłki
 def reset_ball():
     # Określamy początkowe współrzędne piłki
@@ -1534,7 +1476,6 @@ def reset_ball():
     # Losowo wybieramy początkową prędkość piłki
     ball.vx = random.choice([-5, 5])
     ball.vy = random.choice([-5, 5])
-
 
 pgzrun.go()
 ```
@@ -1586,7 +1527,6 @@ pilka.czas = 0
 
 bonus = Actor("bonus.png")
 bonus.aktywny = False
-
 
 def draw():
     screen.fill(kolor_tla)
@@ -1645,7 +1585,6 @@ def draw():
     if bonus.aktywny:
         bonus.draw()
 
-
 # Aktualizujemy stan gry - ruchy graczy i piłki
 def update():
     # Jeżeli gra nie została jeszcze zakończona
@@ -1655,7 +1594,6 @@ def update():
 
         # Poruszamy piłkę
         ruch_pilki()
-
 
 # Odczytujemy ruchy graczy
 def ruch_graczy():
@@ -1675,14 +1613,12 @@ def ruch_graczy():
         if lewa.bottom + 5 < HEIGHT - 40:
             lewa.top += 5
 
-
 # Resetujemy pozycję piłki
 def resetuj_pilke():
     pilka.left = WIDTH // 2
     pilka.top = HEIGHT // 2
     pilka.px = random.choice([-5, 5])
     pilka.py = random.choice([-5, 5])
-
 
 # Obliczamy ruch piłki i ją przemieszczamy
 def ruch_pilki():
@@ -1745,11 +1681,9 @@ def ruch_pilki():
         skaluj(pilka, 50, 50)
         clock.schedule(przywroc_pilke, 5.0)
 
-
 # Aktualizujemy czas przypisany do piłki
 def aktualizuj_czas():
     pilka.czas += 1
-
 
 # Aktualizujemy bonus
 def aktualizuj_bonus():
@@ -1758,17 +1692,14 @@ def aktualizuj_bonus():
     bonus.aktywny = True
     clock.schedule(aktualizuj_bonus, random.uniform(3.0, 10.0))
 
-
 # Skalujemy aktora do nowych wymiarów
 def skaluj(aktor, szerokosc, wysokosc):
     aktor._surf = pygame.transform.scale(aktor._surf, (szerokosc, wysokosc))
     aktor._update_pos()
 
-
 # Przywracamy normalny rozmiar piłki
 def przywroc_pilke():
     skaluj(pilka, 22, 22)
-
 
 # Uruchamiamy aktualizację czasu co jedną sekundę
 clock.schedule_interval(aktualizuj_czas, 1.0)
@@ -1817,7 +1748,6 @@ pilka.px = 5
 pilka.py = 5
 pilka.koniec_gry = False
 
-
 def draw():
     screen.fill(kolor_tla)
 
@@ -1864,7 +1794,6 @@ def draw():
         (WIDTH / 2, HEIGHT - 40),
         color=kolor)
 
-
 # Aktualizujemy stan gry - ruchy graczy i piłki
 def update():
     # Jeżeli gra nie została jeszcze zakończona
@@ -1874,7 +1803,6 @@ def update():
 
         # Poruszamy piłkę
         ruch_pilki()
-
 
 # Odczytujemy ruchy graczy
 def ruch_graczy():
@@ -1894,14 +1822,12 @@ def ruch_graczy():
         if lewa.bottom + 5 < HEIGHT - 40:
             lewa.top += 5
 
-
 # Resetujemy pozycję piłki
 def resetuj_pilke():
     pilka.left = WIDTH // 2
     pilka.top = HEIGHT // 2
     pilka.px = random.choice([-5, 5])
     pilka.py = random.choice([-5, 5])
-
 
 # Obliczamy ruch piłki i ją przemieszczamy
 def ruch_pilki():
@@ -1931,7 +1857,6 @@ def ruch_pilki():
     if pilka.right >= WIDTH:
         resetuj_pilke()
         lewa.wynik += 1
-
 
 pgzrun.go()
 ``` -->

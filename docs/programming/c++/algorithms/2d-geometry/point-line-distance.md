@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/2d-geometry/point-line-distance.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -35,4 +34,3 @@ int main() {
     return 0;
 }
 ```
-

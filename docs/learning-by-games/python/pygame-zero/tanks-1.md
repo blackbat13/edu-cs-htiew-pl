@@ -50,7 +50,6 @@ pociski = []
 
 wrogowie = []
 
-
 def draw():
     screen.fill((255, 255, 255))
 
@@ -75,7 +74,6 @@ def draw():
             medal.image = "medal2"
 
         medal.draw()
-
 
 def update():
     if keyboard.LEFT and not keyboard.SPACE:
@@ -111,7 +109,6 @@ def update():
                 czolg.punkty += 2
                 break
 
-
 def on_key_down(key):
     if key == keys.SPACE and czolg.zycie == 1:
         poc = Actor("pocisk.png")
@@ -121,7 +118,6 @@ def on_key_down(key):
         poc.v = czolg.poc_v
         pociski.append(poc)
 
-
 def nastepny_poziom():
     czolg.poc_v += 0.25
     czolg.poziom += 1
@@ -129,7 +125,6 @@ def nastepny_poziom():
         czolg.odl_x = WIDTH / 2 - czolg.poziom * 2
         czolg.odl_y = HEIGHT / 2 - czolg.poziom * 2
         czolg.wrog_kat = 170
-
 
 clock.schedule_interval(nastepny_poziom, 8)
 pgzrun.go()

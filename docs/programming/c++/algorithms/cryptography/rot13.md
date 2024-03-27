@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/cryptography/symmetric/rot13.md)
 
-
 ## Szyfrowanie
 
 ### Implementacja
@@ -39,7 +38,6 @@ int main() {
 }
 ```
 
-
 ## Deszyfrowanie
 
 ### Implementacja
@@ -75,4 +73,3 @@ int main() {
     return 0;
 }
 ```
-

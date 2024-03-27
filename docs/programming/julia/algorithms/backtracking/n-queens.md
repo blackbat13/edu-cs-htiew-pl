@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/backtracking/n-queens.md)
 
-
 ## Implementacja
 
 ```julia linenums="1"
@@ -15,7 +14,6 @@ function checkNewPosition(x, y, positions)
 
     return true
 end
-
 
 function findSolution(n, queenId, positions)
     if queenId == n + 1
@@ -37,7 +35,6 @@ function findSolution(n, queenId, positions)
     return false
 end
 
-
 function printCheckboard(n, positions)
     board = zeros(Int, n, n)
 
@@ -48,7 +45,6 @@ function printCheckboard(n, positions)
     display(board)
 end
 
-
 n = 5
 positions = zeros(Int, n)
 
@@ -58,4 +54,3 @@ if result
     printCheckboard(n, positions)
 end
 ```
-

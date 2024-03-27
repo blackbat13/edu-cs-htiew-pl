@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/graphs/flood-fill.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -52,4 +51,3 @@ int main() {
     return 0;
 }
 ```
-

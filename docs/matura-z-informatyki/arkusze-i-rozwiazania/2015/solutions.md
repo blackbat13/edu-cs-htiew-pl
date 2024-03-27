@@ -97,7 +97,6 @@ int zad3Najwieksza(string dane[]) {
     return maksIndeks + 1;
 }
 
-
 int main() {
     string binarna;
     string dane[N];

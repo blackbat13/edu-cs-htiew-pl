@@ -2,12 +2,10 @@
 
 ## [Opis problemu](../../../../algorithms/text/rpn.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
 from queue import LifoQueue
-
 
 def calculate_rpn(rpn: str) -> float:
 	rpn_stack = LifoQueue()
@@ -21,7 +19,6 @@ def calculate_rpn(rpn: str) -> float:
 			rpn_stack.put(result)
 				
 	return rpn_stack.get()
-	
 
 rpn = "27+3/13-4*+2/"
 

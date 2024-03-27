@@ -6,7 +6,6 @@ description: Najkrótsze ścieżki pomiędzy wszystkimi wierzchołkami
 
 ## [Opis problemu](../../../../algorithms/graphs/floyd-warshall.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -75,7 +74,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 

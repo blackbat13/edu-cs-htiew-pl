@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/fibonacci-numbers.md)
 
-
 ## Wersja iteracyjna
 
 ### Implementacja
@@ -67,4 +66,3 @@ fun main() {
 ### Opis implementacji
 
 TODO
-

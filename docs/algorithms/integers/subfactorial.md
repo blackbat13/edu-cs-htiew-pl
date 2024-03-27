@@ -24,7 +24,4 @@ $!3 = 2$, ponieważ są dwie permutacje zbioru $\{1, 2, 3\}$, w których żaden 
 
 ## Implementacja
 
-### Python
-
-
-[subfactorial.md](../../programming/python/algorithms/integers/subfactorial.md)
+### [Python](../../programming/python/algorithms/integers/subfactorial.md)

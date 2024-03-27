@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/numerical-methods/fast-exp.md)
 
-
 ## Rozwiązanie iteracyjne
 
 ```python linenums="1"
@@ -18,7 +17,6 @@ def fast_exp(a: int, n: int) -> int:
 
     return w
 
-
 a = 2
 n = 10
 
@@ -26,7 +24,6 @@ result = fast_exp(a, n)
 
 print(f"{a}^{n} = {result}")
 ```
-
 
 ## Rozwiązanie rekurencyjne
 
@@ -40,7 +37,6 @@ def fast_exp(a: int, n : int) -> int:
     else:
         return fast_exp(a, n // 2) ** 2
 
- 
 a = 2
 n = 10
 
@@ -48,4 +44,3 @@ result = fast_exp(a, n)
 
 print(f"{a}^{n} = {result}")
 ```
-

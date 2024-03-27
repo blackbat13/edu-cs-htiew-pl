@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/majority.md)
 
-
 ## Implementacja
 
 ```c linenums="1"
@@ -58,4 +57,3 @@ int main() {
     return 0;
 }
 ```
-

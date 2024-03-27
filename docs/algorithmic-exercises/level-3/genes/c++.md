@@ -79,4 +79,3 @@ void computeGene(string name, map<string, string> &genes, map<string, pair<strin
     genes[name] = combineGenes(genes[parents[name].first], genes[parents[name].second]);
 }
 ```
-

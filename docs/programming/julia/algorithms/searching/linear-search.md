@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/linear-search.md)
 
-
 ## Istnienie elementu
 
 ### Implementacja
@@ -18,7 +17,6 @@ function linearSearch(array, number)
     return false
 end
 
-
 array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 number = 8
 
@@ -30,7 +28,6 @@ else
     println("Poszukiwanej wartości nie ma w liście")
 end
 ```
-
 
 ### Opis implementacji
 
@@ -51,7 +48,6 @@ function linearSearch(array, number)
     return -1
 end
 
-
 array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 number = 8
 
@@ -63,7 +59,6 @@ else
     println("Poszukiwana wartość znajduje się pod indeksem ", index)
 end
 ```
-
 
 ### Opis implementacji
 
@@ -84,14 +79,12 @@ function linearSearch(array, number)
     end
 end
 
-
 array = [8, 2, 8, 4, 5, 6, 7, 8, 9, 8]
 number = 8
 
 println("Poszukiwana wartość znajduje się pod następującymi indeksami:")
 linearSearch(array, number)
 ```
-
 
 ### Opis implementacji
 

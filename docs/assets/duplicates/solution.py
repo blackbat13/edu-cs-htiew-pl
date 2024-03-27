@@ -71,7 +71,6 @@ def exercise4():
             count += 1
 
     return count
-    
 
 print("Exercise 1:", exercise1())
 print("Exercise 2:", exercise2())

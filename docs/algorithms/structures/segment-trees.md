@@ -20,14 +20,6 @@ Drzewa segmentowe są wykorzystywane w wielu dziedzinach programowania, takich j
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/structures/segment-tree.md)
 
-
-[segment-tree.md](../../programming/c++/algorithms/structures/segment-tree.md)
-
-
-### Python
-
-
-[segment-trees.md](../../programming/python/algorithms/structures/segment-trees.md)
-
+### [Python](../../programming/python/algorithms/structures/segment-trees.md)

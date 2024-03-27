@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/extended-euclidean.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -20,7 +19,6 @@ def extended_gcd(a: int, b: int) -> tuple:
 
   return old_rest, old_x, old_y
 
-
 a = 6
 b = 21
 
@@ -28,4 +26,3 @@ gcd, x, y = extended_gcd(a, b)
 
 print(f"{a} * {x} + {b} * {y} = {gcd}")
 ```
-

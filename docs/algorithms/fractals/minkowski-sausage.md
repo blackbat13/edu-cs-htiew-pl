@@ -41,20 +41,8 @@ flowchart TD
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/fractals/minkowski-sausage.md)
 
+### [Python](../../programming/python/algorithms/fractals/minkowski-sausage.md)
 
-[minkowski-sausage.md](../../programming/c++/algorithms/fractals/minkowski-sausage.md)
-
-
-### Python
-
-
-[minkowski-sausage.md](../../programming/python/algorithms/fractals/minkowski-sausage.md)
-
-
-### Blockly
-
-
-[minkowski-sausage.md](../../programming/blockly/algorithms/fractals/minkowski-sausage.md)
-
+### [Blockly](../../programming/blockly/algorithms/fractals/minkowski-sausage.md)

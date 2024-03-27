@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/graphs/topological-sort.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -71,7 +70,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 

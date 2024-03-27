@@ -283,7 +283,6 @@ Nie należy jednak nadużywać głębokiej kopii ponieważ w wielu przypadkach j
 ```python
 from copy import deepcopy
 
-
 tab1 = [[1, 2], [3, 4]]
 tab2 = deepcopy(tab1)
 

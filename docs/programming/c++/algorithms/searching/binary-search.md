@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/binary-search.md)
 
-
 ## Wersja iteracyjna
 
 ### Implementacja
@@ -48,7 +47,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 
@@ -103,7 +101,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 

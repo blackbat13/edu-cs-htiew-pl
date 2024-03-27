@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/coding-and-compression/huffman-coding.md)
 
-
 ## Implementacja
 
 ```cpp

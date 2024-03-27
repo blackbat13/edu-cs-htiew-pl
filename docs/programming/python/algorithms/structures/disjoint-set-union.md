@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/structures/disjoint-set-union.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -59,7 +58,6 @@ class DisjointUnion:
 
         return self._subsets[node_number].parent
 
-
 if __name__ == "__main__":
     disjoint_union = DisjointUnion(10)
 
@@ -68,4 +66,3 @@ if __name__ == "__main__":
     print(disjoint_union.is_in_union(0, 1))
     print(disjoint_union.is_in_union(1, 2))
 ```
-

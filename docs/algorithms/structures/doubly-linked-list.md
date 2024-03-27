@@ -21,14 +21,6 @@ Listy dwukierunkowe są wykorzystywane w wielu zastosowaniach, gdzie potrzebne j
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/structures/doubly-linked-list.md)
 
-
-[doubly-linked-list.md](../../programming/c++/algorithms/structures/doubly-linked-list.md)
-
-
-### Python
-
-
-[doubly-linked-list.md](../../programming/python/algorithms/structures/doubly-linked-list.md)
-
+### [Python](../../programming/python/algorithms/structures/doubly-linked-list.md)

@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/fractals/binary-tree.md)
 
-
 ## Implementacja
 
 ### Drzewo binarne

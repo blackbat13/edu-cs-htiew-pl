@@ -2,14 +2,6 @@
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/matrix/det3.md)
 
-
-[det3.md](../../programming/c++/algorithms/matrix/det3.md)
-
-
-### Python
-
-
-[det3.md](../../programming/python/algorithms/matrix/det3.md)
-
+### [Python](../../programming/python/algorithms/matrix/det3.md)

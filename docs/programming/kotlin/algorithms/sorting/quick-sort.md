@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/quick-sort.md)
 
-
 ## Implementacja
 
 ```kotlin

@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/fractals/dragon-curve.md)
 
-
 ## Implementacja
 
 ### Smocza Krzywa

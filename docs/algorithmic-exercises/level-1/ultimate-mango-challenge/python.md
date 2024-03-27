@@ -22,4 +22,3 @@ for case_id in range(1, case_count + 1):
     else:
         print(f"Case {case_id}: No")
 ```
-

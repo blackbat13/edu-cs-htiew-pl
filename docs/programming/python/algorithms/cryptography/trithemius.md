@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/cryptography/symmetric/trithemius.md)
 
-
 ## Szyfrowanie
 
 ```python linenums="1"
@@ -22,14 +21,12 @@ def encrypt_trithemius(message: str) -> bool:
 
     return encrypted
 
-
 message = "computerscience"
 
 encrypted = encrypt_trithemius(message)
 
 print(encrypted)
 ```
-
 
 ## Deszyfrowanie
 
@@ -50,11 +47,9 @@ def decrypt_trithemius(message: str) -> str:
 
     return decrypted
 
-
 message = "cposyykyblspzps"
 
 decrypted = decrypt_trithemius(message)
 
 print(decrypted)
 ```
-

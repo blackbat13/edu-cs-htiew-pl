@@ -15,7 +15,6 @@ print("Maksimum:", max_val, "Pozycja:", numbers.index(max_val) + 1)
 
 ## Zadanie 2
 
-
 ```python
 with open("integers.txt") as file:
     numbers = list(map(int, file.read().split()))
@@ -74,7 +73,6 @@ print(counter)
 ```python
 from math import gcd
 
-
 with open("integers.txt") as file:
     numbers = list(map(int, file.read().split()))
 
@@ -88,7 +86,6 @@ print("Minimum NWD:", min(gcd_list))
 
 ```python
 from math import gcd
-
 
 with open("integers.txt") as file:
     numbers = list(map(int, file.read().split()))
@@ -117,7 +114,6 @@ def is_prime(num):
         i += 1
 
     return True
-
 
 with open("integers.txt") as file:
     numbers = list(map(int, file.read().split()))
@@ -159,7 +155,6 @@ print("Maksymalna suma cyfr:", max_sum, "Liczba:", numbers[numbers_sum.index(max
 ```python
 from math import gcd
 
-
 with open("integers.txt") as file:
     numbers = list(map(int, file.read().split()))
 
@@ -198,8 +193,6 @@ def is_perfect(num):
 
     return factors_sum == num
 
-
-
 with open("integers.txt") as file:
     numbers = list(map(int, file.read().split()))
 
@@ -213,7 +206,6 @@ for num in numbers:
 ```python
 from statistics import median
 
-
 with open("integers.txt") as file:
     numbers = list(map(int, file.read().split()))
 
@@ -224,7 +216,6 @@ print(median(numbers))
 
 ```python
 from collections import Counter
-
 
 with open("integers.txt") as file:
     numbers = list(map(int, file.read().split()))
@@ -318,7 +309,6 @@ def is_prime(num):
         i += 1
 
     return True
-
 
 with open("integers.txt") as file:
     numbers = list(map(int, file.read().split()))

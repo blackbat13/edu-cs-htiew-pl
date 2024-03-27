@@ -2,12 +2,10 @@
 
 ## [Opis problemu](../../../../algorithms/backtracking/n-queens.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
 from pprint import pprint
-
 
 def find_solution(n: int, queen_id: int, positions: list) -> bool:
     if queen_id == n:
@@ -24,7 +22,6 @@ def find_solution(n: int, queen_id: int, positions: list) -> bool:
 
     return False
 
-
 def check_new_position(x: int, y: int, positions: list) -> bool:
     for i in range(x):
         if positions[i] == y:
@@ -35,7 +32,6 @@ def check_new_position(x: int, y: int, positions: list) -> bool:
 
     return True
 
-
 def print_checkboard(n: int, positions: list):
     board = [[0] * n for _ in range(n)]
     
@@ -43,7 +39,6 @@ def print_checkboard(n: int, positions: list):
         board[positions[i]][i] = 1
         
     pprint(board)
-    
 
 n = 5
 positions = [0] * n
@@ -57,4 +52,3 @@ if result:
 else:
     print("No result exists")
 ```
-

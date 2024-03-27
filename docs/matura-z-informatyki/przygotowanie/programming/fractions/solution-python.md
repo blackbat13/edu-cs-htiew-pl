@@ -5,7 +5,6 @@
 ```python linenums="1"
 from math import gcd
 
-
 def zadanie1():
     path = "input/ulamki.txt"
     with open(path, "r") as file:
@@ -18,12 +17,10 @@ def zadanie1():
                 print(f"{ulamek[0]} {ulamek[1]}", file=out_file)
 ```
 
-
 ## Zadanie 2
 
 ```python linenums="1"
 from math import gcd
-
 
 def zadanie2():
     path = "input/ulamki.txt"
@@ -47,12 +44,10 @@ def zadanie2():
         print(licznik, mianownik)
 ```
 
-
 ## Zadanie 3
 
 ```python linenums="1"
 from math import gcd
-
 
 def zadanie3():
     path = "input/ulamki.txt"
@@ -70,4 +65,3 @@ def zadanie3():
         mianownik //= dzielnik
         print(licznik, mianownik)
 ```
-

@@ -6,43 +6,25 @@ Zestaw ćwiczeń i materiałów pomagających w przygotowaniu się do matury z i
 
 ### Algorytmy, które należy umieć szybko i sprawnie zapisać na kartce w pseudokodzie nie używając funkcji z wybranego języka programowania
 
-
 [min-or-max.md](../../algorithms/searching/min-or-max.md)
-
-
 
 [prime-test.md](../../algorithms/integers/prime-test.md)
 
-
-
 [linear-search.md](../../algorithms/searching/linear-search.md)
 
-
-
 [binary-search.md](../../algorithms/searching/binary-search.md)
-
-
 
 [bubble-sort.md](../../algorithms/sorting/bubble-sort.md)
 
-
 ### Algorytmy, które należy umieć szybko i sprawnie zaimplementować w wybranym języku programowania
-
 
 [min-or-max.md](../../algorithms/searching/min-or-max.md)
 
-
-
 [linear-search.md](../../algorithms/searching/linear-search.md)
-
-
 
 [binary-search.md](../../algorithms/searching/binary-search.md)
 
-
-
 [longest-growing-substring.md](../../algorithms/searching/longest-growing-substring.md)
-
 
 ### Zagadnienia programistyczne, które należy opanować
 

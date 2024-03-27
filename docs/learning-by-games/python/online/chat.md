@@ -21,7 +21,6 @@ TODO
 import socket
 from _thread import *
 
-
 def threaded_client(user1, user2):
     # Pobieramy nicki od rozmówców
     user1_name = user1.recv(2048).decode()

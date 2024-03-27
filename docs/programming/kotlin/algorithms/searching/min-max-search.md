@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/min-max-search.md)
 
-
 ## Podejście naiwne
 
 ### Implementacja

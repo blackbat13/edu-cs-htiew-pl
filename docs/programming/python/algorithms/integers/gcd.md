@@ -6,7 +6,6 @@ description: Największy Wspólny Dzielnik
 
 ## [Opis problemu](../../../../algorithms/integers/gcd.md)
 
-
 ## Algorytm NWD z odejmowaniem
 
 ```python linenums="1"
@@ -19,7 +18,6 @@ def gcd(a: int, b: int) -> int:
 
     return a
 
-
 a = 32
 b = 12
 
@@ -27,7 +25,6 @@ result = gcd(a, b)
 
 print(f"GCD({a}, {b}) = {result}")
 ```
-
 
 ## Algorytm Euklidesa - wersja iteracyjna
 
@@ -38,7 +35,6 @@ def gcd(a: int, b: int) -> int:
 
     return a
 
-
 a = 32
 b = 12
 
@@ -46,7 +42,6 @@ result = gcd(a, b)
 
 print(f"GCD({a},{b}) = {result}")
 ```
-
 
 ## Algorytm Euklidesa - wersja rekurencyjna
 
@@ -57,7 +52,6 @@ def gcd(a: int, b: int) -> int:
         
     return gcd(b, a % b)
 
-
 a = 32
 b = 12
 
@@ -65,4 +59,3 @@ result = gcd(a, b)
 
 print(f"GCD({a},{b}) = {result}")
 ```
-

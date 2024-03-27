@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/numerical-methods/monte-carlo.md)
 
-
 ## Obliczanie wartości liczby PI
 
 ```julia linenums="1"
@@ -25,7 +24,5 @@ function MonteCarloPi(pointsCount)
     return (4 * pointsInCircleCount) / pointsCount
 end
 
-
 println(MonteCarloPi(100000000))
 ```
-

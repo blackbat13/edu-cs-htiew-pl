@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/text/hamming-distance.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -15,8 +14,6 @@ def hamming_distance(a: str, b: str) -> int:
             
     return distance
 
-
-
 a = "karolin"
 b = "kerstin"
     
@@ -24,4 +21,3 @@ distance = hamming_distance(a, b)
     
 print(f"Odległość Hamminga pomiędzy wyrazami {a} i {b} wynosi {distance}")
 ```
-

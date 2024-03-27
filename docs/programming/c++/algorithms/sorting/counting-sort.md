@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/counting-sort.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -46,4 +45,3 @@ int main() {
     return 0;
 }
 ```
-

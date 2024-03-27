@@ -2,12 +2,10 @@
 
 ## [Opis problemu](../../../../algorithms/graphs/kruskal.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
 import heapq
-
 
 class DisjointUnion:
     class Node:
@@ -39,7 +37,6 @@ class DisjointUnion:
 
         return self._subsets[node_number].parent
 
-
 class Edge:
 
   def __init__(self, node_from: int, node_to: int, distance: int):
@@ -55,7 +52,6 @@ class Edge:
 
   def __repr__(self) -> str:
     return self.__str__()
-
 
 def kruskal(graph: list) -> list:
   edges = []
@@ -73,7 +69,6 @@ def kruskal(graph: list) -> list:
 
     if connected_nodes.is_in_union(current.node_from, current.node_to):
       continue
-    
 
     connected_nodes.union(current.node_from, current.node_to)
     min_spanning_tree.append(current)
@@ -104,4 +99,3 @@ if __name__ == "__main__":
 
   print(min_spanning_tree)
 ```
-

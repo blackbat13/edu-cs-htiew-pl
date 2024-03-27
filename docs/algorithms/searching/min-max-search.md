@@ -145,34 +145,14 @@ Najpierw dokonujemy podziału na dwie tablice pomocnicze wykonując $\frac{n}{2}
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/searching/min-max-search.md)
 
+### [Python](../../programming/python/algorithms/searching/min-max-search.md)
 
-[min-max-search.md](../../programming/c++/algorithms/searching/min-max-search.md)
-
-
-### Python
-
-
-[min-max-search.md](../../programming/python/algorithms/searching/min-max-search.md)
-
-
-### Kotlin
-
-
-[min-max-search.md](../../programming/kotlin/algorithms/searching/min-max-search.md)
-
+### [Kotlin](../../programming/kotlin/algorithms/searching/min-max-search.md)
 
 ## Implementacje — pozostałe
 
-### C
+### [C](../../programming/c/algorithms/searching/min-max-search.md)
 
-
-[min-max-search.md](../../programming/c/algorithms/searching/min-max-search.md)
-
-
-### Julia
-
-
-[min-max-search.md](../../programming/julia/algorithms/searching/min-max-search.md)
-
+### [Julia](../../programming/julia/algorithms/searching/min-max-search.md)

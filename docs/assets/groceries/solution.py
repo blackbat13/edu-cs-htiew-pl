@@ -2,7 +2,6 @@ def transform(line):
     name, quantity, price = line.split()
     return (name, int(quantity), float(price))
 
-
 def exercise1():
     with open(filename) as file:
         data = [transform(line) for line in file]
@@ -13,7 +12,6 @@ def exercise1():
         result += quantity * price
 
     print(f"{result:.2f}")
-
 
 def is_prime(n):
     if n < 2:
@@ -29,7 +27,6 @@ def is_prime(n):
 
     return True
 
-
 def exercise2():
     with open(filename) as file:
         data = [transform(line) for line in file]
@@ -44,7 +41,6 @@ def exercise2():
 
     print(f"{result:.2f}")
 
-
 def exercise3():
     with open(filename) as file:
         data = [transform(line) for line in file]
@@ -57,7 +53,6 @@ def exercise3():
         price_sum += price * quantity
 
     print(f"{price_sum / quantity_sum:.2f}")
-
 
 def exercise4():
     with open(filename) as file:
@@ -74,7 +69,6 @@ def exercise4():
     for name in sorted(groceries_dict):
         print(f"{name}: {groceries_dict[name]}")
 
-
 def exercise5():
     with open(filename) as file:
         data = [transform(line) for line in file]
@@ -90,7 +84,6 @@ def exercise5():
 
     for name in sorted(groceries_dict):
         print(f"{name}: {groceries_dict[name][1] / groceries_dict[name][0]:.2f}")
-
 
 def exercise6():
     with open(filename) as file:
@@ -116,7 +109,6 @@ def exercise6():
                 f"{name}: min: {groceries_dict[name][0]}, max: {groceries_dict[name][1]}"
             )
 
-
 def exercise7():
     with open(filename) as file:
         data = [transform(line) for line in file]
@@ -132,7 +124,6 @@ def exercise7():
     for name in sorted(groceries_dict):
         prices = sorted(groceries_dict[name])
         print(f"{name}: {', '.join(map(str, prices))}")
-
 
 def exercise8():
     with open(filename) as file:
@@ -153,7 +144,6 @@ def exercise8():
             groceries_dict[name] = 100
 
     print(f"{result:.2f}")
-
 
 filename = "groceries.txt"
 

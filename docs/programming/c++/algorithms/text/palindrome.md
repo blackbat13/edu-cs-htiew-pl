@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/text/palindrome.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -32,4 +31,3 @@ int main() {
     return 0;
 }
 ```
-

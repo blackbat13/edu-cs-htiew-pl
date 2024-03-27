@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/numerical-methods/monte-carlo.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -44,4 +43,3 @@ int main() {
     return 0;
 }
 ```
-

@@ -2,12 +2,10 @@
 
 ## [Opis problemu](../../../../algorithms/graphs/flood-fill.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
 from pprint import pprint
-
 
 def flood_fill(image, row, column, symbol="*"):
     if image[row][column] != " ":
@@ -19,7 +17,6 @@ def flood_fill(image, row, column, symbol="*"):
     for direct in directions:
         r, c = direct
         flood_fill(image, row + r, column + c)
-
 
 image = [
     list("########"),
@@ -39,4 +36,3 @@ flood_fill(image, 1, 1)
 
 pprint(image)
 ```
-

@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/cryptography/symmetric/caesar.md)
 
-
 ## Szyfrowanie
 
 ```python linenums="1"
@@ -18,7 +17,6 @@ def encrypt_caesar(message: str, key: int) -> str:
 
     return encrypted
 
-
 message = "computerscience"
 key = 3
 
@@ -26,7 +24,6 @@ encrypted = encrypt_caesar(message, key)
 
 print(encrypted)
 ```
-
 
 ## Deszyfrowanie
 
@@ -43,7 +40,6 @@ def decrypt_caesar(message: str, key: int) -> str:
 
     return decrypted
 
-
 message = "frpsxwhuvflhqfh"
 key = 3
 
@@ -51,4 +47,3 @@ decrypted = decrypt_caesar(message, key)
 
 print(decrypted)
 ```
-

@@ -15,4 +15,3 @@
 ## Implementacja
 
 [https://replit.com/@damiankurpiewski/Game-of-Life](https://replit.com/@damiankurpiewski/Game-of-Life)
-

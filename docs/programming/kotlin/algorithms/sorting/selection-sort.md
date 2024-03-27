@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/selection-sort.md)
 
-
 ## Implementacja
 
 ```kotlin
@@ -50,4 +49,3 @@ Powyższa implementacja składa się z dwóch funkcji:
 Funkcja `findMin` przyjmuje dwa argumenty: listę do przeszukania (zmienna `array`) oraz indeks elementu, od którego powinniśmy zacząć nasze poszukiwania (zmienna `begin`). Proces znajdowania indeksu wartości minimalnej wygląda standardowo: najpierw zakładamy, że wartość najmniejsza znajduje się w początkowej pozycji (**linia 2**), a następnie przechodzimy pętlą przez pozostałą część listy (**linia 4**). Gdy znajdziemy element o wartości mniejszej niż dotychczasowe minimum (**linia 5**) to zapisujemy jego indeks (**linia 6**). Po sprawdzeniu wszystkich elementów, zwracamy wynik - indeks najmniejszego elementu na liście od wskazanej pozycji (**linia 10**).
 
 Właściwe sortowanie składa się z jednej pętli, w której przechodzimy przez kolejne pozycje na sortowanej liście (**linia 14**), znajdujemy indeks elementu najmniejszego, począwszy od bieżącej pozycji (**linia 15**), a następnie zamieniamy go miejscami z elementem na bieżącej pozycji (**linie 16-18**).
-

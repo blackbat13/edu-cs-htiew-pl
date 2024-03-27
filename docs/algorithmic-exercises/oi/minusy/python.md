@@ -30,7 +30,6 @@ if plus:
 print(result)
 ```
 
-
 ## Opis implementacji
 
 Na początku tworzymy zmienną `plus` do zapamiętania, czy ostatni wczytany symbol był znakiem dodawania (**linia 1**). Definiujemy także zmienną `result` do przechowywania wyniku (**linia 2**). Następnie wczytujemy liczbę znaków do zmiennej `n` (**linia 3**). 

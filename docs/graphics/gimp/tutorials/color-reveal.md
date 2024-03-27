@@ -74,4 +74,3 @@ W tym celu wybieramy menu **Kolory->Barwa i nasycenie...** i zmniejszamy jasnoś
 ## Efekt końcowy
 
 ![](../../../assets/color_reveal.png)
-

@@ -5,8 +5,6 @@ def exercise1():
         for line in file:
             line_list = line.split()
             length = int(line_list[0])
-            
-
 
 file_name = "spell_num_test.txt"
 

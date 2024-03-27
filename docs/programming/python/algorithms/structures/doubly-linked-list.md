@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/structures/doubly-linked-list.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -95,7 +94,6 @@ class DoublyLinkedList:
     self._last = None
     self._count = 0
 
-
 if __name__ == "__main__":
   lst = DoublyLinkedList()
 
@@ -112,4 +110,3 @@ if __name__ == "__main__":
   for i in range(lst.size()):
     print(lst[i])
 ```
-

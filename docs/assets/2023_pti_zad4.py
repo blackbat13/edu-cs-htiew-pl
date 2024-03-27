@@ -2,7 +2,6 @@ def read_file(path):
     with open(path, 'r') as f:
         return f.read().split()
 
-
 def ex1(data, output):
     palindromes = []
     for word in data:

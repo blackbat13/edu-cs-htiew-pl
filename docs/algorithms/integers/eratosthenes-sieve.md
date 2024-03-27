@@ -57,14 +57,6 @@ $O(n\log{n})$ — liniowo logarytmiczna
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/integers/eratosthenes-sieve.md)
 
-
-[eratosthenes-sieve.md](../../programming/c++/algorithms/integers/eratosthenes-sieve.md)
-
-
-### Python
-
-
-[eratosthenes-sieve.md](../../programming/python/algorithms/integers/eratosthenes-sieve.md)
-
+### [Python](../../programming/python/algorithms/integers/eratosthenes-sieve.md)

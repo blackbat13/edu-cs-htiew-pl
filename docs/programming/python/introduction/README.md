@@ -33,7 +33,6 @@ Dosyć podstawowy kompilator webowy. Posiada wsparcie dla wielu języków. Do je
 
 [Rozbudowane narzędzie webowe, które wymaga jednak utworzenia darmowego konta. Posiada wsparcie dla wielu języków i pozwala na tworzenie rozbudowanych projektów ze złożoną strukturą plików, a także na wprowadzanie własnych opcji kompilacji.](https://ideone.com/)
 
-
 ## Ściąga
 
 [Ściąga](https://quickref.me/python)

@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/longest-growing-substring.md)
 
-
 ## Implementacja
 
 ```julia linenums="1"
@@ -22,9 +21,7 @@ function longestGrowingSubstring(array)
     return maxLength
 end
 
-
 array = [4, 9, 7, 2, 4, 7, 9, 3, 8, 6]
 
 println(longestGrowingSubstring(array))
 ```
-

@@ -50,14 +50,12 @@ computer_color = 0
 # Zaczyna gracz
 current_player = 1
 
-
 def draw():
     # Czyścimy ekran gry, wypełniając go czarnym kolorem
     screen.fill((0, 0, 0))
 
     # Rysujemy pole gry
     draw_field()
-
 
 # Rysowanie pola gry
 def draw_field():
@@ -76,7 +74,6 @@ def draw_field():
             # Rysujemy pole gry na ekranie
             screen.draw.rect(field_rect, field_color)
 
-
 def update():
     global current_player
     # Jeżeli jest tura komputera
@@ -84,7 +81,6 @@ def update():
         # Wykonujemy ruch komputera
         computer_move()
         current_player = 1
-
 
 # Wykonujemy ruch komputera
 def computer_move():
@@ -99,7 +95,6 @@ def computer_move():
 
     flood_fill(field_width - 1, field_height - 1, computer_color, new_color)
     computer_color = new_color
-
 
 # Odczytujemy ruch gracza
 def on_key_down(key):
@@ -134,7 +129,6 @@ def on_key_down(key):
     player_color = new_color
     current_player = 2
 
-
 def flood_fill(x, y, old_color, new_color):
     global field
 
@@ -152,7 +146,6 @@ def flood_fill(x, y, old_color, new_color):
     flood_fill(x - 1, y, old_color, new_color)
     flood_fill(x, y + 1, old_color, new_color)
     flood_fill(x, y - 1, old_color, new_color)
-
 
 # Przygotowanie pola gry, wypełniamy je losowymi wartościami
 def prepare_field():
@@ -173,7 +166,6 @@ def prepare_field():
     # Ustawiamy początkowe kolory dla początkowych pól graczy
     field[0][0] = colors[0]
     field[field_width - 1][field_height - 1] = colors[0]
-
 
 # Przygotowujemy pole gry
 prepare_field()

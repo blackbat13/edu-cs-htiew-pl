@@ -2,12 +2,10 @@
 
 ## [Opis problemu](../../../../algorithms/fractals/binary-tree.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
 import turtle
-
 
 def binary_tree(rank: int, length: float):
     turtle.forward(length)
@@ -21,7 +19,6 @@ def binary_tree(rank: int, length: float):
         
     turtle.back(length)
 
-
 turtle.speed(0)
 turtle.penup()
 turtle.left(90)
@@ -33,7 +30,6 @@ binary_tree(5, 400)
 
 turtle.done()
 ```
-
 
 ### Link do implementacji
 

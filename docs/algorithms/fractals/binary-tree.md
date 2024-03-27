@@ -52,20 +52,8 @@ flowchart TD
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/fractals/binary-tree.md)
 
+### [Python](../../programming/python/algorithms/fractals/binary-tree.md)
 
-[binary-tree.md](../../programming/c++/algorithms/fractals/binary-tree.md)
-
-
-### Python
-
-
-[binary-tree.md](../../programming/python/algorithms/fractals/binary-tree.md)
-
-
-### Blockly
-
-
-[binary-tree.md](../../programming/blockly/algorithms/fractals/binary-tree.md)
-
+### [Blockly](../../programming/blockly/algorithms/fractals/binary-tree.md)

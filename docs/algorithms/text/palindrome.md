@@ -91,15 +91,6 @@ Przechodzimy pętlą od $1$ do połowy długości wyrazu (czyli do $\lfloor\frac
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/text/palindrome.md)
 
-
-[palindrome.md](../../programming/c++/algorithms/text/palindrome.md)
-
-
-### Python
-
-
-[palindrome.md](../../programming/python/algorithms/text/palindrome.md)
-
-
+### [Python](../../programming/python/algorithms/text/palindrome.md)

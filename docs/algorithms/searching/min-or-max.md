@@ -179,46 +179,18 @@ W przypadku poszukiwania elementu minimalnego, postępujemy praktycznie identycz
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/searching/min-or-max.md)
 
+### [Python](../../programming/python/algorithms/searching/min-or-max.md)
 
-[min-or-max.md](../../programming/c++/algorithms/searching/min-or-max.md)
+### [Blockly](../../programming/blockly/algorithms/searching/min-or-max.md)
 
-
-### Python
-
-
-[min-or-max.md](../../programming/python/algorithms/searching/min-or-max.md)
-
-
-### Blockly
-
-
-[min-or-max.md](../../programming/blockly/algorithms/searching/min-or-max.md)
-
-
-### Kotlin
-
-
-[min-or-max.md](../../programming/kotlin/algorithms/searching/min-or-max.md)
-
+### [Kotlin](../../programming/kotlin/algorithms/searching/min-or-max.md)
 
 ## Implementacje — pozostałe
 
-### C
+### [C](../../programming/c/algorithms/searching/min-or-max.md)
 
+### [Haskell](../../programming/haskell/algorithms/searching/min-or-max.md)
 
-[min-or-max.md](../../programming/c/algorithms/searching/min-or-max.md)
-
-
-### Haskell
-
-
-[min-or-max.md](../../programming/haskell/algorithms/searching/min-or-max.md)
-
-
-### Julia
-
-
-[min-or-max.md](../../programming/julia/algorithms/searching/min-or-max.md)
-
+### [Julia](../../programming/julia/algorithms/searching/min-or-max.md)

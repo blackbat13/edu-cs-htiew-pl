@@ -59,19 +59,8 @@ Dwie zagnieżdżone pętle. Chociaż warunkowa pętla wewnętrzna wykonuje zawsz
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/sorting/insertion-sort.md)
 
+### [Python](../../programming/python/algorithms/sorting/insertion-sort.md)
 
-[insertion-sort.md](../../programming/c++/algorithms/sorting/insertion-sort.md)
-
-
-### Python
-
-
-[insertion-sort.md](../../programming/python/algorithms/sorting/insertion-sort.md)
-
-
-### Kotlin
-
-
-[insertion-sort.md](../../programming/kotlin/algorithms/sorting/insertion-sort.md)
+### [Kotlin](../../programming/kotlin/algorithms/sorting/insertion-sort.md)

@@ -97,14 +97,6 @@ funkcja DeszyfrujVigenere(szyfrogram, klucz):
 
 ## Implementacja
 
-### C++
+### [C++](../../../programming/c++/algorithms/cryptography/vigenere.md)
 
-
-[vigenere.md](../../../programming/c++/algorithms/cryptography/vigenere.md)
-
-
-### Python
-
-
-[vigenere.md](../../../programming/python/algorithms/cryptography/vigenere.md)
-
+### [Python](../../../programming/python/algorithms/cryptography/vigenere.md)

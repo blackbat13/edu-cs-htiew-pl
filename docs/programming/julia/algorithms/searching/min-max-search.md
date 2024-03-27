@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/min-max-search.md)
 
-
 ## Podejście naiwne
 
 ## Podejście optymalne
@@ -38,8 +37,6 @@ function MinMax(array)
     return minValue, maxValue
 end
 
-
 array = [3, 6, 1, 9, 10, 4, -4, 6, 12, 5, 11]
 println(MinMax(array))
 ```
-

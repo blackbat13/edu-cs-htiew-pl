@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/min-or-max.md)
 
-
 ## Implementacja
 
 ### Znajdowanie minimum

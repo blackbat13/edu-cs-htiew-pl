@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/shell-sort.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -15,11 +14,9 @@ def shell_sort(array: list):
 
         gap //= 2
 
-
 array = [7, 3, 0, 1, 5, 2, 5, 19, 10, 5]
 
 shell_sort(array)
 
 print(array)
 ```
-

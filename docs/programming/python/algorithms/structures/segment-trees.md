@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/structures/segment-trees.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -89,7 +88,6 @@ class SumSegmentTree:
     
     def print(self):
         self.root.print()
-    
 
 if __name__ == "__main__":
     tab = [1] * 10
@@ -107,7 +105,6 @@ if __name__ == "__main__":
 
     print(f"\n\n[3, 5] = {sum_segment_tree.get_value(3, 5)}")
 ```
-
 
 ### Opis implementacji
 
@@ -150,9 +147,7 @@ Wynik działania programu:
             [8, 8]: (val: 1, lazy: 0)
             [9, 9]: (val: 1, lazy: 0)
 
-
 [3, 5] = 3
-
 
 [3, 5] + 2
 [0, 9]: (val: 16, lazy: 0)
@@ -174,7 +169,6 @@ Wynik działania programu:
         [8, 9]: (val: 2, lazy: 0)
             [8, 8]: (val: 1, lazy: 0)
             [9, 9]: (val: 1, lazy: 0)
-
 
 [3, 5] = 9
 ```

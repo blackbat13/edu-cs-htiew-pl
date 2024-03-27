@@ -29,7 +29,6 @@ pilka = {"x": WIDTH / 2, "y": HEIGHT - 30, "oy": HEIGHT - 30, "promien": 10, "vy
 
 linie = []
 
-
 def draw():
     screen.fill((0, 0, 0))
 
@@ -49,7 +48,6 @@ def draw():
 
     screen.draw.filled_circle((pilka["x"], pilka["y"]), pilka["promien"], pilka["kolor"])
 
-
 def dodaj_linie(y):
     linia = {}
     linia["segmenty"] = kolory[:]
@@ -59,7 +57,6 @@ def dodaj_linie(y):
     linia["vx"] = random.randint(2, 5)
     linia["y"] = y
     linie.append(linia)
-
 
 def update():
     global przes
@@ -75,14 +72,12 @@ def update():
         pilka["oy"] = pilka["y"]
         pilka["vy"] = -10
 
-
 def on_key_down(key):
     global linia_y
     if key == keys.SPACE:
         pilka["vy"] = -10
         pilka["oy"] = pilka["y"]
         przesun()
-
 
 def przesun():
     for linia in linie[:]:
@@ -91,7 +86,6 @@ def przesun():
             dodaj_linie(0)
             linie.remove(linia)
 
-
 def reset():
     global pilka
     linie.clear()
@@ -99,7 +93,6 @@ def reset():
     dodaj_linie(WIDTH / 5)
     dodaj_linie(-80)
     pilka = {"x": WIDTH / 2, "y": HEIGHT - 30, "oy": HEIGHT - 30, "promien": 15, "vy": 0, "kolor": random.choice(kolory)}
-
 
 reset()
 pgzrun.go()
@@ -110,4 +103,3 @@ pgzrun.go()
 [https://replit.com/@damiankurpiewski/ColorBall](https://replit.com/@damiankurpiewski/ColorBall)
 
 TODO
-

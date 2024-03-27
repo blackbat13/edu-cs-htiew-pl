@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/text/levenshtein-distance.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -40,4 +39,3 @@ int main() {
     return 0;
 }
 ```
-

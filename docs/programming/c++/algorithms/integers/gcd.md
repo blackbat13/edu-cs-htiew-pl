@@ -6,7 +6,6 @@ description: Największy Wspólny Dzielnik
 
 ## [Opis problemu](../../../../algorithms/integers/gcd.md)
 
-
 ## Wersja z odejmowaniem
 
 ### Implementacja
@@ -40,7 +39,6 @@ int main() {
 }
 ```
 
-
 ## Algorytm Euklidesa - wersja iteracyjna
 
 ### Implementacja
@@ -72,7 +70,6 @@ int main() {
 }
 ```
 
-
 ## Algorytm Euklidesa - wersja rekurencyjna
 
 ### Implementacja
@@ -101,7 +98,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ## Operacje binarne - wersja iteracyjna
 
@@ -159,7 +155,6 @@ int main() {
 }
 ```
 
-
 ## Operacje binarne - wersja rekurencyjna
 
 ### Implementacja
@@ -211,4 +206,3 @@ int main() {
     return 0;
 }
 ```
-

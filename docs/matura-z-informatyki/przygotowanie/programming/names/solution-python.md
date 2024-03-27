@@ -127,7 +127,6 @@ def count_vowels(text):
 
     return count
 
-
 names_list = []
 with open("names.txt") as file:
     names_list = file.read().split()
@@ -224,7 +223,6 @@ print("\n".join(sorted(result)))
 ```python
 def sum_ascii(name):
     return sum(ord(char) for char in name)
-
 
 names_list = []
 with open("names.txt") as file:

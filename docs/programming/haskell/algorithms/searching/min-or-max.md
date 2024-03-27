@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/min-or-max.md)
 
-
 ## Wyszukiwanie wartości minimum i maksimum
 
 ### Implementacja
@@ -23,7 +22,6 @@ main = do
   putStrLn $ "Min: " ++ show minValue
   putStrLn $ "Max: " ++ show maxValue
 ```
-
 
 ### Opis implementacji
 

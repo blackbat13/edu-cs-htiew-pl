@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/text/levenshtein-distance.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -20,8 +19,6 @@ def levenshtein_distance(a: str, b: str) -> int:
 
     return matrix[len(a)][len(b)]
 
-
-
 a = "kitten"
 b = "sitting"
     
@@ -29,4 +26,3 @@ distance = levenshtein_distance(a, b)
 
 print(f"Odległość Levenshteina pomiędzy wyrazami {a} i {b} wynosi {distance}")
 ```
-

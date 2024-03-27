@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/linear-search.md)
 
-
 ## Istnienie elementu
 
 ### Implementacja
@@ -22,7 +21,6 @@ defmodule Search do
     end
 end
 
-
 array = [8, 2, 9, 10, 5, 4, 2, 7, 18, 0]
 number = 7
 
@@ -34,7 +32,6 @@ else
     IO.puts "Liczby nie ma w tablicy"
 end
 ```
-
 
 ### Opis implementacji
 
@@ -61,7 +58,6 @@ defmodule Search do
     end
 end
 
-
 array = [8, 2, 9, 10, 5, 4, 2, 7, 18, 0]
 number = 10
 
@@ -73,7 +69,6 @@ else
     IO.puts "Liczba jest pod indeksem #{index}"
 end
 ```
-
 
 ### Opis implementacji
 

@@ -81,20 +81,8 @@ flowchart TD
 
 ### Implementacja
 
-#### C++
+#### [C++](../../programming/c++/algorithms/numerical-methods/monte-carlo.md)
 
+#### [Python](../../programming/python/algorithms/numerical-methods/monte-carlo.md)
 
-[monte-carlo.md](../../programming/c++/algorithms/numerical-methods/monte-carlo.md)
-
-
-#### Python
-
-
-[monte-carlo.md](../../programming/python/algorithms/numerical-methods/monte-carlo.md)
-
-
-#### Julia
-
-
-[monte-carlo.md](../../programming/julia/algorithms/numerical-methods/monte-carlo.md)
-
+#### [Julia](../../programming/julia/algorithms/numerical-methods/monte-carlo.md)

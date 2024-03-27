@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/prime-factors.md)
 
-
 ## Implementacja
 
 ```kotlin

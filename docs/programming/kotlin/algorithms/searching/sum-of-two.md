@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/sum-of-two.md)
 
-
 ## Rozwiązanie naiwne
 
 ### Implementacja

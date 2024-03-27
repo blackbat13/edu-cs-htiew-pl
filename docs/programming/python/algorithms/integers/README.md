@@ -1,2 +1,0 @@
-# Algorytmy na liczbach całkowitych
-

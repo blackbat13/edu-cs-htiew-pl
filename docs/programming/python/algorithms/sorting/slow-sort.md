@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/slow-sort.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -18,11 +17,9 @@ def slow_sort(array: list, start_index: int, end_index: int):
 
     slow_sort(array, start_index, end_index - 1)
 
-
 array = [7, 3, 0, 1, 5, 2, 5, 19, 10, 5]
 
 slow_sort(array, 0, len(array) - 1)
 
 print(array)
 ```
-

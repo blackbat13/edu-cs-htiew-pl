@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/min-max-search.md)
 
-
 ## Podejście naiwne
 
 ### Implementacja
@@ -38,7 +37,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 
@@ -102,7 +100,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 

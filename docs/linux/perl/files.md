@@ -49,7 +49,6 @@ print WYJ "Ala ma kota\n";
 print WYJ "a kot\n";
 print WYJ "ma Ale\n";
 
-
 # Zamykamy plik
 close(WYJ);
 

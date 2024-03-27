@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/cryptography/symmetric/playfair.md)
 
-
 ## Szyfrowanie
 
 ```python linenums="1"
@@ -11,7 +10,6 @@ def find(letter: str, tab: list) -> (int, int):
         for j in range(6):
             if letter == tab[i][j]:
                 return i, j
-
 
 def create_order(key: str) -> list:
     alphabet = ["a", "ą", "b", "c", "ć", "d", "e", "ę", "f", "g", "h", "i", "j", "k", "l", "ł", "m", "n", "ń", "o", "ó",
@@ -25,7 +23,6 @@ def create_order(key: str) -> list:
     order.extend(alphabet)
 
     return order
-
 
 def encode(key: str, message: str):
     order = create_order(key)
@@ -55,7 +52,6 @@ def encode(key: str, message: str):
 
     return result
 
-
 key = "computer"
 message = "science"
 
@@ -63,7 +59,6 @@ encoded = encode(key, message)
 
 print(encoded)
 ```
-
 
 ## Deszyfrowanie
 
@@ -73,7 +68,6 @@ def find(letter: str, tab: list) -> (int, int):
         for j in range(6):
             if letter == tab[i][j]:
                 return i, j
-
 
 def create_order(key: str) -> list:
     alphabet = ["a", "ą", "b", "c", "ć", "d", "e", "ę", "f", "g", "h", "i", "j", "k", "l", "ł", "m", "n", "ń", "o", "ó",
@@ -87,7 +81,6 @@ def create_order(key: str) -> list:
     order.extend(alphabet)
 
     return order
-
 
 def decode(key: str, message: str):
     order = create_order(key)
@@ -117,7 +110,6 @@ def decode(key: str, message: str):
 
     return result
 
-
 key = "computer"
 message = "ómdćjućx"
 
@@ -125,4 +117,3 @@ decoded = decode(key, message)
 
 print(decoded)
 ```
-

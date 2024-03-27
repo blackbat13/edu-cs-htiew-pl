@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/cryptography/symmetric/rot13.md)
 
-
 ## Szyfrowanie
 
 ```python linenums="1"
@@ -19,14 +18,12 @@ def encrypt_rot13(message: str) -> str:
 
     return encrypted
 
-
 message = "computerscience"
 
 encrypted = encrypt_rot13(message)
 
 print(encrypted)
 ```
-
 
 ## Deszyfrowanie
 
@@ -44,11 +41,9 @@ def decrypt_rot13(message: str) -> str:
 
     return decrypted
 
-
 message = "pczdihrfgpvrbpr"
 
 decrypted = decrypt_rot13(message)
 
 print(decrypted)
 ```
-

@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/structures/doubly-linked-list.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -140,4 +139,3 @@ int main() {
   return 0;
 }
 ```
-

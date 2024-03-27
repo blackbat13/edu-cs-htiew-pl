@@ -82,14 +82,6 @@ funkcja DeszyfrujCezar(szyfrogram, klucz):
 
 ## Implementacja
 
-### C++
+### [C++](../../../programming/c++/algorithms/cryptography/caesar.md)
 
-
-[caesar.md](../../../programming/c++/algorithms/cryptography/caesar.md)
-
-
-### Python
-
-
-[caesar.md](../../../programming/python/algorithms/cryptography/caesar.md)
-
+### [Python](../../../programming/python/algorithms/cryptography/caesar.md)

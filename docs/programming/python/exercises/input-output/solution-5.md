@@ -19,7 +19,6 @@ Napisz program zgodny z poniższą specyfikacją.
 ```python
 import math
 
-
 a = int(input("Podaj liczbę naturalną: "))
 
 pierwiastek = math.sqrt(a)

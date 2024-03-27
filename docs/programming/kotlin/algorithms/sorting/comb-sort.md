@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/comb-sort.md)
 
-
 ## Implementacja
 
 ```kotlin
@@ -30,7 +29,6 @@ fun combSort(array: MutableList<Int>) {
         }
     }
 }
-
 
 fun main() {
     val array = mutableListOf(7, 3, 0, 1, 5, 2, 5, 19, 10, 5)

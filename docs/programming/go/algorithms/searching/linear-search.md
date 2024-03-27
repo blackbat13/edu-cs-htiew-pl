@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/linear-search.md)
 
-
 ## Istnienie elementu
 
 ### Implementacja
@@ -37,7 +36,6 @@ func main() {
     }
 }
 ```
-
 
 ### Opis implementacji
 
@@ -80,7 +78,6 @@ func main() {
 }
 ```
 
-
 ### Opis implementacji
 
 Funkcja `linearSearch` (**linia 7**) zwraca jako wynik liczbę całkowitą i jest metodą przypisaną do tablicy przyjmującą jeden argumenty: wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w tablicy od $0$ do rozmiaru tablicy minus jeden (**linia 8**). Rozmiar tablicy pobieramy za pomocą funkcji `len`. Dla każdego indeksu sprawdzamy, czy pod tym indeksem w tablicy znajduje się poszukiwana wartość (**linia 9**). Jeżeli tak, to zwracamy indeks tej wartości w tablicy (**linia 10**). Po przejściu przez wszystkie elementy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość `-1` informującą, że poszukiwany element nie znajduje się w tablicy (**linia 14**).
@@ -114,7 +111,6 @@ func main() {
 	arr.linearSearch(number)
 }
 ```
-
 
 ### Opis implementacji
 

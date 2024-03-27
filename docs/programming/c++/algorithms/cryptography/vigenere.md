@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/cryptography/symmetric/vigenere.md)
 
-
 ## Szyfrowanie
 
 ### Implementacja
@@ -46,7 +45,6 @@ int main() {
 }
 ```
 
-
 ## Deszyfrowanie
 
 ### Implementacja
@@ -89,4 +87,3 @@ int main() {
     return 0;   
 }
 ```
-

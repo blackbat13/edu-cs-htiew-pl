@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/gnome-sort.md)
 
-
 ## Implementacja
 
 ```kotlin

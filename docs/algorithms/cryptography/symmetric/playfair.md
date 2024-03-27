@@ -38,14 +38,6 @@ Szyfr Playfair jest bardziej bezpieczny niż szyfry monoalfabetyczne, ponieważ 
 
 ## Implementacja
 
-### C++
+### [C++](../../../programming/c++/algorithms/cryptography/playfair.md)
 
-
-[playfair.md](../../../programming/c++/algorithms/cryptography/playfair.md)
-
-
-### Python
-
-
-[playfair.md](../../../programming/python/algorithms/cryptography/playfair.md)
-
+### [Python](../../../programming/python/algorithms/cryptography/playfair.md)

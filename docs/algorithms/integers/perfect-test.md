@@ -165,25 +165,13 @@ $O(\sqrt{n})$
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/integers/perfect-test.md)
 
-
-[perfect-test.md](../../programming/c++/algorithms/integers/perfect-test.md)
-
-
-### Python
-
-
-[perfect-test.md](../../programming/python/algorithms/integers/perfect-test.md)
-
+### [Python](../../programming/python/algorithms/integers/perfect-test.md)
 
 ## Implementacja - pozostałe
 
-### Haskell
-
-
-[perfect-test.md](../../programming/haskell/algorithms/integers/perfect-test.md)
-
+### [Haskell](../../programming/haskell/algorithms/integers/perfect-test.md)
 
 ## Powiązane zagadnienia
 

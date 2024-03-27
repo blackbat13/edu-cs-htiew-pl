@@ -11,4 +11,3 @@
 ## Odpowiedzi
 
 [:fontawesome-solid-file-pdf: Klucz](../../../assets/informatyka-matura-2017-p-rozszerzony-odpowiedzi.pdf)
-

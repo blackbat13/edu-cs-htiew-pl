@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/majority.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -28,9 +27,7 @@ function majority(array)
     end
 end
 
-
 array = [1, 2, 5, 5, 7, 5, 5, 10, 5, 5]
 
 println(majority(array))
 ```
-

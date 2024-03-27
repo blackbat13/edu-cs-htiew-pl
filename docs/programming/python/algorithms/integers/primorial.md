@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/primorial.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -11,7 +10,6 @@ def is_prime(n: int) -> bool:
     return False
     
   return all(n % i != 0 for i in range(2, int(n**0.5) + 1))
-
 
 def primorial(n: int) -> int:
   primes = []
@@ -28,7 +26,6 @@ def primorial(n: int) -> int:
 
   return result
 
-
 n = 3
 
 result = primorial(n)
@@ -36,4 +33,3 @@ result = primorial(n)
 print(f"{n}# = {result}")
 
 ```
-

@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/cryptography/symmetric/beaufort.md)
 
-
 ## Szyfrowanie i deszyfrowanie
 
 ```python linenums="1"
@@ -24,7 +23,6 @@ def encode(message: str, key: str) -> str:
 
     return encoded
 
-
 message = "computerscience"
 key = "cat"
 
@@ -34,4 +32,3 @@ decoded = encode(encoded, key)
 print(f"Encoded: {encoded}")
 print(f"Decoded: {decoded}")
 ```
-

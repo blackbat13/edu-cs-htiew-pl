@@ -26,7 +26,6 @@ def zadanie1():
                 break
 ```
 
-
 ## Zadanie 2
 
 ```python linenums="1"
@@ -59,7 +58,6 @@ def zadanie2():
         print(result)
         print(x, y, z)
 ```
-
 
 ## Zadanie 3
 
@@ -103,7 +101,6 @@ def zadanie3():
         print(min_num, max_num)
 ```
 
-
 ## Zadanie 4
 
 ```python linenums="1"
@@ -134,7 +131,6 @@ def zadanie4():
         print()
         print(result)
 ```
-
 
 ## Zadanie 5
 
@@ -176,4 +172,3 @@ def zadanie5():
     print(p1, p2)
     print(f"{(max_dist**0.5):.2f}")
 ```
-

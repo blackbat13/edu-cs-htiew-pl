@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/insertion-sort.md)
 
-
 ## Implementacja
 
 ```kotlin

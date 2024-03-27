@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/backtracking/permutations.md)
 
-
 ## Implementacja
 
 ```kotlin linenums="1"
@@ -25,7 +24,6 @@ fun permutation(elements: Array<Int>, start: Int, stop: Int) {
     }
 }
 
-
 fun main() {
   val elements = arrayOf(1, 2, 3)
 
@@ -33,4 +31,3 @@ fun main() {
   permutation(elements, 0, 2)
 }
 ```
-

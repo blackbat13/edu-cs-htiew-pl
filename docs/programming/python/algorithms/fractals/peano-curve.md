@@ -2,12 +2,10 @@
 
 ## [Opis problemu](../../../../algorithms/fractals/peano-curve.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
 import turtle
-
 
 def peano_curve(rank, angle, length):
     if rank > 0:
@@ -18,7 +16,6 @@ def peano_curve(rank, angle, length):
         turtle.forward(length)
         peano_curve(rank - 1, -angle, length)
         turtle.left(angle)
-
 
 turtle.speed(0)
 turtle.penup()
@@ -32,7 +29,6 @@ peano_curve(4, 90, 20)
 
 turtle.done()
 ```
-
 
 ### Link do implementacji
 

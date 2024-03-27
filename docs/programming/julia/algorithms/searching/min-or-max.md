@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/min-or-max.md)
 
-
 ## Wyszukiwanie wartości minimum i maksimum
 
 ### Implementacja
@@ -23,12 +22,10 @@ function findMinMax(array)
     return min, max
 end
 
-
 array = [8, 2, 9, 10, 5, 4, 2, 7, 18, 0]
 
 println("Values: ", findMinMax(array))
 ```
-
 
 ## Wyszukiwanie indeksów wartości minimum i maksimum
 
@@ -54,9 +51,7 @@ function findMinMaxIndex(array)
     return minInd, maxInd
 end
 
-
 array = [8, 2, 9, 10, 5, 4, 2, 7, 18, 0]
     
 println("Indexes: ", findMinMaxIndex(array))
 ```
-

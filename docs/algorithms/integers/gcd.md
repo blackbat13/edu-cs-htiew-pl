@@ -122,28 +122,12 @@ flowchart TD
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/integers/gcd.md)
 
+### [Python](../../programming/python/algorithms/integers/gcd.md)
 
-[gcd.md](../../programming/c++/algorithms/integers/gcd.md)
-
-
-### Python
-
-
-[gcd.md](../../programming/python/algorithms/integers/gcd.md)
-
-
-### Blockly
-
-
-[gcd.md](../../programming/blockly/algorithms/integers/gcd.md)
-
+### [Blockly](../../programming/blockly/algorithms/integers/gcd.md)
 
 ## Implementacja - pozostałe
 
-### Haskell
-
-
-[gcd.md](../../programming/haskell/algorithms/integers/gcd.md)
-
+### [Haskell](../../programming/haskell/algorithms/integers/gcd.md)

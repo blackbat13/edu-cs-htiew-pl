@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/odd-even-sort.md)
 
-
 ## Implementacja
 
 ```kotlin

@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/fibonacci-numbers.md)
 
-
 ## Podejście rekurencyjne
 
 ### Implementacja
@@ -30,7 +29,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 
@@ -73,4 +71,3 @@ int main() {
     return 0;
 }
 ```
-

@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/linear-search.md)
 
-
 ## Istnienie elementu
 
 ```python linenums="1"
@@ -12,7 +11,6 @@ def linear_search(array: list, number: int) -> bool:
             return True
 
     return False
-
 
 array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 number = 8
@@ -24,7 +22,6 @@ if result:
 else:
     print("Poszukiwanej wartości nie ma w liście")
 ```
-
 
 Funkcja `linear_search` (**linia 1**) zwraca jako wynik wartość prawda/fałsz i przyjmuje dwa argumenty: listę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne elementy listy (**linia 2**). Dla każdego elementu sprawdzamy, czy jego wartość jest tą, której szukamy (**linia 3**). Jeżeli tak, to zwracamy informację o znalezieniu wartości w liście (**linia 4**). Po przejściu przez wszystkie elementy listy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość `False` informującą, że poszukiwany element nie znajduje się w liście (**linia 6**).
 
@@ -40,7 +37,6 @@ def linear_search(array: list, number: int) -> int:
 
     return -1
 
-
 array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 number = 8
 
@@ -51,7 +47,6 @@ if index == -1:
 else:
     print("Poszukiwana wartość znajduje się pod indeksem", index)
 ```
-
 
 Funkcja `linear_search` (**linia 1**) zwraca jako wynik liczbę całkowitą i przyjmuje dwa argumenty: listę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w liście od $0$ do długości listy minus 1 włącznie (**linia 2**). Rozmiar listy pobieramy za pomocą funkcji `len()`. Dla każdego indeksu sprawdzamy, czy pod tym indeksem w liście znajduje się poszukiwana wartość (**linia 3**). Jeżeli tak, to zwracamy indeks wartości w liście (**linia 4**). Po przejściu przez wszystkie indeksy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość $-1$ informującą, że poszukiwany element nie znajduje się w liście (**linia 6**).
 
@@ -65,14 +60,12 @@ def linear_search(array: list, number: int):
         if number == el:
             print(i)
 
-
 array = [8, 2, 8, 4, 5, 6, 7, 8, 9, 8]
 number = 8
 
 print("Poszukiwana wartość znajduje się pod następującymi indeksami:")
 linear_search(array, number)
 ```
-
 
 Funkcja `linear_search` (**linia 1**) nie zwraca wyniku i przyjmuje dwa argumenty: listę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w liście od $0$ do długości listy minus 1 włącznie (**linia 2**). Rozmiar listy pobieramy za pomocą funkcji `len()`. Dla każdego indeksu sprawdzamy, czy pod tym indeksem w liście znajduje się poszukiwana wartość (**linia 3**). Jeżeli tak, to wypisujemy ten indeks (**linia 4**).
 

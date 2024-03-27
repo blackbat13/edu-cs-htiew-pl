@@ -285,7 +285,6 @@ if __name__ == "__main__":
 ```python
 from easyAI import *
 
-
 class GameOfCoins(TwoPlayerGame):
     def __init__(self, players=None):
         self.players = players
@@ -309,7 +308,6 @@ class GameOfCoins(TwoPlayerGame):
             return 100
         else:
             return 0
-
 
 if __name__ == "__main__":
     algorithm = Negamax(13)
@@ -339,14 +337,11 @@ import random
 WIDTH = 840
 HEIGHT = 600
 
-
 def draw():
     screen.fill("white")
 
-
 def update():
     pass
-
 
 pgzrun.go()
 ```
@@ -565,7 +560,6 @@ coins = []
 win = 0
 timer = 120
 
-
 def draw():
     screen.fill("white")
     for die in dices:
@@ -583,7 +577,6 @@ def draw():
     elif game.current_player == 1:
         screen.draw.text("Your move!", center=(WIDTH / 2, HEIGHT - 200), color="red", fontsize=90)
 
-
 def update():
     global win, timer
 
@@ -596,7 +589,6 @@ def update():
 
         if game.is_over():
             win = 1
-
 
 def on_mouse_down(pos):
     global win, timer
@@ -612,11 +604,9 @@ def on_mouse_down(pos):
                 if game.is_over():
                     win = 2
 
-
 def remove_coins(number):
     for i in range(number):
         coins.pop()
-
 
 def init():
     global game
@@ -641,7 +631,6 @@ def init():
         if i % 8 == 0:
             y += 84 + 30
             x = 55
-
 
 init()
 pgzrun.go()

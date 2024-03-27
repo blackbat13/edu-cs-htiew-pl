@@ -20,7 +20,6 @@ Napisz program zgodny z poniższą specyfikacją. Wypisanie komunikatu powinno z
 def powitanie(imie: str):
     print(f"Witaj {imie}!")
 
-
 imie = input("Podaj swoje imię: ")
 
 powitanie(imie)

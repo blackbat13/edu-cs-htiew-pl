@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/fractals/sierpinski-triangle.md)
 
-
 ## Implementacja
 
 ### Trójkąt Sierpińskiego
@@ -16,4 +15,3 @@
 ### Link do implementacji
 
 [Trójkąt Sierpińskiego](https://blockly.games/turtle?lang=pl&level=10#82mtuv)
-

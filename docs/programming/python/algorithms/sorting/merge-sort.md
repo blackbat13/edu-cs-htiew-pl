@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/merge-sort.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -23,7 +22,6 @@ def merge(array: list, left: int, right: int, division: int):
     for i in range(merged_length):
         array[left + i] = merged[i]
 
-
 def merge_sort(array: list, left: int, right: int):
     if right - left <= 1:
         return
@@ -35,11 +33,9 @@ def merge_sort(array: list, left: int, right: int):
     
     merge(array, left, right, division)
 
-
 array = [7, 3, 0, 1, 5, 2, 5, 19, 10, 5]
 
 merge_sort(array, 0, len(array))
 
 print(array)
 ```
-

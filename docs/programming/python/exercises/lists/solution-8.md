@@ -20,7 +20,6 @@ Napisz program zgodny z poniższą specyfikacją.
 ```python
 import random
 
-
 n = int(input("Podaj liczbę wartości: "))
 p = int(input("Podaj początek zakresu: "))
 k = int(input("Podaj koniec zakresu: "))

@@ -26,7 +26,6 @@ def dzielniki(n: int) -> []:
 
     return wynik
 
-
 n = int(input("Podaj liczbę naturalną: "))
 
 wynik = dzielniki(n)

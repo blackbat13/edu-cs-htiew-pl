@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/min-or-max.md)
 
-
 ## Wyszukiwanie wartości minimum i maksimum
 
 ```python linenums="1"
@@ -16,7 +15,6 @@ def find_min_max(array: list) -> (int, int):
 
     return min_val, max_val
 
-
 tab = [8, 2, 9, 10, 5, 4, 2, 7, 18, 0]
 n = 10
     
@@ -24,7 +22,6 @@ min_val, max_val = find_min_max(n, tab)
     
 print(f"Min: {min_val}, Max: {max_val}")
 ```
-
 
 Funkcja `find_min_max` działa w następujący sposób:
 
@@ -58,7 +55,6 @@ def find_min_max_ind(array: list) -> (int, int):
 
     return min_ind, max_ind
 
-
 tab = [8, 2, 9, 10, 5, 4, 2, 7, 18, 0]
 n = 10
     
@@ -66,7 +62,6 @@ min_ind, max_ind = find_min_max_ind(n, tab)
     
 print(f"Min value index: {min_ind}, Max value index: {max_ind}")
 ```
-
 
 Funkcja `find_min_max_ind` działa następująco:
 

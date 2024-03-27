@@ -2,12 +2,10 @@
 
 ## [Opis problemu](../../../../algorithms/fractals/koch-curve.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
 import turtle
-
 
 def koch_curve(rank, length):
     if rank > 0:
@@ -21,7 +19,6 @@ def koch_curve(rank, length):
     else:
         turtle.forward(length)
 
-
 turtle.speed(0)
 turtle.penup()
 turtle.back(350)
@@ -31,7 +28,6 @@ koch_curve(3, 200)
 
 turtle.done()
 ```
-
 
 ### Link do implementacji
 

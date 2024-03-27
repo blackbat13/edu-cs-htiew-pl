@@ -51,13 +51,6 @@ flowchart TD
 
 ## Implementacja
 
-### Python
+### [Python](../../programming/python/algorithms/backtracking/permutations.md)
 
-
-[permutations.md](../../programming/python/algorithms/backtracking/permutations.md)
-
-
-### Kotlin
-
-
-[permutations.md](../../programming/kotlin/algorithms/backtracking/permutations.md)
+### [Kotlin](../../programming/kotlin/algorithms/backtracking/permutations.md)

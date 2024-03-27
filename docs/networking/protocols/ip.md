@@ -12,8 +12,6 @@ Początkowe dane (bajty) każdego pakietu IPv4 to nagłówek:
 
 ![Nagłówek pakietu IPv4](../../assets/IPv4header.png)
 
-
-
 * **Wersja** – w tym polu nagłówka znajduje się wersja protokołu IP, w przypadku IPv4 znajduje się tam cyfra 4.
 * **Długość nagłówka (IHL)** – długość nagłówka pakietu IP wyrażona w postaci liczby czterobajtowych części.
 * **Typ usługi** – określa priorytet pakietu.

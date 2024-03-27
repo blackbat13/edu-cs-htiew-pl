@@ -6,7 +6,6 @@ description: Przeszukiwanie grafu w głąb
 
 ## [Opis problemu](../../../../algorithms/graphs/dfs.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -50,7 +49,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 

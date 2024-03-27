@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/fractals/sierpinski-triangle.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -43,7 +42,6 @@ int main() {
     return 0;
 } 
 ```
-
 
 ### Link do implementacji
 

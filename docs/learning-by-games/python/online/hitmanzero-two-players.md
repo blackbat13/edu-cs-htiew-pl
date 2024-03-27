@@ -24,7 +24,6 @@ WIDTH = 800
 HEIGHT = 1000
 block_size = 50
 
-
 def threaded_client(user1, user2):  # Obsługa graczy i ich gry
     # Pobieramy nicki od rozmówców
     user1_name = user1.recv(2048).decode()
@@ -84,7 +83,6 @@ def threaded_client(user1, user2):  # Obsługa graczy i ich gry
             user1.send(str.encode(message))
         except:
             pass
-
 
 # Podajemy adres IP, na którym będzie działał serwer
 server = "192.168.1.39"
@@ -168,7 +166,6 @@ man.angle = 90
 hitmans = []
 bullets = []
 
-
 def generate_hitmans():
     for i in range(hitmans_count):
         hitman = Actor("hitman")
@@ -181,7 +178,6 @@ def generate_hitmans():
         hitman.can_shoot = True
         hitmans.append(hitman)
 
-
 def draw():
     screen.fill("black")
     man.draw()
@@ -190,7 +186,6 @@ def draw():
 
     for bul in bullets:
         bul.draw()
-
 
 def update():
     try:
@@ -226,7 +221,6 @@ def update():
         if bul.x > WIDTH:
             bullets.remove(bul)
 
-
 def on_key_down(key):
     if order == 1:
         if key == keys.UP:
@@ -256,10 +250,8 @@ def on_key_down(key):
             hitmans[0].can_shoot = False
             clock.schedule(unlock_hitman, 0.3)
 
-
 def unlock_hitman():
     hitmans[0].can_shoot = True
-
 
 generate_hitmans()
 pgzrun.go()

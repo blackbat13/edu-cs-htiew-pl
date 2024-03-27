@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/superfactorial.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -15,11 +14,9 @@ def superfactorial(n: int) -> int:
 
     return result
 
-
 n = 4
 
 result = superfactorial(n)
 
 print(f"{n}$ = {result}")
 ```
-

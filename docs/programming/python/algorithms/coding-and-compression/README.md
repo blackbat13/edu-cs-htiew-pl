@@ -1,2 +1,0 @@
-# Kodowanie i kompresja
-

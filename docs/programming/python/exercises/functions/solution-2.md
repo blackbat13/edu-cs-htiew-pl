@@ -20,7 +20,6 @@ Napisz program zgodny z poniższą specyfikacją. Obliczanie sumy powinno być z
 def suma(a: int, b: int) -> int:
     return a + b
 
-
 a = int(input("Podaj pierwszą liczbę: "))
 b = int(input("Podaj drugą liczbę: "))
 

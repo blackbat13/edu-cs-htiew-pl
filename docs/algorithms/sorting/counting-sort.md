@@ -42,25 +42,10 @@ Mamy tutaj do czynienia z dwoma liniowymi przejściami. Najpierw przechodzimy ra
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/sorting/counting-sort.md)
 
+### [Python](../../programming/python/algorithms/sorting/counting-sort.md)
 
-[counting-sort.md](../../programming/c++/algorithms/sorting/counting-sort.md)
+### [Blockly](../../programming/blockly/algorithms/sorting/counting-sort.md)
 
-
-### Python
-
-
-[counting-sort.md](../../programming/python/algorithms/sorting/counting-sort.md)
-
-
-### Blockly
-
-
-[counting-sort.md](../../programming/blockly/algorithms/sorting/counting-sort.md)
-
-
-### Kotlin
-
-
-[counting-sort.md](../../programming/kotlin/algorithms/sorting/counting-sort.md)
+### [Kotlin](../../programming/kotlin/algorithms/sorting/counting-sort.md)

@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/binary-search.md)
 
-
 ## Wersja iteracyjna
 
 ### Implementacja

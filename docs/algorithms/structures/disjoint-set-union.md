@@ -26,14 +26,6 @@ Te algorytmy i wiele innych korzystają z efektywności operacji oferowanych prz
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/structures/disjoint-set-union.md)
 
-
-[disjoint-set-union.md](../../programming/c++/algorithms/structures/disjoint-set-union.md)
-
-
-### Python
-
-
-[disjoint-set-union.md](../../programming/python/algorithms/structures/disjoint-set-union.md)
-
+### [Python](../../programming/python/algorithms/structures/disjoint-set-union.md)

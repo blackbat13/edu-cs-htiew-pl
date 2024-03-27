@@ -58,7 +58,6 @@ wybuchy = []
 
 slady = []
 
-
 def draw():
     screen.fill((255, 255, 255))
 
@@ -103,7 +102,6 @@ def draw():
 
         medal.draw()
 
-
 def update():
     if keyboard.LEFT and not keyboard.SPACE:
         lufa.angle += lufa.v
@@ -117,20 +115,17 @@ def update():
     akt_wybuchy()
     akt_slady()
 
-
 def akt_slady():
     for slad in slady[:]:
         slad.czas -= 1
         if slad.czas <= 0:
             slady.remove(slad)
 
-
 def akt_wybuchy():
     for wyb in wybuchy[:]:
         wyb.czas -= 1
         if wyb.czas <= 0:
             wybuchy.remove(wyb)
-
 
 def akt_rakiety_duze():
     for rak in rakiety_duze:
@@ -153,7 +148,6 @@ def akt_rakiety_duze():
                         czolg.punkty += 2
                 rakiety_duze.remove(rak)
                 break
-
 
 def akt_rakiety_male():
     for rak in rakiety_male:
@@ -185,7 +179,6 @@ def akt_rakiety_male():
                 czolg.punkty += 2
                 break
 
-
 def akt_pociski():
     for poc in pociski:
         poc.x += math.sin(math.radians(poc.angle - 180)) * poc.v
@@ -204,7 +197,6 @@ def akt_pociski():
                 pociski.remove(poc)
                 czolg.punkty += 2
                 break
-
 
 def akt_wrogowie():
     if random.randint(0, 200) < czolg.poziom:
@@ -233,7 +225,6 @@ def akt_wrogowie():
             czolg.zycie = 0
             czolg.image = "wybuch1.png"
 
-
 def on_key_down(key):
     if key == keys.SPACE and czolg.zycie == 1:
         poc = Actor("pocisk.png")
@@ -260,7 +251,6 @@ def on_key_down(key):
         rak.promien = 300
         rakiety_duze.append(rak)
 
-
 def nastepny_poziom():
     czolg.poc_v += 0.25
     czolg.poziom += 1
@@ -268,7 +258,6 @@ def nastepny_poziom():
         czolg.odl_x = WIDTH / 2 - czolg.poziom * 2
         czolg.odl_y = HEIGHT / 2 - czolg.poziom * 2
         czolg.wrog_kat = 170
-
 
 clock.schedule_interval(nastepny_poziom, 1)
 pgzrun.go()

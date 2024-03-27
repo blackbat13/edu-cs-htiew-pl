@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/longest-growing-substring.md)
 
-
 ## Implementacja
 
 ```kotlin

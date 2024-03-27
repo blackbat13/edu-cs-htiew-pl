@@ -79,8 +79,6 @@ int main() {
             - Krawedzie wazone z waga proporcjonalna do dlugosci krawedzi
     */
 
-
-
     /// Implementujemy pomysl 4
 
     /// Tworzymy tablice do zapamietania licznikow dla pol
@@ -141,7 +139,6 @@ int main() {
             pozycjaW++;
             ileRuchow++;
         }
-
 
         /// Czyscimy ekran konsoli
         system("cls");

@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/coding-and-compression/ascii.md)
 
-
 ## Podstawowa tablica ASCII
 
 ### Implementacja
@@ -11,7 +10,6 @@
 for i in range(128):
     print(chr(i))
 ```
-
 
 ### Opis implementacji
 
@@ -26,8 +24,6 @@ for i in range(256):
     print(chr(i))
 ```
 
-
 ### Opis implementacji
 
 Rozszerzona tablica ASCII zawiera 256 znaków numerowanych od zera. Przechodzimy więc pętlą od 0 do 255 włącznie (**linia 1**) i, korzystając z funkcji `chr` zamieniającej liczbę na odpowiadający jej znak z tablicy ASCII, wypisujemy kolejne znaki (**linia 2**).
-

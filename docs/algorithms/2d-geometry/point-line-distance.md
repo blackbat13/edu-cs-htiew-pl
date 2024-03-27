@@ -2,10 +2,6 @@
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/2d-geometry/point-line-distance.md)
 
-[point-line-distance.md](../../programming/c++/algorithms/2d-geometry/point-line-distance.md)
-
-### Python
-
-[point-line-distance.md](../../programming/python/algorithms/2d-geometry/point-line-distance.md)
+### [Python](../../programming/python/algorithms/2d-geometry/point-line-distance.md)

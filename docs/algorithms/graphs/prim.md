@@ -21,14 +21,6 @@ Ponadto, jest stosowany w algorytmach kompresji danych, takich jak algorytm kodo
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/graphs/prim.md)
 
-
-[prim.md](../../programming/c++/algorithms/graphs/prim.md)
-
-
-### Python
-
-
-[prim.md](../../programming/python/algorithms/graphs/prim.md)
-
+### [Python](../../programming/python/algorithms/graphs/prim.md)

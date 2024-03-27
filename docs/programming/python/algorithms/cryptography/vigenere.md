@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/cryptography/symmetric/vigenere.md)
 
-
 ## Szyfrowanie
 
 ```python linenums="1"
@@ -23,7 +22,6 @@ def encrypt_vigenere(message: str, key: str) -> str:
 
     return encrypted
 
-
 message = "computerscience"
 key = "cat"
 
@@ -31,7 +29,6 @@ encrypted = encrypt_vigenere(message, key)
 
 print(encrypted)
 ```
-
 
 ## Deszyfrowanie
 
@@ -53,7 +50,6 @@ def decrypt_vigenere(message: str, key: str) -> str:
 
     return decrypted
 
-
 message = "eogrungrmeixpcx"
 key = "cat"
 
@@ -61,4 +57,3 @@ decrypted = decrypt_vigenere(message, key)
 
 print(decrypted)
 ```
-

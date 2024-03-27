@@ -116,28 +116,12 @@ Sortowanie przez scalanie ma złożoność obliczeniową $O(n\log{n})$ zarówno 
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/sorting/merge-sort.md)
 
+### [Python](../../programming/python/algorithms/sorting/merge-sort.md)
 
-[merge-sort.md](../../programming/c++/algorithms/sorting/merge-sort.md)
-
-
-### Python
-
-
-[merge-sort.md](../../programming/python/algorithms/sorting/merge-sort.md)
-
-
-### Kotlin
-
-
-[merge-sort.md](../../programming/kotlin/algorithms/sorting/merge-sort.md)
-
+### [Kotlin](../../programming/kotlin/algorithms/sorting/merge-sort.md)
 
 ## Implementacja - pozostałe
 
-### Julia
-
-
-[merge-sort.md](../../programming/julia/algorithms/sorting/merge-sort.md)
-
+### [Julia](../../programming/julia/algorithms/sorting/merge-sort.md)

@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/heap-sort.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -48,4 +47,3 @@ int main() {
     return 0;
 }
 ```
-

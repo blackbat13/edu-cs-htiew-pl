@@ -6,14 +6,12 @@ description: Najkrótsze ścieżki pomiędzy wszystkimi wierzchołkami
 
 ## [Opis problemu](../../../../algorithms/graphs/floyd-warshall.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
 import math
 from typing import List
 from pprint import pprint
-
 
 def floyd_warshall(graph: List[List[int]]):
     for k in range(len(graph)):
@@ -24,7 +22,6 @@ def floyd_warshall(graph: List[List[int]]):
 
                 if graph[i][k] + graph[k][j] < graph[i][j]:
                     graph[i][j] = graph[i][k] + graph[k][j]
-
 
 f = math.inf
 graph = [
@@ -41,4 +38,3 @@ floyd_warshall(graph)
 
 pprint(graph)
 ```
-

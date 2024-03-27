@@ -15,4 +15,3 @@ for _ in range(n):
 for country in sorted(counters):
     print(f"{country} {counters[country]}")
 ```
-

@@ -44,14 +44,6 @@ flowchart TD
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/numerical-methods/square-root.md)
 
-
-[square-root.md](../../programming/c++/algorithms/numerical-methods/square-root.md)
-
-
-### Python
-
-
-[square-root.md](../../programming/python/algorithms/numerical-methods/square-root.md)
-
+### [Python](../../programming/python/algorithms/numerical-methods/square-root.md)

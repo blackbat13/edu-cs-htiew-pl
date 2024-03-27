@@ -2,12 +2,9 @@
 
 ## [Opis problemu](../../../../algorithms/fractals/sierpinski-square.md)
 
-
 ## Implementacja
 
 ### Kwadrat Sierpińskiego
-
-
 
 ![Funkcja rysująca kwadrat Sierpińskiego](<../../../../assets/image (20).png>)
 

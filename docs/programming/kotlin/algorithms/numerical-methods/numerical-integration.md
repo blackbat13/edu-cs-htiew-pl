@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/numerical-methods/numerical-integration.md)
 
-
 ## Metoda prostokątów
 
 ```kotlin
@@ -23,7 +22,6 @@ fun rectanglesMethod(a: Int, b: Int, n: Int): Double {
 
     return area
 }
-
 
 fun main() {
     val a = 0

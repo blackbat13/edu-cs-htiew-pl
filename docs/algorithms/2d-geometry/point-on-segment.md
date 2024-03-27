@@ -2,14 +2,6 @@
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/2d-geometry/point-on-segment.md)
 
-
-[point-on-segment.md](../../programming/c++/algorithms/2d-geometry/point-on-segment.md)
-
-
-### Python
-
-
-[point-on-segment.md](../../programming/python/algorithms/2d-geometry/point-on-segment.md)
-
+### [Python](../../programming/python/algorithms/2d-geometry/point-on-segment.md)

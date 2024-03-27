@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/numerical-methods/numerical-integration.md)
 
-
 ## Metoda prostokątów
 
 ### Implementacja
@@ -43,7 +42,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 
@@ -94,7 +92,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 

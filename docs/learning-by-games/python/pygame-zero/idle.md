@@ -58,13 +58,11 @@ beet = Actor("beetroot")
 beet.x = 200
 beet.y = 200
 
-
 def draw():
     screen.blit("bg", (0, 0))
     pig.draw()
     beet.draw()
     screen.draw.text(f"{pig.points}", center=(WIDTH / 2, 50), fontsize=60, color="#fdee00")
-
 
 def update():
     pig.x += pig.vx
@@ -74,7 +72,6 @@ def update():
         beet.x = random.randint(50, WIDTH - 50)
         beet.y = random.randint(50, HEIGHT - 50)
         pig.points += 1
-
 
 def on_key_down(key):
     if key == keys.LEFT:
@@ -96,7 +93,6 @@ def on_key_down(key):
         pig.vx = 0
         pig.vy = pig.v
         pig.image = "pig_down"
-		
 
 pgzrun.go()
 ```
@@ -224,13 +220,11 @@ beet = Actor("beetroot")
 beet.x = 200
 beet.y = 200
 
-
 def draw():
     screen.blit("bg", (0, 0))
     pig.draw()
     beet.draw()
     screen.draw.text(f"{pig.points}", center=(WIDTH / 2, 50), fontsize=60, color="#fdee00")
-
 
 def update():
     bot()
@@ -241,7 +235,6 @@ def update():
         beet.x = random.randint(50, WIDTH - 50)
         beet.y = random.randint(50, HEIGHT - 50)
         pig.points += 1
-
 
 def bot():
     if pig.x - beet.x >= pig.v:
@@ -263,7 +256,6 @@ def bot():
         pig.vx = 0
         pig.vy = pig.v
         pig.image = "pig_down"
-		
 
 pgzrun.go()
 ```
@@ -327,13 +319,11 @@ beet = Actor("beetroot")
 beet.x = 200
 beet.y = 200
 
-
 def draw():
     screen.blit("bg", (0, 0))
     pig.draw()
     beet.draw()
     screen.draw.text(f"{pig.points}", center=((WIDTH - PANEL), 50), fontsize=60, color="#fdee00")
-
 
 def update():
     bot()
@@ -344,7 +334,6 @@ def update():
         beet.x = random.randint(50, WIDTH - 50)
         beet.y = random.randint(50, HEIGHT - 50)
         pig.points += 1
-
 
 def bot():
     if pig.x - beet.x >= pig.v:
@@ -366,7 +355,6 @@ def bot():
         pig.vx = 0
         pig.vy = pig.v
         pig.image = "pig_down"
-		
 
 pgzrun.go()
 ```
@@ -449,7 +437,6 @@ def draw():
     screen.draw.text(f"{pig.points}", center=((WIDTH - PANEL), 50), fontsize=60, color="#fdee00")
     cursor.draw()
 
-
 def update():
     bot()
     pig.x += pig.vx
@@ -460,10 +447,8 @@ def update():
         beet.y = random.randint(50, HEIGHT - 50)
         pig.points += 1
 
-
 def on_mouse_move(pos):
     cursor.pos = pos
-
 
 def bot():
     if pig.x - beet.x >= pig.v:
@@ -485,7 +470,6 @@ def bot():
         pig.vx = 0
         pig.vy = pig.v
         pig.image = "pig_down"
-		
 
 pygame.mouse.set_visible(False)
 pgzrun.go()

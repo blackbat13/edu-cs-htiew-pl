@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/min-max-search.md)
 
-
 ## Podejście naiwne
 
 ```python linenums="1"
@@ -15,7 +14,6 @@ def find_min_max(array: list) -> (int, int):
         max_val = max(max_val, el)
 
     return min_val, max_val
-    
 
 array = [3, 6, 1, 9, 10, 4, -4, 6, 12, 5, 11]
 
@@ -23,7 +21,6 @@ min_val, max_val = find_min_max(array)
 
 print(f'Min: {min_val}, Max: {max_val}')
 ```
-
 
 Funkcja `find_min_max` przyjmuje jako argument listę `array` (lista liczb) i zwraca parę wartości (`min`, `max`).
 
@@ -58,15 +55,13 @@ def find_min_max(array: list) -> (int, int):
     max_val = max(max_candidates)
 
     return min_val, max_val
-    
-    
+
 array = [3, 6, 1, 9, 10, 4, -4, 6, 12, 5, 11]
 
 min_val, max_val = find_min_max(array)
 
 print(f'Min: {min_val}, Max: {max_val}')
 ```
-
 
 Funkcja `find_min_max` przyjmuje jako argument listę `array` (lista liczb) i zwraca parę wartości (`min_val`, `max_val`).
 

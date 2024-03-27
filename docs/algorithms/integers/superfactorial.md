@@ -8,8 +8,4 @@ Zauważmy, że superfactorial rośnie bardzo szybko. Na przykład, $4\$=288$, a 
 
 ## Implementacja
 
-### Python
-
-
-[superfactorial.md](../../programming/python/algorithms/integers/superfactorial.md)
-
+### [Python](../../programming/python/algorithms/integers/superfactorial.md)

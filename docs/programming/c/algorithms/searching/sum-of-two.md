@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/sum-of-two.md)
 
-
 ## Rozwiązanie naiwne
 
 ### Implementacja
@@ -33,7 +32,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ## Rozwiązanie optymalne
 
@@ -71,4 +69,3 @@ int main() {
   return 0;
 }
 ```
-

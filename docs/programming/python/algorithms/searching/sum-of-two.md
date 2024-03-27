@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/sum-of-two.md)
 
-
 ## Rozwiązanie naiwne
 
 ```python linenums="1"
@@ -14,14 +13,12 @@ def sum_of_two(tab: list, k: int):
                 return
                 
     print("Not found")
-    
 
 tab = [1, 2, 4, 6, 8, 9, 10, 12, 13, 15]
 k = 18
 
 sum_of_two(tab, k)
 ```
-
 
 Funkcja `sum_of_two` przyjmuje jako argumenty listę `tab` (lista liczb) oraz liczbę całkowitą `k` (szukana suma).
 
@@ -52,14 +49,12 @@ def sum_of_two(tab: list, k: int):
         print(tab[left], tab[right])
     else:
         print("Not found")
-     
-           
+
 tab = [1, 2, 4, 6, 8, 9, 10, 12, 13, 15]
 k = 18
 
 sum_of_two(tab, k)
 ```
-
 
 Funkcja `sum_of_two` przyjmuje jako argumenty listę `tab` (lista liczb) oraz liczbę całkowitą `k` (szukana suma).
 

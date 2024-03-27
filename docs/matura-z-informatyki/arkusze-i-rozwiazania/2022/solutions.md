@@ -51,7 +51,6 @@ TODO
 
     return result
 
-
   with open("liczby.txt") as input_file:
     numbers_list = list(map(int, input_file.read().split()))
 

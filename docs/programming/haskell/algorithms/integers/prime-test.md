@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/prime-test.md)
 
-
 ## Implementacja
 
 ```haskell linenums="1"
@@ -19,7 +18,6 @@ main = do
 
     print $ isPrime n
 ```
-
 
 ### Opis
 

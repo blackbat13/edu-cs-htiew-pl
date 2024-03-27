@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/binary-search.md)
 
-
 ## Istnienie elementu
 
 ### Implementacja
@@ -25,7 +24,6 @@ main = do
     then putStrLn "Liczba jest w tablicy"
     else putStrLn "Liczby nie ma w tablicy"
 ```
-
 
 ### Opis implementacji
 
@@ -62,7 +60,6 @@ main = do
         putStr "Liczba jest pod indeksem "
         print index
 ```
-
 
 ### Opis implementacji
 

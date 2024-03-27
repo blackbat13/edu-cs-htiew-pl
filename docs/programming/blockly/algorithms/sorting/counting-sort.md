@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/counting-sort.md)
 
-
 ## Implementacja
 
 ### Sortowanie

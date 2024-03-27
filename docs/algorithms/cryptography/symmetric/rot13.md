@@ -61,14 +61,6 @@ funkcja Rot13(tekst):
 
 ## Implementacja
 
-### C++
+### [C++](../../../programming/c++/algorithms/cryptography/rot13.md)
 
-
-[rot13.md](../../../programming/c++/algorithms/cryptography/rot13.md)
-
-
-### Python
-
-
-[rot13.md](../../../programming/python/algorithms/cryptography/rot13.md)
-
+### [Python](../../../programming/python/algorithms/cryptography/rot13.md)

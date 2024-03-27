@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/linear-search.md)
 
-
 ## Istnienie elementu
 
 ### Implementacja
@@ -31,7 +30,6 @@ void main() {
     }
 }
 ```
-
 
 ### Opis implementacji
 
@@ -68,7 +66,6 @@ void main() {
 }
 ```
 
-
 ### Opis implementacji
 
 Funkcja `linearSearch` (**linia 1**) zwraca jako wynik liczbę całkowitą i przyjmuje dwa argumenty: listę do przeszukania oraz wartość poszukiwanego elementu. Na początku funkcji przechodzimy pętlą przez wszystkie kolejne indeksy w liście od $0$ do rozmiaru listy minus jeden (**linia 2**). Rozmiar listy pobieramy za pomocą własności `length`. Dla każdego indeksu sprawdzamy, czy pod tym indeksem w liście znajduje się poszukiwana wartość (**linia 3**). Jeżeli tak, to zwracamy indeks tej wartości w liście (**linia 4**). Po przejściu przez wszystkie indeksy i wyjściu z pętli (tzn. gdy nie znaleźliśmy poszukiwanego elementu) zwracamy wartość `-1` informującą, że poszukiwany element nie znajduje się w liście (**linia 8**).
@@ -97,7 +94,6 @@ void main() {
     linearSearch(array, number);
 }
 ```
-
 
 ### Opis implementacji
 

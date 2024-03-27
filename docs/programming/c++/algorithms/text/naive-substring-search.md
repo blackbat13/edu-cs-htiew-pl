@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/text/naive-substring-search.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -46,4 +45,3 @@ int main() {
     return 0;
 }
 ```
-

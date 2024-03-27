@@ -42,13 +42,11 @@ margin = 10
 # Lsita do zapamiętania pól gry
 fields = []
 
-
 def draw():
     # Wypełniamy tło białym kolorem
     screen.fill("white")
     # Rysujemy pola gry
     draw_fields()
-
 
 # Funkcja rysująca pola gry
 def draw_fields():
@@ -58,7 +56,6 @@ def draw_fields():
         for el in row:
             # Każdy element rysujemy jako czerwony prostokąt
             screen.draw.filled_rect(el, "red")
-
 
 # Funkcja wywoływana po kliknięciu myszą
 def on_mouse_down(pos):
@@ -73,14 +70,12 @@ def on_mouse_down(pos):
                 # A następnie kończymy sprawdzanie
                 return
 
-
 # Funkcja usuwająca wskazane pole i wszystkie znajdujące się przed nim w danym wierszu
 def remove_field(r, c):
     # Dla każdego pola we wskazanym wierszu, od lewej do klikniętego pola
     for i in range(c + 1):
         # Usuwamy pole z początku wiersza
         fields[r].pop(0)
-
 
 # Funkcja generująca pola gry
 def generate_fields():
@@ -97,7 +92,6 @@ def generate_fields():
             rect = Rect((rect_width + margin) * c, (rect_height + margin) * r, rect_width, rect_height)
             # Dodajemy nowy prostokąt do obecnego wiersza
             fields[r].append(rect)
-
 
 # Przed startem gry generujemy planszę
 generate_fields()

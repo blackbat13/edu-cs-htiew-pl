@@ -79,14 +79,6 @@ Wyrazy został zakodowany na trzynastu bitach. Gdybyśmy użyli kodowania ASCII 
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/coding-and-compression/huffman-coding.md)
 
-
-[huffman-coding.md](../../programming/c++/algorithms/coding-and-compression/huffman-coding.md)
-
-
-### Python
-
-
-[huffman-coding.md](../../programming/python/algorithms/coding-and-compression/huffman-coding.md)
-
+### [Python](../../programming/python/algorithms/coding-and-compression/huffman-coding.md)

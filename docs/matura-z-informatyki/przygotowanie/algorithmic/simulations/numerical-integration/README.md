@@ -2,13 +2,9 @@
 
 ## Opisy algorytmów
 
-
 [numerical-integration.md](../../../../../algorithms/numerical-methods/numerical-integration.md)
 
-
-
 [monte-carlo.md](../../../../../algorithms/numerical-methods/monte-carlo.md)
-
 
 ## Zadanie 1
 

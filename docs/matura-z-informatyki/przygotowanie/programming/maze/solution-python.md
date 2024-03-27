@@ -5,7 +5,6 @@
 ```python
 from math import inf
 
-
 def dfs(x, y, maze, length):
     if maze[x][y] == 9:
         return length
@@ -22,7 +21,6 @@ def dfs(x, y, maze, length):
         dfs(x, y + 1, maze, length + 1),
     )
 
-
 with open("maze.txt") as file:
     file.readline()
     maze = [list(map(int, list(line.strip()))) for line in file]
@@ -35,7 +33,6 @@ print(dfs(x, y, maze, 0))
 
 ```python
 from math import inf
-
 
 def dfs_cost(x, y, maze, cost):
     if maze[x][y] == 9:
@@ -54,7 +51,6 @@ def dfs_cost(x, y, maze, cost):
         dfs_cost(x, y + 1, maze, cost),
     )
 
-
 with open("maze.txt") as file:
     file.readline()
     maze = [list(map(int, list(line.strip()))) for line in file]
@@ -67,7 +63,6 @@ print(dfs_cost(x, y, maze, 0))
 
 ```python
 from math import inf
-
 
 def dfs(x, y, maze, length):
     if maze[x][y] == 9:
@@ -84,7 +79,6 @@ def dfs(x, y, maze, length):
         dfs(x, y - 1, maze, length + 1),
         dfs(x, y + 1, maze, length + 1),
     )
-
 
 with open("maze.txt") as file:
     width, height = map(int, file.readline().split())

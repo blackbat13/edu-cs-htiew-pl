@@ -37,14 +37,6 @@ Algorytm Floyda-Warshalla jest używany w sieciach komputerowych do routingu, ja
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/graphs/floyd-warshall.md)
 
-
-[floyd-warshall.md](../../programming/c++/algorithms/graphs/floyd-warshall.md)
-
-
-### Python
-
-
-[floyd-warshall.md](../../programming/python/algorithms/graphs/floyd-warshall.md)
-
+### [Python](../../programming/python/algorithms/graphs/floyd-warshall.md)

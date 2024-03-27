@@ -34,14 +34,6 @@ Złożoność czasowa algorytmu zależna jest od stosowanego ciągu odstępów. 
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/sorting/shell-sort.md)
 
-
-[shell-sort.md](../../programming/c++/algorithms/sorting/shell-sort.md)
-
-
-### Python
-
-
-[shell-sort.md](../../programming/python/algorithms/sorting/shell-sort.md)
-
+### [Python](../../programming/python/algorithms/sorting/shell-sort.md)

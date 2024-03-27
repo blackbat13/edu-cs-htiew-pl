@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/prime-factors.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -19,9 +18,7 @@ def distribute(n: int) -> list:
 
     return prime_factors
 
-
 n = 124
 
 print(f"Prime factors of {n}: {distribute(n)}")
 ```
-

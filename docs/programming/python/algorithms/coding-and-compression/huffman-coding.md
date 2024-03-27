@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/coding-and-compression/huffman-coding.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -12,7 +11,6 @@ class Node:
         self.value = value
         self.left = left
         self.right = right
-
 
 def create_tree(text):
     nodes_list = []
@@ -28,7 +26,6 @@ def create_tree(text):
 
     return nodes_list[0]
 
-
 def create_codes(tree, codes, path):
     if tree.left is None and tree.right is None:
         codes[tree.letter] = path
@@ -40,14 +37,12 @@ def create_codes(tree, codes, path):
     if tree.right is not None:
         create_codes(tree.right, codes, path + "1")
 
-
 def compress(text, codes):
     compressed = ""
     for letter in text:
         compressed += codes[letter]
 
     return compressed
-
 
 def decompress(compressed, tree):
     decompressed = ""
@@ -64,7 +59,6 @@ def decompress(compressed, tree):
 
     return decompressed
 
-
 text = "papuga"
 tree = create_tree(text)
 codes = dict()
@@ -78,7 +72,6 @@ print("Compressed:", compressed)
 decompressed = decompress(compressed, tree)
 print("Decompressed:", decompressed)
 ```
-
 
 ### Opis implementacji
 

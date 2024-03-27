@@ -48,7 +48,6 @@ def threaded_client(user1):  # Obsługa graczy i ich gry
 
     start = time.perf_counter()
 
-
     # Obsługujemy rozmowę przez cał czas
     while True:
 
@@ -65,7 +64,6 @@ def threaded_client(user1):  # Obsługa graczy i ich gry
                 message = (type, move, random.randint(5, 20))
                 user1.send(str.encode(str(message)))
             # print(message)
-
 
 # Podajemy adres IP, na którym będzie działał serwer
 server = "192.168.1.39"
@@ -144,7 +142,6 @@ man.angle = 90
 hitmans = []
 bullets = []
 
-
 def generate_hitmans():
     for i in range(hitmans_count):
         hitman = Actor("hitman")
@@ -157,7 +154,6 @@ def generate_hitmans():
         hitman.can_shoot = True
         hitmans.append(hitman)
 
-
 def draw():
     screen.fill("black")
     man.draw()
@@ -166,7 +162,6 @@ def draw():
 
     for bul in bullets:
         bul.draw()
-
 
 def update():
     try:
@@ -202,7 +197,6 @@ def update():
         if bul.x > WIDTH:
             bullets.remove(bul)
 
-
 def on_key_down(key):
     if order == 1:
         if key == keys.UP:
@@ -212,8 +206,6 @@ def on_key_down(key):
             if man.y < 0:
                 man.y = HEIGHT - block_size / 2
 
-
 generate_hitmans()
 pgzrun.go()
 ```
-

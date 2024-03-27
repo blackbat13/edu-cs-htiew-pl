@@ -36,7 +36,6 @@ Twoim zadaniem jest obliczenie liczby rzędów, znając całkowitą liczbę wojo
 
 **Wynik:** $3$
 
-
 ## Przykład 3
 
 ### Dane

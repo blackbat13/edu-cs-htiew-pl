@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/numerical-methods/fast-exp.md)
 
-
 ## Rozwiązanie iteracyjne
 
 ```julia linenums="1"
@@ -21,7 +20,5 @@ function fastExp(a, n)
     return result
 end
 
-
 println(fastExp(2, 10))
 ```
-

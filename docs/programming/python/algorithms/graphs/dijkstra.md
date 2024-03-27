@@ -6,7 +6,6 @@ description: Najkrótsze ścieżki z zadanego wierzchołka
 
 ## [Opis problemu](../../../../algorithms/graphs/dijkstra.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -15,9 +14,7 @@ from typing import List
 from queue import Queue
 from collections import namedtuple
 
-
 Edge = namedtuple('Edge', ['start', 'end', 'cost'])
-
 
 def dijkstra(graph: List[List[Edge]], node: int) -> List[int]:
     q = Queue()
@@ -40,7 +37,6 @@ def dijkstra(graph: List[List[Edge]], node: int) -> List[int]:
 
     return distances
 
-
 graph = [
     [Edge(0, 1, 5), Edge(0, 6, 5)],
     [Edge(1, 0, 5), Edge(1, 6, 5), Edge(1, 3, 3), Edge(1, 2, 3)],
@@ -55,4 +51,3 @@ distances = dijkstra(graph, 0)
 
 print(distances)
 ```
-

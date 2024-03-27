@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/fractals/koch-snowflake.md)
 
-
 ## Implementacja
 
 ### Krzywa Kocha

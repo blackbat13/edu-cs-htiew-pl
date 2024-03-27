@@ -120,28 +120,12 @@ flowchart TD
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/backtracking/n-queens.md)
 
+### [Python](../../programming/python/algorithms/backtracking/n-queens.md)
 
-[n-queens.md](../../programming/c++/algorithms/backtracking/n-queens.md)
-
-
-### Python
-
-
-[n-queens.md](../../programming/python/algorithms/backtracking/n-queens.md)
-
-
-### Kotlin
-
-
-[n-queens.md](../../programming/kotlin/algorithms/backtracking/n-queens.md)
-
+### [Kotlin](../../programming/kotlin/algorithms/backtracking/n-queens.md)
 
 ## Implementacja - pozostałe
 
-### Julia
-
-
-[n-queens.md](../../programming/julia/algorithms/backtracking/n-queens.md)
-
+### [Julia](../../programming/julia/algorithms/backtracking/n-queens.md)

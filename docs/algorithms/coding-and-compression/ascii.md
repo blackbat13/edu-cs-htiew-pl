@@ -271,17 +271,8 @@ ASCII, czyli American Standard Code for Information Interchange, to standard kod
 |   254  |   ■  |                               Black Square                              |
 |   255  |      |                         Non-Breaking Space, NBSP                        |
 
-
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/coding-and-compression/ascii.md)
 
-
-[ascii.md](../../programming/c++/algorithms/coding-and-compression/ascii.md)
-
-
-### Python
-
-
-[ascii.md](../../programming/python/algorithms/coding-and-compression/ascii.md)
-
+### [Python](../../programming/python/algorithms/coding-and-compression/ascii.md)

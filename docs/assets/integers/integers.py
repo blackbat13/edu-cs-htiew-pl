@@ -2,10 +2,6 @@ import math
 import statistics
 import collections
 
-
-
-
-
 def ex1():
     with open(file_name) as file:
         numbers = list(map(int, file.read().split()))
@@ -16,7 +12,6 @@ def ex1():
     print("Minimum:", min_val, "Pozycja:", numbers.index(min_val) + 1)
     print("Maksimum:", max_val, "Pozycja:", numbers.index(max_val) + 1)
 
-
 def ex2():
     with open(file_name) as file:
         numbers = list(map(int, file.read().split()))
@@ -26,7 +21,6 @@ def ex2():
 
     print("Suma:", sum_val)
     print(f"Średnia: {avg_val:.2f}")
-
 
 def ex3():
     with open(file_name) as file:
@@ -40,7 +34,6 @@ def ex3():
 
     print(counter)
 
-
 def ex4():
     with open(file_name) as file:
         numbers = list(map(int, file.read().split()))
@@ -49,7 +42,6 @@ def ex4():
 
     print("Minimum parzyste:", min(even))
     print("Maksimum parzyste:", max(even))
-
 
 def ex5():
     with open(file_name) as file:
@@ -63,7 +55,6 @@ def ex5():
 
     print(counter)
 
-
 def ex6():
     with open(file_name) as file:
         numbers = list(map(int, file.read().split()))
@@ -72,7 +63,6 @@ def ex6():
 
     print("Maksimum NWD:", max(gcd_list))
     print("Minimum NWD:", min(gcd_list))
-
 
 def ex7():
     with open(file_name) as file:
@@ -87,7 +77,6 @@ def ex7():
             )
 
     print("NWW:", current_lcm)
-
 
 def is_prime(num):
     """
@@ -105,7 +94,6 @@ def is_prime(num):
 
     return True
 
-
 def ex8():
     with open(file_name) as file:
         numbers = list(map(int, file.read().split()))
@@ -117,7 +105,6 @@ def ex8():
             counter += 1
 
     print(counter)
-
 
 def ex9():
     with open(file_name) as file:
@@ -143,7 +130,6 @@ def ex9():
         "Maksymalna suma cyfr:", max_sum, "Liczba:", numbers[numbers_sum.index(max_sum)]
     )
 
-
 def ex10():
     with open(file_name) as file:
         numbers = list(map(int, file.read().split()))
@@ -167,7 +153,6 @@ def ex10():
     print("Para o największej sumie:", max_pair)
     print("Para o najmniejszej sumie:", min_pair)
 
-
 def ex11():
     with open(file_name) as file:
         numbers = list(map(int, file.read().split()))
@@ -185,13 +170,11 @@ def ex11():
         if factors_sum == num:
             print(num)
 
-
 def ex12():
     with open(file_name) as file:
         numbers = list(map(int, file.read().split()))
 
     print(statistics.median(numbers))
-
 
 def ex13():
     with open(file_name) as file:
@@ -201,7 +184,6 @@ def ex13():
     most_common = counters.most_common(1)[0]
     print("Najpopularniejsza liczba:", most_common[0])
     print("Liczba wystąpień:", most_common[1])
-
 
 def ex14():
     with open(file_name) as file:
@@ -222,7 +204,6 @@ def ex14():
             counter += 1
 
     print(counter)
-
 
 def ex15():
     with open(file_name) as file:
@@ -247,7 +228,6 @@ def ex15():
     print("Mniej zer:", more_ones)
     print("Tyle samo:", zeros_eq_ones)
 
-
 def ex16():
     with open(file_name) as file:
         numbers = list(map(int, file.read().split()))
@@ -263,7 +243,6 @@ def ex16():
             counter += 1
 
     print(counter)
-
 
 def ex17():
     with open(file_name) as file:
@@ -283,7 +262,6 @@ def ex17():
 
     print(counter)
 
-
 def ex18():
     with open(file_name) as file:
         numbers = list(map(int, file.read().split()))
@@ -292,7 +270,6 @@ def ex18():
         sq = int(math.sqrt(num))
         if sq**2 == num:
             print(num)
-
 
 def ex19():
     with open(file_name) as file:
@@ -363,7 +340,6 @@ def ex24():
 
         if seq[-1] == num:
             print(num)
-
 
 file_name = "integers_test.txt"
 

@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/atm-problem/README.md)
 
-
 ## Podejście zachłanne
 
 ```python linenums="1"
@@ -16,7 +15,6 @@ def change_greedy(amount: int, coins: list) -> int:
 
     return result
 
-
 coins = [200, 100, 50, 20, 10, 5, 2, 1]
 amount = 589
 
@@ -26,12 +24,10 @@ print("Greedy algorithm")
 print(f"Amount {amount} can be given out using {result} coins")
 ```
 
-
 ## Podejście dynamiczne
 
 ```python linenums="1"
 from math import inf
-
 
 def change_dynamic(amount: int, coins: list):
     partial_results = [inf] * (amount + 1)
@@ -57,14 +53,12 @@ def change_dynamic(amount: int, coins: list):
         print(used_coins[i])
         i -= used_coins[i]
 
-
 coins = [1, 2, 7, 10]
 amount = 14
 
 print("Dynamic algorithm")
 change_dynamic(amount, coins)
 ```
-
 
 ### Opis implementacji
 

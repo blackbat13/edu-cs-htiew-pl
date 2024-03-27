@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/prefix-sum.md)
 
-
 ## Implementacja
 
 ```c linenums="1"
@@ -38,4 +37,3 @@ int main() {
   return 0;
 }
 ```
-

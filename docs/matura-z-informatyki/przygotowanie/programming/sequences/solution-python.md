@@ -12,7 +12,6 @@ for seq in sequences:
     print(sum(seq))
 ```
 
-
 ## Zadanie 2
 
 ```python linenums="1"
@@ -24,7 +23,6 @@ with open("sequences.txt") as file:
 for seq in sequences:
     print(f"Minimum: {min(seq)}, Maksimum: {max(seq)}")
 ```
-
 
 ## Zadanie 3
 
@@ -42,7 +40,6 @@ def is_prime(n):
 
     return True
 
-
 with open("sequences.txt") as file:
     sequences = []
     for line in file:
@@ -57,7 +54,6 @@ for seq in sequences:
     print(f"Ile pierwszych: {len(primes)}, Liczby pierwsze: ", end="")
     print(*primes)
 ```
-
 
 ## Zadanie 4
 
@@ -84,12 +80,10 @@ for seq in sequences:
     print(*seq[max_start : max_start + max_length])
 ```
 
-
 ## Zadanie 5
 
 ```python linenums="1"
 from math import gcd
-
 
 with open("sequences.txt") as file:
     sequences = []
@@ -105,4 +99,3 @@ for seq in sequences:
 
     print(count)
 ```
-

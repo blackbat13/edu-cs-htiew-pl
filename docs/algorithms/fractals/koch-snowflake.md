@@ -65,20 +65,8 @@ flowchart TD
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/fractals/koch-snowflake.md)
 
+### [Python](../../programming/python/algorithms/fractals/koch-snowflake.md)
 
-[koch-snowflake.md](../../programming/c++/algorithms/fractals/koch-snowflake.md)
-
-
-### Python
-
-
-[koch-snowflake.md](../../programming/python/algorithms/fractals/koch-snowflake.md)
-
-
-### Blockly
-
-
-[koch-snowflake.md](../../programming/blockly/algorithms/fractals/koch-snowflake.md)
-
+### [Blockly](../../programming/blockly/algorithms/fractals/koch-snowflake.md)

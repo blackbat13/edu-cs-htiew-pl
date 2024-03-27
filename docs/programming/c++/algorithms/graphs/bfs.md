@@ -6,7 +6,6 @@ description: Przeszukiwanie grafu wszerz
 
 ## [Opis problemu](../../../../algorithms/graphs/bfs.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -60,7 +59,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 

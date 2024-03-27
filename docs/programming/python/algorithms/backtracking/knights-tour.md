@@ -2,15 +2,12 @@
 
 ## [Opis problemu](../../../../algorithms/backtracking/knights-tour.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
 from pprint import pprint
 
-
 moves_list = [(-1, -2), (1, -2), (2, -1), (2, 1), (-2, -1), (-1, 2), (1, 2)]
-
 
 def kinght_tour(n: int, chessboard: list, visited_count: int, row: int, column: int) -> tuple:
     chessboard[row][column] = visited_count - 1
@@ -29,7 +26,6 @@ def kinght_tour(n: int, chessboard: list, visited_count: int, row: int, column: 
     chessboard[row][column] = -1
     return False, None
 
-
 n = 5
 chessboard = [[-1] * n for _ in range(n)]
 
@@ -41,4 +37,3 @@ if result_value:
 else:
     print("No result")
 ```
-

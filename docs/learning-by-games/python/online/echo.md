@@ -235,7 +235,6 @@ while True:
 ```python
 import socket
 
-
 # Podajemy adres IP, na którym będzie działał serwer
 server_ip = "127.0.0.1"
 
@@ -279,7 +278,6 @@ TODO
 import socket
 from _thread import *
 
-
 def threaded_client(user):
     # Obsługujemy klienta przez cały czas
     while True:
@@ -288,7 +286,6 @@ def threaded_client(user):
         
         # I wysyłamy ją z powrotem 
         user.send(str.encode(message))
-
 
 # Podajemy adres IP, na którym będzie działał serwer
 server = "127.0.0.1"

@@ -2,9 +2,7 @@
 
 ## Opis zagadnienia
 
-
 [programowanie-obiektowe.md](../../../../algorithms/oop/README.md)
-
 
 ## Wstęp
 

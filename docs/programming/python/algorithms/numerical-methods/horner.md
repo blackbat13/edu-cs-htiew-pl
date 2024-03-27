@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/numerical-methods/horner.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -24,7 +23,6 @@ def horner_polynomial(coef: [], x: float, n: float) -> float:
         
     return result
 
-
 def print_polynomial(coef: [], n: int):
     """
     Prints given polynomial
@@ -38,7 +36,6 @@ def print_polynomial(coef: [], n: int):
     
     print()
 
-
 coef = [1, 2, 3]
 x = 2
 n = 2
@@ -47,7 +44,6 @@ print_polynomial(coef, n)
 result = horner_polynomial(coef, x, n)
 print(f"f({x}) = {result}")
 ```
-
 
 ### Opis implementacji
 

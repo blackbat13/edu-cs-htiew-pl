@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/merge-sort.md)
 
-
 ## Implementacja
 
 ```julia linenums="1"
@@ -27,7 +26,6 @@ function merge(array, left, right, division)
     end
 end
 
-
 function mergeSort(array, left, right)
     if right - left <= 1
         return
@@ -41,11 +39,9 @@ function mergeSort(array, left, right)
     merge(array, left, right, division)
 end
 
-
 array = [7, 3, 0, 1, 5, 2, 5, 19, 10, 5]
 
 mergeSort(array, 1, length(array) + 1)
 
 println(array)
 ```
-

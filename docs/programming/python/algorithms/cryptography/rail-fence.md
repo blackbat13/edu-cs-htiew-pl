@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/cryptography/symmetric/rail-fence.md)
 
-
 ## Szyfrowanie
 
 ```python linenums="1"
@@ -20,7 +19,6 @@ def encrypt_rail_fence(message: str, key: int) -> str:
 
     return encrypted
 
-
 message = "computer science"
 key = 3
 
@@ -28,7 +26,6 @@ encrypted = encrypt_rail_fence(message, key)
 
 print(encrypted)
 ```
-
 
 ## Deszyfrowanie
 
@@ -49,7 +46,6 @@ def decrypt_rail_fence(message: str, key: int) -> str:
             
     return "".join(decrypted)
 
-
 message = "cu eoptrsinemecc"
 key = 3
 
@@ -57,4 +53,3 @@ decrypted = decrypt_rail_fence(message, key)
 
 print(decrypted)
 ```
-

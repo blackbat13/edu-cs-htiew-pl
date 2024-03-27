@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/perfect-test.md)
 
-
 ## Implementacja
 
 ```kotlin

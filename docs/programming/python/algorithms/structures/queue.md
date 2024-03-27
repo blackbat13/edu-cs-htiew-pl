@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/structures/queue.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -53,7 +52,6 @@ class Queue:
     if self._first_element is not None:
       self._first_element.clear_forward()
 
-
 if __name__ == "__main__":
   queue = Queue()
 
@@ -64,4 +62,3 @@ if __name__ == "__main__":
     print(queue.front())
     queue.pop()
 ```
-

@@ -57,14 +57,6 @@ onp := "27+3/13-4*+2/"
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/text/rpn.md)
 
-
-[rpn.md](../../programming/c++/algorithms/text/rpn.md)
-
-
-### Python
-
-
-[rpn.md](../../programming/python/algorithms/text/rpn.md)
-
+### [Python](../../programming/python/algorithms/text/rpn.md)

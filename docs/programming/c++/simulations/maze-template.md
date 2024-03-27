@@ -51,7 +51,6 @@
         /// Pamietamy o zamknieciu pliku
         plik.close();
 
-
         /// Wysiwetlamy wczytane dane na ekranie
 
         cout << "Wysokosc: " << n << endl;

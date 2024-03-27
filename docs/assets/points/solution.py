@@ -1,6 +1,5 @@
 from pprint import pprint
 
-
 def exercise1():
     tab = [[0] * width for _ in range(height)]
     with open(file_name) as file:
@@ -15,7 +14,6 @@ def exercise1():
                 count += 1
     
     print(count)
-
 
 def exercise2():
     tab = [[0] * width for _ in range(height)]
@@ -45,7 +43,6 @@ def exercise2():
     print("Wiersze:", count_rows)
     print("Kolumny:", count_cols)
 
-
 def exercise3():
     tab = [[0] * width for _ in range(height)]
     with open(file_name) as file:
@@ -60,7 +57,6 @@ def exercise3():
                 count += 1
     
     print(count)
-
 
 def exercise4():
     tab = [[0] * width for _ in range(height)]
@@ -78,7 +74,6 @@ def exercise4():
         for col in range(width):
             if tab[row][col] == max_val:
                 print(row + 1, col + 1)
-
 
 def exercise5():
     tab = [[0] * width for _ in range(height)]
@@ -102,7 +97,6 @@ def exercise5():
 
     print(count)
 
-
 def exercise6():
     tab = [[0] * width for _ in range(height)]
     with open(file_name) as file:
@@ -117,7 +111,6 @@ def exercise6():
     
     for i in range(len(counters)):
         print(f"Wartość {i}: {counters[i]}")
-
 
 def exercise7():
     tab = [[0] * width for _ in range(height)]
@@ -145,7 +138,6 @@ def exercise7():
     print("Druga przekątna:", sum2)
     print("Pod główną przekątną:", sum3)
     print("Nad główną przekątną:", sum4)
-
 
 def exercise8():
     tab = [[0] * width for _ in range(height)]

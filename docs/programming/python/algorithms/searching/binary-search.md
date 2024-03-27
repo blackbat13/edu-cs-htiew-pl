@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/binary-search.md)
 
-
 ## Wersja iteracyjna
 
 ```python linenums="1"
@@ -24,7 +23,6 @@ def binary_search_iterative(array: list, number: int) -> int:
         return left
 
     return -1
-    
 
 array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 number = 8
@@ -33,7 +31,6 @@ index = binary_search_iterative(array, number)
 
 print(index)
 ```
-
 
 Funkcja `binary_search_iterative` przyjmuje dwa argumenty: listę `array` oraz liczbę `number`, którą chcemy znaleźć. Oto, jak działa ta funkcja:
 
@@ -69,8 +66,7 @@ def binary_search_recursive(array: list, number: int, left: int, right: int) -> 
         return left
 
     return -1
-    
-    
+
 array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 number = 8
 
@@ -78,7 +74,6 @@ index = binary_search_recursive(array, number, 0, len(array))
 
 print(index)
 ```
-
 
 Funkcja `binary_search_recursive` przyjmuje cztery argumenty: listę `array`, liczbę `number` do znalezienia, oraz indeksy `left` i `right` określające zakres, w którym szukamy liczby. Oto jak działa ta funkcja:
 

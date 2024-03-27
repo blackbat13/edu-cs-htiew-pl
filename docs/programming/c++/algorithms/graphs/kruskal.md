@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/graphs/kruskal.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -105,7 +104,6 @@ void kruskal(vector<vector<edge> > &graph, vector<edge> &minSpanningTree) {
     }
 }
 
-
 int main() {
 	vector<vector<edge> > graph = {
 		{edge(0, 1, 5), edge(0, 6, 5)}, 
@@ -128,7 +126,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 

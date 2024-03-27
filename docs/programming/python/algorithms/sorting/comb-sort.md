@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/comb-sort.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -24,14 +23,12 @@ def comb_sort(array: list):
 
             i += 1
 
-
 array = [7, 3, 0, 1, 5, 2, 5, 19, 10, 5]
 
 comb_sort(array)
     
 print(array)
 ```
-
 
 ### Opis implementacji
 

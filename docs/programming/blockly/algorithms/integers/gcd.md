@@ -6,7 +6,6 @@ description: Największy Wspólny Dzielnik
 
 ## [Opis problemu](../../../../algorithms/integers/gcd.md)
 
-
 ## NWD z odejmowaniem
 
 ### NWD

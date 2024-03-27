@@ -98,7 +98,6 @@ Dopisujemy jeszcze część aktualizującą (*update*), na początek jedynie z p
 def update():
     pass
 
-
 pgzrun.go()
 ```
 
@@ -108,7 +107,6 @@ pgzrun.go()
 import pgzrun
 import random
 
-
 # Określamy szerokość i wysokość okna gry
 WIDTH = 800
 HEIGHT = 800
@@ -116,16 +114,13 @@ HEIGHT = 800
 # Podajemy tytuł okna naszej gry
 TITLE = "Pygame Zero Hungry Pig"
 
-
 # Funkcja rysująca stan gry na ekranie
 def draw():
     # Wyświetlamy tło
 
-
 # Funkcja aktualizująca stan gry
 def update():
     pass
-
 
 # Uruchamiamy grę
 pgzrun.go()
@@ -265,7 +260,6 @@ def on_key_down(key):
 import pgzrun
 import random
 
-
 WIDTH = 800
 HEIGHT = 800
 
@@ -282,18 +276,15 @@ pig.vy = 0
 # Określamy początkową prędkość główną świni
 pig.v = 3
 
-
 def draw():
     screen.blit("bg", (0, 0))
     # Rysujemy świnię
     pig.draw()
 
-
 def update():
     # Przemieszczamy świnię zgodnie z jej prędkością w poziomie i pionie
     pig.x += pig.vx
     pig.y += pig.vy
-
 
 # Funkcja odczytująca kliknięcia klawiszy na klawiaturze
 def on_key_down(key):
@@ -322,7 +313,6 @@ def on_key_down(key):
         pig.vx = 0
         pig.vy = pig.v
         pig.image = "pig_down"
-
 
 pgzrun.go()
 ```
@@ -409,7 +399,6 @@ def update():
 import pgzrun
 import random
 
-
 WIDTH = 800
 HEIGHT = 800
 
@@ -428,13 +417,11 @@ beet = Actor("beetroot")
 beet.x = 200
 beet.y = 200
 
-
 def draw():
     screen.blit("bg", (0, 0))
     pig.draw()
     # Rysujemy buraka
     beet.draw()
-
 
 def update():
     pig.x += pig.vx
@@ -449,7 +436,6 @@ def update():
         pig.v += 0.8
         # Odgrywamy dźwięk świni
         sounds.pig.play()
-
 
 def on_key_down(key):
     if key == keys.LEFT:
@@ -471,7 +457,6 @@ def on_key_down(key):
         pig.vx = 0
         pig.vy = pig.v
         pig.image = "pig_down"
-
 
 pgzrun.go()
 ```
@@ -517,7 +502,6 @@ def update():
 import pgzrun
 import random
 
-
 WIDTH = 800
 HEIGHT = 800
 
@@ -536,14 +520,12 @@ beet = Actor("beetroot")
 beet.x = 200
 beet.y = 200
 
-
 def draw():
     screen.blit("bg", (0, 0))
     pig.draw()
     beet.draw()
     # Wypisujemy liczbę zdobytych punktów
     screen.draw.text(f"{pig.points}", center=(WIDTH / 2, 50), fontsize=60, color="#fdee00", fontname="kenney_bold")
-    
 
 def update():
     pig.x += pig.vx
@@ -556,7 +538,6 @@ def update():
         # Zwiększamy liczbę punktów
         pig.points += 1
         sounds.pig.play()
-
 
 def on_key_down(key):
     if key == keys.LEFT:
@@ -578,7 +559,6 @@ def on_key_down(key):
         pig.vx = 0
         pig.vy = pig.v
         pig.image = "pig_down"
-
 
 pgzrun.go()
 ```
@@ -676,7 +656,6 @@ Dzięki temu, jeżeli gra jest już zakończona, to żadne dalsze instrukcje w d
 import pgzrun
 import random
 
-
 WIDTH = 800
 HEIGHT = 800
 
@@ -696,7 +675,6 @@ beet = Actor("beetroot")
 beet.x = 200
 beet.y = 200
 
-
 def draw():
     screen.blit("bg", (0, 0))
     pig.draw()
@@ -706,7 +684,6 @@ def draw():
     if pig.dead:
         # Wypisujemy komunikat o zakończeniu gry
         screen.draw.text(f"GAME OVER", center=(WIDTH / 2, HEIGHT / 2), fontsize=70, color="#e30022", fontname="kenney_bold")
-
 
 def update():
     # Jeżeli gra się zakońćzyła
@@ -734,7 +711,6 @@ def update():
         # Zmieniamy grafikę świni
         pig.image = "pig_dead"
 
-
 def on_key_down(key):
     # Jeżeli gra się zakończyła
     if pig.dead:
@@ -760,7 +736,6 @@ def on_key_down(key):
         pig.vx = 0
         pig.vy = pig.v
         pig.image = "pig_down"
-
 
 pgzrun.go()
 ```
@@ -822,7 +797,6 @@ beet = Actor("beetroot")
 beet.x = 200
 beet.y = 200
 
-
 def draw():
     screen.blit("bg", (0, 0))
     pig.draw()
@@ -832,7 +806,6 @@ def draw():
         screen.draw.text(f"GAME OVER", center=(WIDTH / 2, HEIGHT / 2), fontsize=70, color="#e30022", fontname="kenney_bold")
         # Wypisujemy komunikat o możliwości ponownego rozpoczęcia rozgrywki
         screen.draw.text(f"Press SPACE to try again", center=(WIDTH / 2, 2 * HEIGHT / 3), fontsize=30, color="#e30022", fontname="kenney_bold")
-
 
 def update():
     if pig.dead:
@@ -853,7 +826,6 @@ def update():
         pig.x = WIDTH / 2
         pig.y = HEIGHT / 3
         pig.image = "pig_dead"
-
 
 def on_key_down(key):
     if pig.dead:
@@ -883,7 +855,6 @@ def on_key_down(key):
         pig.vx = 0
         pig.vy = pig.v
         pig.image = "pig_down"
-		
 
 # Funkcja restartująca grę
 def restart():
@@ -901,7 +872,6 @@ def restart():
     pig.points = 0
     # Zapamiętujemy, czy gra się zakończyła
     pig.dead = False
-
 
 pgzrun.go()
 ```
@@ -934,7 +904,6 @@ beet = Actor("beetroot")
 beet.x = 200
 beet.y = 200
 
-
 def draw():
     screen.blit("bg", (0, 0))
     pig.draw()
@@ -943,7 +912,6 @@ def draw():
     if pig.dead:
         screen.draw.text(f"GAME OVER", center=(WIDTH / 2, HEIGHT / 2), fontsize=70, color="#e30022", fontname="kenney_bold")
         screen.draw.text(f"Press SPACE to try again", center=(WIDTH / 2, 2 * HEIGHT / 3), fontsize=30, color="#e30022", fontname="kenney_bold")
-
 
 def update():
     if pig.dead:
@@ -964,7 +932,6 @@ def update():
         pig.x = WIDTH / 2
         pig.y = HEIGHT / 3
         pig.image = "pig_dead"
-
 
 def on_key_down(key):
     if pig.dead:
@@ -992,7 +959,6 @@ def on_key_down(key):
         pig.vx = 0
         pig.vy = pig.v
         pig.image = "pig_down"
-		
 
 def restart():
     pig.image = "pig_down"
@@ -1003,7 +969,6 @@ def restart():
     pig.v = 3
     pig.points = 0
     pig.dead = False
-
 
 # Wywołujemy funkcję restart, aby ustawić początkowe parametry naszej gry
 restart()
@@ -1016,7 +981,6 @@ pgzrun.go()
 # Importujemy potrzebne biblioteki
 import pgzrun
 import random
-
 
 # Określamy szerokość i wysokość okna gry
 WIDTH = 800
@@ -1034,7 +998,6 @@ beet = Actor("beetroot")
 beet.x = 200
 beet.y = 200
 
-
 # Funkcja rysująca stan gry na ekranie
 def draw():
     # Wyświetlamy tło
@@ -1051,7 +1014,6 @@ def draw():
         screen.draw.text(f"GAME OVER", center=(WIDTH / 2, HEIGHT / 2), fontsize=70, color="#e30022", fontname="kenney_bold")
         # Wypisujemy komunikat o możliwości ponownego rozpoczęcia rozgrywki
         screen.draw.text(f"Press SPACE to try again", center=(WIDTH / 2, 2 * HEIGHT / 3), fontsize=30, color="#e30022", fontname="kenney_bold")
-
 
 # Funkcja aktualizująca stan gry
 def update():
@@ -1085,7 +1047,6 @@ def update():
         pig.y = HEIGHT / 3
         # Zmieniamy grafikę świni
         pig.image = "pig_dead"
-
 
 # Funkcja odczytująca kliknięcia klawiszy na klawiaturze
 def on_key_down(key):
@@ -1124,7 +1085,6 @@ def on_key_down(key):
         pig.vx = 0
         pig.vy = pig.v
         pig.image = "pig_down"
-		
 
 # Funkcja restartująca grę
 def restart():
@@ -1142,7 +1102,6 @@ def restart():
     pig.points = 0
     # Zapamiętujemy, czy gra się zakończyła
     pig.dead = False
-
 
 # Wywołujemy funkcję restart, aby ustawić początkowe parametry naszej gry
 restart()

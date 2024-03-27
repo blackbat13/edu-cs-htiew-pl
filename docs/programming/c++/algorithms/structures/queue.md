@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/structures/queue.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -110,4 +109,3 @@ int main() {
     return 0;
 }
 ```
-

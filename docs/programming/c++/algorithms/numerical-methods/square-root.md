@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/numerical-methods/square-root.md)
 
-
 ## Metoda Herona
 
 ### Implementacja
@@ -35,4 +34,3 @@ int main() {
     return 0;
 }
 ```
-

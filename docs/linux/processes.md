@@ -97,7 +97,6 @@ Zużycie pamięci wymiany (swap) w kilobajtach:
 * wolna pamięć (free memory)
 * cached memory
 
-
 #### Nagłówki tabeli
 
 * ID procesu

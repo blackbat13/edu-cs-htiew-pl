@@ -2,12 +2,10 @@
 
 ## [Opis problemu](../../../../algorithms/graphs/prim.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
 import heapq
-
 
 class Edge:
 
@@ -24,7 +22,6 @@ class Edge:
 
   def __repr__(self) -> str:
     return self.__str__()
-
 
 def prim(graph: list, node: int) -> list:
   visited = [False] * len(graph)
@@ -51,7 +48,6 @@ def prim(graph: list, node: int) -> list:
 
   return min_spanning_tree
 
-
 if __name__ == "__main__":
   graph = [[Edge(0, 1, 5), Edge(0, 6, 5)],
            [Edge(1, 0, 5),
@@ -76,4 +72,3 @@ if __name__ == "__main__":
 
   print(min_spanning_tree)
 ```
-

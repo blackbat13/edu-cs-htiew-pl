@@ -2,9 +2,7 @@
 
 ## Opis zagadnienia
 
-
 [bitwise-operations.md](../../../algorithms/numeral-systems/bitwise-operations.md)
-
 
 ### Przesunięcie bitowe
 

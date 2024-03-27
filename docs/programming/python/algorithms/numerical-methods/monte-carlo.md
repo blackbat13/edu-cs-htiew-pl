@@ -2,12 +2,10 @@
 
 ## [Opis problemu](../../../../algorithms/numerical-methods/monte-carlo.md)
 
-
 ## Obliczanie wartości liczby PI
 
 ```python linenums="1"
 from random import random
-
 
 def monte_carlo_pi(points_count: int) -> float:
     num_points_in_circle = 0
@@ -23,7 +21,6 @@ def monte_carlo_pi(points_count: int) -> float:
 
     return (4 * num_points_in_circle) / points_count
 
-
 points_count = 1000
 
 estimated_pi = monte_carlo_pi(points_count)
@@ -31,14 +28,12 @@ estimated_pi = monte_carlo_pi(points_count)
 print(f"PI ~= {estimated_pi}")
 ```
 
-
 ## Obliczanie wartości PI wraz z rysowaniem wykresu
 
 ```python linenums="1"
 from random import random
 
 import matplotlib.pyplot as plt
-
 
 def monte_carlo_pi(points_count: int) -> float:
     num_points_in_circle = 0
@@ -62,7 +57,6 @@ def monte_carlo_pi(points_count: int) -> float:
 
     return (4 * num_points_in_circle) / points_count
 
-
 points_count = 1000
 
 estimated_pi = monte_carlo_pi(points_count)
@@ -71,4 +65,3 @@ print(f"PI ~= {estimated_pi}")
 
 plt.show()
 ```
-

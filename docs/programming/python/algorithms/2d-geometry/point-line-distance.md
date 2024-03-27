@@ -2,19 +2,16 @@
 
 ## [Opis problemu](../../../../algorithms/2d-geometry/point-line-distance.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
 from math import abs, sqrt
-
 
 def point_line_distance(line_point1: dict, line_point2: dict, point: dict) -> float:
     a = line_point2["y"] - line_point1["y"]
     b = line_point2["x"] - line_point1["x"]
     
     return abs(a * (line_point1["x"] - point["x"]) + b * (point["y"] - line_point1["y"])) / sqrt(a * a + b * b)
-
 
 line_point1 = {"x": -3, "y": -4}
 line_point2 = {"x": 7, "y": 6}
@@ -24,7 +21,6 @@ distance = point_line_distance(line_point1, line_point2, point)
     
 print(distance)
 ```
-
 
 ### Opis implementacji
 

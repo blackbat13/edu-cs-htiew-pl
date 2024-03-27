@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/text/naive-substring-search.md)
 
-
 ## Znajdowanie miejsca pierwszego wystąpienia wzorca w tekście 
 
 ```python linenums="1"
@@ -16,8 +15,7 @@ def substring_pos(a: str, b: str) -> int:
             return i
  
     return -1
- 
- 
+
 a = "alamakota"
 b = "kot"
  
@@ -27,4 +25,3 @@ if pos == -1:
 else:
     print(f'{b} is substring of {a} and starts at position {pos}')
 ```
-

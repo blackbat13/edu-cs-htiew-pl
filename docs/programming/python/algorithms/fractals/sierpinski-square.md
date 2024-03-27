@@ -2,12 +2,10 @@
 
 ## [Opis problemu](../../../../algorithms/fractals/sierpinski-square.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
 import turtle
-
 
 def sierpinski_square(rank, length):
     if rank == 0:
@@ -25,7 +23,6 @@ def sierpinski_square(rank, length):
         turtle.forward(length / 3)
         turtle.left(90)
 
-
 turtle.color('blue')
 turtle.speed(0)
 turtle.penup()
@@ -36,7 +33,6 @@ sierpinski_square(3, 300)
 
 turtle.done()
 ```
-
 
 ### Link do implementacji
 

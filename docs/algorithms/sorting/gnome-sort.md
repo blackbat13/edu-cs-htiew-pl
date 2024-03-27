@@ -59,19 +59,8 @@ Prześledzenie złożoności algorytmu sortowania gnoma może wydawać się niet
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/sorting/gnome-sort.md)
 
+### [Python](../../programming/python/algorithms/sorting/gnome-sort.md)
 
-[gnome-sort.md](../../programming/c++/algorithms/sorting/gnome-sort.md)
-
-
-### Python
-
-
-[gnome-sort.md](../../programming/python/algorithms/sorting/gnome-sort.md)
-
-
-### Kotlin
-
-
-[gnome-sort.md](../../programming/kotlin/algorithms/sorting/gnome-sort.md)
+### [Kotlin](../../programming/kotlin/algorithms/sorting/gnome-sort.md)

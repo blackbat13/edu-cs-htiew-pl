@@ -11,7 +11,6 @@ while True:
     translation, word = line.split(" ")
     dictionary[word] = translation
 
-
 while True:
     try:
         word = input()
@@ -23,4 +22,3 @@ while True:
     else:
         print(dictionary[word])
 ```
-

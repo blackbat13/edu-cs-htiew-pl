@@ -64,6 +64,4 @@ function onClickAlien() {
 }
 ```
 
-
-
 [https://replit.com/@damiankurpiewski/CatchAlien-1#code/main.js](https://replit.com/@damiankurpiewski/CatchAlien-1#code/main.js)

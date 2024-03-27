@@ -32,7 +32,6 @@ def exercise1():
     return result
 ```
 
-
 ## Zadanie 2
 
 ```python linenums="1"
@@ -43,7 +42,6 @@ def exercise2():
         parentheses.sort(key=lambda el : (el.count("(") + el.count(")"), el.count("[") + el.count("]"), el.count("{") + el.count("}")))
         return parentheses
 ```
-
 
 ## Zadanie 3
 
@@ -69,4 +67,3 @@ def exercise3():
 
             print(max_opening_length, max_closing_length)
 ```
-

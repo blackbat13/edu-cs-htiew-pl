@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/prime-test.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -20,7 +19,6 @@ def is_prime(n: int) -> bool:
 
     return True
 
-
 n = 7
 
 if is_prime(n):
@@ -28,4 +26,3 @@ if is_prime(n):
 else:
     print(f"{n} is not a prime number")
 ```
-

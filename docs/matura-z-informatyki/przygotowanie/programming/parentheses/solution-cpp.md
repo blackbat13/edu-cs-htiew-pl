@@ -62,7 +62,6 @@ int exercise1()
 }
 ```
 
-
 ## Zadanie 2
 
 ```cpp linenums="1"
@@ -148,7 +147,6 @@ vector<string> exercise2()
 }
 ```
 
-
 ## Zadanie 3
 
 ```cpp linenums="1"
@@ -196,4 +194,3 @@ void exercise3()
     }
 }
 ```
-

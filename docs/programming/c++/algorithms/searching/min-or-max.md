@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/min-or-max.md)
 
-
 ## Wyszukiwanie wartości minimum i maksimum
 
 ### Implementacja
@@ -49,7 +48,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 
@@ -117,7 +115,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 

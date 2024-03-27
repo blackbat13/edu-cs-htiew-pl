@@ -14,7 +14,6 @@ def combine_genes(gene1: str, gene2: str) -> str:
 
     return "recessive"
 
-
 def compute_gene(name: str, genes: dict, parents: dict):
     if name in genes:
         return
@@ -22,7 +21,6 @@ def compute_gene(name: str, genes: dict, parents: dict):
     compute_gene(parents[name][0], genes, parents)
     compute_gene(parents[name][1], genes, parents)
     genes[name] = combine_genes(genes[parents[name][0]], genes[parents[name][1]])
-
 
 genes = dict()
 parents = dict()
@@ -45,4 +43,3 @@ for el in parents:
 for el in sorted(genes):
     print(el, genes[el])
 ```
-

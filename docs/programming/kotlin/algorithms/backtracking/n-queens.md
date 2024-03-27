@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/backtracking/n-queens.md)
 
-
 ## Implementacja
 
 ```kotlin linenums="1"
@@ -68,4 +67,3 @@ fun main() {
   }
 }
 ```
-

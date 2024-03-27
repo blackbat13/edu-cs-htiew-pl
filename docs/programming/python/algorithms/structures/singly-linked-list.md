@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/structures/singly-linked-list.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -88,7 +87,6 @@ class List:
     self._first = None
     self._count = 0
 
-
 if __name__ == "__main__":
   lst = List()
 
@@ -105,4 +103,3 @@ if __name__ == "__main__":
   for i in range(lst.size()):
     print(lst[i])
 ```
-

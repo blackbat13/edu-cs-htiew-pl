@@ -64,14 +64,6 @@ funkcja Beaufort(tekst, klucz):
 
 ## Implementacja
 
-### C++
+### [C++](../../../programming/c++/algorithms/cryptography/beaufort.md)
 
-
-[beaufort.md](../../../programming/c++/algorithms/cryptography/beaufort.md)
-
-
-### Python
-
-
-[beaufort.md](../../../programming/python/algorithms/cryptography/beaufort.md)
-
+### [Python](../../../programming/python/algorithms/cryptography/beaufort.md)

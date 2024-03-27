@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/integers/atm-problem/README.md)
 
-
 ## Podejście zachłanne
 
 ### Implementacja
@@ -36,7 +35,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Link do implementacji
 
@@ -104,4 +102,3 @@ int main() {
     return 0;
 }
 ```
-

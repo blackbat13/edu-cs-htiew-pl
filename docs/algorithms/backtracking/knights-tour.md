@@ -218,13 +218,6 @@ flowchart TD
 
 ## Implementacja
 
-### C++
+### [C++](../../programming/c++/algorithms/backtracking/knights-tour.md)
 
-
-[knights-tour.md](../../programming/c++/algorithms/backtracking/knights-tour.md)
-
-
-### Python
-
-
-[knights-tour.md](../../programming/python/algorithms/backtracking/knights-tour.md)
+### [Python](../../programming/python/algorithms/backtracking/knights-tour.md)

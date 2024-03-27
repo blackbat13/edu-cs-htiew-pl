@@ -13,25 +13,15 @@ W szyfrach podstawieniowych szyfrogram powstaje poprzez zastąpienie każdej lit
 
 ### Wybrane szyfry
 
-
 [caesar.md](caesar.md)
-
-
 
 [rot13.md](rot13.md)
 
-
-
 [trithemius.md](trithemius.md)
-
-
 
 [beaufort.md](beaufort.md)
 
-
-
 [vigenere.md](vigenere.md)
-
 
 ## Szyfry przestawieniowe
 
@@ -39,13 +29,9 @@ W szyfrach przestawieniowych szyfrogram jest tworzony poprzez przestawienie kole
 
 ### Wybrane szyfry
 
-
 [playfair.md](playfair.md)
 
-
-
 [rail-fence.md](rail-fence.md)
-
 
 ## Szyfry mieszane
 

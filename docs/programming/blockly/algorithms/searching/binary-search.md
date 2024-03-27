@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/binary-search.md)
 
-
 ## Wersja iteracyjna
 
 ### Wyszukiwanie
@@ -30,4 +29,3 @@
 ### Link do implementacji
 
 [Wyszukiwanie binarne - wersja rekurencyjna](https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pl#m3xt9c)
-

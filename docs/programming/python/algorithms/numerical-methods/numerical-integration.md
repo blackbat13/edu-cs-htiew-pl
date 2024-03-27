@@ -2,13 +2,11 @@
 
 ## [Opis problemu](../../../../algorithms/numerical-methods/numerical-integration.md)
 
-
 ## Metoda prostokątów
 
 ```python linenums="1"
 def f(x: float) -> float:
     return x * x + 2 * x
-
 
 def rectangles_method(a: int, b: int, n: int) -> float:
     rectangle_width = (b - a) / n
@@ -22,14 +20,12 @@ def rectangles_method(a: int, b: int, n: int) -> float:
 
     return area
 
-
 a = 0
 b = 10
 n = 100
 area = rectangles_method(a, b, n)
 print(area)
 ```
-
 
 ### Opis implementacji
 
@@ -45,7 +41,6 @@ W części głównej programu przygotowujemy dane do naszego algorytmu: począte
 def f(x: float) -> float:
     return x * x + 2 * x
 
-
 def trapezes_method(a: int, b: int, n: int) -> float:
     trapeze_height = (b - a) / n
     area = 0
@@ -59,14 +54,12 @@ def trapezes_method(a: int, b: int, n: int) -> float:
 
     return area
 
-
 a = 0
 b = 10
 n = 100
 area = trapezes_method(a, b, n)
 print(area)
 ```
-
 
 ### Opis implementacji
 

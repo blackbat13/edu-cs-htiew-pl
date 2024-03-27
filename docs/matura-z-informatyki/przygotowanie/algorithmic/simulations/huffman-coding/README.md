@@ -2,9 +2,7 @@
 
 ## Opis algorytmu
 
-
 [huffman-coding.md](../../../../../algorithms/coding-and-compression/huffman-coding.md)
-
 
 ## Zadanie 1
 

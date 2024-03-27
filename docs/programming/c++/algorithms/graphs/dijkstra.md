@@ -6,7 +6,6 @@ description: Najkrótsze ścieżki z jednego wierzchołka
 
 ## [Opis problemu](../../../../algorithms/graphs/dijkstra.md)
 
-
 ## Implementacja
 
 ```cpp linenums="1"
@@ -81,7 +80,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ### Opis implementacji
 

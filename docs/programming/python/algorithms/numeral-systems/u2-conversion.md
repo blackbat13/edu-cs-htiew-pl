@@ -4,7 +4,6 @@
 
 [System U2](../../../../algorithms/numeral-systems/u2.md)
 
-
 ## Z U2 do dziesiętnego
 
 ```python linenums="1"
@@ -24,11 +23,9 @@ def u2_to_decimal(number: str) -> int:
 
     return result
 
-
 number_u2 = "10000001"
 
 number_decimal = u2_to_decimal(number_u2)
 
 print(f"{number_u2} (U2) = {number_decimal} (10)")
 ```
-

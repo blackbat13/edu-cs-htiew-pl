@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/majority.md)
 
-
 ## Implementacja
 
 ```kotlin

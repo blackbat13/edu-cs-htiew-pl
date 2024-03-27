@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/searching/linear-search.md)
 
-
 ## Istnienie elementu
 
 ### Implementacja
@@ -18,7 +17,6 @@ function linearSearch(array: number[], value: number): boolean {
     return false;
 }
 
-
 let array: number[] = [8, 2, 9, 10, 5, 4, 2, 7, 18, 0];
 let value: number = 7;
 
@@ -30,7 +28,6 @@ if (result) {
     console.log("Liczby nie ma w tablicy");
 }
 ```
-
 
 ### Opis implementacji
 
@@ -53,7 +50,6 @@ function linearSearch(array: number[], value: number): number {
     return -1;
 }
 
-
 let array: number[] = [8, 2, 9, 10, 5, 4, 2, 7, 18, 0];
 let value: number = 7;
 
@@ -65,7 +61,6 @@ if (index == -1) {
     console.log("Liczba jest pod indeksem ", index);
 }
 ```
-
 
 ### Opis implementacji
 
@@ -86,14 +81,12 @@ function linearSearch(array: number[], value: number) {
     }
 }
 
-
 let array: number[] = [8, 2, 8, 4, 5, 6, 7, 8, 9, 8];
 let value: number = 8;
 
 console.log("Indeksy, pod którymi znajduje się poszukiwana liczba:")
 linearSearch(array, value);
 ```
-
 
 ### Opis implementacji
 

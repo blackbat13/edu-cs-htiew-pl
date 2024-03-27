@@ -2,7 +2,6 @@
 
 ## [Opis problemu](../../../../algorithms/sorting/counting-sort.md)
 
-
 ## Implementacja
 
 ```python linenums="1"
@@ -15,7 +14,6 @@ def count_occurrences(array: list) -> list:
         
     return occurrences
 
-
 def counting_sort(array: list):
     occurrences = count_occurrences(array)
 
@@ -25,14 +23,12 @@ def counting_sort(array: list):
         for j in range(occurrences[i]):
             array.append(i)
 
-
 array = [7, 3, 0, 1, 5, 2, 5, 19, 10, 5]
 
 counting_sort(array)
 
 print(array)
 ```
-
 
 ### Opis implementacji
 
