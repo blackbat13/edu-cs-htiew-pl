@@ -14,21 +14,21 @@
 
 Dana jest następująca funkcja:
 
-$
+$$
 f(x) = \sin{(\cos{(x)})}
-$
+$$
 
 Oszacuj wartość całki podanej funkcji na przedziale $[0, 3]$, tzn.:
 
-$
+$$
 \int_{0}^{3} \sin{(\cos{(x)})} \ dx
-$
+$$
 
 Możesz założyć, że:
 
-$
+$$
 \int_{0}^{3} \sin{(\cos{(x)})} \ dx \simeq 0.118889545631
-$
+$$
 
 Wykorzystaj metodę **prostokątów** w celu oszacowania wartości całki. Korzystając z arkusza kalkulacyjnego przygotuj symulację wyników algorytmu dla następującej liczby przedziałów:
 

@@ -1,6 +1,6 @@
 # ONP
 
-## [Opis problemu](../../../../algorithms/text/odwrotna-notacja-polska.md)
+## [Opis problemu](../../../../algorithms/text/rpn.md)
 
 
 ## Implementacja
@@ -29,4 +29,3 @@ result = calculate_rpn(rpn)
 
 print(result)
 ```
-

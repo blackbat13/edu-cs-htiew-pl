@@ -7,7 +7,7 @@
 	
 	**Nie będziemy tutaj tłumaczyć czym jest pętla czy instrukcja warunkowe, a jedynie pokażemy, jak te konstrukcje wyglądają w języku C++.**
 	
-	**Jeżeli dopiero zaczynasz, zapoznaj się najpierw z wprowadzeniem do algorytmów:** [**Wprowadzenie**](../../../algorithms/introduction/)
+	**Jeżeli dopiero zaczynasz, zapoznaj się najpierw z wprowadzeniem do algorytmów:** [Wprowadzenie](../../../algorithms/introduction/README.md)
 
 ## Środowiska lokalne
 

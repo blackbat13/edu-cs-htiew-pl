@@ -23,9 +23,9 @@ Dla ułatwienia tworzymy sobie tabelkę, w której zapisujemy kolejne reszty i w
 |  $1$  |  $1$  |
 |  $0$  |         |
 
-$
+$$
 25_{10}=11001_2
-$
+$$
 
 ### Algorytm
 
@@ -59,6 +59,6 @@ W systemie binarnym, podobnie jak w innych systemach, do każdej cyfry przypisan
 
 ### Przykład
 
-$
+$$
 11001_2=1*2^4+1*2^3+0*2^2+0*2^1+1*2^0=2^4+2^3+2^0=16+8+1=25_{10}
-$
+$$

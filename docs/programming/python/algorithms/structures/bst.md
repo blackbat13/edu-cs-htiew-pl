@@ -4,7 +4,7 @@ description: BST
 
 # Drzewo przeszukiwań binarnych
 
-## [Opis problemu](../../../../algorithms/structures/drzewa-przeszukiwan-binarnych.md)
+## [Opis problemu](../../../../algorithms/structures/bst.md)
 
 
 ## Implementacja

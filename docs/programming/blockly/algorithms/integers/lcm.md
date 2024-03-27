@@ -18,9 +18,9 @@ TODO
 
 Skoro mamy już policzone NWW, możemy na jego podstawie policzyć także NWD (Najmniejszy Wspólny Dzielnik), korzystając z prostego wzoru:
 
-$
+$$
 NWD(a,b)=\frac{a*b}{NWW(a,b)}
-$
+$$
 
 ![Funkcja obliczająca NWD dwóch podanych liczb naturalnych na podstawie ich NWW](../../../../assets/NWW_NWD.png)
 
