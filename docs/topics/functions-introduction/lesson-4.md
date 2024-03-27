@@ -1,9 +1,9 @@
 # Lekcja 4
 
-### Materiały
+## Materiały
 
-[Konspekt](../../assets/4-wpr-do-fun.pdf)
+[:fontawesome-solid-file-pdf: Konspekt](../../assets/4-wpr-do-fun.pdf)
 
-[Prezentacja - NWW i NWD](../../assets/NWW i NWD.pdf)
+[:material-presentation: Prezentacja - NWW i NWD](../../assets/NWW i NWD.pdf)
 
-[Rozwiązania](../../assets/Funkcje4_rozwiazania.zip)
+[:fontawesome-solid-file-zipper: Rozwiązania](../../assets/Funkcje4_rozwiazania.zip)

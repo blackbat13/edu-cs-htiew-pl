@@ -2,10 +2,10 @@
 
 ![Przykładowa realizacja modelu pamięci ze zmiennymi](../../assets/model.jpg)
 
-### Materiały
+## Materiały
 
-[Konspekt](../../assets/2-wpr-do-zm.pdf)
+[:fontawesome-solid-file-pdf: Konspekt](../../assets/2-wpr-do-zm.pdf)
 
-[Opis ćwiczenia](../../assets/Opis ćwiczenia.pdf)
+[:fontawesome-solid-file-pdf: Opis ćwiczenia](../../assets/Opis ćwiczenia.pdf)
 
-[Prezentacja - zmienne w pamięci](../../assets/Zmienne w Pamięci - Ćwiczenia.pdf)
+[:material-presentation: Prezentacja - zmienne w pamięci](../../assets/Zmienne w Pamięci - Ćwiczenia.pdf)

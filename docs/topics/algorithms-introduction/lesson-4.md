@@ -6,8 +6,8 @@ description: Lekcja ewaluacyjna
 
 Podczas tej lekcji uczniowie stają przed zadaniem zaimplementowania algorytmu znajdującego drogę przez labirynt. Jest jednak pewien haczyk: po drodze do wyjścia należy zebrać klucz. Co więcej, algorytm musi działać poprawnie bez żadnych zmian dla dwóch zadanych labiryntów.
 
-### Materiały
+## Materiały
 
-[Konspekt](../../assets/4-wpr-do-alg.pdf)
+[:fontawesome-solid-file-pdf: Konspekt](../../assets/4-wpr-do-alg.pdf)
 
-[Prezentacja - zadanie](../../assets/Zadanie z labiryntem.pdf)
+[:material-presentation: Prezentacja - zadanie](../../assets/Zadanie z labiryntem.pdf)

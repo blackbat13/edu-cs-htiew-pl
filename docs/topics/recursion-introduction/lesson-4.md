@@ -4,10 +4,10 @@ description: Lekcja ewaluacyjna
 
 # Lekcja 4
 
-### Materiały
+## Materiały
 
-[Konspekt](../../assets/4-wpr-do-rek.pdf)
+[:fontawesome-solid-file-pdf: Konspekt](../../assets/4-wpr-do-rek.pdf)
 
-[Prezentacja - zadanie](../../assets/Zadanie z labiryntem rekurencja.pdf)
+[:material-presentation: Prezentacja - zadanie](../../assets/Zadanie z labiryntem rekurencja.pdf)
 
-[Prezentacja - rozwiązanie](../../assets/Zadanie z labiryntem - rozwiązanie.pdf)
+[:material-presentation: Prezentacja - rozwiązanie](../../assets/Zadanie z labiryntem - rozwiązanie.pdf)

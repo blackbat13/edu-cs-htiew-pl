@@ -15,4 +15,4 @@
 * Dopuszczalne, a nawet korzystne jest zrealizowanie lekcji 2 i lekcji 3 jednego dnia.
 * Lekcja 4 jest najmniej zależna od pozostałych. Ze względu na jej ewaluacyjny charakter wymagane jest traktowanie jej podobnie jak sprawdzianu.
 
-[Protokół realizacji projektu](../../assets/Protokół realizacji projektu - rekurencja1.pdf)
+[:fontawesome-solid-file-pdf: Protokół realizacji projektu](../../assets/Protokół realizacji projektu - rekurencja1.pdf)

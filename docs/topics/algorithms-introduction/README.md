@@ -14,4 +14,4 @@ Algorytmy - od przepisu na pierniczki po znajdowania ścieżki w grafie - mamy z
 * Zadanie 9. (lekcja II) należy potraktować opcjonalnie - zrealizować w miarę możliwości.
 * Lekcję 4, ze względu na jej ewaluacyjny charakter, należy potraktować podobnie do sprawdzianu.
 
-[Protokół realizacji projektu](../../assets/Protokół realizacji projektu - algorytmy.pdf)
+[:fontawesome-solid-file-pdf: Protokół realizacji projektu](../../assets/Protokół realizacji projektu - algorytmy.pdf)

@@ -1,11 +1,11 @@
 # Lekcja 1
 
-### Materiały
+## Materiały
 
-[Konspekt](../../assets/1-wpr-do-zm.pdf)
+[:fontawesome-solid-file-pdf: Konspekt](../../assets/1-wpr-do-zm.pdf)
 
-[Prezentacja - zmienne](../../assets/Zmienne.pdf)
+[:material-presentation: Prezentacja - zmienne](../../assets/Zmienne.pdf)
 
-[Prezentacja - ćwiczenia](../../assets/Zmienne - ćwiczenie.pdf)
+[:material-presentation: Prezentacja - ćwiczenia](../../assets/Zmienne - ćwiczenie.pdf)
 
-[Do druku](../../assets/Do druku.pdf)
+[:fontawesome-solid-file-pdf: Do druku](../../assets/Do druku.pdf)

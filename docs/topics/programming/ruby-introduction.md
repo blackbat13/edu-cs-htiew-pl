@@ -1,7 +1,7 @@
 # Wprowadzenie do języka Ruby
 
-[Konspekt](../../assets/Wprowadzenie do Ruby - konspekt.pdf)
+[:fontawesome-solid-file-pdf: Konspekt](../../assets/Wprowadzenie do Ruby - konspekt.pdf)
 
-[Prezentacja](../../assets/Wprowadzenie do Ruby.pdf)
+[:material-presentation: Prezentacja](../../assets/Wprowadzenie do Ruby.pdf)
 
-[Kody źródłowe](../../assets/wprowadzenie_ruby_programy.zip)
+[:fontawesome-solid-file-zipper: Kody źródłowe](../../assets/wprowadzenie_ruby_programy.zip)

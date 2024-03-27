@@ -1,11 +1,11 @@
 # Lekcja 2
 
-### Materiały
+## Materiały
 
-[Konspekt](../../assets/2-wpr-do-rek.pdf)
+[:fontawesome-solid-file-pdf: Konspekt](../../assets/2-wpr-do-rek.pdf)
 
-[Prezentacja - rozwiązanie zadania z małpą](../../assets/Zadanie z małpą- rozwiązanie.pdf)
+[:material-presentation: Prezentacja - rozwiązanie zadania z małpą](../../assets/Zadanie z małpą- rozwiązanie.pdf)
 
-[Prezentacja - Blockly Żółw](../../assets/Blockly Żółw.pdf)
+[:material-presentation: Prezentacja - Blockly Żółw](../../assets/Blockly Żółw.pdf)
 
-[Prezentacja - funkcje w Blockly Żółw](../../assets/Blockly Żółw - Funkcje.pdf)
+[:material-presentation: Prezentacja - funkcje w Blockly Żółw](../../assets/Blockly Żółw - Funkcje.pdf)

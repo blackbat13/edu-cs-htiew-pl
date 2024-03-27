@@ -1,5 +1,5 @@
 # Wprowadzenie do Ruby on Rails
 
-[Konspekt](../../assets/Wprowadzenie do Ruby on Rails - konspekt.pdf)
+[:fontawesome-solid-file-pdf: Konspekt](../../assets/Wprowadzenie do Ruby on Rails - konspekt.pdf)
 
-[Prezentacja](../../assets/Wstęp do Ruby on Rails.pdf)
+[:material-presentation: Prezentacja](../../assets/Wstęp do Ruby on Rails.pdf)

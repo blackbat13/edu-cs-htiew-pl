@@ -1,11 +1,11 @@
 # Lekcja 3
 
-### Materiały
+## Materiały
 
-[Konspekt](../../assets/3-wpr-do-rek.pdf)
+[:fontawesome-solid-file-pdf: Konspekt](../../assets/3-wpr-do-rek.pdf)
 
-[Prezentacja - fraktale](../../assets/Fraktale.pdf)
+[:material-presentation: Prezentacja - fraktale](../../assets/Fraktale.pdf)
 
-[Prezentacja - drzewo binarne](../../assets/Drzewo Binarne.pdf)
+[:material-presentation: Prezentacja - drzewo binarne](../../assets/Drzewo Binarne.pdf)
 
-[Prezentacja - drzewo binarne - algorytm](../../assets/Drzewo Binarne - algorytm.pdf)
+[:material-presentation: Prezentacja - drzewo binarne - algorytm](../../assets/Drzewo Binarne - algorytm.pdf)

@@ -11,10 +11,10 @@ Celem tej lekcji jest poznanie następujących zagadnień:
 3. Pętla warunkowa
 4. Pętla liczona
 
-### Materiały
+## Materiały
 
-[Konspekt](../../assets/1-wpr-do-alg.pdf)
+[:fontawesome-solid-file-pdf: Konspekt](../../assets/1-wpr-do-alg.pdf)
 
-[Prezentacja](../../assets/Algorytmy.pdf)
+[:material-presentation: Prezentacja](../../assets/Algorytmy.pdf)
 
-[Dyspozycje do dyskusji](../../assets/Dyspozycje do dyskusji.pdf)
+[:fontawesome-solid-file-pdf: Dyspozycje do dyskusji](../../assets/Dyspozycje do dyskusji.pdf)

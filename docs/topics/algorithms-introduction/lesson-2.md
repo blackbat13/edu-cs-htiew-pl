@@ -8,10 +8,10 @@ Blockly Labirynt: [https://blockly.games/maze?lang=pl](https://blockly.games/maz
 
 Blockly Ptak: [https://blockly.games/bird?lang=pl](https://blockly.games/bird?lang=pl)
 
-### Materiały
+## Materiały
 
-[Konspekt](../../assets/2-wpr-do-alg.pdf)
+[:fontawesome-solid-file-pdf: Konspekt](../../assets/2-wpr-do-alg.pdf)
 
-[Blockly Labirynt - prezentacja rozwiązań](../../assets/Blockly Labirynt.pdf)
+[:material-presentation: Blockly Labirynt - prezentacja rozwiązań](../../assets/Blockly Labirynt.pdf)
 
-[Blockly Ptak - prezentacja rozwiązań](../../assets/Blockly Ptak.pdf)
+[:material-presentation: Blockly Ptak - prezentacja rozwiązań](../../assets/Blockly Ptak.pdf)

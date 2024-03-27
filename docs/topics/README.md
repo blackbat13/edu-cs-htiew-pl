@@ -26,10 +26,10 @@ Dydaktyka informatyki jest dużym wyzwaniem, szczególnie w szkole. Wcześniej p
 
 ### Krótka prezentacja na temat projektu
 
-[Prezentacja](../assets/Trudne Tematy w Najprostszy Sposób.pdf)
+[:material-presentation: Prezentacja](../assets/Trudne Tematy w Najprostszy Sposób.pdf)
 
 ### Licencja
 
 ![Uznanie autorstwa-Na tych samych warunkach 4.0](../assets/88x31.png)
 
-[Licencja](../assets/Licencja.pdf)
+[:fontawesome-solid-file-pdf: Licencja](../assets/Licencja.pdf)
