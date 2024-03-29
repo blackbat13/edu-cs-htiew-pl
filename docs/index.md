@@ -18,10 +18,8 @@ Po drugie, strona została przygotowana przez "rasowego informatyka z nietypowym
 
 Po trzecie, materiały przygotowane zostały (jak już wspomniałem) z myślą "w jak najprostszy sposób" i z poszanowaniem czasu czytelnika. Dążę do tego, aby każdy mógł zrozumieć omawiane przeze mnie tematy, i to w stosunkowo krótkim czasie. W związku z tym, nie tworzę długich opracowań na temat prostego algorytmu, skupiam się raczej na istotnych punktach i prostych przykładach. Z drugiej strony, oznacza to, że nie omawiam niektórych niuansów, a część szczegółów poruszam jedynie pobieżnie. Jak mówi starożytne przysłowie: "coś za coś". Moje materiały powinny pomóc zrozumieć podstawy i ogólną ideę, natomiast zainteresowanych szczegółami odsyłam do innych źródeł.
 
-Po czwarte, materiały przechodzą swój chrzest bojowy. Sam korzystam z nich na lekcjach i proszę znajomych o przejrzenie. Jeżeli zauważę, że coś wymaga poprawienia albo uzupełnienia, to poprawiam i/lub uzupełniam. Wszelkie uwagi można także zgłaszać, zapraszam do zajrzenia do zakładki kontakt. 
+Po czwarte, materiały przechodzą swój chrzest bojowy. Sam korzystam z nich na lekcjach i proszę znajomych o przejrzenie. Jeżeli zauważę, że coś wymaga poprawienia albo uzupełnienia, to poprawiam i/lub uzupełniam. Wszelkie uwagi można także zgłaszać, zapraszam do zajrzenia do zakładki kontakt.
 
-### Licencja
+## [:fontawesome-solid-file-pdf: Licencja](./assets/Licencja.pdf)
 
 ![Uznanie autorstwa-Na tych samych warunkach 4.0](./assets/88x31.png)
-
-[Licencja.pdf](./assets/Licencja.pdf)
