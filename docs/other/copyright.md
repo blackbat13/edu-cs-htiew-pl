@@ -4,7 +4,7 @@ Prawa autorskie i właściwe posługiwanie się nimi oraz przestrzeganie ich jes
 
 ## Prezentacja
 
-[:fontawesome-solid-file-pdf: Prezentacja](../assets/Prawa autorskie.pdf)
+[:material-presentation: Prezentacja](../assets/Prawa autorskie.pdf)
 
 ## Creative Commons
 

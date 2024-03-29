@@ -244,4 +244,4 @@ while(scanf("%d", &a) != EOF) {
 
 ## Prezentacja
 
-[:fontawesome-solid-file-pdf: Prezentacja](../../../assets/Printf i Scanf (1).pdf)
+[:material-presentation: Prezentacja](../../../assets/Printf i Scanf (1).pdf)

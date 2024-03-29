@@ -39,4 +39,4 @@ Szyfry mieszane stanowią połączenie szyfru podstawieniowego z szyfrem przesta
 
 ## Prezentacja
 
-[:fontawesome-solid-file-pdf: Prezentacja](../../../assets/Metody szyfrowania symetrycznego.pdf)
+[:material-presentation: Prezentacja](../../../assets/Metody szyfrowania symetrycznego.pdf)

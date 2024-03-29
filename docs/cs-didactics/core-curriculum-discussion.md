@@ -4,4 +4,4 @@
 
 Poniższa prezentacja zawiera krótką analizę podstawy programowej do I i II etapu edukacyjnego pod kątem treści związanych z algorytmiką i programowaniem.
 
-[:fontawesome-solid-file-pdf: Prezentacja](../assets/Algorytmika i programowanie w szkole podstawowej.pdf)
+[:material-presentation: Prezentacja](../assets/Algorytmika i programowanie w szkole podstawowej.pdf)
