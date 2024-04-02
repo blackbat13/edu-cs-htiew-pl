@@ -22,8 +22,8 @@ theme:
     - navigation.top
     - navigation.indexes
     - navigation.footer
-    # - navigation.instant
-    # - navigation.instant.progress
+    - navigation.instant
+    - navigation.instant.progress
     - content.code.copy
     - content.code.annotate
     - search.suggest
