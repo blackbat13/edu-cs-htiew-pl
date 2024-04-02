@@ -1217,9 +1217,7 @@ nav:
     - 'Przygotowanie': 
       - 'matura-z-informatyki/przygotowanie/README.md'
       - 'Algorytmika': 
-        - 'matura-z-informatyki/przygotowanie/algorithmic/README.md'
         - 'Analiza pseudokodu': 
-          - 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/README.md'
           - 'Ćwiczenie 1': 
             - 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-1/README.md'
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-1/solution-1.md'
@@ -1258,7 +1256,6 @@ nav:
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-6/solution-1.md'
             - 'Rozwiązanie 2': 'matura-z-informatyki/przygotowanie/algorithmic/pseudocode-analysis/exercise-6/solution-2.md'
         - 'Rekurencja': 
-          - 'matura-z-informatyki/przygotowanie/algorithmic/recursion/README.md'
           - 'Ćwiczenie 1': 
             - 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-1/README.md'
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-1/solution-1.md'
@@ -1285,7 +1282,6 @@ nav:
           - 'Ćwiczenie 5': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-5/README.md'
           - 'Ćwiczenie 6': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-6/README.md'
         - 'Symulacje': 
-          - 'matura-z-informatyki/przygotowanie/algorithmic/simulations/README.md'
           - 'Kody Huffmana': 
             - 'matura-z-informatyki/przygotowanie/algorithmic/simulations/huffman-coding/README.md'
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/huffman-coding/solution-1.md'
@@ -1303,7 +1299,6 @@ nav:
           - 'Całkowanie numeryczne': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/numerical-integration/README.md'
         - 'Lista liczb': 'matura-z-informatyki/przygotowanie/algorithmic/list-of-numbers/README.md'
       - 'Programowanie': 
-        - 'matura-z-informatyki/przygotowanie/programming/README.md'
         - 'Liczby binarne': 
           - 'matura-z-informatyki/przygotowanie/programming/binary-numbers/README.md'
           - 'Rozwiązanie - C++': 'matura-z-informatyki/przygotowanie/programming/binary-numbers/solution-cpp.md'
@@ -1353,7 +1348,6 @@ nav:
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/maze/answers.md'
           - 'Rozwiązanie - Python': 'matura-z-informatyki/przygotowanie/programming/maze/solution-python.md'
       - 'Arkusz kalkulacyjny': 
-        - 'matura-z-informatyki/przygotowanie/spreadsheet/README.md'
         - 'Sklep': 
           - 'matura-z-informatyki/przygotowanie/spreadsheet/shop/README.md'
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/spreadsheet/shop/solution.md'
@@ -1383,21 +1377,18 @@ nav:
           - 'matura-z-informatyki/przygotowanie/spreadsheet/restaurant/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/spreadsheet/restaurant/answers.md'
       - 'Baza danych': 
-        - 'matura-z-informatyki/przygotowanie/database/README.md'
         - 'Wampiry': 
           - 'matura-z-informatyki/przygotowanie/database/vampires/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/database/vampires/answers.md'
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/database/vampires/solution.md'
       - 'SQL': 
-        - 'matura-z-informatyki/przygotowanie/sql/README.md'
         - 'Sklep': 
           - 'matura-z-informatyki/przygotowanie/sql/shop/README.md'
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/sql/shop/solution.md'
         - 'Komandosi': 
           - 'matura-z-informatyki/przygotowanie/sql/commandos/README.md'
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/sql/commandos/solution.md'
-    - 'Arkusze i rozwiązania': 
-      - 'matura-z-informatyki/arkusze-i-rozwiazania/README.md'
+    - 'Arkusze i rozwiązania':
       - '2010': 
         - 'Arkusze': 'matura-z-informatyki/arkusze-i-rozwiazania/2010/README.md'
         - 'Rozwiązania': 'matura-z-informatyki/arkusze-i-rozwiazania/2010/solutions.md'
