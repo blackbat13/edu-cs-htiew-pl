@@ -1279,8 +1279,10 @@ nav:
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-4/solution-1.md'
             - 'Rozwiązanie 2': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-4/solution-2.md'
             - 'Rozwiązanie 3': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-4/solution-3.md'
-          - 'Ćwiczenie 5': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-5/README.md'
-          - 'Ćwiczenie 6': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-6/README.md'
+          - 'Ćwiczenie 5': 
+            - 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-5/README.md'
+          - 'Ćwiczenie 6': 
+            - 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-6/README.md'
         - 'Symulacje': 
           - 'Kody Huffmana': 
             - 'matura-z-informatyki/przygotowanie/algorithmic/simulations/huffman-coding/README.md'
@@ -1295,9 +1297,12 @@ nav:
             - 'matura-z-informatyki/przygotowanie/algorithmic/simulations/rpn/README.md'
             - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/rpn/solution-1.md'
             - 'Rozwiązanie 2': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/rpn/solution-2.md'
-          - 'Metoda Monte Carlo': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/monte-carlo/README.md'
-          - 'Całkowanie numeryczne': 'matura-z-informatyki/przygotowanie/algorithmic/simulations/numerical-integration/README.md'
-        - 'Lista liczb': 'matura-z-informatyki/przygotowanie/algorithmic/list-of-numbers/README.md'
+          - 'Metoda Monte Carlo': 
+            - 'matura-z-informatyki/przygotowanie/algorithmic/simulations/monte-carlo/README.md'
+          - 'Całkowanie numeryczne': 
+            - 'matura-z-informatyki/przygotowanie/algorithmic/simulations/numerical-integration/README.md'
+        - 'Lista liczb': 
+          - 'matura-z-informatyki/przygotowanie/algorithmic/list-of-numbers/README.md'
       - 'Programowanie': 
         - 'Liczby binarne': 
           - 'matura-z-informatyki/przygotowanie/programming/binary-numbers/README.md'
