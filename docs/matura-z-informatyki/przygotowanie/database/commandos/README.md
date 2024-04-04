@@ -76,7 +76,7 @@ Podaj, ile misji odbyło się w maju.
 
 ## Zadanie 3
 
-Podaj ilu komandosów **nie** było dowódcą na żadnej misji. Podaj imię i nazwisko każdego takiego komandosa. Wynik posortuj alfabetycznie po nazwisku.
+Podaj ilu komandosów **nie** było dowódcą na żadnej misji. Podaj imię i nazwisko pierwszego i ostatniego takiego komandosa po posortowaniu ich alfabetycznie po nazwisku.
 
 ## Zadanie 4
 
@@ -84,7 +84,7 @@ Podaj identyfikatory, imiona i nazwiska wszystkich komandosów, którzy mają **
 
 ## Zadanie 5
 
-Podaj identyfikatory i kryptonimy misji, w których brało udział najwięcej komandosów.
+Podaj identyfikator(y) i kryptonim(y) misji, w której brało udział najwięcej komandosów.
 
 ## Zadanie 6
 
@@ -96,4 +96,4 @@ Podaj identyfikatory, imiona i nazwiska wszystkich komandosów, którzy łączni
 
 ## Zadanie 8
 
-Podaj kryptonim (lub kryptonimy) misji, która zakończyła się najpóźniej oraz kryptonim (lub kryptonim) misji, która zakończyła się najwcześniej.
+Podaj kryptonim(y) misji, która zakończyła się najpóźniej oraz kryptonim(y) misji, która zakończyła się najwcześniej.

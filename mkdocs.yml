@@ -1388,6 +1388,7 @@ nav:
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/database/vampires/solution.md'
         - 'Komandosi':
           - 'matura-z-informatyki/przygotowanie/database/commandos/README.md'
+          - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/database/commandos/answers.md'
       - 'SQL': 
         - 'Sklep': 
           - 'matura-z-informatyki/przygotowanie/sql/shop/README.md'
