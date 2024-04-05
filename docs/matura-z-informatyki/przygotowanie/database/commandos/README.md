@@ -101,3 +101,7 @@ Podaj kryptonim(y) misji, która zakończyła się najpóźniej oraz kryptonim(y
 ## Zadanie 9
 
 Dla każdej specjalności oblicz, na ilu misjach pojawił się przynajmniej jeden komandos (jako uczestnik, nie dowódca) z tą specjalnością.
+
+## Zadanie 10
+
+Dla każdego kwartału w roku (styczeń-marzec, kwiecień-czerwiec, lipiec-wrzesień, październik-grudzień) oblicz ile misji zaczęło się w tym okresie czasie.
