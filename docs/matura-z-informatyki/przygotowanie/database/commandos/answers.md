@@ -57,3 +57,16 @@ Odpowiedź: **44**
 Najpóźniej: **lachacz-kudelka**
 
 Najwcześniej: **grupa**
+
+## Zadanie 9
+
+|          **Nazwa**          | **Liczba misji** |
+|:---------------------------:|:----------------:|
+|    Instruktor przetrwania   |        38        |
+|         Medyk polowy        |        41        |
+|         Nurek bojowy        |        44        |
+|            Saper            |        41        |
+|    Skoczek spadochronowy    |        44        |
+|           Snajper           |        39        |
+| Specjalista ds. komunikacji |        39        |
+|        Specjalista IT       |        31        |
