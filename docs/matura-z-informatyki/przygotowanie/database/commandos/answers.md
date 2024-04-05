@@ -39,12 +39,12 @@ Odpowiedź: **158**
 
 ## Zadanie 6
 
-Odpowiedź: **44**
+Odpowiedź: **12**
 
 | **Id** | **Kryptonim** |
 |:--------:|:------------:|
 | 3 | fpuh |
-| 50 | sedek-laszkiewicz |
+| 46 | grupa |
 
 ## Zadanie 7
 
