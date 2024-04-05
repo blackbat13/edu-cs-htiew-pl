@@ -72,7 +72,7 @@ Utwórz zestawienie zawierające imię i nazwisko każdego **porucznika**, posor
 
 ## Zadanie 2
 
-Podaj, ile misji odbyło się w maju.
+Podaj, ile misji rozpoczęło się w maju.
 
 ## Zadanie 3
 
