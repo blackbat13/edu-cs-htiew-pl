@@ -70,3 +70,9 @@ Najwcześniej: **grupa**
 |           Snajper           |        39        |
 | Specjalista ds. komunikacji |        39        |
 |        Specjalista IT       |        31        |
+
+## Zadanie 10
+
+| **Kwartał I** | **Kwartał II** | **Kwartał III** | **Kwartał IV** |
+|:-------------:|:--------------:|:---------------:|:--------------:|
+|       13      |       16       |        8        |       13       |
