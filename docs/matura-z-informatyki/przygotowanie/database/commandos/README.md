@@ -92,7 +92,7 @@ Podaj liczbę misji oraz kryptonim misji o najmniejszym identyfikatorze i najwi�
 
 ## Zadanie 7
 
-Podaj identyfikatory, imiona i nazwiska wszystkich komandosów, którzy łącznie spędzili na misjach najwięcej czasu.
+Podaj identyfikatory, imiona i nazwiska wszystkich komandosów, którzy spędzili na misjach sumarycznie najwięcej czasu, ignorując ich udział jako dowódców. Podaj także, ile dni spędzili na misjach.
 
 ## Zadanie 8
 

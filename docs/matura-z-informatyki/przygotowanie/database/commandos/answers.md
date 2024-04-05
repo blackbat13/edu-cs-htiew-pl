@@ -45,3 +45,15 @@ Odpowiedź: **44**
 |:--------:|:------------:|
 | 3 | fpuh |
 | 50 | sedek-laszkiewicz |
+
+## Zadanie 7
+
+| **Id**| **Imie** | **Nazwisko** | **Liczba dni** |
+|:--------:|:--------:|:------------:|:------------:|
+| 120 | Alex | Zysk | 1259 |
+
+## Zadanie 8
+
+Najpóźniej: **lachacz-kudelka**
+
+Najwcześniej: **grupa**
