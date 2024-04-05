@@ -30,7 +30,7 @@ Rodzaj zamówienia zakodowany jest za pomocą liczby naturalnej. Zapis binarny t
 	- pozycja 1 (napój ciepły)
 	- pozycja 4 (danie główne)
 
-# Zadanie 1
+## Zadanie 1
 
 Policz ile łącznie zostało zamówionych dań z poszczególnych kategorii (napój ciepły, napój zimny, przystawka, danie główne, deser).
 
