@@ -97,3 +97,7 @@ Podaj identyfikatory, imiona i nazwiska wszystkich komandosów, którzy spędzil
 ## Zadanie 8
 
 Podaj kryptonim(y) misji, która zakończyła się najpóźniej oraz kryptonim(y) misji, która zakończyła się najwcześniej.
+
+## Zadanie 9
+
+Dla każdej specjalności oblicz, na ilu misjach pojawił się przynajmniej jeden komandos (jako uczestnik, nie dowódca) z tą specjalnością.
