@@ -36,3 +36,12 @@ Odpowiedź: **158**
 | **Id** | **Kryptonim** |
 |:--------:|:------------:|
 |   36   |    plodzien    |
+
+## Zadanie 6
+
+Odpowiedź: **44**
+
+| **Id** | **Kryptonim** |
+|:--------:|:------------:|
+| 3 | fpuh |
+| 50 | sedek-laszkiewicz |

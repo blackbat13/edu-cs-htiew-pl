@@ -88,7 +88,7 @@ Podaj identyfikator(y) i kryptonim(y) misji, w której brało udział najwięcej
 
 ## Zadanie 6
 
-Podaj identyfikatory i kryptonimy misji, w których nie brał udziału (tzn. nie był także dowódcą) żaden major o specjalności innej niż *Specjalista IT*.
+Podaj liczbę misji oraz kryptonim misji o najmniejszym identyfikatorze i największym identyfikatorze, w których nie brał udziału (tzn. nie był także dowódcą) żaden major o specjalności innej niż *Specjalista IT*.
 
 ## Zadanie 7
 
