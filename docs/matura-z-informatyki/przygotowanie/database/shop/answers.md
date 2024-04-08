@@ -109,3 +109,25 @@ Najrzadziej zamawiane:
 
 Odpowiedź: **8**
 
+## Zadanie 15
+
+| **Pierwsza cyfra** | **Łączna wartość zamówień** |
+|:------------------:|:---------------------------:|
+|          1         |       1 553 709,72 zł       |
+|          2         |       5 328 174,52 zł       |
+
+Grupa z cyfrą "2" wydała więcej.
+
+## Zadanie 16
+
+Parzyste: **48**
+
+Nieparzyste: **52**
+
+## Zadanie 17
+
+| **Rodzaj** | **Liczba zamówień** |
+|:----------:|:-------------------:|
+|    duże    |          80         |
+|   średnie  |          93         |
+|    małe    |          27         |
