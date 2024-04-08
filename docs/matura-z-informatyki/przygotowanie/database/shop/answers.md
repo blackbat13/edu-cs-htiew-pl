@@ -1,5 +1,9 @@
 # Odpowiedzi
 
+## Zadanie 1
+
+Marika Koska
+
 ## Zadanie 2
 
 |   **Imie**  | **Nazwisko** |
@@ -26,3 +30,18 @@
 ## Zadanie 4
 
 Odpowiedź: **29**
+
+## Zadanie 5
+
+|   **Miesiąc**  | **Liczba zamówień** |
+|:-----------:|:------------:|
+|    Listopad    |   24  |
+
+## Zadanie 6
+
+Rumia
+
+## Zadanie 7
+
+Odpowiedź: **36**
+
