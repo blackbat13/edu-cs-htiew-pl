@@ -80,7 +80,7 @@ Legionowo 2232517,86 zł
 
 Najmniejsza:
 
-Sosnowiec 12960,92 zł
+Gniezna 25,09 zł
 
 ## Zadanie 12
 

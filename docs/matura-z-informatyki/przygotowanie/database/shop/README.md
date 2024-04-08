@@ -116,7 +116,7 @@ Podaj ile klientów ma kod pocztowy kończący się na cyfrę parzystą, a ile n
 Zamówienia dzielimy pod względem zamówionej liczby kg na:
 
 - *małe* - poniżej 10 kg,
-- *średnie* - od 11 do 30 kg,
+- *średnie* - od 10 do 30 kg,
 - *duże* - powyżej 30 kg.
 
 Podaj łączną liczbę zamówień dla każdej z kategorii.
