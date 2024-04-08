@@ -101,7 +101,7 @@ Dla każdego artykułu oblicz liczbę zamówień oraz średnią liczbę zamówio
 
 ## Zadanie 14
 
-Podaj ile artykułów miało w 2021 roku większą łączną sprzedaż w kg w 2020 roku.
+Podaj ile artykułów miało w 2021 roku większą łączną sprzedaż w kg niż w 2020 roku.
 
 ## Zadanie 15
 

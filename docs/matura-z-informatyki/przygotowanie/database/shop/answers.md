@@ -104,3 +104,8 @@ Najrzadziej zamawiane:
 |   melon   |         13,00         |          1          |
 |   mango   |          8,00         |          1          |
 |   jablko  |         34,00         |          1          |
+
+## Zadanie 14
+
+Odpowiedź: **8**
+
