@@ -59,3 +59,16 @@ Meżczyzni:
 |:-------------------:|:--------------------:|:-----------------------------:|:-------------------------:|
 |         118         |         2970         |        14 794 632,96 zł       |       125 378,25 zł       |
 
+## Zadanie 9
+
+Artykuły zamawiane najczęściej przez kobiety: endywia, kokos, limonka, pomidor.
+
+Artykuł zamawiany najczęściej przez mężczyzn: kokos.
+
+## Zadanie 10
+
+| **Imie** | **Nazwisko** | **Liczba unikalnych zamówień** |
+|:--------:|:------------:|:------------------------------:|
+|  Marika  |     Koska    |                6               |
+|  Marcin  |  Odrzywolek  |                6               |
+
