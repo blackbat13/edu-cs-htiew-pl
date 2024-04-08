@@ -1283,6 +1283,12 @@ nav:
             - 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-5/README.md'
           - 'Ćwiczenie 6': 
             - 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-6/README.md'
+          - 'Ćwiczenie 7': 
+            - 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-7/README.md'
+            - 'Rozwiązanie 1': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-7/solution-1.md'
+            - 'Rozwiązanie 2': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-7/solution-2.md'
+            - 'Rozwiązanie 3': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-7/solution-3.md'
+            - 'Rozwiązanie 4': 'matura-z-informatyki/przygotowanie/algorithmic/recursion/exercise-7/solution-4.md'
         - 'Symulacje': 
           - 'Kody Huffmana': 
             - 'matura-z-informatyki/przygotowanie/algorithmic/simulations/huffman-coding/README.md'
