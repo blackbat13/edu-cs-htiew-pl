@@ -1390,9 +1390,11 @@ nav:
         - 'Komandosi':
           - 'matura-z-informatyki/przygotowanie/database/commandos/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/database/commandos/answers.md'
+          - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/database/commandos/solution.md'
         - 'Sklep':
           - 'matura-z-informatyki/przygotowanie/database/shop/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/database/shop/answers.md'
+          - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/database/shop/solution.md'
       - 'SQL': 
         - 'Sklep': 
           - 'matura-z-informatyki/przygotowanie/sql/shop/README.md'
