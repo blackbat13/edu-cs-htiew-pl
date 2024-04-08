@@ -72,3 +72,35 @@ Artykuł zamawiany najczęściej przez mężczyzn: kokos.
 |  Marika  |     Koska    |                6               |
 |  Marcin  |  Odrzywolek  |                6               |
 
+## Zadanie 11
+
+Największa:
+
+Legionowo 2232517,86 zł
+
+Najmniejsza:
+
+Sosnowiec 12960,92 zł
+
+## Zadanie 12
+
+Pierwsze zamówienie: Nataniel Cherek 22.04.2019
+
+Ostatnie zamówienie: Marika Koska 03.04.2024
+
+## Zadanie 13
+
+Najczęściej zamawiane:
+
+| **Nazwa** | **Średnia liczba kg** | **Liczba zamówień** |
+|:---------:|:---------------------:|:-------------------:|
+|   kokos   |         25,78         |          9          |
+
+Najrzadziej zamawiane:
+
+| **Nazwa** | **Średnia liczba kg** | **Liczba zamówień** |
+|:---------:|:---------------------:|:-------------------:|
+|  groszek  |         45,00         |          1          |
+|   melon   |         13,00         |          1          |
+|   mango   |          8,00         |          1          |
+|   jablko  |         34,00         |          1          |

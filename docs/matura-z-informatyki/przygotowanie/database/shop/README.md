@@ -93,11 +93,11 @@ Oblicz średnią wartość zamówienia dla każdego miasta. Podaj nazwy miast wr
 
 ## Zadanie 12
 
-Podaj imię i nazwisko klienta (klientów), który złożył pierwsze zamówienie oraz klienta (klientów), który złożył ostatnie zamówienie.
+Podaj imię i nazwisko klienta (klientów), który złożył pierwsze zamówienie oraz klienta (klientów), który złożył ostatnie zamówienie. Podaj także daty tych zamówień.
 
 ## Zadanie 13
 
-Dla każdego artykułu podaj liczbę zamówień oraz średnią liczbę zamówionych kilogramów na zamówienie, z dokładnością do dwóch cyfr po przecinku. Podaj nazwę artykułu (artykułów), który był najczęściej zamawiany oraz tego, który był najrzadziej zamawiany.
+Dla każdego artykułu oblicz liczbę zamówień oraz średnią liczbę zamówionych kilogramów na zamówienie, z dokładnością do dwóch cyfr po przecinku. Podaj nazwę, liczbę zamówień oraz średnią liczbę zamówień artykułu (artykułów), który był najczęściej zamawiany oraz tego, który był najrzadziej zamawiany.
 
 ## Zadanie 14
 
