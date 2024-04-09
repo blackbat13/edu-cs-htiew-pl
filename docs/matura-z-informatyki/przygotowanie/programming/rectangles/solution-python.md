@@ -132,8 +132,8 @@ print(result)
 
 ## Zadanie 6
 
-```python
-with open(file_path) as file:
+```python linenums="1"
+with open("rectangles.txt") as file:
     rectangles = [
         list(map(int, line.split())) for line in file.read().strip().split("\n")
     ]
@@ -142,13 +142,13 @@ points = [(rect[0], rect[1]) for rect in rectangles]
 points += [(rect[2], rect[3]) for rect in rectangles]
 max_dist = 0
 for i, point1 in enumerate(points):
-    for point2 in points[i + 1 :]:
+    for point2 in points[i + 1:]:
         dist_sqr = ((point1[0] - point2[0]) ** 2 + (point1[1] - point2[1]) ** 2)
         if dist_sqr > max_dist:
             max_dist = dist_sqr
 
 for i, point1 in enumerate(points):
-    for point2 in points[i + 1 :]:
+    for point2 in points[i + 1:]:
         dist_sqr = ((point1[0] - point2[0]) ** 2 + (point1[1] - point2[1]) ** 2)
         if dist_sqr == max_dist:
             print(point1, point2)
