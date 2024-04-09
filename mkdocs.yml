@@ -1358,6 +1358,10 @@ nav:
           - 'matura-z-informatyki/przygotowanie/programming/maze/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/maze/answers.md'
           - 'Rozwiązanie - Python': 'matura-z-informatyki/przygotowanie/programming/maze/solution-python.md'
+        - 'Prostokąty':
+          - 'matura-z-informatyki/przygotowanie/programming/rectangles/README.md'
+          - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/rectangles/answers.md'
+          - 'Rozwiązanie - Python': 'matura-z-informatyki/przygotowanie/programming/rectangles/solution-python.md'
       - 'Arkusz kalkulacyjny': 
         - 'Sklep': 
           - 'matura-z-informatyki/przygotowanie/spreadsheet/shop/README.md'
