@@ -105,7 +105,7 @@ def exercise5():
         for rect2 in rectangles[i + 1 :]:
             x1, y1, x2, y2 = rect1
             x3, y3, x4, y4 = rect2
-            if is_inside(rect1, x3, y4) and is_inside(rect1, x4, y4):
+            if is_inside(rect1, x3, y3) and is_inside(rect1, x4, y4):
                 result += 1
             elif is_inside(rect2, x1, y1) and is_inside(rect2, x2, y2):
                 result += 1
