@@ -1,6 +1,6 @@
 # Prostokąty
 
-W pliku **rectangles.txt** znajduje się opis $100$ prostokątów. Każda linia w pliku zawiera cztery liczby całkowite oddzielone spacją. Liczby oznaczają kolejno współrzędne lewego górnego wierzchołka prostokąta, oraz współrzędne prawego dolnego wierzchołka prostokąta. Np. wartości `3 4 1 2` oznaczają prostokąt o lewym górnym wierzchołku $(3, 4)$, a prawym dolnym wierzchołku $(1, 2)$. Każdy prostokąt jest *poprawnie zdefiniowany*, tzn. ma niezerowe pole, a jego krawędzie są równoległe do osi układu współrzędnych.
+W pliku **rectangles.txt** znajduje się opis $100$ prostokątów. Każda linia w pliku zawiera cztery liczby całkowite oddzielone spacją. Liczby oznaczają kolejno współrzędne lewego górnego wierzchołka prostokąta, oraz współrzędne prawego dolnego wierzchołka prostokąta. Np. wartości `1 4 3 2` oznaczają prostokąt o lewym górnym wierzchołku $(1, 4)$, a prawym dolnym wierzchołku $(3, 2)$. Każdy prostokąt jest *poprawnie zdefiniowany*, tzn. ma niezerowe pole, a jego krawędzie są równoległe do osi układu współrzędnych.
 
 [:material-note-text: rectangles.txt](../../../../assets/rectangles/rectangles.txt)
 
