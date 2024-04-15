@@ -1316,6 +1316,9 @@ nav:
         - 'Liczby Nivena':
           - 'matura-z-informatyki/przygotowanie/algorithmic/niven-numbers/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/algorithmic/niven-numbers/answers.md'
+        - 'Liczby gnomiczne':
+          - 'matura-z-informatyki/przygotowanie/algorithmic/gnomic-numbers/README.md'
+          - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/algorithmic/gnomic-numbers/answers.md'
       - 'Programowanie': 
         - 'Liczby binarne': 
           - 'matura-z-informatyki/przygotowanie/programming/binary-numbers/README.md'

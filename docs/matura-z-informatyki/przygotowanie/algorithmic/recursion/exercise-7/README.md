@@ -46,4 +46,4 @@ Uzupełnij poniższą tabelę podając liczbę wywołań funkcji `fun` (wliczaj�
 
 ## Zadanie 4
 
-Podaj wzór na liczbę wywołań funkcji `fun` dla dowolnych liczb naturalnych $a$ oraz $b$, takich że $a>=b$.
+Podaj wzór na liczbę wywołań funkcji `fun` dla dowolnych liczb naturalnych $a$ oraz $b$, takich że $a\leq b$.
