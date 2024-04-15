@@ -7,7 +7,7 @@ Liczby trójkątne to liczby naturalne, które można zapisać w postaci sumy ko
 Uzupełnij poniższą tabelkę określając, czy podana liczba $k$ jest liczbą trójkątną, a jeżeli tak, to dla jakiego $n$ spełnione jest równanie $k=1+2+...+n$.
 
 | $k$  | $k$ jest liczbą trójkątną  | $n$ |
-| ---- | -------------------------  | ---- |
+| :----: | :-------------------------:  | :----: |
 | 6    | TAK                        | 3    |
 | 8    | NIE                        | -    |
 | 18   |                            |      |
