@@ -28,7 +28,7 @@ W pliku *niven.txt* podanych jest $100$ liczb naturalnych, każda w osobnej lini
 
 W pliku *niven_przyklad.txt* podanych jest $10$ liczb naturalnych, każda w osobnej linii.
 
-[:material-note-text: trojkatne_przyklad.txt](../../../../assets/niven-numbers/niven_przyklad.txt)
+[:material-note-text: niven_przyklad.txt](../../../../assets/niven-numbers/niven_przyklad.txt)
 
 Napisz program, który znajdzie wszystkie liczby Nivena z pliku.
 
