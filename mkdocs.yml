@@ -1312,10 +1312,10 @@ nav:
           - 'matura-z-informatyki/przygotowanie/algorithmic/list-of-numbers/README.md'
         - 'Liczby tójkątne':
           - 'matura-z-informatyki/przygotowanie/algorithmic/triangle-numbers/README.md'
-          - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/algorithmic/triangle-numbers/solutions.md'
+          - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/algorithmic/triangle-numbers/answers.md'
         - 'Liczby Nivena':
           - 'matura-z-informatyki/przygotowanie/algorithmic/niven-numbers/README.md'
-          - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/algorithmic/niven-numbers/solutions.md'
+          - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/algorithmic/niven-numbers/answers.md'
       - 'Programowanie': 
         - 'Liczby binarne': 
           - 'matura-z-informatyki/przygotowanie/programming/binary-numbers/README.md'
