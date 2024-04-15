@@ -1310,6 +1310,9 @@ nav:
             - 'matura-z-informatyki/przygotowanie/algorithmic/simulations/numerical-integration/README.md'
         - 'Lista liczb': 
           - 'matura-z-informatyki/przygotowanie/algorithmic/list-of-numbers/README.md'
+        - 'Liczby tójkątne':
+          - 'matura-z-informatyki/przygotowanie/algorithmic/triangle-numbers/README.md'
+          - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/algorithmic/triangle-numbers/solutions.md'
       - 'Programowanie': 
         - 'Liczby binarne': 
           - 'matura-z-informatyki/przygotowanie/programming/binary-numbers/README.md'
