@@ -1375,6 +1375,7 @@ nav:
       - 'Arkusz kalkulacyjny': 
         - 'Sklep': 
           - 'matura-z-informatyki/przygotowanie/spreadsheet/shop/README.md'
+          - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/spreadsheet/shop/answers.md'
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/spreadsheet/shop/solution.md'
         - 'Owoce': 
           - 'matura-z-informatyki/przygotowanie/spreadsheet/fruits/README.md'
