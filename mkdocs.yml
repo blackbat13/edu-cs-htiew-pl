@@ -109,6 +109,7 @@ nav:
     - 'Programowanie w szkole': 'cs-didactics/programming-in-school.md'
     - 'Nabieranie nauczycieli': 'cs-didactics/tricking-teachers.md'
     - 'Po co mi to': 'cs-didactics/what-for.md'
+    - 'Otwarte oprogramowanie': 'cs-didactics/open-source.md'
   - 'Algorytmy':
     - 'Wprowadzenie': 
       - 'algorithms/introduction/README.md'
