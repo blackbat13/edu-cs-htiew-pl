@@ -491,6 +491,7 @@ nav:
         - 'Funkcje': 'programming/python/introduction/functions.md'
         - 'Pliki': 'programming/python/introduction/files.md'
         - 'Wydajność': 'programming/python/introduction/performance.md'
+        - 'Klasy': 'programming/python/introduction/classes.md'
       - 'Ćwiczenia': 
         - 'programming/python/exercises/README.md'
         - 'Obsługa wejścia/wyjścia': 
