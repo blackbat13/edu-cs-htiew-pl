@@ -1,10 +1,13 @@
 # Klasy
 
+Definicję klasy zaczynamy od słowa kluczowego `class`, a następnie podajemy nazwę klasy, zazwyczaj zaczynając od wielkiej litery. Jeżeli klasa po czymś dziedziczy, to podajemy to wewnątrz nawiasów okrągłych po nazwie klasy.
+
+## Klasa abstrakcyjna
+
+Aby zdefiniować klasę abstrakcyjną, której obiektu nie możemy utworzyć, ale możemy ją wykorzystywać w dziedziczeniu, skorzystamy z klasy bazowej `ABC` z modułu `abc`. Z tego samego modułu przydatny będzie także dekorator `abstractmethod` za pomocą którego możemy oznaczyć wybraną metodę klasy abstrakcyjnej jako abstrakcyjną, która musi zostać zaimplementowana w klasie pochodnej.
+
 ```python linenums="1"
 from abc import ABC, abstractmethod
-from random import randint
-from math import pi, sin, radians
-
 
 class Figure(ABC):
     """Klasa abstrakcyjna reprezentująca figurę.
@@ -27,6 +30,20 @@ class Figure(ABC):
         """
         pass
 
+
+if __name__ = "__main__":
+    figure = Figure() # BŁĄD! Nie możemy tworzyć obiektu klasy abstrakcyjnej
+```
+
+## Dziedziczenie
+
+Standardowe klasy powinny mieć zdefiniowany własny konstruktor/inicjalizator: metodę `__init__`.
+
+Do każdej metody w klasie przekazujemy jako pierwszy parametr `self`, który jest odniesieniem do obiektu klasy, na której pracujemy (podobnie jak `this` w niektórych językach).
+
+```python linenums="1"
+from random import randint
+from math import pi, sin, radians
 
 class Quad(Figure):
     """Klasa reprezentująca czworokąt. 
@@ -61,8 +78,17 @@ class Quad(Figure):
         Metoda publiczna, dziedziczona przez potomków.
         """
         return sum(self._sides)
+```
 
+## Atrybuty klasy
 
+Zmienne wewnątrz klasy, których nazwa zaczyna się od podwójnego znaku podłogi, uznajemy za prywatne. Zmienne te nie mogą być użyte na zewnątrz klasy.
+
+Pozostałe zmienne są generalnie publiczne, chociaż te, których nazwa zaczyna się od pojedyńczego znaku podłogi uznajemy za protected, tzn. dostępne tylko w klasach pochodnych.
+
+Aby mieć kontrolę nad dostępem do zmiennych w obiekcie, możemy skorzystać z dekoratorów `property` oraz `setter` odpowiednio do tworzenia atrybutów do odczytu i zapisu.
+
+```python linenums="1"
 class Rectangle(Quad):
     """Klasa reprezentująca prostokąt.
     Dziedziczy po klasie Quad reprezentującej czworokąt, jako że prostokąt jest czworokątem.
@@ -108,8 +134,9 @@ class Rectangle(Quad):
     def area(self) -> float:
         """Metoda obliczająca pole prostokąta przemnażając wysokość i szerokość."""
         return self.width * self.height
+```
 
-
+```python linenums="1"
 class Square(Rectangle):
     """Klasa reprezentująca kwadrat.
     Dziedziczy po klasie Rectangle reprezentującej prostokąt, jako że kwadrat jest prostokątem.
@@ -190,55 +217,56 @@ class Circle(Ellipse):
         return 2 * pi * self.radius
 
 
-# figure = Figure() - Błąd, nie możemy utworzyć obiektu klasy z abstrakcyjnymi metodami
-quad = Quad(1, 2, 3, 4, 5, 6, 30)
-rectangle = Rectangle(1, 2)
-square = Square(1)
-ellipse = Ellipse(1, 2)
-circle = Circle(5)
+if __name__ == "__main__":
+    # figure = Figure() - Błąd, nie możemy utworzyć obiektu klasy z abstrakcyjnymi metodami
+    quad = Quad(1, 2, 3, 4, 5, 6, 30)
+    rectangle = Rectangle(1, 2)
+    square = Square(1)
+    ellipse = Ellipse(1, 2)
+    circle = Circle(5)
 
-quad.__d1 = 10  # Działa, ale nie jest poprawne, __d1 jest prywatne
-print(f"quad.__d1 = {quad.__d1}")  # Działa, ale nie jest poprawne, __d1 jest prywatne
+    quad.__d1 = 10  # Działa, ale nie jest poprawne, __d1 jest prywatne
+    print(f"quad.__d1 = {quad.__d1}")  # Działa, ale nie jest poprawne, __d1 jest prywatne
 
-quad._sides[0] = 10  # Działa, ale nie jest poprawne, _sides jest protected
-print(f"quad._sides[0] = {quad._sides[0]}")  # Działa, ale nie jest poprawne, _sides jest protected
+    quad._sides[0] = 10  # Działa, ale nie jest poprawne, _sides jest protected
+    print(f"quad._sides[0] = {quad._sides[0]}")  # Działa, ale nie jest poprawne, _sides jest protected
 
-rectangle.width = 10  # Działa
-print(f"rectangle.width = {rectangle.width}")  # Działa
+    rectangle.width = 10  # Działa
+    print(f"rectangle.width = {rectangle.width}")  # Działa
 
-# circle.radius = 10 # Nie działa, nie ma settera
-print(f"circle.radius = {circle.radius}")  # Działa
+    # circle.radius = 10 # Nie działa, nie ma settera
+    print(f"circle.radius = {circle.radius}")  # Działa
 
-circle_one = Circle.one()  # Wywołanie metody klasowej
+    circle_one = Circle.one()  # Wywołanie metody klasowej
 
-print(f"kwadrat jest figurą: {isinstance(square, Figure)}")
-print(f"kwadrat jest czworokątem: {isinstance(square, Quad)}")
-print(f"kwadrat jest prostokątem: {isinstance(square, Rectangle)}")
-print(f"kwadrat jest kwadratem: {isinstance(square, Square)}")
-print(f"kwadrat jest elipsą: {isinstance(square, Ellipse)}")
-print(f"kwadrat jest kołem: {isinstance(square, Circle)}")
+    print(f"kwadrat jest figurą: {isinstance(square, Figure)}")
+    print(f"kwadrat jest czworokątem: {isinstance(square, Quad)}")
+    print(f"kwadrat jest prostokątem: {isinstance(square, Rectangle)}")
+    print(f"kwadrat jest kwadratem: {isinstance(square, Square)}")
+    print(f"kwadrat jest elipsą: {isinstance(square, Ellipse)}")
+    print(f"kwadrat jest kołem: {isinstance(square, Circle)}")
 
-print(f"kwadrat jest typu: {type(square)}")
+    print(f"kwadrat jest typu: {type(square)}")
 
-selection = randint(1, 5)
+    selection = randint(1, 5)
 
-figure = None
+    figure = None
 
-if selection == 1:
-    figure = Quad(1, 2, 3, 4, 6, 7, 30)
-elif selection == 2:
-    figure = Rectangle(1, 2)
-elif selection == 3:
-    figure = Square(1)
-elif selection == 4:
-    figure = Ellipse(1, 2)
-elif selection == 5:
-    figure = Circle(1)
+    if selection == 1:
+        figure = Quad(1, 2, 3, 4, 6, 7, 30)
+    elif selection == 2:
+        figure = Rectangle(1, 2)
+    elif selection == 3:
+        figure = Square(1)
+    elif selection == 4:
+        figure = Ellipse(1, 2)
+    elif selection == 5:
+        figure = Circle(1)
 
-print(f"Wylosowana figura jest typu: {type(figure)}")
+    print(f"Wylosowana figura jest typu: {type(figure)}")
 
-if isinstance(figure, Rectangle):
-    # Sprawdzamy, czy figure jest prostokątem, a jeśli tak, to wypisujemy jego wysokość.
-    # Przy takim podejściu środowisko będzie podpowiadać metody dostępne w klasie Rectangle i traktować figure jako Rectangle.
-    print(f"Wysokość: {figure.height}")
+    if isinstance(figure, Rectangle):
+        # Sprawdzamy, czy figure jest prostokątem, a jeśli tak, to wypisujemy jego wysokość.
+        # Przy takim podejściu środowisko będzie podpowiadać metody dostępne w klasie Rectangle i traktować figure jako Rectangle.
+        print(f"Wysokość: {figure.height}")
 ```
