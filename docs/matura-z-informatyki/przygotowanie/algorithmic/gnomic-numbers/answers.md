@@ -39,3 +39,30 @@ $42$
 
     print(result)
     ```
+
+=== "C++"
+
+    ```cpp linenums="1"
+    #include <iostream>
+    #include <fstream>
+
+    using namespace std;
+
+    int main() {
+        ifstream file("gnomiczne.txt");
+        string binary;
+        int result = 0;
+
+        for(int i = 0; i < 100; i++) {
+            file >> binary;
+            if (binary[binary.length() - 1] == '1') {
+                result++;
+            }
+        }
+
+        cout << result << endl;
+        file.close();
+
+        return 0;
+    }
+    ```

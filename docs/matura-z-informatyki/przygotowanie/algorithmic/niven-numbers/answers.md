@@ -63,3 +63,38 @@ funkcja czy_liczba_nivena(n):
 
     print(*niven_numbers, sep="\n")
     ```
+
+=== "C++"
+
+    ```cpp linenums="1"
+    #include <iostream>
+    #include <fstream>
+    #include <algorithm>
+
+    using namespace std;
+
+    bool is_niven(int n) {
+        int sum = 0;
+        while (n > 0) {
+            sum += n % 10;
+            n /= 10;
+        }
+        return n % sum == 0;
+    }
+
+    int main() {
+        ifstream file("niven.txt");
+        int num;
+
+        for (int i = 0; i < 100; i++) {
+            file >> num;
+            if (is_niven(num)) {
+                cout << num << endl;
+            }
+        }
+
+        file.close();
+
+        return 0;
+    }
+    ```
