@@ -1483,6 +1483,9 @@ nav:
       - '2023': 
         - 'Arkusze': 'matura-z-informatyki/arkusze-i-rozwiazania/2023/README.md'
         - 'Rozwiązania': 'matura-z-informatyki/arkusze-i-rozwiazania/2023/solutions.md'
+      - '2023 - czerwiec':
+        - 'Arkusze': 'matura-z-informatyki/arkusze-i-rozwiazania/2023-czerwiec-cke/README.md'
+        - 'Rozwiązania': 'matura-z-informatyki/arkusze-i-rozwiazania/2023-czerwiec-cke/solutions.md'
       - 'Pytania zamknięte': 'matura-z-informatyki/arkusze-i-rozwiazania/pytania-zamkniete.md'
   - 'Przydatne linki':
     - 'Przewodnik po informatyce': 'https://bezkomputera.wmi.amu.edu.pl/ppi/'
