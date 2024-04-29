@@ -1375,6 +1375,10 @@ nav:
           - 'matura-z-informatyki/przygotowanie/programming/rectangles/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/rectangles/answers.md'
           - 'Rozwiązanie - Python': 'matura-z-informatyki/przygotowanie/programming/rectangles/solution-python.md'
+        - 'Daty':
+          - 'matura-z-informatyki/przygotowanie/programming/dates/README.md'
+          - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/dates/answers.md'
+          - 'Rozwiązania': 'matura-z-informatyki/przygotowanie/programming/dates/solutions.md'
       - 'Arkusz kalkulacyjny': 
         - 'Sklep': 
           - 'matura-z-informatyki/przygotowanie/spreadsheet/shop/README.md'
