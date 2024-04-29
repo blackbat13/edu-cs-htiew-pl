@@ -38,3 +38,7 @@ Palindrom to wyraz, który jest taki sam czytany od lewej do prawej i od prawej 
 ## Zadanie 3
 
 Podaj długość najdłuższego i długość najkrótszego wyrazu z pliku *morse.txt*.
+
+## Zadanie 4
+
+Anagramy to wyrazy, które składają się z dokładnie tych samych znaków, ale niekoniecznie w tej samej kolejności. Policz, ile jest **par** anagramów w pliku *morse.txt*.
