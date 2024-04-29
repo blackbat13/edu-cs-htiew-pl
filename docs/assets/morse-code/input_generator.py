@@ -26,7 +26,7 @@ with open("morse.txt", "w") as file_enc, open("morse_decoded.txt", "w") as file_
         print(mtalk.encode(word).replace("   ", " "), file=file_enc)
 
 with open("morse_test.txt", "w") as file_enc, open("morse_test_decoded.txt", "w") as file_dec:
-    words = [fake.word().upper() for _ in range(8)] + ["LEVEL", "MOM"]
+    words = [fake.word().upper() for _ in range(7)] + ["LEVEL", "MOM", "MMO"]
     shuffle(words)
     for word in words:
         print(word, file=file_dec)

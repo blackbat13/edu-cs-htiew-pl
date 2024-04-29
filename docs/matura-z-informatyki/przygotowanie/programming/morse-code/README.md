@@ -19,26 +19,35 @@ Odkoduj wiadomości z pliku *morse.txt* i zapisz je do pliku *morse_decoded.txt*
 Odpowiedź dla pliku *morse_test.txt*:
 
 ```
-FEDERAL
-CRIME
-HEAD
-PROVE
-REPRESENT
+DRAW
+INSIDE
+FORCE
+PARTNER
+CAMERA
+ADD
 MOM
-YOUNG
 LEVEL
-SAY
-SINCE
+MMO
+OCCUR
 ```
 
 ## Zadanie 2
 
 Palindrom to wyraz, który jest taki sam czytany od lewej do prawej i od prawej do lewej. Policz, ile palindromów jest zakodowanych w pliku *morse.txt*.
 
+Odpowiedź dla pliku *morse_test.txt*: 2.
+
 ## Zadanie 3
 
 Podaj długość najdłuższego i długość najkrótszego wyrazu z pliku *morse.txt*.
 
+Odpowiedź dla pliku *morse_test.txt*:
+
+- najdłuższy: 7
+- najkrótszy: 3
+
 ## Zadanie 4
 
 Anagramy to wyrazy, które składają się z dokładnie tych samych znaków, ale niekoniecznie w tej samej kolejności. Policz, ile jest **par** anagramów w pliku *morse.txt*.
+
+Odpowiedź dla pliku *morse_test.txt*: 1.
