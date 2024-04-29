@@ -2,15 +2,15 @@
 
 W pliku *morse_alphabet.txt* znajduje się alfabet kodu Morse'a: 36 linii, każda zawierająca znak (wielką literę alfabetu angielskiego lub cyfrę) oraz, po spacji, jego kodowanie w alfabecie kodu Morse'a, tzn. ciąg myślników i/lub kropek.
 
-[:material-note-text: maze.txt](../../../../assets/morse-code/morse_alphabet.txt)
+[:material-note-text: morse_alphabet.txt](../../../../assets/morse-code/morse_alphabet.txt)
 
 W pliku *morse.txt* znajduje się 100 linii, każda zawierająca jeden wyraz zakodowany w alfabecie kodu Morse'a. Wiadomość może składać się z wielu znaków, a każdy kolejny kod znaku jest oddzielony znakiem spacji.
 
-[:material-note-text: maze.txt](../../../../assets/morse-code/morse.txt)
+[:material-note-text: morse.txt](../../../../assets/morse-code/morse.txt)
 
 W pliku *morse_test.txt* znajduje się 10 linii jak opisano powyżej.
 
-[:material-note-text: maze.txt](../../../../assets/morse-code/morse_test.txt)
+[:material-note-text: morse_test.txt](../../../../assets/morse-code/morse_test.txt)
 
 ## Zadanie 1
 
