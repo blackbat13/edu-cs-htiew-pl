@@ -54,4 +54,4 @@ Dla pliku *dates_test.txt* odpowiedź to:
 
 Przyjmując interpretację dat z zadania 3, podaj ile jest **par** dat, że jak zsumujemy ich miesiące i zsumujemy ich dni to dostaniemy wartości mieszczące się w zakresach odpowiednio $[1,12]$ oraz $[1,31]$.
 
-Dla pliku *dates_test.txt* odpowiedź to 3041.
+Dla pliku *dates_test.txt* odpowiedź to 1909.
