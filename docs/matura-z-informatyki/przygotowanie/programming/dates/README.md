@@ -2,11 +2,11 @@
 
 W pliku *dates.txt* znajduje się 1000 linii, każda zawierająca trzy liczby naturalne oddzielone spacją. Liczby te reprezentują daty. Rok jest liczbą naturalną z przedziału od 100 do 3000, miesiąc jest liczbą naturalną z przedziału od 1 do 12, a dzień jest liczbą naturalną z przedziału od 1 do 31. Daty podane są w losowej kolejności, tzn. nie wiadomo, na którym miejscu występuje dzień, miesiąc i rok.
 
-[:material-note-text: kik.txt](../../../../assets/dates/dates.txt)
+[:material-note-text: dates.txt](../../../../assets/dates/dates.txt)
 
 Plik *dates_test.txt* zawiera 100 linii tak jak opisano powyżej.
 
-[:material-note-text: kik.txt](../../../../assets/dates/dates_test.txt)
+[:material-note-text: dates_test.txt](../../../../assets/dates/dates_test.txt)
 
 ## Zadanie 1
 
