@@ -17,6 +17,33 @@
     print(result)
     ```
 
+=== "C++"
+
+    ```cpp linenums="1"
+    #include <iostream>
+    #include <fstream>
+
+    using namespace std;
+
+    int main() {
+        ifstream file("dates.txt");
+        int result = 0, a, b, c, year;
+        for(int i = 0; i < 1000; i++) {
+            file >> a >> b >> c;
+            year = max(a, max(b, c));
+            if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+                result++;
+            }
+        }
+
+        file.close();
+        
+        cout << result << endl;
+
+        return 0;
+    }
+    ```
+
 ## Zadanie 2
 
 === "Python"
@@ -34,7 +61,35 @@
             result += 1
 
     print(result)
+    ```
 
+=== "C++"
+
+    ```cpp linenums="1"
+    #include <iostream>
+    #include <fstream>
+
+    using namespace std;
+
+    int main() {
+        ifstream file("dates.txt");
+        int result = 0, a, b, c, year, month, day;
+        for(int i = 0; i < 1000; i++) {
+            file >> a >> b >> c;
+            year = max(a, max(b, c));
+            month = min(a, min(b, c));
+            day = a + b + c - year - month;
+            if (day > 12) {
+                result++;
+            }
+        }
+
+        file.close();
+        
+        cout << result << endl;
+        
+        return 0;
+    }
     ```
 
 ## Zadanie 3
@@ -56,6 +111,39 @@
     print("Najmłodsza:", ordered_dates[-1])
     ```
 
+=== "C++"
+
+    ```cpp linenums="1"
+    #include <iostream>
+    #include <fstream>
+    #include <algorithm>
+    #include <tuple>
+
+    using namespace std;
+
+    int main() {
+        ifstream file("dates.txt");
+        int a, b, c, year, month, day;
+        tuple<int, int, int> dates[1000];
+        for(int i = 0; i < 1000; i++) {
+            file >> a >> b >> c;
+            year = max(a, max(b, c));
+            month = min(a, min(b, c));
+            day = a + b + c - year - month;
+            dates[i] = make_tuple(year, month, day);
+        }
+
+        file.close();
+
+        sort(dates, dates + 1000);
+
+        cout << "Najstarsza: " << get<0>(dates[0]) << " " << get<1>(dates[0]) << " " << get<2>(dates[0]) << endl;
+        cout << "Najmlodsza: " << get<0>(dates[999]) << " " << get<1>(dates[999]) << " " << get<2>(dates[999]) << endl;
+        
+        return 0;
+    }
+    ```
+
 ## Zadanie 4
 
 === "Python"
@@ -69,6 +157,33 @@
     months_count = Counter(months)
     print(months_count)
     ```
+
+=== "C++"
+
+    ```cpp linenums="1"
+    #include <iostream>
+    #include <fstream>
+
+    using namespace std;
+
+    int main() {
+        ifstream file("dates.txt");
+        int a, b, c, month;
+        int months_count[13] = {};
+        for(int i = 0; i < 1000; i++) {
+            file >> a >> b >> c;
+            month = min(a, min(b, c));
+            months_count[month]++;
+        }
+
+        file.close();
+
+        for(int i = 1; i <= 12; i++) {
+            cout << i << ": " << months_count[i] << endl;
+        }
+
+        return 0;
+    }
 
 ## Zadanie 5
 
@@ -101,6 +216,49 @@
     print("Rok końcowy:", max_end_year)
     ```
 
+=== "C++"
+
+    ```cpp linenums="1"
+    #include <iostream>
+    #include <fstream>
+
+    using namespace std;
+
+    int main() {
+        ifstream file("dates.txt");
+        int a, b, c, current_year, previous_year, result = 0;
+        int current_length = 1, max_length = 1, current_start_year, max_start_year, max_end_year;
+        file >> a >> b >> c;
+        current_year = max(a, max(b, c));
+        current_start_year = current_year;
+        max_start_year = current_year;
+        max_end_year = current_year;
+        for(int i = 1; i < 1000; i++) {
+            previous_year = current_year;
+            file >> a >> b >> c;
+            current_year = max(a, max(b, c));
+            if(current_year > previous_year) {
+                current_length += 1;
+                if(current_length > max_length) {
+                    max_length = current_length;
+                    max_start_year = current_start_year;
+                    max_end_year = current_year;
+                }
+            } else {
+                current_start_year = current_year;
+                current_length = 1;
+            }
+        }
+
+        file.close();
+
+        cout << "Dlugosc: " << max_length << endl;
+        cout << "Rok startowy: " << max_start_year << endl;
+        cout << "Rok koncowy: " << max_end_year << endl;
+
+        return 0;
+    }
+
 ## Zadanie 6
 
 === "Python"
@@ -124,4 +282,41 @@
                 result += 1
 
     print(result)
+    ```
+
+=== "C++"
+
+    ```cpp linenums="1"
+    #include <iostream>
+    #include <fstream>
+    #include <algorithm>
+    #include <tuple>
+
+    using namespace std;
+
+    int main() {
+        ifstream file("dates.txt");
+        int a, b, c, year, month, day, result = 0;
+        tuple<int, int, int> dates[1000];
+        for(int i = 0; i < 1000; i++) {
+            file >> a >> b >> c;
+            year = max(a, max(b, c));
+            month = min(a, min(b, c));
+            day = a + b + c - year - month;
+            dates[i] = make_tuple(year, month, day);
+        }
+
+        file.close();
+
+        for(int i = 0; i < 1000; i++) {
+            for(int j = i + 1; j < 1000; j++) {
+                if (get<1>(dates[i]) + get<1>(dates[j]) <= 12 && get<2>(dates[i]) + get<2>(dates[j]) <= 31)
+                    result++;
+            }
+        }
+
+        cout << result << endl;
+        
+        return 0;
+    }
     ```
