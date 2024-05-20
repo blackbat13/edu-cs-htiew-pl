@@ -126,6 +126,6 @@ W pliku `characters_equipment.txt` znajdują się dane o ekwipunku postaci. Każ
 
 [:material-note-text: characters_equipment.txt](../../../../assets/repeat-1/characters_equipment.txt)
 
-Podaj ile jest takich postaci, które urodziły się w miesiącach od stycznia do czerwca włącznie, ich wzrost wynosi powyżej 180 cm lub waga poniżej 70 kg oraz nie posiadają ekwipunku droższego niż 1000 złotych.
+Podaj ile jest takich postaci, które urodziły się w miesiącach od stycznia do czerwca włącznie, ich wzrost wynosi powyżej 180 cm lub waga poniżej 70 kg oraz nie posiadają przedmiotu w ekwipunku droższego niż 1000 złotych.
 
 Podaj identyfikator oraz nazwę pierwszej i ostatniej takiej postaci, po posortowaniu ich rosnąco po identyfikatorach.
