@@ -110,3 +110,11 @@ ORDER BY srednia ASC;
     print("Minimum:", u2_numbers[0])
     print("Maksimum:", u2_numbers[-1])
     ```
+
+## Zadanie 6
+
+Liczba: 8
+Pierwszy: 5 kut-kutek
+Ostatni: 138 fpuh
+
+[:material-microsoft-access: characters-solution.accdb](../../../../assets/repeat-1/characters-solution.accdb)
