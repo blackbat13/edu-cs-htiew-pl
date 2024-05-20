@@ -113,8 +113,8 @@ ORDER BY srednia ASC;
 
 ## Zadanie 6
 
-Liczba: 8
-Pierwszy: 5 kut-kutek
-Ostatni: 138 fpuh
+- Liczba: 8
+- Pierwszy: 5 kut-kutek
+- Ostatni: 138 fpuh
 
 [:material-microsoft-access: characters-solution.accdb](../../../../assets/repeat-1/characters-solution.accdb)
