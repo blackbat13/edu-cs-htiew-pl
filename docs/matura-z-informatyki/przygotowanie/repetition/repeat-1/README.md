@@ -86,6 +86,8 @@ Jasiu zastanawia się, dla danego układu kart na stole, ile kart będzie trzyma
 
 Jasiu ma małe dłonie i zastanawia się, czy zdoła utrzymać wszystkie karty w lewej ręce, dlatego zwrócił się o pomoc do Ciebie. Zaprojektuj algorytm, który obliczy i wypisze ile **maksymalnie** kart Jasiu będzie musiał trzymać w lewej ręce dla danego układu kart. Algorytm powinien być zgodny z poniższą specyfikacją.
 
+**Uwaga**: w swoim zapisie możesz korzystać jedynie z podstawowych operacji arytmetycznych (dodawanie, odejmowanie, mnożenie, dzielenie, reszta z dzielenia, dzielenie całkowite), instrukcji kontroli przepływu (instrukcja warunkowa, pętla warunkowa, pętla licząca), instrukcji dotyczących podstawowych operacji na zmiennych (utworzenie zmiennej, przypisanie wartości, odczytanie wartości), instrukcji dotyczących podstawowych operacji na tablicach (utworzenie tablicy o zadanym rozmiarze wypełnionej jedną wartością, odwołanie do elementu tablicy pod zadanym indeksem) oraz samodzielnie zdefiniowanych funkcji.
+
 **Dane**:
 
 - $n$ - liczba naturalna, liczba kart na stole, $n>0$
