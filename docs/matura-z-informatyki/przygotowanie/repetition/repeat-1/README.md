@@ -111,3 +111,21 @@ Podaj najmniejszą i największą liczbę z pliku `u2.txt`. Dla pliku `u2_test.t
 
 - najmniejsza liczba: $100110000_{U2}$
 - największa liczba: $000101101_{U2}$
+
+## Zadanie 6
+
+W pliku `characters.txt` znajdują się dane dotyczące pewnych postaci. Każda linia zawiera dane jednej postaci, tzn. jej identyfikator, nazwę, wzrost (w cm), wagę (w kg), oraz datę powstania. Dane są oddzielone średnikiem. Pierwszy wiersz zawiera nagłówki kolumn.
+
+[:material-note-text: characters.txt](../../../../assets/repeat-1/characters.txt)
+
+W pliku `equipment.txt` znajdują się dane dotyczące ekwipunku pewnych postaci. Każda linia zawiera dane jednego przedmiotu, tzn. jego identyfikator, nazwę oraz cenę (w złotówkach). Dane są oddzielone średnikiem. Pierwszy wiersz zawiera nagłówki kolumn.
+    
+[:material-note-text: equipment.txt](../../../../assets/repeat-1/equipment.txt)
+
+W pliku `characters_equipment.txt` znajdują się dane o ekwipunku postaci. Każda linia zawiera dwie liczby: identyfikator postaci oraz identyfikator ekwipunku. Dane są oddzielone średnikiem. Pierwszy wiersz zawiera nagłówki kolumn.
+
+[:material-note-text: characters_equipment.txt](../../../../assets/repeat-1/characters_equipment.txt)
+
+Podaj ile jest takich postaci, które urodziły się w miesiącach od stycznia do czerwca włącznie, ich wzrost wynosi powyżej 180 cm lub waga poniżej 70 kg oraz nie posiadają ekwipunku droższego niż 1000 złotych.
+
+Podaj identyfikator oraz nazwę pierwszej i ostatniej takiej postaci, po posortowaniu ich rosnąco po identyfikatorach.
