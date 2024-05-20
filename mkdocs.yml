@@ -1435,6 +1435,10 @@ nav:
         - 'Komandosi': 
           - 'matura-z-informatyki/przygotowanie/sql/commandos/README.md'
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/sql/commandos/solution.md'
+      - 'Powtórzenie':
+        - 'Powtórzenie 1':
+          - 'matura-z-informatyki/przygotowanie/repetition/repeat-1/README.md'
+          - 'Rozwiązania': 'matura-z-informatyki/przygotowanie/repetition/repeat-1/solutions.md'
     - 'Arkusze i rozwiązania':
       - '2010': 
         - 'Arkusze': 'matura-z-informatyki/arkusze-i-rozwiazania/2010/README.md'
