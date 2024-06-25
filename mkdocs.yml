@@ -1022,6 +1022,9 @@ nav:
         - 'Gra w kolory': 'learning-by-games/python/pygame-zero/colors-game.md'
         - 'Kolorowa piłka': 'learning-by-games/python/pygame-zero/colorful-ball.md'
         - 'Snake': 'learning-by-games/python/pygame-zero/snake.md'
+      - 'Gry 2D - pixelpad.io':
+        - 'learning-by-games/python/pixelpad/README.md'
+        - 'Fruit Ninja': 'learning-by-games/python/pixelpad/fruit-ninja.md'
       - 'Gry sieciowe': 
         - 'learning-by-games/python/online/README.md'
         - 'Echo': 'learning-by-games/python/online/echo.md'
