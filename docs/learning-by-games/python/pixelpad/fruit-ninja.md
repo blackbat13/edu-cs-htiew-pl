@@ -338,3 +338,37 @@ game.points -= 1
 ```
 
 Teraz, gdy uruchomimy grę, powinniśmy widzieć, jak nasze punkty się zmieniają. Możemy już konkurować z innymi o najlepszy wynik!
+
+## Animacja trafienia
+
+Nasza gra będzie wyglądała znacznie lepiej, gdy po trafieniu owoc efektownie się *rozpadnie*. W tym celu dodamy odpowiednią animację.
+
+### Grafika
+
+Zaczynamy od znalezienia odpowiedniej grafiki, a dokładniej animacji utworzonej z kilku grafik. Klikamy plusik przy *Sprites* i szukamy *Orange Splash*, jak pokazano piniżej. Dodajemy i zapisujemy pod nazwą *orangesplash*.
+
+![Animacja z pixelpad.io](https://s3.us-west-1.amazonaws.com/media.pixelpad.io/__ASSET__.1.288651.1646741545.orangesplashanim.gif)
+
+### Klasa
+
+Do wyświetlania naszej animacji potrzebna nam będzie nowa klasa. Klikamy plusik przy *Classes* i tworzymy klasę o nazwie *Splash*. Wykorzystamy ją do animacji także dla innych owoców, nie tylko pomarańczy.
+
+Klasa będzie bardzo prosta. Nie będziemy w niej inicjalizować samej animacji, zrobimy to z innego miejsca. Tutaj przechowamy wyłącznie licznik, który posłuży nam do usunięcia animacji po odpowiednim czasie. W części inicjalizującej dopisujemy więc zmienną do obiektu klasy. Nazwiemy ją *timer* i przypiszemy początkową wartość równą $16$. Będzie to liczba klatek, po której animacja zostanie usunięta.
+
+```python
+self.timer = 16
+```
+
+W części aktualizującej będziemy zmniejszać ten licznik, a gdy dojdzie do zera, to usuniemy nasz obiekt animacji. Żeby uniezależnić się od liczby klatek na sekundę, będziemy odejmować w każdej klatce nie wartość $1$, ale wartość $60$ podzieloną przez aktualną liczbę klatek na sekundę. Dlaczego $60$? W takiej liczbie klatek powinna działać nasza gra. Liczbę klatek na sekundę otrzymamy za pomocą funkcji `get_fps()`. Dopisujemy więc w części aktualizującej (zakładka *Loop*):
+
+```python
+self.timer -= 60 / game.get_fps()
+```
+
+Teraz, gdy licznik osiągnie wartość $0$, usuniemy nasz obiekt animacji.
+
+```python
+if self.timer <= 0:
+    destroy(self)
+```
+    
