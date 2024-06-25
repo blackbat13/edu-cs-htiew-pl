@@ -2,6 +2,10 @@
 
 Tym razem stworzymy grę typu *Fruit Ninja*. Cel gry jest prosty. Z brzegu ekranu będą wyskakiwać owoce, a naszym zadaniem będzie je złapać, zanim spadną.
 
+Grę, którą będziemy tworzyć, możemy zobaczyć poniżej.
+
+<iframe id="pixelpad-embed" title="Fruit Ninja" style="border: none;" src="https://pixelpad.io/app/pcsoedfirjh/?emb=1" width="640" height="360"></iframe>
+
 ## Tło
 
 Zacznijmy od dodania tła do naszej gry. Proponuję jasne tło, np. niebo. 
@@ -280,3 +284,4 @@ if is_mouse_is_pressed("left"):
 ```
 
 Jeżeli teraz przetestujemy grę, to powinniśmy móc *łapać* nasze owoce. Świetnie!
+
