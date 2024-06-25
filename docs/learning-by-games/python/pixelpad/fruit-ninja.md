@@ -285,3 +285,56 @@ if is_mouse_is_pressed("left"):
 
 Jeżeli teraz przetestujemy grę, to powinniśmy móc *łapać* nasze owoce. Świetnie!
 
+## Punkty
+
+Cóż to za gra bez punktów. W naszej grze będziemy dostawać punkty za każdy trafiony owoc, a tracić, za każdy który wypadnie poza ekran.
+
+### Tekst
+
+Zaczniemy do dodania do naszej gry napisu wyświetlającego punkty na ekranie. W tym celu przechodzimy do klasy *Game*. W części inicjalizującej (zakładka *Start*) utworzymy nowy tekst za pomocą funkcji `text` i zapiszemy go w zmiennej w grze o nazwie `points_text`. Funkcja `text` przyjmuje trzy parametry: tekst do wyświetlenia oraz jego współrzędne na ekranie. Punkty umieścimy w lewym górnym rogu naszej gry. Dopisujemy więc na końcu kodu.
+
+```python
+self.points_text = text("Punkty: 0", -600, 350)
+```
+
+Teraz powinniśmy już zobaczyć nasze punkty po uruchomieniu gry. Oczywiście nie będą się jeszcze zmieniać.
+
+Dla lepszego efektu zmienimy kolor dodanego tesktu, odwołując się do własności `color` w zmiennej `points_text`. Kolor możemy podać za pomocą angielskiej nazwy, albo w kodzie szesnastkowym.
+
+```python
+self.points_text.color = "#F18805"
+```
+
+Zmieńmy także rozmiar tekstu. Powinien być odpowiednio duży i czytelny. To zrobimy odwołując się do własności `fontSize`.
+
+```python
+self.points_text.fontSize = 80
+```
+
+### Zliczanie
+
+Mamy już sposób na wyświetlanie punktów, możemy przejść do ich zliczania. Punkty będziemy pamiętać w zmiennej `points` w klasie *Game*. Dopisujemy więc w części inicjalizującej:
+
+```python
+self.points = 0
+```
+
+Zmienimy także jego wartość na ekranie. W tym celu zmienimy tekst, który wyświetla nam punkty. Dopisujemy więc w części aktualizującej (zakładka *Loop*):
+
+```python
+self.points_text.text = "Punkty: " + str(self.points)
+```
+
+Teraz pozostało dodawać i odejmować punkty. Przechodzimy więc najpierw do klasy *Slicer*. W części aktualizującej, gdzie wykrywamy kolizję z owocem i go usuwamy, dopiszemy zwiększanie liczby punktów. Dopisujemy, zaraz pod instrukcją `destroy(fruit)`, zachowując odpowiednie wcięcie:
+
+```python
+game.points += 1
+```
+
+Podobnie zrobimy, gdy owoc zniknie poza ekranem. Przechodzimy do części aktualizującej w klasie `Fruit`. Zaraz pod instrukcją `destroy(self)`, za pomocą której usuwamy owoce, które wypadły poza ekran, dopisujemy, zachowując odpowiednie wcięcie:
+
+```python
+game.points -= 1
+```
+
+Teraz, gdy uruchomimy grę, powinniśmy widzieć, jak nasze punkty się zmieniają. Możemy już konkurować z innymi o najlepszy wynik!
