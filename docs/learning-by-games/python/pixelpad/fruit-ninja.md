@@ -464,3 +464,154 @@ if is_mouse_is_pressed("left"):
 ```
 
 Teraz animacja jest już gotowa.
+
+## Czas i koniec gry
+
+Nasza gra powinna się kiedyś zakończyć, nie tylko wtedy, gdy się nią znudzimy. Dodamy licznik czasu, po którego upłynięciu gra się zakończy.
+
+### Czas
+
+Wyświetlanie i zliczanie czasu zrobimy z poziomu klasy `Game`. Najpierw zaczniemy od zapamiętania czasu, który nam pozostał. W części inicjalizującej (zakładka *Start*) tworzymy nową zmienną przypisaną do obiektu gry. Nazwiemy ją *time* i ustawimy jej początkową wartość na $61$. W ten sposób będziemy mieli $60$ sekund na rozgrywkę. Dlaczego więc ustawiamy $61$ a nie $60$? Ponieważ ta jedna sekunda zdąży upłynąć, zanim gra właściwie wystartuje. Dodajemy nową zmienną na końcu kodu.
+
+```python
+self.time = 61
+```
+
+Teraz czas wyświetlić czas na ekranie. Do tego utworzymy kolejną zmienną zapisaną w obiekcie gry, tym razem o nazwie *time_text*. Przypiszemy do niej tekst utworzony za pomocą funkcji `text`, podobnie jak zrobiliśmy z punktami. Licznik czasu umieścimy w prawym górnym rogu. Nadamy mu także odpowiedni kolor (`color`) i rozmiar (`fontSize`).
+
+```python hl_lines="2-4"
+self.time = 61
+self.time_text = text(self.time, 500, 350)
+self.time_text.color = "#0E1428"
+self.time_text.fontSize = 80
+```
+
+Po uruchomieniu powinniśmy już widzieć czas w prawym górnym rogu ekranu gry. Oczywiście nie będzie się jeszcze zmieniał. Tym się teraz zajmiemy. Przechodzimy do części aktualizującej (zakładka *Loop*). Na koniec kodu dopiszemy instrukcję zmniejszającą naszą zmienną `time` o liczbę sekund, które upłynęły od ostatniej klatki animacji. W tym celu musimy znowu skorzystać z funkcji `get_fps()`. Najpierw dzielimy $60$ przez liczbę klatek, a następnie wynik znowy dzielimy na $60$, by uzyskać sekudny. Całość odejmujemy od zmiennej `time`.
+
+```python
+self.time -= (60/get_fps()) / 60
+```
+
+Teraz pozostało nam zaktualizować wyświetlany czas. Ponieważ czas będzie teraz liczbą rzeczywistą, a my chcemy wyświetlać tylko pełne sekundy, to musimy go zamienić na liczbę całkowitą za pomocą funkcji `int` przypisując go do tekstu.
+
+```python hl_lines="2"
+self.time -= (60/get_fps()) / 60
+self.time_text.text = int(self.time)
+```
+
+Teraz powinniśmy widzieć zmieniający się czas na ekranie.
+
+### Koniec gry
+
+Gdy licznik czasu dobiegnie końca gra powinna się zatrzymać. Do tego będziemy potrzebowali jednej dodatkowej zmiennej do pamiętania, czy gra się już zakończyła. Dodamy nową zmienną do naszego obiektu gry. Nazwiemy ją `game_over` i przypiszemy jej początkową wartość `False`. Nową zmienną dopisujemy na końcu w części inicjalizującej (zakładka *Start*).
+
+```python
+self.game_over = False
+```
+
+Teraz musimy zmienić nasz kod, aby sprawdzał, czy gra się zakończyła. Wracamy do zakładki *Loop*. Najpierw, **na samym początku kodu**, sprawdzimy, czy gra się już zakończyła. Jeżeli tak, to użyjemy instrukcji `return` by nie wykonywać już żadnych więcej operacji.
+
+```python
+if self.game_over:
+    return
+```
+
+Teraz czas zakończyć grę, gdy licznik czasu spadnie do zera. W tym celu wracamy do miejsca, gdzie aktualizowaliśmy nasz czas.
+
+```python
+self.time -= (60/get_fps()) / 60
+self.time_text.text = int(self.time)
+```
+
+**Pomiędzy** te dwie linijki kodu dodamy instrukcję sprawdzającą, czy czas spadł **poniżej** zera. Tak będzie łatwiej, niż sprawdzać czy czas wynosi równe zero, ponieważ pracujemy na liczbach rzeczywistych.
+
+```python hl_lines="3"
+self.time -= (60/get_fps()) / 60
+
+if self.time < 0:
+
+self.time_text.text = int(self.time)
+```
+
+Jeżeli tak się wydarzy, to zrobimy dwie rzeczy: zapamiętamy, że gra się zakończyła zmieniając wartość zmiennej `game_over` na `True` i ustawimy czas na $0$, aby nie wyświetlać ujemnych wartości.
+
+```python hl_lines="3-5"
+self.time -= (60/get_fps()) / 60
+
+if self.time < 0:
+    self.game_over = True
+    self.time = 0
+
+self.time_text.text = int(self.time)
+```
+
+Teraz gra powinna się kończyć wraz z upływem czasu.
+
+### Napis końca gry
+
+Warto poinformować gracza stosownym komunikatem, że gra się zakończyła. W tym celu utworzymy napis *GAME OVER*, który wyświetli się na środku ekranu po zakończeniu gry. Napis początkowo powinien być niewidoczny, dlatego ustawimy jego własność `visible` na `False`. Poza tym wyrównamy go także w poziomie (`halign`) oraz w pionie (`valign`). Wszystko zapiszemy w zmiennej `game_over_text` w obiekcie gry. Dopisujemy nowy fragment na końcu części inicjalizującej (zakładka *Start*).
+
+```python
+self.game_over_text = text("GAME OVER", 0, 0)
+self.game_over_text.color = "#FF4365"
+self.game_over_text.fontSize = 120
+self.game_over_text.halign = "center"
+self.game_over_text.valign = "middle"
+self.game_over_text.visible = False
+```
+
+Tekst powinniśmy wyświetlić, jak gra się zakończy. Przechodzimy więc do zakładki *Loop* i szukamy fragmentu, w którym ustawiamy wartość zmiennej `game_over` na `True`.
+
+```python
+if self.time < 0:
+    self.game_over = True
+    self.time = 0
+```
+
+Pod spodem, wewnątrz instrukcji warunkowej, zmieniamy widoczność tekstu końca gry.
+
+```python hl_lines="4"
+if self.time < 0:
+    self.game_over = True
+    self.time = 0
+    self.game_over_text.visible = True
+```
+
+Teraz powinniśmy zobaczyć napis *GAME OVER* na ekranie po zakończeniu gry.
+
+### Restart
+
+Grę możemy restartować *ręcznie*, uruchamiając ją ponownie, ale dobrze byłoby móc to także zrobić z poziomu gry. Dlatego dodamy możliwość restartu gry po jej zakończeniu, gdy gracz wciśnie **prawy** przycisk myszy. Dlaczego prawy? Ponieważ lewy jest używany w rozgrywce.
+
+Przechodzimy do zakładki *Loop* w klasie `Game`. Na samym początku kodu mamy instrukcję, która sprawdza, czy gra się zakończyła.
+
+```python
+if self.game_over:
+    return
+```
+
+Wewnątrz tej instrukcji, **przed** wykonaniem `return`, sprawdzimy, czy naciśnięty został prawy przycisk myszy.
+
+```python hl_lines="2"
+if self.game_over:
+    if mouse_is_pressed("right"):
+    return
+```
+
+Jeżeli tak jest, to ustawimy wartość `game_over` na `False`, ukryjemy tekst końca gry, wyzerujemy punkty oraz przywrócimy początkową wartość licznika czasu.
+
+```python hl_lines="2"
+if self.game_over:
+    if mouse_is_pressed("right"):
+        self.time = 61
+        self.points = 0
+        self.game_over_text.visible = False
+        self.game_over = False
+    return
+```
+
+Teraz powinniśmy móc ponownie uruchomić rozgrywkę po jej zakończeniu za pomocą prawego przycisku myszy.
+
+## Skończona gra
+
+Pełen kod gry można znaleźć pod adresem [https://pixelpad.io/app/pcsoedfirjh/?edit=1](https://pixelpad.io/app/pcsoedfirjh/?edit=1).
