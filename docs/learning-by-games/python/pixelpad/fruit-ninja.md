@@ -254,30 +254,30 @@ Gdy będziemy trzymać lewy przycisk myszy i najedziemy kursorem na owoc, to ten
 Na początku sprawdzimy, czy wciśnięty jest lewy przycisk myszy. Do tego skorzystamy z funkcji `mouse_is_pressed`, która jako parametr przyjmuje nazwę przycisku, który chcemy sprawdzić. Dopisujemy więc do naszego kodu, na końcu:
 
 ```python
-if is_mouse_is_pressed("left"):
+if mouse_is_pressed("left"):
 ```
 
 Teraz sprawdzimy, czy jesteśmy **w kolizji** z jakimś owocem. Możemy to zrobić za pomocą funkcji `get_collision`, która zwróci nam obiekt, w którym jesteśmy w kolizji, lub wartość *pustą*, jeżeli nie jesteśmy w kolizji. Do funkcji przekazujemy dwa elementy, których kolizję chcemy zbadać. Pierwszy to będzie nasz obecny obiekt (`self`), a drugim będzie nazwa klasy *Fruit*, ponieważ chcemy sprawdzić, czy jesteśmy w kolizji z *jakimkolwiek* owocem.
 
 Dopisujemy więc, wewnątrz bloku naszej instrukcji warunkowej:
 
-```python
-if is_mouse_is_pressed("left"):
+```python hl_lines="2"
+if mouse_is_pressed("left"):
     fruit = get_collision(self, "Fruit")
 ```
 
 Teraz pozostało nam sprawdzić, czy jakiś owoc został zwrócony.
 
-```python
-if is_mouse_is_pressed("left"):
+```python hl_lines="3"
+if mouse_is_pressed("left"):
     fruit = get_collision(self, "Fruit")
     if fruit:
 ```
 
 Jeżeli tak, to go usuniemy z gry za pomocą funkcji `destroy`.
 
-```python
-if is_mouse_is_pressed("left"):
+```python hl_lines="4"
+if mouse_is_pressed("left"):
     fruit = get_collision(self, "Fruit")
     if fruit:
         destroy(fruit)
@@ -339,8 +339,8 @@ game.points -= 1
 
 Całość powinna wyglądać tak:
 
-```python
-if is_mouse_is_pressed("left"):
+```python hl_lines="5"
+if mouse_is_pressed("left"):
     fruit = get_collision(self, "Fruit")
     if fruit:
         destroy(fruit)
@@ -372,7 +372,7 @@ self.timer = 16
 W części aktualizującej będziemy zmniejszać ten licznik, a gdy dojdzie do zera, to usuniemy nasz obiekt animacji. Żeby uniezależnić się od liczby klatek na sekundę, będziemy odejmować w każdej klatce nie wartość $1$, ale wartość $60$ podzieloną przez aktualną liczbę klatek na sekundę. Dlaczego $60$? W takiej liczbie klatek powinna działać nasza gra. Liczbę klatek na sekundę otrzymamy za pomocą funkcji `get_fps()`. Dopisujemy więc w części aktualizującej (zakładka *Loop*):
 
 ```python
-self.timer -= 60 / game.get_fps()
+self.timer -= 60 / get_fps()
 ```
 
 Teraz, gdy licznik osiągnie wartość $0$, usuniemy nasz obiekt animacji.
@@ -403,7 +403,7 @@ self.splash_animation = animation(splash, 16, 0, 7)
 Teraz, jak już mamy wszystko przygotowane, czas przejść do uruchomienia animacji w odpowiednim momencie. Chcemy to zrobić wtedy, gdy złapiemy owoc na ekranie. Za łapanie owoców odpowiada *Slicer*, do niego więc przechodzimy. Otwieramy zakładkę z kodem aktualizacyjnym (*Loop*) i szukamy miejsca, w którym usuwamy złapany owoc. Fragment kodu, który nas interesuje, powinien wyglądać mniej więcej tak:
 
 ```python
-if is_mouse_is_pressed("left"):
+if mouse_is_pressed("left"):
     fruit = get_collision(self, "Fruit")
     if fruit:
         destroy(fruit)
@@ -413,7 +413,7 @@ if is_mouse_is_pressed("left"):
 Teraz, **przed** instrukcją usuwającą owoc, utworzymy nową animację i zapiszemy ją w zmiennej lokalnej *splash*.
 
 ```python hl_lines="4"
-if is_mouse_is_pressed("left"):
+if mouse_is_pressed("left"):
     fruit = get_collision(self, "Fruit")
     if fruit:
         splash = Splash()
@@ -424,7 +424,7 @@ if is_mouse_is_pressed("left"):
 Po utworzeniu zmiennej `splash` musimy przypisać do niej załadowaną wcześniej animację ze zmiennej `fruit`. To utworzymy korzystając z funkcji `set_animation` do której podajemy dwa parametry: obiekt, do którego chcemy przypisać animację (`splash`), oraz animację, którą chcemy przypisać (`fruit.splash_animation`):
 
 ```python hl_lines="5"
-if is_mouse_is_pressed("left"):
+if mouse_is_pressed("left"):
     fruit = get_collision(self, "Fruit")
     if fruit:
         splash = Splash()
@@ -436,7 +436,7 @@ if is_mouse_is_pressed("left"):
 Gdy teraz uruchomimy grę i złapiemy owoc to zobaczymy, że animacja się tworzy, ale nie we właściwym miejscu, tylko na środku ekranu. Oznacza to, że musimy jeszcze do zmiennej `splash` przypisać odpowiednie współrzędne. Ponieważ chcemy, by animacja pojawiła się w miejscu, w którym znajduje się owoc, przepiszemy współrzędne ze zmiennej `fruit`:
 
 ```python hl_lines="6 7"
-if is_mouse_is_pressed("left"):
+if mouse_is_pressed("left"):
     fruit = get_collision(self, "Fruit")
     if fruit:
         splash = Splash()
@@ -450,7 +450,7 @@ if is_mouse_is_pressed("left"):
 Teraz już jest dużo lepiej, ale animacja będzie dość duża w stosunku do rozmiaru owoca. Możemy to zmienić modyfikując jej skalę. Zmienimy wartości dwóch zmiennych: `splash.scaleX` oraz `splash.scaleY`. Są to odpowiednio wartości skali w poziomie i w pionie. Przypiszemy do nich połowę odpowiednich wartości skali ze zmiennej `fruit`:
 
 ```python hl_lines="8 9"
-if is_mouse_is_pressed("left"):
+if mouse_is_pressed("left"):
     fruit = get_collision(self, "Fruit")
     if fruit:
         splash = Splash()
@@ -490,6 +490,12 @@ Po uruchomieniu powinniśmy już widzieć czas w prawym górnym rogu ekranu gry.
 
 ```python
 self.time -= (60/get_fps()) / 60
+```
+
+Możemy to także uprościć, skracając:
+
+```python
+self.time -= 1/get_fps()
 ```
 
 Teraz pozostało nam zaktualizować wyświetlany czas. Ponieważ czas będzie teraz liczbą rzeczywistą, a my chcemy wyświetlać tylko pełne sekundy, to musimy go zamienić na liczbę całkowitą za pomocą funkcji `int` przypisując go do tekstu.
