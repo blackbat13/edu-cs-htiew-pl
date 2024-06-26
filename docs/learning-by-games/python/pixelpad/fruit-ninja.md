@@ -612,6 +612,185 @@ if self.game_over:
 
 Teraz powinniśmy móc ponownie uruchomić rozgrywkę po jej zakończeniu za pomocą prawego przycisku myszy.
 
+## Różnorodne owoce
+
+Czas urozmaicić naszą grę dodając do niej nowe owoce. Będzie to zmiana wyłącznie wizualna.
+
+### Grafiki
+
+Zaczynamy od załadowania odpowiednich grafik, zarówno owoców jak i efektów animacji. Klikamy więc na plusik przy *Sprites* i dodajemy:
+
+- Apple - nazywamy *apple*
+- Apple Splash - nazywamy *applesplash*
+- Watermelon - nazywamy *watermelon*
+- Watermelon Splash - nazywamy *watermelonsplash*
+- Eggplant - nazywamy *eggplant*
+- Eggplant Splash - nazywamy *eggplantsplash*
+- Pear - nazywamy *pear*
+- Pear Splash - nazywamy *pearsplash*
+
+Jak już mamy dodane grafiki, to czas je załadować. W tym celu przechodzimy do klasy `Fruit`. W kodzie inicjalizującym (zakładka *Start*) utworzymy dwie **listy** zawierające nazwy grafik oraz odpowiadających im animacji. Będą to zmienne lokalne, nazwane odpowiednio *images* oraz *splash_images*. Dodajemy **na początku** kodu, zaraz **pod** importowaniem biblioteki `random`:
+
+```python
+images = ["orange.png", "apple.png", "watermelon.png", "pear.png", "eggplant.png"]
+splash_images = ["orangesplash.png", "applesplash.png", "watermelonsplash.png", "pearsplash.png", "eggplantsplash.png"]
+```
+
+Kolejność elementów na listach ma znaczenie, ponieważ owoc i jego animacja muszą znajdować się na odpowiadających sobie pozycjach w listach.
+
+### Losowanie
+
+Teraz możemy przejść do losowania grafiki. W tym celu wylosujemy numer elementu z listy. Zaraz pod utworzonymi listami tworzymy nową zmienną lokalną *image_num* do której przypiszemy losową wartość uzyskaną za pomocą funkcji `randint`. Będziemy losować od zera do długości listy minus jeden, ponieważ tak numerowane są elementy na liście. Długość listy pobierzemy za pomocą funkcji `len`.
+
+```python
+image_num = randint(0, len(images) - 1)
+```
+
+Teraz możemy wykorzystać wartość zmiennej *image_num* do wyboru odpowiedniego obrazka z listy *images*. Szukamy miejsca w kodzie, gdzie ustalaliśmy wartość zmiennej `sprite`:
+
+```python
+self.sprite = sprite("orange.png")
+```
+
+Zamiast grafiki *orange.png* odwołamy się do elementu z listy `images` pod wylosowanym indeksem:
+
+```python
+self.sprite = sprite(images[image_num])
+```
+
+Podobnie zrobimy z animacją. Szukamy instrukcji ustawiającej wartość zmiennej `splash`:
+
+```python
+splash = sprite("orangesplash.png", 2, 4)
+```
+
+Zmieniamy grafikę na element listy `splash_images` pod wylosowanym indeksem:
+
+```python
+splash = sprite(splash_images[image_num], 2, 4)
+```
+
+I to wszystko! Powinniśmy już mieć losowe owoce.
+
+## Ślad
+
+Jednym z ciekawych wizualnych efektów jest zostawienie za sobą śladu, gdy poruszamy myszką i mamy wciśnięty lewy przycisk. Teraz tym się zajmiemy.
+
+### Klasa
+
+Najpierw utworzymy nową klasę *Trail*. Klikamy więc na plusik przy *Classes* i podajemy odpowiednią nazwę.
+
+Wewnątrz klasy, w części inicjalizującej (zakładka *Start*) załadujemy najpierw grafikę, taką samą jak do naszego *slicera*:
+
+```python
+self.sprite = sprite("slicer.png")
+```
+
+Utworzymy także zmienną *timer* przypisaną do obiektu i nadamy jej początkową wartość $5$, tak by ślad znikał po pięciu klatkach.
+
+```python
+self.timer = 5
+```
+
+### Dodawanie śladu
+
+Ślad będziemy dodawać z poziomu klasy *Slicer*, przechodzimy więc do niej. W części inicjalizującej (zakładka *Start*) utworzymy zmienną *trail_length* przypisaną do obiektu, która będzie określała nie tyle długość pozostawianego śladu, co jego *dokładność*. Będzie określała, ile *kropek* ma być postawionych pomiędzy obecną a ostatnio zapamiętaną pozycją myszki. Dopisujemy na końcu kodu:
+
+```python
+self.trail_length = 10
+```
+
+Teraz możemy przejść do części aktualizującej (zakładka *Loop*) klasy *Slicer*. Na samym początku kodu, przed zmianą współrzędnych, zapamiętamy obecne położenie w dwóch zmiennych lokalnych:
+
+```python hl_lines="1-2"
+previousX = self.x
+previousY = self.y
+
+self.x = mouse_x()
+self.y = mouse_y()
+```
+
+Po zmianie współrzędnych natomiast wyliczymy *prędkość* z jaką poruszyła się myszka, odejmując od jej obecnego położenia jej poprzednie położenie. Wyniki zapamiętamy także w zmiennych lokalnych.
+
+```python hl_lines="7-8"
+previousX = self.x
+previousY = self.y
+
+self.x = mouse_x()
+self.y = mouse_y()
+
+speedX = self.x - previousX
+speedY = self.y - previousY
+```
+
+Teraz możemy przejść do faktycznego dodawania śladu. Szukamy miejsca, w którym sprawdzamy, czy lewy przycisk myszy jest kliknięty:
+
+```python
+if mouse_is_pressed("left"):
+    ...
+```
+
+Wewnątrz instrukcji warunkowej, na samym początku, dopiszemy dodawanie śladu. Ślad będziemy dodawać w pętli. Przejdziemy pętlą tyle razy, ile wynosi *długość* śladu, który chcemy zostawić:
+
+```python hl_lines="2"
+if mouse_is_pressed("left"):
+   for i in range(self.trail_length):
+    ...
+```
+
+W pętli będziemy najpierw tworzyć nowy ślad (`Trail()`), który zapamiętamy w lokalnej zmiennej *trail*:
+
+```python hl_lines="3"
+if mouse_is_pressed("left"):
+   for i in range(self.trail_length):
+        trail = Trail()
+    ...
+```
+
+Teraz pozostało nam ustalić pozycję nowego śladu. Będzie ona zależna od poprzedniej pozycji myszy, prędkości myszy, długości śladu i numeru elementu śladu który właśnie dodajemy (licznik pętli):
+
+```python hl_lines="4-5"
+if mouse_is_pressed("left"):
+   for i in range(self.trail_length):
+        trail = Trail()
+        trail.x = previousX + speedX * i / self.trail_length
+        trail.y = previousY + speedY * i / self.trail_length
+    ...
+```
+
+Teraz możemy uruchomić grę i zobaczyć, jak ślad się pojawia, ale nie znika.
+
+### Znikanie śladu
+
+Wracamy do klasy *Trail* i przechodzimy do części aktualizacyjnej (zakładka *Loop*). Tutaj będziemy zmniejszać licznik (`timer`) o wartość upłyniętych klatek animacji:
+
+```python
+self.timer -= 60 / get_fps()
+```
+
+Następnie, dla lepszego efektu, będziemy zmniejszać rozmiar (skalę) śladu o wybrany procent:
+
+```python hl_lines="3-4"
+self.timer -= 60 / get_fps()
+
+self.scaleX *= 0.9
+self.scaleY *= 0.9
+```
+
+Na koniec, gdy licznik spadnie do zera, usuniemy fragment śladu z gry:
+
+```python hl_lines="6-7"
+self.timer -= 60 / get_fps()
+
+self.scaleX *= 0.9
+self.scaleY *= 0.9
+
+if self.timer <= 0:
+    destroy(self)
+```
+
+I to tyle! Ślad powinien teraz ładnie pojawiać się i znikać po czasie.
+
 ## Skończona gra
 
 Pełen kod gry można znaleźć pod adresem [https://pixelpad.io/app/pcsoedfirjh/?edit=1](https://pixelpad.io/app/pcsoedfirjh/?edit=1).
