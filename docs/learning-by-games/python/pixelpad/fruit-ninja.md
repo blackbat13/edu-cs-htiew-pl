@@ -337,6 +337,16 @@ Podobnie zrobimy, gdy owoc zniknie poza ekranem. Przechodzimy do części aktual
 game.points -= 1
 ```
 
+Całość powinna wyglądać tak:
+
+```python
+if is_mouse_is_pressed("left"):
+    fruit = get_collision(self, "Fruit")
+    if fruit:
+        destroy(fruit)
+        game.points -= 1
+```
+
 Teraz, gdy uruchomimy grę, powinniśmy widzieć, jak nasze punkty się zmieniają. Możemy już konkurować z innymi o najlepszy wynik!
 
 ## Animacja trafienia
@@ -372,3 +382,85 @@ if self.timer <= 0:
     destroy(self)
 ```
     
+### Przygotowanie animacji
+
+Teraz czas wczytać grafiki i utworzyć z nich animację. Będziemy ją przechowywać w klasie *Fruit*. Jest to ważne z tego względu, że gdy będziemy mieli różne owoce, to trzeba do nich dopasować także animacje. Przechodzimy więc do klasy *Fruit* i części inicjalizacyjnej (zakładka *Start*).
+
+Najpierw utworzymy zmienną, w której przechowamy grafiki animacji. Będzie to zwykła, **lokalna** zmienna, którą nazwiemy *splash*. Przypiszemy do niej wczytaną grafikę korzystając z funkcji `sprite`, do której przekażemy trzy parametry: nazwę pliku grafiki, liczbę wierszy oraz liczbę kolumn. Gdy otworzymy naszą załadowaną wcześniej grafikę *orangesplash.png*, to zobaczymy, że składa się ona z kilku obrazków: kolejnych **klatek animacji**. Są one ułożone w dwa wiersze i cztery kolumny. Dopisujemy więc na koniec kodu:
+
+```python
+splash = sprite("orangesplash.png", 2, 4)
+```
+
+Teraz możemy na podstawie załadowanej grafiki utworzyć właściwą animację. Utworzymy zmienną przypisaną już do obiektu naszego owoca, ponieważ będzie nam później potrzebna w innym miejscu. Zmienną nazwiemy `splash_animation`. Przypiszemy do niej wynik działania funkcji `animation`, do której przekażemy cztery parametry: załadowaną grafikę (`splash`), liczbę klatek na sekundę do wyświetlenia animacji ($16$), indeks początkowej klatki z załadowanych grafik ($0$), indeks końcowej klatki z załadowanych grafik ($7$). Animację wyświetlimy w szesnastu klatkach na sekundę, ponieważ jest krótka i nie chcemy, by tylko *mignęła*, ale była dobrze widoczna. Jak można zauważyć, klatki indeksujemy od zera. Dopisujemy więc na koniec kodu:
+
+```python
+self.splash_animation = animation(splash, 16, 0, 7)
+```
+
+### Uruchomienie animacji
+
+Teraz, jak już mamy wszystko przygotowane, czas przejść do uruchomienia animacji w odpowiednim momencie. Chcemy to zrobić wtedy, gdy złapiemy owoc na ekranie. Za łapanie owoców odpowiada *Slicer*, do niego więc przechodzimy. Otwieramy zakładkę z kodem aktualizacyjnym (*Loop*) i szukamy miejsca, w którym usuwamy złapany owoc. Fragment kodu, który nas interesuje, powinien wyglądać mniej więcej tak:
+
+```python
+if is_mouse_is_pressed("left"):
+    fruit = get_collision(self, "Fruit")
+    if fruit:
+        destroy(fruit)
+        game.points -= 1
+```
+
+Teraz, **przed** instrukcją usuwającą owoc, utworzymy nową animację i zapiszemy ją w zmiennej lokalnej *splash*.
+
+```python hl_lines="4"
+if is_mouse_is_pressed("left"):
+    fruit = get_collision(self, "Fruit")
+    if fruit:
+        splash = Splash()
+        destroy(fruit)
+        game.points -= 1
+```
+
+Po utworzeniu zmiennej `splash` musimy przypisać do niej załadowaną wcześniej animację ze zmiennej `fruit`. To utworzymy korzystając z funkcji `set_animation` do której podajemy dwa parametry: obiekt, do którego chcemy przypisać animację (`splash`), oraz animację, którą chcemy przypisać (`fruit.splash_animation`):
+
+```python hl_lines="5"
+if is_mouse_is_pressed("left"):
+    fruit = get_collision(self, "Fruit")
+    if fruit:
+        splash = Splash()
+        set_animation(splash, self.splash_animation)
+        destroy(fruit)
+        game.points -= 1
+```
+
+Gdy teraz uruchomimy grę i złapiemy owoc to zobaczymy, że animacja się tworzy, ale nie we właściwym miejscu, tylko na środku ekranu. Oznacza to, że musimy jeszcze do zmiennej `splash` przypisać odpowiednie współrzędne. Ponieważ chcemy, by animacja pojawiła się w miejscu, w którym znajduje się owoc, przepiszemy współrzędne ze zmiennej `fruit`:
+
+```python hl_lines="6 7"
+if is_mouse_is_pressed("left"):
+    fruit = get_collision(self, "Fruit")
+    if fruit:
+        splash = Splash()
+        set_animation(splash, self.splash_animation)
+        splash.x = fruit.x
+        splash.y = fruit.y
+        destroy(fruit)
+        game.points -= 1
+```
+            
+Teraz już jest dużo lepiej, ale animacja będzie dość duża w stosunku do rozmiaru owoca. Możemy to zmienić modyfikując jej skalę. Zmienimy wartości dwóch zmiennych: `splash.scaleX` oraz `splash.scaleY`. Są to odpowiednio wartości skali w poziomie i w pionie. Przypiszemy do nich połowę odpowiednich wartości skali ze zmiennej `fruit`:
+
+```python hl_lines="8 9"
+if is_mouse_is_pressed("left"):
+    fruit = get_collision(self, "Fruit")
+    if fruit:
+        splash = Splash()
+        set_animation(splash, self.splash_animation)
+        splash.x = fruit.x
+        splash.y = fruit.y
+        splash.scaleX = fruit.scaleX/2
+        splash.scaleY = fruit.scaleY/2
+        destroy(fruit)
+        game.points -= 1
+```
+
+Teraz animacja jest już gotowa.
