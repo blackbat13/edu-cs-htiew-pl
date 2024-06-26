@@ -600,7 +600,7 @@ if self.game_over:
 
 Jeżeli tak jest, to ustawimy wartość `game_over` na `False`, ukryjemy tekst końca gry, wyzerujemy punkty oraz przywrócimy początkową wartość licznika czasu.
 
-```python hl_lines="2"
+```python hl_lines="3-6"
 if self.game_over:
     if mouse_is_pressed("right"):
         self.time = 61
