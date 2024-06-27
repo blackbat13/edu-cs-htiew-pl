@@ -17,6 +17,6 @@ Większość grafik i dźwięków pochodzi ze strony:
 
 ### Inne źródła
 
-[https://opengameart.org][https://opengameart.org]
+[https://opengameart.org](https://opengameart.org)
 
-[https://www.zapsplat.com/][https://www.zapsplat.com/]
+[https://www.zapsplat.com/](https://www.zapsplat.com/)
