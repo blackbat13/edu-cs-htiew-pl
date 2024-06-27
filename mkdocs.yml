@@ -111,6 +111,7 @@ nav:
     - 'Po co mi to': 'cs-didactics/what-for.md'
     - 'Otwarte oprogramowanie': 'cs-didactics/open-source.md'
     - 'Grywalizacja': 'cs-didactics/gamification.md'
+    - 'Konkurs przedmiotowy': 'cs-didactics/competition.md'
   - 'Algorytmy':
     - 'Wprowadzenie': 
       - 'algorithms/introduction/README.md'
