@@ -1002,7 +1002,7 @@ nav:
         - 'algorithmic-exercises/potyczki-algorytmiczne/apb/README.md'
         - 'C++': 'algorithmic-exercises/potyczki-algorytmiczne/apb/c++.md'
   - 'Nauka programowania poprzez tworzenie gier':
-    - 'learning-by-games/intro.md'
+    - 'learning-by-games/README.md'
     - 'Python 3': 
       - 'learning-by-games/python/README.md'
       - 'Wprowadzenie': 
