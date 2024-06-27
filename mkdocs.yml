@@ -110,6 +110,7 @@ nav:
     - 'Nabieranie nauczycieli': 'cs-didactics/tricking-teachers.md'
     - 'Po co mi to': 'cs-didactics/what-for.md'
     - 'Otwarte oprogramowanie': 'cs-didactics/open-source.md'
+    - 'Grywalizacja': 'cs-didactics/gamification.md'
   - 'Algorytmy':
     - 'Wprowadzenie': 
       - 'algorithms/introduction/README.md'

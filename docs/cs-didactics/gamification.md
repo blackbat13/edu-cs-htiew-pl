@@ -1,0 +1,5 @@
+# Grywalizacja
+
+Zagadnienia z szeroko pojętej informatyki oraz jej licznych dziedzin, takich jak kryptografia, algorytmika, bezpieczeństwo w sieci i inne, często stanowią wyzwanie zarówno dla uczniów, jak i nauczycieli. Dodatkowo, ważne tematy bywają postrzegane przez młodzież jako nudne i żmudne. Nie musi jednak tak być! Poniższa prezentacja pokazuje w jaki sposób połączyć naukę z zabawą, czyniąc trudne zagadnienia bardziej przystępnymi i interesującymi. Te interaktywne formy nauki pomogą lepiej zrozumieć skomplikowane tematy z dziedziny informatyki, a jednocześnie będą motywować do dalszego pogłębiania wiedzy poprzez elementy grywalizacji. Dzięki takiemu podejściu uczestnicy nie tylko przyswoją teoretyczną wiedzę, ale także będą mogli praktycznie ją zastosować, co zwiększy ich zaangażowanie i zainteresowanie tematyką informatyczną.
+
+[:material-presentation: Prezentacja](../assets/Gry i zabawy drogą do lepszego zrozumienia trudnych tematów.pdf)
