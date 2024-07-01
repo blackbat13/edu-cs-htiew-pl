@@ -32,7 +32,7 @@ $2, 3, 5, 7$
 
 Na początku potrzebujemy stworzyć tablicę, w której będziemy zapamiętywać, czy dana liczba jest pierwsza, czy też nie. W takim razie tworzymy $n$-elementową tablicę wartości prawda/fałsz. Początkowo wypełniamy całą tablicę wartościami *prawda*. Wiemy, że liczba $1$ nie jest liczbą pierwszą, więc odznaczamy ją w tablicy wartością *fałsz*. Następnie przechodzimy pętlą od liczby $2$ do $n$. Dla każdej wartości będziemy sprawdzać, czy ma ona w tablicy przypisaną wartość *prawda*, tzn. czy jest liczbą pierwszą. Jeżeli tak jest, to przechodzimy przez wszystkie kolejne wielokrotności tej liczby (aż do $n$) i odznaczamy je w tablicy jako *fałsz*.
 
-Gdy już przejdziemy przez wszystkie wartości z zadanego zakresu, nasza tablica jest gotowa. Możemy ponownie przejść pętlą od $2$ do $n$ i wypisać wszystkie liczby, które w tablicy mają przypisaną wartość *prawda*, czyli wszystkie liczby pierwsze.
+Gdy już przejdziemy przez wszystkie wartości z zadanego zakresu, nasza tablica jest gotowa. Możemy ponownie przejść pętlą od $2$ do $n$ i zebrać wszystkie liczby, które w tablicy mają przypisaną wartość *prawda*, czyli wszystkie liczby pierwsze.
 
 ### Pseudokod
 
@@ -46,9 +46,11 @@ funkcja SitoEratostenesa(n):
             6. Dopóki j <= n, wykonuj:
                 7. A[j] := false
                 8. j := j + i
-    9. Od i := 2 do n, wykonuj:
-        10. Jeżeli A[i] = true, to:
-            11. Wypisz i
+    10. pierwsze := pusta tablica
+    11. Od i := 2 do n, wykonuj:
+        11. Jeżeli A[i] = true, to:
+            12. Dopisz i do tablicy pierwsze
+    13. Zwróć pierwsze
 ```
 
 ### Złożoność
