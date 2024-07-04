@@ -11,7 +11,7 @@ using namespace std;
 
 void merge(int array[], int left, int right, int division) {
     int mergedLength = right - left;
-    int merged[merged_length];
+    int merged[mergedLength];
     int index1 = left;
     int index2 = division;
 
