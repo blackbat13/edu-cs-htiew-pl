@@ -1338,7 +1338,7 @@ nav:
         - 'Ułamki': 
           - 'matura-z-informatyki/przygotowanie/programming/fractions/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/fractions/answers.md'
-          - 'Rozwiązanie - Python': 'matura-z-informatyki/przygotowanie/programming/fractions/solution-python.md'
+          - 'Rozwiązania': 'matura-z-informatyki/przygotowanie/programming/fractions/solutions.md'
         - 'Motylek': 
           - 'matura-z-informatyki/przygotowanie/programming/butterfly/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/butterfly/answers.md'
