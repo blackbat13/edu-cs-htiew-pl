@@ -1342,7 +1342,7 @@ nav:
         - 'Motylek': 
           - 'matura-z-informatyki/przygotowanie/programming/butterfly/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/butterfly/answers.md'
-          - 'Rozwiązanie - python': 'matura-z-informatyki/przygotowanie/programming/butterfly/solution-python.md'
+          - 'Rozwiązania': 'matura-z-informatyki/przygotowanie/programming/butterfly/solutions.md'
         - 'Kółko i kwadrat': 
           - 'matura-z-informatyki/przygotowanie/programming/circle-and-square/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/circle-and-square/answers.md'
