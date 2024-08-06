@@ -1,6 +1,6 @@
 # Suma dwóch liczb
 
-## [:link: Opis problemu](../../../../algorithms/searching/sum-of-two.md)
+## [:material-link: Opis problemu](../../../../algorithms/searching/sum-of-two.md)
 
 ## Rozwiązanie optymalne
 
