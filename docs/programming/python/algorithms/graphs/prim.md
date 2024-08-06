@@ -1,6 +1,6 @@
 # Prim
 
-## [Opis problemu](../../../../algorithms/graphs/prim.md)
+## [:link: Opis problemu](../../../../algorithms/graphs/prim.md)
 
 ## Implementacja
 

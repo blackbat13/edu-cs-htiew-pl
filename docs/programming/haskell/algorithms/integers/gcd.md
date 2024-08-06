@@ -4,7 +4,7 @@ description: Największy Wspólny Dzielnik
 
 # NWD
 
-## [Opis problemu](../../../../algorithms/integers/gcd.md)
+## [:link: Opis problemu](../../../../algorithms/integers/gcd.md)
 
 ## Implementacja
 

@@ -1,6 +1,6 @@
 # Sortowanie wolne
 
-## [Opis problemu](../../../../algorithms/sorting/slow-sort.md)
+## [:link: Opis problemu](../../../../algorithms/sorting/slow-sort.md)
 
 ## Implementacja
 

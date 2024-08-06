@@ -1,6 +1,6 @@
 # Znajdowanie lidera w zbiorze
 
-## [Opis problemu](../../../../algorithms/searching/majority.md)
+## [:link: Opis problemu](../../../../algorithms/searching/majority.md)
 
 ## Implementacja
 

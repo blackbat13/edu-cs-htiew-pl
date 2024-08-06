@@ -1,6 +1,6 @@
 # Rozszerzony algorytm Euklidesa
 
-## [Opis problemu](../../../../algorithms/integers/extended-euclidean.md)
+## [:link: Opis problemu](../../../../algorithms/integers/extended-euclidean.md)
 
 ## Implementacja
 

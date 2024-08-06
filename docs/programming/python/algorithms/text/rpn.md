@@ -1,6 +1,6 @@
 # ONP
 
-## [Opis problemu](../../../../algorithms/text/rpn.md)
+## [:link: Opis problemu](../../../../algorithms/text/rpn.md)
 
 ## Implementacja
 

@@ -1,6 +1,6 @@
 # Rozkład na czynniki pierwsze
 
-## [Opis problemu](../../../../algorithms/integers/prime-factors.md)
+## [:link: Opis problemu](../../../../algorithms/integers/prime-factors.md)
 
 ## Implementacja
 

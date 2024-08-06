@@ -1,6 +1,6 @@
 # Wyznacznik macierzy 3x3
 
-## [Opis problemu](../../../../algorithms/matrix/det3.md)
+## [:link: Opis problemu](../../../../algorithms/matrix/det3.md)
 
 ## Implementacja
 

@@ -1,6 +1,6 @@
 # Sortowanie przez zliczanie
 
-## [Opis problemu](../../../../algorithms/sorting/counting-sort.md)
+## [:link: Opis problemu](../../../../algorithms/sorting/counting-sort.md)
 
 ## Implementacja
 

@@ -1,6 +1,6 @@
 # Wszystkie dzielniki
 
-## [Opis problemu](../../../../algorithms/integers/divisors.md)
+## [:link: Opis problemu](../../../../algorithms/integers/divisors.md)
 
 ## Implementacja
 

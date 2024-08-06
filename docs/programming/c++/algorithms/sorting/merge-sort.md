@@ -1,6 +1,6 @@
 # Sortowanie przez scalanie
 
-## [Opis problemu](../../../../algorithms/sorting/merge-sort.md)
+## [:link: Opis problemu](../../../../algorithms/sorting/merge-sort.md)
 
 ## Implementacja
 

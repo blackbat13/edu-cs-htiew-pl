@@ -1,6 +1,6 @@
 # Szyfr ROT13
 
-## [Opis problemu](../../../../algorithms/cryptography/symmetric/rot13.md)
+## [:link: Opis problemu](../../../../algorithms/cryptography/symmetric/rot13.md)
 
 ## Szyfrowanie
 

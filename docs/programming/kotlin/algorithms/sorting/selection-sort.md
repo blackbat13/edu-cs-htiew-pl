@@ -1,6 +1,6 @@
 # Sortowanie przez wybieranie
 
-## [Opis problemu](../../../../algorithms/sorting/selection-sort.md)
+## [:link: Opis problemu](../../../../algorithms/sorting/selection-sort.md)
 
 ## Implementacja
 

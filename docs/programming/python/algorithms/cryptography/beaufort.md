@@ -1,6 +1,6 @@
 # Szyfr Beauforta
 
-## [Opis problemu](../../../../algorithms/cryptography/symmetric/beaufort.md)
+## [:link: Opis problemu](../../../../algorithms/cryptography/symmetric/beaufort.md)
 
 ## Szyfrowanie i deszyfrowanie
 

@@ -1,6 +1,6 @@
 # Problem n królowych
 
-## [Opis problemu](../../../../algorithms/backtracking/n-queens.md)
+## [:link: Opis problemu](../../../../algorithms/backtracking/n-queens.md)
 
 ## Implementacja
 

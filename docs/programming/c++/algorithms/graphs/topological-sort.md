@@ -1,6 +1,6 @@
 # Sortowanie topologiczne
 
-## [Opis problemu](../../../../algorithms/graphs/topological-sort.md)
+## [:link: Opis problemu](../../../../algorithms/graphs/topological-sort.md)
 
 ## Implementacja
 

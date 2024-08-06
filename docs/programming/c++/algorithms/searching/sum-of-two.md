@@ -1,6 +1,6 @@
 # Suma dwóch liczb
 
-## [Opis problemu](../../../../algorithms/searching/sum-of-two.md)
+## [:link: Opis problemu](../../../../algorithms/searching/sum-of-two.md)
 
 ## Rozwiązanie naiwne
 

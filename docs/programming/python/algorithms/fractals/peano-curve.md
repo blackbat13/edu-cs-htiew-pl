@@ -1,6 +1,6 @@
 # Krzywa Peano
 
-## [Opis problemu](../../../../algorithms/fractals/peano-curve.md)
+## [:link: Opis problemu](../../../../algorithms/fractals/peano-curve.md)
 
 ## Implementacja
 

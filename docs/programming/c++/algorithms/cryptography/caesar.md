@@ -1,6 +1,6 @@
 # Szyfr Cezara
 
-## [Opis problemu](../../../../algorithms/cryptography/symmetric/caesar.md)
+## [:link: Opis problemu](../../../../algorithms/cryptography/symmetric/caesar.md)
 
 ## Szyfrowanie
 

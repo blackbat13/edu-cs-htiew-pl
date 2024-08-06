@@ -1,6 +1,6 @@
 # Drzewo przedziałowe
 
-## [Opis problemu](../../../../algorithms/structures/segment-trees.md)
+## [:link: Opis problemu](../../../../algorithms/structures/segment-trees.md)
 
 ## Implementacja
 

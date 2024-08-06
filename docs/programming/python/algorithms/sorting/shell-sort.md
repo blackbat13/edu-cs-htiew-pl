@@ -1,6 +1,6 @@
 # Sortowanie Shella
 
-## [Opis problemu](../../../../algorithms/sorting/shell-sort.md)
+## [:link: Opis problemu](../../../../algorithms/sorting/shell-sort.md)
 
 ## Implementacja
 

@@ -1,6 +1,6 @@
 # Liczby Fibonacciego
 
-## [Opis problemu](../../../../algorithms/integers/fibonacci-numbers.md)
+## [:link: Opis problemu](../../../../algorithms/integers/fibonacci-numbers.md)
 
 ## Podejście rekurencyjne
 

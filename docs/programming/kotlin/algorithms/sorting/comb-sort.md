@@ -1,6 +1,6 @@
 # Sortowanie grzebieniowe
 
-## [Opis problemu](../../../../algorithms/sorting/comb-sort.md)
+## [:link: Opis problemu](../../../../algorithms/sorting/comb-sort.md)
 
 ## Implementacja
 

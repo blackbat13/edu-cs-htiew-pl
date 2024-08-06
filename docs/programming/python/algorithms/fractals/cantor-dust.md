@@ -1,6 +1,6 @@
 # Zbiór Cantora
 
-## [Opis problemu](../../../../algorithms/fractals/cantor-dust.md)
+## [:link: Opis problemu](../../../../algorithms/fractals/cantor-dust.md)
 
 ## Implementacja
 

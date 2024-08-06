@@ -1,6 +1,6 @@
 # Sortowanie gnoma
 
-## [Opis problemu](../../../../algorithms/sorting/gnome-sort.md)
+## [:link: Opis problemu](../../../../algorithms/sorting/gnome-sort.md)
 
 ## Implementacja
 

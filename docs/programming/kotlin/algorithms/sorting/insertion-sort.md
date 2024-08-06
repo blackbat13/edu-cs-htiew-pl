@@ -1,6 +1,6 @@
 # Sortowanie przez wstawianie
 
-## [Opis problemu](../../../../algorithms/sorting/insertion-sort.md)
+## [:link: Opis problemu](../../../../algorithms/sorting/insertion-sort.md)
 
 ## Implementacja
 

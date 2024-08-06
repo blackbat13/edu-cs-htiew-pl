@@ -1,6 +1,6 @@
 # Sito Segmentowe
 
-## [Opis problemu](../../../../algorithms/integers/segment-sieve.md)
+## [:link: Opis problemu](../../../../algorithms/integers/segment-sieve.md)
 
 ## Implementacja
 

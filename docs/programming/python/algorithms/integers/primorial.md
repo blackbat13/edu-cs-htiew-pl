@@ -1,6 +1,6 @@
 # Primorial
 
-## [Opis problemu](../../../../algorithms/integers/primorial.md)
+## [:link: Opis problemu](../../../../algorithms/integers/primorial.md)
 
 ## Implementacja
 

@@ -1,6 +1,6 @@
 # Sortowanie szybkie
 
-## [Opis problemu](../../../../algorithms/sorting/quick-sort.md)
+## [:link: Opis problemu](../../../../algorithms/sorting/quick-sort.md)
 
 ## Implementacja
 

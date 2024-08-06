@@ -1,6 +1,6 @@
 # Drzewo binarne
 
-## [Opis problemu](../../../../algorithms/fractals/binary-tree.md)
+## [:link: Opis problemu](../../../../algorithms/fractals/binary-tree.md)
 
 ## Implementacja
 

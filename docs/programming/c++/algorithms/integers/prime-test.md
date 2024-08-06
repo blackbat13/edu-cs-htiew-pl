@@ -1,6 +1,6 @@
 # Test pierwszości
 
-## [Opis problemu](../../../../algorithms/integers/prime-test.md)
+## [:link: Opis problemu](../../../../algorithms/integers/prime-test.md)
 
 ## Implementacja
 

@@ -1,6 +1,6 @@
 # Krzywa Kocha
 
-## [Opis problemu](../../../../algorithms/fractals/koch-curve.md)
+## [:link: Opis problemu](../../../../algorithms/fractals/koch-curve.md)
 
 ## Implementacja
 

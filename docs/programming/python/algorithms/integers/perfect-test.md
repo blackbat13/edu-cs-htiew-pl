@@ -1,6 +1,6 @@
 # Test doskonałości
 
-## [Opis problemu](../../../../algorithms/integers/perfect-test.md)
+## [:link: Opis problemu](../../../../algorithms/integers/perfect-test.md)
 
 ## Implementacja
 

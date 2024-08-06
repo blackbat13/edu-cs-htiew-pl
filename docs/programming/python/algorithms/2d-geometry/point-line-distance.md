@@ -1,6 +1,6 @@
 # Odległość punktu od prostej
 
-## [Opis problemu](../../../../algorithms/2d-geometry/point-line-distance.md)
+## [:link: Opis problemu](../../../../algorithms/2d-geometry/point-line-distance.md)
 
 ## Implementacja
 

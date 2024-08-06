@@ -1,6 +1,6 @@
 # Flood Fill
 
-## [Opis problemu](../../../../algorithms/graphs/flood-fill.md)
+## [:link: Opis problemu](../../../../algorithms/graphs/flood-fill.md)
 
 ## Implementacja
 

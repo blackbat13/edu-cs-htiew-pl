@@ -1,6 +1,6 @@
 # Jednoczesne wyszukiwanie minimum i maksimum
 
-## [Opis problemu](../../../../algorithms/searching/min-max-search.md)
+## [:link: Opis problemu](../../../../algorithms/searching/min-max-search.md)
 
 ## Podejście naiwne
 

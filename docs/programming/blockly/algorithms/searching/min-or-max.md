@@ -1,6 +1,6 @@
 # Wyszukiwanie minimum i maksimum
 
-## [Opis problemu](../../../../algorithms/searching/min-or-max.md)
+## [:link: Opis problemu](../../../../algorithms/searching/min-or-max.md)
 
 ## Implementacja
 

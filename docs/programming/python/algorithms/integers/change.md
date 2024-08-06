@@ -1,6 +1,6 @@
 # Wydawanie reszty
 
-## [Opis problemu](../../../../algorithms/integers/atm-problem/README.md)
+## [:link: Opis problemu](../../../../algorithms/integers/atm-problem/README.md)
 
 ## Podejście zachłanne
 

@@ -1,6 +1,6 @@
 # Sortowanie przez kopcowanie
 
-## [Opis problemu](../../../../algorithms/sorting/heap-sort.md)
+## [:link: Opis problemu](../../../../algorithms/sorting/heap-sort.md)
 
 ## Implementacja
 

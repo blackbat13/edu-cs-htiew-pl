@@ -1,6 +1,6 @@
 # Wyszukiwanie binarne
 
-## [Opis problemu](../../../../algorithms/searching/binary-search.md)
+## [:link: Opis problemu](../../../../algorithms/searching/binary-search.md)
 
 ## Istnienie elementu
 

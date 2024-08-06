@@ -1,6 +1,6 @@
 # Schemat Hornera
 
-## [Opis problemu](../../../../algorithms/numerical-methods/horner.md)
+## [:link: Opis problemu](../../../../algorithms/numerical-methods/horner.md)
 
 ## Implementacja
 

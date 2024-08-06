@@ -1,6 +1,6 @@
 # Odległość Hamminga
 
-## [Opis problemu](../../../../algorithms/text/hamming-distance.md)
+## [:link: Opis problemu](../../../../algorithms/text/hamming-distance.md)
 
 ## Implementacja
 

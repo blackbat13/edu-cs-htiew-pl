@@ -1,6 +1,6 @@
 # Zaprzeczenie silni
 
-## [Opis problemu](../../../../algorithms/integers/subfactorial.md)
+## [:link: Opis problemu](../../../../algorithms/integers/subfactorial.md)
 
 ## Implementacja
 

@@ -1,6 +1,6 @@
 # Płatek Kocha
 
-## [Opis problemu](../../../../algorithms/fractals/koch-snowflake.md)
+## [:link: Opis problemu](../../../../algorithms/fractals/koch-snowflake.md)
 
 ## Implementacja
 

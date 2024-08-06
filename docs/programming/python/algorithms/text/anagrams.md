@@ -1,6 +1,6 @@
 # Anagramy
 
-## [Opis problemu](../../../../algorithms/text/anagrams.md)
+## [:link: Opis problemu](../../../../algorithms/text/anagrams.md)
 
 ## Implementacja
 

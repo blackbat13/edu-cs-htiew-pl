@@ -1,6 +1,6 @@
 # Odległość Levenshteina (edycyjna)
 
-## [Opis problemu](../../../../algorithms/text/levenshtein-distance.md)
+## [:link: Opis problemu](../../../../algorithms/text/levenshtein-distance.md)
 
 ## Implementacja
 

@@ -4,7 +4,7 @@ description: Najkrótsze ścieżki z zadanego wierzchołka
 
 # Dijkstra
 
-## [Opis problemu](../../../../algorithms/graphs/dijkstra.md)
+## [:link: Opis problemu](../../../../algorithms/graphs/dijkstra.md)
 
 ## Implementacja
 

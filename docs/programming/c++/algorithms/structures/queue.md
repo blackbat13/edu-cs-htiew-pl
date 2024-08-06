@@ -1,6 +1,6 @@
 # Kolejka
 
-## [Opis problemu](../../../../algorithms/structures/queue.md)
+## [:link: Opis problemu](../../../../algorithms/structures/queue.md)
 
 ## Implementacja
 

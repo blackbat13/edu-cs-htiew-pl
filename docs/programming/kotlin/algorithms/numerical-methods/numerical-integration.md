@@ -1,6 +1,6 @@
 # Całkowanie numeryczne
 
-## [Opis problemu](../../../../algorithms/numerical-methods/numerical-integration.md)
+## [:link: Opis problemu](../../../../algorithms/numerical-methods/numerical-integration.md)
 
 ## Metoda prostokątów
 

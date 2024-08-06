@@ -1,6 +1,6 @@
 # Sortowanie koktajlowe
 
-## [Opis problemu](../../../../algorithms/sorting/cocktail-shaker-sort.md)
+## [:link: Opis problemu](../../../../algorithms/sorting/cocktail-shaker-sort.md)
 
 ## Implementacja
 

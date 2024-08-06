@@ -1,6 +1,6 @@
 # Sortowanie bąbelkowe
 
-## [Opis problemu](../../../../algorithms/sorting/bubble-sort.md)
+## [:link: Opis problemu](../../../../algorithms/sorting/bubble-sort.md)
 
 ## Implementacja
 
