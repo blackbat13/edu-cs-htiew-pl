@@ -27,7 +27,7 @@ def check_new_position(x: int, y: int, positions: list) -> bool:
         if positions[i] == y:
             return False
             
-        if y - positions[i] == x - i:
+        if y - positions[i] == x - i or y - positions[i] == i - x:
             return False
 
     return True
