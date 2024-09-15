@@ -11,7 +11,7 @@ using namespace std;
 
 bool checkNewPosition(int row, int column, int positions[]) {
     for (int i = 0; i < row; i++) {
-        if (positions[i] == column || column - positions[i] == row - i) {
+        if (positions[i] == column || column - positions[i] == row - i || column - positions[i] == i - row) {
             return false;
         }
     }
