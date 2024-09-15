@@ -31,7 +31,7 @@ fun checkNewPosition(x: Int, y: Int, positions: Array<Int>): Boolean {
             return false
         }
 
-        if ((y - positions[i]) == (x - i)) {
+        if ((y - positions[i]) == (x - i) or (y - positions[i]) == (i - x)) {
             return false
         }
     }
