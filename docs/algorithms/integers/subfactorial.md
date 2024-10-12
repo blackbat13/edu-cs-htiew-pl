@@ -1,4 +1,4 @@
-# # Zaprzeczenie silni
+# Zaprzeczenie silni
 
 Subfactorial ($!n$, *derangement* lub *zaprzeczenie silni*) to operacja na liczbach naturalnych. Określa liczbę permutacji zbioru $n$-elementowego, w których żaden element nie znajduje się na swoim początkowym miejscu. Takie permutacje nazywane są permutacjami bez punktów stałych lub permutacjami zupełnymi.
 
