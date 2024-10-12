@@ -33,7 +33,7 @@ Funkcja SitoSegmentowe(a, b):
     12. wynik := pusta tablica
     13. Dla i od 0 do n - 1, wykonuj:
         14. Jeżeli czy_pierwsza[i], to:
-            15. Dopis i + a do tablicy wynik
+            15. Dopisz i + a do tablicy wynik
     16. Zwróc wynik
 ```
 
