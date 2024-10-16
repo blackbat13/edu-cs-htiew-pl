@@ -35,10 +35,10 @@ Poniżej znajdziesz animację przedstawiającą ideę omawianego algorytmu, a ta
 
 Nasza implementacja algorytmu sortowania przez scalanie składa się z dwóch części:
 
-- procedura Scal: scala ze sobą dwie podtablice zdefiniowane poprzez zakres elementów z tablicy $A$;
-- procedura SortowaniePrzezScalanie: rekurencyjnie dzieli tablicę na dwie mniejsze podtablice, które są na końcu scalane.
+- procedura **Scal**: scala ze sobą dwie podtablice zdefiniowane poprzez zakres elementów z tablicy $A$;
+- procedura **SortowaniePrzezScalanie**: rekurencyjnie dzieli tablicę na dwie mniejsze podtablice, które są na końcu scalane.
 
-Idea działania procedury Scal jest prosta. Tworzymy pomocniczą tablicę, do której będziemy wrzucać posortowane wartości. Następnie przechodzimy przez kolejne elementy zdefiniowanych podtablic, porównujemy je ze sobą i mniejszy element umieszczamy na kolejnym miejscu w pomocniczej tablicy. Podczas tej operacji trzeba uważać, żeby nie wyjść poza zakres podtablic. Jeżeli elementy jednej z podtablic nam się "skończą" (a tak zawsze nastąpi), to bierzemy już elementy tylko z drugiej podtablicy.
+Idea działania procedury *Scal* jest prosta. Tworzymy pomocniczą tablicę, do której będziemy wrzucać posortowane wartości. Następnie przechodzimy przez kolejne elementy zdefiniowanych podtablic, porównujemy je ze sobą i mniejszy element umieszczamy na kolejnym miejscu w pomocniczej tablicy. Podczas tej operacji trzeba uważać, żeby nie wyjść poza zakres podtablic. Jeżeli elementy jednej z podtablic nam się "skończą" (a tak zawsze nastąpi), to bierzemy już elementy tylko z drugiej podtablicy.
 
 Po wypełnieniu tablicy pomocniczej posortowanymi wartościami, przepisujemy ją do naszej głównej, sortowanej tablicy $A$.
 
@@ -83,12 +83,24 @@ procedura SortowaniePrzezScalanie(A, pocz, kon):
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-    START(["Scal(A, pocz, kon, sr)"]) --> K1["dl := kon - pocz\nscalona := [1..dl]\ni1 := pocz\ni2 := sr\ni := 1"]
+    START(["Scal(A, pocz, kon, sr)"]) --> K1["dl := kon - pocz
+    scalona := [1..dl]
+    i1 := pocz
+    i2 := sr
+    i := 1"]
     K1 --> K5{i <= dl}
-    K5 -- PRAWDA --> K6{"i1 >= sr\nlub\n(i2 < kon\noraz\nA[i1] > A[i2])"}
-    K6 -- PRAWDA --> K7["scalona[i] := A[i2]\ni2 := i2 + 1"]
-    K6 -- FAŁSZ --> K10{"i2 >= kon\nlub\nA[i1] <= A[i2]"}
-    K10 -- PRAWDA --> K11["scalona[i] := A[i1]\ni1 := i1 + 1"]
+    K5 -- PRAWDA --> K6{"i1 >= sr
+    lub
+    (i2 < kon
+    oraz
+    A[i1] > A[i2])"}
+    K6 -- PRAWDA --> K7["scalona[i] := A[i2]
+    i2 := i2 + 1"]
+    K6 -- FAŁSZ --> K10{"i2 >= kon
+    lub
+    A[i1] <= A[i2]"}
+    K10 -- PRAWDA --> K11["scalona[i] := A[i1]
+    i1 := i1 + 1"]
     K10 -- FAŁSZ --> K5i[i := i + 1]
     K7 --> K5i
     K11 --> K5i
@@ -106,7 +118,10 @@ flowchart TD
 flowchart TD
     START(["SortowaniePrzezScalanie(A, pocz, kon)"]) --> K1{kon - pocz <= 1}
     K1 -- PRAWDA --> STOP([STOP])
-    K1 -- FAŁSZ --> K3["sr := (pocz + kon) / 2\nSortowaniePrzezScalanie(A, pocz, sr)\nSortowaniePrzezScalanie(A, sr, kon)\nScal(A, pocz, kon, sr)"]
+    K1 -- FAŁSZ --> K3["sr := (pocz + kon) / 2
+    SortowaniePrzezScalanie(A, pocz, sr)
+    SortowaniePrzezScalanie(A, sr, kon)
+    Scal(A, pocz, kon, sr)"]
     K3 --> STOP
 ```
 
