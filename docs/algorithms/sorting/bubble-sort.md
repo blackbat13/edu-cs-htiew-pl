@@ -112,12 +112,15 @@ procedura SortowanieBabelkowe(n, A):
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-    START(["SortowanieBąbelkowe(n, A)"]) --> K1[posortowane := FAŁSZ\ni := 0]
+    START(["SortowanieBąbelkowe(n, A)"]) --> K1[posortowane := FAŁSZ
+    i := 0]
     K1 --> K3{posortowane = FAŁSZ}
-    K3 -- PRAWDA --> K4[posortowane := PRAWDA\nj := 1]
+    K3 -- PRAWDA --> K4[posortowane := PRAWDA
+    j := 1]
     K4 --> K5{j <= n - i}
     K5 -- PRAWDA --> K6{"A[j] > A[j + 1]"}
-    K6 -- PRAWDA --> K7["Zamień(A[j], A[j + 1])\nposortowane := FAŁSZ"]
+    K6 -- PRAWDA --> K7["Zamień(A[j], A[j + 1])
+    posortowane := FAŁSZ"]
     K7 --> K5i[j := j + 1]
     K6 -- FAŁSZ --> K5i
     K5i --> K5
