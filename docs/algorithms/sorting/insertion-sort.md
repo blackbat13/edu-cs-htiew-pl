@@ -43,8 +43,11 @@ flowchart TD
     START(["SortowaniePrzezWstawianie(n, A)"]) --> K0[i := 2]
     K0 --> K1{i <= n}
     K1 -- PRAWDA --> K2[j := i]
-    K2 --> K3{"j > 1\noraz\nA[j] < A[j - 1]"}
-    K3 -- PRAWDA --> K4["Zamień(A[j], A[j - 1])\nj := j - 1"]
+    K2 --> K3{"j > 1
+    oraz
+    A[j] < A[j - 1]"}
+    K3 -- PRAWDA --> K4["Zamień(A[j], A[j - 1])
+    j := j - 1"]
     K4 --> K3
     K3 -- FAŁSZ --> K1i[i := i + 1]
     K1i --> K1
