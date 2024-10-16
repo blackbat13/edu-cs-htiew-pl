@@ -61,7 +61,9 @@ procedura SortowanieSzybkie(A, pocz, kon):
 flowchart TD
     START(["SortowanieSzybkie(A, pocz, kon)"]) --> K1{kon <= pocz}
     K1 -- PRAWDA --> STOP([STOP])
-    K1 -- FAŁSZ --> K3["pivot := A[(pocz + kon) div 2]\nlewy := pocz\nprawy := kon"]
+    K1 -- FAŁSZ --> K3["pivot := A[(pocz + kon) div 2]
+    lewy := pocz
+    prawy := kon"]
     K3 --> K6{lewy <= prawy}
     K6 -- PRAWDA --> K7{"A[lewy] < pivot"}
     K7 -- PRAWDA --> K8[lewy := lewy + 1]
@@ -70,8 +72,11 @@ flowchart TD
     K9 -- PRAWDA --> K10[prawy := prawy - 1]
     K10 --> K9
     K9 -- FAŁSZ --> K11{lewy > prawy}
-    K11 -- PRAWDA --> K16["SortowanieSzybkie(A, pocz, prawy)\nSortowanieSzybkie(A, lewy, kon)"]
-    K11 -- FAŁSZ --> K13["Zamień(A[lewy], A[prawy])\nlewy := lewy + 1\nprawy := prawy - 1"]
+    K11 -- PRAWDA --> K16["SortowanieSzybkie(A, pocz, prawy)
+    SortowanieSzybkie(A, lewy, kon)"]
+    K11 -- FAŁSZ --> K13["Zamień(A[lewy], A[prawy])
+    lewy := lewy + 1
+    prawy := prawy - 1"]
     K13 --> K6
     K6 -- FAŁSZ --> K16
     K16 --> STOP([STOP])
