@@ -43,10 +43,13 @@ procedura SortowanieGnoma(n, A):
 flowchart TD
     START(["SortowanieGnoma(n, A)"]) --> K1[i := 1]
     K1 --> K2{i <= n}
-    K2 -- PRAWDA --> K3{"i = 1\nlub\nA[i] >= A[i - 1]"}
+    K2 -- PRAWDA --> K3{"i = 1
+    lub
+    A[i] >= A[i - 1]"}
     K3 -- PRAWDA --> K4[i := i + 1]
     K4 --> K2
-    K3 -- FAŁSZ --> K6["Zamień(A[i], A[i - 1])\ni := i - 1"]
+    K3 -- FAŁSZ --> K6["Zamień(A[i], A[i - 1])
+    i := i - 1"]
     K6 --> K2
     K2 -- FAŁSZ ---> STOP([STOP])
 ```

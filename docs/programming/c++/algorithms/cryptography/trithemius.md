@@ -1,6 +1,6 @@
 # Szyfr Trithemius'a
 
-## [Opis problemu](../../../../algorithms/cryptography/symmetric/trithemius.md)
+## [:link: Opis problemu](../../../../algorithms/cryptography/symmetric/trithemius.md)
 
 ## Szyfrowanie
 

@@ -1,6 +1,6 @@
 # Kruskal
 
-## [Opis problemu](../../../../algorithms/graphs/kruskal.md)
+## [:link: Opis problemu](../../../../algorithms/graphs/kruskal.md)
 
 ## Implementacja
 

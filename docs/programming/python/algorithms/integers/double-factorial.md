@@ -1,6 +1,6 @@
 # Podwójna silnia
 
-## [Opis problemu](../../../../algorithms/integers/double-factorial.md)
+## [:link: Opis problemu](../../../../algorithms/integers/double-factorial.md)
 
 ## Implementacja
 

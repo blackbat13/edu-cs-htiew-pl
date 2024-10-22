@@ -1,6 +1,6 @@
 # Trójkąt Sierpińskiego
 
-## [Opis problemu](../../../../algorithms/fractals/sierpinski-triangle.md)
+## [:link: Opis problemu](../../../../algorithms/fractals/sierpinski-triangle.md)
 
 ## Implementacja
 

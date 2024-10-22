@@ -1,6 +1,6 @@
 # Pierwiastek kwadratowy
 
-## [Opis problemu](../../../../algorithms/numerical-methods/square-root.md)
+## [:link: Opis problemu](../../../../algorithms/numerical-methods/square-root.md)
 
 ## Metoda Herona
 

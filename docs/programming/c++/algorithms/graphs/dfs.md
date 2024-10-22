@@ -4,7 +4,7 @@ description: Przeszukiwanie grafu w głąb
 
 # DFS
 
-## [Opis problemu](../../../../algorithms/graphs/dfs.md)
+## [:link: Opis problemu](../../../../algorithms/graphs/dfs.md)
 
 ## Implementacja - wersja rekurencyjna
 

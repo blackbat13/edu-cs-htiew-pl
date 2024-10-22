@@ -1,6 +1,6 @@
 # Permutacje
 
-## [Opis problemu](../../../../algorithms/backtracking/permutations.md)
+## [:link: Opis problemu](../../../../algorithms/backtracking/permutations.md)
 
 ## Implementacja
 

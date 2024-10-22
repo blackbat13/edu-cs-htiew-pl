@@ -1,6 +1,6 @@
 # Problem skoczka
 
-## [Opis problemu](../../../../algorithms/backtracking/knights-tour.md)
+## [:link: Opis problemu](../../../../algorithms/backtracking/knights-tour.md)
 
 ## Implementacja
 

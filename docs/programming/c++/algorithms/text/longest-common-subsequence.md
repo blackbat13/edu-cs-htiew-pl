@@ -1,6 +1,6 @@
 # Najdłuższy wspólny podciąg
 
-## [Opis problemu](../../../../algorithms/text/longest-common-subsequence.md)
+## [:link: Opis problemu](../../../../algorithms/text/longest-common-subsequence.md)
 
 ## Implementacja
 

@@ -1,6 +1,6 @@
 # Sumy prefiksowe
 
-## [Opis problemu](../../../../algorithms/searching/prefix-sum.md)
+## [:link: Opis problemu](../../../../algorithms/searching/prefix-sum.md)
 
 ## Implementacja
 

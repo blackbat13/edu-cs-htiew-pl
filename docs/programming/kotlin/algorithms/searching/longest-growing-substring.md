@@ -1,6 +1,6 @@
 # Najdłuższy spójny podciąg rosnący
 
-## [Opis problemu](../../../../algorithms/searching/longest-growing-substring.md)
+## [:link: Opis problemu](../../../../algorithms/searching/longest-growing-substring.md)
 
 ## Implementacja
 

@@ -1,6 +1,6 @@
 # Sito Eratostenesa
 
-## [Opis problemu](../../../../algorithms/integers/eratosthenes-sieve.md)
+## [:link: Opis problemu](../../../../algorithms/integers/eratosthenes-sieve.md)
 
 ## Implementacja
 

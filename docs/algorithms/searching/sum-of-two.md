@@ -138,3 +138,5 @@ $O(n)$ - liniowa
 ## Implementacje — pozostałe
 
 ### [C](../../programming/c/algorithms/searching/sum-of-two.md)
+
+### [Haskell](../../programming/haskell/algorithms/searching/sum-of-two.md)

@@ -1,6 +1,6 @@
 # Smocza Krzywa
 
-## [Opis problemu](../../../../algorithms/fractals/dragon-curve.md)
+## [:link: Opis problemu](../../../../algorithms/fractals/dragon-curve.md)
 
 ## Implementacja
 

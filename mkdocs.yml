@@ -735,6 +735,7 @@ nav:
           - 'Wyszukiwanie liniowe': 'programming/haskell/algorithms/searching/linear-search.md'
           - 'Wyszukiwanie binarne': 'programming/haskell/algorithms/searching/binary-search.md'
           - 'Wyszukiwanie minimum i maksimum': 'programming/haskell/algorithms/searching/min-or-max.md'
+          - 'Suma dwóch liczb': 'programming/haskell/algorithms/searching/sum-of-two.md'
         - 'Algorytmy na liczbach całkowitych': 
           - 'Wszystkie dzielniki': 'programming/haskell/algorithms/integers/divisors.md'
           - 'Test pierwszości': 'programming/haskell/algorithms/integers/prime-test.md'

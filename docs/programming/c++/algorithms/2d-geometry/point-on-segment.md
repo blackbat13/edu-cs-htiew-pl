@@ -1,6 +1,6 @@
 # Punkt na odcinku
 
-## [Opis problemu](../../../../algorithms/2d-geometry/point-on-segment.md)
+## [:link: Opis problemu](../../../../algorithms/2d-geometry/point-on-segment.md)
 
 ## Implementacja
 

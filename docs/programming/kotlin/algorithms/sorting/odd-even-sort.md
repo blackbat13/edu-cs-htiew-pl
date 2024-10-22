@@ -1,6 +1,6 @@
 # Sortowanie odd-even
 
-## [Opis problemu](../../../../algorithms/sorting/odd-even-sort.md)
+## [:link: Opis problemu](../../../../algorithms/sorting/odd-even-sort.md)
 
 ## Implementacja
 

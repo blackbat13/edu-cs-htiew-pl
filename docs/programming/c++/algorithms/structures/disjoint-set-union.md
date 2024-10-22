@@ -1,6 +1,6 @@
 # Struktura zbiorów rozłącznych
 
-## [Opis problemu](../../../../algorithms/structures/disjoint-set-union.md)
+## [:link: Opis problemu](../../../../algorithms/structures/disjoint-set-union.md)
 
 ## Implementacja
 

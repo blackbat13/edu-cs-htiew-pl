@@ -1,6 +1,6 @@
 # Stos
 
-## [Opis problemu](../../../../algorithms/structures/stack.md)
+## [:link: Opis problemu](../../../../algorithms/structures/stack.md)
 
 ## Implementacja
 

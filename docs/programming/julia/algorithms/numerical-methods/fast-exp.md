@@ -1,6 +1,6 @@
 # Szybkie potęgowanie
 
-## [Opis problemu](../../../../algorithms/numerical-methods/fast-exp.md)
+## [:link: Opis problemu](../../../../algorithms/numerical-methods/fast-exp.md)
 
 ## Rozwiązanie iteracyjne
 

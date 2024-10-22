@@ -1,6 +1,6 @@
 # Szyfr Vigenere"a
 
-## [Opis problemu](../../../../algorithms/cryptography/symmetric/vigenere.md)
+## [:link: Opis problemu](../../../../algorithms/cryptography/symmetric/vigenere.md)
 
 ## Szyfrowanie
 

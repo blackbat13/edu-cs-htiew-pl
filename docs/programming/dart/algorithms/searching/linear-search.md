@@ -1,6 +1,6 @@
 # Wyszukiwanie liniowe
 
-## [Opis problemu](../../../../algorithms/searching/linear-search.md)
+## [:link: Opis problemu](../../../../algorithms/searching/linear-search.md)
 
 ## Istnienie elementu
 

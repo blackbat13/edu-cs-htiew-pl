@@ -4,7 +4,7 @@ description: Najkrótsze ścieżki pomiędzy wszystkimi wierzchołkami
 
 # Floyd-Warshall
 
-## [Opis problemu](../../../../algorithms/graphs/floyd-warshall.md)
+## [:link: Opis problemu](../../../../algorithms/graphs/floyd-warshall.md)
 
 ## Implementacja
 

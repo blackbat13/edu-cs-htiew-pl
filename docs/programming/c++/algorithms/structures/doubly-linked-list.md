@@ -1,6 +1,6 @@
 # Lista dwukierunkowa
 
-## [Opis problemu](../../../../algorithms/structures/doubly-linked-list.md)
+## [:link: Opis problemu](../../../../algorithms/structures/doubly-linked-list.md)
 
 ## Implementacja
 

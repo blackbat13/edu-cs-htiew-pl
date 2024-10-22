@@ -1,6 +1,6 @@
 # Metoda Monte Carlo
 
-## [Opis problemu](../../../../algorithms/numerical-methods/monte-carlo.md)
+## [:link: Opis problemu](../../../../algorithms/numerical-methods/monte-carlo.md)
 
 ## Implementacja
 

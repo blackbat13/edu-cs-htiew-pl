@@ -1,6 +1,6 @@
 # Kod ASCII
 
-## [Opis problemu](../../../../algorithms/coding-and-compression/ascii.md)
+## [:link: Opis problemu](../../../../algorithms/coding-and-compression/ascii.md)
 
 ## Podstawowa tablica ASCII
 

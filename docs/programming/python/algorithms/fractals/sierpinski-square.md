@@ -1,6 +1,6 @@
 # Kwadrat Sierpińskiego
 
-## [Opis problemu](../../../../algorithms/fractals/sierpinski-square.md)
+## [:link: Opis problemu](../../../../algorithms/fractals/sierpinski-square.md)
 
 ## Implementacja
 

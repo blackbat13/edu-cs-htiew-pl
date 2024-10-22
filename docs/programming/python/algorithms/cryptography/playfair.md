@@ -1,6 +1,6 @@
 # Szyfr Playfaira
 
-## [Opis problemu](../../../../algorithms/cryptography/symmetric/playfair.md)
+## [:link: Opis problemu](../../../../algorithms/cryptography/symmetric/playfair.md)
 
 ## Szyfrowanie
 

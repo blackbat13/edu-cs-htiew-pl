@@ -1,13 +1,13 @@
 # Problem n królowych
 
-## [Opis problemu](../../../../algorithms/backtracking/n-queens.md)
+## [:link: Opis problemu](../../../../algorithms/backtracking/n-queens.md)
 
 ## Implementacja
 
 ```julia linenums="1"
 function checkNewPosition(x, y, positions)
     for i in 1:x
-        if positions[i] == y || y - positions[i] == x - i
+        if positions[i] == y || y - positions[i] == x - i || y - positions[i] == i - x
             return false
         end
     end

@@ -1,6 +1,6 @@
 # Spójne składowe
 
-## [Opis problemu](../../../../algorithms/graphs/connected-components.md)
+## [:link: Opis problemu](../../../../algorithms/graphs/connected-components.md)
 
 ## Implementacja
 

@@ -1,6 +1,6 @@
 # Szyfr płotkowy
 
-## [Opis problemu](../../../../algorithms/cryptography/symmetric/rail-fence.md)
+## [:link: Opis problemu](../../../../algorithms/cryptography/symmetric/rail-fence.md)
 
 ## Szyfrowanie
 

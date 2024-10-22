@@ -49,10 +49,13 @@ procedura SortowaniePrzezWybieranie(A, n):
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-    START(["SzukajIndeksMinimum(pocz, kon, A)"]) --> K1["min := A[pocz]\nminInd := pocz\ni := pocz + 1"]
+    START(["SzukajIndeksMinimum(pocz, kon, A)"]) --> K1["min := A[pocz]
+    minInd := pocz
+    i := pocz + 1"]
     K1 --> K3{i <= kon}
     K3 -- PRAWDA --> K4{"A[i] < min"}
-    K4 -- PRAWDA --> K5["min := A[i]\nminInd := i"]
+    K4 -- PRAWDA --> K5["min := A[i]
+    minInd := i"]
     K4 -- FAŁSZ --> K3i[i := i + 1]
     K5 --> K3i
     K3i --> K3
@@ -65,7 +68,8 @@ flowchart TD
 flowchart TD
     START(["SortowaniePrzezWybieranie(A, n)"]) --> K0[i := 1]
     K0 --> K1{i <= n - 1}
-    K1 -- PRAWDA --> K2["minInd := SzukajIndeksMinimum(i, n, A)\nZamień(A[i], A[minInd])"]
+    K1 -- PRAWDA --> K2["minInd := SzukajIndeksMinimum(i, n, A)
+    Zamień(A[i], A[minInd])"]
     K2 --> K1i[i := i + 1]
     K1i --> K1
     K1 -- FAŁSZ ---> STOP([STOP])

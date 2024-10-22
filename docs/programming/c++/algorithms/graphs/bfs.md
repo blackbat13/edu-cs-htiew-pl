@@ -4,7 +4,7 @@ description: Przeszukiwanie grafu wszerz
 
 # BFS
 
-## [Opis problemu](../../../../algorithms/graphs/bfs.md)
+## [:link: Opis problemu](../../../../algorithms/graphs/bfs.md)
 
 ## Implementacja
 

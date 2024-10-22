@@ -1,6 +1,6 @@
 # Naiwne wyszukiwanie wzorca w tekście
 
-## [Opis problemu](../../../../algorithms/text/naive-substring-search.md)
+## [:link: Opis problemu](../../../../algorithms/text/naive-substring-search.md)
 
 ## Implementacja
 

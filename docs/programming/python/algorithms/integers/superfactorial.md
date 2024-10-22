@@ -1,6 +1,6 @@
 # Superfactorial
 
-## [Opis problemu](../../../../algorithms/integers/superfactorial.md)
+## [:link: Opis problemu](../../../../algorithms/integers/superfactorial.md)
 
 ## Implementacja
 

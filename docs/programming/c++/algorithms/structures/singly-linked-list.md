@@ -1,6 +1,6 @@
 # Lista jednokierunkowa
 
-## [Opis problemu](../../../../algorithms/structures/singly-linked-list.md)
+## [:link: Opis problemu](../../../../algorithms/structures/singly-linked-list.md)
 
 ## Implementacja
 

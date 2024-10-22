@@ -1,6 +1,6 @@
 # Palindrom
 
-## [Opis problemu](../../../../algorithms/text/palindrome.md)
+## [:link: Opis problemu](../../../../algorithms/text/palindrome.md)
 
 ## Implementacja
 

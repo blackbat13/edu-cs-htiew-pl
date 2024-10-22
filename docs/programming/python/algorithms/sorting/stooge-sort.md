@@ -1,6 +1,6 @@
 # Sortowanie stooge
 
-## [Opis problemu](../../../../algorithms/sorting/stooge-sort.md)
+## [:link: Opis problemu](../../../../algorithms/sorting/stooge-sort.md)
 
 ## Implementacja
 
