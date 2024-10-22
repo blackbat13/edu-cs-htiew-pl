@@ -1,29 +1,29 @@
 # Algorytm Euklidesa
 
-## Opis problemu
-
 Największy wspólny dzielnik dwóch liczb naturalnych wykorzystywane jest w wielu obliczeniach i własnościach matematycznych. M. in. z tego względu warto wiedzieć, jak w sposób wydajny możemy go policzyć. Do tego posłuży nam algorytm Euklidesa.
 
-### Specyfikacja
+## Specyfikacja
 
-#### Dane
+### Dane
 
 * $a, b$ — liczby naturalne, większe od zera
 
-#### Wynik
+### Wynik
 
 * $NWD(a, b)$ — największy wspólny dzielnik liczb $a$ i $b$ 
 
-### Przykład
+## Przykład
 
-#### Dane
+### Dane
 
 ```
 a := 32
 b := 12
 ```
 
-**Wynik**: $4$ 
+### Wynik
+
+$NWD(32, 12) = 4$ 
 
 !!! info
 	**Wyjaśnienie**
