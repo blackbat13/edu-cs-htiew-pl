@@ -1508,6 +1508,9 @@ nav:
         - 'Arkusze': 'matura-z-informatyki/arkusze-i-rozwiazania/2023-czerwiec-cke/README.md'
         - 'Rozwiązania': 'matura-z-informatyki/arkusze-i-rozwiazania/2023-czerwiec-cke/solutions.md'
       - 'Pytania zamknięte': 'matura-z-informatyki/arkusze-i-rozwiazania/pytania-zamkniete.md'
+  - 'Studia':
+    - 'studies/README.md'
+    - 'Podstawy algorytmiki i programowania': 'studies/algorithms-and-programming-basics.md'
   - 'Przydatne linki':
     - 'Przewodnik po informatyce': 'https://bezkomputera.wmi.amu.edu.pl/ppi/'
     - 'Kurs programowania z Harvardu': 'https://landing.codegym.cc/pl/cs50/'
