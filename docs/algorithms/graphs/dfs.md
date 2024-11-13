@@ -8,6 +8,10 @@ DFS jest często wykorzystywany do rozwiązywania różnego rodzaju problemów, 
 
 DFS zaczyna od wybranego wierzchołka (zwanego wierzchołkiem źródłowym/początkowym) i wykonuje przeszukiwanie możliwie najdalej wzdłuż każdej gałęzi grafu, zanim wróci do poprzedniego wierzchołka i spróbuje przeszukać kolejną ścieżkę. Głównym celem algorytmu jest odwiedzenie każdego wierzchołka grafu dokładnie raz.
 
+## Prezentacja
+
+[:fontawesome-solid-file-pdf: Przebieg algorytmu DFS - prezentacja](../../assets/DFS – przebieg algorytmu.pdf)
+
 ## Pseudokod
 
 ```
