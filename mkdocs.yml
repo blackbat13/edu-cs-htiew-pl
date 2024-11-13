@@ -112,6 +112,7 @@ nav:
     - 'Otwarte oprogramowanie': 'cs-didactics/open-source.md'
     - 'Grywalizacja': 'cs-didactics/gamification.md'
     - 'Konkurs przedmiotowy': 'cs-didactics/competition.md'
+    - 'Algorytmika - kreatywne myślenie': 'cs-didactics/algorithmic-creative-thinking.md'
   - 'Algorytmy':
     - 'Wprowadzenie': 
       - 'algorithms/introduction/README.md'
