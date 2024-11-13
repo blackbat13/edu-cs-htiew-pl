@@ -1,6 +1,6 @@
 # Podstawy algorytmiki i programowania
 
-## Lisy zadań
+## Listy zadań
 
 [:fontawesome-solid-file-pdf: Lista I - sposoby zapisu algorytmu](../assets/studies/paip/Lista%20I%20-%20sposoby%20zapisu%20algorytmu.pdf)
 
