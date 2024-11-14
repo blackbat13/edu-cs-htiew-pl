@@ -94,7 +94,8 @@ funkcja CzyDoskonala(n):
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-	START(["CzyDoskonala(n)"]) --> K1[suma := 0\ni := 1]
+	START(["CzyDoskonala(n)"]) --> K1["suma := 0
+	i := 1"]
 	K1 --> K2{i <= n div 2}
 	K2 -- PRAWDA --> K3{"(n mod i) = 0"}
 	K3 -- PRAWDA --> K4[suma := suma + i]
@@ -142,7 +143,8 @@ funkcja CzyDoskonala(n)
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-	START(["CzyDoskonala(n)"]) --> K1[suma := 1\ni := 2]
+	START(["CzyDoskonala(n)"]) --> K1["suma := 1
+	i := 2"]
 	K1 --> K2{"i <= sqrt(n)"}
 	K2 -- PRAWDA --> K3{"(n mod i) = 0"}
 	K3 -- PRAWDA --> K4[suma := suma + i]

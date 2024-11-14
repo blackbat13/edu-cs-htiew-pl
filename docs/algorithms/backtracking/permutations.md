@@ -43,7 +43,9 @@ flowchart TD
     K2 --> STOP([STOP])
     K1 -- FAŁSZ --> K4p[i := pocz]
     K4p --> K4{i <= kon}
-    K4 -- PRAWDA --> K5["Zamień(A[pocz], A[i])\nPermutacje(A, pocz + 1, kon)\nZamień(A[pocz], A[i])"]
+    K4 -- PRAWDA --> K5["Zamień(A[pocz], A[i])
+    Permutacje(A, pocz + 1, kon)
+    Zamień(A[pocz], A[i])"]
     K5 --> K4i[i := i + 1]
     K4i --> K4
     K4 -- FAŁSZ --> STOP

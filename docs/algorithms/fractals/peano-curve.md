@@ -47,7 +47,13 @@ flowchart TD
     START(["KrzywaPeano(stopień, kąt, długość"]) --> K1{stopień = 0}
     K1 -- PRAWDA --> K2["Przód(długość)"]
     K2 --> STOP([STOP])
-    K1 -- FAŁSZ --> K4["Prawo(kąt)\nKrzywaPeano(stopień - 1, -kąt, długość)\nPrzód(długość)\nKrzywaPeano(stopień - 1, kąt, długość)\nPrzód(długość)\nKrzywaPeano(stopień - 1, -kąt, długość)\nLewo(kąt)"]
+    K1 -- FAŁSZ --> K4["Prawo(kąt)
+    KrzywaPeano(stopień - 1, -kąt, długość)
+    Przód(długość)
+    KrzywaPeano(stopień - 1, kąt, długość)
+    Przód(długość)
+    KrzywaPeano(stopień - 1, -kąt, długość)
+    Lewo(kąt)"]
     K4 --> STOP
 ```
 

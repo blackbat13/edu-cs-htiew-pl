@@ -109,8 +109,11 @@ funkcja SumaDwoch(n, A, k):
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-	START(["SumaDwoch(n, A, k)"]) --> K1[lewy := 1\nprawy := n]
-	K1 --> K3{"lewy < prawy\noraz\nA[lewy] + A[prawy] != k"}
+	START(["SumaDwoch(n, A, k)"]) --> K1["lewy := 1
+	prawy := n"]
+	K1 --> K3{"lewy < prawy
+	oraz
+	A[lewy] + A[prawy] != k"}
 	K3 -- PRAWDA --> K4{"A[lewy] + A[prawy] < k"}
 	K4 -- PRAWDA --> K5[lewy := lewy + 1]
 	K5 --> K3

@@ -73,7 +73,8 @@ funkcja SzukajMaks(n, A):
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-	START(["FindMax(n, A)"]) --> K1["max := A[1]\ni := 1"]
+	START(["FindMax(n, A)"]) --> K1["max := A[1]
+	i := 1"]
 	K1 --> K2{i <= n}
 	K2 -- PRAWDA --> K3{"max < A[i]"}
 	K3 -- PRAWDA --> K4["max := A[i]"]
@@ -156,10 +157,13 @@ funkcja SzukajIndeksMaks(n, A):
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-	START(["SzukajIndeksMaks(n, A)"]) --> K1["max := A[1]\nind := 1\ni := 1"]
+	START(["SzukajIndeksMaks(n, A)"]) --> K1["max := A[1]
+	ind := 1
+	i := 1"]
 	K1 --> K2{i <= n}
 	K2 -- PRAWDA --> K3{"max < A[i]"}
-	K3 -- PRAWDA --> K4["max := A[i]\nind := i"]
+	K3 -- PRAWDA --> K4["max := A[i]
+	ind := i"]
 	K4 --> K2i[i := i + 1]
 	K2i --> K2
 	K3 -- FAŁSZ --> K2i

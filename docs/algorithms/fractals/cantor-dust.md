@@ -31,7 +31,11 @@ funkcja ZbiórCantora(stopień, długość):
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
 	START(["ZbiórCantora(stopień, długość)"]) --> K1{stopień > 0}
-    K1 -- PRAWDA --> K2["ZbiórCantora(stopień - 1, długość / 3)\nPodnieśPisak()\nPrzód(długość / 3)\nOpóśćPisak()\nZbiórCantora(stopień - 1, długość / 3)"]
+    K1 -- PRAWDA --> K2["ZbiórCantora(stopień - 1, długość / 3)
+    PodnieśPisak()
+    Przód(długość / 3)
+    OpóśćPisak()
+    ZbiórCantora(stopień - 1, długość / 3)"]
     K1 -- FAŁSZ --> K8["Przód(długość)"]
     K2 --> STOP([STOP])
     K8 --> STOP

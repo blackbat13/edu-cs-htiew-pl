@@ -67,9 +67,12 @@ funkcja MonteCarloPI(n)
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-	START(["MonteCarloPi(n)"]) --> K1[wkole := 0\ni := 1]
+	START(["MonteCarloPi(n)"]) --> K1["wkole := 0
+    i := 1"]
 	K1 --> K2{i <= n}
-	K2 -- PRAWDA --> K3["x := losowa(-1, 1)\ny := losowa(-1, 1)\nodl := x * x + y * y"]
+	K2 -- PRAWDA --> K3["x := losowa(-1, 1)
+    y := losowa(-1, 1)
+    odl := x * x + y * y"]
 	K3 --> K6{odl <= 1}
 	K6 -- PRAWDA --> K7[wkole := wkole + 1]
 	K7 --> K2i[i := i + 1]

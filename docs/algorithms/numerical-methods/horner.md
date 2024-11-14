@@ -115,7 +115,8 @@ funkcja Horner(n, x, a)
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-	START(["Horner(n, x, a)"]) --> K1["wynik := a[n]\ni := n - 1"]
+	START(["Horner(n, x, a)"]) --> K1["wynik := a[n]
+	i := n - 1"]
 	K1 --> K2{i >= 0}
 	K2 -- PRAWDA --> K3["wynik := wynik * x + a[i]"]
 	K3 --> K2i[i := i - 1]

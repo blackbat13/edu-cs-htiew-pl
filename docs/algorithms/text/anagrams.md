@@ -143,7 +143,8 @@ funkcja TestujAnagramy(n, tekst1, tekst2):
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-    START(["TestujAnagramy(n, tekst1, tekst2)"]) --> K1["Sortuj(tekst1)\nSortuj(tekst2)"]
+    START(["TestujAnagramy(n, tekst1, tekst2)"]) --> K1["Sortuj(tekst1)
+    Sortuj(tekst2)"]
     K1 --> K3{tekst1 = tekst2}
     K3 -- PRAWDA --> K4[/Zwróć PRAWDA/]
     K3 -- FAŁSZ --> K6[/Zwróć FAŁSZ/]

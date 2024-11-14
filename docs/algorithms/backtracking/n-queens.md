@@ -89,7 +89,9 @@ funkcja ZnajdźRozwiązanie(n, wiersz, pozycje):
 flowchart TD
     START(["SprawdźPozycję(wiersz, kolumna, pozycje)"]) --> K0[i := 1]
     K0 --> K1{i < wiersz}
-    K1 -- PRAWDA --> K2{"pozycje[i] = kolumna\nlub\nkolumna - pozycje[i] = wiersz - i"}
+    K1 -- PRAWDA --> K2{"pozycje[i] = kolumna
+    lub
+    kolumna - pozycje[i] = wiersz - i"}
     K2 -- PRAWDA --> K3[/Zwróć FAŁSZ/]
     K2 -- FAŁSZ --> K1i[i := i + 1]
     K1i --> K1

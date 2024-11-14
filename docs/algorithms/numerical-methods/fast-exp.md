@@ -77,7 +77,8 @@ flowchart TD
 	K1 --> K2{n > 0}
 	K2 -- PRAWDA --> K3{n mod 2 = 1}
 	K3 -- PRAWDA --> K4[wynik := wynik * x]
-	K3 -- FAŁSZ --> K5[x := x * x\nx := n div 2]
+	K3 -- FAŁSZ --> K5["x := x * x
+	x := n div 2"]
 	K4 --> K5
 	K5 --> K2
 	K2 -- FAŁSZ --> K7[/Zwróć wynik/]

@@ -36,7 +36,11 @@ flowchart TD
     START(["SmoczaKrzywa(stopień, długość, znak)"]) --> K1{stopień = 0}
     K1 -- PRAWDA --> K2["Przód(długość)"]
     K2 --> STOP([STOP])
-    K1 -- FAŁSZ --> K4["Lewo(45 * znak)\nSmoczaKrzywa(stopień - 1, długość, 1)\nPrawo(90 * znak * -1)\nSmoczaKrzywa(stopień - 1, długość, -1)\nLewo(45 * znak)"]
+    K1 -- FAŁSZ --> K4["Lewo(45 * znak)
+    SmoczaKrzywa(stopień - 1, długość, 1)
+    Prawo(90 * znak * -1)
+    SmoczaKrzywa(stopień - 1, długość, -1)
+    Lewo(45 * znak)"]
     K4 --> STOP
 ```
 

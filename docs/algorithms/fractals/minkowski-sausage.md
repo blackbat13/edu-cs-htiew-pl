@@ -35,7 +35,13 @@ flowchart TD
     START(["MinkowskiSausage(stopień, długość"]) --> K1{stopień = 0}
     K1 -- PRAWDA --> K2["Przód(długość)"]
     K2 --> STOP([STOP])
-    K1 -- FAŁSZ --> K4["Prawo(30)\nMinkowskiSausage(stopień - 1, długość / 2)\nLewo(90)\nMinkowskiSausage(stopień - 1, długość / 2)\nPrawo(90)\nMinkowskiSausage(stopień - 1, długość / 2)\nLewo(30)"]
+    K1 -- FAŁSZ --> K4["Prawo(30)
+    MinkowskiSausage(stopień - 1, długość / 2)
+    Lewo(90)
+    MinkowskiSausage(stopień - 1, długość / 2)
+    Prawo(90)
+    MinkowskiSausage(stopień - 1, długość / 2)
+    Lewo(30)"]
     K4 --> STOP
 ```
 

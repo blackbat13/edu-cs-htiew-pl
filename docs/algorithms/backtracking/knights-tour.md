@@ -202,11 +202,27 @@ flowchart TD
     START(["ProblemSkoczka(n, szachownica, odwiedzone, wiersz, kolumna)"]) --> K1{odwiedzone = n * n}
     K1 -- PRAWDA --> K2[/Zwróć PRAWDA/]
     K2 --> STOP([STOP])
-    K1 -- FAŁSZ --> K3["szachownica[wiersz][kolumna] := PRAWDA\nruchyWiersz[1..8] := {-1, 1, 2, 2, -2, -2, -1, 1}\nruchyKolumna[1..8] := {-2, -2, -1, 1, -1, 1, 2, 2}\ni := 1"]
+    K1 -- FAŁSZ --> K3["szachownica[wiersz][kolumna] := PRAWDA
+    ruchyWiersz[1..8] := {-1, 1, 2, 2, -2, -2, -1, 1}
+    ruchyKolumna[1..8] := {-2, -2, -1, 1, -1, 1, 2, 2}
+    i := 1"]
     K3 --> K6{i <= 8}
-    K6 -- PRAWDA --> K7["nowyWiersz := wiersz + ruchyWiersz[i]\nnowaKolumna := kolumna + ruchyKolumna[i]"]
-    K7 --> K9{"nowyWiersz <= n\noraz\nnowyWiersz >= 1\noraz\nnowaKolumna <= n\noraz\nnowaKolumna >= 1\noraz\nszachownica[wiersz][kolumna] = FAŁSZ"}
-    K9 -- PRAWDA --> K10{"ProblemSkoczka(n, \nszachownica, \nodwiedzone + 1, \nnowyWiersz, \nnowaKolumna)"}
+    K6 -- PRAWDA --> K7["nowyWiersz := wiersz + ruchyWiersz[i]
+    nowaKolumna := kolumna + ruchyKolumna[i]"]
+    K7 --> K9{"nowyWiersz <= n
+    oraz
+    nowyWiersz >= 1
+    oraz
+    nowaKolumna <= n
+    oraz
+    nowaKolumna >= 1
+    oraz
+    szachownica[wiersz][kolumna] = FAŁSZ"}
+    K9 -- PRAWDA --> K10{"ProblemSkoczka(n, 
+    szachownica, 
+    odwiedzone + 1, 
+    nowyWiersz, 
+    nowaKolumna)"}
     K10 -- PRAWDA --> K11[/Zwróć PRAWDA/]
     K11 --> STOP
     K10 -- FAŁSZ --> K6i[i := i + 1]

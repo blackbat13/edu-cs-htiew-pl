@@ -92,7 +92,8 @@ W skrócie, ten pseudokod sprawdza każdy element listy, czy jest liderem, licz�
 flowchart TD
 	START(["SzukajLidera(n, A)"]) --> K0[i := 1]
 	K0 --> K1{i <= n}
-	K1 -- PRAWDA --> K2[ile := 0\nj := 1]
+	K1 -- PRAWDA --> K2["ile := 0
+	j := 1"]
 	K2 --> K3{j <= n}
 	K3 -- PRAWDA --> K4{"A[i] = A[j]"}
 	K4 -- PRAWDA --> K5[ile := ile + 1]
@@ -171,7 +172,8 @@ funkcja SzukajLidera(n, A)
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-	START(["Zlicz(n, A, el)"]) --> K1["ile := 0\ni := 1"]
+	START(["Zlicz(n, A, el)"]) --> K1["ile := 0
+	i := 1"]
 	K1 --> K2{i <= n}
 	K2 --PRAWDA --> K3{"el = A[i]"}
 	K3 --PRAWDA --> K4["ile := ile + 1"]
@@ -185,7 +187,9 @@ flowchart TD
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-	START(["SzukajLidera(n, A)"]) --> K1["lider := A[1]\nile := 1\ni := 1"]
+	START(["SzukajLidera(n, A)"]) --> K1["lider := A[1]
+	ile := 1
+	i := 1"]
 	K1 --> K3{i <= n}
 	K3 -- PRAWDA --> K4{ile = 0}
 	K4 -- PRAWDA --> K5["lider := A[i]"]

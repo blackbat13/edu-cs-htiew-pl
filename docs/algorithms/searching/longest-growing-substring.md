@@ -79,7 +79,9 @@ Jeżeli obecny element nie jest większy od poprzedniego (**krok 8**), to resetu
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-	START(["NajdluzszySpojnyPodciagRosnacy(n, A)"]) --> K1[maks := 1\ndlugosc := 1\ni := 2]
+	START(["NajdluzszySpojnyPodciagRosnacy(n, A)"]) --> K1["maks := 1
+	dlugosc := 1
+	i := 2"]
 	K1 --> K3{i <= n}
 	K3 -- PRAWDA --> K4{"A[i] > A[i - 1]"}
 	K4 -- PRAWDA --> K5[dlugosc := dlugosc + 1]

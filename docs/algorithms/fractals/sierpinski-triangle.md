@@ -50,13 +50,16 @@ flowchart TD
     START(["TrójkątSierpińskiego(stopień, długość)"]) --> K1{stopień = 0}
     K1 -- PRAWDA --> K2p[i := 1]
     K2p --> K2{i <= 3}
-    K2 -- PRAWDA --> K3["Przód(długość)\nLewo(120)"]
+    K2 -- PRAWDA --> K3["Przód(długość)
+    Lewo(120)"]
     K3 --> K2i[i := i + 1]
     K2i --> K2
     K2 -- FAŁSZ --> STOP([STOP])
     K1 -- FAŁSZ --> K6p[i := 1]
     K6p --> K6{i <= 3}
-    K6 -- PRAWDA --> K7["TrójkątSierpińskiego(stopień - 1, długość / 2)\nPrzód(długość / 2)\nLewo(120)"]
+    K6 -- PRAWDA --> K7["TrójkątSierpińskiego(stopień - 1, długość / 2)
+    Przód(długość / 2)
+    Lewo(120)"]
     K7 --> K6i[i := i + 1]
     K6i --> K6
     K6 -- FAŁSZ ---> STOP

@@ -73,7 +73,8 @@ funkcja SzukajBinarnie(n, A, k)
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-	START(["SzukajBinarnie(n, A, k)"]) --> O1[pocz := 1\nkon := n]
+	START(["SzukajBinarnie(n, A, k)"]) --> O1["pocz := 1
+	kon := n"]
 	O1 --> C1{pocz < kon}
 	C1 -- PRAWDA --> O2["srodek := (pocz + kon) div 2"]
 	O2 --> C2{"k > A[srodek]"}

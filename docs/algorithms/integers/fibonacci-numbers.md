@@ -76,9 +76,14 @@ funkcja Fib(n):
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-	START(["Fib(n)"]) --> K1[f1 := 1\nf2 := 1\ni := 3]
+	START(["Fib(n)"]) --> K1["f1 := 1
+    f2 := 1
+    i := 3"]
 	K1 --> K3{i <= n + 1}
-	K3 -- PRAWDA --> K4[f3 := f1 + f2\nf1 := f2\nf2 := f3\ni := i +1]
+	K3 -- PRAWDA --> K4["f3 := f1 + f2
+    f1 := f2
+    f2 := f3
+    i := i +1"]
 	K4 --> K3
 	K3 -- FAŁSZ --> K7[/Zwróć f2/]
 	K7 --> STOP([STOP])

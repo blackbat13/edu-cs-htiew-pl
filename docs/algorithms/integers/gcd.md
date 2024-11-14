@@ -91,7 +91,9 @@ funkcja NWD(a, b):
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
 	START(["NWD(a, b)"]) --> K1{b != 0}
-	K1 -- PRAWDA --> K2[b2 := b\nb := a mod b\na := b2]
+	K1 -- PRAWDA --> K2["b2 := b
+	b := a mod b
+	a := b2"]
 	K2 --> K1
 	K1 -- FAŁSZ --> K5[/Zwróć a/]
 	K5 --> STOP([STOP])

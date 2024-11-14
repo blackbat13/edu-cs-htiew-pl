@@ -32,7 +32,11 @@ funkcja WarunekTrójkąta(a, b, c):
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-    START(["WarunekTrójkąta(a, b, c)"]) --> K1{a < b + c\noraz\nb < a + c\noraz\nc < a + b}
+    START(["WarunekTrójkąta(a, b, c)"]) --> K1{"a < b + c
+    oraz
+    b < a + c
+    oraz
+    c < a + b"}
     K1 -- PRAWDA --> K2[/Zwróć PRAWDA/]
     K2 --> STOP([STOP])
     K1 -- FAŁSZ --> K4[/Zwróć FAŁSZ/]

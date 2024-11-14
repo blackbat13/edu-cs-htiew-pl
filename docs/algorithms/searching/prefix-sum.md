@@ -63,7 +63,8 @@ funkcja SumyPrzedzialow(n, A, m, P):
 flowchart TD
 	START(["SumyPrzedzialow(n, A, m, P)"]) --> K0[i := 1]
 	K0 --> K1{i <= m}
-	K1 -- PRAWDA --> K2["suma := 0\nj := P[i][1]"]
+	K1 -- PRAWDA --> K2["suma := 0
+    j := P[i][1]"]
 	K2 --> K3{"j <= P[i][2]"}
 	K3 -- PRAWDA --> K4["suma := suma + A[j]"]
 	K4 --> K3i[j := j + 1]
@@ -98,7 +99,8 @@ funkcja SumyPrzedzialow(n, A, m, P):
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-	START(["SumyPrzedzialow(n, A, m, P)"]) --> K1["pref := [0..n]\npref[0] := 0"]
+	START(["SumyPrzedzialow(n, A, m, P)"]) --> K1["pref := [0..n]
+    pref[0] := 0"]
 	K1 --> K3{i <= n}
 	K3 -- PRAWDA --> K4["pref[i] := pref[i - 1] + A[i]"]
     K4 --> K3i[i := i + 1]

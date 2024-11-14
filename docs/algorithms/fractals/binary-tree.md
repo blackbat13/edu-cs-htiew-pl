@@ -44,7 +44,11 @@ funkcja DrzewoBinarne(stopień, długość):
 flowchart TD
 	START(["DrzewoBinarne(stopień, długość)"]) --> K1["Przód(długość)"]
 	K1 --> K2{stopień > 0}
-	K2 -- PRAWDA --> K3["Lewo(45)\nDrzewoBinarne(stopień - 1, długość / 2)\nPrawo(90)\nDrzewoBinarne(stopień - 1, długość / 2)\nLewo(45)"]
+	K2 -- PRAWDA --> K3["Lewo(45)
+    DrzewoBinarne(stopień - 1, długość / 2)
+    Prawo(90)
+    DrzewoBinarne(stopień - 1, długość / 2)
+    Lewo(45)"]
 	K3 --> K8["Tył(długość)"]
 	K2 -- FAŁSZ --> K8
 	K8 --> STOP([STOP])

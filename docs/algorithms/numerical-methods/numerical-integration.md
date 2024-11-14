@@ -60,9 +60,13 @@ funkcja MetodaProstokatow(f, a, b, n):
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-	START(["MetodaProstokatow(f, a, b, n)"]) --> K1["pole := 0\nszer := (b - a) / n\nx := a + szer"]
+	START(["MetodaProstokatow(f, a, b, n)"]) --> K1["pole := 0
+    szer := (b - a) / n
+    x := a + szer"]
 	K1 --> K4{x <= b}
-	K4 -- PRAWDA --> K5["wys := f(x)\npole := pole + szer * wys\nx := x + szer"]
+	K4 -- PRAWDA --> K5["wys := f(x)
+    pole := pole + szer * wys
+    x := x + szer"]
 	K5 --> K4
 	K4 -- FAŁSZ --> K8[/Zwróć pole/]
 	K8 --> STOP([STOP])
@@ -92,9 +96,12 @@ funkcja MetodaTrapezow(f, a, b, n):
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-	START(["MetodaTrapezow(f, a, b, n)"]) --> K1["pole := 0\nszer := (b - a) / n\nx := a + szer"]
+	START(["MetodaTrapezow(f, a, b, n)"]) --> K1["pole := 0
+    szer := (b - a) / n
+    x := a + szer"]
 	K1 --> K4{x <= b}
-	K4 -- PRAWDA --> K5["pole := pole + ((f(x - szer) + f(x)) * szer) / 2\nx := x + szer"]
+	K4 -- PRAWDA --> K5["pole := pole + ((f(x - szer) + f(x)) * szer) / 2
+    x := x + szer"]
 	K5 --> K4
 	K4 -- FAŁSZ --> K8[/Zwróć pole/]
 	K8 --> STOP([STOP])

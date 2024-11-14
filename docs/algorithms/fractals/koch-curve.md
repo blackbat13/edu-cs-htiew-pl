@@ -41,7 +41,13 @@ flowchart TD
     START(["KrzywaKocha(stopień, długość"]) --> K1{stopień = 0}
     K1 -- PRAWDA --> K2["Przód(długość)"]
     K2 --> STOP([STOP])
-    K1 -- FAŁSZ --> K4["KrzywaKocha(stopień - 1, długość)\nLewo(60)\nKrzywaKocha(stopień - 1, długość)\nPrawo(120)\nKrzywaKocha(stopień - 1, długość)\nLewo(60)\nKrzywaKocha(stopień - 1, długość)"]
+    K1 -- FAŁSZ --> K4["KrzywaKocha(stopień - 1, długość)
+    Lewo(60)
+    KrzywaKocha(stopień - 1, długość)
+    Prawo(120)
+    KrzywaKocha(stopień - 1, długość)
+    Lewo(60)
+    KrzywaKocha(stopień - 1, długość)"]
     K4 --> STOP
 ```
 

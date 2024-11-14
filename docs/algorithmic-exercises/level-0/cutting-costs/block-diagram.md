@@ -4,7 +4,8 @@
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
     START([START]) --> K1[/Wczytaj a, b, c/]
-    K1 --> K2[suma := a + b + c\nminimum := a]
+    K1 --> K2["suma := a + b + c
+    minimum := a"]
     K2 --> K4{b < minimum}
     K4 -- PRAWDA --> K5[minimum := b]
     K4 -- FAŁSZ --> K6{c < minimum}

@@ -122,7 +122,8 @@ Jedyny blok, z którego wychodzą dwie strzałki, zazwyczaj na lewo i prawo. Do 
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-	START(["START"]) --> K0[wynik := 0\ni := 1]
+	START(["START"]) --> K0["wynik := 0
+    i := 1"]
 	K0 --> K1{i <= n}
 	K1 -- PRAWDA --> K2{n mod i = 0}
 	K2 -- PRAWDA --> K3[wynik := wynik + 1]
