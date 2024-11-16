@@ -47,8 +47,8 @@ flowchart TD
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/fractals/minkowski-sausage.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/fractals/minkowski-sausage.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/fractals/minkowski-sausage.md)
+### [:simple-python: Python](../../programming/python/algorithms/fractals/minkowski-sausage.md){ .md-button }
 
-### [Blockly](../../programming/blockly/algorithms/fractals/minkowski-sausage.md)
+### [Blockly](../../programming/blockly/algorithms/fractals/minkowski-sausage.md){ .md-button }

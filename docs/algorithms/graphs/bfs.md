@@ -41,6 +41,6 @@ Algorytm BFS jest zwykle implementowany za pomocą struktury danych zwaną **kol
 
 Poniżej znajdziesz przykładowe implementacje w wybranych językach.
 
-### [C++](../../programming/c++/algorithms/graphs/bfs.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/graphs/bfs.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/graphs/bfs.md)
+### [:simple-python: Python](../../programming/python/algorithms/graphs/bfs.md){ .md-button }

@@ -153,14 +153,14 @@ Najpierw dokonujemy podziału na dwie tablice pomocnicze wykonując $\frac{n}{2}
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/searching/min-max-search.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/searching/min-max-search.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/searching/min-max-search.md)
+### [:simple-python: Python](../../programming/python/algorithms/searching/min-max-search.md){ .md-button }
 
-### [Kotlin](../../programming/kotlin/algorithms/searching/min-max-search.md)
+### [:simple-kotlin: Kotlin](../../programming/kotlin/algorithms/searching/min-max-search.md){ .md-button }
 
 ## Implementacje — pozostałe
 
-### [C](../../programming/c/algorithms/searching/min-max-search.md)
+### [:simple-c:](../../programming/c/algorithms/searching/min-max-search.md){ .md-button }
 
-### [Julia](../../programming/julia/algorithms/searching/min-max-search.md)
+### [:simple-julia: Julia](../../programming/julia/algorithms/searching/min-max-search.md){ .md-button }

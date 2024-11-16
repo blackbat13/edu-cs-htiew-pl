@@ -66,8 +66,8 @@ Podobnie jak sortowanie bąbelkowe, sortowanie koktajlowe ma złożoność oblic
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/sorting/cocktail-shaker-sort.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/sorting/cocktail-shaker-sort.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/sorting/cocktail-shaker-sort.md)
+### [:simple-python: Python](../../programming/python/algorithms/sorting/cocktail-shaker-sort.md){ .md-button }
 
-### [Kotlin](../../programming/kotlin/algorithms/sorting/cocktail-shaker-sort.md)
+### [:simple-kotlin: Kotlin](../../programming/kotlin/algorithms/sorting/cocktail-shaker-sort.md){ .md-button }

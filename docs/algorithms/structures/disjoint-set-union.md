@@ -26,6 +26,6 @@ Te algorytmy i wiele innych korzystają z efektywności operacji oferowanych prz
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/structures/disjoint-set-union.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/structures/disjoint-set-union.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/structures/disjoint-set-union.md)
+### [:simple-python: Python](../../programming/python/algorithms/structures/disjoint-set-union.md){ .md-button }

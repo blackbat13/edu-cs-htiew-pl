@@ -43,6 +43,6 @@ $O(n)$ - liniowa (przy zastosowaniu odpowiedniego algorytmu sortowania)
 
 ## Implementacja
 
-### [C++](../../../programming/c++/algorithms/integers/change.md)
+### [:simple-cplusplus: C++](../../../programming/c++/algorithms/integers/change.md){ .md-button }
 
-### [Python](../../../programming/python/algorithms/integers/change.md)
+### [:simple-python: Python](../../../programming/python/algorithms/integers/change.md){ .md-button }

@@ -183,18 +183,18 @@ W przypadku poszukiwania elementu minimalnego, postępujemy praktycznie identycz
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/searching/min-or-max.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/searching/min-or-max.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/searching/min-or-max.md)
+### [:simple-python: Python](../../programming/python/algorithms/searching/min-or-max.md){ .md-button }
 
-### [Blockly](../../programming/blockly/algorithms/searching/min-or-max.md)
+### [Blockly](../../programming/blockly/algorithms/searching/min-or-max.md){ .md-button }
 
-### [Kotlin](../../programming/kotlin/algorithms/searching/min-or-max.md)
+### [:simple-kotlin: Kotlin](../../programming/kotlin/algorithms/searching/min-or-max.md){ .md-button }
 
 ## Implementacje — pozostałe
 
-### [C](../../programming/c/algorithms/searching/min-or-max.md)
+### [:simple-c:](../../programming/c/algorithms/searching/min-or-max.md){ .md-button }
 
-### [Haskell](../../programming/haskell/algorithms/searching/min-or-max.md)
+### [:simple-haskell: Haskell](../../programming/haskell/algorithms/searching/min-or-max.md){ .md-button }
 
-### [Julia](../../programming/julia/algorithms/searching/min-or-max.md)
+### [:simple-julia: Julia](../../programming/julia/algorithms/searching/min-or-max.md){ .md-button }

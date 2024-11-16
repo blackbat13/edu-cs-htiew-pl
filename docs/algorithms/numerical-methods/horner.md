@@ -131,6 +131,6 @@ $O(n)$ — liniowa
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/numerical-methods/horner.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/numerical-methods/horner.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/numerical-methods/horner.md)
+### [:simple-python: Python](../../programming/python/algorithms/numerical-methods/horner.md){ .md-button }

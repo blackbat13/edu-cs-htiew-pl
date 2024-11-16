@@ -72,8 +72,8 @@ flowchart TD
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/fractals/koch-snowflake.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/fractals/koch-snowflake.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/fractals/koch-snowflake.md)
+### [:simple-python: Python](../../programming/python/algorithms/fractals/koch-snowflake.md){ .md-button }
 
-### [Blockly](../../programming/blockly/algorithms/fractals/koch-snowflake.md)
+### [Blockly](../../programming/blockly/algorithms/fractals/koch-snowflake.md){ .md-button }

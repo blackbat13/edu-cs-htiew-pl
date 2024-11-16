@@ -214,17 +214,17 @@ $O(n)$ — liniowa
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/searching/majority.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/searching/majority.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/searching/majority.md)
+### [:simple-python: Python](../../programming/python/algorithms/searching/majority.md){ .md-button }
 
-### [Kotlin](../../programming/kotlin/algorithms/searching/majority.md)
+### [:simple-kotlin: Kotlin](../../programming/kotlin/algorithms/searching/majority.md){ .md-button }
 
 ## Implementacje — pozostałe
 
-### [C](../../programming/c/algorithms/searching/majority.md)
+### [:simple-c:](../../programming/c/algorithms/searching/majority.md){ .md-button }
 
-### [Julia](../../programming/julia/algorithms/searching/majority.md)
+### [:simple-julia: Julia](../../programming/julia/algorithms/searching/majority.md){ .md-button }
 
 ## Powiązane zagadnienia
 

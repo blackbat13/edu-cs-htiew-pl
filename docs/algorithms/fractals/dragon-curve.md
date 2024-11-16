@@ -46,8 +46,8 @@ flowchart TD
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/fractals/dragon-curve.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/fractals/dragon-curve.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/fractals/dragon-curve.md)
+### [:simple-python: Python](../../programming/python/algorithms/fractals/dragon-curve.md){ .md-button }
 
-### [Blockly](../../programming/blockly/algorithms/fractals/dragon-curve.md)
+### [Blockly](../../programming/blockly/algorithms/fractals/dragon-curve.md){ .md-button }

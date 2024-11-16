@@ -84,6 +84,6 @@ funkcja DeszyfrujTrithemius(szyfrogram):
 
 ## Implementacja
 
-### [C++](../../../programming/c++/algorithms/cryptography/trithemius.md)
+### [:simple-cplusplus: C++](../../../programming/c++/algorithms/cryptography/trithemius.md){ .md-button }
 
-### [Python](../../../programming/python/algorithms/cryptography/trithemius.md)
+### [:simple-python: Python](../../../programming/python/algorithms/cryptography/trithemius.md){ .md-button }

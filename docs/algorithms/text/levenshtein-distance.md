@@ -57,6 +57,6 @@ funkcja OdległośćLevenshteina(tekst1, tekst2):
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/text/levenshtein-distance.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/text/levenshtein-distance.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/text/levenshtein-distance.md)
+### [:simple-python: Python](../../programming/python/algorithms/text/levenshtein-distance.md){ .md-button }

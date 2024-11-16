@@ -180,10 +180,10 @@ $O(\sqrt{n})$
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/integers/prime-test.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/integers/prime-test.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/integers/prime-test.md)
+### [:simple-python: Python](../../programming/python/algorithms/integers/prime-test.md){ .md-button }
 
 ## Implementacje — pozostałe
 
-### [Haskell](../../programming/haskell/algorithms/integers/prime-test.md)
+### [:simple-haskell: Haskell](../../programming/haskell/algorithms/integers/prime-test.md){ .md-button }

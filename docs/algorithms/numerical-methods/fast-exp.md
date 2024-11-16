@@ -139,8 +139,8 @@ $O(\log{n})$ — logarytmiczna
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/numerical-methods/fast-exp.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/numerical-methods/fast-exp.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/numerical-methods/fast-exp.md)
+### [:simple-python: Python](../../programming/python/algorithms/numerical-methods/fast-exp.md){ .md-button }
 
-### [Julia](../../programming/julia/algorithms/numerical-methods/fast-exp.md)
+### [:simple-julia: Julia](../../programming/julia/algorithms/numerical-methods/fast-exp.md){ .md-button }

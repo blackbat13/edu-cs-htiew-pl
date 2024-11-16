@@ -122,12 +122,12 @@ flowchart TD
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/backtracking/n-queens.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/backtracking/n-queens.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/backtracking/n-queens.md)
+### [:simple-python: Python](../../programming/python/algorithms/backtracking/n-queens.md){ .md-button }
 
-### [Kotlin](../../programming/kotlin/algorithms/backtracking/n-queens.md)
+### [:simple-kotlin: Kotlin](../../programming/kotlin/algorithms/backtracking/n-queens.md){ .md-button }
 
 ## Implementacja - pozostałe
 
-### [Julia](../../programming/julia/algorithms/backtracking/n-queens.md)
+### [:simple-julia: Julia](../../programming/julia/algorithms/backtracking/n-queens.md){ .md-button }

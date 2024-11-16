@@ -88,12 +88,12 @@ Algorytm Quicksort ma złożoność obliczeniową $O(n\log{n})$ w przypadku śre
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/sorting/quick-sort.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/sorting/quick-sort.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/sorting/quick-sort.md)
+### [:simple-python: Python](../../programming/python/algorithms/sorting/quick-sort.md){ .md-button }
 
-### [Kotlin](../../programming/kotlin/algorithms/sorting/quick-sort.md)
+### [:simple-kotlin: Kotlin](../../programming/kotlin/algorithms/sorting/quick-sort.md){ .md-button }
 
 ## Implementacja - pozostałe
 
-### [Julia](../../programming/julia/algorithms/sorting/quick-sort.md)
+### [:simple-julia: Julia](../../programming/julia/algorithms/sorting/quick-sort.md){ .md-button }

@@ -64,6 +64,6 @@ funkcja Beaufort(tekst, klucz):
 
 ## Implementacja
 
-### [C++](../../../programming/c++/algorithms/cryptography/beaufort.md)
+### [:simple-cplusplus: C++](../../../programming/c++/algorithms/cryptography/beaufort.md){ .md-button }
 
-### [Python](../../../programming/python/algorithms/cryptography/beaufort.md)
+### [:simple-python: Python](../../../programming/python/algorithms/cryptography/beaufort.md){ .md-button }

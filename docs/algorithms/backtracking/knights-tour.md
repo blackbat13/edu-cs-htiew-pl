@@ -234,6 +234,6 @@ flowchart TD
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/backtracking/knights-tour.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/backtracking/knights-tour.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/backtracking/knights-tour.md)
+### [:simple-python: Python](../../programming/python/algorithms/backtracking/knights-tour.md){ .md-button }

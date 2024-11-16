@@ -104,14 +104,14 @@ Mamy jedną pętlę, która przechodzi przez kolejne elementy tablicy, której d
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/searching/longest-growing-substring.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/searching/longest-growing-substring.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/searching/longest-growing-substring.md)
+### [:simple-python: Python](../../programming/python/algorithms/searching/longest-growing-substring.md){ .md-button }
 
-### [Kotlin](../../programming/kotlin/algorithms/searching/longest-growing-substring.md)
+### [:simple-kotlin: Kotlin](../../programming/kotlin/algorithms/searching/longest-growing-substring.md){ .md-button }
 
 ## Implementacje — pozostałe
 
-### [C](../../programming/c/algorithms/searching/longest-growing-substring.md)
+### [:simple-c:](../../programming/c/algorithms/searching/longest-growing-substring.md){ .md-button }
 
-### [Julia](../../programming/julia/algorithms/searching/longest-growing-substring.md)
+### [:simple-julia: Julia](../../programming/julia/algorithms/searching/longest-growing-substring.md){ .md-button }

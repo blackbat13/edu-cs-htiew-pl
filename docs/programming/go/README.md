@@ -2,7 +2,7 @@
 
 Go, często nazywane Golang, to statycznie typowany, skompilowany język programowania stworzony przez Roberta Griesemera, Roba Pike'a i Kena Thompsona w Google. Został zaprojektowany z myślą o prostocie i wydajności, a także o łatwości utrzymania i skalowalności kodu. Pierwsza stabilna wersja Go została wydana w 2012 roku.
 
-[Go](https://go.dev/)
+[:simple-go: Go](https://go.dev/)
 
 ## Kluczowe cechy
 

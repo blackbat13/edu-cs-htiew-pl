@@ -92,6 +92,6 @@ Przechodzimy pętlą od $1$ do połowy długości wyrazu (czyli do $\lfloor\frac
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/text/palindrome.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/text/palindrome.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/text/palindrome.md)
+### [:simple-python: Python](../../programming/python/algorithms/text/palindrome.md){ .md-button }

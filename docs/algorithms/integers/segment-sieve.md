@@ -39,6 +39,6 @@ Funkcja SitoSegmentowe(a, b):
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/integers/segment-sieve.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/integers/segment-sieve.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/integers/segment-sieve.md)
+### [:simple-python: Python](../../programming/python/algorithms/integers/segment-sieve.md)

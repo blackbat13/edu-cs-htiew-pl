@@ -46,6 +46,6 @@ flowchart TD
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/numerical-methods/square-root.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/numerical-methods/square-root.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/numerical-methods/square-root.md)
+### [:simple-python: Python](../../programming/python/algorithms/numerical-methods/square-root.md){ .md-button }

@@ -53,8 +53,8 @@ flowchart TD
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/fractals/koch-curve.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/fractals/koch-curve.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/fractals/koch-curve.md)
+### [:simple-python: Python](../../programming/python/algorithms/fractals/koch-curve.md){ .md-button }
 
-### [Blockly](../../programming/blockly/algorithms/fractals/koch-curve.md)
+### [Blockly](../../programming/blockly/algorithms/fractals/koch-curve.md){ .md-button }

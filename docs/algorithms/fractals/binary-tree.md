@@ -56,8 +56,8 @@ flowchart TD
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/fractals/binary-tree.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/fractals/binary-tree.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/fractals/binary-tree.md)
+### [:simple-python: Python](../../programming/python/algorithms/fractals/binary-tree.md){ .md-button }
 
-### [Blockly](../../programming/blockly/algorithms/fractals/binary-tree.md)
+### [Blockly](../../programming/blockly/algorithms/fractals/binary-tree.md){ .md-button }

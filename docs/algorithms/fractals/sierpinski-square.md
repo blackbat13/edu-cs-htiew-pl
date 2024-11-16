@@ -60,8 +60,8 @@ flowchart TD
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/fractals/sierpinski-square.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/fractals/sierpinski-square.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/fractals/sierpinski-square.md)
+### [:simple-python: Python](../../programming/python/algorithms/fractals/sierpinski-square.md){ .md-button }
 
-### [Blockly](../../programming/blockly/algorithms/fractals/sierpinski-square.md)
+### [Blockly](../../programming/blockly/algorithms/fractals/sierpinski-square.md){ .md-button }

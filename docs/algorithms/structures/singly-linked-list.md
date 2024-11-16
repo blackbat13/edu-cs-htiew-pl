@@ -20,6 +20,6 @@ Listy jednokierunkowe są wykorzystywane w wielu algorytmach i strukturach danyc
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/structures/singly-linked-list.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/structures/singly-linked-list.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/structures/singly-linked-list.md)
+### [:simple-python: Python](../../programming/python/algorithms/structures/singly-linked-list.md){ .md-button }

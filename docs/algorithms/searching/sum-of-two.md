@@ -132,14 +132,14 @@ $O(n)$ - liniowa
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/searching/sum-of-two.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/searching/sum-of-two.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/searching/sum-of-two.md)
+### [:simple-python: Python](../../programming/python/algorithms/searching/sum-of-two.md){ .md-button }
 
-### [Kotlin](../../programming/kotlin/algorithms/searching/sum-of-two.md)
+### [:simple-kotlin: Kotlin](../../programming/kotlin/algorithms/searching/sum-of-two.md){ .md-button }
 
 ## Implementacje — pozostałe
 
-### [C](../../programming/c/algorithms/searching/sum-of-two.md)
+### [:simple-c:](../../programming/c/algorithms/searching/sum-of-two.md){ .md-button }
 
-### [Haskell](../../programming/haskell/algorithms/searching/sum-of-two.md)
+### [:simple-haskell: Haskell](../../programming/haskell/algorithms/searching/sum-of-two.md){ .md-button }

@@ -20,6 +20,6 @@ Silnie spójne składowe są używane w wielu różnych dziedzinach informatyki,
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/graphs/connected-components.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/graphs/connected-components.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/graphs/connected-components.md)
+### [:simple-python: Python](../../programming/python/algorithms/graphs/connected-components.md){ .md-button }

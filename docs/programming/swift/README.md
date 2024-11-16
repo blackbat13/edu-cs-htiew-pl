@@ -2,7 +2,7 @@
 
 Swift jest nowoczesnym językiem programowania stworzonym przez Apple do tworzenia aplikacji na platformy iOS, macOS, watchOS i tvOS. Został zaprojektowany, aby być jak najbardziej przyjazny dla deweloperów, oferując szybkość i wydajność porównywalną z C++, a jednocześnie prostotę i czytelność kodu zbliżoną do Pythona.
 
-[Swift](https://www.swift.org/)
+[:simple-swift: Swift](https://www.swift.org/)
 
 ## Kluczowe cechy
 

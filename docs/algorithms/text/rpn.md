@@ -57,6 +57,6 @@ onp := "27+3/13-4*+2/"
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/text/rpn.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/text/rpn.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/text/rpn.md)
+### [:simple-python: Python](../../programming/python/algorithms/text/rpn.md){ .md-button }

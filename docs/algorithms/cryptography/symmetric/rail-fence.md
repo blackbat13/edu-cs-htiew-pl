@@ -106,6 +106,6 @@ funkcja DeszyfrujPłotkowy(szyfrogram, klucz):
 
 ## Implementacja
 
-### [C++](../../../programming/c++/algorithms/cryptography/rail-fence.md)
+### [:simple-cplusplus: C++](../../../programming/c++/algorithms/cryptography/rail-fence.md){ .md-button }
 
-### [Python](../../../programming/python/algorithms/cryptography/rail-fence.md)
+### [:simple-python: Python](../../../programming/python/algorithms/cryptography/rail-fence.md){ .md-button }

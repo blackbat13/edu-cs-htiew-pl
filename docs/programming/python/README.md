@@ -2,7 +2,7 @@
 
 Python to wysokopoziomowy, interpretowany język programowania, który zyskał popularność dzięki swojej czytelności i prostocie składni. Został stworzony przez Guido van Rossuma i po raz pierwszy opublikowany w 1991 roku. Python jest językiem programowania o ogólnym przeznaczeniu, ale jest szczególnie popularny w dziedzinach takich jak analiza danych, uczenie maszynowe i web development.
 
-[Python](https://www.python.org/)
+[:simple-python: Python](https://www.python.org/)
 
 ## Kluczowe cechy
 

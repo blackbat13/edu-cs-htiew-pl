@@ -84,8 +84,8 @@ flowchart TD
 
 ### Implementacja
 
-#### [C++](../../programming/c++/algorithms/numerical-methods/monte-carlo.md)
+#### [:simple-cplusplus: C++](../../programming/c++/algorithms/numerical-methods/monte-carlo.md){ .md-button }
 
-#### [Python](../../programming/python/algorithms/numerical-methods/monte-carlo.md)
+#### [:simple-python: Python](../../programming/python/algorithms/numerical-methods/monte-carlo.md){ .md-button }
 
-#### [Julia](../../programming/julia/algorithms/numerical-methods/monte-carlo.md)
+#### [:simple-julia: Julia](../../programming/julia/algorithms/numerical-methods/monte-carlo.md){ .md-button }

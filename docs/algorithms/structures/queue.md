@@ -30,6 +30,6 @@ Kolejki mogą być zaimplementowane za pomocą różnych struktur danych, w tym 
 
 Poniżej znajdziesz przykładowe implementacje kolejki w wybranych językach programowania.
 
-### [C++](../../programming/c++/algorithms/structures/queue.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/structures/queue.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/structures/queue.md)
+### [:simple-python: Python](../../programming/python/algorithms/structures/queue.md){ .md-button }

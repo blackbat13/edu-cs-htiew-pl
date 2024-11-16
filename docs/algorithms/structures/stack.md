@@ -30,10 +30,10 @@ Stosy mogą być zaimplementowane za pomocą różnych struktur danych, takich j
 
 Poniżej znajdziesz przykładowe implementacje stosu w wybranych językach programowania.
 
-### [C++](../../programming/c++/algorithms/structures/stack.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/structures/stack.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/structures/stack.md)
+### [:simple-python: Python](../../programming/python/algorithms/structures/stack.md){ .md-button }
 
 ## Implementacje — pozostałe
 
-### [C](../../programming/c/algorithms/structures/stack.md)
+### [:simple-c:](../../programming/c/algorithms/structures/stack.md){ .md-button }

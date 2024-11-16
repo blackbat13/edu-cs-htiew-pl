@@ -160,6 +160,6 @@ $O(n\log{n})$ — liniowo logarytmiczna, jeżeli użyjemy standardowej metody so
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/text/anagrams.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/text/anagrams.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/text/anagrams.md)
+### [:simple-python: Python](../../programming/python/algorithms/text/anagrams.md){ .md-button }

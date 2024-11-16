@@ -116,10 +116,10 @@ flowchart TD
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/searching/prefix-sum.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/searching/prefix-sum.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/searching/prefix-sum.md)
+### [:simple-python: Python](../../programming/python/algorithms/searching/prefix-sum.md){ .md-button }
 
 ## Implementacje — pozostałe
 
-### [C](../../programming/c/algorithms/searching/prefix-sum.md)
+### [:simple-c:](../../programming/c/algorithms/searching/prefix-sum.md){ .md-button }

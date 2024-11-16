@@ -2,7 +2,7 @@
 
 Rust jest językiem programowania systemowego, który biega na równi z C i C++, ale oferuje wiele cech bezpieczeństwa i wygody, które są zazwyczaj kojarzone z językami o wyższym poziomie abstrakcji, takimi jak Python czy JavaScript. Rust został stworzony przez pracowników Mozilla Research, a pierwsze wydanie oficjalne miało miejsce w 2015 roku.
 
-[Rust](https://www.rust-lang.org/)
+[:simple-rust: Rust](https://www.rust-lang.org/)
 
 ## Kluczowe cechy
 

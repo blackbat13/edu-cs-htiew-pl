@@ -2,7 +2,7 @@
 
 Elixir to dynamiczny, funkcjonalny język programowania przeznaczony do tworzenia skalowalnych i utrzymanych aplikacji. Język ten został stworzony przez José Valima, jednego z głównych programistów frameworku Ruby on Rails, z myślą o poprawie niektórych braków i ograniczeń Ruby. Elixir działa na maszynie wirtualnej Erlanga, dzięki czemu zapewnia pełne wykorzystanie możliwości języka Erlang, takie jak obsługa wielu procesów i odporność na błędy, ale jednocześnie oferuje bardziej nowoczesną i przyjazną składnię.
 
-[Elixir](https://elixir-lang.org/)
+[:simple-elixir: Elixir](https://elixir-lang.org/)
 
 ## Kluczowe cechy
 

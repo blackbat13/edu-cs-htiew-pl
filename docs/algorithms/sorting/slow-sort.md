@@ -29,6 +29,6 @@ procedura SortowanieWolne(A, pocz, kon):
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/sorting/slow-sort.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/sorting/slow-sort.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/sorting/slow-sort.md)
+### [:simple-python: Python](../../programming/python/algorithms/sorting/slow-sort.md){ .md-button }

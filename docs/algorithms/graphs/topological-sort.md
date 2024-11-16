@@ -23,6 +23,6 @@ Sortowanie topologiczne ma wiele zastosowań, szczególnie w dziedzinach, które
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/graphs/topological-sort.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/graphs/topological-sort.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/graphs/topological-sort.md)
+### [:simple-python: Python](../../programming/python/algorithms/graphs/topological-sort.md){ .md-button }

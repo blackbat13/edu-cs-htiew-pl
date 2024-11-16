@@ -2,7 +2,7 @@
 
 Lua jest dynamicznym, interpretowanym językiem programowania o wysokim poziomie abstrakcji, zaprojektowanym z myślą o osadzaniu go w innych aplikacjach i systemach. Został stworzony w Rio de Janeiro, w Brazylii, przez zespół w Laboratorium Grafiki Komputerowej na PUC-Rio. Pierwsze wydanie miało miejsce w 1993 roku.
 
-[Lua](https://www.lua.org/)
+[:simple-lua: Lua](https://www.lua.org/)
 
 ## Kluczowe cechy
 

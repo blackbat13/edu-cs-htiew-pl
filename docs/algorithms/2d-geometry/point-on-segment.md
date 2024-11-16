@@ -2,6 +2,6 @@
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/2d-geometry/point-on-segment.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/2d-geometry/point-on-segment.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/2d-geometry/point-on-segment.md)
+### [:simple-python: Python](../../programming/python/algorithms/2d-geometry/point-on-segment.md){ .md-button }

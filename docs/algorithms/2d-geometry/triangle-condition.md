@@ -45,6 +45,6 @@ flowchart TD
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/2d-geometry/triangle-condition.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/2d-geometry/triangle-condition.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/2d-geometry/triangle-condition.md)
+### [:simple-python: Python](../../programming/python/algorithms/2d-geometry/triangle-condition.md){ .md-button }

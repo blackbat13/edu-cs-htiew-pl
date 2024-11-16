@@ -64,13 +64,13 @@ flowchart TD
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/integers/prime-factors.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/integers/prime-factors.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/integers/prime-factors.md)
+### [:simple-python: Python](../../programming/python/algorithms/integers/prime-factors.md){ .md-button }
 
 ## Implementacja - pozostałe
 
-### [Haskell](../../programming/haskell/algorithms/integers/prime-factors.md)
+### [:simple-haskell: Haskell](../../programming/haskell/algorithms/integers/prime-factors.md){ .md-button }
 
 ## Powiązane zagadnienia
 

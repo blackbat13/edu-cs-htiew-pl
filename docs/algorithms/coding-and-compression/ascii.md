@@ -273,6 +273,6 @@ ASCII, czyli American Standard Code for Information Interchange, to standard kod
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/coding-and-compression/ascii.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/coding-and-compression/ascii.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/coding-and-compression/ascii.md)
+### [:simple-python: Python](../../programming/python/algorithms/coding-and-compression/ascii.md){ .md-button }

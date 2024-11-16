@@ -82,6 +82,6 @@ funkcja DeszyfrujCezar(szyfrogram, klucz):
 
 ## Implementacja
 
-### [C++](../../../programming/c++/algorithms/cryptography/caesar.md)
+### [:simple-cplusplus: C++](../../../programming/c++/algorithms/cryptography/caesar.md){ .md-button }
 
-### [Python](../../../programming/python/algorithms/cryptography/caesar.md)
+### [:simple-python: Python](../../../programming/python/algorithms/cryptography/caesar.md){ .md-button }

@@ -109,8 +109,8 @@ flowchart TD
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/numerical-methods/numerical-integration.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/numerical-methods/numerical-integration.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/numerical-methods/numerical-integration.md)
+### [:simple-python: Python](../../programming/python/algorithms/numerical-methods/numerical-integration.md){ .md-button }
 
-### [Kotlin](../../programming/kotlin/algorithms/numerical-methods/numerical-integration.md)
+### [:simple-kotlin: Kotlin](../../programming/kotlin/algorithms/numerical-methods/numerical-integration.md){ .md-button }

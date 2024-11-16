@@ -42,8 +42,8 @@ flowchart TD
 ```
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/fractals/cantor-dust.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/fractals/cantor-dust.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/fractals/cantor-dust.md)
+### [:simple-python: Python](../../programming/python/algorithms/fractals/cantor-dust.md){ .md-button }
 
-### [Blockly](../../programming/blockly/algorithms/fractals/cantor-dust.md)
+### [Blockly](../../programming/blockly/algorithms/fractals/cantor-dust.md){ .md-button }

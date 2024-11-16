@@ -38,6 +38,6 @@ BST są podstawą dla wielu zaawansowanych struktur danych, które oferują leps
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/structures/bst.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/structures/bst.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/structures/bst.md)
+### [:simple-python: Python](../../programming/python/algorithms/structures/bst.md){ .md-button }

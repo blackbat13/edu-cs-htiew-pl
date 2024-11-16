@@ -59,8 +59,8 @@ flowchart TD
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/fractals/peano-curve.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/fractals/peano-curve.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/fractals/peano-curve.md)
+### [:simple-python: Python](../../programming/python/algorithms/fractals/peano-curve.md){ .md-button }
 
-### [Blockly](../../programming/blockly/algorithms/fractals/peano-curve.md)
+### [Blockly](../../programming/blockly/algorithms/fractals/peano-curve.md){ .md-button }

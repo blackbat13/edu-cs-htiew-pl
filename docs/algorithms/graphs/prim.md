@@ -21,6 +21,6 @@ Ponadto, jest stosowany w algorytmach kompresji danych, takich jak algorytm kodo
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/graphs/prim.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/graphs/prim.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/graphs/prim.md)
+### [:simple-python: Python](../../programming/python/algorithms/graphs/prim.md){ .md-button }

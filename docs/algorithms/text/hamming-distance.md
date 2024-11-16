@@ -55,6 +55,6 @@ Złożoność czasowa algorytmu to $O(n)$, gdzie $n$ to długość ciągów.
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/text/hamming-distance.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/text/hamming-distance.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/text/hamming-distance.md)
+### [:simple-python: Python](../../programming/python/algorithms/text/hamming-distance.md){ .md-button }

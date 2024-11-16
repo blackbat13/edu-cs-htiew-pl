@@ -53,6 +53,6 @@ flowchart TD
 
 ## Implementacja
 
-### [Python](../../programming/python/algorithms/backtracking/permutations.md)
+### [:simple-python: Python](../../programming/python/algorithms/backtracking/permutations.md){ .md-button }
 
-### [Kotlin](../../programming/kotlin/algorithms/backtracking/permutations.md)
+### [:simple-kotlin: Kotlin](../../programming/kotlin/algorithms/backtracking/permutations.md){ .md-button }

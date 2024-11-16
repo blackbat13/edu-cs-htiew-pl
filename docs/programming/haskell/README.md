@@ -2,7 +2,7 @@
 
 Haskell to język programowania ogólnego przeznaczenia o silnym, statycznym typowaniu, który jest znany przede wszystkim z tego, że jest jednym z najpopularniejszych języków funkcyjnych. Został stworzony w 1990 roku jako standard dla języków funkcyjnych.
 
-[Haskell](https://www.haskell.org/)
+[:simple-haskell: Haskell](https://www.haskell.org/)
 
 ## Kluczowe cechy
 

@@ -37,6 +37,6 @@ NWD(a, b) := 3
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/integers/extended-euclidean.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/integers/extended-euclidean.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/integers/extended-euclidean.md)
+### [:simple-python: Python](../../programming/python/algorithms/integers/extended-euclidean.md){ .md-button }

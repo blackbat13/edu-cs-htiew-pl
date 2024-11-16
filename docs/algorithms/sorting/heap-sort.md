@@ -88,8 +88,8 @@ Sortowanie przez kopcowanie ma złożoność obliczeniową $O(n\log{n})$ w przyp
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/sorting/heap-sort.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/sorting/heap-sort.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/sorting/heap-sort.md)
+### [:simple-python: Python](../../programming/python/algorithms/sorting/heap-sort.md){ .md-button }
 
-### [Kotlin](../../programming/kotlin/algorithms/sorting/heap-sort.md)
+### [:simple-kotlin: Kotlin](../../programming/kotlin/algorithms/sorting/heap-sort.md){ .md-button }

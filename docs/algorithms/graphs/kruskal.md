@@ -20,6 +20,6 @@ Podobnie jak algorytm Prima, algorytm Kruskala ma wiele zastosowań, szczególni
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/graphs/kruskal.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/graphs/kruskal.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/graphs/kruskal.md)
+### [:simple-python: Python](../../programming/python/algorithms/graphs/kruskal.md){ .md-button }

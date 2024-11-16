@@ -53,6 +53,6 @@ Algorytm Flood Fill to podstawowe narzędzie w grafice komputerowej, używane do
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/graphs/flood-fill.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/graphs/flood-fill.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/graphs/flood-fill.md)
+### [:simple-python: Python](../../programming/python/algorithms/graphs/flood-fill.md){ .md-button }

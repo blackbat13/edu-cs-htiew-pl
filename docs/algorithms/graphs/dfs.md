@@ -47,6 +47,6 @@ Algorytm DFS można zaimplementować za pomocą struktury danych **stosu**. Stos
 
 Poniżej znajdziesz przykładowe implementacje w wybranych językach.
 
-### [C++](../../programming/c++/algorithms/graphs/dfs.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/graphs/dfs.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/graphs/dfs.md)
+### [:simple-python: Python](../../programming/python/algorithms/graphs/dfs.md){ .md-button }

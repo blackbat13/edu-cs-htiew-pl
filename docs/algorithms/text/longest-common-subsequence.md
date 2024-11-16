@@ -48,6 +48,6 @@ Złożoność czasowa algorytmu to `O(mn)`, gdzie `m` i `n` to długości analiz
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/text/longest-common-subsequence.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/text/longest-common-subsequence.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/text/longest-common-subsequence.md)
+### [:simple-python: Python](../../programming/python/algorithms/text/longest-common-subsequence.md){ .md-button }

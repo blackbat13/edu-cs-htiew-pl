@@ -72,8 +72,8 @@ Sortowanie grzebieniowe ma średnią i najgorszą złożoność obliczeniową $O
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/sorting/comb-sort.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/sorting/comb-sort.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/sorting/comb-sort.md)
+### [:simple-python: Python](../../programming/python/algorithms/sorting/comb-sort.md){ .md-button }
 
-### [Kotlin](../../programming/kotlin/algorithms/sorting/comb-sort.md)
+### [:simple-kotlin: Kotlin](../../programming/kotlin/algorithms/sorting/comb-sort.md){ .md-button }

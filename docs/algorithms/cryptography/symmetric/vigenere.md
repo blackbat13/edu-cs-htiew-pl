@@ -97,6 +97,6 @@ funkcja DeszyfrujVigenere(szyfrogram, klucz):
 
 ## Implementacja
 
-### [C++](../../../programming/c++/algorithms/cryptography/vigenere.md)
+### [:simple-cplusplus: C++](../../../programming/c++/algorithms/cryptography/vigenere.md){ .md-button }
 
-### [Python](../../../programming/python/algorithms/cryptography/vigenere.md)
+### [:simple-python: Python](../../../programming/python/algorithms/cryptography/vigenere.md){ .md-button }

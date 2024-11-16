@@ -67,8 +67,8 @@ flowchart TD
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/fractals/sierpinski-triangle.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/fractals/sierpinski-triangle.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/fractals/sierpinski-triangle.md)
+### [:simple-python: Python](../../programming/python/algorithms/fractals/sierpinski-triangle.md){ .md-button }
 
-### [Blockly](../../programming/blockly/algorithms/fractals/sierpinski-triangle.md)
+### [Blockly](../../programming/blockly/algorithms/fractals/sierpinski-triangle.md){ .md-button }

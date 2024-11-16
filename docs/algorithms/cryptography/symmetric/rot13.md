@@ -61,6 +61,6 @@ funkcja Rot13(tekst):
 
 ## Implementacja
 
-### [C++](../../../programming/c++/algorithms/cryptography/rot13.md)
+### [:simple-cplusplus: C++](../../../programming/c++/algorithms/cryptography/rot13.md){ .md-button }
 
-### [Python](../../../programming/python/algorithms/cryptography/rot13.md)
+### [:simple-python: Python](../../../programming/python/algorithms/cryptography/rot13.md){ .md-button }

@@ -157,10 +157,10 @@ $O(\sqrt{n})$
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/integers/divisors.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/integers/divisors.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/integers/divisors.md)
+### [:simple-python: Python](../../programming/python/algorithms/integers/divisors.md){ .md-button }
 
 ## Implementacja - pozostałe
 
-### [Haskell](../../programming/haskell/algorithms/integers/divisors.md)
+### [:simple-haskell: Haskell](../../programming/haskell/algorithms/integers/divisors.md){ .md-button }

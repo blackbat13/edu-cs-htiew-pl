@@ -2,7 +2,7 @@
 
 TypeScript jest językiem programowania stworzonym przez Microsoft, który stanowi nadzbiór JavaScriptu. Jest zaprojektowany tak, aby pomóc programistom w łatwiejszym pisaniu i zarządzaniu dużymi skomplikowanymi kodami, które są trudne do utrzymania w czystym JavaScript.
 
-[TypeScript](https://www.typescriptlang.org/)
+[:simple-typescript: TypeScript](https://www.typescriptlang.org/)
 
 ## Kluczowe cechy
 

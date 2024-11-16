@@ -91,10 +91,10 @@ flowchart TD
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/integers/fibonacci-numbers.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/integers/fibonacci-numbers.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/integers/fibonacci-numbers.md)
+### [:simple-python: Python](../../programming/python/algorithms/integers/fibonacci-numbers.md){ .md-button }
 
 ## Implementacja - pozostałe
 
-### [Haskell](../../programming/haskell/algorithms/integers/fibonacci-numbers.md)
+### [:simple-haskell: Haskell](../../programming/haskell/algorithms/integers/fibonacci-numbers.md){ .md-button }

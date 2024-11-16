@@ -2,6 +2,6 @@
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/matrix/det3.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/matrix/det3.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/matrix/det3.md)
+### [:simple-python: Python](../../programming/python/algorithms/matrix/det3.md){ .md-button }

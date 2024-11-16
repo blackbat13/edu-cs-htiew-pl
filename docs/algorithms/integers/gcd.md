@@ -124,12 +124,12 @@ flowchart TD
 
 ## Implementacja
 
-### [C++](../../programming/c++/algorithms/integers/gcd.md)
+### [:simple-cplusplus: C++](../../programming/c++/algorithms/integers/gcd.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/integers/gcd.md)
+### [:simple-python: Python](../../programming/python/algorithms/integers/gcd.md){ .md-button }
 
-### [Blockly](../../programming/blockly/algorithms/integers/gcd.md)
+### [Blockly](../../programming/blockly/algorithms/integers/gcd.md){ .md-button }
 
 ## Implementacja - pozostałe
 
-### [Haskell](../../programming/haskell/algorithms/integers/gcd.md)
+### [:simple-haskell: Haskell](../../programming/haskell/algorithms/integers/gcd.md){ .md-button }

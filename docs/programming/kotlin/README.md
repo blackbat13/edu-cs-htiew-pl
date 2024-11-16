@@ -2,7 +2,7 @@
 
 Kotlin to statycznie typowany, nowoczesny język programowania, który działa na platformie Java Virtual Machine (JVM) oraz może być transpilowany do JavaScriptu i kodu natywnego. Kotlin został stworzony przez firmę JetBrains, znaną z produkcji popularnych środowisk programistycznych (IDE), takich jak IntelliJ IDEA czy PyCharm. Pierwsze stabilne wydanie języka Kotlin miało miejsce w 2016 roku.
 
-[Kotlin](https://kotlinlang.org/)
+[:simple-kotlin: Kotlin](https://kotlinlang.org/)
 
 ## Kluczowe cechy
 
