@@ -1,7 +1,5 @@
 # System binarny
 
-## Wstęp
-
 System binarny, zwany także systemem dwójkowym, to podstawowy system liczbowy dla komputerów. Liczby w tym systemie reprezentujemy korzystając z dwóch cyfr: $0$ i $1$. Pozwala to na stosunkowo łatwą techniczną interpretację przesyłanych danych, np. niskie i wysokie napięcie.
 
 ## Konwersja z dziesiętnego na binarny
