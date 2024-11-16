@@ -1,27 +1,25 @@
 # Drzewo binarne
 
-## Opis problemu
+## Specyfikacja
 
-### Specyfikacja
-
-#### Dane
+### Dane
 
 * $stopień$ - stopień drzewa binarnego
 * $długość$ - początkowa długość gałęzi (pnia)
 
-#### Wynik
+### Wynik
 
 * Drzewo binarne stopnia $stopień$ i początkowej długości $długość$.
 
-### Prezentacja
+## Prezentacja
 
-[:fontawesome-solid-file-pdf: Drzewo binarne - wprowadzenie](../../assets/Drzewo Binarne (1).pdf)
+[:fontawesome-solid-file-pdf: Drzewo binarne - wprowadzenie](../../assets/Drzewo Binarne (1).pdf){ .md-button }
 
 ## Rozwiązanie
 
 ### Prezentacja
 
-[:fontawesome-solid-file-pdf: Drzewo binarne - algorytm](../../assets/Drzewo Binarne - algorytm (1).pdf)
+[:fontawesome-solid-file-pdf: Drzewo binarne - algorytm](../../assets/Drzewo Binarne - algorytm (1).pdf){ .md-button }
 
 ### Pseudokod
 

@@ -9,7 +9,7 @@ Odległość Hamminga jest miarą różnicy między dwoma ciągami o tej samej d
 
 ## Przykład
 
-Niech $s_1 = "karol"$ i $s_2 = "koral"$. Odległość Hamminga dla tych ciągów wynosi $2$, ponieważ różnią się one na pozycjach $3$ i $5$.
+Niech `s_1 = "karol"` i `s_2 = "koral"`. Odległość Hamminga dla tych ciągów wynosi $2$, ponieważ różnią się one na pozycjach $3$ i $5$.
 
 ## Zastosowania
 

@@ -4,41 +4,39 @@ description: Sprawdzanie, czy wyraz jest palindromem
 
 # Palindrom
 
-## Opis problemu
-
 **Palindrom** to wyraz, który czytany od lewej do prawej i od prawej do lewej jest taki sam.
 
-### Specyfikacja
+## Specyfikacja
 
-#### Dane
+### Dane
 
 * $n$ — liczba naturalna, długość tekstu, $n > 0$
 * $tekst[1..n]$ — ciąg znaków o długości $n$, numerowanych od jedynki
 
-#### Wynik
+### Wynik
 
 * $PRAWDA$ — jeżeli *tekst* jest palindromem
 * $FAŁSZ$ — w przeciwnym przypadku
 
-### Przykład 1
+## Przykład 1
 
-#### Dane
+### Dane
 
 ```
 n := 5
 tekst := "kajak"
 ```
 
-#### Wynik: ***PRAWDA***
+### Wynik: ***PRAWDA***
 
 !!! info
 	**Wyjaśnienie**
 	
 	Wyraz **kajak** czytany od tyłu to **kajak**, jest on więc palindromem.
 
-### Przykład 2
+## Przykład 2
 
-#### Dane
+### Dane
 
 ```
 n := 4

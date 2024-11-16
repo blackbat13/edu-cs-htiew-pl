@@ -1,17 +1,15 @@
 # Krzywa Kocha
 
-## Opis problemu
+Krzywa Kocha, znana również jako płatek Kocha, jest fraktalem, który został opisany przez szwedzkiego matematyka Helge von Kocha w 1904 roku. Jest to jeden z najprostszych i najbardziej znanych fraktali, który można skonstruować poprzez wielokrotne dzielenie odcinków linii na trzy równe części i zastępowanie środkowej części dwoma odcinkami tworzącymi trójkąt równoboczny. Proces ten jest powtarzany w nieskończoność, co prowadzi do powstania skomplikowanej, samopodobnej struktury.
 
-Krzywa Kocha jest jednym z popularniejszych fraktali.
+## Specyfikacja
 
-### Specyfikacja
-
-#### Dane
+### Dane
 
 * $stopień$ - stopień krzywej
 * $długość$ - długość linii
 
-#### Wynik
+### Wynik
 
 * Krzywa Kocha stopnia $stopień$ i początkowej długości $długość$.
 

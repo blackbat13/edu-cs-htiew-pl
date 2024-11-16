@@ -11,7 +11,7 @@ Zacznijmy od krótkiej definicji.
 
 ### Link do Wikipedii
 
-[Anagram — Wikipedia](https://pl.wikipedia.org/wiki/Anagram)
+[Anagram — Wikipedia](https://pl.wikipedia.org/wiki/Anagram){ .md-button }
 
 ## Przykład
 

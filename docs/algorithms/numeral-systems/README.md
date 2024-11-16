@@ -6,7 +6,7 @@ Systemy liczbowe stanowią swoisty *język*, w którym możemy przedstawiać lic
 
 Kilka z istniejących systemów liczbowych możemy współcześnie uznać za *podstawowe*, czy też powszechnie stosowane, szczególnie w informatyce, a konkretniej w algorytmice i programowaniu. Poniżej opisujemy kilka z nich. Szerszy opis dostępny jest w załączonej prezentacji.
 
-[:fontawesome-solid-file-pdf: Systemy liczbowe - prezentacja](../../assets/Systemy liczbowe.pdf)
+[:fontawesome-solid-file-pdf: Systemy liczbowe - prezentacja](../../assets/Systemy liczbowe.pdf){ .md-button }
 
 ### System Dziesiętny (Decymalny)
 

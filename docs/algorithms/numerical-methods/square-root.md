@@ -1,17 +1,15 @@
 # Pierwiastek kwadratowy
 
-## Opis problemu
-
 Jak policzyć pierwiastek kwadratowy z podanej liczby, gdy nie mamy przy sobie kalkulatora, ani wbudowanych metod programistycznych?
 
-### Specyfikacja
+## Specyfikacja
 
-#### Dane
+### Dane
 
 * $n$ — liczba rzeczywista.
 * $p$ — liczba rzeczywista, dokładność.
 
-#### Wynik
+### Wynik
 
 * $\sqrt{n}$ policzony z dokładnością $p$
 

@@ -1,22 +1,23 @@
 # Krzywa Peano
 
-## Opis problemu
+Krzywa Peano, znana również jako krzywa Peano-Gospera, jest przykładem fraktala, który wypełnia przestrzeń. Została odkryta przez włoskiego matematyka Giuseppe Peano w 1890 roku. Krzywa ta jest konstrukcją, która w sposób ciągły przechodzi przez każdy punkt w jednostkowym kwadracie, tworząc samopodobną strukturę. 
+Jest to jeden z pierwszych przykładów krzywej, która wypełnia przestrzeń, co oznacza, że jej wymiar fraktalny wynosi 2.
 
-### Specyfikacja
+## Specyfikacja
 
-#### Dane
+### Dane
 
 - **stopień** - stopień fraktala
 - **kąt** - kąt obrotu
 - **długość** - długość linii
 
-### Przykład 1
+## Przykład 1
 
 Krzywa Peano o stopniu $4$ i kącie $90\degree$.
 
 ![Krzywa Peano](../../assets/peano_curve_4_90.bmp)
 
-### Przykład 2
+## Przykład 2
 
 Krzywa Peano o stopniu $4$ i kącie $60\degree$.
 

@@ -1,12 +1,10 @@
 # Kwadrat Sierpińskiego
 
-## Opis problemu
-
 **Kwadrat Sierpińskiego** (inaczej **Dywan Sierpińskiego**), to fraktal podobny do Trójkąta Sierpińskiego. Główna różnica jest taka, że podstawową figurą jest kwadrat.
 
-### Specyfikacja
+## Specyfikacja
 
-#### Dane
+### Dane
 
 - **stopień** - stopień kwadratu Sierpińskiego
 - **długość** - długość boku głównego kwadratu

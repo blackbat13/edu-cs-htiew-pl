@@ -1,12 +1,10 @@
 # Smocza Krzywa
 
-## Opis problemu
+Smocza Krzywa, znana również jako krzywa Heighwaya, jest fraktalem, który powstaje poprzez wielokrotne składanie linii pod kątem prostym. Każde zgięcie tworzy nowy segment, który jest obrócony o 90 stopni w lewo lub w prawo, w zależności od iteracji. W rezultacie powstaje złożony wzór, który przypomina smoka, stąd nazwa. Fraktal ten jest interesujący ze względu na swoją samopodobność i złożoność, mimo że jest generowany przez prosty algorytm.
 
-Smocza krzywa to ciekawy fraktal, który wygląda bardzo efektownie.
+## Specyfikacja
 
-### Specyfikacja
-
-#### Dane
+### Dane
 
 - **stopień** - stopień fraktala
 - **długość** - długość linii

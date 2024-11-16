@@ -6,7 +6,7 @@ Zaczniemy od przytoczenia tanecznego przeszukiwania, które demonstruje działan
 
 ## Taneczne przeszukiwanie
 
-[Taneczne przeszukiwanie](https://www.youtube.com/watch?v=R8bM6pxlrLY)
+[:material-video: Taneczne przeszukiwanie](https://www.youtube.com/watch?v=R8bM6pxlrLY){ .md-button }
 
 ## Specyfikacja
 

@@ -2,7 +2,7 @@
 
 ## Prezentacja
 
-[:fontawesome-solid-file-pdf: Fraktale - wprowadzenie](../../assets/Fraktale.pdf)
+[:fontawesome-solid-file-pdf: Fraktale - wprowadzenie](../../assets/Fraktale.pdf){ .md-button }
 
 ## Operacje
 

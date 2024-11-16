@@ -4,8 +4,6 @@ description: Obliczanie wartości wielomianu
 
 # Schemat Hornera
 
-## Opis problemu
-
 Jak wygląda wielomian pewnie każdy wie. Gdy mamy podany wzór, obliczenie jego wartości dla podanego $x$ jest rzeczą wręcz trywialną: wystarczy wykonać kilka mnożeń, podnieść parę razy do potęgi i wszystko zsumować. Tym bardziej dla komputera nie powinno to stanowić większego wyzwania i tak rzeczywiście jest. Nie oznacza to jednak, że nie należy szukać metod pozwalających na zminimalizowanie wykonywanych operacji. Spójrzmy na konkretny przykład:
 
 $$
@@ -49,7 +47,7 @@ Finalnie otrzymujemy:
 
 Zastosowany wyżej schemat postępowania nazywamy _**Schematem Hornera**_.
 
-### Ogólny wzór
+## Ogólny wzór
 
 Zauważmy, że wartości współczynników wielomianu nie mają wpływu na zastosowanie _**Schematu Hornera**_. Możemy więc łatwo skonstruować ogólny wzór dla wielomianu 3 stopnia:
 
@@ -63,7 +61,7 @@ $$
 W(x)=a_nx^n+a_{n-1}x^{x-1}+...+a_1x+a_0=(...(a_nx+a_{n-1})x+...+a_1)x+a_0
 $$
 
-### Liczba operacji mnożenia
+## Liczba operacji mnożenia
 
 Spróbujmy policzyć, ile operacji mnożenia musimy wykonać przy zastosowaniu standardowej metody, dla wielomianu:
 
@@ -79,19 +77,19 @@ Gdy jednak zastosujemy _**Schemat Hornera**_, to ilość potrzebnych operacji mn
 * 3-go stopnia: $3$ mnożenia
 * n-tego stopnia: $n$ mnożeń
 
-### Zastosowania
+## Zastosowania
 
 _**Schemat Hornera**_ ma także zastosowanie przy przeliczaniu liczby z zadanego systemu liczbowego na system dziesiętny.
 
-### Specyfikacja
+## Specyfikacja
 
-#### Dane
+### Dane
 
 * $n$ — stopień wielomianu, liczba naturalna
 * $x$ — wartość, dla której należy obliczyć wielomian
 * $a_{n}, a_{n-1}, ..., a_1, a_0$ — współczynniki wielomianu, podane w kolejności od największej potęgi do najmniejszej
 
-#### Wynik
+### Wynik
 
 * Wartość podanego wielomianu w punkcie $x$
 

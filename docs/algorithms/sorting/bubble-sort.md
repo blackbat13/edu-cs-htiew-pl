@@ -10,7 +10,7 @@ Poniżej znajdziesz animacje przedstawiające ideę omawianego algorytmu.
 
 ## Animacja 2
 
-[https://blackbat13.github.io/visul2/sorting/bubble_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D](https://blackbat13.github.io/visul2/sorting/bubble_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D){ .md-button }
+[Sortowanie bąbelkowe](https://blackbat13.github.io/visul2/sorting/bubble_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D){ .md-button }
 
 ## Taneczne sortowanie
 

@@ -1,31 +1,29 @@
 # Trójkąt Sierpińskiego
 
-## Opis problemu
-
 Trójkąt Sierpińskiego to jeden z popularniejszych fraktali, który jest stosunkowo prosty do wygenerowania, czy nawet do ręcznego narysowania na kartce papieru. Podstawową figurą w tym fraktalu jest, jak nazwa wskazuje, trójkąt. Fraktal powstaje poprzez narysowanie w każdym rogu trójkąta nowych, mniejszych trójkątów z bokiem o połowę krótszym. Procedurę powtarzamy, w każdym z tych trójkątów postępując w identyczny sposób. 
 
 Przyjrzyj się poniższej prezentacji, by lepiej zrozumieć tę procedurę.
 
-### Specyfikacja
+## Specyfikacja
 
-#### Dane
+### Dane
 
 * $stopień$ - stopień trójkąta
 * $długość$ - początkowa długość
 
-#### Wynik
+### Wynik
 
 * Trójkąt Sierpińskiego stopnia $stopień$ i początkowej długości $długość$.
 
-### Prezentacja
+## Prezentacja
 
-[:fontawesome-solid-file-pdf: Trójkąt Sierpińskiego - wprowadzenie](../../assets/Trójkąt Sierpińskiego.pdf)
+[:fontawesome-solid-file-pdf: Trójkąt Sierpińskiego - wprowadzenie](../../assets/Trójkąt Sierpińskiego.pdf){ .md-button }
 
 ## Rozwiązanie
 
 ### Prezentacja
 
-[:fontawesome-solid-file-pdf: Trójkąt Sierpińskiego - algorytm](../../assets/Trójkąt Sierpińskiego - algorytm.pdf)
+[:fontawesome-solid-file-pdf: Trójkąt Sierpińskiego - algorytm](../../assets/Trójkąt Sierpińskiego - algorytm.pdf){ .md-button }
 
 ### Pseudokod
 

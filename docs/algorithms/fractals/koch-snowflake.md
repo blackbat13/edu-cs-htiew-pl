@@ -1,17 +1,15 @@
 # Płatek Kocha
 
-## Opis problemu
-
 Płatek Kocha to fraktal stworzony poprzez złożenie ze sobą trzech krzywych Kocha, tak że razem tworzą strukturę przypominającą płatek śniegu.
 
-### Specyfikacja
+## Specyfikacja
 
-#### Dane
+### Dane
 
 * $stopień$ - stopień fraktala
 * $długość$ - długość linii
 
-#### Wynik
+### Wynik
 
 * Płatek Kocha stopnia $stopień$ i długości $długość$.
 

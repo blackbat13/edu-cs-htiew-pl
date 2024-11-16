@@ -1,29 +1,27 @@
 # Naiwne wyszukiwanie wzorca w tekście
 
-## Opis problemu
-
 Problem znalezienia jednego tekstu w drugim to problem, z którym mamy do czynienia praktycznie na co dzień, być może nawet nie zdając sobie z tego sprawy. Gdy jesteśmy na jakiejś stronie internetowej, albo mamy otwarty dokument tekstowy i wciskamy znany skrót CTRL+F, to wtedy właśnie wykonujemy przeszukiwanie tekstu w celu znalezienia wystąpień jakiegoś zadanego ciągu znaków.
 
 Jak niemalże każdy problem (informatyczny), także ten możne zostać rozwiązany w sposób naiwny i takim właśnie rozwiązaniem początkowo się zajmiemy.
 
 Problem wygląda następująco: dostajemy dwa teksty, nazwijmy je _tekst_ oraz _wzorzec_, a naszym (algorytmu) zadaniem jest sprawdzenie, czy _wzorzec_ zawiera się w _tekście_.&#x20;
 
-### Specyfikacja
+## Specyfikacja
 
-#### Dane:
+### Dane:
 
 * $n$ - długość tekstu, $n\in\mathbb{N}, n\geq1$&#x20;
 * $tekst[1..n]$ - ciąg znaków o długości $n$, numerowanych od jedynki&#x20;
 * $m$ - długość wzorca,  $m\in\mathbb{N}, 1\leq m\leq n$
 * $wzorzec[1..m]$ - ciąg znaków o długości $m$, numerowanych od jedynki&#x20;
 
-#### Wynik:
+### Wynik:
 
 * Indeks pierwszego wystąpienia wzorca w tekście, lub $-1$ jeżeli wzorzec nie występuje w tekście
 
-### Przykład 1
+## Przykład 1
 
-#### Dane
+### Dane
 
 ```
 tekst := "alamakota"
@@ -32,9 +30,9 @@ wzorzec := "kot"
 
 **Wynik**: $6$.
 
-### Przykład 2
+## Przykład 2
 
-#### Dane
+### Dane
 
 ```
 tekst := "alamakota"

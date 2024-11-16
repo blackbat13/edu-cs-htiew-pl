@@ -1,10 +1,10 @@
 # Minkowski Sausage
 
-## Opis problemu
+Minkowski Sausage, znana również jako Krzywa Minkowskiego lub Wyspa Minkowskiego, jest rodzajem krzywej fraktalnej. Jest konstruowana poprzez rekursywne modyfikowanie odcinka linii w bardziej złożony kształt. W każdej iteracji każdy odcinek linii jest zastępowany serią mniejszych segmentów, które tworzą wzór zygzakowaty. Ten proces zwiększa złożoność i szczegółowość fraktala z każdym krokiem, co skutkuje kształtem wykazującym samopodobieństwo i skomplikowane wzory na każdej skali.
 
-### Specyfikacja
+## Specyfikacja
 
-#### Dane
+### Dane
 
 - **stopień** - stopień fraktala
 - **długość** - początkowa długość linii

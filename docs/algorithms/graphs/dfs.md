@@ -10,7 +10,7 @@ DFS zaczyna od wybranego wierzchołka (zwanego wierzchołkiem źródłowym/pocz�
 
 ## Prezentacja
 
-[:fontawesome-solid-file-pdf: Przebieg algorytmu DFS - prezentacja](../../assets/DFS – przebieg algorytmu.pdf)
+[:fontawesome-solid-file-pdf: Przebieg algorytmu DFS - prezentacja](../../assets/DFS – przebieg algorytmu.pdf){ .md-button }
 
 ## Pseudokod
 

@@ -14,7 +14,7 @@ Poniżej znajdziesz animacje przedstawiające ideę omawianego algorytmu.
 
 ## Animacja 2
 
-[https://blackbat13.github.io/visul2/sorting/selection_sort/#array=%5B8%2C5%2C2%2C6%2C9%2C3%2C1%2C4%2C0%2C7%5D](https://blackbat13.github.io/visul2/sorting/selection_sort/#array=%5B8%2C5%2C2%2C6%2C9%2C3%2C1%2C4%2C0%2C7%5D){ .md-button }
+[Sortowanie przez wybieranie](https://blackbat13.github.io/visul2/sorting/selection_sort/#array=%5B8%2C5%2C2%2C6%2C9%2C3%2C1%2C4%2C0%2C7%5D){ .md-button }
 
 ## Taneczne sortowanie
 
