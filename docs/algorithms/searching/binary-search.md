@@ -10,7 +10,7 @@ Zacznijmy od tanecznego wyszukiwania i formalnej specyfikacji, by lepiej zrozumi
 
 ## Taneczne wyszukiwanie
 
-[Taneczne wyszukiwanie binarne](https://www.youtube.com/watch?v=iP897Z5Nerk){ .md-button }
+[Taneczne wyszukiwanie binarne :material-video:](https://www.youtube.com/watch?v=iP897Z5Nerk){ .md-button }
 
 ## Specyfikacja
 
@@ -139,23 +139,23 @@ flowchart TD
 
 $O(\log n)$ - logarytmiczna
 
-## Implementacja
+## Implementacje - główne
 
-### [C++](../../programming/c++/algorithms/searching/binary-search.md)
+### [C++ :material-language-cpp:](../../programming/c++/algorithms/searching/binary-search.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/searching/binary-search.md)
+### [Python :material-language-python:](../../programming/python/algorithms/searching/binary-search.md){ .md-button }
 
-### [Blockly](../../programming/blockly/algorithms/searching/binary-search.md)
-
-### [Kotlin](../../programming/kotlin/algorithms/searching/binary-search.md)
+### [Blockly :material-code-block-braces:](../../programming/blockly/algorithms/searching/binary-search.md){ .md-button }
 
 ## Implementacje — pozostałe
 
-### [C](../../programming/c/algorithms/searching/binary-search.md)
+### [C :material-language-c:](../../programming/c/algorithms/searching/binary-search.md){ .md-button }
 
-### [Haskell](../../programming/haskell/algorithms/searching/binary-search.md)
+### [Haskell :material-language-haskell:](../../programming/haskell/algorithms/searching/binary-search.md){ .md-button }
 
-### [Julia](../../programming/julia/algorithms/searching/binary-search.md)
+### [Julia :simple-julia:](../../programming/julia/algorithms/searching/binary-search.md){ .md-button }
+
+### [Kotlin :material-language-kotlin:](../../programming/kotlin/algorithms/searching/binary-search.md){ .md-button }
 
 ## Powiązane zagadnienia
 
