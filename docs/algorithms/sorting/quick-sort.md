@@ -16,11 +16,11 @@ Poniżej znajdziesz prezentację, na której poszczególne kroki algorytmu są w
 
 ## Prezentacja
 
-[:fontawesome-solid-file-pdf: Sortowanie szybkie - prezentacja](../../assets/Sortowanie Szybkie.pdf)
+[:fontawesome-solid-file-pdf: Sortowanie szybkie - prezentacja](../../assets/Sortowanie Szybkie.pdf){ .md-button }
 
 ## Taneczne sortowanie
 
-[Taneczne sortowanie](https://www.youtube.com/watch?v=ywWBy6J5gz8)
+[:material-video: Taneczne sortowanie](https://www.youtube.com/watch?v=ywWBy6J5gz8){ .md-button }
 
 ## Rozwiązanie
 

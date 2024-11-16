@@ -6,11 +6,11 @@ Poniżej znajdziesz animację przedstawiającą ideę omawianego algorytmu.
 
 ## Animacja 1
 
-[https://blackbat13.github.io/visul2/sorting/gnome_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D](https://blackbat13.github.io/visul2/sorting/gnome_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D)
+[https://blackbat13.github.io/visul2/sorting/gnome_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D](https://blackbat13.github.io/visul2/sorting/gnome_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D){ .md-button }
 
 ## Animacja 2
 
-[Animacja sortowania gnoma](https://www.youtube.com/watch?v=EdcWAw4Hcu0)
+[Animacja sortowania gnoma](https://www.youtube.com/watch?v=EdcWAw4Hcu0){ .md-button }
 
 ## Rozwiązanie
 

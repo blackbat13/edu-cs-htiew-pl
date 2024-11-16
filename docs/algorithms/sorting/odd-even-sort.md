@@ -16,7 +16,7 @@ Poniżej znajdziesz animację przedstawiającą ideę omawianego algorytmu.
 
 ## Animacja
 
-[Sortowanie odd-even](https://blackbat13.github.io/visul2/sorting/odd_even_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D)
+[Sortowanie odd-even](https://blackbat13.github.io/visul2/sorting/odd_even_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D){ .md-button }
 
 ## Rozwiązanie
 

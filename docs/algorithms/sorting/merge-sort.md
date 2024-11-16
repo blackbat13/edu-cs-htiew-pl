@@ -21,15 +21,15 @@ Poniżej znajdziesz animację przedstawiającą ideę omawianego algorytmu, a ta
 
 ## Animacja 2
 
-[Animacja sortowania przez scalanie](https://www.youtube.com/watch?v=ZRPoEKHXTJg)
+[Animacja sortowania przez scalanie](https://www.youtube.com/watch?v=ZRPoEKHXTJg){ .md-button }
 
 ## Prezentacja
 
-[:fontawesome-solid-file-pdf: Sortowanie przez scalanie - prezentacja](../../assets/Sortowanie przez scalanie.pdf)
+[:fontawesome-solid-file-pdf: Sortowanie przez scalanie - prezentacja](../../assets/Sortowanie przez scalanie.pdf){ .md-button }
 
 ## Taneczne sortowanie
 
-[Taneczne sortowanie](https://www.youtube.com/watch?v=XaqR3G_NVoo)
+[:material-video: Taneczne sortowanie](https://www.youtube.com/watch?v=XaqR3G_NVoo){ .md-button }
 
 ## Rozwiązanie
 

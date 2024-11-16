@@ -19,7 +19,7 @@ Poniżej znajdziesz animację przedstawiającą ideę omawianego algorytmu
 
 ## Taneczne sortowanie
 
-[Taneczne sortowanie](https://www.youtube.com/watch?v=Xw2D9aJRBY4)
+[:material-video: Taneczne sortowanie](https://www.youtube.com/watch?v=Xw2D9aJRBY4){ .md-button }
 
 ## Rozwiązanie
 

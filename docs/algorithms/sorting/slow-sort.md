@@ -8,7 +8,7 @@ Sortowanie wolne (ang. *Slowsort*) to jeden z humorystycznych i niepraktycznych 
 
 ## Animacja
 
-[Animacja sortowania wolnego](https://www.youtube.com/watch?v=QbRoyhGdjnA)
+[Animacja sortowania wolnego](https://www.youtube.com/watch?v=QbRoyhGdjnA){ .md-button }
 
 ## Pseudokod
 

@@ -10,11 +10,11 @@ W oryginalnej wersji algorytmu odstęp jest równy $N/2^k$, gdzie $N$ to rozmiar
 
 ## Animacja
 
-[Animacja sortowania Shella](https://www.youtube.com/watch?v=n4sk-SzGvZA)
+[Animacja sortowania Shella](https://www.youtube.com/watch?v=n4sk-SzGvZA){ .md-button }
 
 ## Taneczne sortowanie
 
-[Taneczne sortowanie](https://www.youtube.com/watch?v=CmPA7zE8mx0&t=2s)
+[:material-video: Taneczne sortowanie](https://www.youtube.com/watch?v=CmPA7zE8mx0&t=2s){ .md-button }
 
 ## Pseudokod
 

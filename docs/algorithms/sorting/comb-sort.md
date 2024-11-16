@@ -12,11 +12,11 @@ Poniżej znajdziesz animację przedstawiającą ideę omawianego algorytmu.
 
 ## Animacja 1
 
-[Sortowanie grzebieniowe](https://blackbat13.github.io/visul2/sorting/comb_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D)
+[Sortowanie grzebieniowe](https://blackbat13.github.io/visul2/sorting/comb_sort/#array=%5B6%2C5%2C3%2C1%2C8%2C7%2C2%2C4%5D){ .md-button }
 
 ## Animacja 2
 
-[Animacja sortowania grzebieniowego](https://www.youtube.com/watch?v=ob49RukGnAw)
+[Animacja sortowania grzebieniowego](https://www.youtube.com/watch?v=ob49RukGnAw){ .md-button }
 
 ## Rozwiązanie
 

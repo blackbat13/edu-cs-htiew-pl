@@ -9,7 +9,7 @@ Poniżej znajdziesz animację przedstawiającą ideę omawianego algorytmu.
 
 ## Animacja
 
-[https://www.cs.usfca.edu/~galles/visualization/CountingSort.html](https://www.cs.usfca.edu/~galles/visualization/CountingSort.html)
+[https://www.cs.usfca.edu/~galles/visualization/CountingSort.html](https://www.cs.usfca.edu/~galles/visualization/CountingSort.html){ .md-button }
 
 ## Rozwiązanie
 
