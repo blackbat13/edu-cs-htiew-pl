@@ -10,7 +10,7 @@ Zacznijmy od tanecznego wyszukiwania i formalnej specyfikacji, by lepiej zrozumi
 
 ## Taneczne wyszukiwanie
 
-[Taneczne wyszukiwanie binarne](https://www.youtube.com/watch?v=iP897Z5Nerk)
+[Taneczne wyszukiwanie binarne](https://www.youtube.com/watch?v=iP897Z5Nerk){ .md-button }
 
 ## Specyfikacja
 
