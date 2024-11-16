@@ -141,21 +141,21 @@ $O(\log n)$ - logarytmiczna
 
 ## Implementacje - główne
 
-### [C++ :material-language-cpp:](../../programming/c++/algorithms/searching/binary-search.md){ .md-button }
+### [C++ :simple-cplusplus:](../../programming/c++/algorithms/searching/binary-search.md){ .md-button }
 
-### [Python :material-language-python:](../../programming/python/algorithms/searching/binary-search.md){ .md-button }
+### [Python :simple-python:](../../programming/python/algorithms/searching/binary-search.md){ .md-button }
 
 ### [Blockly :material-code-block-braces:](../../programming/blockly/algorithms/searching/binary-search.md){ .md-button }
 
 ## Implementacje — pozostałe
 
-### [C :material-language-c:](../../programming/c/algorithms/searching/binary-search.md){ .md-button }
+### [C :simple-c:](../../programming/c/algorithms/searching/binary-search.md){ .md-button }
 
-### [Haskell :material-language-haskell:](../../programming/haskell/algorithms/searching/binary-search.md){ .md-button }
+### [Haskell :simple-haskell:](../../programming/haskell/algorithms/searching/binary-search.md){ .md-button }
 
 ### [Julia :simple-julia:](../../programming/julia/algorithms/searching/binary-search.md){ .md-button }
 
-### [Kotlin :material-language-kotlin:](../../programming/kotlin/algorithms/searching/binary-search.md){ .md-button }
+### [Kotlin :simple-kotlin:](../../programming/kotlin/algorithms/searching/binary-search.md){ .md-button }
 
 ## Powiązane zagadnienia
 

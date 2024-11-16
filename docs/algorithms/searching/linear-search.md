@@ -16,7 +16,7 @@ Naszym celem będzie więc sprawdzenie, czy w tablicy znajduje się poszukiwana 
 
 ### Taneczne wyszukiwanie
 
-[Taneczne wyszukiwanie liniowe](https://www.youtube.com/watch?v=-PuqKbu9K3U)
+[Taneczne wyszukiwanie liniowe :material-video:](https://www.youtube.com/watch?v=-PuqKbu9K3U){ .md-button }
 
 ### Specyfikacja
 
@@ -292,40 +292,40 @@ $O(n)$ — liniowa
 
 ## Implementacje — główne
 
-### [Pascal](../../programming/pascal/algorithms/searching/linear-search.md)
+### [Pascal :material-code-block-braces:](../../programming/pascal/algorithms/searching/linear-search.md){ .md-button }
 
-### [C++](../../programming/c++/algorithms/searching/linear-search.md)
+### [C++ :simple-cplusplus:](../../programming/c++/algorithms/searching/linear-search.md){ .md-button }
 
-### [Python](../../programming/python/algorithms/searching/linear-search.md)
+### [Python :simple-python:](../../programming/python/algorithms/searching/linear-search.md){ .md-button }
 
-### [Blockly](../../programming/blockly/algorithms/searching/linear-search.md)
+### [Blockly :material-code-block-braces:](../../programming/blockly/algorithms/searching/linear-search.md){ .md-button }
 
 ## Implementacje — pozostałe
 
-### [C](../../programming/c/algorithms/searching/linear-search.md)
+### [C :simple-c:](../../programming/c/algorithms/searching/linear-search.md){ .md-button }
 
-### [Dart](../../programming/dart/algorithms/searching/linear-search.md)
+### [Dart :simple-dart:](../../programming/dart/algorithms/searching/linear-search.md){ .md-button }
 
-### [Elixir](../../programming/elixir/algorithms/searching/linear-search.md)
+### [Elixir :simple-elixir:](../../programming/elixir/algorithms/searching/linear-search.md){ .md-button }
 
-### [Go](../../programming/go/algorithms/searching/linear-search.md)
+### [Go :simple-go:](../../programming/go/algorithms/searching/linear-search.md){ .md-button }
 
-### [Haskell](../../programming/haskell/algorithms/searching/linear-search.md)
+### [Haskell :simple-haskell:](../../programming/haskell/algorithms/searching/linear-search.md){ .md-button }
 
-### [JavaScript](../../programming/javascript/algorithms/searching/linear-search.md)
+### [JavaScript :simple-javascript:](../../programming/javascript/algorithms/searching/linear-search.md){ .md-button }
 
-### [Julia](../../programming/julia/algorithms/searching/linear-search.md)
+### [Julia :simple-julia:](../../programming/julia/algorithms/searching/linear-search.md){ .md-button }
 
-### [Kotlin](../../programming/kotlin/algorithms/searching/linear-search.md)
+### [Kotlin :simple-kotlin:](../../programming/kotlin/algorithms/searching/linear-search.md){ .md-button }
 
-### [Lua](../../programming/lua/algorithms/searching/linear-search.md)
+### [Lua :simple-lua:](../../programming/lua/algorithms/searching/linear-search.md){ .md-button }
 
-### [Rust](../../programming/rust/algorithms/searching/linear-search.md)
+### [Rust :simple-rust:](../../programming/rust/algorithms/searching/linear-search.md){ .md-button }
 
-### [Scheme](../../programming/scheme/algorithms/searching/linear-search.md)
+### [Scheme :material-code-block-braces:](../../programming/scheme/algorithms/searching/linear-search.md){ .md-button }
 
-### [Swift](../../programming/swift/algorithms/searching/linear-search.md)
+### [Swift :simple-swift:](../../programming/swift/algorithms/searching/linear-search.md){ .md-button }
 
-### [TypeScript](../../programming/typescript/algorithms/searching/linear-search.md)
+### [TypeScript :simple-typescript:](../../programming/typescript/algorithms/searching/linear-search.md){ .md-button }
 
-### [Visual Basic](../../programming/visual-basic/algorithms/searching/linear-search.md)
+### [Visual Basic :material-code-block-braces:](../../programming/visual-basic/algorithms/searching/linear-search.md){ .md-button }
