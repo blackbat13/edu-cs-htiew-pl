@@ -41,4 +41,4 @@ Funkcja SitoSegmentowe(a, b):
 
 ### [:simple-cplusplus: C++](../../programming/c++/algorithms/integers/segment-sieve.md){ .md-button }
 
-### [:simple-python: Python](../../programming/python/algorithms/integers/segment-sieve.md)
+### [:simple-python: Python](../../programming/python/algorithms/integers/segment-sieve.md){ .md-button }

@@ -1,22 +1,20 @@
 # Rozkład na czynniki pierwsze
 
-## Opis problemu
-
 Każdą liczbę naturalną większą od $1$ możemy rozłożyć na czynniki pierwsze, czyli przedstawić w postaci iloczynu liczb pierwszych. Tym problemem się właśnie zajmiemy.
 
-### Specyfikacja
+## Specyfikacja
 
-#### Dane
+### Dane
 
 * $n$ - liczba naturalna, $n>1$.
 
-#### Wynik
+### Wynik
 
 * Rozkład liczby $n$ na czynniki pierwsze .
 
-### Przykład
+## Przykład
 
-#### Dane
+### Dane
 
 ```
 n := 124

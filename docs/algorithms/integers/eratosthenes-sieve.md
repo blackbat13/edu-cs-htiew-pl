@@ -1,30 +1,28 @@
 # Sito Eratostenesa
 
-## Opis problemu
-
 Liczby pierwsze odgrywają ważną rolę nie tylko w matematyce, ale także w informatyce, szczególnie w kryptografii. Potrzebne są więc metody efektywnego obliczania liczb pierwszych, a najlepiej całego ich zbioru. Jedną z takich metod jest właśnie **Sito Eratostenesa**, które pozwala nam na wydajne obliczenie wszystkich liczb pierwszych mniejszych bądź równych zadanej wartości. Zapoznaj się z poniższą prezentacją by zrozumieć działanie tego algorytmu.
 
-[:fontawesome-solid-file-pdf: Sito Eratostenesa — prezentacja](../../assets/Sito Eratostenesa.pdf)
+[:fontawesome-solid-file-pdf: Sito Eratostenesa — prezentacja](../../assets/Sito Eratostenesa.pdf){ .md-button }
 
-### Specyfikacja
+## Specyfikacja
 
-#### Dane
+### Dane
 
 * $n$ — liczba całkowita
 
-#### Wynik
+### Wynik
 
 * Wszystkie liczby pierwsze od $1$ do $n$ włącznie.
 
-### Przykład
+## Przykład
 
-#### Dane
+### Dane
 
 ```
 n := 10
 ```
 
-#### Wynik
+### Wynik
 
 $2, 3, 5, 7$ 
 

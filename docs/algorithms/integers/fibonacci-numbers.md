@@ -1,24 +1,22 @@
 # Liczby Fibonacciego
 
-## Opis problemu
-
 Ciąg Fibonacciego to ciąg, w którym dwa pierwsze elementy mają wartość $1$, a każdy kolejny element stanowi sumę dwóch poprzednich.
 
 Pierwszych dziesięć kolejnych liczb Fibonacciego to: $1, 1, 2, 3, 5, 8, 13, 21, 34, 55$.
 
-### Specyfikacja
+## Specyfikacja
 
-#### Dane
+### Dane
 
 * $n$ - liczba naturalna, $n>0$.
 
-#### Wynik
+### Wynik
 
 * $n$-ta liczba Fibonacciego.
 
-### Przykład
+## Przykład
 
-#### Dane
+### Dane
 
 ```
 n := 10
@@ -28,12 +26,12 @@ n := 10
 
 ## Rozwiązanie rekurencyjne
 
-$
+$$
 Fib(n) =  \begin{cases} 
       1 & n \leq 2 \\
       Fib(n - 1) + Fib(n - 2) & n > 2 \\
    \end{cases}
-$
+$$
 
 ### Pseudokod
 

@@ -1,10 +1,10 @@
 # Rozwiązanie zachłanne
 
-### Funkcje pomocnicze
+## Funkcje pomocnicze
 
 - **Sortuj(tablica)** - sortuje tablicę **malejąco**
 
-### Pseudokod
+## Pseudokod
 
 ```
 funkcja Reszta(n, nominały, kwota):
@@ -18,7 +18,7 @@ funkcja Reszta(n, nominały, kwota):
     7. Zwróć wynik
 ```
 
-#### Optymalizacja
+### Optymalizacja
 
 ```
 funkcja Reszta(n, nominały, kwota):
@@ -37,7 +37,7 @@ funkcja Reszta(n, nominały, kwota):
 	
 	**mod** oznacza resztę z dzielenia
 
-### Złożoność
+## Złożoność
 
 $O(n)$ - liniowa (przy zastosowaniu odpowiedniego algorytmu sortowania)
 
