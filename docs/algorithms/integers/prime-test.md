@@ -95,7 +95,7 @@ flowchart TD
 
 ### Wizualizacja dla n = 10
 
-![https://jmp.sh/4EHXt66i](https://jmp.sh/4EHXt66i)
+[:material-video: Wizualizacja testu pierwszości](https://jmp.sh/4EHXt66i){ .md-button }
 
 ### Złożoność
 
