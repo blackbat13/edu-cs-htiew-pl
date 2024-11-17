@@ -1,7 +1,5 @@
 # Projekty
 
-## Wstęp
-
 Przy tworzeniu rozbudowanych aplikacji pojawia się potrzeba podziału projektu na osobne pliki, tak aby zachować porządek i czytelność.
 Standardowy podział polega na zgrupowaniu funkcjonalności i wydzieleniu ich w postaci osobnych plików.
 W ten sposób tworzymy niejako własne biblioteki, czy też zależności projektu.
