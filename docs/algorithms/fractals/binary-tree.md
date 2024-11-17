@@ -1,5 +1,7 @@
 # Drzewo binarne
 
+Drzewo binarne to rodzaj fraktala, który jest generowany przez rekurencyjne rysowanie dwóch mniejszych gałęzi pod kątem od każdej gałęzi początkowej. Każda z tych gałęzi jest mniejsza od poprzedniej i jest rysowana pod określonym kątem, tworząc strukturę przypominającą drzewo. Proces ten jest powtarzany dla każdej nowej gałęzi, aż do osiągnięcia zadanego stopnia rekurencji. Drzewa binarne są często używane do wizualizacji struktur danych oraz w grafice komputerowej do generowania realistycznych obrazów roślin.
+
 ## Specyfikacja
 
 ### Dane

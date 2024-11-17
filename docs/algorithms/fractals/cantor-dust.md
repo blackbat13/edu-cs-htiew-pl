@@ -1,10 +1,10 @@
 # Zbiór Cantora
 
-## Opis problemu
+Zbiór Cantora to jeden z najprostszych fraktali, który jest tworzony przez wielokrotne usuwanie środkowej trzeciej części odcinka. Proces ten zaczyna się od pojedynczego odcinka, który jest dzielony na trzy równe części, a środkowa część jest usuwana. Następnie ten sam proces jest powtarzany dla pozostałych dwóch odcinków, i tak dalej, w nieskończoność. W rezultacie powstaje zbiór punktów, który ma interesujące właściwości matematyczne, takie jak nieskończona liczba punktów i zerowa miara Lebesgue'a.
 
-### Specyfikacja
+## Specyfikacja
 
-#### Dane
+### Dane
 
 * $stopień$ - stopień
 * $długość$ - początkowa długość

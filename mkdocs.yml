@@ -188,6 +188,7 @@ nav:
       - 'Schemat Hornera': 'algorithms/numerical-methods/horner.md'
       - 'Pierwiastek kwadratowy': 'algorithms/numerical-methods/square-root.md'
       - 'Całkowanie numeryczne': 'algorithms/numerical-methods/numerical-integration.md'
+      - 'Metoda Simpsona': 'algorithms/numerical-methods/simpson-integration.md'
       - 'Szybkie potęgowanie': 'algorithms/numerical-methods/fast-exp.md'
       - 'Metoda Monte Carlo': 'algorithms/numerical-methods/monte-carlo.md'
     - 'Tekstowe': 
@@ -423,6 +424,7 @@ nav:
           - 'Schemat Hornera': 'programming/c++/algorithms/numerical-methods/horner.md'
           - 'Pierwiastek kwadratowy': 'programming/c++/algorithms/numerical-methods/square-root.md'
           - 'Całkowanie numeryczne': 'programming/c++/algorithms/numerical-methods/numerical-integration.md'
+          - 'Metoda Simpsona': 'programming/c++/algorithms/numerical-methods/simpson-integration.md'
           - 'Szybkie potęgowanie': 'programming/c++/algorithms/numerical-methods/fast-exp.md'
           - 'Metoda Monte Carlo': 'programming/c++/algorithms/numerical-methods/monte-carlo.md'
         - 'Tekstowe': 
@@ -604,6 +606,7 @@ nav:
           - 'Schemat Hornera': 'programming/python/algorithms/numerical-methods/horner.md'
           - 'Pierwiastek kwadratowy': 'programming/python/algorithms/numerical-methods/square-root.md'
           - 'Całkowanie numeryczne': 'programming/python/algorithms/numerical-methods/numerical-integration.md'
+          - 'Metoda Simpsona': 'programming/python/algorithms/numerical-methods/simpson-integration.md'
           - 'Szybkie potęgowanie': 'programming/python/algorithms/numerical-methods/fast-exp.md'
           - 'Metoda Monte Carlo': 'programming/python/algorithms/numerical-methods/monte-carlo.md'
         - 'Tekstowe': 
