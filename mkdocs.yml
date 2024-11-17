@@ -247,6 +247,7 @@ nav:
       - 'Struktura zbiorów rozłącznych': 'algorithms/structures/disjoint-set-union.md'
       - 'Drzewa przeszukiwań binarnych': 'algorithms/structures/bst.md'
       - 'Drzewa przedziałowe': 'algorithms/structures/segment-trees.md'
+      - 'Drzewo Fenwicka': 'algorithms/structures/fenwick-tree.md'
     - 'Grafowe': 
       - 'algorithms/graphs/README.md'
       - 'DFS': 'algorithms/graphs/dfs.md'
@@ -472,6 +473,7 @@ nav:
           - 'Struktura zbiorów rozłącznych': 'programming/c++/algorithms/structures/disjoint-set-union.md'
           - 'Drzewa przeszukiwań binarnych': 'programming/c++/algorithms/structures/bst.md'
           - 'Drzewa przedziałowe': 'programming/c++/algorithms/structures/segment-tree.md'
+          - 'Drzewo Fenwicka': 'programming/c++/algorithms/structures/fenwick-tree.md'
         - 'Grafowe': 
           - 'DFS': 'programming/c++/algorithms/graphs/dfs.md'
           - 'Spójne składowe': 'programming/c++/algorithms/graphs/connected-components.md'
