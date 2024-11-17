@@ -11,6 +11,7 @@ $$
 $$
 
 gdzie:
+
 - $h = (b - a) / n$ jest szerokością podprzedziału,
 - $\sum_{k=1}^{n/2}$ oznacza sumowanie dla $k$ od $1$ do $n/2$.
 
