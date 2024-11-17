@@ -38,40 +38,39 @@ Błąd przybliżenia wartości całki metodą Simpsona jest rzędu $O(h^4)$. W p
 ### Dane
 
 * $f(x)$ — funkcja, której wykres nas interesuje
-* $a$ — liczba rzeczywista, początek przedziału
-* $b$ — liczba rzeczywista, koniec przedziału
-* $n$ — liczba podziałów (im większa, tym większa dokładność)
+* $a$ — początek przedziału, $a\in\R$
+* $b$ — koniec przedziału, $b\in\R$
+* $n$ — **parzysta** liczba podziałów (im większa, tym większa dokładność), $n\in\N$
 
 ### Wynik
 
-* $pole$ — przybliżona wartość pola pod wykresem funkcji $f(x)$ w przedziale $[a,b]$
+* $pole$ — przybliżona wartość pola pod wykresem funkcji $f(x)$ w przedziale $[a,b]$ (tzn. przybliżona wartość $\int_{a}^{b} f(x) \, dx$)
 
 ## Rozwiązanie
+
+Zaczynamy od obliczenia szerokości pojedynczego przedziału jako $\frac{b-a}{n}$. Jako początkową wartość przybliżonego pola przyjmujemy sumę wartości funkcji na krańcach przedziału, tzn. $f(a) + f(b)$. Następnie przechodzimy przez kolejne przedziały od $1$ do $n-1$. Obliczamy punkt $x$ jako początek zakresu plus numer przedziału przemnożony przez szerokość przedziału. Dodajemy do obliczanego pola wartość funkcji w punkcie $x$ z wagą $2$ lub $4$, w zależności od parzystości numeru przedziału ($2$ dla parzystego, $4$ dla nieparzystego). Po przejściu przez wszystkie przedziały zwracamy jako wynik wartość pola przemnożoną przez szerokość pojedynczego przedziału podzieloną przez trzy.
 
 ### Pseudokod
 
 ```
 funkcja MetodaSimpsona(f, a, b, n):
-    1. jeżeli n jest nieparzyste, zwiększ n o 1
-    2. szer := (b - a) / n
-    3. pole := f(a) + f(b)
+    1. szer := (b - a) / n
+    2. pole := f(a) + f(b)
     
-    4. Dla i od 1 do n-1, wykonuj:
-        5. x := a + i * szer
-        6. jeżeli i jest parzyste, pole := pole + 2 * f(x)
-        7. jeżeli i jest nieparzyste, pole := pole + 4 * f(x)
+    3. Dla i od 1 do n-1, wykonuj:
+        4. x := a + i * szer
+        5. jeżeli i jest parzyste, pole := pole + 2 * f(x)
+        6. jeżeli i jest nieparzyste, pole := pole + 4 * f(x)
         
-    8. pole := pole * szer / 3
-    9. Zwróć pole
+    7. pole := pole * szer / 3
+    8. Zwróć pole
 ```
 
 ### Schemat blokowy
-
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-    START(["MetodaSimpsona(f, a, b, n)"]) --> K1["jeżeli n jest nieparzyste, zwiększ n o 1"]
-    K1 --> K2["szer := (b - a) / n
+    START(["MetodaSimpsona(f, a, b, n)"]) --> K2["szer := (b - a) / n
     pole := f(a) + f(b)"]
     K2 --> K4["Dla i od 1 do n-1, wykonuj"]
     K4 --> K5["x := a + i * szer"]
