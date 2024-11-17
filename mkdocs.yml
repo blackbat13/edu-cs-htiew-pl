@@ -708,6 +708,7 @@ nav:
         - 'Enumeracje': 'programming/c/introduction/enumerations.md'
         - 'Projekty': 'programming/c/introduction/projects.md'
         - 'Kompilacja z linii poleceń': 'programming/c/introduction/cmd-compilation.md'
+        - 'Wejście jako parametry': 'programming/c/introduction/parameters.md'
       - 'Algorytmy': 
         - 'Wyszukiwanie': 
           - 'Wyszukiwanie liniowe': 'programming/c/algorithms/searching/linear-search.md'

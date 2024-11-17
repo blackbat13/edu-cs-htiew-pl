@@ -8,13 +8,13 @@ Załóżmy, że mamy gotowy program zapisany w pliku main.cpp. Aby go skompilowa
 
 === "Linux"
 
-    ```
+    ```bash
     gcc main.c
     ```
 
 === "Windows"
 
-    ```
+    ```bat
     gcc main.c
     ```
 
@@ -22,13 +22,13 @@ Proste, prawda? Teraz, aby uruchomić program, należy wykonać polecenie:
 
 === "Linux"
 
-    ```
+    ```bash
     ./a.out
     ```
 
 === "Windows"
 
-    ```
+    ```bat
     .\a.exe
     ```
 
@@ -45,12 +45,15 @@ Tak jak i w przypadku wielu innych poleceń wywoływanych z terminala, opcje pod
 Jeżeli chcemy podać nazwę docelowego wyniku kompilacji, możemy to zrobić za pomocą opcji `-o`.
 
 === "Linux"
-    ```
+
+    ```bash
     gcc -o main.out main.c
     ./main.out
     ```
+
 === "Windows"
-    ```
+
+    ```bat
     gcc -o main.exe main.c
     .\main.exe
     ```
@@ -60,11 +63,14 @@ Jeżeli chcemy podać nazwę docelowego wyniku kompilacji, możemy to zrobić za
 Jeżeli chcemy zobaczyć w konsoli więcej warningów (masochiści), możemy skorzystać z opcji `-Wall.`
 
 === "Linux"
-    ```
+
+    ```bash
     gcc -Wall main.c
     ```
+
 === "Windows"
-    ```
+
+    ```bat
     gcc -Wall main.c
     ```
 
@@ -73,11 +79,14 @@ Jeżeli chcemy zobaczyć w konsoli więcej warningów (masochiści), możemy sko
 Potężna opcja. W niektórych przypadkach może poprawić osiągi naszego programu.
 
 === "Linux"
-    ```
+
+    ```bash
     gcc -O2 main.c
     ```
+
 === "Windows"
-    ```
+
+    ```bat
     gcc -O2 main.c
     ```
 
@@ -86,11 +95,14 @@ Potężna opcja. W niektórych przypadkach może poprawić osiągi naszego progr
 Aby włączyć debugowanie użyjemy opcji `-g`.
 
 === "Linux"
-    ```
+
+    ```bash
     gcc -g main.c
     ```
+
 === "Windows"
-    ```
+
+    ```bat
     gcc -g main.c
     ```
 
@@ -103,11 +115,14 @@ Uruchamianie skompilowanego programu z terminala ma swoje zalety. Jedną z nich 
 Aby przekierować wejście z pliku tekstowego należy skorzystać z operatora `<`.
 
 === "Linux"
-    ```
+
+    ```bash
     ./main.out < dane_wej.txt
     ```
+
 === "Windows"
-    ```
+
+    ```bat
     .\main.exe < dane_wyj.txt
     ```
 
@@ -116,22 +131,28 @@ Aby przekierować wejście z pliku tekstowego należy skorzystać z operatora `<
 W celu utworzenia pliku i przekierowania do niego wyjścia z naszego programu użyjemy operatora `>`.
 
 === "Linux"
-    ```
+
+    ```bash
     ./main.out > dane_wyj.txt
     ```
+
 === "Windows"
-    ```
+
+    ```bat
     .\main.exe > dane_wyj.txt
     ```
 
 Jeżeli nie chcemy nadpisywać pliku, a jedynie dopisać do niego nowe dane, użyjemy operatora `>>`.
 
 === "Linux"
-    ```
+
+    ```bash
     ./main.out >> dane_wyj.txt
     ```
+
 === "Windows"
-    ```
+
+    ```bat
     .\main.exe > dane_wyj.txt
     ```
 
@@ -140,10 +161,13 @@ Jeżeli nie chcemy nadpisywać pliku, a jedynie dopisać do niego nowe dane, uż
 Powyższe metody możemy ze sobą łączyć, w dowolnej kolejności.
 
 === "Linux"
-    ```
+
+    ```bash
     ./main.out < dane_wej.txt > dane_wyj.txt
     ```
+
 === "Windows"
-    ```
+
+    ```bat
     .\main.exe < dane_wej.txt > dane_wyj.txt
     ```
