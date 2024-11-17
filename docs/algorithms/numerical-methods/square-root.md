@@ -6,8 +6,8 @@ Jak policzyć pierwiastek kwadratowy z podanej liczby, gdy nie mamy przy sobie k
 
 ### Dane
 
-* $n$ — liczba rzeczywista.
-* $p$ — liczba rzeczywista, dokładność.
+* $n$ — liczba do spierwiastkowania, $n\in\R$
+* $p$ — oczekiwana dokładność obliczeń, $p\in\R$
 
 ### Wynik
 
