@@ -40,3 +40,16 @@ int main() {
   return 0;
 }
 ```
+
+### Opis implementacji
+
+#### Funkcja `computePrefixSum`
+
+- **Parametry**:
+  - `numbersCount`: liczba elementów w tablicy `numbersArray`.
+  - `numbersArray`: tablica liczb, dla której obliczamy sumy prefiksowe.
+  - `prefixSumArray`: tablica, w której przechowujemy obliczone sumy prefiksowe.
+
+- **Działanie**:
+  - Inicjalizuje pierwszy element prefixSumArray na 0.
+  - Iteruje przez numbersArray i oblicza sumy prefiksowe, zapisując je w prefixSumArray.
