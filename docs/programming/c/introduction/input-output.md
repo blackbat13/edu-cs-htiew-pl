@@ -1,45 +1,6 @@
 # Obsługa wejścia-wyjścia
 
-## Znaki specjalne
-
-* &#x20;\- znak nowej linii
-* &#x20;\- tabulacja pozioma
-* `\v` - tabulacja pionowa
-* `\b` - backspace
-* `\a` - alarm
-* `\\` - backslash
-* `\?` - znak
-* `` \` `` - apostrof
-* `\"` - cudzysłów
-
-## Formaty typów
-
-| Typ                      | Format     |
-| ------------------------ | ---------- |
-| `char`                   | `%c`       |
-| `unsigned char`          | `%c`       |
-| `short`                  | `%h`       |
-| `unsigned short`         | `%uh`      |
-| `int`                    | `%d`, `%i` |
-| `unsigned int`           | `%u`       |
-| `long int`               | `%ld`      |
-| `unsigned long int`      | `%lu`      |
-| `long long int`          | `%lld`     |
-| `unsigned long long int` | `%llu`     |
-| `float`                  | `%f`, `%F` |
-| `double`                 | `%lf`      |
-| `long double`            | `%Lf`      |
-| `char*`                  | `%s`       |
-
-### Formaty specjalne
-
-| Opis                                                              | Format     |
-| ----------------------------------------------------------------- | ---------- |
-| notacja naukowa                                                   | `%e`, `%E` |
-| notacja standardowa lub naukowa, w zależności od wielkości liczby | `%g`, `%G` |
-| `unsigned int `w formacie oktalnym (ósemkowym)                    | `%o`       |
-| `unsigned int` w formacie heksadecymalnym (szesnastkowym)         | `%x`, `%X` |
-| `double `w formacie heksadecymalnym (szesnastkowym)               | `%a`, `%A` |
+W języku C do obsługi wejścia/wyjścia korzystamy standardowo z funkcji `printf` oraz `scanf`.
 
 ## Biblioteka
 
@@ -232,3 +193,44 @@ int a;
 while(scanf("%d", &a) != EOF) {
 }
 ```
+
+## Znaki specjalne
+
+* &#x20;\- znak nowej linii
+* &#x20;\- tabulacja pozioma
+* `\v` - tabulacja pionowa
+* `\b` - backspace
+* `\a` - alarm
+* `\\` - backslash
+* `\?` - znak
+* `` \` `` - apostrof
+* `\"` - cudzysłów
+
+## Formaty typów
+
+| Typ                      | Format     |
+| ------------------------ | ---------- |
+| `char`                   | `%c`       |
+| `unsigned char`          | `%c`       |
+| `short`                  | `%h`       |
+| `unsigned short`         | `%uh`      |
+| `int`                    | `%d`, `%i` |
+| `unsigned int`           | `%u`       |
+| `long int`               | `%ld`      |
+| `unsigned long int`      | `%lu`      |
+| `long long int`          | `%lld`     |
+| `unsigned long long int` | `%llu`     |
+| `float`                  | `%f`, `%F` |
+| `double`                 | `%lf`      |
+| `long double`            | `%Lf`      |
+| `char*`                  | `%s`       |
+
+### Formaty specjalne
+
+| Opis                                                              | Format     |
+| ----------------------------------------------------------------- | ---------- |
+| notacja naukowa                                                   | `%e`, `%E` |
+| notacja standardowa lub naukowa, w zależności od wielkości liczby | `%g`, `%G` |
+| `unsigned int `w formacie oktalnym (ósemkowym)                    | `%o`       |
+| `unsigned int` w formacie heksadecymalnym (szesnastkowym)         | `%x`, `%X` |
+| `double `w formacie heksadecymalnym (szesnastkowym)               | `%a`, `%A` |

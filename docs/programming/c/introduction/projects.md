@@ -1,11 +1,10 @@
 # Projekty
 
-## Wstęp
-
 Przy tworzeniu rozbudowanych aplikacji pojawia się potrzeba podziału projektu na osobne pliki, tak aby zachować porządek i czytelność.
 Standardowy podział polega na zgrupowaniu funkcjonalności i wydzieleniu ich w postaci osobnych plików.
 W ten sposób tworzymy niejako własne biblioteki, czy też zależności projektu.
 W wyniku takiego podziału otrzymujemy dwa pliki dla każdej zależności:
+
 - plik nagłówkowy z rozszerzeniem **.h**,
 - plik z implementacją z rozszerzeniem **.c**.
 

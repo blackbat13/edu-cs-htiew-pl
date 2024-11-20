@@ -1,7 +1,5 @@
 # Struktury
 
-## Wstęp
-
 Z czasem, gdy zaczynamy tworzyć coraz bardziej zaawansowane projekty programistyczne, zaczyna się okazywać, że podstawowe typy przestają wystarczać.
 Nasz kod staje się coraz mniej czytelny i coraz trudniej się w nim zorientować, ponieważ mamy grupy zmiennych, które dotyczą tak naprawdę jednego "obiektu".
 Dla przykładu wyobraźmy sobie, że piszemy program, który wykonuje obliczenia geometryczne i pracuje na punktach.

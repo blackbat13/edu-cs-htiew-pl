@@ -1,7 +1,5 @@
 # Enumeracje
 
-## Wstęp
-
 Enumeracja to specjalny rodzaj struktury danych.
 Pozwala nam na zdefiniowanie pewnej listy nazw, które później możemy interpretować jako wartości liczbowe.
 Najlepiej to omówić na przykładzie.
