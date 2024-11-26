@@ -25,7 +25,7 @@ b := 12
 
 ### Wynik
 
-$NWD(32, 12) = 4$ 
+$\mathrm{NWD}(32, 12) = 4$ 
 
 !!! info
 	**Wyjaśnienie**
@@ -58,7 +58,7 @@ Zasada jest prosta: od większej liczby odejmujemy mniejszą i tak w kółko, a�
 | 4        | 12-4=8 |
 | 4        | 8-4=4  |
 
-NWD$(28, 12)=4$
+$\mathrm{NWD}(28, 12)=4$
 
 ### Przykład 2
 
@@ -73,7 +73,7 @@ NWD$(28, 12)=4$
 | 2    | 1    |
 | 1    | 1    |
 
-NWD$(3, 16) = 1$
+$\mathrm{NWD}(3, 16) = 1$
 
 ### Przykład 3
 
@@ -83,7 +83,7 @@ NWD$(3, 16) = 1$
 | 6    | 12   |
 | 6    | 6    |
 
-NWD$(6,18)=6$
+$\mathrm{NWD}(6,18)=6$
 
 ### Pseudokod
 
@@ -124,7 +124,7 @@ Odejmowanie możemy zastąpić operacją reszty z dzielenia, która jest dużo w
 | 12 (b z wiersza wyżej)    | 28 mod 12 (a % b) = 4 |
 | **4** (b z wiersza wyżej) | 12 mod 4 (a % b) = 0  |
 
-NWD$(28, 12)=4$
+$\mathrm{NWD}(28, 12)=4$
 
 ### Przykład 2
 
@@ -135,7 +135,7 @@ NWD$(28, 12)=4$
 | 3     | 16 mod 3 = 1 |
 | **1** | 3 mod 1 = 0  |
 
-NWD$(3, 16) = 1$
+$\mathrm{NWD}(3, 16) = 1$
 
 ### Przykład 3
 
@@ -145,7 +145,7 @@ NWD$(3, 16) = 1$
 | 18    | 6    |
 | **6** | 0    |
 
-NWD$(6,18)=6$
+$\mathrm{NWD}(6,18)=6$
 
 ### Przykład 4
 
@@ -154,7 +154,7 @@ NWD$(6,18)=6$
 | 100   | 2    |
 | **2** | 0    |
 
-NWD$(100, 2) = 2$
+$\mathrm{NWD}(100, 2) = 2$
 
 ### Pseudokod
 
@@ -189,10 +189,10 @@ flowchart TD
 Opisaną wyżej metodę możemy również zdefiniować rekurencyjnie.
 
 $$
-NWD(a, b) =
+\mathrm{NWD}(a, b) =
 \begin{cases} 
 a & b=0 \\
-NWD(b, a \mod b) & b\not =0 \\    
+\mathrm{NWD}(b, a \mod b) & b\not =0 \\    
 \end{cases}
 $$ 
 
