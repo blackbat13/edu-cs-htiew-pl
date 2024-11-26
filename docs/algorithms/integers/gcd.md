@@ -8,11 +8,11 @@ Algorytm Euklidesa znajduje zastosowanie w wielu dziedzinach matematyki i inform
 
 ### Dane
 
-* $a, b$ — liczby naturalne, większe od zera, tzn. $a,b\in\N$, $a>0,b>0$
+* $a, b$ — liczby naturalne, większe od zera, tzn. $a,b\in\mathbb{N}$, $a>0,b>0$
 
 ### Wynik
 
-* $NWD(a, b)$ — największy wspólny dzielnik liczb $a$ i $b$ 
+* $\mathrm{NWD}(a, b)$ — największy wspólny dzielnik liczb $a$ i $b$ 
 
 ## Przykład
 
