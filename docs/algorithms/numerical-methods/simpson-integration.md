@@ -38,9 +38,9 @@ Błąd przybliżenia wartości całki metodą Simpsona jest rzędu $O(h^4)$. W p
 ### Dane
 
 * $f(x)$ — funkcja, której wykres nas interesuje
-* $a$ — początek przedziału, $a\in\R$
-* $b$ — koniec przedziału, $b\in\R$
-* $n$ — **parzysta** liczba podziałów (im większa, tym większa dokładność), $n\in\N$
+* $a$ — początek przedziału, $a\in\mathbb{R}$
+* $b$ — koniec przedziału, $b\in\mathbb{R}$
+* $n$ — **parzysta** liczba podziałów (im większa, tym większa dokładność), $n\in\mathbb{N}$
 
 ### Wynik
 
