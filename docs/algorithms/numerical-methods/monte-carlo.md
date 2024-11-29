@@ -27,9 +27,9 @@ Ogólne kroki algorytmu przedstawiają się następująco:
 2. Losujemy $N$ punktów wewnątrz kwadratu.
 3. Liczymy, ile z tych punktów trafiło do wnętrza koła. Możemy to zrobić poprzez sprawdzenie, czy odległość wylosowanego punktu od środka kwadratu (będącego jednocześnie środkiem koła) jest mniejsza bądź równa $1$. Liczbę takich punktów oznaczymy przez $M$.
 4. Stosunek punktów wewnątrz koła do wszystkich punktów jest przybliżeniem stosunku pola powierzchni koła do pola powierzchni kwadratu. Co za tym idzie:
-   $$
+   $
    \pi\approx 4\times \frac{M}{N}
-   $$
+   $
 
 Dokładność oszacowania zależy od liczby wylosowanych punktów, ale ze względu na losowy charakter algorytmu ma pewną wariancję.
 
