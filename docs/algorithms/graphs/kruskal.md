@@ -12,7 +12,7 @@ Algorytm Kruskala korzysta z własności, że krawędź o najmniejszej wadze, kt
 
 ## Złożoność
 
-Algorytm Kruskala ma złożoność czasową $O(E log E)$, gdzie $E$ jest liczbą krawędzi w grafie. Jest to wynik potrzeby posortowania krawędzi na początku algorytmu.
+Algorytm Kruskala ma złożoność czasową $O(E \log E)$, gdzie $E$ jest liczbą krawędzi w grafie. Jest to wynik potrzeby posortowania krawędzi na początku algorytmu.
 
 ## Zastosowania
 
