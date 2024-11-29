@@ -92,11 +92,12 @@ $O(\log{n})$ — logarytmiczna
 ### Definicja rekurencyjna
 
 $$
-potega(x,n)=\left\{ \begin{array}{c1}
-1 & : \ n = 0 \\
-potega(x, n\ div\ 2)^2 & : \ n\ mod\ 2 = 0 \\
-potega(x, n\ div\ 2)^2 * x & : \ n\ mod\ 2 = 1
-\end{array} \right.
+\mathrm{potega}(x,n) =
+\begin{cases}
+	1 & n=0 \\
+	\mathrm{potega}(x,n\ \mathrm{div}\ 2)^2 & n\mod 2=0 \\
+	\mathrm{potega}(x,n\ \mathrm{div}\ 2)^2*x & n\mod 2=1 \\
+\end{cases}
 $$
 
 ### Pseudokod
