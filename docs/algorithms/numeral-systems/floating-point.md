@@ -19,7 +19,7 @@ Jak przedstawić liczbę rzeczywistą w systemie binarnym w zapisie zmiennoprzec
 3. **Normalizacja**: przesuwamy przecinek binarny tak, aby przed nim była tylko jedna cyfra $1$. Zapisujemy wykładnik przedstawiający liczbę miejsc, o które przesunięto przecinek.
 4. **Określenie cechy i mantysy**: wyodrębniamy wartość cechy i mantysę ze znormalizowanej formy.
 
-### Przykład Konwersji
+### Przykład konwersji
 
 Załóżmy, że chcemy przedstawić liczbę $-110.75$ w formie zmiennoprzecinkowej (w standardzie IEEE 754 z pojedynczą precyzją):
 
@@ -34,7 +34,7 @@ Stąd, $-110.75$ przedstawiamy jako:
 
 $1\ 10000001\ 10110000000000000000000$
 
-## Zastosowania i Ważne Kwestie
+## Zastosowania i ważne kwestie
 
 - **Precyzja**: reprezentacja zmiennoprzecinkowa może prowadzić do błędów zaokrąglenia, ponieważ nie wszystkie liczby dziesiętne mogą być dokładnie przedstawione w binarnym zapisie zmiennoprzecinkowym.
 - **Zakres**: reprezentacja ta pozwala na przedstawienie bardzo małych i bardzo dużych liczb, co jest szczególnie przydatne w obliczeniach naukowych i inżynieryjnych.
