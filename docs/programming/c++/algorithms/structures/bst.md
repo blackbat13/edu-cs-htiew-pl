@@ -130,6 +130,65 @@ int main() {
 
 ### Opis implementacji
 
+#### Klasa `BST`
+
+##### Struktura `node`
+
+- Reprezentuje pojedynczy węzeł drzewa.
+- Zawiera trzy pola:
+  - `int value`: wartość przechowywana w węźle.
+  - `node *left`: wskaźnik na lewego potomka.
+  - `node *right`: wskaźnik na prawego potomka.
+
+##### Pole `root`
+
+Wskaźnik na korzeń drzewa.
+
+##### Konstruktor `BST()`
+
+Inicjalizuje drzewo, ustawiając `root` na pusty wskaźnik (`nullptr`).
+
+##### Metoda `get_root()`
+
+Zwraca wskaźnik na korzeń drzewa.
+
+##### Metoda `insert(int value)`
+
+- Wstawia nową wartość do drzewa.
+- Tworzy nowy węzeł z podaną wartością.
+- Jeśli drzewo jest puste, nowy węzeł staje się korzeniem.
+- W przeciwnym razie, przeszukuje drzewo, aby znaleźć odpowiednie miejsce dla nowego węzła.
+
+##### Metoda `inorder(node *current)`
+
+Przechodzi przez drzewo w porządku inorder (lewy, korzeń, prawy) i wypisuje wartości węzłów.
+
+##### Metoda `preorder(node *current)`
+
+Przechodzi przez drzewo w porządku preorder (korzeń, lewy, prawy) i wypisuje wartości węzłów.
+
+##### Metoda `postorder(node *current)`
+
+Przechodzi przez drzewo w porządku postorder (lewy, prawy, korzeń) i wypisuje wartości węzłów.
+
+##### Metoda `clear(node *current)`
+
+Rekurencyjnie usuwa wszystkie węzły drzewa, zwalniając pamięć.
+
+##### Destruktor `~BST()`
+
+Wywołuje metodę `clear`, aby usunąć wszystkie węzły i zwolnić pamięć przy niszczeniu obiektu `BST`.
+
+#### Funkcja `main()`
+
+- Tworzy tablicę `array` z wartościami do wstawienia do drzewa.
+- Tworzy obiekt `BST`.
+- Wstawia wartości z tablicy do drzewa.
+- Wypisuje wartości drzewa w trzech różnych porządkach: inorder, preorder i postorder.
+
+
+#### Przykładowe drzewo wykorzystane w implementacji
+
 ![Przykładowe drzewo wykorzystane w implementacji](<../../../../assets/image (10).png>)
 
 [http://graphonline.ru/en/?graph=iTYRccYJVswEnVGe](http://graphonline.ru/en/?graph=iTYRccYJVswEnVGe)
