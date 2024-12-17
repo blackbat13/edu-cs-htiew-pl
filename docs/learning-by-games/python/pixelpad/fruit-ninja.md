@@ -401,7 +401,7 @@ if mouse_is_pressed("left"):
     fruit = get_collision(self, "Fruit")
     if fruit:
         destroy(fruit)
-        game.points -= 1
+        game.points += 1
 ```
 
 Teraz, **przed** instrukcją usuwającą owoc, utworzymy nową animację i zapiszemy ją w zmiennej lokalnej *splash*.
@@ -412,7 +412,7 @@ if mouse_is_pressed("left"):
     if fruit:
         splash = Splash()
         destroy(fruit)
-        game.points -= 1
+        game.points += 1
 ```
 
 Po utworzeniu zmiennej `splash` musimy przypisać do niej załadowaną wcześniej animację ze zmiennej `fruit`. To utworzymy korzystając z funkcji `set_animation` do której podajemy dwa parametry: obiekt, do którego chcemy przypisać animację (`splash`), oraz animację, którą chcemy przypisać (`fruit.splash_animation`):
@@ -424,7 +424,7 @@ if mouse_is_pressed("left"):
         splash = Splash()
         set_animation(splash, fruit.splash_animation)
         destroy(fruit)
-        game.points -= 1
+        game.points += 1
 ```
 
 Gdy teraz uruchomimy grę i złapiemy owoc to zobaczymy, że animacja się tworzy, ale nie we właściwym miejscu, tylko na środku ekranu. Oznacza to, że musimy jeszcze do zmiennej `splash` przypisać odpowiednie współrzędne. Ponieważ chcemy, by animacja pojawiła się w miejscu, w którym znajduje się owoc, przepiszemy współrzędne ze zmiennej `fruit`:
@@ -438,7 +438,7 @@ if mouse_is_pressed("left"):
         splash.x = fruit.x
         splash.y = fruit.y
         destroy(fruit)
-        game.points -= 1
+        game.points += 1
 ```
             
 Teraz już jest dużo lepiej, ale animacja będzie dość duża w stosunku do rozmiaru owoca. Możemy to zmienić modyfikując jej skalę. Zmienimy wartości dwóch zmiennych: `splash.scaleX` oraz `splash.scaleY`. Są to odpowiednio wartości skali w poziomie i w pionie. Przypiszemy do nich połowę odpowiednich wartości skali ze zmiennej `fruit`:
@@ -454,7 +454,7 @@ if mouse_is_pressed("left"):
         splash.scaleX = fruit.scaleX/2
         splash.scaleY = fruit.scaleY/2
         destroy(fruit)
-        game.points -= 1
+        game.points += 1
 ```
 
 Teraz animacja jest już gotowa.
