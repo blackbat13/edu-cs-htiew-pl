@@ -127,14 +127,8 @@ Będziemy potrzebować funkcji `randint` z modułu `random`, która pozwoli nam 
 ```python
 from random import randint
 ```
-
-Teraz mamy dostęp do funkcji `randint`. W klasie *Fruit* w części aktualizacyjnej (zakładka *Loop*) dopisujemy:
-
-```python
-self.velocityX = randint(-3, 3)
-```
     
-Teraz możemy przejść do losowania początkowej prędkości owoców. Modyfikujemy dwie linijki, w których przypisywaliśmy do zmiennych określających prędkość wartości $0$. Teraz przypiszemy do nich losowe wartości z wybranego przedziału.
+Teraz możemy przejść do losowania początkowej prędkości owoców.  W klasie *Fruit* w części inicjalizującej (zakładka *Start*) Modyfikujemy dwie linijki, w których przypisywaliśmy do zmiennych określających prędkość wartości $0$. Teraz przypiszemy do nich losowe wartości z wybranego przedziału.
 
 ```python
 self.velocityX = randint(5, 10)
@@ -428,7 +422,7 @@ if mouse_is_pressed("left"):
     fruit = get_collision(self, "Fruit")
     if fruit:
         splash = Splash()
-        set_animation(splash, self.splash_animation)
+        set_animation(splash, fruit.splash_animation)
         destroy(fruit)
         game.points -= 1
 ```
@@ -440,7 +434,7 @@ if mouse_is_pressed("left"):
     fruit = get_collision(self, "Fruit")
     if fruit:
         splash = Splash()
-        set_animation(splash, self.splash_animation)
+        set_animation(splash, fruit.splash_animation)
         splash.x = fruit.x
         splash.y = fruit.y
         destroy(fruit)
@@ -454,7 +448,7 @@ if mouse_is_pressed("left"):
     fruit = get_collision(self, "Fruit")
     if fruit:
         splash = Splash()
-        set_animation(splash, self.splash_animation)
+        set_animation(splash, fruit.splash_animation)
         splash.x = fruit.x
         splash.y = fruit.y
         splash.scaleX = fruit.scaleX/2
