@@ -29,14 +29,11 @@ theme:
     - search.suggest
     - search.highlight
     - toc.follow
-# extra:
-#   alternate:
-#     - name: Polski
-#       link: /
-#       lang: pl
-#     - name: English
-#       link: /en/
-#       lang: en
+extra:
+  alternate:
+    - name: English
+      link: https://edu.cs-htiew.com
+      lang: en
 markdown_extensions:
   - attr_list
   - admonition
