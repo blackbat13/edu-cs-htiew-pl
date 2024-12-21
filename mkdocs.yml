@@ -1,5 +1,9 @@
 site_name: CS-HTIEW
 site_url: https://edu.cs-htiew.com
+plugins:
+  - material-plausible
+  - search
+  - privacy
 theme:
   name: material
   language: pl
@@ -29,8 +33,6 @@ theme:
     - search.suggest
     - search.highlight
     - toc.follow
-plugins:
-  - material-plausible
 extra:
   analytics:
     provider: plausible
