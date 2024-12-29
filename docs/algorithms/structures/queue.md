@@ -33,3 +33,7 @@ Poniżej znajdziesz przykładowe implementacje kolejki w wybranych językach pro
 ### [:simple-cplusplus: C++](../../programming/c++/algorithms/structures/queue.md){ .md-button }
 
 ### [:simple-python: Python](../../programming/python/algorithms/structures/queue.md){ .md-button }
+
+## Implementacje — pozostałe
+
+### [:simple-c:](../../programming/c/algorithms/structures/queue.md){ .md-button }

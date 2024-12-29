@@ -725,6 +725,7 @@ nav:
           - 'Sumy prefiksowe': 'programming/c/algorithms/searching/prefix-sum.md'
         - 'Struktury': 
           - 'Stos': 'programming/c/algorithms/structures/stack.md'
+          - 'Kolejka': 'programming/c/algorithms/structures/queue.md'
     - 'Dart': 
       - 'programming/dart/README.md'
       - 'Algorytmy': 
