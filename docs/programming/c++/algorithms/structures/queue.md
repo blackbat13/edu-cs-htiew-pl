@@ -22,7 +22,7 @@ class Queue {
 public:
 
     Queue() {
-        front_el = NULL;
+        front_el = nullptr;
         el_count = 0;
     }
 
@@ -30,16 +30,16 @@ public:
         element *new_el = new element();
         
         new_el->value = value;
-        new_el->next = NULL;
+        new_el->next = nullptr;
         
-        if (front_el == NULL) {
+        if (front_el == nullptr) {
             front_el = new_el;
             el_count++;
             return;
         }
 
         element *last_el = front_el;
-        while (last_el->next != NULL) {
+        while (last_el->next != nullptr) {
             last_el = last_el->next;
         }
 
@@ -48,7 +48,7 @@ public:
     }
 
     int front() {
-        if (front_el != NULL) {
+        if (front_el != nullptr) {
             return front_el->value;
         }
 
@@ -56,7 +56,7 @@ public:
     }
 
     void pop() {
-        if (front_el != NULL) {
+        if (front_el != nullptr) {
             element *tmp = front_el->next;
             delete front_el;
             front_el = tmp;
@@ -69,7 +69,7 @@ public:
 
     void clear() {
         element *tmp;
-        while (front_el != NULL) {
+        while (front_el != nullptr) {
             tmp = front_el->next;
             delete front_el;
             front_el = tmp;
@@ -77,7 +77,7 @@ public:
     }
 
     bool is_empty() {
-        return front_el == NULL;
+        return front_el == nullptr;
     }
 
     int count() {

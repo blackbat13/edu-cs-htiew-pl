@@ -22,7 +22,7 @@ class Stack {
 public:
 
     Stack() {
-        top_el = NULL;
+        top_el = nullptr;
         el_count = 0;
     }
 
@@ -35,7 +35,7 @@ public:
     }
 
     int top() {
-        if (top_el != NULL) {
+        if (top_el != nullptr) {
             return top_el->value;
         }
 
@@ -43,7 +43,7 @@ public:
     }
 
     void pop() {
-        if (top_el != NULL) {
+        if (top_el != nullptr) {
             element *tmp = top_el->next;
             delete top_el;
             top_el = tmp;
@@ -56,7 +56,7 @@ public:
 
     void clear() {
         element *tmp;
-        while (top_el != NULL) {
+        while (top_el != nullptr) {
             tmp = top_el->next;
             delete top_el;
             top_el = tmp;
@@ -64,7 +64,7 @@ public:
     }
 
     bool is_empty() {
-        return top_el == NULL;
+        return top_el == nullptr;
     }
 
     int count() {
