@@ -39,6 +39,19 @@ extra:
   analytics:
     provider: google
     property: G-C12CYH2WNN
+  feedback:
+    title: Czy ta strona była pomocna?
+    ratings:
+      - icon: material/emoticon-happy-outline
+        name: Ta strona była pomocna
+        data: 1
+        note: >-
+          Dziękujemy za opinię!
+      - icon: material/emoticon-sad-outline
+        name: Tę stronę należy ulepszyć
+        data: 0
+        note: >- 
+          Dziękujemy za opinię!
   alternate:
     - name: English
       link: https://edu.cs-htiew.com
