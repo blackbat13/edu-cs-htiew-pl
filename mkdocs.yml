@@ -4,6 +4,9 @@ plugins:
   - material-plausible
   - search
   - privacy
+copyright: >
+  Copyright &copy; 2023 - 2025 Damian Kurpiewski
+  <a href="#__consent">Zmień ustawienia ciasteczek</a>
 theme:
   name: material
   language: pl
@@ -41,6 +44,12 @@ extra:
     - name: English
       link: https://edu.cs-htiew.com
       lang: en
+  consent:
+    title: Zgoda na ciasteczka
+    description: >- 
+      Używamy plików cookie do rozpoznawania powtarzających się wizyt i preferencji użytkownika, a także do
+      mierzenia skuteczności naszej strony i tego, czy użytkownicy
+      znajdują to, czego szukają. Za Twoją zgodą pomagasz nam ulepszać naszą stronę.
 markdown_extensions:
   - attr_list
   - admonition
