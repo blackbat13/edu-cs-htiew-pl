@@ -1,7 +1,6 @@
 site_name: CS-HTIEW
 site_url: https://edu.cs-htiew.com
 plugins:
-  - material-plausible
   - search
   - privacy
 copyright: >
@@ -38,8 +37,8 @@ theme:
     - toc.follow
 extra:
   analytics:
-    provider: plausible
-    domain: edu.cs-htiew.pl
+    provider: google
+    property: G-C12CYH2WNN
   alternate:
     - name: English
       link: https://edu.cs-htiew.com
