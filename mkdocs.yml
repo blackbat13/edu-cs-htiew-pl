@@ -1,5 +1,5 @@
 site_name: CS-HTIEW
-site_url: https://edu.cs-htiew.com
+site_url: https://edu.cs-htiew.pl
 plugins:
   - search
   - privacy
