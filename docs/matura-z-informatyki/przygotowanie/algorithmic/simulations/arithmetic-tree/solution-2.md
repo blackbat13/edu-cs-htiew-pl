@@ -5,9 +5,9 @@
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-    op1["-"] --> op2["*"]
+    op1["\-"] --> op2["\*"]
     op2 --> n1["10"]
-    op2 --> op3["+"]
+    op2 --> op3["\+"]
     op3 --> op4["/"]
     op3 --> n2["8"]
     op4 --> n3["15"]
@@ -20,9 +20,9 @@ flowchart TD
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-    op1["-"] --> op2["*"]
+    op1["\-"] --> op2["\*"]
     op2 --> n1["10"]
-    op2 --> op3["+"]
+    op2 --> op3["\+"]
     op3 --> op4["3"]
     op3 --> n2["8"]
     op1 --> n5["3"] 
@@ -33,7 +33,7 @@ flowchart TD
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-    op1["-"] --> op2["*"]
+    op1["\-"] --> op2["\*"]
     op2 --> n1["10"]
     op2 --> op3["11"]
     op1 --> n5["3"] 
@@ -44,7 +44,7 @@ flowchart TD
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-    op1["-"] --> op2["110"]
+    op1["\-"] --> op2["110"]
     op1 --> n5["3"] 
 ```
 
