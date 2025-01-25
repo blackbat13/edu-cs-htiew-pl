@@ -9,7 +9,10 @@ $$
 Przykładem liczby gnomicznej jest $7$, ponieważ:
 
 $$
-7 = 2*3+1 \\
+7 = 2*3+1
+$$
+
+$$
 2*3 + 1 + 3^2 = (3+1)^2
 $$
 
