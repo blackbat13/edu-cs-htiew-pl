@@ -16,11 +16,11 @@ Zapoznaj się z pseudokodem opisującym sposób obliczania wartości wyrażenia 
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-    op1["-"] --> op2["*"]
+    op1["\-"] --> op2["\*"]
     op1 --> op3["/"]
     op3 --> n1["5"]
     op3 --> n2["1"]
-    op2 --> op4["+"]
+    op2 --> op4["\+"]
     op4 --> n3["2"]
     op4 --> n4["3"]
     op2 --> n5["4"]
@@ -33,9 +33,9 @@ Wykonaj polecenie z zadania pierwszego opierając się na poniższym drzewie.
 ```mermaid
 %%{init: {"flowchart": {"curve": "linear"}, "theme": "neutral"} }%%
 flowchart TD
-    op1["-"] --> op2["*"]
+    op1["\-"] --> op2["\*"]
     op2 --> n1["10"]
-    op2 --> op3["+"]
+    op2 --> op3["\+"]
     op3 --> op4["/"]
     op3 --> n2["8"]
     op4 --> n3["15"]
