@@ -67,6 +67,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.keys
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.superfences:
@@ -1089,6 +1090,7 @@ nav:
         - 'graphics/gimp/tutorials/README.md'
         - 'Efekt vintage': 'graphics/gimp/tutorials/vintage-effect.md'
         - 'Wyróżnienie elementu': 'graphics/gimp/tutorials/color-reveal.md'
+        - 'Eksplodująca planeta': 'graphics/gimp/tutorials/exploding-planet.md'
   - 'Tworzenie stron internetowych':
     - 'web-design/README.md'
     - 'CSS': 'web-design/css/README.md'
