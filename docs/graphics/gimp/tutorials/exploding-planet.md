@@ -79,7 +79,7 @@ Kierunek wiatru (*Direction*) ustawiamy na *Bottom*.
 Opcję *Edge Affected* ustawiamy na *Leading*.
 Zatwierdzamy przyciskiem **OK**.
 
-Stosujemy efekt ponownie używając skrótu ++Ctrl+F++.
+Stosujemy efekt ponownie używając skrótu ++ctrl+f++.
 
 ### Przywracamy wygląd planety
 
