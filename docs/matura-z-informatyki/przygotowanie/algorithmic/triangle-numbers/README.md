@@ -19,7 +19,7 @@ Uzupełnij poniższą tabelkę określając, czy podana liczba $k$ jest liczbą 
 
 Zaprojektuj algorytm sprawdzający, dla zadanej liczby naturalnej $k$, czy jest ona liczbą trójkątną.
 
-Twoje rozwiazanie powinno działać w czasie **logarytmicznym**.
+Twoje rozwiązanie powinno działać w czasie **logarytmicznym**.
 
 **Uwaga**: w swoim zapisie możesz korzystać jedynie z podstawowych operacji arytmetycznych (dodawanie, odejmowanie, mnożenie, dzielenie, reszta z dzielenia, dzielenie całkowite), instrukcji kontroli przepływu (instrukcja warunkowa, pętla warunkowa, pętla licząca), instrukcji dotyczących podstawowych operacji na zmiennych (utworzenie zmiennej, przypisanie wartości, odczytanie wartości), instrukcji dotyczących podstawowych operacji na tablicach (utworzenie tablicy o zadanym rozmiarze wypełnionej jedną wartością, odwołanie do elementu tablicy pod zadanym indeksem) oraz samodzielnie zdefiniowanych funkcji.
 
