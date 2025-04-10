@@ -19,8 +19,6 @@ Napisz program zgodny z poniższą specyfikacją.
 ```python
 n = int(input("Podaj liczbę naturalną: "))
 
-silnia = 1
-
 for i in range((n // 3) + 1):
     for j in range(i, ((n - i) // 2) + 1):
         print(f"({i}, {j}, {n - i - j})")
