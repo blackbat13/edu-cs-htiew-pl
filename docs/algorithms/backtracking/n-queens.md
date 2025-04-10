@@ -91,7 +91,9 @@ flowchart TD
     K0 --> K1{i < wiersz}
     K1 -- PRAWDA --> K2{"pozycje[i] = kolumna
     lub
-    kolumna - pozycje[i] = wiersz - i"}
+    kolumna - pozycje[i] = wiersz - i
+    lub
+    kolumna - pozycje[i] = i - wiersz"}
     K2 -- PRAWDA --> K3[/Zwróć FAŁSZ/]
     K2 -- FAŁSZ --> K1i[i := i + 1]
     K1i --> K1
