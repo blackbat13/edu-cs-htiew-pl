@@ -1,4 +1,4 @@
-# Ćwiczenie 5
+# Ćwiczenie 3
 
 Zapoznaj się z poniższą specyfikacją oraz pseudokodem, a następnie rozwiąż zadania.
 

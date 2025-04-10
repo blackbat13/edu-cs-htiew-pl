@@ -1,4 +1,4 @@
-# Sklejanie
+# Ćwiczenie 5
 
 Przeanalizuj poniższy algorytm i wykonaj zadania.
 

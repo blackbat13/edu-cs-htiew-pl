@@ -1,4 +1,4 @@
-# Zadanie 7
+# Ćwiczenie 7
 
 Przeanalizuj poniższy algorytm i wykonaj zadania.
 

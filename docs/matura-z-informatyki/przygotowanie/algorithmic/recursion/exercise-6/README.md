@@ -1,4 +1,4 @@
-# Sklejanie
+# Ćwiczenie 6
 
 Przeanalizuj poniższy algorytm i wykonaj zadania.
 
