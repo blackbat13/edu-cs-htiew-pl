@@ -16,13 +16,13 @@ Stworzymy prostą grę, w której naszym graczem będzie świnia. Świnie, jak w
 
 Umieszczamy w katalogu **images**.
 
-[:material-folder-zip: Grafiki do gry Głodna Świnia](../../assets/hungry_pig_images.zip)
+[:material-folder-zip: Grafiki do gry Głodna Świnia](../../../assets/hungry_pig_images.zip)
 
 #### Dźwięki
 
 Umieszczamy w katalogu **sounds**.
 
-[:material-folder-zip: Dźwięki do gry Głodna Świnia](../../assets/hungry_pig_sounds.zip)
+[:material-folder-zip: Dźwięki do gry Głodna Świnia](../../../assets/hungry_pig_sounds.zip)
 
 <!-- #### Struktura projektu
 

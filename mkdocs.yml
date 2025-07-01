@@ -1041,7 +1041,7 @@ nav:
       - 'A+B': 
         - 'algorithmic-exercises/potyczki-algorytmiczne/apb/README.md'
         - 'C++': 'algorithmic-exercises/potyczki-algorytmiczne/apb/c++.md'
-  - 'Nauka programowania poprzez tworzenie gier':
+  - 'Nauka programowania poprzez tworzenie gier i animacji':
     - 'learning-by-games/README.md'
     - 'Python 3': 
       - 'learning-by-games/python/README.md'
@@ -1080,8 +1080,13 @@ nav:
       - 'Latający samolocik': 'learning-by-games/lua/flying-plane.md'
     - 'JavaScript': 
       - 'learning-by-games/javascript/README.md'
-      - 'Głodna świnia': 'learning-by-games/javascript/hungry-pig.md'
-      - 'Złap kosmitę': 'learning-by-games/javascript/catch-alien.md'
+      - 'Gry 2D - Kaboom':
+        - 'learning-by-games/javascript/kaboom/README.md'
+        - 'Głodna świnia': 'learning-by-games/javascript/kaboom/hungry-pig.md'
+        - 'Złap kosmitę': 'learning-by-games/javascript/kaboom/catch-alien.md'
+      - 'Animacje - P5.js':
+        - 'learning-by-games/javascript/p5/README.md'
+        - 'Skacząca piłka': 'learning-by-games/javascript/p5/jumping-ball.md'
   - 'Grafika komputerowa':
     - 'graphics/README.md'
     - 'Przestrzenie kolorów': 'graphics/color-space.md'
