@@ -20,6 +20,10 @@ Po trzecie, materiały przygotowane zostały (jak już wspomniałem) z myślą "
 
 Po czwarte, materiały przechodzą swój chrzest bojowy. Sam korzystam z nich na lekcjach i proszę znajomych o przejrzenie. Jeżeli zauważę, że coś wymaga poprawienia albo uzupełnienia, to poprawiam i/lub uzupełniam. Wszelkie uwagi można także zgłaszać, zapraszam do zajrzenia do zakładki kontakt.
 
+## Prezentacja na temat strony
+
+[:material-presentation: Prezentacja](./assets/Materiały%20edukacyjne.pdf)
+
 ## [:fontawesome-solid-file-pdf: Licencja](./assets/Licencja.pdf)
 
 ![Uznanie autorstwa-Na tych samych warunkach 4.0](./assets/88x31.png)
