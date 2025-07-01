@@ -139,6 +139,7 @@ nav:
     - 'Grywalizacja': 'cs-didactics/gamification.md'
     - 'Konkurs przedmiotowy': 'cs-didactics/competition.md'
     - 'Algorytmika - kreatywne myślenie': 'cs-didactics/algorithmic-creative-thinking.md'
+    - 'Błędy, robaki, bugi': 'cs-didactics/errors-bugs.md'
   - 'Algorytmy':
     - 'Wprowadzenie': 
       - 'algorithms/introduction/README.md'
