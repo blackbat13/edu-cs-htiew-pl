@@ -140,6 +140,7 @@ nav:
     - 'Konkurs przedmiotowy': 'cs-didactics/competition.md'
     - 'Algorytmika - kreatywne myślenie': 'cs-didactics/algorithmic-creative-thinking.md'
     - 'Błędy, robaki, bugi': 'cs-didactics/errors-bugs.md'
+    - 'Refleksje na temat stanu oświaty': 'cs-didactics/thoughts.md'
   - 'Algorytmy':
     - 'Wprowadzenie': 
       - 'algorithms/introduction/README.md'
