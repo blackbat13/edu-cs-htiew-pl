@@ -10,9 +10,10 @@ Funkcja sort(A, pocz, kon):
         2. Zamień(A[pocz], A[kon])
     3. Jeżeli kon - pocz + 1 > 2:
         4. t := (kon - pocz + 1) div 3
-        5. sort(A, pocz, kon - t)
-        6. sort(A, pocz + t, kon)
-        7. sort(A, pocz, kon - t)
+        5. A := sort(A, pocz, kon - t)
+        6. A := sort(A, pocz + t, kon)
+        7. A := sort(A, pocz, kon - t)
+    8. Zwróć A
 ```
 
 !!! info
@@ -23,7 +24,7 @@ Funkcja sort(A, pocz, kon):
 
 ## Zadanie 1
 
-Narysuj drzewo wywołań rekurencyjnych oraz przedstaw postać tablicy $A$ po każdym wywołaniu funkcji *Zamień* dla danych:
+Narysuj drzewo wywołań rekurencyjnych dla danych:
 
 - $A[1..3] = [5, 1, 3]$
 - $pocz = 1$
@@ -31,7 +32,7 @@ Narysuj drzewo wywołań rekurencyjnych oraz przedstaw postać tablicy $A$ po ka
 
 ## Zadanie 2
 
-Narysuj drzewo wywołań rekurencyjnych oraz przedstaw postać tablicy $A$ po każdym wywołaniu funkcji *Zamień* dla danych:
+Narysuj drzewo wywołań rekurencyjnych dla danych:
 
 - $A[1..4] = [5, 1, 3, 4]$
 - $pocz = 1$
