@@ -1,10 +1,8 @@
 # Zbiór
 
-## Opis
-
 Do przechowywania unikalnych wartości posłuży nam **zbiór** (ang. _set_).
 
-### Biblioteka
+## Biblioteka
 
 Zbiór znajduje się w bibliotece `set`.
 
@@ -12,6 +10,6 @@ Zbiór znajduje się w bibliotece `set`.
 #include <set>
 ```
 
-### Dokumentacja
+## Dokumentacja
 
-[Set Reference](https://www.cplusplus.com/reference/set/set/)
+[:link: Set Reference](https://www.cplusplus.com/reference/set/set/)

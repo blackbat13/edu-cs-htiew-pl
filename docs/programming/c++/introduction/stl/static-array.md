@@ -1,10 +1,8 @@
 # Tablica statyczna
 
-## Opis
-
 Tablice statyczne też mogą być obiektem, co niesie ze sobą kilka korzyści.
 
-### Biblioteka
+## Biblioteka
 
 Tablica statyczna znajduje się w bibliotece `array`.
 
@@ -12,6 +10,6 @@ Tablica statyczna znajduje się w bibliotece `array`.
 #include <array>
 ```
 
-### Dokumentacja
+## Dokumentacja
 
-[Array Reference](https://www.cplusplus.com/reference/array/array/)
+[:link: Array Reference](https://www.cplusplus.com/reference/array/array/)

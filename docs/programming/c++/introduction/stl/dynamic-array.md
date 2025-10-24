@@ -6,7 +6,7 @@ W STL mamy dwie podstawowe klasy implementujące tablice dynamiczne: `vector` or
 
 W poniższych przykładach wykorzystujemy `vector`, jednak można go spokojnie zastąpić klasą `deque` i wszystko będzie działać tak samo.
 
-### Biblioteka
+## Biblioteka
 
 Do klasy `vector` potrzebujemy biblioteki `vector`, a do klasy `deque` potrzebujemy biblioteki `deque`.
 
@@ -17,13 +17,13 @@ Do klasy `vector` potrzebujemy biblioteki `vector`, a do klasy `deque` potrzebuj
 using namespace std;
 ```
 
-### Dokumentacja
+## Dokumentacja
 
-#### Vector
+### Vector
 
 [:link: Vector Reference](https://www.cplusplus.com/reference/vector/vector/)
 
-#### Deque
+### Deque
 
 [:link: Deque Reference](https://www.cplusplus.com/reference/deque/deque/)
 

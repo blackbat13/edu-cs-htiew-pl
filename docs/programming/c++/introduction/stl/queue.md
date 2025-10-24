@@ -1,11 +1,9 @@
 # Kolejka
 
-## Opis
-
 Kolejka to jedna z klasycznych struktur danych. 
 Wykorzystywana jest w wielu algorytmach, nic dziwnego więc, że jej implementacja znajduje się także w STL.
 
-### Biblioteka
+## Biblioteka
 
 Kolejka znajduje się w bibliotece `queue`.
 
@@ -13,9 +11,9 @@ Kolejka znajduje się w bibliotece `queue`.
 #include <queue>
 ```
 
-### Dokumentacja
+## Dokumentacja
 
-[Queue Reference](https://www.cplusplus.com/reference/queue/queue/)
+[:link: Queue Reference](https://www.cplusplus.com/reference/queue/queue/)
 
 ## Implementacja: przykłady
 
@@ -147,4 +145,4 @@ Aby korzystać z kolejki priorytetowej potrzebujemy biblioteki `priority_queue`.
 
 ### Dokumentacja
 
-[Priority Queue Reference](https://www.cplusplus.com/reference/queue/priority_queue/)
+[:link: Priority Queue Reference](https://www.cplusplus.com/reference/queue/priority_queue/)

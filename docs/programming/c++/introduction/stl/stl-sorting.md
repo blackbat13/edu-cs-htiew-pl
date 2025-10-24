@@ -1,14 +1,12 @@
 # Sortowanie
 
-## Opis
-
 Sortowanie danych jest operacją, z której korzystamy praktycznie na co dzień. 
 Jest to także operacja, która jest wymagana w wielu algorytmach. 
 Nie od dziś wiadomo, że na danych posortowanych pewne działania można wykonać znacznie efektywniej. 
 Od wydajności algorytmu sortowania może więc zależeć wydajność całej implementacji. 
 Oczywiście możemy za każdym razem implementować sortowanie samodzielnie (tak czasem będzie wydajniej), ale zazwyczaj wystarczy skorzystać z gotowej implementacji zawartej w STL, a konkretnie w bibliotece `algorithm`. 
 
-### Biblioteka
+## Biblioteka
 
 Funkcja sortująca (a także wiele innych) znajduje się w bibliotece `algorithm`.
 
