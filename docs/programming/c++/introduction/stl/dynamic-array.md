@@ -1,7 +1,5 @@
 # Tablice dynamiczne
 
-## Opis
-
 Co oznacza, że tablica jest **dynamiczna**? To znaczy, że w dowolnym momencie działania programu możemy zmieniać jej rozmiar, tzn. dodawać i usuwać elementy (w przeciwieństwie do tablic **statycznych**). Jest to przydatne np. w sytuacji gdy nie wiemy, ile wartości będziemy musieli w takiej tablicy przechować.
 
 W STL mamy dwie podstawowe klasy implementujące tablice dynamiczne: `vector` oraz `deque`. W założeniach są do siebie bardzo zbliżone. Podstawowa różnica jest taka, że `vector` jest jednokierunkowy, a `deque` dwukierunkowy. Co to oznacza w praktyce? Do tablic typu `vector` możemy _tanio_ dodawać i usuwać elementy od końca. Do `deque` możemy natomiast dodawać i usuwać elementy zarówno z końca jak i z początku.
@@ -23,11 +21,11 @@ using namespace std;
 
 #### Vector
 
-[Vector Reference](https://www.cplusplus.com/reference/vector/vector/)
+[:link: Vector Reference](https://www.cplusplus.com/reference/vector/vector/)
 
 #### Deque
 
-[Deque Reference](https://www.cplusplus.com/reference/deque/deque/)
+[:link: Deque Reference](https://www.cplusplus.com/reference/deque/deque/)
 
 ## Implementacja: przykłady
 
@@ -229,6 +227,28 @@ int main() {
 }
 ```
 
-### Link do implementacji
+### Wynik działania
 
-[vector - przykłady](https://ideone.com/6qwyfQ)
+Wynik działania powyższego kodu pokazany jest poniżej.
+
+```
+Element 0 of array2 is: 0
+Element 0 of array3 is: 23
+Element 0 of array is: 23
+Size of the array is: 10
+Last element of array is: 55
+Size of the array is: 11
+Element 5 of array is: 60
+Size of the array is: 12
+Size of the array is: 11
+Element 5 of array is: 23
+Size of the array is: 10
+Size of the array is: 8
+Element 19 of the array is: 0
+Size of the array is: 20
+Element 29 of the array is: 41
+Size of the array is: 30
+Array is not empty
+Content of the array: 23 23 23 23 23 23 23 23 0 0 0 0 0 0 0 0 0 0 0 0 41 41 41 41 41 41 41 41 41 41 
+Size of the array is: 0
+```
