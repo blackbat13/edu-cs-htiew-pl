@@ -8,7 +8,7 @@ Permutacja tablicy określa jeden ze sposobów ułożenia elementów tej tablicy
 
 * $n$ — liczba naturalna, liczba elementów tablicy, $n>0$
 * $A[1..n]$ - $n$-elementowa tablica 
-* $pocz$, $kon$ - liczby naturalne określające początek i koniec permutowanego zakresu elementów tablicy, $1<=pocz<=kon<=n$
+* $pocz$, $kon$ - liczby naturalne określające początek i koniec permutowanego zakresu elementów tablicy, $1\leq pocz\leq kon\leq n$
 
 ### Wynik
 
