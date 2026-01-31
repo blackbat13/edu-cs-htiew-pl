@@ -31,7 +31,3 @@ int main() {
     return 0;
 } 
 ```
-
-### Link do implementacji
-
-[https://replit.com/@damiankurpiewski/PeanoCurve#main.cpp](https://replit.com/@damiankurpiewski/PeanoCurve#main.cpp)
