@@ -4,8 +4,6 @@
 
 ## Podejście zachłanne
 
-### Implementacja
-
 ```cpp linenums="1"
 #include <iostream>
 
@@ -36,13 +34,7 @@ int main() {
 }
 ```
 
-### Link do implementacji
-
-[Zachłanne wydawanie reszty](https://ideone.com/PQmCHG)
-
 ## Podejście dynamiczne
-
-### Implementacja
 
 ```cpp linenums="1"
 #include <iostream>
