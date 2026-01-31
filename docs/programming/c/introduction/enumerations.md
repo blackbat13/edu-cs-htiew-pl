@@ -39,8 +39,6 @@ int main() {
 } 
 ```
 
-### Opis
-
 Na początku tworzymy enumerację roli: `enum role`.
 Następnie w kodzie głównym przypisujemy wybraną rolę do zmiennej `currentRole`.
 Dzięki wykorzystaniu enumeracji możemy w prosty i czytelny sposób skorzystać z operacji `switch` i uzależnić działanie programu od przypisanej roli.
