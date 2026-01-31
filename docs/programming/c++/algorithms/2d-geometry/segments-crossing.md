@@ -10,7 +10,7 @@
 
 using namespace std;
 
-struct Point {
+struct Point2D {
     int x;
     int y;
 };
@@ -26,7 +26,7 @@ int det3(int matrix[3][3]) {
     );
 }
 
-bool point_on_segment(Point a, Point b, Point c) {
+bool pointOnSegment(Point2D a, Point2D b, Point2D c) {
     int matrix[3][3] = {{a.x, a.y, 1}, {b.x, b.y, 1}, {c.x, c.y, 1}};
 
     if (det3(matrix) != 0) {
@@ -47,26 +47,26 @@ int sgn(int a) {
     }
 }
 
-bool segment_crossing(Point a, Point b, Point c, Point d) {
+bool segmentCrossing(Point2D a, Point2D b, Point2D c, Point2D d) {
     int matrix1[3][3] = {{a.x, a.y, 1}, {b.x, b.y, 1}, {c.x, c.y, 1}};
     int matrix2[3][3] = {{a.x, a.y, 1}, {b.x, b.y, 1}, {d.x, d.y, 1}};
     
     return (
-        point_on_segment(a, b, c)
-        || point_on_segment(a, b, d)
-        || point_on_segment(c, d, a)
-        || point_on_segment(c, d, b)
+        pointOnSegment(a, b, c)
+        || pointOnSegment(a, b, d)
+        || pointOnSegment(c, d, a)
+        || pointOnSegment(c, d, b)
         || sgn(det3(matrix1)) != sgn(det3(matrix2))
     );
 }
 
 int main() {
-    Point a = {1, 1};
-    Point b = {2, 2};
-    Point c = {3, 3};
-    Point d = {4, 4};
+    Point2D a = {1, 1};
+    Point2D b = {2, 2};
+    Point2D c = {3, 3};
+    Point2D d = {4, 4};
 
-    bool result = segment_crossing(a, b, c, d);
+    bool result = segmentCrossing(a, b, c, d);
 
     if (result) {
         cout << "Segments [(" << a.x << ", " << a.y << "), (" 
