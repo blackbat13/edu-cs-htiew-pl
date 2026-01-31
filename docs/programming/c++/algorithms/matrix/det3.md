@@ -28,8 +28,6 @@ int main() {
 }
 ```
 
-### Opis implementacji
-
 Funkcja `det3` (**linia 5**) wylicza wyznacznik macierzy $3\times3$ przekazanej jako parametr funkcji. Wewnątrz funkcji mamy tylko jedną operację zwracającą wyznacznik macierzy obliczony zgodnie ze wzorem.
 
 W części głównej najpierw przygotowujemy macierz (**linia 12**), następnie obliczamy jej wyznacznik (**linia 16**) i wypisujemy go na ekranie (**linia 18**). Na koniec kończymy działanie programu (**linia 20**).
