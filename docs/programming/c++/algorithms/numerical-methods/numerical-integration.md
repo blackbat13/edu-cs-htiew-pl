@@ -4,8 +4,6 @@
 
 ## Metoda prostokątów
 
-### Implementacja
-
 ```cpp linenums="1"
 #include <iostream>
 
@@ -43,8 +41,6 @@ int main() {
 }
 ```
 
-### Opis implementacji
-
 Funkcja `f` (**linia 5**) przyjmuje jeden parametr rzeczywisty i jako wynik zwraca liczbę rzeczywistą. Funkcja ta symuluje funkcję matematyczną, której pole pod wykresem chcemy policzyć. 
 
 Funkcja `rectanglesMethod` (**linia 9**) realizuje algorytm całkowania numerycznego metodą prostokątów i przyjmuje trzy parametry: początek przedziału (`a`), koniec przedziału (`b`) oraz liczbę prostokątów (`n`). Funkcja jako wynik zwraca liczbę rzeczywistą reprezentującą przybliżenie pola pod wykresem funkcji $f(x)=x^2+2x$ na przedziale $<a, b>$. Wewnątrz funkcji zaczynamy od policzenia szerokości jednego prostokąta, dzieląc długość przedziału przez liczbę prostokątów (**linia 10**). Następnie tworzymy zmienną do zapamiętania obliczanego pola (**linia 11**) oraz zmienną do zapamiętania obecnej pozycji na osi $x$ (**linia 12**), a także zmienną do zapamiętywania obliczanych wysokości prostokątów (**linia 13**). W następnej kolejności przechodzimy pętlą $n$ razy (**linia 15**). Wewnątrz pętli przesuwamy obecną pozycję na osi $x$ w prawo o szerokość jednego prostokąta (**linia 16**). Następnie obliczamy wysokość prostokąta w obecnym punkcie poprzez obliczenie wartości funkcji w tym miejscu (**linia 17**). Obliczoną wysokość wykorzystujemy do policzenia pola obecnego prostokąta i dodania go do zliczanego pola pod wykresem funkcji (**linia 18**). Na koniec funkcji, po wyjściu z pętli, zwracamy obliczone pole pod wykresem funkcji (**linia 21**).
@@ -52,8 +48,6 @@ Funkcja `rectanglesMethod` (**linia 9**) realizuje algorytm całkowania numerycz
 W części głównej programu przygotowujemy dane do naszego algorytmu: początek przedziału (**linia 25**), koniec przedziału (**linia 26**) oraz liczbę prostokątów (**linia 27**). Następnie wywołujemy funkcję `rectanglesMethod` z przygotowanymi danymi, a jej wynik zapisujemy w zmiennej `area` (**linia 29**). Na koniec wypisujemy wynik na ekranie (**linia 31**) oraz kończymy działanie programu (**linia 33**).
 
 ## Metoda trapezów
-
-### Implementacja
 
 ```cpp linenums="1"
 #include <iostream>
@@ -92,8 +86,6 @@ int main() {
     return 0;
 }
 ```
-
-### Opis implementacji
 
 Funkcja `f` (**linia 5**) przyjmuje jeden parametr rzeczywisty i jako wynik zwraca liczbę rzeczywistą. Funkcja ta symuluje funkcję matematyczną, której pole pod wykresem chcemy policzyć. 
 
