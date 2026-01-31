@@ -39,8 +39,6 @@ int main() {
 }
 ```
 
-### Opis implementacji
-
 Funkcja `longestGrowingSubstringLength` przyjmuje dwa argumenty: liczbę `n` reprezentującą liczbę elementów w tablicy i tablicę `tab` zawierającą te elementy. Funkcja zwraca długość najdłuższego rosnącego podciągu.
 
 Schemat działania funkcji jest następujący:
