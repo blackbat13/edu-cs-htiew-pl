@@ -4,8 +4,6 @@
 
 ## Podejście rekurencyjne
 
-### Implementacja
-
 ```cpp linenums="1"
 #include <iostream>
 
@@ -30,15 +28,11 @@ int main() {
 }
 ```
 
-### Opis implementacji
-
 Funkcja `fib` (**linia 5**) przyjmuje jeden parametr: liczbę całkowitą oznaczającą numer wartości ciągu Fibonacciego do policzenia. Na początku funkcji sprawdzamy warunek stopu rekurencji (**linia 6**). Jeżeli jest spełniony to jako wynik zwracamy wartość $1$ (**linia 7**). Jeżeli warunek stopu nie był spełniony to jako wynik zwracamy sumę wyników wywołań rekurencyjnych funkcji `fib` dla dwóch poprzednich elementów ciągu (**linia 10**).
 
 W części głównej najpierw przygotowujemy dane wejściowe, czyli numer wartości ciągu Fibonacciego do obliczenia (**linia 14**). Następnie obliczamy ustalony element ciągu za pomocą funkcji `fib` (**linia 16**), a na koniec wypisujemy wynik na ekranie (**linia 18**) i kończymy działanie programu (**linia 20**).
 
 ## Podejście iteracyjne
-
-### Implementacja
 
 ```cpp linenums="1"
 #include <iostream>
