@@ -48,8 +48,6 @@ int main() {
 }
 ```
 
-### Opis implementacji
-
 Zaczynamy od zdefiniowania własnej struktury `Point` (**linia 3**).
 Definicję struktury zaczynamy od słowa kluczowego `struct`, następnie podajemy jej nazwę i otwieramy blok kodu.
 Aby używać skróconej nazwy nowego typu definiujemy ją za pomocą polecenia `typedef`, po definicji struktury podając nazwę naszego typu, w tym przypadku `Point` (**linia 6**).
