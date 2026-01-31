@@ -56,9 +56,8 @@ int main() {
 }
 ```
 
-### Opis implementacji
 
-#### Funkcja `countOccurences`
+Funkcja `countOccurences`:
 
 - **Parametry**: 
   - `number` (liczba, której wystąpienia liczymy),
@@ -67,7 +66,7 @@ int main() {
 - **Działanie**: Przechodzi przez tablicę i liczy, ile razy `number` występuje w tablicy.
 - **Zwraca**: Liczbę wystąpień `number` w tablicy.
 
-#### Funkcja `findMajority`
+Funkcja `findMajority`:
 
 - **Parametry**: 
   - `array` (tablica, w której szukamy elementu większościowego,
@@ -78,7 +77,7 @@ int main() {
   - Po przejściu przez tablicę, sprawdza, czy `currentCandidate` faktycznie jest elementem większościowym, licząc jego wystąpienia za pomocą `countOccurences`.
 - **Zwraca**: Element większościowy, jeśli istnieje, w przeciwnym razie $-1$.
 
-#### Funkcja `main`
+Funkcja `main`:
 
 - Tworzy tablicę array z $10$ elementami.
 - Wywołuje funkcję `findMajority`, aby znaleźć element większościowy w tablicy.
