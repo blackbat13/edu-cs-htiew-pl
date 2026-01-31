@@ -127,8 +127,6 @@ int main() {
 }
 ```
 
-### Opis implementacji
-
 Definiujemy strukturę `edge` do reprezentacji krawędzi grafu (**linia 59**). Ponieważ mamy do czynienia z grafem ważonym, w strukturze przechowujemy trzy wartości: 
 
 * wierzchołek początkowy krawędzi - zmienna `from` (**linia 60**),
