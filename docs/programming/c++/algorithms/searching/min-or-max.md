@@ -4,8 +4,6 @@
 
 ## Wyszukiwanie wartości minimum i maksimum
 
-### Implementacja
-
 ```cpp linenums="1"
 #include <iostream>
 
@@ -49,8 +47,6 @@ int main() {
 }
 ```
 
-### Opis implementacji
-
 Program zawiera dwie funkcje, `findMin` i `findMax`, które obie przyjmują liczbę `n` reprezentującą liczbę elementów w tablicy i tablicę `tab` zawierającą te elementy. Funkcja `findMin` zwraca najmniejszą wartość w tablicy, a `findMax` zwraca największą wartość.
 
 Funkcja `findMin` działa następująco:
@@ -70,8 +66,6 @@ Podobnie, funkcja `findMax` działa w następujący sposób:
 Funkcja `main` definiuje tablicę `tab` z $10$ elementami, używa funkcji `findMin` i `findMax`, aby znaleźć minimalną i maksymalną wartość w tablicy, a następnie wyświetla te wartości na ekranie.
 
 ## Wyszukiwanie indeksów wartości minimum i maksimum
-
-### Implementacja
 
 ```cpp linenums="1"
 #include <iostream>
@@ -115,8 +109,6 @@ int main() {
     return 0;
 }
 ```
-
-### Opis implementacji
 
 Program znajduje indeksy minimalnej i maksymalnej wartości w tablicy liczb całkowitych. W tym celu wykorzystuje dwie funkcje: `findMinIndex` i `findMaxIndex`.
 
