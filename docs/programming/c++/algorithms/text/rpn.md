@@ -60,8 +60,6 @@ int main() {
 }
 ```
 
-### Opis implementacji
-
 Funkcja `calculateRPN` (**linia 19**) oblicza wartość wyrażenia ONP podanego w formie ciągu znaków. Zakładamy, że podane wyrażenie jest poprawne, a każdy znak reprezentuje jednocyfrową liczbę lub operację. 
 
 Na początku tworzymy stos do przechowywania wyników kolejnych obliczeń (**linia 20**), oraz pomocnicze zmienne do przechowywania bieżących wartości ze stosu oraz wyniku pośrednich operacji (**linia 21**). 
