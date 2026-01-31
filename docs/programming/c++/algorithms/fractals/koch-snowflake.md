@@ -41,7 +41,3 @@ int main() {
     return 0;
 } 
 ```
-
-### Link do implementacji
-
-[https://replit.com/@damiankurpiewski/KochSnowflake#main.cpp](https://replit.com/@damiankurpiewski/KochSnowflake#main.cpp)
