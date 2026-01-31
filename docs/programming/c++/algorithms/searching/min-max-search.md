@@ -4,8 +4,6 @@
 
 ## Podejście naiwne
 
-### Implementacja
-
 ```cpp linenums="1"
 #include <iostream>
 
@@ -38,8 +36,6 @@ int main() {
 }
 ```
 
-### Opis implementacji
-
 Funkcja `findMinMaxNaive` (**linia 5**) przyjmuje tablicę o zadanej długości i wypisuje jej elementy minimalny i maksymalny, korzystając z naiwnego algorytmu jednoczesnego znajdowania minimum i maksimum.
 
 Na początku tworzymy dwie zmienne do zapamiętania wartości min i max (**linia 6**), a następnie przypisujemy do nich wartość pierwszego elementu przeszukiwanej tablicy (**linie 8 i 9**). Kolejnym etapem jest przejrzenie wszystkich pozostałych elementów tablicy za pomocą pętli (**linia 11**). Jeżeli sprawdzany element z tablicy ma wartość mniejszą od obecnej wartości minimum (**linia 12**), to zapamiętujemy nową wartość minimum (**linia 13**). W przeciwnym wypadku sprawdzamy, czy obecny element ma wartość większą od obecnej wartości maksimum (**linia 14**), a jeżeli tak to zapamiętujemy nową wartość maksimum (**linia 15**). Na koniec, po przejściu przez wszystkie elementy tablicy, wypisujemy znalezione wartości minimum i maksimum (**linie 19 i 20**).
@@ -47,8 +43,6 @@ Na początku tworzymy dwie zmienne do zapamiętania wartości min i max (**linia
 W części głównej tworzymy przykładową tablicę (**linia 24**), a następnie wywołujemy funkcję `findMinMaxNaive` (**linia 26**).
 
 ## Podejście optymalne
-
-### Implementacja
 
 ```cpp linenums="1"
 #include <iostream>
@@ -100,8 +94,6 @@ int main() {
     return 0;
 }
 ```
-
-### Opis implementacji
 
 Funkcja `findMinMaxOptimal` (**linia 5**) przyjmuje tablicę o zadanej długości i wypisuje jej elementy minimalny i maksymalny, korzystając z optymalnego algorytmu jednoczesnego znajdowania minimum i maksimum.
 
