@@ -4,8 +4,6 @@
 
 ## Rozwiązanie naiwne
 
-### Implementacja
-
 ```cpp linenums="1"
 #include <iostream>
 
@@ -36,8 +34,6 @@ int main() {
 ```
 
 ## Rozwiązanie optymalne
-
-### Implementacja
 
 ```cpp linenums="1"
 #include <iostream>
