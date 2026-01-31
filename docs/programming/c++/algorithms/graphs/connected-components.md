@@ -58,8 +58,6 @@ int main() {
 }
 ```
 
-### Opis implementacji
-
 ![Przykładowy graf wykorzystany w implementacji](../../../../assets/example_graph_disconnected.png)
 
 [http://graphonline.ru/en/?graph=ntlitKWvBAKeDOgo](http://graphonline.ru/en/?graph=ntlitKWvBAKeDOgo)
