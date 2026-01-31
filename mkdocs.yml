@@ -421,6 +421,7 @@ nav:
         - 'Przeszukiwanie z powrotami': 
           - 'Problem n królowych': 'programming/c++/algorithms/backtracking/n-queens.md'
           - 'Problem skoczka': 'programming/c++/algorithms/backtracking/knights-tour.md'
+          - 'Permutacje': 'programming/c++/algorithms/backtracking/permutations.md'
         - 'Sortowanie': 
           - 'Sortowanie przez wybieranie': 'programming/c++/algorithms/sorting/selection-sort.md'
           - 'Sortowanie przez wstawianie': 'programming/c++/algorithms/sorting/insertion-sort.md'
