@@ -2,7 +2,7 @@
 
 ## [:link: Opis problemu](../../../../algorithms/2d-geometry/point-line-distance.md)
 
-## Implementacja
+## Implementacja bez struktury
 
 ```cpp linenums="1"
 #include <iostream>
@@ -28,6 +28,39 @@ int main() {
     double pointY = -8;
 
     double distance = pointLineDistance(line1X, line1Y, line2X, line2Y, pointX, pointY);
+    
+    cout << distance << endl;
+    
+    return 0;
+}
+```
+
+## Implementacja ze strukturą
+
+```cpp linenums="1"
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+struct Point2D {
+    double x, y;
+};
+
+double pointLineDistance(Point2D linePoint1, Point2D linePoint2, Point2D point) {
+    Point2D diff = {linePoint2.x - linePoint1.x, linePoint2.y - linePoint1.y};
+    
+    double result = abs(diff.y * (linePoint1.x - point.x) + diff.x * (point.y - linePoint1.y)) / sqrt(diff.y * diff.y + diff.x * diff.x);
+
+    return result;
+}
+
+int main() {
+    Point2D linePoint1 = {-3, -4};
+    Point2D linePoint2 = {7, 6};
+    Point2D point = {-5, -8};
+
+    double distance = pointLineDistance(linePoint1, linePoint2, point);
     
     cout << distance << endl;
     
