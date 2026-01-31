@@ -41,9 +41,7 @@ int main() {
 }
 ```
 
-### Opis implementacji
-
-#### Funkcja `computePrefixSum`
+Funkcja `computePrefixSum`:
 
 - **Parametry**:
   - `numbersCount`: liczba elementów w tablicy `numbersArray`.
