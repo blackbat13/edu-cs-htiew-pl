@@ -2,9 +2,7 @@
 
 ## [:link: Opis problemu](../../../../algorithms/numerical-methods/square-root.md)
 
-## Metoda Herona
-
-### Implementacja
+## Implementacja
 
 ```cpp linenums="1"
 #include <iostream>
