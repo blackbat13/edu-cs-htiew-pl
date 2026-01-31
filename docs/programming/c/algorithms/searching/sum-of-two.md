@@ -4,8 +4,6 @@
 
 ## Rozwiązanie naiwne
 
-### Implementacja
-
 ```c linenums="1"
 #include <stdio.h>
 
@@ -34,8 +32,6 @@ int main() {
 ```
 
 ## Rozwiązanie optymalne
-
-### Implementacja
 
 ```c linenums="1"
 #include <stdio.h>
