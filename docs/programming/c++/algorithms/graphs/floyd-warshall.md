@@ -75,8 +75,6 @@ int main() {
 }
 ```
 
-### Opis implementacji
-
 ![Przykładowy graf wykorzystany w implementacji](../../../../assets/example_graph_weighted.png)
 
 [http://graphonline.ru/en/?graph=DZlFqSBPNgdHwNXK](http://graphonline.ru/en/?graph=DZlFqSBPNgdHwNXK)
