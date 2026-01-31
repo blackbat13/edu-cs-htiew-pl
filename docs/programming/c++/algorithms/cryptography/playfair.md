@@ -20,6 +20,7 @@ pair<int, int> find(char letter, vector<vector<char>>& tab) {
             }
         }
     }
+    
     return {-1, -1};
 }
 
@@ -103,6 +104,7 @@ pair<int, int> find(char letter, vector<vector<char>>& tab) {
             }
         }
     }
+
     return {-1, -1};
 }
 
