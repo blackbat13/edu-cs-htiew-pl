@@ -6,12 +6,13 @@
 
 ```cpp linenums="1"
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
 bool checkNewPosition(int row, int column, int positions[]) {
     for (int i = 0; i < row; i++) {
-        if (positions[i] == column || column - positions[i] == row - i || column - positions[i] == i - row) {
+        if (positions[i] == column || abs(column - positions[i]) == abs(row - i)) {
             return false;
         }
     }
