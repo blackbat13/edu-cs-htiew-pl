@@ -41,8 +41,6 @@ int main() {
 }
 ```
 
-### Opis implementacji
-
 Funkcja `f` (**linia 5**) przyjmuje jeden parametr rzeczywisty i jako wynik zwraca liczbę rzeczywistą. Funkcja ta symuluje funkcję matematyczną, której pole pod wykresem chcemy policzyć. 
 
 Funkcja `simpsonMethod` (**linia 9**) realizuje algorytm całkowania numerycznego metodą Simpsona i przyjmuje trzy parametry: początek przedziału (`a`), koniec przedziału (`b`) oraz liczbę podziałów (`n`). Funkcja jako wynik zwraca liczbę rzeczywistą reprezentującą przybliżenie pola pod wykresem funkcji $f(x)=x^2+2x$ na przedziale $[a, b]$.
