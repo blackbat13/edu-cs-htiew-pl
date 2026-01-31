@@ -50,7 +50,7 @@ struct Point2D {
 double pointLineDistance(Point2D linePoint1, Point2D linePoint2, Point2D point) {
     Point2D diff = {linePoint2.x - linePoint1.x, linePoint2.y - linePoint1.y};
     
-    double result = abs(diff.y * (linePoint1.x - point.x) + diff.x * (point.y - linePoint1.y)) / sqrt(diff.y * diff.y + diff.x * diff.x);
+    double result = abs(diff.y * (linePoint1.x - point.x) + diff.x * (point.y - linePoint1.y)) / sqrt(diff.y * diff.y + diff.x * diff.x);s
 
     return result;
 }
