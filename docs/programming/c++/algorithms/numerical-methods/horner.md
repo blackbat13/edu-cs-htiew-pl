@@ -44,8 +44,6 @@ int main() {
 }
 ```
 
-### Opis implementacji
-
 Zacznijmy od funkcji pomocniczej `printPolynomial` (**linia 15**), której celem jest wyświetlenie wielomianu w czytelnej formie na ekranie. Nie jest ona niezbędną częścią algorytmu, ale może być pomocna przy weryfikacji poprawności wyniku. Funkcja przyjmuje dwa parametry: tablicę współczynników wielomianu `coef`, oraz stopień wielomianu `n`. W tablicy znajduje się dokładnie $n+1$ liczb. Współczynniki są zapisane w kolejności od najmniejszej potęgi ($0$) do największej ($n$).
 
 Na początku funkcji wypisujemy pierwszy współczynnik (**linia 16**). Następnie przechodzimy pętlą przez kolejne elementy tablicy (**linia 17**), wypisując współczynnik przy $i$-tej potędze przemnożony przez $x$ podniesione do potęgi $i$.  
