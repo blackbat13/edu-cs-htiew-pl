@@ -32,7 +32,3 @@ int main() {
     return 0;
 } 
 ```
-
-### Link do implementacji
-
-[https://replit.com/@damiankurpiewski/DragonCurve#main.cpp](https://replit.com/@damiankurpiewski/DragonCurve#main.cpp)
