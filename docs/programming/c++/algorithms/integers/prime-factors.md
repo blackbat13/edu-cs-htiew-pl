@@ -32,8 +32,6 @@ int main() {
 }
 ```
 
-### Opis implementacji
-
 Funkcja `distribute` (**linia 5**) przyjmuje jeden parametr: liczbę naturalną do rozłożenia na czynniki pierwsze. Na początku tworzymy zmienną do przechowywania wartości kolejnych czynników (**linia 6**). Następnie wykonujemy działania w pętli tak długo, jak długo możemy jeszcze rozkładać $n$ na czynniki pierwsze (**linia 8**). Wewnątrz pętli sprawdzamy, czy $n$ jest podzielne przez obecnie sprawdzany czynnik (**linia 9**). Jeżeli tak, to wypisujemy czynnik na ekranie (**linia 10**) i dzielimy $n$ przez ten czynnik (**linia 11**). W przeciwnym przypadku (**linia 12**) przechodzimy do kolejnego czynnika, zwiększając jego wartość o jeden (**linia 13**).
 
 W części głównej przygotowujemy dane wejściowe, czyli liczbę do rozłożenia na czynniki pierwsze (**linia 19**). Następnie wypisujemy stosowny komunikat (**linia 21**) oraz wywołujemy funkcję rozkładającą $n$ na czynniki pierwsze (**linia 22**). Na koniec kończymy działanie programu (**linia 24**).
