@@ -9,7 +9,7 @@
 
 using namespace std;
 
-struct Point {
+struct Point2D {
     int x;
     int y;
 };
@@ -23,7 +23,7 @@ int det3(int matrix[3][3]) {
         - matrix[0][0] * matrix[1][2] * matrix[2][1];
 }
 
-bool point_on_segment(Point a, Point b, Point c) {
+bool pointOnSegment(Point2D a, Point2D b, Point2D c) {
     int matrix[3][3] = {{a.x, a.y, 1}, {b.x, b.y, 1}, {c.x, c.y, 1}};
 
     if (det3(matrix) != 0) {
@@ -35,11 +35,11 @@ bool point_on_segment(Point a, Point b, Point c) {
 }
 
 int main() {
-    Point a = {1, 1};
-    Point b = {5, 5};
-    Point c = {2, 2};
+    Point2D a = {1, 1};
+    Point2D b = {5, 5};
+    Point2D c = {2, 2};
 
-    bool result = point_on_segment(a, b, c);
+    bool result = pointOnSegment(a, b, c);
 
     if (result) {
         cout << "Point (" << c.x << ", " << c.y << ") on segment [(" 
