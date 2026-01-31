@@ -39,7 +39,7 @@ bool findSolution(int n, int row, int positions[]) {
     return false;
 }
 
-void printCheckboard(int n, int positions[]) {
+void printChessboard(int n, int positions[]) {
     for (int row = 0; row < n; row++) {
         for (int column = 0; column < n; column++) {
             if (positions[row] == column) {
@@ -60,7 +60,7 @@ int main() {
     bool result = findSolution(n, 0, positions);
 
     if (result) {
-        printCheckboard(n, positions);
+        printChessboard(n, positions);
     } else {
         cout << "No result exists" << endl;
     }
