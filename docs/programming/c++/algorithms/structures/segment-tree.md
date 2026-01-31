@@ -141,8 +141,6 @@ int main() {
 }
 ```
 
-### Opis implementacji
-
 Klasa **SumSegmentTree** definiuje drzewo przedziałowe do liczenia sum na przedziałach. Struktura **node** opisuje strukturę wewnętrznego węzła drzewa segmentowego.
 Węzeł przechowuje informacje o wartości, przedziale, leniwej aktualizacji (lazy update) oraz wskaźniki na lewe i prawe poddrzewo.
 Węzeł posiada metody do drukowania informacji o sobie, leniwej aktualizacji, zmiany wartości na danym przedziale oraz pobrania sumy wartości na danym przedziale.
