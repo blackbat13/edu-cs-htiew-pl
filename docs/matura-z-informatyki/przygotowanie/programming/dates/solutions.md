@@ -184,6 +184,7 @@
 
         return 0;
     }
+    ```
 
 ## Zadanie 5
 
@@ -258,6 +259,7 @@
 
         return 0;
     }
+    ```
 
 ## Zadanie 6
 

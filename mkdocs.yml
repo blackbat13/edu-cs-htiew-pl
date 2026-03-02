@@ -1439,6 +1439,7 @@ nav:
         - 'Alfabet Morse':
           - 'matura-z-informatyki/przygotowanie/programming/morse-code/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/morse-code/answers.md'
+          - 'Rozwiązania': 'matura-z-informatyki/przygotowanie/programming/morse-code/solutions.md'
       - 'Arkusz kalkulacyjny': 
         - 'Sklep': 
           - 'matura-z-informatyki/przygotowanie/spreadsheet/shop/README.md'
