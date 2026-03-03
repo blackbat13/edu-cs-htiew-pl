@@ -1485,6 +1485,10 @@ nav:
           - 'matura-z-informatyki/przygotowanie/database/shop/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/database/shop/answers.md'
           - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/database/shop/solution.md'
+        - 'Lekarze':
+          - 'matura-z-informatyki/przygotowanie/database/doctors/README.md'
+          - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/database/doctors/answers.md'
+          - 'Rozwiązanie': 'matura-z-informatyki/przygotowanie/database/doctors/solution.md'
       - 'SQL': 
         - 'Sklep': 
           - 'matura-z-informatyki/przygotowanie/sql/shop/README.md'

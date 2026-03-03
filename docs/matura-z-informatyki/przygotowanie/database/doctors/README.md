@@ -50,3 +50,22 @@ Pierwszy wiersz zawiera nagłówki kolumn.
 
 Podaj imiona i nazwiska wszystkich lekarzy, którzy **nie mieli** wizyt w 2025 roku. Wyniki posortuj alfabetycznie po nazwisku.
 
+## Zadanie 2
+
+Podaj ilu pacjentów **nie miało** zabiegu ani rehabilitacji w pierwszej połowie dowolnego roku (pierwsze 6 miesięcy).
+
+## Zadanie 3
+
+Podaj imiona i nazwiska pacjentów, którzy urodzili się w latach 1990-1999 (dwie pierwsze cyfry numeru PESEL to 90-99). Wyniki posortuj alfabetycznie po nazwisku.
+
+## Zadanie 4
+
+Podaj imiona i nazwiska pacjentów, którzy urodzili się w lipcu (trzecia i czwarta cyfra numeru PESEL to 07) oraz **nie mieli** żadnej wizyty u kardiologa. Wyniki posortuj alfabetycznie po nazwisku.
+
+## Zadanie 5
+
+Podaj liczbę wizyt dla każdej specjalizacji lekarzy. Wyniki posortuj malejąco po liczbie wizyt.
+
+## Zadanie 6
+
+Dla każdej specjalizacji lekarzy podaj liczbę **różnych** pacjentów, którzy mieli wizytę u lekarza o danej specjalizacji. Wyniki posortuj malejąco po liczbie pacjentów.
