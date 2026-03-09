@@ -2,11 +2,11 @@
 
 W pliku *points.txt* znajduje się tysiąc linii. Każda linia zawiera dwie liczby naturalne z przedziału $[1, 100]$ oddzielone spacją. Każda para wartości oznacza współrzędne pola w tablicy o wymiarach $100\times100$ (pierwsza liczba to numer wiersza, druga to numer kolumny). 
 
-[:material-note-text: points.txt](../../../../assets/points/points.txt)
+[:material-note-text: points.txt](../../../../assets/exam/programming/points/points.txt)
 
 Plik *points_test.txt* zawiera sto linii, a w każdej znajduje się jedna para liczb naturalnych z przedziału $[1, 10]$ oddzielona spacją. Wartości oznaczają współrzędne pola w tablicy o wymiarach $10\times10$ (pierwsza liczba to numer wiersza, druga to numer kolumny).
 
-[:material-note-text: points_test.txt](../../../../assets/points/points_test.txt)
+[:material-note-text: points_test.txt](../../../../assets/exam/programming/points/points_test.txt)
 
 Do każdego pola w tablicy przypisana jest wartość liczbowa. Zakładamy, że początkowo wszystkie pola w tablicy mają wartość zero. Jeżeli współrzędne pola znajdują się w pliku, to znaczy, że to pole zyskuje jeden punkt. Jeżeli współrzędne danego pola pojawiają się wielokrotnie, to znaczy, że to pole zyskuje tyle samo punktów, ile razy jego współrzędne się pojawiły.
 
@@ -50,7 +50,7 @@ Współrzędne:
 
 ## Zadanie 5
 
-Ile jest takich pól w tablicy, które przylegają w pionie i poziomie wyłącznie do pól o wartości zero? 
+Ile jest takich niezerowych pól w tablicy, które przylegają w pionie i poziomie wyłącznie do pól o wartości zero (lub do krawędzi tablicy)? 
 
 Dla pliku *points_test.txt* wynik to 2.
 

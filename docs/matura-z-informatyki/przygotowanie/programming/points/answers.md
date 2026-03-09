@@ -30,7 +30,7 @@ Współrzędne:
 ## Zadanie 5
 
 ```
-9836
+646
 ```
 
 ## Zadanie 6
@@ -48,7 +48,7 @@ Wartość 3: 1
 Główna przekątna: 12
 Druga przekątna: 10
 Pod główną przekątną: 498
-Nad główną przekątną: 480
+Nad główną przekątną: 485
 ```
 
 ## Zadanie 8

@@ -1424,6 +1424,7 @@ nav:
         - 'Punkty': 
           - 'matura-z-informatyki/przygotowanie/programming/points/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/points/answers.md'
+          - 'Rozwiązania': 'matura-z-informatyki/przygotowanie/programming/points/solutions.md'
         - 'Labirynt': 
           - 'matura-z-informatyki/przygotowanie/programming/maze/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/maze/answers.md'
