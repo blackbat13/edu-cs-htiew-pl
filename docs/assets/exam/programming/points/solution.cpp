@@ -175,7 +175,8 @@ void exercise7() {
             {
                 sum2 += tab[r][c];
             }
-            else if (r > c)
+            
+            if (r > c)
             {
                 sum3 += tab[r][c];
             }

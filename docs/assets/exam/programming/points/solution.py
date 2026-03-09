@@ -108,7 +108,8 @@ def exercise7():
                 sum1 += tab[row][col]
             elif col == 101 - row - 1:
                 sum2 += tab[row][col]
-            elif row > col:
+            
+            if row > col:
                 sum3 += tab[row][col]
             elif row < col:
                 sum4 += tab[row][col]

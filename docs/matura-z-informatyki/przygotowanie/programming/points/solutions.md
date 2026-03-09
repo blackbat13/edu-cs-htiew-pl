@@ -351,7 +351,8 @@
                 sum1 += tab[row][col]
             elif col == 101 - row - 1:
                 sum2 += tab[row][col]
-            elif row > col:
+            
+            if row > col:
                 sum3 += tab[row][col]
             elif row < col:
                 sum4 += tab[row][col]
@@ -393,7 +394,8 @@
                 {
                     sum2 += tab[r][c];
                 }
-                else if (r > c)
+                
+                if (r > c)
                 {
                     sum3 += tab[r][c];
                 }
