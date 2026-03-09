@@ -349,7 +349,7 @@
         for col in range(1, 101):
             if row == col:
                 sum1 += tab[row][col]
-            elif col == 101 - row - 1:
+            elif col == 101 - row:
                 sum2 += tab[row][col]
             
             if row > col:
@@ -390,7 +390,7 @@
                 {
                     sum1 += tab[r][c];
                 }
-                else if (c == 101 - r - 1)
+                else if (c == 101 - r)
                 {
                     sum2 += tab[r][c];
                 }

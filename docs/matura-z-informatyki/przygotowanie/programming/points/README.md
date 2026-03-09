@@ -82,8 +82,8 @@ Dla pliku *points_test.txt* wynik to:
 ```
 Główna przekątna: 10
 Druga przekątna: 11
-Pod główną przekątną: 33
-Nad główną przekątną: 46
+Pod główną przekątną: 40
+Nad główną przekątną: 50
 ```
 
 ## Zadanie 8
