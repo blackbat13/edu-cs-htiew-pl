@@ -6,11 +6,11 @@ W pliku *groceries.txt* znajduje się 1000 linii, które zawierają informacje n
 - liczba sztuk - liczba naturalna z przedziału $[1, 100]$,
 - cena za sztukę - liczba rzeczywista z dokładnością do dwóch miejsc po przecinku, z przedziału $[0.01, 10.01)$.
 
-[:material-note-text: groceries.txt](../../../../assets/groceries/groceries.txt)
+[:material-note-text: groceries.txt](../../../../assets/exam/programming/groceries/groceries.txt)
 
 W pliku *groceries_test.txt* znajduje się 100 linii w formacie podanym powyżej.
 
-[:material-note-text: groceries_test.txt](../../../../assets/groceries/groceries_test.txt)
+[:material-note-text: groceries_test.txt](../../../../assets/exam/programming/groceries/groceries_test.txt)
 
 ## Zadanie 1
 

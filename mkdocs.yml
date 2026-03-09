@@ -1421,6 +1421,7 @@ nav:
         - 'Zakupy': 
           - 'matura-z-informatyki/przygotowanie/programming/groceries/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/groceries/answers.md'
+          - 'Rozwiązania': 'matura-z-informatyki/przygotowanie/programming/groceries/solutions.md'
         - 'Punkty': 
           - 'matura-z-informatyki/przygotowanie/programming/points/README.md'
           - 'Odpowiedzi': 'matura-z-informatyki/przygotowanie/programming/points/answers.md'
