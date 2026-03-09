@@ -47,8 +47,8 @@ Wartość 3: 1
 ```
 Główna przekątna: 12
 Druga przekątna: 10
-Pod główną przekątną: 498
-Nad główną przekątną: 485
+Pod główną przekątną: 501
+Nad główną przekątną: 487
 ```
 
 ## Zadanie 8
