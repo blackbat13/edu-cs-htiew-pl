@@ -54,28 +54,13 @@ Plik **Ataki.txt** zawiera dane ataków – oddzielone średnikiem pozycje:
 - *AtakID* - numer identyfikacyjny ataku,
 - *WampirID* - numer identyfikacyjny wampira, który dokonał ataku,
 - *OfiaraID* - numer identyfikacyjny ofiary ataku,
-- *DataAtaku* - data ataku,
-- *Lokalizacja* - lokalizacja ataku, jedna z trzech wartości:
-  - "Wampir" - atak miał miejsce w kraju pochodzenia wampira,
-  - "Klan" - atak miał miejsce w kraju założenia klanu,
-  - "Zagranica" - atak miał miejsce w innym kraju, niezwiązanym z wampirem ani klanem (takie miejsca nie interesują Pana Józefa).
+- *DataAtaku* - data ataku.
 
 Pierwszy wiersz zawiera nagłówki kolumn. Daty podane są w formacie "DD.MM.RRRR".
 
-### Kraje
-
-[:material-note-text: Kraje.txt](../../../../assets/vampires/Kraje.txt)
-
-Plik **Kraje.txt** zawiera dane krajów - oddzielone średnikiem pozycje:
-
-- *KrajID* - numer identyfikacyjny kraju,
-- *Nazwa* - nazwa kraju.
-
-Pierwszy wiersz zawiera nagłówki kolumn.
-
 ## Zadania
 
-Zacznij od stworzenia tabel *Klany*, *Wampiry*, *Ofiary*, *Ataki* oraz *Kraje* importując dane z odpowiednich, wymienionych wyżej plików tekstowych. W każdej z tabel zdefiniuj odpowiedni **klucz podstawowy** (na podstawie pola istniejącego już w tabeli, albo nowo utworzonego). Utwórz odpowiednie **relacje** pomiędzy tabelami.
+Zacznij od stworzenia tabel *Klany*, *Wampiry*, *Ofiary* oraz *Ataki* importując dane z odpowiednich, wymienionych wyżej plików tekstowych. W każdej z tabel zdefiniuj odpowiedni **klucz podstawowy** (na podstawie pola istniejącego już w tabeli, albo nowo utworzonego). Utwórz odpowiednie **relacje** pomiędzy tabelami.
 
 ### Zadanie 1
 
@@ -107,20 +92,16 @@ Utwórz zestawienie zawierające imię ofiary oraz liczbę ataków, które zosta
 
 ### Zadanie 8
 
-Wypisz imiona wszystkich ofiar, które zginęły bezpośrednio w wyniku ataku, tzn. data jednego z ataków przeprowadzonego na daną ofiarę jest równa jej dacie zgonu. Posortuj alfabetycznie po imionach.
+Wypisz imiona wszystkich ofiar, które zginęły bezpośrednio w wyniku ataku, tzn. data jednego z ataków przeprowadzonego na daną ofiarę jest równa jej dacie zgonu. Posortuj alfabetycznie po imionach..
 
 ### Zadanie 9
 
-Utwórz zestawienie zawierające nazwę kraju, liczbę wampirów pochodzących z tego kraju, liczbę klanów założonych w tym kraju, oraz liczbę ataków przeprowadzonych w tym kraju. Posortuj alfabetycznie po nazwie kraju.
+Wypisz nazwy wszystkich klanów, które nie posiadają członków. Posortuj alfabetycznie po nazwach.
 
 ### Zadanie 10
 
-Wypisz nazwy wszystkich klanów, które nie posiadają członków. Posortuj alfabetycznie po nazwach.
-
-### Zadanie 11
-
 Utwórz zestawienie zawierające imię wampira oraz zaokrąglone w górę: liczbę dni, liczbę miesięcy i liczbę lat, które upłynęły od urodzin do przemiany. Wyniki posortuj alfabetycznie po imionach.
 
-### Zadanie 12
+### Zadanie 11
 
 Utwórz zestawienie zawierające imię ofiary oraz liczbę dni, które upłynęły od pierwszego do ostatniego ataku.

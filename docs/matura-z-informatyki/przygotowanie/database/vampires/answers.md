@@ -103,33 +103,13 @@
 
 ## Zadanie 9
 
-|     **Kraj**    | **LiczbaWampirow** | **LiczbaKlanow** | **LiczbaAtakow** |
-|:---------------:|:------------------:|:----------------:|:----------------:|
-| Anglia          | 1                  | 0                | 0                |
-| Dania           | 0                  | 1                | 1                |
-| Egipt           | 1                  | 0                | 1                |
-| Francja         | 2                  | 1                | 2                |
-| Grecja          | 1                  | 0                | 0                |
-| Hiszpania       | 0                  | 1                | 0                |
-| Irlandia        | 1                  | 0                | 0                |
-| Niemcy          | 1                  | 1                | 1                |
-| Norwegia        | 0                  | 1                | 0                |
-| Polska          | 0                  | 1                | 4                |
-| Rumunia         | 2                  | 0                | 5                |
-| Szwecja         | 0                  | 1                | 0                |
-| Wegry           | 1                  | 1                | 1                |
-| Wielka Brytania | 0                  | 1                | 0                |
-| Wlochy          | 1                  | 1                | 0                |
-
-## Zadanie 10
-
 |        **Nazwa**        |
 |:-----------------------:|
 | Gwiazdy Zmierzchu       |
 | Srebrne Kly             |
 | Zakon Czarnego Sztyletu |
 
-## Zadanie 11
+## Zadanie 10
 
 | **Imie** | **LiczbaDni** | **LiczbaMiesiecy** | **LiczbaLat** |
 |:--------:|:-------------:|:------------------:|:-------------:|
@@ -145,23 +125,7 @@
 | Varney   | 42024         | 1380               | 115           |
 | Vlad     | 267           | 9                  | 0             |
 
-## Zadanie 12
-
-| **Imie** | **DataUrodzenia** | **DataPrzemiany** | **Wiek** |
-|:--------:|:-----------------:|:-----------------:|:--------:|
-| Akasha   | 07.09.2088        | 08.05.2099        | 10       |
-| Ambrogio | 18.08.1966        | 08.01.2021        | 54       |
-| Carmilla | 03.03.1480        | 04.04.1525        | 45       |
-| Dracula  | 01.06.1235        | 24.07.1252        | 17       |
-| Drusilla | 13.10.2172        | 10.12.2203        | 31       |
-| Lestat   | 05.02.1581        | 05.04.1672        | 91       |
-| Murnau   | 02.02.1379        | 02.02.1381        | 2        |
-| Orlok    | 03.06.1732        | 04.05.1812        | 79       |
-| Selene   | 12.03.1876        | 16.12.1903        | 27       |
-| Varney   | 01.02.1688        | 23.02.1803        | 115      |
-| Vlad     | 13.01.1280        | 06.10.1280        | 0        |
-
-## Zadanie 13
+## Zadanie 11
 
 |  **Imie** | **OdPierwszegoDoOstatniego** |
 |:---------:|:----------------------------:|
