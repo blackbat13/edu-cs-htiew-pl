@@ -123,8 +123,4 @@ Utwórz zestawienie zawierające imię wampira oraz zaokrąglone w górę: liczb
 
 ### Zadanie 12
 
-Utwórz zestawienie zawierające imię wampira, jego datę urodzenia, datę przemiany oraz wiek wampira w momencie przemiany. Wyniki posortuj alfabetycznie po imionach.
-
-### Zadanie 13
-
 Utwórz zestawienie zawierające imię ofiary oraz liczbę dni, które upłynęły od pierwszego do ostatniego ataku.
