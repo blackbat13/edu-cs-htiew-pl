@@ -21,7 +21,7 @@ Pierwszy wiersz zawiera nagłówki kolumn. Daty podane są w formacie "DD.MM.RRR
 
 [:material-note-text: Wampiry.txt](../../../../assets/vampires/Wampiry.txt)
 
-Plik **Wampiry.txt** zawiera dane klanów – oddzielone średnikiem pozycje: 
+Plik **Wampiry.txt** zawiera dane wampirów – oddzielone średnikiem pozycje: 
 
 - *WampirID* - numer identyfikacyjny wampira,
 - *Imie* - imię wampira,
@@ -36,7 +36,7 @@ Pierwszy wiersz zawiera nagłówki kolumn. Daty podane są w formacie "DD.MM.RRR
 
 [:material-note-text: Ofiary.txt](../../../../assets/vampires/Ofiary.txt)
 
-Plik **Ofiary.txt** zawiera dane klanów – oddzielone średnikiem pozycje: 
+Plik **Ofiary.txt** zawiera dane ofiar – oddzielone średnikiem pozycje: 
 
 - *OfiaraID* - numer identyfikacyjny ofiary,
 - *Imie* - imię ofiary,
@@ -49,7 +49,7 @@ Pierwszy wiersz zawiera nagłówki kolumn. Daty podane są w formacie "DD.MM.RRR
 
 [:material-note-text: Ataki.txt](../../../../assets/vampires/Ataki.txt)
 
-Plik **Ataki.txt** zawiera dane klanów – oddzielone średnikiem pozycje: 
+Plik **Ataki.txt** zawiera dane ataków – oddzielone średnikiem pozycje: 
 
 - *AtakID* - numer identyfikacyjny ataku,
 - *WampirID* - numer identyfikacyjny wampira, który dokonał ataku,
@@ -62,9 +62,20 @@ Plik **Ataki.txt** zawiera dane klanów – oddzielone średnikiem pozycje:
 
 Pierwszy wiersz zawiera nagłówki kolumn. Daty podane są w formacie "DD.MM.RRRR".
 
+### Kraje
+
+[:material-note-text: Ataki.txt](../../../../assets/vampires/Kraje.txt)
+
+Plik **Kraje.txt** zawiera dane krajów - oddzielone średnikiem pozycje:
+
+- *KrajID* - numer identyfikacyjny kraju,
+- *Nazwa* - nazwa kraju.
+
+Pierwszy wiersz zawiera nagłówki kolumn.
+
 ## Zadania
 
-Zacznij od stworzenia tabel *Klany*, *Wampiry*, *Ofiary* oraz *Ataki* importując dane z odpowiednich, wymienionych wyżej plików tekstowych. W każdej z tabel zdefiniuj odpowiedni **klucz podstawowy** (na podstawie pola istniejącego już w tabeli, albo nowo utworzonego). Utwórz odpowiednie **relacje** pomiędzy tabelami.
+Zacznij od stworzenia tabel *Klany*, *Wampiry*, *Ofiary*, *Ataki* oraz *Kraje* importując dane z odpowiednich, wymienionych wyżej plików tekstowych. W każdej z tabel zdefiniuj odpowiedni **klucz podstawowy** (na podstawie pola istniejącego już w tabeli, albo nowo utworzonego). Utwórz odpowiednie **relacje** pomiędzy tabelami.
 
 ### Zadanie 1
 
