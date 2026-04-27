@@ -64,7 +64,7 @@ Pierwszy wiersz zawiera nagłówki kolumn. Daty podane są w formacie "DD.MM.RRR
 
 ### Kraje
 
-[:material-note-text: Ataki.txt](../../../../assets/vampires/Kraje.txt)
+[:material-note-text: Kraje.txt](../../../../assets/vampires/Kraje.txt)
 
 Plik **Kraje.txt** zawiera dane krajów - oddzielone średnikiem pozycje:
 
