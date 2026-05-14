@@ -11,7 +11,7 @@ Zacznijmy od formalnej specyfikacji problemu.
 ### Dane
 
 * $n$ - liczba naturalna, liczebność zbioru
-* $A[1..n]$ - $n-elementowa$ tablica różnych liczb całkowitych, posortowana rosnąco, indeksowana od jedynki
+* $A[1..n]$ - $n-elementowa$ tablica różnych liczb całkowitych, **posortowana** rosnąco, indeksowana od jedynki
 * $k$ - liczba naturalna, szukana suma
 
 ### Wynik
@@ -34,7 +34,7 @@ k := 18
 
 Zacznijmy od pierwszego rozwiązania, jakie nam przychodzi do głowy. Naszym celem jest znalezienie **pary** liczb, które dają pożądaną sumę. W takim razie **sprawdźmy wszystkie pary** i zobaczmy, czy znajdziemy to czego szukamy.
 
-Przechodzimy dwiema zagnieżdżonymi pętlami przez tablicę. Zewnętrzna pętla będzie wskazywać nam indeks pierwszego elementu z pary, a wewnętrzna pętla będzie wskazywać drugiego elementu z pary. W celu uniknięcia powtórzeń warto zadbać o odpowiednią konstrukcję wewnętrznej pętli. Zasada jest bardzo prosta: wewnętrzna pętla zaczyna poszukiwania zawsze od **kolejnego** elementu względem zewnętrznej pętli.
+Przechodzimy dwiema zagnieżdżonymi pętlami przez tablicę. Zewnętrzna pętla będzie wskazywać nam indeks pierwszego elementu z pary, a wewnętrzna pętla będzie wskazywać indeks drugiego elementu z pary. W celu uniknięcia powtórzeń warto zadbać o odpowiednią konstrukcję wewnętrznej pętli. Zasada jest bardzo prosta: wewnętrzna pętla zaczyna poszukiwania zawsze od **kolejnego** elementu względem zewnętrznej pętli.
 
 Spróbujmy przelać nasze rozumowania na pseudokod.
 
@@ -83,7 +83,7 @@ Spróbujmy do tego podejść w następujący sposób. Weźmy pierwszy i ostatni 
 - suma jest mniejsza od poszukiwanej wartości: musimy szukać większej sumy, w tym celu bierzemy kolejny element z lewej strony tablicy (czyli większy),
 - suma jest większa od poszukiwanej wartości: musimy szukać mniejszej sumy, w tym celu bierzemy kolejny element z prawej strony tablicy (czyli mniejszy).
 
-I tak postępujemy w pętli, aż znajdziemy (albo i nie) poszukiwaną sumę.
+I tak postępujemy w pętli, aż znajdziemy (albo i nie) poszukiwaną sumę. Kiedy będziemy wiedzieć, że znaleźliśmy poszukiwaną sumę? Jak znaleziona suma będzie równa poszukiwanej wartości. Kiedy będziemy wiedzieć, że nie ma takiej sumy? Kiedy lewy element znajdzie na na tej samej pozycji, co prawy element (albo ją przekroczy). Wtedy możemy być pewni, że nie ma takiej pary liczb, która dałaby poszukiwaną sumę.
 
 Spróbujmy to zapisać w pseudokodzie.
 
@@ -140,6 +140,6 @@ $O(n)$ - liniowa
 
 ## Implementacje — pozostałe
 
-### [:simple-c:](../../programming/c/algorithms/searching/sum-of-two.md){ .md-button }
+### [C](../../programming/c/algorithms/searching/sum-of-two.md){ .md-button }
 
 ### [:simple-haskell: Haskell](../../programming/haskell/algorithms/searching/sum-of-two.md){ .md-button }
