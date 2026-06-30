@@ -141,6 +141,7 @@ nav:
     - 'Algorytmika - kreatywne myślenie': 'cs-didactics/algorithmic-creative-thinking.md'
     - 'Błędy, robaki, bugi': 'cs-didactics/errors-bugs.md'
     - 'Refleksje na temat stanu oświaty': 'cs-didactics/thoughts.md'
+    - 'Sztuczna inteligencja w edukacji': 'cs-didactics/ai-in-education.md'
   - 'Algorytmy':
     - 'Wprowadzenie': 
       - 'algorithms/introduction/README.md'
