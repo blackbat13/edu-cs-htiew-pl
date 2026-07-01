@@ -10,7 +10,9 @@ Pomysł na grę jest prosty: mamy gracza, strażnika oraz skarb. Naszym celem je
 
 Grafiki umieszczamy w katalogu **images** w katalogu projektu naszej gry.
 
-## Instalacja zaleźności
+Grafiki pochodzą ze strony [https://kenney.nl/](https://kenney.nl/) i są udostępniane na licencji [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+
+## Instalacja zależności
 
 Do naszej gry potrzebujemy biblioteki *pygame-zero*. Ponieważ bazuje ona na bibliotece *pygame*, która rozwija się wolniej niż Python i może nie wspierać najnowszych wersji tego języka, zainstalujemy wersję społeczności tej biblioteki, *pygame-ce*. Do działania potrzebna jest także biblioteka *numpy* do obliczeń arytmetycznych.
 
