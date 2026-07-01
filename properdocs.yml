@@ -1076,6 +1076,7 @@ nav:
       - 'Sztuczna inteligencja': 
         - 'learning-by-games/python/ai/README.md'
         - 'Gra w monety z AI': 'learning-by-games/python/ai/game-of-coins-ai.md'
+        - 'Patrol inteligentnego przeciwnika': 'learning-by-games/python/ai/patrol-game.md'
     - 'Lua': 
       - 'learning-by-games/lua/README.md'
       - 'Głodna świnia': 'learning-by-games/lua/hungry-pig.md'
