@@ -2,7 +2,7 @@
 
 Czas zająć się projektowaniem Escape Roomu, a kłódki szyfrowe czekają na swoją kolej. W swoim magazynie posiadasz kłódki z okrągłą tarczą, takie jak na zdjęciu poniżej. Tarcza kłódki składa się z $40$ przedziałek, które są numerowane od $0$ do $39$. Kombinacja do kłódki składa się z trzech liczb z tego zakresu.
 
-![Thegreenj, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/a/a1/Masterpadlock.jpg)
+![Thegreenj, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons](../../assets/Masterpadlock.jpg)
 
 Aby otworzyć kłódkę, należy postępować zgodnie z poniższym schematem:
 
