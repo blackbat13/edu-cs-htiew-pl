@@ -1194,6 +1194,7 @@ nav:
           - 'Rozwiązanie 5': 'databases/sql/exercises/group-by/solution-5.md'
           - 'Rozwiązanie 6': 'databases/sql/exercises/group-by/solution-6.md'
   - 'Linux':
+    - 'linux/README.md'
     - 'Wprowadzenie do systemu Linux': 'linux/introduction.md'
     - 'Katalogi': 'linux/folders.md'
     - 'Pliki': 'linux/files.md'
@@ -1265,6 +1266,7 @@ nav:
   - 'Sztuczna inteligencja':
     - 'ai/README.md'
   - 'Inne tematy':
+    - 'other/README.md'
     - 'Prawa autorskie': 'other/copyright.md'
     - 'Fake news i postprawda': 'other/fake-news-and-post-truth.md'
     - 'Budowa komputera': 'other/computer-components.md'
@@ -1272,6 +1274,7 @@ nav:
     - 'Zasady tworzenia prezentacji': 'other/presentation-rules.md'
     - 'Programowanie funkcyjne - wprowadzenie': 'other/functional-programming-introduction.md'
   - 'Matura z informatyki':
+    - 'matura-z-informatyki/README.md'
     - 'Przygotowanie': 
       - 'matura-z-informatyki/przygotowanie/README.md'
       - 'Algorytmika': 
