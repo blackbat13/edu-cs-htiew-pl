@@ -702,3 +702,63 @@ def guard_behaviour():
     player.prev_x = player.x
     player.prev_y = player.y
 ```
+
+### Mała "sieć neuronowa"
+
+Żeby lepiej zrozumieć jak działają sieci neuronowe, a także wielkie modele językowe (LLM), możemy zaimplementować zachowanie strażnika, które połączy nasze wcześniejsze przykłady. Ustaliliśmy do tej pory trzy różne zachowania strażnika: obrona skarbu, patrolowanie oraz aktywne ściganie gracza. Możemy zaprojektować strażnika, który będzie wybierał jedno z tych zachowań na podstawie tego, co się dzieje w grze. Na podstawie obserwacji wyliczymy proste "wagi", które pozwolą nam losowo wybrać zachowanie strażnika.
+
+```python
+import random
+
+
+player.prev_x = player.x
+player.prev_y = player.y
+guard.patrol_target = 0
+guard.action = "patrol"
+guard.frames_to_change_action = random.randint(60 * 5, 60 * 10)
+
+def guard_behaviour():
+    player_vx = player.x - player.prev_x
+    player_vy = player.y - player.prev_y
+    player_speed = math.hypot(player_vx, player_vy)
+    dist_treasure = guard.distance_to(treasure)
+
+    if dist_treasure < 120:
+        p_intercept = 0.20
+        p_defend = 0.60
+    else:
+        p_intercept = 0.55 if player_speed > 1.2 else 0.35
+        p_defend = 0.20
+
+    guard.frames_to_change_action -= 1
+    if guard.frames_to_change_action <= 0:
+        guard.frames_to_change_action = random.randint(60 * 5, 60 * 10)
+        roll = random.random()
+        if roll < p_intercept:
+            guard.action = "intercept"
+        elif roll < p_intercept + p_defend:
+            guard.action = "defend"
+        else:
+            guard.action = "patrol"
+
+    if guard.action == "intercept":
+        lead_time = 14
+        pred_x = player.x + player_vx * lead_time
+        pred_y = player.y + player_vy * lead_time
+        pred_x = max(0, min(WIDTH, pred_x))
+        pred_y = max(0, min(HEIGHT, pred_y))
+        move_towards(pred_x, pred_y)
+    elif guard.action == "defend":
+        move_towards(treasure.x, treasure.y)
+    else:
+        left = (WIDTH // 2, HEIGHT // 2)
+        right = (treasure.x, treasure.y)
+        targets = [left, right]
+        tx, ty = targets[guard.patrol_target]
+        move_towards(tx, ty)
+        if math.hypot(guard.x - tx, guard.y - ty) < 8:
+            guard.patrol_target = 1 - guard.patrol_target
+
+    player.prev_x = player.x
+    player.prev_y = player.y
+```
