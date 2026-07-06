@@ -21,7 +21,7 @@ Dydaktyka informatyki jest dużym wyzwaniem, szczególnie w szkole. Wcześniej p
 
 ## Autorzy projektu
 
-* [**mgr Damian Kurpiewski**](https://blackbat13.github.io)
+* [**dr Damian Kurpiewski**](https://blackbat13.github.io)
 * **dr Krzysztof Skowronek**
 
 ## [:material-presentation: Krótka prezentacja na temat projektu](../assets/Trudne Tematy w Najprostszy Sposób.pdf)
