@@ -3,6 +3,7 @@ site_url: https://edu.cs-htiew.pl
 plugins:
   - search
   - privacy
+  - mkdocs-pdf
 copyright: >
   Copyright &copy; 2023 - 2025 Damian Kurpiewski
   <a href="#__consent">Zmień ustawienia ciasteczek</a>
