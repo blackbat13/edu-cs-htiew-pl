@@ -36,4 +36,4 @@ turtle.done()
 
 ### Link do implementacji
 
-[https://replit.com/@damiankurpiewski/Sierpinski-Square#main.py](https://replit.com/@damiankurpiewski/Sierpinski-Square#main.py)
+[https://coddy.tech/playground/pl/turtle](https://coddy.tech/playground/pl/turtle#code=jVDRboMwDPwVKy9NJLalZS9D6p8gISAOi8icNIT1Ydq_j2xstFBp9ZvPd76zP9g7K_YZa51CVjDz5l2IEMcQLZZUkkINg8HgDQ29qYbTWAfkoaY-A4vUxVdRlARTGQ0JhuMR5Ayl-ln12GBnqNLGWi6WoXYBKjCUlB3yZ3EhvBBPtHMdFJ8Nb3Is6shfpNg4I6mNb8BpSOm-_1KsZoe7EsIT5KuUt38ID7D__eNKdM_izeklzVDrrAt819gRd-IPHTyi4nIBPNLo-dI3ddvzg7xmKHcm_r18e0SeQS6vnJUjTGz2-QU)

@@ -32,4 +32,4 @@ turtle.done()
 
 ### Link do implementacji
 
-[https://replit.com/@damiankurpiewski/Dragon-Curve#main.py](https://replit.com/@damiankurpiewski/Dragon-Curve#main.py)
+[https://coddy.tech/playground/pl/turtle](https://coddy.tech/playground/pl/turtle#code=hZDbCoMwDIZfJfSqDh0W5oVe7EmE4Ww8oEulVr0Ye_ep84hjC4XS_MmX_H2ylgXCZrGSyAKWPyqlDZhGmxJDCkliAlJHqaJb3OgWuY6osKHOU7KhREpNZgUhQR95AoMIV3CnzBAf1LnExPCLB6ex1Vr1AxwcEPZwJvoBpfM0M9x3J1Z_OeI_0PlB_LocljUefSRKd5GWfEGFNCl1hSi5ay2JCqmp-Pq-R3HBhbepGOf6m8RM31XNfndkqTri4_idX-GOX-dtF5OKcChlrzc)

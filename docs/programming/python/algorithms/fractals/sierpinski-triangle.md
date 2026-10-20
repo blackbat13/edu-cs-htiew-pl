@@ -33,4 +33,4 @@ turtle.done()
 
 ### Link do implementacji
 
-[https://replit.com/@damiankurpiewski/Sierpinski-Triangle#main.py](https://replit.com/@damiankurpiewski/Sierpinski-Triangle#main.py)
+[https://coddy.tech/playground/pl/turtle](https://coddy.tech/playground/pl/turtle#code=hVBBjsIwDPyKlZMrlaUtnCrxk0pVIU7XataJ0gAHxN9p2K4AFbS-eTzjGfuiTqouc3VwmlSt-Me7ECEeQ7TUSCOaDIxMwbOMA7cxcCe9JQydDDlYkj5-Z3UjMBUbSDDsdlDMUKrfZV976llaw9Zi9hgaF6AFlqTsCTfZk_BJPNHOXdA4G77lWDIRy6rIFtYkemEcaBpKOvG_GJ_OhxWUfy-ANVRL34-pl4kbmbHRE2lM0Ax4kqPHR7_vDgNWxStDu7Pgfc27tNscNsWLi3ZCia-uNw)
