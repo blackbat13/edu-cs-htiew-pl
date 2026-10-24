@@ -31,4 +31,4 @@ turtle.done()
 
 ### Link do implementacji
 
-[https://replit.com/@damiankurpiewski/Koch-Curve#main.py](https://replit.com/@damiankurpiewski/Koch-Curve#main.py)
+[https://coddy.tech/playground/pl/turtle](https://coddy.tech/playground/pl/turtle#code=pZDLDoIwEEV_ZdLVkKDyiC668EtIDLbDI9SWlAIL479rFQPqTmY3d-6cO5krGxiPQyaMJMZZfWmNdeB66xRlOtOSCmiMqE6itwOhzXUTgiJduirgmYZH1QV4GY4QTYqvryXYQPxehB0kwex8hW0VFQ4PUbACYeuychgnqyD_3kGqI_5DK4wdcytxepl_6TTpWiKJPmcSWtJ9i3N_zkWD6f7TIc2o8YlZXJWGkETREi6NJm9jtzs)

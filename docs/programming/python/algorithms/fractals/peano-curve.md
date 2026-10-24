@@ -32,4 +32,4 @@ turtle.done()
 
 ### Link do implementacji
 
-[https://replit.com/@damiankurpiewski/Peano-Curve#main.py](https://replit.com/@damiankurpiewski/Peano-Curve#main.py)
+[https://coddy.tech/playground/pl/turtle](https://coddy.tech/playground/pl/turtle#code=rZDNDoIwEIRfZdNTSYoBowc4-CQkptLlJ-C2qQUOxndXfhRQEy_urTPTr7O9spbFoWCpVshiVp6Ntg5cY12NCSWkMAODkvQxbWyL3EqqBEjKaxRQI-Wu8OKE4DFlBr0LBwgmpZ8RtbFlXjg-3PNm850MPoQC_DX-g5Vp20mr-If_Hfdf2q9yNWbznglN6sUgKh54L8EgNYbP55NMKx7uF4kBFC2EZ9FVavzXaE1WuiM-PL_cYScgCgRsg2UxpQn7KLvdAQ)

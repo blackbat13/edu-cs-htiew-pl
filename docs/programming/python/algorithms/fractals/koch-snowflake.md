@@ -36,4 +36,4 @@ turtle.done()
 
 ### Link do implementacji
 
-[https://replit.com/@damiankurpiewski/Koch-Snowflake#main.py](https://replit.com/@damiankurpiewski/Koch-Snowflake#main.py)
+[https://coddy.tech/playground/pl/turtle](https://coddy.tech/playground/pl/turtle#code=pZBBj4IwEIX_yqSnIcEVJO6Bg7-ExCCdQkN3SkqRg_G_axU1uKuHdW7z8t6byXcQe5GnsaisJJEL_dNZ58EPzhsquGBJClpbNdtqcHtCV3IbgyGufRPlBcN5tIIgwwaSSQnzFIIFpLcgLGEVPZzXY1-GlMfvJPqgwum68ZiuPir57x9kesp_tSnrxtJJnJDNkPZsR2XK9m-s5yRo0Bzg1oRJDFn0mu89_RZKwZPYd0QSgzQJHfHQ4WPflVWL2XrukHZkvNQ8_Z_FkCazA9IyBas4ngA)

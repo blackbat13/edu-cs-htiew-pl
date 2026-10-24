@@ -36,4 +36,4 @@ turtle.done()
 
 ### Link do implementacji
 
-[https://replit.com/@damiankurpiewski/Minkowski-Sausage#main.py](https://replit.com/@damiankurpiewski/Minkowski-Sausage#main.py)
+[https://coddy.tech/playground/pl/turtle](https://coddy.tech/playground/pl/turtle#code=rZDNDoIwEIRfZdNTSVDBn4McfBISU-kCDbglbYGD8d2lihqD4aJ763T7dWYurGNJHLJMS2QJU-dGGweuNa7GlFKSmMNZUaV7W6lj1poOuRFUhVAjFa4MkpRgGJWDl-EA0aj4eXCWRhWl45soeN98Y8IC4icXVrAOJqAac8f3v3MehvZ_MvQKhrXFafpcm14YycfCpq1a0VpRfO91eAwKFPl2h5UohG2QzLt-IeZipzRqtkGU3Euj0CC1DX-fTyKreLz73JC6J37HTGNsQoijjz-kJvTb7HoD)
