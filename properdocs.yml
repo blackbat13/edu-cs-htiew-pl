@@ -97,6 +97,7 @@ extra_javascript:
 nav:
   - 'Informatyka: Trudne Tematy w Najprostszy Sposób': 'index.md'
   - 'Kontakt': 'contact.md'
+  - 'Wesprzyj projekt': 'support.md'
   - 'Scenariusze zajęć':
     - 'topics/README.md'
     - 'Wprowadzenie do algorytmów': 
